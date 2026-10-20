@@ -1,0 +1,51 @@
+{
+  "status": "PASS",
+  "verified_utc": "2026-10-19T17:37:18.799571+00:00",
+  "authority": "https://how2sign.github.io/#download",
+  "official_link_context": "Green Screen RGB clips* (frontal view): Validation (1.7G)",
+  "verification_method": "Opened official page and clicked its actual numbered link 10 in this continuation; Drive destination titled val_rgb_front_clips.zip.",
+  "destination": "https://drive.google.com/file/d/1DhLH8tIBn9HsTzUJUfsEOGcP4l9EvOiO/view?usp=sharing",
+  "file_id": "1DhLH8tIBn9HsTzUJUfsEOGcP4l9EvOiO",
+  "download_url": "https://drive.google.com/uc?export=download&id=1DhLH8tIBn9HsTzUJUfsEOGcP4l9EvOiO",
+  "archive": "D:\\apphearv3claude\\AppHear-claude-s2-r3-eval-suite\\AppHear-claude-s2-r3-eval-suite\\experiments\\continuous_asl\\20261020T004837_separate02\\data\\raw\\how2sign\\val_rgb_front_clips.zip",
+  "bytes": 1778074855,
+  "download_cap_bytes": 2147483648,
+  "sha256": "6cb48170131fdb7fc64d40381a3c4be41112ba4454444170f5a31af2227b6d36",
+  "official_published_hash_available": false,
+  "zip_crc_all_members": "PASS",
+  "safe_paths_links_expansion_checks": "PASS",
+  "archive_members": 1740,
+  "video_members": 1739,
+  "expanded_bytes": 1780496593,
+  "decision": "REUSE_VERIFIED_ARCHIVE; zero bytes newly downloaded or extracted",
+  "previous_failed_attempt": {
+    "attempt": 1,
+    "time_utc": "2026-10-19T16:53:14.5183865Z",
+    "id": "how2sign_val_frontal_pilot_archive",
+    "error": "HTTP_404",
+    "partial_retained": false,
+    "source_url": "https://drive.google.com/uc?export=download&id=1oVZyTWhHShyqshC2kUrfWnBF8apIR7Z1"
+  },
+  "keypoint_fallback": {
+    "official_destination_verified_by_click": "https://drive.google.com/file/d/1JmEsU0GYUD5iVdefMOZpeWa_iYnmK_7w/view?usp=sharing",
+    "title": "val_2D_keypoints.tar.gz",
+    "status": "NOT_REQUIRED_RGB_SUCCEEDED",
+    "payload_access_and_schema": "NOT_TESTED; no keypoint archive acquired; link resolution is not payload-access proof or compatibility proof"
+  },
+  "annotation_audit": {
+    "rows": 1741,
+    "archive_video_members": 1739,
+    "missing_video_for_annotation": [
+      "eY32ru3Nstc_20-8-rgb_front",
+      "fE6xxSbjVV8_12-8-rgb_front"
+    ],
+    "annotation_type": "ENGLISH_TRANSLATION",
+    "authentic_gloss_release_verified": false,
+    "public_gloss_download": "NOT_AVAILABLE_IN_INSPECTED_RELEASE",
+    "pilot_container_timing_consistent": true,
+    "semantic_alignment": "not manually evaluated",
+    "manual_realignment_vs_original_clips": "original CSV used for original sentence clips; existing realigned CSV not silently substituted"
+  },
+  "scope": "Fresh full ZIP CRC/hash check, not full archive video decoding. Existing eight-clip decode evidence reused.",
+  "unresolved_download_limitations": "No local RGB acquisition blocker. Existing archive success does not guarantee future remote availability. No publisher checksum found."
+}

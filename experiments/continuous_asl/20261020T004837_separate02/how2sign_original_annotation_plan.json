@@ -1,0 +1,24 @@
+{
+  "scope": "Current official project-page link; original script ID returned 404; unchanged How2Sign modality",
+  "allowed_hosts": [
+    "drive.google.com",
+    "drive.usercontent.google.com",
+    "docs.google.com"
+  ],
+  "items": [
+    {
+      "url": "https://drive.google.com/uc?export=download&id=1aBQUClTlZB504JtDISJ0DJlbuYUZCGu3",
+      "max_expanded_bytes": 0,
+      "annotation_type": "ENGLISH_TRANSLATION",
+      "expected_bytes": null,
+      "filename": "how2sign/how2sign_original_val.csv",
+      "max_bytes": 1048576,
+      "sha256": null,
+      "authorization": "RESEARCH_METADATA_OR_INITIAL_SAMPLE",
+      "id": "how2sign_original_val_translation",
+      "kind": "csv",
+      "split": "val"
+    }
+  ],
+  "schema": "apphear.continuous_asl.download_plan.v1"
+}

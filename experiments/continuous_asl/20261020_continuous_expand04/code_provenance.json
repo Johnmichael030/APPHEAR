@@ -1,0 +1,19 @@
+{
+  "trainer_source": "D:\\apphearv3claude\\AppHear-claude-s2-r3-eval-suite\\AppHear-claude-s2-r3-eval-suite\\experiments\\continuous_asl\\20261020_continuous_expand03\\tools\\model_run.py",
+  "source_sha256": "da5c24ca659652350b788325ae00437a7d1145ce36902ec823df7517efcfb140",
+  "new_trainer_sha256": "85e053587d1f4f266b440adbd8b16db3ceb4e2207a435b9d140b283a0d392849",
+  "reused_functions": [
+    "dataset",
+    "atomic_json",
+    "checkpoint",
+    "train"
+  ],
+  "explicit_changes": [
+    "Allow verified SOURCE feature cache paths",
+    "Frozen partition counts are read from new181/9 plan",
+    "CLI verifies completed training status instead of starting duplicate fits",
+    "Old freeze/TEST functions omitted"
+  ],
+  "model_and_decoder": "D:\\apphearv3claude\\AppHear-claude-s2-r3-eval-suite\\AppHear-claude-s2-r3-eval-suite\\tools\\continuous_asl\\ctc_experiment.py",
+  "model_and_decoder_sha256": "d434d2341348ab89558a82dfc9f952800e533246d4b6baf0294ee10fc013aa63"
+}

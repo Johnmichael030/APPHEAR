@@ -1,0 +1,16 @@
+{
+  "manifest_sha256": "efcb25826cab6d6ac5361ad80f12f65d722fdf483369d755c62f9791515cece6",
+  "trainer_sha256": "1ad917550de6e9a11e487258fd48fe3e3da0f00e52d302c195906a7690a99333",
+  "models": {
+    "reference48": {
+      "pointer": {
+        "path": "checkpoints\\epoch_013.pt",
+        "sha256": "5cb69c89ee91210debca4afcc6f45ec9b9b91fb147730e667f8fd18461c13ebd",
+        "epoch": 13
+      },
+      "status_sha256": "0a1d02f2fee0c139cb11be48eefe1d3876798de6e42ceaeea779315444c42118",
+      "config_sha256": "38e9f57440fc96929608b52080c7a72107fbf30d5003ed288cb05a6fd7fb903b"
+    }
+  },
+  "selection": "Exact original9DEV WER then loss; no test reads"
+}

@@ -1,0 +1,31 @@
+{
+  "gpu_query": "NVIDIA GeForce RTX 3050 Laptop GPU, 4096 MiB, 3962 MiB",
+  "gpu_query_error": "",
+  "torch_version": "2.8.0+cu128",
+  "torch_compiled_cuda": "12.8",
+  "torch_cuda_available": true,
+  "installed_numerical_libraries": {
+    "numpy": "1.26.4",
+    "torch": "2.8.0+cu128",
+    "cupy": null,
+    "cupy-cuda12x": null,
+    "numba": null,
+    "tensorflow": "2.20.0",
+    "nvidia-cuda-runtime-cu12": null,
+    "psutil": null
+  },
+  "cpu_logical_threads": 16,
+  "torch_cpu_threads": 8,
+  "total_physical_memory_bytes": 16556486656,
+  "available_physical_memory_bytes": 3570810880,
+  "memory_method": "Windows GlobalMemoryStatusEx fallback; PowerShell CIM access denied",
+  "cached_arrays": "On-disk NPZ at entry; indices/timestamps/masks retained in RAM for review; OS page-cache residency unknown",
+  "cached_array_ram_bytes_at_entry": 0,
+  "gpu_acceleration_used": false,
+  "gpu_numerical_work_seconds": null,
+  "cpu_cached_array_review_seconds": 4.088082200032659,
+  "capability_inspection_seconds": 5.485882300010417,
+  "reason": "Small per-utterance arrays (8-246 observations), 12 final events; CPU vectorization avoids device initialization/transfers. No substantial GPU operation justified; no GPU benchmark or speedup claimed.",
+  "independent_cpu_membership_checks_passed": 12,
+  "cached_array_ram_bytes": 4668755
+}

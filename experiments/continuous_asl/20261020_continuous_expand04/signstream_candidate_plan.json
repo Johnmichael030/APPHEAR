@@ -1,0 +1,2673 @@
+{
+  "status": "PASS",
+  "eligible_new": [
+    {
+      "database": "ncslgr10a",
+      "export_utterance_id": "1",
+      "participant_source_name": "Benjamin James Bahan",
+      "glosses": [
+        "fs-JOHN",
+        "FINISH",
+        "READ+",
+        "BOOK+"
+      ],
+      "sign_times_original": [
+        [
+          360,
+          560
+        ],
+        [
+          660,
+          720
+        ],
+        [
+          920,
+          1100
+        ],
+        [
+          1240,
+          1400
+        ]
+      ],
+      "source_utterance_bounds_original": [
+        100,
+        1620
+      ],
+      "video_basenames": [
+        "669_474_master_small.mov",
+        "669_474_slave1_small.mov",
+        "669_474_slave2_small.mov"
+      ],
+      "annotation_path": "D:\\apphearv3claude\\AppHear-claude-s2-r3-eval-suite\\AppHear-claude-s2-r3-eval-suite\\experiments\\continuous_asl\\20261020_continuous_expand04\\data\\raw\\bu_signstream\\exports\\669_474.txt",
+      "annotation_sha256": "2ea85d0ea8b2633926263feb4f3f1d1613318343b2caaca2c1c0d34bb63d676f",
+      "annotation_format": "SIGNSTREAM_TEXT_EXPORT_VERSION5_CA2002",
+      "time_units": "LEGACY_SOURCE_FRAME_COORDINATES_UNCALIBRATED_TO_CURRENT_CONTAINER; preserve integers; no conversion or boundary evaluation",
+      "sample_id": "ncslgr_d9ecd1ee55ecb558",
+      "collection": "ncslgr10a.xml",
+      "utterance_id": "0",
+      "source_group": "474",
+      "source_url": "https://csr.bu.edu/asl/private/compressed/master/669_474_small_0.mov",
+      "source_url_original": "http://csr.bu.edu/asl/private/compressed/master/669_474_small_0.mov",
+      "gloss_text": "fs-JOHN FINISH READ+ BOOK+",
+      "dataset": "NCSLGR",
+      "signer_id": "ncslgr_participant_439e92da28e72cc2",
+      "annotation_type": "AUTHENTIC_STRUCTURED_MAIN_GLOSS_EVENTS_MATCHING_OFFICIAL_INDEX",
+      "annotation_provenance": {
+        "index_path": "D:\\apphearv3claude\\AppHear-claude-s2-r3-eval-suite\\AppHear-claude-s2-r3-eval-suite\\experiments\\continuous_asl\\20261019T155428Z_cslr01\\data\\extracted\\ncslgr_video_index\\video_index-20120129\\files_by_xml_file.csv",
+        "index_sha256": "8b1dfa8f58da82272c475263f65f30f9d41be03bf523fc70d6e5820d17e7cc63",
+        "source_row": 1289,
+        "export_source_url": "https://www.bu.edu/asllrp/cslgr/pages/sstxt/669_474",
+        "ID_note": "Legacy export ID and current index ID preserved separately; join uses exact media basename+collection+gloss, never inferred offset."
+      },
+      "license_status": "BU_PRIVATE_NONCOMMERCIAL_RESEARCH_TERMS_REUSED",
+      "license_reference": "https://www.bu.edu/asllrp/dai-terms.html",
+      "video_path": "D:\\apphearv3claude\\AppHear-claude-s2-r3-eval-suite\\AppHear-claude-s2-r3-eval-suite\\experiments\\continuous_asl\\20261020_continuous_expand04\\data\\raw\\ncslgr_structured\\videos\\ncslgr_d9ecd1ee55ecb558.mov",
+      "split": "train_addition"
+    },
+    {
+      "database": "ncslgr10a",
+      "export_utterance_id": "4",
+      "participant_source_name": "Benjamin James Bahan",
+      "glosses": [
+        "fs-JOHN",
+        "NOT-YET",
+        "FINISH",
+        "READ",
+        "BOOK"
+      ],
+      "sign_times_original": [
+        [
+          420,
+          600
+        ],
+        [
+          700,
+          900
+        ],
+        [
+          980,
+          1060
+        ],
+        [
+          1160,
+          1200
+        ],
+        [
+          1340,
+          1460
+        ]
+      ],
+      "source_utterance_bounds_original": [
+        200,
+        1620
+      ],
+      "video_basenames": [
+        "672_477_master_small.mov",
+        "672_477_slave1_small.mov",
+        "672_477_slave2_small.mov"
+      ],
+      "annotation_path": "D:\\apphearv3claude\\AppHear-claude-s2-r3-eval-suite\\AppHear-claude-s2-r3-eval-suite\\experiments\\continuous_asl\\20261020_continuous_expand04\\data\\raw\\bu_signstream\\exports\\672_477.txt",
+      "annotation_sha256": "1d4a8ae6854668f2a52abe83be45dd6450213cebfccadd723c42f783629918f7",
+      "annotation_format": "SIGNSTREAM_TEXT_EXPORT_VERSION5_CA2002",
+      "time_units": "LEGACY_SOURCE_FRAME_COORDINATES_UNCALIBRATED_TO_CURRENT_CONTAINER; preserve integers; no conversion or boundary evaluation",
+      "sample_id": "ncslgr_5a6a4ed78c4f22b0",
+      "collection": "ncslgr10a.xml",
+      "utterance_id": "3",
+      "source_group": "477",
+      "source_url": "https://csr.bu.edu/asl/private/compressed/master/672_477_small_0.mov",
+      "source_url_original": "http://csr.bu.edu/asl/private/compressed/master/672_477_small_0.mov",
+      "gloss_text": "fs-JOHN NOT-YET FINISH READ BOOK",
+      "dataset": "NCSLGR",
+      "signer_id": "ncslgr_participant_439e92da28e72cc2",
+      "annotation_type": "AUTHENTIC_STRUCTURED_MAIN_GLOSS_EVENTS_MATCHING_OFFICIAL_INDEX",
+      "annotation_provenance": {
+        "index_path": "D:\\apphearv3claude\\AppHear-claude-s2-r3-eval-suite\\AppHear-claude-s2-r3-eval-suite\\experiments\\continuous_asl\\20261019T155428Z_cslr01\\data\\extracted\\ncslgr_video_index\\video_index-20120129\\files_by_xml_file.csv",
+        "index_sha256": "8b1dfa8f58da82272c475263f65f30f9d41be03bf523fc70d6e5820d17e7cc63",
+        "source_row": 1298,
+        "export_source_url": "https://www.bu.edu/asllrp/cslgr/pages/sstxt/672_477",
+        "ID_note": "Legacy export ID and current index ID preserved separately; join uses exact media basename+collection+gloss, never inferred offset."
+      },
+      "license_status": "BU_PRIVATE_NONCOMMERCIAL_RESEARCH_TERMS_REUSED",
+      "license_reference": "https://www.bu.edu/asllrp/dai-terms.html",
+      "video_path": "D:\\apphearv3claude\\AppHear-claude-s2-r3-eval-suite\\AppHear-claude-s2-r3-eval-suite\\experiments\\continuous_asl\\20261020_continuous_expand04\\data\\raw\\ncslgr_structured\\videos\\ncslgr_5a6a4ed78c4f22b0.mov",
+      "split": "train_addition"
+    },
+    {
+      "database": "ncslgr10a",
+      "export_utterance_id": "37",
+      "participant_source_name": "Benjamin James Bahan",
+      "glosses": [
+        "fs-JOHN",
+        "POSS-3p:i",
+        "CAR",
+        "IX-1p",
+        "NEVER",
+        "SEE:j"
+      ],
+      "sign_times_original": [
+        [
+          460,
+          620
+        ],
+        [
+          680,
+          720
+        ],
+        [
+          800,
+          940
+        ],
+        [
+          1080,
+          1100
+        ],
+        [
+          1200,
+          1320
+        ],
+        [
+          1440,
+          1560
+        ]
+      ],
+      "source_utterance_bounds_original": [
+        280,
+        1720
+      ],
+      "video_basenames": [
+        "706_511_master_small.mov",
+        "706_511_slave1_small.mov",
+        "706_511_slave2_small.mov"
+      ],
+      "annotation_path": "D:\\apphearv3claude\\AppHear-claude-s2-r3-eval-suite\\AppHear-claude-s2-r3-eval-suite\\experiments\\continuous_asl\\20261020_continuous_expand04\\data\\raw\\bu_signstream\\exports\\706_511.txt",
+      "annotation_sha256": "2cc69bec26fed99d76ea06ded93eb4a4deccdb8ad630c01682a5812264887c20",
+      "annotation_format": "SIGNSTREAM_TEXT_EXPORT_VERSION5_CA2002",
+      "time_units": "LEGACY_SOURCE_FRAME_COORDINATES_UNCALIBRATED_TO_CURRENT_CONTAINER; preserve integers; no conversion or boundary evaluation",
+      "sample_id": "ncslgr_04197eabe727bab1",
+      "collection": "ncslgr10a.xml",
+      "utterance_id": "36",
+      "source_group": "511",
+      "source_url": "https://csr.bu.edu/asl/private/compressed/master/706_511_small_0.mov",
+      "source_url_original": "http://csr.bu.edu/asl/private/compressed/master/706_511_small_0.mov",
+      "gloss_text": "fs-JOHN POSS-3p:i CAR IX-1p NEVER SEE:j",
+      "dataset": "NCSLGR",
+      "signer_id": "ncslgr_participant_439e92da28e72cc2",
+      "annotation_type": "AUTHENTIC_STRUCTURED_MAIN_GLOSS_EVENTS_MATCHING_OFFICIAL_INDEX",
+      "annotation_provenance": {
+        "index_path": "D:\\apphearv3claude\\AppHear-claude-s2-r3-eval-suite\\AppHear-claude-s2-r3-eval-suite\\experiments\\continuous_asl\\20261019T155428Z_cslr01\\data\\extracted\\ncslgr_video_index\\video_index-20120129\\files_by_xml_file.csv",
+        "index_sha256": "8b1dfa8f58da82272c475263f65f30f9d41be03bf523fc70d6e5820d17e7cc63",
+        "source_row": 1397,
+        "export_source_url": "https://www.bu.edu/asllrp/cslgr/pages/sstxt/706_511",
+        "ID_note": "Legacy export ID and current index ID preserved separately; join uses exact media basename+collection+gloss, never inferred offset."
+      },
+      "license_status": "BU_PRIVATE_NONCOMMERCIAL_RESEARCH_TERMS_REUSED",
+      "license_reference": "https://www.bu.edu/asllrp/dai-terms.html",
+      "video_path": "D:\\apphearv3claude\\AppHear-claude-s2-r3-eval-suite\\AppHear-claude-s2-r3-eval-suite\\experiments\\continuous_asl\\20261020_continuous_expand04\\data\\raw\\ncslgr_structured\\videos\\ncslgr_04197eabe727bab1.mov",
+      "split": "train_addition"
+    },
+    {
+      "database": "ncslgr10a",
+      "export_utterance_id": "39",
+      "participant_source_name": "Benjamin James Bahan",
+      "glosses": [
+        "IX-3p:i",
+        "fs-JOHN",
+        "POSS-3p:j",
+        "FATHER",
+        "CAR"
+      ],
+      "sign_times_original": [
+        [
+          320,
+          340
+        ],
+        [
+          420,
+          500
+        ],
+        [
+          620,
+          640
+        ],
+        [
+          780,
+          820
+        ],
+        [
+          920,
+          1120
+        ]
+      ],
+      "source_utterance_bounds_original": [
+        160,
+        1260
+      ],
+      "video_basenames": [
+        "708_513_master_small.mov",
+        "708_513_slave1_small.mov",
+        "708_513_slave2_small.mov"
+      ],
+      "annotation_path": "D:\\apphearv3claude\\AppHear-claude-s2-r3-eval-suite\\AppHear-claude-s2-r3-eval-suite\\experiments\\continuous_asl\\20261020_continuous_expand04\\data\\raw\\bu_signstream\\exports\\708_513.txt",
+      "annotation_sha256": "b2cf94f5e36716a9179f587a17b57cafdf94662ff2d075560e1b494f53d722e3",
+      "annotation_format": "SIGNSTREAM_TEXT_EXPORT_VERSION5_CA2002",
+      "time_units": "LEGACY_SOURCE_FRAME_COORDINATES_UNCALIBRATED_TO_CURRENT_CONTAINER; preserve integers; no conversion or boundary evaluation",
+      "sample_id": "ncslgr_104b9e5457790b44",
+      "collection": "ncslgr10a.xml",
+      "utterance_id": "38",
+      "source_group": "513",
+      "source_url": "https://csr.bu.edu/asl/private/compressed/master/708_513_small_0.mov",
+      "source_url_original": "http://csr.bu.edu/asl/private/compressed/master/708_513_small_0.mov",
+      "gloss_text": "IX-3p:i fs-JOHN POSS-3p:j FATHER CAR",
+      "dataset": "NCSLGR",
+      "signer_id": "ncslgr_participant_439e92da28e72cc2",
+      "annotation_type": "AUTHENTIC_STRUCTURED_MAIN_GLOSS_EVENTS_MATCHING_OFFICIAL_INDEX",
+      "annotation_provenance": {
+        "index_path": "D:\\apphearv3claude\\AppHear-claude-s2-r3-eval-suite\\AppHear-claude-s2-r3-eval-suite\\experiments\\continuous_asl\\20261019T155428Z_cslr01\\data\\extracted\\ncslgr_video_index\\video_index-20120129\\files_by_xml_file.csv",
+        "index_sha256": "8b1dfa8f58da82272c475263f65f30f9d41be03bf523fc70d6e5820d17e7cc63",
+        "source_row": 1403,
+        "export_source_url": "https://www.bu.edu/asllrp/cslgr/pages/sstxt/708_513",
+        "ID_note": "Legacy export ID and current index ID preserved separately; join uses exact media basename+collection+gloss, never inferred offset."
+      },
+      "license_status": "BU_PRIVATE_NONCOMMERCIAL_RESEARCH_TERMS_REUSED",
+      "license_reference": "https://www.bu.edu/asllrp/dai-terms.html",
+      "video_path": "D:\\apphearv3claude\\AppHear-claude-s2-r3-eval-suite\\AppHear-claude-s2-r3-eval-suite\\experiments\\continuous_asl\\20261020_continuous_expand04\\data\\raw\\ncslgr_structured\\videos\\ncslgr_104b9e5457790b44.mov",
+      "split": "train_addition"
+    },
+    {
+      "database": "ncslgr10b",
+      "export_utterance_id": "2",
+      "participant_source_name": "Benjamin James Bahan",
+      "glosses": [
+        "fs-JOHN",
+        "FUTURE",
+        "BUY",
+        "HOW-MANY",
+        "BOOK",
+        "part:indef"
+      ],
+      "sign_times_original": [
+        [
+          460,
+          540
+        ],
+        [
+          660,
+          700
+        ],
+        [
+          780,
+          820
+        ],
+        [
+          940,
+          1000
+        ],
+        [
+          1080,
+          1140
+        ],
+        [
+          1160,
+          1320
+        ]
+      ],
+      "source_utterance_bounds_original": [
+        260,
+        1420
+      ],
+      "video_basenames": [
+        "720_525_master_small.mov",
+        "720_525_slave1_small.mov",
+        "720_525_slave2_small.mov"
+      ],
+      "annotation_path": "D:\\apphearv3claude\\AppHear-claude-s2-r3-eval-suite\\AppHear-claude-s2-r3-eval-suite\\experiments\\continuous_asl\\20261020_continuous_expand04\\data\\raw\\bu_signstream\\exports\\720_525.txt",
+      "annotation_sha256": "7d7fa53c05c39c8db35b8094a8dac56bcfc49a8011970f33276aa28f3ac3be2a",
+      "annotation_format": "SIGNSTREAM_TEXT_EXPORT_VERSION5_CA2002",
+      "time_units": "LEGACY_SOURCE_FRAME_COORDINATES_UNCALIBRATED_TO_CURRENT_CONTAINER; preserve integers; no conversion or boundary evaluation",
+      "sample_id": "ncslgr_1d279916218b78bd",
+      "collection": "ncslgr10b.xml",
+      "utterance_id": "1",
+      "source_group": "525",
+      "source_url": "https://csr.bu.edu/asl/private/compressed/master/720_525_small_0.mov",
+      "source_url_original": "http://csr.bu.edu/asl/private/compressed/master/720_525_small_0.mov",
+      "gloss_text": "fs-JOHN FUTURE BUY HOW-MANY BOOK part:indef",
+      "dataset": "NCSLGR",
+      "signer_id": "ncslgr_participant_439e92da28e72cc2",
+      "annotation_type": "AUTHENTIC_STRUCTURED_MAIN_GLOSS_EVENTS_MATCHING_OFFICIAL_INDEX",
+      "annotation_provenance": {
+        "index_path": "D:\\apphearv3claude\\AppHear-claude-s2-r3-eval-suite\\AppHear-claude-s2-r3-eval-suite\\experiments\\continuous_asl\\20261019T155428Z_cslr01\\data\\extracted\\ncslgr_video_index\\video_index-20120129\\files_by_xml_file.csv",
+        "index_sha256": "8b1dfa8f58da82272c475263f65f30f9d41be03bf523fc70d6e5820d17e7cc63",
+        "source_row": 1436,
+        "export_source_url": "https://www.bu.edu/asllrp/cslgr/pages/sstxt/720_525",
+        "ID_note": "Legacy export ID and current index ID preserved separately; join uses exact media basename+collection+gloss, never inferred offset."
+      },
+      "license_status": "BU_PRIVATE_NONCOMMERCIAL_RESEARCH_TERMS_REUSED",
+      "license_reference": "https://www.bu.edu/asllrp/dai-terms.html",
+      "video_path": "D:\\apphearv3claude\\AppHear-claude-s2-r3-eval-suite\\AppHear-claude-s2-r3-eval-suite\\experiments\\continuous_asl\\20261020_continuous_expand04\\data\\raw\\ncslgr_structured\\videos\\ncslgr_1d279916218b78bd.mov",
+      "split": "train_addition"
+    },
+    {
+      "database": "ncslgr10b",
+      "export_utterance_id": "3",
+      "participant_source_name": "Benjamin James Bahan",
+      "glosses": [
+        "fs-JOHN",
+        "FINISH",
+        "BUY",
+        "HOW-MANY",
+        "BOOK",
+        "part:indef"
+      ],
+      "sign_times_original": [
+        [
+          380,
+          500
+        ],
+        [
+          600,
+          680
+        ],
+        [
+          740,
+          840
+        ],
+        [
+          940,
+          1020
+        ],
+        [
+          1080,
+          1180
+        ],
+        [
+          1200,
+          1340
+        ]
+      ],
+      "source_utterance_bounds_original": [
+        260,
+        1340
+      ],
+      "video_basenames": [
+        "721_526_master_small.mov",
+        "721_526_slave1_small.mov",
+        "721_526_slave2_small.mov"
+      ],
+      "annotation_path": "D:\\apphearv3claude\\AppHear-claude-s2-r3-eval-suite\\AppHear-claude-s2-r3-eval-suite\\experiments\\continuous_asl\\20261020_continuous_expand04\\data\\raw\\bu_signstream\\exports\\721_526.txt",
+      "annotation_sha256": "ec7f034badb2974a31428ac8667deab962a9a0b5bab072a4fbf5523a9039c691",
+      "annotation_format": "SIGNSTREAM_TEXT_EXPORT_VERSION5_CA2002",
+      "time_units": "LEGACY_SOURCE_FRAME_COORDINATES_UNCALIBRATED_TO_CURRENT_CONTAINER; preserve integers; no conversion or boundary evaluation",
+      "sample_id": "ncslgr_f9f2bcee21694089",
+      "collection": "ncslgr10b.xml",
+      "utterance_id": "2",
+      "source_group": "526",
+      "source_url": "https://csr.bu.edu/asl/private/compressed/master/721_526_small_0.mov",
+      "source_url_original": "http://csr.bu.edu/asl/private/compressed/master/721_526_small_0.mov",
+      "gloss_text": "fs-JOHN FINISH BUY HOW-MANY BOOK part:indef",
+      "dataset": "NCSLGR",
+      "signer_id": "ncslgr_participant_439e92da28e72cc2",
+      "annotation_type": "AUTHENTIC_STRUCTURED_MAIN_GLOSS_EVENTS_MATCHING_OFFICIAL_INDEX",
+      "annotation_provenance": {
+        "index_path": "D:\\apphearv3claude\\AppHear-claude-s2-r3-eval-suite\\AppHear-claude-s2-r3-eval-suite\\experiments\\continuous_asl\\20261019T155428Z_cslr01\\data\\extracted\\ncslgr_video_index\\video_index-20120129\\files_by_xml_file.csv",
+        "index_sha256": "8b1dfa8f58da82272c475263f65f30f9d41be03bf523fc70d6e5820d17e7cc63",
+        "source_row": 1439,
+        "export_source_url": "https://www.bu.edu/asllrp/cslgr/pages/sstxt/721_526",
+        "ID_note": "Legacy export ID and current index ID preserved separately; join uses exact media basename+collection+gloss, never inferred offset."
+      },
+      "license_status": "BU_PRIVATE_NONCOMMERCIAL_RESEARCH_TERMS_REUSED",
+      "license_reference": "https://www.bu.edu/asllrp/dai-terms.html",
+      "video_path": "D:\\apphearv3claude\\AppHear-claude-s2-r3-eval-suite\\AppHear-claude-s2-r3-eval-suite\\experiments\\continuous_asl\\20261020_continuous_expand04\\data\\raw\\ncslgr_structured\\videos\\ncslgr_f9f2bcee21694089.mov",
+      "split": "train_addition"
+    },
+    {
+      "database": "ncslgr10b",
+      "export_utterance_id": "14",
+      "participant_source_name": "Benjamin James Bahan",
+      "glosses": [
+        "fs-JOHN",
+        "NOT",
+        "BUY",
+        "MOTHER",
+        "POSS-3p:i",
+        "CAR"
+      ],
+      "sign_times_original": [
+        [
+          420,
+          620
+        ],
+        [
+          680,
+          720
+        ],
+        [
+          820,
+          880
+        ],
+        [
+          960,
+          1020
+        ],
+        [
+          1060,
+          1080
+        ],
+        [
+          1160,
+          1280
+        ]
+      ],
+      "source_utterance_bounds_original": [
+        360,
+        1380
+      ],
+      "video_basenames": [
+        "732_537_master_small.mov",
+        "732_537_slave1_small.mov",
+        "732_537_slave2_small.mov"
+      ],
+      "annotation_path": "D:\\apphearv3claude\\AppHear-claude-s2-r3-eval-suite\\AppHear-claude-s2-r3-eval-suite\\experiments\\continuous_asl\\20261020_continuous_expand04\\data\\raw\\bu_signstream\\exports\\732_537.txt",
+      "annotation_sha256": "c247bea9c8d1c2c94081c2e358bfbd01a2064183c277b811fe3e62998b89847f",
+      "annotation_format": "SIGNSTREAM_TEXT_EXPORT_VERSION5_CA2002",
+      "time_units": "LEGACY_SOURCE_FRAME_COORDINATES_UNCALIBRATED_TO_CURRENT_CONTAINER; preserve integers; no conversion or boundary evaluation",
+      "sample_id": "ncslgr_4fc975ba84166ecf",
+      "collection": "ncslgr10b.xml",
+      "utterance_id": "13",
+      "source_group": "537",
+      "source_url": "https://csr.bu.edu/asl/private/compressed/master/732_537_small_0.mov",
+      "source_url_original": "http://csr.bu.edu/asl/private/compressed/master/732_537_small_0.mov",
+      "gloss_text": "fs-JOHN NOT BUY MOTHER POSS-3p:i CAR",
+      "dataset": "NCSLGR",
+      "signer_id": "ncslgr_participant_439e92da28e72cc2",
+      "annotation_type": "AUTHENTIC_STRUCTURED_MAIN_GLOSS_EVENTS_MATCHING_OFFICIAL_INDEX",
+      "annotation_provenance": {
+        "index_path": "D:\\apphearv3claude\\AppHear-claude-s2-r3-eval-suite\\AppHear-claude-s2-r3-eval-suite\\experiments\\continuous_asl\\20261019T155428Z_cslr01\\data\\extracted\\ncslgr_video_index\\video_index-20120129\\files_by_xml_file.csv",
+        "index_sha256": "8b1dfa8f58da82272c475263f65f30f9d41be03bf523fc70d6e5820d17e7cc63",
+        "source_row": 1472,
+        "export_source_url": "https://www.bu.edu/asllrp/cslgr/pages/sstxt/732_537",
+        "ID_note": "Legacy export ID and current index ID preserved separately; join uses exact media basename+collection+gloss, never inferred offset."
+      },
+      "license_status": "BU_PRIVATE_NONCOMMERCIAL_RESEARCH_TERMS_REUSED",
+      "license_reference": "https://www.bu.edu/asllrp/dai-terms.html",
+      "video_path": "D:\\apphearv3claude\\AppHear-claude-s2-r3-eval-suite\\AppHear-claude-s2-r3-eval-suite\\experiments\\continuous_asl\\20261020_continuous_expand04\\data\\raw\\ncslgr_structured\\videos\\ncslgr_4fc975ba84166ecf.mov",
+      "split": "train_addition"
+    },
+    {
+      "database": "ncslgr10b",
+      "export_utterance_id": "25",
+      "participant_source_name": "Benjamin James Bahan",
+      "glosses": [
+        "YESTERDAY",
+        "MOTHER",
+        "neu:GIVE:j",
+        "fs-JOHN",
+        "CHOCOLATE"
+      ],
+      "sign_times_original": [
+        [
+          260,
+          400
+        ],
+        [
+          540,
+          560
+        ],
+        [
+          640,
+          700
+        ],
+        [
+          1060,
+          1260
+        ],
+        [
+          1380,
+          1520
+        ]
+      ],
+      "source_utterance_bounds_original": [
+        60,
+        1860
+      ],
+      "video_basenames": [
+        "743_550_master_small.mov",
+        "743_550_slave1_small.mov",
+        "743_550_slave2_small.mov"
+      ],
+      "annotation_path": "D:\\apphearv3claude\\AppHear-claude-s2-r3-eval-suite\\AppHear-claude-s2-r3-eval-suite\\experiments\\continuous_asl\\20261020_continuous_expand04\\data\\raw\\bu_signstream\\exports\\743_550.txt",
+      "annotation_sha256": "a2ae4b2c25dd0c5c95d52f589540fceb9657d8e32c00d2dcbec602393856df82",
+      "annotation_format": "SIGNSTREAM_TEXT_EXPORT_VERSION5_CA2002",
+      "time_units": "LEGACY_SOURCE_FRAME_COORDINATES_UNCALIBRATED_TO_CURRENT_CONTAINER; preserve integers; no conversion or boundary evaluation",
+      "sample_id": "ncslgr_19fec4f374c2232d",
+      "collection": "ncslgr10b.xml",
+      "utterance_id": "24",
+      "source_group": "550",
+      "source_url": "https://csr.bu.edu/asl/private/compressed/master/743_550_small_0.mov",
+      "source_url_original": "http://csr.bu.edu/asl/private/compressed/master/743_550_small_0.mov",
+      "gloss_text": "YESTERDAY MOTHER neu:GIVE:j fs-JOHN CHOCOLATE",
+      "dataset": "NCSLGR",
+      "signer_id": "ncslgr_participant_439e92da28e72cc2",
+      "annotation_type": "AUTHENTIC_STRUCTURED_MAIN_GLOSS_EVENTS_MATCHING_OFFICIAL_INDEX",
+      "annotation_provenance": {
+        "index_path": "D:\\apphearv3claude\\AppHear-claude-s2-r3-eval-suite\\AppHear-claude-s2-r3-eval-suite\\experiments\\continuous_asl\\20261019T155428Z_cslr01\\data\\extracted\\ncslgr_video_index\\video_index-20120129\\files_by_xml_file.csv",
+        "index_sha256": "8b1dfa8f58da82272c475263f65f30f9d41be03bf523fc70d6e5820d17e7cc63",
+        "source_row": 1505,
+        "export_source_url": "https://www.bu.edu/asllrp/cslgr/pages/sstxt/743_550",
+        "ID_note": "Legacy export ID and current index ID preserved separately; join uses exact media basename+collection+gloss, never inferred offset."
+      },
+      "license_status": "BU_PRIVATE_NONCOMMERCIAL_RESEARCH_TERMS_REUSED",
+      "license_reference": "https://www.bu.edu/asllrp/dai-terms.html",
+      "video_path": "D:\\apphearv3claude\\AppHear-claude-s2-r3-eval-suite\\AppHear-claude-s2-r3-eval-suite\\experiments\\continuous_asl\\20261020_continuous_expand04\\data\\raw\\ncslgr_structured\\videos\\ncslgr_19fec4f374c2232d.mov",
+      "split": "train_addition"
+    },
+    {
+      "database": "ncslgr10b",
+      "export_utterance_id": "26",
+      "participant_source_name": "Benjamin James Bahan",
+      "glosses": [
+        "fs-JOHN",
+        "neu:GIVE:j",
+        "MOTHER",
+        "CHOCOLATE"
+      ],
+      "sign_times_original": [
+        [
+          280,
+          400
+        ],
+        [
+          440,
+          540
+        ],
+        [
+          680,
+          700
+        ],
+        [
+          900,
+          1040
+        ]
+      ],
+      "source_utterance_bounds_original": [
+        200,
+        1180
+      ],
+      "video_basenames": [
+        "744_551_master_small.mov",
+        "744_551_slave1_small.mov",
+        "744_551_slave2_small.mov"
+      ],
+      "annotation_path": "D:\\apphearv3claude\\AppHear-claude-s2-r3-eval-suite\\AppHear-claude-s2-r3-eval-suite\\experiments\\continuous_asl\\20261020_continuous_expand04\\data\\raw\\bu_signstream\\exports\\744_551.txt",
+      "annotation_sha256": "cb5d9d297eda91739a1ea2b1a915aae063a64df7b33391fe5200589300533cb5",
+      "annotation_format": "SIGNSTREAM_TEXT_EXPORT_VERSION5_CA2002",
+      "time_units": "LEGACY_SOURCE_FRAME_COORDINATES_UNCALIBRATED_TO_CURRENT_CONTAINER; preserve integers; no conversion or boundary evaluation",
+      "sample_id": "ncslgr_e3d91f453d5607d9",
+      "collection": "ncslgr10b.xml",
+      "utterance_id": "25",
+      "source_group": "551",
+      "source_url": "https://csr.bu.edu/asl/private/compressed/master/744_551_small_0.mov",
+      "source_url_original": "http://csr.bu.edu/asl/private/compressed/master/744_551_small_0.mov",
+      "gloss_text": "fs-JOHN neu:GIVE:j MOTHER CHOCOLATE",
+      "dataset": "NCSLGR",
+      "signer_id": "ncslgr_participant_439e92da28e72cc2",
+      "annotation_type": "AUTHENTIC_STRUCTURED_MAIN_GLOSS_EVENTS_MATCHING_OFFICIAL_INDEX",
+      "annotation_provenance": {
+        "index_path": "D:\\apphearv3claude\\AppHear-claude-s2-r3-eval-suite\\AppHear-claude-s2-r3-eval-suite\\experiments\\continuous_asl\\20261019T155428Z_cslr01\\data\\extracted\\ncslgr_video_index\\video_index-20120129\\files_by_xml_file.csv",
+        "index_sha256": "8b1dfa8f58da82272c475263f65f30f9d41be03bf523fc70d6e5820d17e7cc63",
+        "source_row": 1508,
+        "export_source_url": "https://www.bu.edu/asllrp/cslgr/pages/sstxt/744_551",
+        "ID_note": "Legacy export ID and current index ID preserved separately; join uses exact media basename+collection+gloss, never inferred offset."
+      },
+      "license_status": "BU_PRIVATE_NONCOMMERCIAL_RESEARCH_TERMS_REUSED",
+      "license_reference": "https://www.bu.edu/asllrp/dai-terms.html",
+      "video_path": "D:\\apphearv3claude\\AppHear-claude-s2-r3-eval-suite\\AppHear-claude-s2-r3-eval-suite\\experiments\\continuous_asl\\20261020_continuous_expand04\\data\\raw\\ncslgr_structured\\videos\\ncslgr_e3d91f453d5607d9.mov",
+      "split": "train_addition"
+    },
+    {
+      "database": "ncslgr10b",
+      "export_utterance_id": "27",
+      "participant_source_name": "Benjamin James Bahan",
+      "glosses": [
+        "fs-JOHN",
+        "NOW",
+        "neu:GIVE:j",
+        "MOTHER",
+        "CHOCOLATE"
+      ],
+      "sign_times_original": [
+        [
+          360,
+          520
+        ],
+        [
+          580,
+          600
+        ],
+        [
+          700,
+          960
+        ],
+        [
+          1100,
+          1140
+        ],
+        [
+          1280,
+          1420
+        ]
+      ],
+      "source_utterance_bounds_original": [
+        260,
+        1540
+      ],
+      "video_basenames": [
+        "745_552_master_small.mov",
+        "745_552_slave1_small.mov",
+        "745_552_slave2_small.mov"
+      ],
+      "annotation_path": "D:\\apphearv3claude\\AppHear-claude-s2-r3-eval-suite\\AppHear-claude-s2-r3-eval-suite\\experiments\\continuous_asl\\20261020_continuous_expand04\\data\\raw\\bu_signstream\\exports\\745_552.txt",
+      "annotation_sha256": "93623fe9445a6d8daa0ab6116fcaddff7f7242602161c66a39343813fef648e0",
+      "annotation_format": "SIGNSTREAM_TEXT_EXPORT_VERSION5_CA2002",
+      "time_units": "LEGACY_SOURCE_FRAME_COORDINATES_UNCALIBRATED_TO_CURRENT_CONTAINER; preserve integers; no conversion or boundary evaluation",
+      "sample_id": "ncslgr_537f06d42ee924dd",
+      "collection": "ncslgr10b.xml",
+      "utterance_id": "26",
+      "source_group": "552",
+      "source_url": "https://csr.bu.edu/asl/private/compressed/master/745_552_small_0.mov",
+      "source_url_original": "http://csr.bu.edu/asl/private/compressed/master/745_552_small_0.mov",
+      "gloss_text": "fs-JOHN NOW neu:GIVE:j MOTHER CHOCOLATE",
+      "dataset": "NCSLGR",
+      "signer_id": "ncslgr_participant_439e92da28e72cc2",
+      "annotation_type": "AUTHENTIC_STRUCTURED_MAIN_GLOSS_EVENTS_MATCHING_OFFICIAL_INDEX",
+      "annotation_provenance": {
+        "index_path": "D:\\apphearv3claude\\AppHear-claude-s2-r3-eval-suite\\AppHear-claude-s2-r3-eval-suite\\experiments\\continuous_asl\\20261019T155428Z_cslr01\\data\\extracted\\ncslgr_video_index\\video_index-20120129\\files_by_xml_file.csv",
+        "index_sha256": "8b1dfa8f58da82272c475263f65f30f9d41be03bf523fc70d6e5820d17e7cc63",
+        "source_row": 1511,
+        "export_source_url": "https://www.bu.edu/asllrp/cslgr/pages/sstxt/745_552",
+        "ID_note": "Legacy export ID and current index ID preserved separately; join uses exact media basename+collection+gloss, never inferred offset."
+      },
+      "license_status": "BU_PRIVATE_NONCOMMERCIAL_RESEARCH_TERMS_REUSED",
+      "license_reference": "https://www.bu.edu/asllrp/dai-terms.html",
+      "video_path": "D:\\apphearv3claude\\AppHear-claude-s2-r3-eval-suite\\AppHear-claude-s2-r3-eval-suite\\experiments\\continuous_asl\\20261020_continuous_expand04\\data\\raw\\ncslgr_structured\\videos\\ncslgr_537f06d42ee924dd.mov",
+      "split": "train_addition"
+    },
+    {
+      "database": "ncslgr10b",
+      "export_utterance_id": "28",
+      "participant_source_name": "Benjamin James Bahan",
+      "glosses": [
+        "fs-JOHN",
+        "FUTURE",
+        "neu:GIVE:j",
+        "MOTHER",
+        "CHOCOLATE"
+      ],
+      "sign_times_original": [
+        [
+          760,
+          820
+        ],
+        [
+          920,
+          940
+        ],
+        [
+          1000,
+          1060
+        ],
+        [
+          1160,
+          1200
+        ],
+        [
+          1360,
+          1580
+        ]
+      ],
+      "source_utterance_bounds_original": [
+        640,
+        1700
+      ],
+      "video_basenames": [
+        "747_554_master_small.mov",
+        "747_554_slave1_small.mov",
+        "747_554_slave2_small.mov"
+      ],
+      "annotation_path": "D:\\apphearv3claude\\AppHear-claude-s2-r3-eval-suite\\AppHear-claude-s2-r3-eval-suite\\experiments\\continuous_asl\\20261020_continuous_expand04\\data\\raw\\bu_signstream\\exports\\747_554.txt",
+      "annotation_sha256": "1b715582ca4d2c6c0e807d1a318ba136aec511d5ac7bbc28296a719e49804587",
+      "annotation_format": "SIGNSTREAM_TEXT_EXPORT_VERSION5_CA2002",
+      "time_units": "LEGACY_SOURCE_FRAME_COORDINATES_UNCALIBRATED_TO_CURRENT_CONTAINER; preserve integers; no conversion or boundary evaluation",
+      "sample_id": "ncslgr_1f7daacb3389ca93",
+      "collection": "ncslgr10b.xml",
+      "utterance_id": "27",
+      "source_group": "554",
+      "source_url": "https://csr.bu.edu/asl/private/compressed/master/747_554_small_0.mov",
+      "source_url_original": "http://csr.bu.edu/asl/private/compressed/master/747_554_small_0.mov",
+      "gloss_text": "fs-JOHN FUTURE neu:GIVE:j MOTHER CHOCOLATE",
+      "dataset": "NCSLGR",
+      "signer_id": "ncslgr_participant_439e92da28e72cc2",
+      "annotation_type": "AUTHENTIC_STRUCTURED_MAIN_GLOSS_EVENTS_MATCHING_OFFICIAL_INDEX",
+      "annotation_provenance": {
+        "index_path": "D:\\apphearv3claude\\AppHear-claude-s2-r3-eval-suite\\AppHear-claude-s2-r3-eval-suite\\experiments\\continuous_asl\\20261019T155428Z_cslr01\\data\\extracted\\ncslgr_video_index\\video_index-20120129\\files_by_xml_file.csv",
+        "index_sha256": "8b1dfa8f58da82272c475263f65f30f9d41be03bf523fc70d6e5820d17e7cc63",
+        "source_row": 1514,
+        "export_source_url": "https://www.bu.edu/asllrp/cslgr/pages/sstxt/747_554",
+        "ID_note": "Legacy export ID and current index ID preserved separately; join uses exact media basename+collection+gloss, never inferred offset."
+      },
+      "license_status": "BU_PRIVATE_NONCOMMERCIAL_RESEARCH_TERMS_REUSED",
+      "license_reference": "https://www.bu.edu/asllrp/dai-terms.html",
+      "video_path": "D:\\apphearv3claude\\AppHear-claude-s2-r3-eval-suite\\AppHear-claude-s2-r3-eval-suite\\experiments\\continuous_asl\\20261020_continuous_expand04\\data\\raw\\ncslgr_structured\\videos\\ncslgr_1f7daacb3389ca93.mov",
+      "split": "train_addition"
+    },
+    {
+      "database": "ncslgr10b",
+      "export_utterance_id": "29",
+      "participant_source_name": "Benjamin James Bahan",
+      "glosses": [
+        "MOTHER",
+        "FINISH",
+        "neu:GIVE:j",
+        "fs-JOHN",
+        "CHOCOLATE",
+        "QMwg"
+      ],
+      "sign_times_original": [
+        [
+          300,
+          320
+        ],
+        [
+          340,
+          380
+        ],
+        [
+          480,
+          540
+        ],
+        [
+          580,
+          780
+        ],
+        [
+          920,
+          1040
+        ],
+        [
+          1160,
+          1220
+        ]
+      ],
+      "source_utterance_bounds_original": [
+        140,
+        1360
+      ],
+      "video_basenames": [
+        "748_555_master_small.mov",
+        "748_555_slave1_small.mov",
+        "748_555_slave2_small.mov"
+      ],
+      "annotation_path": "D:\\apphearv3claude\\AppHear-claude-s2-r3-eval-suite\\AppHear-claude-s2-r3-eval-suite\\experiments\\continuous_asl\\20261020_continuous_expand04\\data\\raw\\bu_signstream\\exports\\748_555.txt",
+      "annotation_sha256": "3b0fa168a6c80162ebd9f334e6f2f3bbb75449540b7341ab4fca2d16a1de7536",
+      "annotation_format": "SIGNSTREAM_TEXT_EXPORT_VERSION5_CA2002",
+      "time_units": "LEGACY_SOURCE_FRAME_COORDINATES_UNCALIBRATED_TO_CURRENT_CONTAINER; preserve integers; no conversion or boundary evaluation",
+      "sample_id": "ncslgr_cddf5ee787c6d3a8",
+      "collection": "ncslgr10b.xml",
+      "utterance_id": "28",
+      "source_group": "555",
+      "source_url": "https://csr.bu.edu/asl/private/compressed/master/748_555_small_0.mov",
+      "source_url_original": "http://csr.bu.edu/asl/private/compressed/master/748_555_small_0.mov",
+      "gloss_text": "MOTHER FINISH neu:GIVE:j fs-JOHN CHOCOLATE QMwg",
+      "dataset": "NCSLGR",
+      "signer_id": "ncslgr_participant_439e92da28e72cc2",
+      "annotation_type": "AUTHENTIC_STRUCTURED_MAIN_GLOSS_EVENTS_MATCHING_OFFICIAL_INDEX",
+      "annotation_provenance": {
+        "index_path": "D:\\apphearv3claude\\AppHear-claude-s2-r3-eval-suite\\AppHear-claude-s2-r3-eval-suite\\experiments\\continuous_asl\\20261019T155428Z_cslr01\\data\\extracted\\ncslgr_video_index\\video_index-20120129\\files_by_xml_file.csv",
+        "index_sha256": "8b1dfa8f58da82272c475263f65f30f9d41be03bf523fc70d6e5820d17e7cc63",
+        "source_row": 1517,
+        "export_source_url": "https://www.bu.edu/asllrp/cslgr/pages/sstxt/748_555",
+        "ID_note": "Legacy export ID and current index ID preserved separately; join uses exact media basename+collection+gloss, never inferred offset."
+      },
+      "license_status": "BU_PRIVATE_NONCOMMERCIAL_RESEARCH_TERMS_REUSED",
+      "license_reference": "https://www.bu.edu/asllrp/dai-terms.html",
+      "video_path": "D:\\apphearv3claude\\AppHear-claude-s2-r3-eval-suite\\AppHear-claude-s2-r3-eval-suite\\experiments\\continuous_asl\\20261020_continuous_expand04\\data\\raw\\ncslgr_structured\\videos\\ncslgr_cddf5ee787c6d3a8.mov",
+      "split": "train_addition"
+    },
+    {
+      "database": "ncslgr10c",
+      "export_utterance_id": "4",
+      "participant_source_name": "Benjamin James Bahan",
+      "glosses": [
+        "fs-JOHN",
+        "FUTURE^NOT",
+        "LIKE",
+        "IX-3p:i",
+        "MOVIE",
+        "IX-3p:i"
+      ],
+      "sign_times_original": [
+        [
+          200,
+          360
+        ],
+        [
+          500,
+          620
+        ],
+        [
+          680,
+          720
+        ],
+        [
+          800,
+          840
+        ],
+        [
+          980,
+          1000
+        ],
+        [
+          1040,
+          1080
+        ]
+      ],
+      "source_utterance_bounds_original": [
+        160,
+        1420
+      ],
+      "video_basenames": [
+        "769_578_master_small.mov",
+        "769_578_slave1_small.mov",
+        "769_578_slave2_small.mov"
+      ],
+      "annotation_path": "D:\\apphearv3claude\\AppHear-claude-s2-r3-eval-suite\\AppHear-claude-s2-r3-eval-suite\\experiments\\continuous_asl\\20261020_continuous_expand04\\data\\raw\\bu_signstream\\exports\\769_578.txt",
+      "annotation_sha256": "789004230b3a5490954ace1da77e752c54afddd04d23c0bfd498db30abe10db9",
+      "annotation_format": "SIGNSTREAM_TEXT_EXPORT_VERSION5_CA2002",
+      "time_units": "LEGACY_SOURCE_FRAME_COORDINATES_UNCALIBRATED_TO_CURRENT_CONTAINER; preserve integers; no conversion or boundary evaluation",
+      "sample_id": "ncslgr_435bb00be65a3225",
+      "collection": "ncslgr10c.xml",
+      "utterance_id": "3",
+      "source_group": "578",
+      "source_url": "https://csr.bu.edu/asl/private/compressed/master/769_578_small_0.mov",
+      "source_url_original": "http://csr.bu.edu/asl/private/compressed/master/769_578_small_0.mov",
+      "gloss_text": "fs-JOHN FUTURE^NOT LIKE IX-3p:i MOVIE IX-3p:i",
+      "dataset": "NCSLGR",
+      "signer_id": "ncslgr_participant_439e92da28e72cc2",
+      "annotation_type": "AUTHENTIC_STRUCTURED_MAIN_GLOSS_EVENTS_MATCHING_OFFICIAL_INDEX",
+      "annotation_provenance": {
+        "index_path": "D:\\apphearv3claude\\AppHear-claude-s2-r3-eval-suite\\AppHear-claude-s2-r3-eval-suite\\experiments\\continuous_asl\\20261019T155428Z_cslr01\\data\\extracted\\ncslgr_video_index\\video_index-20120129\\files_by_xml_file.csv",
+        "index_sha256": "8b1dfa8f58da82272c475263f65f30f9d41be03bf523fc70d6e5820d17e7cc63",
+        "source_row": 1577,
+        "export_source_url": "https://www.bu.edu/asllrp/cslgr/pages/sstxt/769_578",
+        "ID_note": "Legacy export ID and current index ID preserved separately; join uses exact media basename+collection+gloss, never inferred offset."
+      },
+      "license_status": "BU_PRIVATE_NONCOMMERCIAL_RESEARCH_TERMS_REUSED",
+      "license_reference": "https://www.bu.edu/asllrp/dai-terms.html",
+      "video_path": "D:\\apphearv3claude\\AppHear-claude-s2-r3-eval-suite\\AppHear-claude-s2-r3-eval-suite\\experiments\\continuous_asl\\20261020_continuous_expand04\\data\\raw\\ncslgr_structured\\videos\\ncslgr_435bb00be65a3225.mov",
+      "split": "train_addition"
+    },
+    {
+      "database": "ncslgr10c",
+      "export_utterance_id": "39",
+      "participant_source_name": "Norma Bowers-Tourangeau",
+      "glosses": [
+        "fs-JOHN",
+        "BUY",
+        "MOTHER",
+        "CAR",
+        "NOT"
+      ],
+      "sign_times_original": [
+        [
+          180,
+          280
+        ],
+        [
+          400,
+          480
+        ],
+        [
+          580,
+          600
+        ],
+        [
+          660,
+          740
+        ],
+        [
+          820,
+          940
+        ]
+      ],
+      "source_utterance_bounds_original": [
+        80,
+        1260
+      ],
+      "video_basenames": [
+        "814_628_master_small.mov",
+        "814_628_slave1_small.mov",
+        "814_628_slave2_small.mov"
+      ],
+      "annotation_path": "D:\\apphearv3claude\\AppHear-claude-s2-r3-eval-suite\\AppHear-claude-s2-r3-eval-suite\\experiments\\continuous_asl\\20261020_continuous_expand04\\data\\raw\\bu_signstream\\exports\\814_628.txt",
+      "annotation_sha256": "ca538250a75678c5674a9b3ec47ba658207ae9db33c4d81bca872aa41d475719",
+      "annotation_format": "SIGNSTREAM_TEXT_EXPORT_VERSION5_CA2002",
+      "time_units": "LEGACY_SOURCE_FRAME_COORDINATES_UNCALIBRATED_TO_CURRENT_CONTAINER; preserve integers; no conversion or boundary evaluation",
+      "sample_id": "ncslgr_3c0abca64547ade7",
+      "collection": "ncslgr10c.xml",
+      "utterance_id": "38",
+      "source_group": "628",
+      "source_url": "https://csr.bu.edu/asl/private/compressed/master/814_628_small_0.mov",
+      "source_url_original": "http://csr.bu.edu/asl/private/compressed/master/814_628_small_0.mov",
+      "gloss_text": "fs-JOHN BUY MOTHER CAR NOT",
+      "dataset": "NCSLGR",
+      "signer_id": "ncslgr_participant_d3676eea1633876b",
+      "annotation_type": "AUTHENTIC_STRUCTURED_MAIN_GLOSS_EVENTS_MATCHING_OFFICIAL_INDEX",
+      "annotation_provenance": {
+        "index_path": "D:\\apphearv3claude\\AppHear-claude-s2-r3-eval-suite\\AppHear-claude-s2-r3-eval-suite\\experiments\\continuous_asl\\20261019T155428Z_cslr01\\data\\extracted\\ncslgr_video_index\\video_index-20120129\\files_by_xml_file.csv",
+        "index_sha256": "8b1dfa8f58da82272c475263f65f30f9d41be03bf523fc70d6e5820d17e7cc63",
+        "source_row": 1682,
+        "export_source_url": "https://www.bu.edu/asllrp/cslgr/pages/sstxt/814_628",
+        "ID_note": "Legacy export ID and current index ID preserved separately; join uses exact media basename+collection+gloss, never inferred offset."
+      },
+      "license_status": "BU_PRIVATE_NONCOMMERCIAL_RESEARCH_TERMS_REUSED",
+      "license_reference": "https://www.bu.edu/asllrp/dai-terms.html",
+      "video_path": "D:\\apphearv3claude\\AppHear-claude-s2-r3-eval-suite\\AppHear-claude-s2-r3-eval-suite\\experiments\\continuous_asl\\20261020_continuous_expand04\\data\\raw\\ncslgr_structured\\videos\\ncslgr_3c0abca64547ade7.mov",
+      "split": "train_addition"
+    },
+    {
+      "database": "ncslgr10d",
+      "export_utterance_id": "8",
+      "participant_source_name": "Norma Bowers Tourangeau",
+      "glosses": [
+        "fs-JOHN",
+        "NOW",
+        "i:GIVE:j",
+        "CHOCOLATE",
+        "MOTHERwg",
+        "IX-3p:j"
+      ],
+      "sign_times_original": [
+        [
+          200,
+          260
+        ],
+        [
+          360,
+          400
+        ],
+        [
+          560,
+          720
+        ],
+        [
+          860,
+          920
+        ],
+        [
+          1020,
+          1120
+        ],
+        [
+          1220,
+          1240
+        ]
+      ],
+      "source_utterance_bounds_original": [
+        100,
+        1480
+      ],
+      "video_basenames": [
+        "827_644_master_small.mov",
+        "827_644_slave1_small.mov",
+        "827_644_slave2_small.mov"
+      ],
+      "annotation_path": "D:\\apphearv3claude\\AppHear-claude-s2-r3-eval-suite\\AppHear-claude-s2-r3-eval-suite\\experiments\\continuous_asl\\20261020_continuous_expand04\\data\\raw\\bu_signstream\\exports\\827_644.txt",
+      "annotation_sha256": "67b025e5002d7ba052c885e85aceb39de5e2c25a6b6ff5a15536a4b6f0106f76",
+      "annotation_format": "SIGNSTREAM_TEXT_EXPORT_VERSION5_CA2002",
+      "time_units": "LEGACY_SOURCE_FRAME_COORDINATES_UNCALIBRATED_TO_CURRENT_CONTAINER; preserve integers; no conversion or boundary evaluation",
+      "sample_id": "ncslgr_c173eda03fd34529",
+      "collection": "ncslgr10d.xml",
+      "utterance_id": "7",
+      "source_group": "644",
+      "source_url": "https://csr.bu.edu/asl/private/compressed/master/827_644_small_0.mov",
+      "source_url_original": "http://csr.bu.edu/asl/private/compressed/master/827_644_small_0.mov",
+      "gloss_text": "fs-JOHN NOW i:GIVE:j CHOCOLATE MOTHERwg IX-3p:j",
+      "dataset": "NCSLGR",
+      "signer_id": "ncslgr_participant_1b5ed1215a0d6756",
+      "annotation_type": "AUTHENTIC_STRUCTURED_MAIN_GLOSS_EVENTS_MATCHING_OFFICIAL_INDEX",
+      "annotation_provenance": {
+        "index_path": "D:\\apphearv3claude\\AppHear-claude-s2-r3-eval-suite\\AppHear-claude-s2-r3-eval-suite\\experiments\\continuous_asl\\20261019T155428Z_cslr01\\data\\extracted\\ncslgr_video_index\\video_index-20120129\\files_by_xml_file.csv",
+        "index_sha256": "8b1dfa8f58da82272c475263f65f30f9d41be03bf523fc70d6e5820d17e7cc63",
+        "source_row": 1709,
+        "export_source_url": "https://www.bu.edu/asllrp/cslgr/pages/sstxt/827_644",
+        "ID_note": "Legacy export ID and current index ID preserved separately; join uses exact media basename+collection+gloss, never inferred offset."
+      },
+      "license_status": "BU_PRIVATE_NONCOMMERCIAL_RESEARCH_TERMS_REUSED",
+      "license_reference": "https://www.bu.edu/asllrp/dai-terms.html",
+      "video_path": "D:\\apphearv3claude\\AppHear-claude-s2-r3-eval-suite\\AppHear-claude-s2-r3-eval-suite\\experiments\\continuous_asl\\20261020_continuous_expand04\\data\\raw\\ncslgr_structured\\videos\\ncslgr_c173eda03fd34529.mov",
+      "split": "test_reserved"
+    },
+    {
+      "database": "ncslgr10d",
+      "export_utterance_id": "17",
+      "participant_source_name": "Norma Bowers Tourangeau",
+      "glosses": [
+        "fs-JOHN",
+        "LIKE",
+        "CAR",
+        "BOOK+"
+      ],
+      "sign_times_original": [
+        [
+          160,
+          260
+        ],
+        [
+          380,
+          440
+        ],
+        [
+          540,
+          640
+        ],
+        [
+          800,
+          960
+        ]
+      ],
+      "source_utterance_bounds_original": [
+        100,
+        1020
+      ],
+      "video_basenames": [
+        "843_660_master_small.mov",
+        "843_660_slave1_small.mov",
+        "843_660_slave2_small.mov"
+      ],
+      "annotation_path": "D:\\apphearv3claude\\AppHear-claude-s2-r3-eval-suite\\AppHear-claude-s2-r3-eval-suite\\experiments\\continuous_asl\\20261020_continuous_expand04\\data\\raw\\bu_signstream\\exports\\843_660.txt",
+      "annotation_sha256": "a373b780a0b80e666a5bc3e4cb74665703e3c448873f6cbc303d9d99e0c8edfb",
+      "annotation_format": "SIGNSTREAM_TEXT_EXPORT_VERSION5_CA2002",
+      "time_units": "LEGACY_SOURCE_FRAME_COORDINATES_UNCALIBRATED_TO_CURRENT_CONTAINER; preserve integers; no conversion or boundary evaluation",
+      "sample_id": "ncslgr_e36327f0eae60084",
+      "collection": "ncslgr10d.xml",
+      "utterance_id": "16",
+      "source_group": "660",
+      "source_url": "https://csr.bu.edu/asl/private/compressed/master/843_660_small_0.mov",
+      "source_url_original": "http://csr.bu.edu/asl/private/compressed/master/843_660_small_0.mov",
+      "gloss_text": "fs-JOHN LIKE CAR BOOK+",
+      "dataset": "NCSLGR",
+      "signer_id": "ncslgr_participant_1b5ed1215a0d6756",
+      "annotation_type": "AUTHENTIC_STRUCTURED_MAIN_GLOSS_EVENTS_MATCHING_OFFICIAL_INDEX",
+      "annotation_provenance": {
+        "index_path": "D:\\apphearv3claude\\AppHear-claude-s2-r3-eval-suite\\AppHear-claude-s2-r3-eval-suite\\experiments\\continuous_asl\\20261019T155428Z_cslr01\\data\\extracted\\ncslgr_video_index\\video_index-20120129\\files_by_xml_file.csv",
+        "index_sha256": "8b1dfa8f58da82272c475263f65f30f9d41be03bf523fc70d6e5820d17e7cc63",
+        "source_row": 1736,
+        "export_source_url": "https://www.bu.edu/asllrp/cslgr/pages/sstxt/843_660",
+        "ID_note": "Legacy export ID and current index ID preserved separately; join uses exact media basename+collection+gloss, never inferred offset."
+      },
+      "license_status": "BU_PRIVATE_NONCOMMERCIAL_RESEARCH_TERMS_REUSED",
+      "license_reference": "https://www.bu.edu/asllrp/dai-terms.html",
+      "video_path": "D:\\apphearv3claude\\AppHear-claude-s2-r3-eval-suite\\AppHear-claude-s2-r3-eval-suite\\experiments\\continuous_asl\\20261020_continuous_expand04\\data\\raw\\ncslgr_structured\\videos\\ncslgr_e36327f0eae60084.mov",
+      "split": "test_reserved"
+    },
+    {
+      "database": "ncslgr10d",
+      "export_utterance_id": "21",
+      "participant_source_name": "Norma Bowers Tourangeau",
+      "glosses": [
+        "fs-JOHN",
+        "SHOULD",
+        "NOT",
+        "BUY",
+        "HOUSE"
+      ],
+      "sign_times_original": [
+        [
+          260,
+          360
+        ],
+        [
+          440,
+          480
+        ],
+        [
+          540,
+          580
+        ],
+        [
+          680,
+          720
+        ],
+        [
+          820,
+          1040
+        ]
+      ],
+      "source_utterance_bounds_original": [
+        220,
+        1140
+      ],
+      "video_basenames": [
+        "847_664_master_small.mov",
+        "847_664_slave1_small.mov",
+        "847_664_slave2_small.mov"
+      ],
+      "annotation_path": "D:\\apphearv3claude\\AppHear-claude-s2-r3-eval-suite\\AppHear-claude-s2-r3-eval-suite\\experiments\\continuous_asl\\20261020_continuous_expand04\\data\\raw\\bu_signstream\\exports\\847_664.txt",
+      "annotation_sha256": "eef706e84f07ccf4e74bf26d5a513b8bb6a1ffdb9e7de37002ed86232075984b",
+      "annotation_format": "SIGNSTREAM_TEXT_EXPORT_VERSION5_CA2002",
+      "time_units": "LEGACY_SOURCE_FRAME_COORDINATES_UNCALIBRATED_TO_CURRENT_CONTAINER; preserve integers; no conversion or boundary evaluation",
+      "sample_id": "ncslgr_1b40fdfdf76e0fd6",
+      "collection": "ncslgr10d.xml",
+      "utterance_id": "20",
+      "source_group": "664",
+      "source_url": "https://csr.bu.edu/asl/private/compressed/master/847_664_small_0.mov",
+      "source_url_original": "http://csr.bu.edu/asl/private/compressed/master/847_664_small_0.mov",
+      "gloss_text": "fs-JOHN SHOULD NOT BUY HOUSE",
+      "dataset": "NCSLGR",
+      "signer_id": "ncslgr_participant_1b5ed1215a0d6756",
+      "annotation_type": "AUTHENTIC_STRUCTURED_MAIN_GLOSS_EVENTS_MATCHING_OFFICIAL_INDEX",
+      "annotation_provenance": {
+        "index_path": "D:\\apphearv3claude\\AppHear-claude-s2-r3-eval-suite\\AppHear-claude-s2-r3-eval-suite\\experiments\\continuous_asl\\20261019T155428Z_cslr01\\data\\extracted\\ncslgr_video_index\\video_index-20120129\\files_by_xml_file.csv",
+        "index_sha256": "8b1dfa8f58da82272c475263f65f30f9d41be03bf523fc70d6e5820d17e7cc63",
+        "source_row": 1748,
+        "export_source_url": "https://www.bu.edu/asllrp/cslgr/pages/sstxt/847_664",
+        "ID_note": "Legacy export ID and current index ID preserved separately; join uses exact media basename+collection+gloss, never inferred offset."
+      },
+      "license_status": "BU_PRIVATE_NONCOMMERCIAL_RESEARCH_TERMS_REUSED",
+      "license_reference": "https://www.bu.edu/asllrp/dai-terms.html",
+      "video_path": "D:\\apphearv3claude\\AppHear-claude-s2-r3-eval-suite\\AppHear-claude-s2-r3-eval-suite\\experiments\\continuous_asl\\20261020_continuous_expand04\\data\\raw\\ncslgr_structured\\videos\\ncslgr_1b40fdfdf76e0fd6.mov",
+      "split": "test_reserved"
+    }
+  ],
+  "new_count": 17,
+  "role_counts": {
+    "train_addition": 14,
+    "test_reserved": 3
+  },
+  "existing_annotations_recovered": [
+    {
+      "database": "ncslgr10a",
+      "export_utterance_id": "33",
+      "participant_source_name": "Benjamin James Bahan",
+      "glosses": [
+        "MOTHER",
+        "SHOULD",
+        "NOT",
+        "BUY",
+        "CAR",
+        "part:indef"
+      ],
+      "sign_times_original": [
+        [
+          480,
+          520
+        ],
+        [
+          560,
+          660
+        ],
+        [
+          780,
+          840
+        ],
+        [
+          940,
+          1000
+        ],
+        [
+          1060,
+          1320
+        ],
+        [
+          1420,
+          1440
+        ]
+      ],
+      "source_utterance_bounds_original": [
+        260,
+        2480
+      ],
+      "video_basenames": [
+        "701_506_master_small.mov",
+        "701_506_slave1_small.mov",
+        "701_506_slave2_small.mov"
+      ],
+      "annotation_path": "D:\\apphearv3claude\\AppHear-claude-s2-r3-eval-suite\\AppHear-claude-s2-r3-eval-suite\\experiments\\continuous_asl\\20261020_continuous_expand04\\data\\raw\\bu_signstream\\exports\\701_506.txt",
+      "annotation_sha256": "b31f22c3d74ef928fcd4ccddeaa9cd55e5e78c9023b453bf493854f4d8150d8a",
+      "annotation_format": "SIGNSTREAM_TEXT_EXPORT_VERSION5_CA2002",
+      "time_units": "LEGACY_SOURCE_FRAME_COORDINATES_UNCALIBRATED_TO_CURRENT_CONTAINER; preserve integers; no conversion or boundary evaluation",
+      "sample_id": "ncslgr_bcfa09cd37d06fee",
+      "collection": "ncslgr10a.xml",
+      "utterance_id": "32",
+      "source_group": "506",
+      "source_url": "https://csr.bu.edu/asl/private/compressed/master/701_506_small_0.mov",
+      "source_url_original": "http://csr.bu.edu/asl/private/compressed/master/701_506_small_0.mov",
+      "gloss_text": "MOTHER SHOULD NOT BUY CAR part:indef",
+      "dataset": "NCSLGR",
+      "signer_id": "ncslgr_participant_439e92da28e72cc2",
+      "annotation_type": "AUTHENTIC_STRUCTURED_MAIN_GLOSS_EVENTS_MATCHING_OFFICIAL_INDEX",
+      "annotation_provenance": {
+        "index_path": "D:\\apphearv3claude\\AppHear-claude-s2-r3-eval-suite\\AppHear-claude-s2-r3-eval-suite\\experiments\\continuous_asl\\20261019T155428Z_cslr01\\data\\extracted\\ncslgr_video_index\\video_index-20120129\\files_by_xml_file.csv",
+        "index_sha256": "8b1dfa8f58da82272c475263f65f30f9d41be03bf523fc70d6e5820d17e7cc63",
+        "source_row": 1385,
+        "export_source_url": "https://www.bu.edu/asllrp/cslgr/pages/sstxt/701_506",
+        "ID_note": "Legacy export ID and current index ID preserved separately; join uses exact media basename+collection+gloss, never inferred offset."
+      },
+      "license_status": "BU_PRIVATE_NONCOMMERCIAL_RESEARCH_TERMS_REUSED",
+      "license_reference": "https://www.bu.edu/asllrp/dai-terms.html",
+      "video_path": "D:\\apphearv3claude\\AppHear-claude-s2-r3-eval-suite\\AppHear-claude-s2-r3-eval-suite\\experiments\\continuous_asl\\20261020_continuous_expand04\\data\\raw\\ncslgr_structured\\videos\\ncslgr_bcfa09cd37d06fee.mov"
+    },
+    {
+      "database": "ncslgr10a",
+      "export_utterance_id": "47",
+      "participant_source_name": "Benjamin James Bahan",
+      "glosses": [
+        "MOTHER",
+        "FUTURE",
+        "BUY",
+        "HOUSE"
+      ],
+      "sign_times_original": [
+        [
+          600,
+          620
+        ],
+        [
+          740,
+          780
+        ],
+        [
+          900,
+          980
+        ],
+        [
+          1080,
+          1300
+        ]
+      ],
+      "source_utterance_bounds_original": [
+        340,
+        1620
+      ],
+      "video_basenames": [
+        "716_521_master_small.mov",
+        "716_521_slave1_small.mov",
+        "716_521_slave2_small.mov"
+      ],
+      "annotation_path": "D:\\apphearv3claude\\AppHear-claude-s2-r3-eval-suite\\AppHear-claude-s2-r3-eval-suite\\experiments\\continuous_asl\\20261020_continuous_expand04\\data\\raw\\bu_signstream\\exports\\716_521.txt",
+      "annotation_sha256": "862737ba5d5df8a5032f7437c2589bf17c38eb929f0f0e6fba6d60682e8cf76e",
+      "annotation_format": "SIGNSTREAM_TEXT_EXPORT_VERSION5_CA2002",
+      "time_units": "LEGACY_SOURCE_FRAME_COORDINATES_UNCALIBRATED_TO_CURRENT_CONTAINER; preserve integers; no conversion or boundary evaluation",
+      "sample_id": "ncslgr_d58fc6ae63332323",
+      "collection": "ncslgr10a.xml",
+      "utterance_id": "46",
+      "source_group": "521",
+      "source_url": "https://csr.bu.edu/asl/private/compressed/master/716_521_small_0.mov",
+      "source_url_original": "http://csr.bu.edu/asl/private/compressed/master/716_521_small_0.mov",
+      "gloss_text": "MOTHER FUTURE BUY HOUSE",
+      "dataset": "NCSLGR",
+      "signer_id": "ncslgr_participant_439e92da28e72cc2",
+      "annotation_type": "AUTHENTIC_STRUCTURED_MAIN_GLOSS_EVENTS_MATCHING_OFFICIAL_INDEX",
+      "annotation_provenance": {
+        "index_path": "D:\\apphearv3claude\\AppHear-claude-s2-r3-eval-suite\\AppHear-claude-s2-r3-eval-suite\\experiments\\continuous_asl\\20261019T155428Z_cslr01\\data\\extracted\\ncslgr_video_index\\video_index-20120129\\files_by_xml_file.csv",
+        "index_sha256": "8b1dfa8f58da82272c475263f65f30f9d41be03bf523fc70d6e5820d17e7cc63",
+        "source_row": 1427,
+        "export_source_url": "https://www.bu.edu/asllrp/cslgr/pages/sstxt/716_521",
+        "ID_note": "Legacy export ID and current index ID preserved separately; join uses exact media basename+collection+gloss, never inferred offset."
+      },
+      "license_status": "BU_PRIVATE_NONCOMMERCIAL_RESEARCH_TERMS_REUSED",
+      "license_reference": "https://www.bu.edu/asllrp/dai-terms.html",
+      "video_path": "D:\\apphearv3claude\\AppHear-claude-s2-r3-eval-suite\\AppHear-claude-s2-r3-eval-suite\\experiments\\continuous_asl\\20261020_continuous_expand04\\data\\raw\\ncslgr_structured\\videos\\ncslgr_d58fc6ae63332323.mov"
+    },
+    {
+      "database": "ncslgr10a",
+      "export_utterance_id": "48",
+      "participant_source_name": "Benjamin James Bahan",
+      "glosses": [
+        "MOTHER",
+        "FUTURE",
+        "NOT",
+        "BUY",
+        "HOUSE"
+      ],
+      "sign_times_original": [
+        [
+          700,
+          740
+        ],
+        [
+          840,
+          920
+        ],
+        [
+          940,
+          1000
+        ],
+        [
+          1120,
+          1180
+        ],
+        [
+          1280,
+          1420
+        ]
+      ],
+      "source_utterance_bounds_original": [
+        480,
+        1540
+      ],
+      "video_basenames": [
+        "717_522_master_small.mov",
+        "717_522_slave1_small.mov",
+        "717_522_slave2_small.mov"
+      ],
+      "annotation_path": "D:\\apphearv3claude\\AppHear-claude-s2-r3-eval-suite\\AppHear-claude-s2-r3-eval-suite\\experiments\\continuous_asl\\20261020_continuous_expand04\\data\\raw\\bu_signstream\\exports\\717_522.txt",
+      "annotation_sha256": "2e16b2ab0641f25198f49570a410ff58d2da784f6d5fe3144a5d32efc8da9232",
+      "annotation_format": "SIGNSTREAM_TEXT_EXPORT_VERSION5_CA2002",
+      "time_units": "LEGACY_SOURCE_FRAME_COORDINATES_UNCALIBRATED_TO_CURRENT_CONTAINER; preserve integers; no conversion or boundary evaluation",
+      "sample_id": "ncslgr_b79906da14d728f6",
+      "collection": "ncslgr10a.xml",
+      "utterance_id": "47",
+      "source_group": "522",
+      "source_url": "https://csr.bu.edu/asl/private/compressed/master/717_522_small_0.mov",
+      "source_url_original": "http://csr.bu.edu/asl/private/compressed/master/717_522_small_0.mov",
+      "gloss_text": "MOTHER FUTURE NOT BUY HOUSE",
+      "dataset": "NCSLGR",
+      "signer_id": "ncslgr_participant_439e92da28e72cc2",
+      "annotation_type": "AUTHENTIC_STRUCTURED_MAIN_GLOSS_EVENTS_MATCHING_OFFICIAL_INDEX",
+      "annotation_provenance": {
+        "index_path": "D:\\apphearv3claude\\AppHear-claude-s2-r3-eval-suite\\AppHear-claude-s2-r3-eval-suite\\experiments\\continuous_asl\\20261019T155428Z_cslr01\\data\\extracted\\ncslgr_video_index\\video_index-20120129\\files_by_xml_file.csv",
+        "index_sha256": "8b1dfa8f58da82272c475263f65f30f9d41be03bf523fc70d6e5820d17e7cc63",
+        "source_row": 1430,
+        "export_source_url": "https://www.bu.edu/asllrp/cslgr/pages/sstxt/717_522",
+        "ID_note": "Legacy export ID and current index ID preserved separately; join uses exact media basename+collection+gloss, never inferred offset."
+      },
+      "license_status": "BU_PRIVATE_NONCOMMERCIAL_RESEARCH_TERMS_REUSED",
+      "license_reference": "https://www.bu.edu/asllrp/dai-terms.html",
+      "video_path": "D:\\apphearv3claude\\AppHear-claude-s2-r3-eval-suite\\AppHear-claude-s2-r3-eval-suite\\experiments\\continuous_asl\\20261020_continuous_expand04\\data\\raw\\ncslgr_structured\\videos\\ncslgr_b79906da14d728f6.mov"
+    },
+    {
+      "database": "ncslgr10b",
+      "export_utterance_id": "1",
+      "participant_source_name": "Benjamin James Bahan",
+      "glosses": [
+        "MOTHER",
+        "NOT-WANT",
+        "BUY",
+        "HOUSE"
+      ],
+      "sign_times_original": [
+        [
+          580,
+          640
+        ],
+        [
+          800,
+          880
+        ],
+        [
+          1020,
+          1100
+        ],
+        [
+          1200,
+          1380
+        ]
+      ],
+      "source_utterance_bounds_original": [
+        420,
+        1460
+      ],
+      "video_basenames": [
+        "718_523_master_small.mov",
+        "718_523_slave1_small.mov",
+        "718_523_slave2_small.mov"
+      ],
+      "annotation_path": "D:\\apphearv3claude\\AppHear-claude-s2-r3-eval-suite\\AppHear-claude-s2-r3-eval-suite\\experiments\\continuous_asl\\20261020_continuous_expand04\\data\\raw\\bu_signstream\\exports\\718_523.txt",
+      "annotation_sha256": "1b9f8049e6cb116165a5550f43bb7aae02cdd59123a8286bcab128454f9fe894",
+      "annotation_format": "SIGNSTREAM_TEXT_EXPORT_VERSION5_CA2002",
+      "time_units": "LEGACY_SOURCE_FRAME_COORDINATES_UNCALIBRATED_TO_CURRENT_CONTAINER; preserve integers; no conversion or boundary evaluation",
+      "sample_id": "ncslgr_80c4176c179c9190",
+      "collection": "ncslgr10b.xml",
+      "utterance_id": "0",
+      "source_group": "523",
+      "source_url": "https://csr.bu.edu/asl/private/compressed/master/718_523_small_0.mov",
+      "source_url_original": "http://csr.bu.edu/asl/private/compressed/master/718_523_small_0.mov",
+      "gloss_text": "MOTHER NOT-WANT BUY HOUSE",
+      "dataset": "NCSLGR",
+      "signer_id": "ncslgr_participant_439e92da28e72cc2",
+      "annotation_type": "AUTHENTIC_STRUCTURED_MAIN_GLOSS_EVENTS_MATCHING_OFFICIAL_INDEX",
+      "annotation_provenance": {
+        "index_path": "D:\\apphearv3claude\\AppHear-claude-s2-r3-eval-suite\\AppHear-claude-s2-r3-eval-suite\\experiments\\continuous_asl\\20261019T155428Z_cslr01\\data\\extracted\\ncslgr_video_index\\video_index-20120129\\files_by_xml_file.csv",
+        "index_sha256": "8b1dfa8f58da82272c475263f65f30f9d41be03bf523fc70d6e5820d17e7cc63",
+        "source_row": 1433,
+        "export_source_url": "https://www.bu.edu/asllrp/cslgr/pages/sstxt/718_523",
+        "ID_note": "Legacy export ID and current index ID preserved separately; join uses exact media basename+collection+gloss, never inferred offset."
+      },
+      "license_status": "BU_PRIVATE_NONCOMMERCIAL_RESEARCH_TERMS_REUSED",
+      "license_reference": "https://www.bu.edu/asllrp/dai-terms.html",
+      "video_path": "D:\\apphearv3claude\\AppHear-claude-s2-r3-eval-suite\\AppHear-claude-s2-r3-eval-suite\\experiments\\continuous_asl\\20261020_continuous_expand04\\data\\raw\\ncslgr_structured\\videos\\ncslgr_80c4176c179c9190.mov"
+    },
+    {
+      "database": "ncslgr10c",
+      "export_utterance_id": "1",
+      "participant_source_name": "Benjamin James Bahan",
+      "glosses": [
+        "MOTHER",
+        "LIKE",
+        "IX-3p:i",
+        "MOVIE"
+      ],
+      "sign_times_original": [
+        [
+          440,
+          500
+        ],
+        [
+          560,
+          620
+        ],
+        [
+          700,
+          740
+        ],
+        [
+          920,
+          1040
+        ]
+      ],
+      "source_utterance_bounds_original": [
+        340,
+        1240
+      ],
+      "video_basenames": [
+        "765_574_master_small.mov",
+        "765_574_slave1_small.mov",
+        "765_574_slave2_small.mov"
+      ],
+      "annotation_path": "D:\\apphearv3claude\\AppHear-claude-s2-r3-eval-suite\\AppHear-claude-s2-r3-eval-suite\\experiments\\continuous_asl\\20261020_continuous_expand04\\data\\raw\\bu_signstream\\exports\\765_574.txt",
+      "annotation_sha256": "91f3e39d7a42b555ae0cf8de1ef2ae19effbeb7caf9db81a107231dabb5657e7",
+      "annotation_format": "SIGNSTREAM_TEXT_EXPORT_VERSION5_CA2002",
+      "time_units": "LEGACY_SOURCE_FRAME_COORDINATES_UNCALIBRATED_TO_CURRENT_CONTAINER; preserve integers; no conversion or boundary evaluation",
+      "sample_id": "ncslgr_95621d6e49f6ddec",
+      "collection": "ncslgr10c.xml",
+      "utterance_id": "0",
+      "source_group": "574",
+      "source_url": "https://csr.bu.edu/asl/private/compressed/master/765_574_small_0.mov",
+      "source_url_original": "http://csr.bu.edu/asl/private/compressed/master/765_574_small_0.mov",
+      "gloss_text": "MOTHER LIKE IX-3p:i MOVIE",
+      "dataset": "NCSLGR",
+      "signer_id": "ncslgr_participant_439e92da28e72cc2",
+      "annotation_type": "AUTHENTIC_STRUCTURED_MAIN_GLOSS_EVENTS_MATCHING_OFFICIAL_INDEX",
+      "annotation_provenance": {
+        "index_path": "D:\\apphearv3claude\\AppHear-claude-s2-r3-eval-suite\\AppHear-claude-s2-r3-eval-suite\\experiments\\continuous_asl\\20261019T155428Z_cslr01\\data\\extracted\\ncslgr_video_index\\video_index-20120129\\files_by_xml_file.csv",
+        "index_sha256": "8b1dfa8f58da82272c475263f65f30f9d41be03bf523fc70d6e5820d17e7cc63",
+        "source_row": 1568,
+        "export_source_url": "https://www.bu.edu/asllrp/cslgr/pages/sstxt/765_574",
+        "ID_note": "Legacy export ID and current index ID preserved separately; join uses exact media basename+collection+gloss, never inferred offset."
+      },
+      "license_status": "BU_PRIVATE_NONCOMMERCIAL_RESEARCH_TERMS_REUSED",
+      "license_reference": "https://www.bu.edu/asllrp/dai-terms.html",
+      "video_path": "D:\\apphearv3claude\\AppHear-claude-s2-r3-eval-suite\\AppHear-claude-s2-r3-eval-suite\\experiments\\continuous_asl\\20261020_continuous_expand04\\data\\raw\\ncslgr_structured\\videos\\ncslgr_95621d6e49f6ddec.mov"
+    },
+    {
+      "database": "ncslgr10c",
+      "export_utterance_id": "2",
+      "participant_source_name": "Benjamin James Bahan",
+      "glosses": [
+        "MOTHER",
+        "LIKE",
+        "IX-3p:i",
+        "BOOK"
+      ],
+      "sign_times_original": [
+        [
+          200,
+          240
+        ],
+        [
+          300,
+          340
+        ],
+        [
+          400,
+          440
+        ],
+        [
+          560,
+          720
+        ]
+      ],
+      "source_utterance_bounds_original": [
+        140,
+        820
+      ],
+      "video_basenames": [
+        "767_576_master_small.mov",
+        "767_576_slave1_small.mov",
+        "767_576_slave2_small.mov"
+      ],
+      "annotation_path": "D:\\apphearv3claude\\AppHear-claude-s2-r3-eval-suite\\AppHear-claude-s2-r3-eval-suite\\experiments\\continuous_asl\\20261020_continuous_expand04\\data\\raw\\bu_signstream\\exports\\767_576.txt",
+      "annotation_sha256": "d0bebaade22618df7bc74aebbd8d3fe17dbc4b58e3a427561b6bd770ba63c00d",
+      "annotation_format": "SIGNSTREAM_TEXT_EXPORT_VERSION5_CA2002",
+      "time_units": "LEGACY_SOURCE_FRAME_COORDINATES_UNCALIBRATED_TO_CURRENT_CONTAINER; preserve integers; no conversion or boundary evaluation",
+      "sample_id": "ncslgr_5f0a38e2cfe691bd",
+      "collection": "ncslgr10c.xml",
+      "utterance_id": "1",
+      "source_group": "576",
+      "source_url": "https://csr.bu.edu/asl/private/compressed/master/767_576_small_0.mov",
+      "source_url_original": "http://csr.bu.edu/asl/private/compressed/master/767_576_small_0.mov",
+      "gloss_text": "MOTHER LIKE IX-3p:i BOOK",
+      "dataset": "NCSLGR",
+      "signer_id": "ncslgr_participant_439e92da28e72cc2",
+      "annotation_type": "AUTHENTIC_STRUCTURED_MAIN_GLOSS_EVENTS_MATCHING_OFFICIAL_INDEX",
+      "annotation_provenance": {
+        "index_path": "D:\\apphearv3claude\\AppHear-claude-s2-r3-eval-suite\\AppHear-claude-s2-r3-eval-suite\\experiments\\continuous_asl\\20261019T155428Z_cslr01\\data\\extracted\\ncslgr_video_index\\video_index-20120129\\files_by_xml_file.csv",
+        "index_sha256": "8b1dfa8f58da82272c475263f65f30f9d41be03bf523fc70d6e5820d17e7cc63",
+        "source_row": 1571,
+        "export_source_url": "https://www.bu.edu/asllrp/cslgr/pages/sstxt/767_576",
+        "ID_note": "Legacy export ID and current index ID preserved separately; join uses exact media basename+collection+gloss, never inferred offset."
+      },
+      "license_status": "BU_PRIVATE_NONCOMMERCIAL_RESEARCH_TERMS_REUSED",
+      "license_reference": "https://www.bu.edu/asllrp/dai-terms.html",
+      "video_path": "D:\\apphearv3claude\\AppHear-claude-s2-r3-eval-suite\\AppHear-claude-s2-r3-eval-suite\\experiments\\continuous_asl\\20261020_continuous_expand04\\data\\raw\\ncslgr_structured\\videos\\ncslgr_5f0a38e2cfe691bd.mov"
+    },
+    {
+      "database": "ncslgr10c",
+      "export_utterance_id": "5",
+      "participant_source_name": "Benjamin James Bahan",
+      "glosses": [
+        "FATHER",
+        "FUTURE",
+        "LIKE",
+        "THAT:i",
+        "BOOK",
+        "IX-loc:i"
+      ],
+      "sign_times_original": [
+        [
+          280,
+          380
+        ],
+        [
+          400,
+          560
+        ],
+        [
+          640,
+          680
+        ],
+        [
+          780,
+          800
+        ],
+        [
+          860,
+          900
+        ],
+        [
+          960,
+          1020
+        ]
+      ],
+      "source_utterance_bounds_original": [
+        180,
+        1180
+      ],
+      "video_basenames": [
+        "770_579_master_small.mov",
+        "770_579_slave1_small.mov",
+        "770_579_slave2_small.mov"
+      ],
+      "annotation_path": "D:\\apphearv3claude\\AppHear-claude-s2-r3-eval-suite\\AppHear-claude-s2-r3-eval-suite\\experiments\\continuous_asl\\20261020_continuous_expand04\\data\\raw\\bu_signstream\\exports\\770_579.txt",
+      "annotation_sha256": "1e9c667cffdfc1a90b8b71378db2b52c9b07578219002437e3538ec61b274f87",
+      "annotation_format": "SIGNSTREAM_TEXT_EXPORT_VERSION5_CA2002",
+      "time_units": "LEGACY_SOURCE_FRAME_COORDINATES_UNCALIBRATED_TO_CURRENT_CONTAINER; preserve integers; no conversion or boundary evaluation",
+      "sample_id": "ncslgr_8c36fec01ac4f1a9",
+      "collection": "ncslgr10c.xml",
+      "utterance_id": "4",
+      "source_group": "579",
+      "source_url": "https://csr.bu.edu/asl/private/compressed/master/770_579_small_0.mov",
+      "source_url_original": "http://csr.bu.edu/asl/private/compressed/master/770_579_small_0.mov",
+      "gloss_text": "FATHER FUTURE LIKE THAT:i BOOK IX-loc:i",
+      "dataset": "NCSLGR",
+      "signer_id": "ncslgr_participant_439e92da28e72cc2",
+      "annotation_type": "AUTHENTIC_STRUCTURED_MAIN_GLOSS_EVENTS_MATCHING_OFFICIAL_INDEX",
+      "annotation_provenance": {
+        "index_path": "D:\\apphearv3claude\\AppHear-claude-s2-r3-eval-suite\\AppHear-claude-s2-r3-eval-suite\\experiments\\continuous_asl\\20261019T155428Z_cslr01\\data\\extracted\\ncslgr_video_index\\video_index-20120129\\files_by_xml_file.csv",
+        "index_sha256": "8b1dfa8f58da82272c475263f65f30f9d41be03bf523fc70d6e5820d17e7cc63",
+        "source_row": 1580,
+        "export_source_url": "https://www.bu.edu/asllrp/cslgr/pages/sstxt/770_579",
+        "ID_note": "Legacy export ID and current index ID preserved separately; join uses exact media basename+collection+gloss, never inferred offset."
+      },
+      "license_status": "BU_PRIVATE_NONCOMMERCIAL_RESEARCH_TERMS_REUSED",
+      "license_reference": "https://www.bu.edu/asllrp/dai-terms.html",
+      "video_path": "D:\\apphearv3claude\\AppHear-claude-s2-r3-eval-suite\\AppHear-claude-s2-r3-eval-suite\\experiments\\continuous_asl\\20261020_continuous_expand04\\data\\raw\\ncslgr_structured\\videos\\ncslgr_8c36fec01ac4f1a9.mov"
+    },
+    {
+      "database": "ncslgr10c",
+      "export_utterance_id": "6",
+      "participant_source_name": "Benjamin James Bahan",
+      "glosses": [
+        "FATHER",
+        "FUTURE",
+        "LIKE",
+        "THAT:i",
+        "BOOK",
+        "IX-loc:i",
+        "QMwg"
+      ],
+      "sign_times_original": [
+        [
+          600,
+          620
+        ],
+        [
+          700,
+          740
+        ],
+        [
+          800,
+          840
+        ],
+        [
+          900,
+          920
+        ],
+        [
+          1000,
+          1020
+        ],
+        [
+          1060,
+          1080
+        ],
+        [
+          1180,
+          1400
+        ]
+      ],
+      "source_utterance_bounds_original": [
+        180,
+        1740
+      ],
+      "video_basenames": [
+        "771_580_master_small.mov",
+        "771_580_slave1_small.mov",
+        "771_580_slave2_small.mov"
+      ],
+      "annotation_path": "D:\\apphearv3claude\\AppHear-claude-s2-r3-eval-suite\\AppHear-claude-s2-r3-eval-suite\\experiments\\continuous_asl\\20261020_continuous_expand04\\data\\raw\\bu_signstream\\exports\\771_580.txt",
+      "annotation_sha256": "51d837d23ca8fdf919bf52f143fea759e7f4596aa8a1d753adc586555e99db8f",
+      "annotation_format": "SIGNSTREAM_TEXT_EXPORT_VERSION5_CA2002",
+      "time_units": "LEGACY_SOURCE_FRAME_COORDINATES_UNCALIBRATED_TO_CURRENT_CONTAINER; preserve integers; no conversion or boundary evaluation",
+      "sample_id": "ncslgr_7241130f2c031d26",
+      "collection": "ncslgr10c.xml",
+      "utterance_id": "5",
+      "source_group": "580",
+      "source_url": "https://csr.bu.edu/asl/private/compressed/master/771_580_small_0.mov",
+      "source_url_original": "http://csr.bu.edu/asl/private/compressed/master/771_580_small_0.mov",
+      "gloss_text": "FATHER FUTURE LIKE THAT:i BOOK IX-loc:i QMwg",
+      "dataset": "NCSLGR",
+      "signer_id": "ncslgr_participant_439e92da28e72cc2",
+      "annotation_type": "AUTHENTIC_STRUCTURED_MAIN_GLOSS_EVENTS_MATCHING_OFFICIAL_INDEX",
+      "annotation_provenance": {
+        "index_path": "D:\\apphearv3claude\\AppHear-claude-s2-r3-eval-suite\\AppHear-claude-s2-r3-eval-suite\\experiments\\continuous_asl\\20261019T155428Z_cslr01\\data\\extracted\\ncslgr_video_index\\video_index-20120129\\files_by_xml_file.csv",
+        "index_sha256": "8b1dfa8f58da82272c475263f65f30f9d41be03bf523fc70d6e5820d17e7cc63",
+        "source_row": 1583,
+        "export_source_url": "https://www.bu.edu/asllrp/cslgr/pages/sstxt/771_580",
+        "ID_note": "Legacy export ID and current index ID preserved separately; join uses exact media basename+collection+gloss, never inferred offset."
+      },
+      "license_status": "BU_PRIVATE_NONCOMMERCIAL_RESEARCH_TERMS_REUSED",
+      "license_reference": "https://www.bu.edu/asllrp/dai-terms.html",
+      "video_path": "D:\\apphearv3claude\\AppHear-claude-s2-r3-eval-suite\\AppHear-claude-s2-r3-eval-suite\\experiments\\continuous_asl\\20261020_continuous_expand04\\data\\raw\\ncslgr_structured\\videos\\ncslgr_7241130f2c031d26.mov"
+    },
+    {
+      "database": "ncslgr10c",
+      "export_utterance_id": "7",
+      "participant_source_name": "Benjamin James Bahan",
+      "glosses": [
+        "FATHER",
+        "FUTURE",
+        "LIKE",
+        "THAT:i",
+        "BOOK",
+        "IX-loc:i"
+      ],
+      "sign_times_original": [
+        [
+          400,
+          420
+        ],
+        [
+          500,
+          560
+        ],
+        [
+          640,
+          680
+        ],
+        [
+          780,
+          820
+        ],
+        [
+          920,
+          960
+        ],
+        [
+          1020,
+          1060
+        ]
+      ],
+      "source_utterance_bounds_original": [
+        160,
+        1200
+      ],
+      "video_basenames": [
+        "773_583_master_small.mov",
+        "773_583_slave1_small.mov",
+        "773_583_slave2_small.mov"
+      ],
+      "annotation_path": "D:\\apphearv3claude\\AppHear-claude-s2-r3-eval-suite\\AppHear-claude-s2-r3-eval-suite\\experiments\\continuous_asl\\20261020_continuous_expand04\\data\\raw\\bu_signstream\\exports\\773_583.txt",
+      "annotation_sha256": "c37aff4c653668386450c8d00919fdc1e28dcb7faa83d0612d86bf57decc6c13",
+      "annotation_format": "SIGNSTREAM_TEXT_EXPORT_VERSION5_CA2002",
+      "time_units": "LEGACY_SOURCE_FRAME_COORDINATES_UNCALIBRATED_TO_CURRENT_CONTAINER; preserve integers; no conversion or boundary evaluation",
+      "sample_id": "ncslgr_5b2885a13d66a228",
+      "collection": "ncslgr10c.xml",
+      "utterance_id": "6",
+      "source_group": "583",
+      "source_url": "https://csr.bu.edu/asl/private/compressed/master/773_583_small_0.mov",
+      "source_url_original": "http://csr.bu.edu/asl/private/compressed/master/773_583_small_0.mov",
+      "gloss_text": "FATHER FUTURE LIKE THAT:i BOOK IX-loc:i",
+      "dataset": "NCSLGR",
+      "signer_id": "ncslgr_participant_439e92da28e72cc2",
+      "annotation_type": "AUTHENTIC_STRUCTURED_MAIN_GLOSS_EVENTS_MATCHING_OFFICIAL_INDEX",
+      "annotation_provenance": {
+        "index_path": "D:\\apphearv3claude\\AppHear-claude-s2-r3-eval-suite\\AppHear-claude-s2-r3-eval-suite\\experiments\\continuous_asl\\20261019T155428Z_cslr01\\data\\extracted\\ncslgr_video_index\\video_index-20120129\\files_by_xml_file.csv",
+        "index_sha256": "8b1dfa8f58da82272c475263f65f30f9d41be03bf523fc70d6e5820d17e7cc63",
+        "source_row": 1586,
+        "export_source_url": "https://www.bu.edu/asllrp/cslgr/pages/sstxt/773_583",
+        "ID_note": "Legacy export ID and current index ID preserved separately; join uses exact media basename+collection+gloss, never inferred offset."
+      },
+      "license_status": "BU_PRIVATE_NONCOMMERCIAL_RESEARCH_TERMS_REUSED",
+      "license_reference": "https://www.bu.edu/asllrp/dai-terms.html",
+      "video_path": "D:\\apphearv3claude\\AppHear-claude-s2-r3-eval-suite\\AppHear-claude-s2-r3-eval-suite\\experiments\\continuous_asl\\20261020_continuous_expand04\\data\\raw\\ncslgr_structured\\videos\\ncslgr_5b2885a13d66a228.mov"
+    },
+    {
+      "database": "ncslgr10c",
+      "export_utterance_id": "8",
+      "participant_source_name": "Benjamin James Bahan",
+      "glosses": [
+        "FATHER",
+        "LIKE",
+        "THAT",
+        "BOOK",
+        "FUTURE",
+        "QMwg"
+      ],
+      "sign_times_original": [
+        [
+          720,
+          740
+        ],
+        [
+          840,
+          860
+        ],
+        [
+          920,
+          940
+        ],
+        [
+          1020,
+          1060
+        ],
+        [
+          1160,
+          1180
+        ],
+        [
+          1320,
+          1500
+        ]
+      ],
+      "source_utterance_bounds_original": [
+        260,
+        1680
+      ],
+      "video_basenames": [
+        "774_584_master_small.mov",
+        "774_584_slave1_small.mov",
+        "774_584_slave2_small.mov"
+      ],
+      "annotation_path": "D:\\apphearv3claude\\AppHear-claude-s2-r3-eval-suite\\AppHear-claude-s2-r3-eval-suite\\experiments\\continuous_asl\\20261020_continuous_expand04\\data\\raw\\bu_signstream\\exports\\774_584.txt",
+      "annotation_sha256": "2f7ad8690b5615574bed5d4e2e0d00cc23c64690c40d51389eae2f6b2090c737",
+      "annotation_format": "SIGNSTREAM_TEXT_EXPORT_VERSION5_CA2002",
+      "time_units": "LEGACY_SOURCE_FRAME_COORDINATES_UNCALIBRATED_TO_CURRENT_CONTAINER; preserve integers; no conversion or boundary evaluation",
+      "sample_id": "ncslgr_034f464eeb787335",
+      "collection": "ncslgr10c.xml",
+      "utterance_id": "7",
+      "source_group": "584",
+      "source_url": "https://csr.bu.edu/asl/private/compressed/master/774_584_small_0.mov",
+      "source_url_original": "http://csr.bu.edu/asl/private/compressed/master/774_584_small_0.mov",
+      "gloss_text": "FATHER LIKE THAT BOOK FUTURE QMwg",
+      "dataset": "NCSLGR",
+      "signer_id": "ncslgr_participant_439e92da28e72cc2",
+      "annotation_type": "AUTHENTIC_STRUCTURED_MAIN_GLOSS_EVENTS_MATCHING_OFFICIAL_INDEX",
+      "annotation_provenance": {
+        "index_path": "D:\\apphearv3claude\\AppHear-claude-s2-r3-eval-suite\\AppHear-claude-s2-r3-eval-suite\\experiments\\continuous_asl\\20261019T155428Z_cslr01\\data\\extracted\\ncslgr_video_index\\video_index-20120129\\files_by_xml_file.csv",
+        "index_sha256": "8b1dfa8f58da82272c475263f65f30f9d41be03bf523fc70d6e5820d17e7cc63",
+        "source_row": 1589,
+        "export_source_url": "https://www.bu.edu/asllrp/cslgr/pages/sstxt/774_584",
+        "ID_note": "Legacy export ID and current index ID preserved separately; join uses exact media basename+collection+gloss, never inferred offset."
+      },
+      "license_status": "BU_PRIVATE_NONCOMMERCIAL_RESEARCH_TERMS_REUSED",
+      "license_reference": "https://www.bu.edu/asllrp/dai-terms.html",
+      "video_path": "D:\\apphearv3claude\\AppHear-claude-s2-r3-eval-suite\\AppHear-claude-s2-r3-eval-suite\\experiments\\continuous_asl\\20261020_continuous_expand04\\data\\raw\\ncslgr_structured\\videos\\ncslgr_034f464eeb787335.mov"
+    },
+    {
+      "database": "ncslgr10c",
+      "export_utterance_id": "19",
+      "participant_source_name": "Benjamin James Bahan",
+      "glosses": [
+        "MOTHER",
+        "BUY",
+        "BOOK",
+        "YESTERDAY"
+      ],
+      "sign_times_original": [
+        [
+          420,
+          480
+        ],
+        [
+          540,
+          640
+        ],
+        [
+          700,
+          780
+        ],
+        [
+          940,
+          1080
+        ]
+      ],
+      "source_utterance_bounds_original": [
+        180,
+        1260
+      ],
+      "video_basenames": [
+        "787_597_master_small.mov",
+        "787_597_slave1_small.mov",
+        "787_597_slave2_small.mov"
+      ],
+      "annotation_path": "D:\\apphearv3claude\\AppHear-claude-s2-r3-eval-suite\\AppHear-claude-s2-r3-eval-suite\\experiments\\continuous_asl\\20261020_continuous_expand04\\data\\raw\\bu_signstream\\exports\\787_597.txt",
+      "annotation_sha256": "8bf9a37c0bceb7725d92ddf81f37567b1c743d34ff40aa272379ffc55fa1b1f9",
+      "annotation_format": "SIGNSTREAM_TEXT_EXPORT_VERSION5_CA2002",
+      "time_units": "LEGACY_SOURCE_FRAME_COORDINATES_UNCALIBRATED_TO_CURRENT_CONTAINER; preserve integers; no conversion or boundary evaluation",
+      "sample_id": "ncslgr_70c974c405d9d22f",
+      "collection": "ncslgr10c.xml",
+      "utterance_id": "18",
+      "source_group": "597",
+      "source_url": "https://csr.bu.edu/asl/private/compressed/master/787_597_small_0.mov",
+      "source_url_original": "http://csr.bu.edu/asl/private/compressed/master/787_597_small_0.mov",
+      "gloss_text": "MOTHER BUY BOOK YESTERDAY",
+      "dataset": "NCSLGR",
+      "signer_id": "ncslgr_participant_439e92da28e72cc2",
+      "annotation_type": "AUTHENTIC_STRUCTURED_MAIN_GLOSS_EVENTS_MATCHING_OFFICIAL_INDEX",
+      "annotation_provenance": {
+        "index_path": "D:\\apphearv3claude\\AppHear-claude-s2-r3-eval-suite\\AppHear-claude-s2-r3-eval-suite\\experiments\\continuous_asl\\20261019T155428Z_cslr01\\data\\extracted\\ncslgr_video_index\\video_index-20120129\\files_by_xml_file.csv",
+        "index_sha256": "8b1dfa8f58da82272c475263f65f30f9d41be03bf523fc70d6e5820d17e7cc63",
+        "source_row": 1622,
+        "export_source_url": "https://www.bu.edu/asllrp/cslgr/pages/sstxt/787_597",
+        "ID_note": "Legacy export ID and current index ID preserved separately; join uses exact media basename+collection+gloss, never inferred offset."
+      },
+      "license_status": "BU_PRIVATE_NONCOMMERCIAL_RESEARCH_TERMS_REUSED",
+      "license_reference": "https://www.bu.edu/asllrp/dai-terms.html",
+      "video_path": "D:\\apphearv3claude\\AppHear-claude-s2-r3-eval-suite\\AppHear-claude-s2-r3-eval-suite\\experiments\\continuous_asl\\20261020_continuous_expand04\\data\\raw\\ncslgr_structured\\videos\\ncslgr_70c974c405d9d22f.mov"
+    },
+    {
+      "database": "ncslgr10c",
+      "export_utterance_id": "20",
+      "participant_source_name": "Benjamin James Bahan",
+      "glosses": [
+        "MOTHER",
+        "BUY",
+        "ONE",
+        "BOOK",
+        "YESTERDAY"
+      ],
+      "sign_times_original": [
+        [
+          300,
+          360
+        ],
+        [
+          440,
+          500
+        ],
+        [
+          560,
+          640
+        ],
+        [
+          720,
+          740
+        ],
+        [
+          880,
+          1020
+        ]
+      ],
+      "source_utterance_bounds_original": [
+        180,
+        1160
+      ],
+      "video_basenames": [
+        "788_598_master_small.mov",
+        "788_598_slave1_small.mov",
+        "788_598_slave2_small.mov"
+      ],
+      "annotation_path": "D:\\apphearv3claude\\AppHear-claude-s2-r3-eval-suite\\AppHear-claude-s2-r3-eval-suite\\experiments\\continuous_asl\\20261020_continuous_expand04\\data\\raw\\bu_signstream\\exports\\788_598.txt",
+      "annotation_sha256": "c49b64224bb4650b3c7d132323b70f4ca23c1aba8d12e07cff75b057760b76e4",
+      "annotation_format": "SIGNSTREAM_TEXT_EXPORT_VERSION5_CA2002",
+      "time_units": "LEGACY_SOURCE_FRAME_COORDINATES_UNCALIBRATED_TO_CURRENT_CONTAINER; preserve integers; no conversion or boundary evaluation",
+      "sample_id": "ncslgr_6d36b1f27e4d56af",
+      "collection": "ncslgr10c.xml",
+      "utterance_id": "19",
+      "source_group": "598",
+      "source_url": "https://csr.bu.edu/asl/private/compressed/master/788_598_small_0.mov",
+      "source_url_original": "http://csr.bu.edu/asl/private/compressed/master/788_598_small_0.mov",
+      "gloss_text": "MOTHER BUY ONE BOOK YESTERDAY",
+      "dataset": "NCSLGR",
+      "signer_id": "ncslgr_participant_439e92da28e72cc2",
+      "annotation_type": "AUTHENTIC_STRUCTURED_MAIN_GLOSS_EVENTS_MATCHING_OFFICIAL_INDEX",
+      "annotation_provenance": {
+        "index_path": "D:\\apphearv3claude\\AppHear-claude-s2-r3-eval-suite\\AppHear-claude-s2-r3-eval-suite\\experiments\\continuous_asl\\20261019T155428Z_cslr01\\data\\extracted\\ncslgr_video_index\\video_index-20120129\\files_by_xml_file.csv",
+        "index_sha256": "8b1dfa8f58da82272c475263f65f30f9d41be03bf523fc70d6e5820d17e7cc63",
+        "source_row": 1625,
+        "export_source_url": "https://www.bu.edu/asllrp/cslgr/pages/sstxt/788_598",
+        "ID_note": "Legacy export ID and current index ID preserved separately; join uses exact media basename+collection+gloss, never inferred offset."
+      },
+      "license_status": "BU_PRIVATE_NONCOMMERCIAL_RESEARCH_TERMS_REUSED",
+      "license_reference": "https://www.bu.edu/asllrp/dai-terms.html",
+      "video_path": "D:\\apphearv3claude\\AppHear-claude-s2-r3-eval-suite\\AppHear-claude-s2-r3-eval-suite\\experiments\\continuous_asl\\20261020_continuous_expand04\\data\\raw\\ncslgr_structured\\videos\\ncslgr_6d36b1f27e4d56af.mov"
+    },
+    {
+      "database": "ncslgr10c",
+      "export_utterance_id": "21",
+      "participant_source_name": "Benjamin James Bahan",
+      "glosses": [
+        "MOTHER",
+        "BUY",
+        "ONE",
+        "BOOK",
+        "YESTERDAY"
+      ],
+      "sign_times_original": [
+        [
+          300,
+          360
+        ],
+        [
+          420,
+          500
+        ],
+        [
+          560,
+          640
+        ],
+        [
+          720,
+          740
+        ],
+        [
+          880,
+          1020
+        ]
+      ],
+      "source_utterance_bounds_original": [
+        180,
+        1160
+      ],
+      "video_basenames": [
+        "789_599_master_small.mov",
+        "789_599_slave1_small.mov",
+        "789_599_slave2_small.mov"
+      ],
+      "annotation_path": "D:\\apphearv3claude\\AppHear-claude-s2-r3-eval-suite\\AppHear-claude-s2-r3-eval-suite\\experiments\\continuous_asl\\20261020_continuous_expand04\\data\\raw\\bu_signstream\\exports\\789_599.txt",
+      "annotation_sha256": "b9e528a6ad9d0a7f7937736855a4a913c5c6331750618c9c2027e1308234f09e",
+      "annotation_format": "SIGNSTREAM_TEXT_EXPORT_VERSION5_CA2002",
+      "time_units": "LEGACY_SOURCE_FRAME_COORDINATES_UNCALIBRATED_TO_CURRENT_CONTAINER; preserve integers; no conversion or boundary evaluation",
+      "sample_id": "ncslgr_87f13ef225243f47",
+      "collection": "ncslgr10c.xml",
+      "utterance_id": "20",
+      "source_group": "599",
+      "source_url": "https://csr.bu.edu/asl/private/compressed/master/789_599_small_0.mov",
+      "source_url_original": "http://csr.bu.edu/asl/private/compressed/master/789_599_small_0.mov",
+      "gloss_text": "MOTHER BUY ONE BOOK YESTERDAY",
+      "dataset": "NCSLGR",
+      "signer_id": "ncslgr_participant_439e92da28e72cc2",
+      "annotation_type": "AUTHENTIC_STRUCTURED_MAIN_GLOSS_EVENTS_MATCHING_OFFICIAL_INDEX",
+      "annotation_provenance": {
+        "index_path": "D:\\apphearv3claude\\AppHear-claude-s2-r3-eval-suite\\AppHear-claude-s2-r3-eval-suite\\experiments\\continuous_asl\\20261019T155428Z_cslr01\\data\\extracted\\ncslgr_video_index\\video_index-20120129\\files_by_xml_file.csv",
+        "index_sha256": "8b1dfa8f58da82272c475263f65f30f9d41be03bf523fc70d6e5820d17e7cc63",
+        "source_row": 1628,
+        "export_source_url": "https://www.bu.edu/asllrp/cslgr/pages/sstxt/789_599",
+        "ID_note": "Legacy export ID and current index ID preserved separately; join uses exact media basename+collection+gloss, never inferred offset."
+      },
+      "license_status": "BU_PRIVATE_NONCOMMERCIAL_RESEARCH_TERMS_REUSED",
+      "license_reference": "https://www.bu.edu/asllrp/dai-terms.html",
+      "video_path": "D:\\apphearv3claude\\AppHear-claude-s2-r3-eval-suite\\AppHear-claude-s2-r3-eval-suite\\experiments\\continuous_asl\\20261020_continuous_expand04\\data\\raw\\ncslgr_structured\\videos\\ncslgr_87f13ef225243f47.mov"
+    },
+    {
+      "database": "ncslgr10d",
+      "export_utterance_id": "23",
+      "participant_source_name": "Norma Bowers Tourangeau",
+      "glosses": [
+        "MOTHER",
+        "LIKE",
+        "IX-3p:i",
+        "BOOK+"
+      ],
+      "sign_times_original": [
+        [
+          640,
+          700
+        ],
+        [
+          780,
+          800
+        ],
+        [
+          880,
+          900
+        ],
+        [
+          980,
+          1200
+        ]
+      ],
+      "source_utterance_bounds_original": [
+        600,
+        1240
+      ],
+      "video_basenames": [
+        "850_667_master_small.mov",
+        "850_667_slave1_small.mov",
+        "850_667_slave2_small.mov"
+      ],
+      "annotation_path": "D:\\apphearv3claude\\AppHear-claude-s2-r3-eval-suite\\AppHear-claude-s2-r3-eval-suite\\experiments\\continuous_asl\\20261020_continuous_expand04\\data\\raw\\bu_signstream\\exports\\850_667.txt",
+      "annotation_sha256": "b4dc50d9ecd325a76e012f009e0582e7cb671b556de3aac3cd55de566a465348",
+      "annotation_format": "SIGNSTREAM_TEXT_EXPORT_VERSION5_CA2002",
+      "time_units": "LEGACY_SOURCE_FRAME_COORDINATES_UNCALIBRATED_TO_CURRENT_CONTAINER; preserve integers; no conversion or boundary evaluation",
+      "sample_id": "ncslgr_bec597c6afd57f92",
+      "collection": "ncslgr10d.xml",
+      "utterance_id": "22",
+      "source_group": "667",
+      "source_url": "https://csr.bu.edu/asl/private/compressed/master/850_667_small_0.mov",
+      "source_url_original": "http://csr.bu.edu/asl/private/compressed/master/850_667_small_0.mov",
+      "gloss_text": "MOTHER LIKE IX-3p:i BOOK+",
+      "dataset": "NCSLGR",
+      "signer_id": "ncslgr_participant_1b5ed1215a0d6756",
+      "annotation_type": "AUTHENTIC_STRUCTURED_MAIN_GLOSS_EVENTS_MATCHING_OFFICIAL_INDEX",
+      "annotation_provenance": {
+        "index_path": "D:\\apphearv3claude\\AppHear-claude-s2-r3-eval-suite\\AppHear-claude-s2-r3-eval-suite\\experiments\\continuous_asl\\20261019T155428Z_cslr01\\data\\extracted\\ncslgr_video_index\\video_index-20120129\\files_by_xml_file.csv",
+        "index_sha256": "8b1dfa8f58da82272c475263f65f30f9d41be03bf523fc70d6e5820d17e7cc63",
+        "source_row": 1754,
+        "export_source_url": "https://www.bu.edu/asllrp/cslgr/pages/sstxt/850_667",
+        "ID_note": "Legacy export ID and current index ID preserved separately; join uses exact media basename+collection+gloss, never inferred offset."
+      },
+      "license_status": "BU_PRIVATE_NONCOMMERCIAL_RESEARCH_TERMS_REUSED",
+      "license_reference": "https://www.bu.edu/asllrp/dai-terms.html",
+      "video_path": "D:\\apphearv3claude\\AppHear-claude-s2-r3-eval-suite\\AppHear-claude-s2-r3-eval-suite\\experiments\\continuous_asl\\20261020_continuous_expand04\\data\\raw\\ncslgr_structured\\videos\\ncslgr_bec597c6afd57f92.mov"
+    }
+  ],
+  "existing_count_not_new": 14,
+  "excluded": [
+    {
+      "path": "D:\\apphearv3claude\\AppHear-claude-s2-r3-eval-suite\\AppHear-claude-s2-r3-eval-suite\\experiments\\continuous_asl\\20261020_continuous_expand04\\data\\raw\\bu_signstream\\exports\\670_475.txt",
+      "reason": "NONSTANDARD_EVENT_OR_TIME_NO_REPAIR"
+    },
+    {
+      "path": "D:\\apphearv3claude\\AppHear-claude-s2-r3-eval-suite\\AppHear-claude-s2-r3-eval-suite\\experiments\\continuous_asl\\20261020_continuous_expand04\\data\\raw\\bu_signstream\\exports\\671_476.txt",
+      "reason": "NONSTANDARD_EVENT_OR_TIME_NO_REPAIR"
+    },
+    {
+      "path": "D:\\apphearv3claude\\AppHear-claude-s2-r3-eval-suite\\AppHear-claude-s2-r3-eval-suite\\experiments\\continuous_asl\\20261020_continuous_expand04\\data\\raw\\bu_signstream\\exports\\673_478.txt",
+      "reason": "NONSTANDARD_EVENT_OR_TIME_NO_REPAIR"
+    },
+    {
+      "path": "D:\\apphearv3claude\\AppHear-claude-s2-r3-eval-suite\\AppHear-claude-s2-r3-eval-suite\\experiments\\continuous_asl\\20261020_continuous_expand04\\data\\raw\\bu_signstream\\exports\\674_479.txt",
+      "reason": "NONSTANDARD_EVENT_OR_TIME_NO_REPAIR"
+    },
+    {
+      "path": "D:\\apphearv3claude\\AppHear-claude-s2-r3-eval-suite\\AppHear-claude-s2-r3-eval-suite\\experiments\\continuous_asl\\20261020_continuous_expand04\\data\\raw\\bu_signstream\\exports\\675_480.txt",
+      "reason": "NONSTANDARD_EVENT_OR_TIME_NO_REPAIR"
+    },
+    {
+      "path": "D:\\apphearv3claude\\AppHear-claude-s2-r3-eval-suite\\AppHear-claude-s2-r3-eval-suite\\experiments\\continuous_asl\\20261020_continuous_expand04\\data\\raw\\bu_signstream\\exports\\676_481.txt",
+      "reason": "NONSTANDARD_EVENT_OR_TIME_NO_REPAIR"
+    },
+    {
+      "path": "D:\\apphearv3claude\\AppHear-claude-s2-r3-eval-suite\\AppHear-claude-s2-r3-eval-suite\\experiments\\continuous_asl\\20261020_continuous_expand04\\data\\raw\\bu_signstream\\exports\\677_483.txt",
+      "reason": "NONSTANDARD_EVENT_OR_TIME_NO_REPAIR"
+    },
+    {
+      "path": "D:\\apphearv3claude\\AppHear-claude-s2-r3-eval-suite\\AppHear-claude-s2-r3-eval-suite\\experiments\\continuous_asl\\20261020_continuous_expand04\\data\\raw\\bu_signstream\\exports\\678_484.txt",
+      "reason": "NONSTANDARD_EVENT_OR_TIME_NO_REPAIR"
+    },
+    {
+      "path": "D:\\apphearv3claude\\AppHear-claude-s2-r3-eval-suite\\AppHear-claude-s2-r3-eval-suite\\experiments\\continuous_asl\\20261020_continuous_expand04\\data\\raw\\bu_signstream\\exports\\679_485.txt",
+      "reason": "NONSTANDARD_EVENT_OR_TIME_NO_REPAIR"
+    },
+    {
+      "path": "D:\\apphearv3claude\\AppHear-claude-s2-r3-eval-suite\\AppHear-claude-s2-r3-eval-suite\\experiments\\continuous_asl\\20261020_continuous_expand04\\data\\raw\\bu_signstream\\exports\\680_486.txt",
+      "reason": "NONSTANDARD_EVENT_OR_TIME_NO_REPAIR"
+    },
+    {
+      "path": "D:\\apphearv3claude\\AppHear-claude-s2-r3-eval-suite\\AppHear-claude-s2-r3-eval-suite\\experiments\\continuous_asl\\20261020_continuous_expand04\\data\\raw\\bu_signstream\\exports\\681_482.txt",
+      "reason": "NONSTANDARD_EVENT_OR_TIME_NO_REPAIR"
+    },
+    {
+      "path": "D:\\apphearv3claude\\AppHear-claude-s2-r3-eval-suite\\AppHear-claude-s2-r3-eval-suite\\experiments\\continuous_asl\\20261020_continuous_expand04\\data\\raw\\bu_signstream\\exports\\682_487.txt",
+      "reason": "NONSTANDARD_EVENT_OR_TIME_NO_REPAIR"
+    },
+    {
+      "path": "D:\\apphearv3claude\\AppHear-claude-s2-r3-eval-suite\\AppHear-claude-s2-r3-eval-suite\\experiments\\continuous_asl\\20261020_continuous_expand04\\data\\raw\\bu_signstream\\exports\\683_488.txt",
+      "reason": "NONSTANDARD_EVENT_OR_TIME_NO_REPAIR"
+    },
+    {
+      "path": "D:\\apphearv3claude\\AppHear-claude-s2-r3-eval-suite\\AppHear-claude-s2-r3-eval-suite\\experiments\\continuous_asl\\20261020_continuous_expand04\\data\\raw\\bu_signstream\\exports\\684_489.txt",
+      "reason": "NONSTANDARD_EVENT_OR_TIME_NO_REPAIR"
+    },
+    {
+      "path": "D:\\apphearv3claude\\AppHear-claude-s2-r3-eval-suite\\AppHear-claude-s2-r3-eval-suite\\experiments\\continuous_asl\\20261020_continuous_expand04\\data\\raw\\bu_signstream\\exports\\685_490.txt",
+      "reason": "NONSTANDARD_EVENT_OR_TIME_NO_REPAIR"
+    },
+    {
+      "path": "D:\\apphearv3claude\\AppHear-claude-s2-r3-eval-suite\\AppHear-claude-s2-r3-eval-suite\\experiments\\continuous_asl\\20261020_continuous_expand04\\data\\raw\\bu_signstream\\exports\\686_491.txt",
+      "reason": "NONSTANDARD_EVENT_OR_TIME_NO_REPAIR"
+    },
+    {
+      "path": "D:\\apphearv3claude\\AppHear-claude-s2-r3-eval-suite\\AppHear-claude-s2-r3-eval-suite\\experiments\\continuous_asl\\20261020_continuous_expand04\\data\\raw\\bu_signstream\\exports\\687_492.txt",
+      "reason": "ANNOTATION_VERSION_GLOSS_CONFLICT_NO_SUBSTITUTION"
+    },
+    {
+      "path": "D:\\apphearv3claude\\AppHear-claude-s2-r3-eval-suite\\AppHear-claude-s2-r3-eval-suite\\experiments\\continuous_asl\\20261020_continuous_expand04\\data\\raw\\bu_signstream\\exports\\688_493.txt",
+      "reason": "ANNOTATION_VERSION_GLOSS_CONFLICT_NO_SUBSTITUTION"
+    },
+    {
+      "path": "D:\\apphearv3claude\\AppHear-claude-s2-r3-eval-suite\\AppHear-claude-s2-r3-eval-suite\\experiments\\continuous_asl\\20261020_continuous_expand04\\data\\raw\\bu_signstream\\exports\\689_494.txt",
+      "reason": "NONSTANDARD_EVENT_OR_TIME_NO_REPAIR"
+    },
+    {
+      "path": "D:\\apphearv3claude\\AppHear-claude-s2-r3-eval-suite\\AppHear-claude-s2-r3-eval-suite\\experiments\\continuous_asl\\20261020_continuous_expand04\\data\\raw\\bu_signstream\\exports\\690_495.txt",
+      "reason": "ANNOTATION_VERSION_GLOSS_CONFLICT_NO_SUBSTITUTION"
+    },
+    {
+      "path": "D:\\apphearv3claude\\AppHear-claude-s2-r3-eval-suite\\AppHear-claude-s2-r3-eval-suite\\experiments\\continuous_asl\\20261020_continuous_expand04\\data\\raw\\bu_signstream\\exports\\691_496.txt",
+      "reason": "ANNOTATION_VERSION_GLOSS_CONFLICT_NO_SUBSTITUTION"
+    },
+    {
+      "path": "D:\\apphearv3claude\\AppHear-claude-s2-r3-eval-suite\\AppHear-claude-s2-r3-eval-suite\\experiments\\continuous_asl\\20261020_continuous_expand04\\data\\raw\\bu_signstream\\exports\\692_497.txt",
+      "reason": "ANNOTATION_VERSION_GLOSS_CONFLICT_NO_SUBSTITUTION"
+    },
+    {
+      "path": "D:\\apphearv3claude\\AppHear-claude-s2-r3-eval-suite\\AppHear-claude-s2-r3-eval-suite\\experiments\\continuous_asl\\20261020_continuous_expand04\\data\\raw\\bu_signstream\\exports\\693_498.txt",
+      "reason": "ANNOTATION_VERSION_GLOSS_CONFLICT_NO_SUBSTITUTION"
+    },
+    {
+      "path": "D:\\apphearv3claude\\AppHear-claude-s2-r3-eval-suite\\AppHear-claude-s2-r3-eval-suite\\experiments\\continuous_asl\\20261020_continuous_expand04\\data\\raw\\bu_signstream\\exports\\694_499.txt",
+      "reason": "NONSTANDARD_EVENT_OR_TIME_NO_REPAIR"
+    },
+    {
+      "path": "D:\\apphearv3claude\\AppHear-claude-s2-r3-eval-suite\\AppHear-claude-s2-r3-eval-suite\\experiments\\continuous_asl\\20261020_continuous_expand04\\data\\raw\\bu_signstream\\exports\\695_500.txt",
+      "reason": "ANNOTATION_VERSION_GLOSS_CONFLICT_NO_SUBSTITUTION"
+    },
+    {
+      "path": "D:\\apphearv3claude\\AppHear-claude-s2-r3-eval-suite\\AppHear-claude-s2-r3-eval-suite\\experiments\\continuous_asl\\20261020_continuous_expand04\\data\\raw\\bu_signstream\\exports\\696_501.txt",
+      "reason": "NONSTANDARD_EVENT_OR_TIME_NO_REPAIR"
+    },
+    {
+      "path": "D:\\apphearv3claude\\AppHear-claude-s2-r3-eval-suite\\AppHear-claude-s2-r3-eval-suite\\experiments\\continuous_asl\\20261020_continuous_expand04\\data\\raw\\bu_signstream\\exports\\697_502.txt",
+      "reason": "NONSTANDARD_EVENT_OR_TIME_NO_REPAIR"
+    },
+    {
+      "path": "D:\\apphearv3claude\\AppHear-claude-s2-r3-eval-suite\\AppHear-claude-s2-r3-eval-suite\\experiments\\continuous_asl\\20261020_continuous_expand04\\data\\raw\\bu_signstream\\exports\\698_503.txt",
+      "reason": "ANNOTATION_VERSION_GLOSS_CONFLICT_NO_SUBSTITUTION"
+    },
+    {
+      "path": "D:\\apphearv3claude\\AppHear-claude-s2-r3-eval-suite\\AppHear-claude-s2-r3-eval-suite\\experiments\\continuous_asl\\20261020_continuous_expand04\\data\\raw\\bu_signstream\\exports\\699_504.txt",
+      "reason": "ANNOTATION_VERSION_GLOSS_CONFLICT_NO_SUBSTITUTION"
+    },
+    {
+      "path": "D:\\apphearv3claude\\AppHear-claude-s2-r3-eval-suite\\AppHear-claude-s2-r3-eval-suite\\experiments\\continuous_asl\\20261020_continuous_expand04\\data\\raw\\bu_signstream\\exports\\700_505.txt",
+      "reason": "NONSTANDARD_EVENT_OR_TIME_NO_REPAIR"
+    },
+    {
+      "path": "D:\\apphearv3claude\\AppHear-claude-s2-r3-eval-suite\\AppHear-claude-s2-r3-eval-suite\\experiments\\continuous_asl\\20261020_continuous_expand04\\data\\raw\\bu_signstream\\exports\\703_508.txt",
+      "reason": "NONSTANDARD_EVENT_OR_TIME_NO_REPAIR"
+    },
+    {
+      "path": "D:\\apphearv3claude\\AppHear-claude-s2-r3-eval-suite\\AppHear-claude-s2-r3-eval-suite\\experiments\\continuous_asl\\20261020_continuous_expand04\\data\\raw\\bu_signstream\\exports\\704_509.txt",
+      "reason": "INVALID_GLOSS_TRIPLES"
+    },
+    {
+      "path": "D:\\apphearv3claude\\AppHear-claude-s2-r3-eval-suite\\AppHear-claude-s2-r3-eval-suite\\experiments\\continuous_asl\\20261020_continuous_expand04\\data\\raw\\bu_signstream\\exports\\705_510.txt",
+      "reason": "NONSTANDARD_EVENT_OR_TIME_NO_REPAIR"
+    },
+    {
+      "path": "D:\\apphearv3claude\\AppHear-claude-s2-r3-eval-suite\\AppHear-claude-s2-r3-eval-suite\\experiments\\continuous_asl\\20261020_continuous_expand04\\data\\raw\\bu_signstream\\exports\\707_512.txt",
+      "reason": "NONSTANDARD_EVENT_OR_TIME_NO_REPAIR"
+    },
+    {
+      "path": "D:\\apphearv3claude\\AppHear-claude-s2-r3-eval-suite\\AppHear-claude-s2-r3-eval-suite\\experiments\\continuous_asl\\20261020_continuous_expand04\\data\\raw\\bu_signstream\\exports\\709_514.txt",
+      "reason": "NONSTANDARD_EVENT_OR_TIME_NO_REPAIR"
+    },
+    {
+      "path": "D:\\apphearv3claude\\AppHear-claude-s2-r3-eval-suite\\AppHear-claude-s2-r3-eval-suite\\experiments\\continuous_asl\\20261020_continuous_expand04\\data\\raw\\bu_signstream\\exports\\710_515.txt",
+      "reason": "NONSTANDARD_EVENT_OR_TIME_NO_REPAIR"
+    },
+    {
+      "path": "D:\\apphearv3claude\\AppHear-claude-s2-r3-eval-suite\\AppHear-claude-s2-r3-eval-suite\\experiments\\continuous_asl\\20261020_continuous_expand04\\data\\raw\\bu_signstream\\exports\\711_516.txt",
+      "reason": "ANNOTATION_VERSION_GLOSS_CONFLICT_NO_SUBSTITUTION"
+    },
+    {
+      "path": "D:\\apphearv3claude\\AppHear-claude-s2-r3-eval-suite\\AppHear-claude-s2-r3-eval-suite\\experiments\\continuous_asl\\20261020_continuous_expand04\\data\\raw\\bu_signstream\\exports\\712_517.txt",
+      "reason": "ANNOTATION_VERSION_GLOSS_CONFLICT_NO_SUBSTITUTION"
+    },
+    {
+      "path": "D:\\apphearv3claude\\AppHear-claude-s2-r3-eval-suite\\AppHear-claude-s2-r3-eval-suite\\experiments\\continuous_asl\\20261020_continuous_expand04\\data\\raw\\bu_signstream\\exports\\713_518.txt",
+      "reason": "ANNOTATION_VERSION_GLOSS_CONFLICT_NO_SUBSTITUTION"
+    },
+    {
+      "path": "D:\\apphearv3claude\\AppHear-claude-s2-r3-eval-suite\\AppHear-claude-s2-r3-eval-suite\\experiments\\continuous_asl\\20261020_continuous_expand04\\data\\raw\\bu_signstream\\exports\\714_519.txt",
+      "reason": "ANNOTATION_VERSION_GLOSS_CONFLICT_NO_SUBSTITUTION"
+    },
+    {
+      "path": "D:\\apphearv3claude\\AppHear-claude-s2-r3-eval-suite\\AppHear-claude-s2-r3-eval-suite\\experiments\\continuous_asl\\20261020_continuous_expand04\\data\\raw\\bu_signstream\\exports\\715_520.txt",
+      "reason": "ANNOTATION_VERSION_GLOSS_CONFLICT_NO_SUBSTITUTION"
+    },
+    {
+      "path": "D:\\apphearv3claude\\AppHear-claude-s2-r3-eval-suite\\AppHear-claude-s2-r3-eval-suite\\experiments\\continuous_asl\\20261020_continuous_expand04\\data\\raw\\bu_signstream\\exports\\722_527.txt",
+      "reason": "INVALID_GLOSS_TRIPLES"
+    },
+    {
+      "path": "D:\\apphearv3claude\\AppHear-claude-s2-r3-eval-suite\\AppHear-claude-s2-r3-eval-suite\\experiments\\continuous_asl\\20261020_continuous_expand04\\data\\raw\\bu_signstream\\exports\\723_528.txt",
+      "reason": "NONSTANDARD_EVENT_OR_TIME_NO_REPAIR"
+    },
+    {
+      "path": "D:\\apphearv3claude\\AppHear-claude-s2-r3-eval-suite\\AppHear-claude-s2-r3-eval-suite\\experiments\\continuous_asl\\20261020_continuous_expand04\\data\\raw\\bu_signstream\\exports\\724_529.txt",
+      "reason": "NONSTANDARD_EVENT_OR_TIME_NO_REPAIR"
+    },
+    {
+      "path": "D:\\apphearv3claude\\AppHear-claude-s2-r3-eval-suite\\AppHear-claude-s2-r3-eval-suite\\experiments\\continuous_asl\\20261020_continuous_expand04\\data\\raw\\bu_signstream\\exports\\725_530.txt",
+      "reason": "NONSTANDARD_EVENT_OR_TIME_NO_REPAIR"
+    },
+    {
+      "path": "D:\\apphearv3claude\\AppHear-claude-s2-r3-eval-suite\\AppHear-claude-s2-r3-eval-suite\\experiments\\continuous_asl\\20261020_continuous_expand04\\data\\raw\\bu_signstream\\exports\\726_531.txt",
+      "reason": "NONSTANDARD_EVENT_OR_TIME_NO_REPAIR"
+    },
+    {
+      "path": "D:\\apphearv3claude\\AppHear-claude-s2-r3-eval-suite\\AppHear-claude-s2-r3-eval-suite\\experiments\\continuous_asl\\20261020_continuous_expand04\\data\\raw\\bu_signstream\\exports\\727_532.txt",
+      "reason": "ANNOTATION_VERSION_GLOSS_CONFLICT_NO_SUBSTITUTION"
+    },
+    {
+      "path": "D:\\apphearv3claude\\AppHear-claude-s2-r3-eval-suite\\AppHear-claude-s2-r3-eval-suite\\experiments\\continuous_asl\\20261020_continuous_expand04\\data\\raw\\bu_signstream\\exports\\728_533.txt",
+      "reason": "ANNOTATION_VERSION_GLOSS_CONFLICT_NO_SUBSTITUTION"
+    },
+    {
+      "path": "D:\\apphearv3claude\\AppHear-claude-s2-r3-eval-suite\\AppHear-claude-s2-r3-eval-suite\\experiments\\continuous_asl\\20261020_continuous_expand04\\data\\raw\\bu_signstream\\exports\\729_534.txt",
+      "reason": "INVALID_GLOSS_TRIPLES"
+    },
+    {
+      "path": "D:\\apphearv3claude\\AppHear-claude-s2-r3-eval-suite\\AppHear-claude-s2-r3-eval-suite\\experiments\\continuous_asl\\20261020_continuous_expand04\\data\\raw\\bu_signstream\\exports\\730_535.txt",
+      "reason": "NONSTANDARD_EVENT_OR_TIME_NO_REPAIR"
+    },
+    {
+      "path": "D:\\apphearv3claude\\AppHear-claude-s2-r3-eval-suite\\AppHear-claude-s2-r3-eval-suite\\experiments\\continuous_asl\\20261020_continuous_expand04\\data\\raw\\bu_signstream\\exports\\731_536.txt",
+      "reason": "ANNOTATION_VERSION_GLOSS_CONFLICT_NO_SUBSTITUTION"
+    },
+    {
+      "path": "D:\\apphearv3claude\\AppHear-claude-s2-r3-eval-suite\\AppHear-claude-s2-r3-eval-suite\\experiments\\continuous_asl\\20261020_continuous_expand04\\data\\raw\\bu_signstream\\exports\\733_538.txt",
+      "reason": "NONSTANDARD_EVENT_OR_TIME_NO_REPAIR"
+    },
+    {
+      "path": "D:\\apphearv3claude\\AppHear-claude-s2-r3-eval-suite\\AppHear-claude-s2-r3-eval-suite\\experiments\\continuous_asl\\20261020_continuous_expand04\\data\\raw\\bu_signstream\\exports\\734_539.txt",
+      "reason": "ANNOTATION_VERSION_GLOSS_CONFLICT_NO_SUBSTITUTION"
+    },
+    {
+      "path": "D:\\apphearv3claude\\AppHear-claude-s2-r3-eval-suite\\AppHear-claude-s2-r3-eval-suite\\experiments\\continuous_asl\\20261020_continuous_expand04\\data\\raw\\bu_signstream\\exports\\735_540.txt",
+      "reason": "ANNOTATION_VERSION_GLOSS_CONFLICT_NO_SUBSTITUTION"
+    },
+    {
+      "path": "D:\\apphearv3claude\\AppHear-claude-s2-r3-eval-suite\\AppHear-claude-s2-r3-eval-suite\\experiments\\continuous_asl\\20261020_continuous_expand04\\data\\raw\\bu_signstream\\exports\\736_541.txt",
+      "reason": "ANNOTATION_VERSION_GLOSS_CONFLICT_NO_SUBSTITUTION"
+    },
+    {
+      "path": "D:\\apphearv3claude\\AppHear-claude-s2-r3-eval-suite\\AppHear-claude-s2-r3-eval-suite\\experiments\\continuous_asl\\20261020_continuous_expand04\\data\\raw\\bu_signstream\\exports\\737_542.txt",
+      "reason": "ANNOTATION_VERSION_GLOSS_CONFLICT_NO_SUBSTITUTION"
+    },
+    {
+      "path": "D:\\apphearv3claude\\AppHear-claude-s2-r3-eval-suite\\AppHear-claude-s2-r3-eval-suite\\experiments\\continuous_asl\\20261020_continuous_expand04\\data\\raw\\bu_signstream\\exports\\738_543.txt",
+      "reason": "ANNOTATION_VERSION_GLOSS_CONFLICT_NO_SUBSTITUTION"
+    },
+    {
+      "path": "D:\\apphearv3claude\\AppHear-claude-s2-r3-eval-suite\\AppHear-claude-s2-r3-eval-suite\\experiments\\continuous_asl\\20261020_continuous_expand04\\data\\raw\\bu_signstream\\exports\\739_544.txt",
+      "reason": "NONSTANDARD_EVENT_OR_TIME_NO_REPAIR"
+    },
+    {
+      "path": "D:\\apphearv3claude\\AppHear-claude-s2-r3-eval-suite\\AppHear-claude-s2-r3-eval-suite\\experiments\\continuous_asl\\20261020_continuous_expand04\\data\\raw\\bu_signstream\\exports\\740_545.txt",
+      "reason": "ANNOTATION_VERSION_GLOSS_CONFLICT_NO_SUBSTITUTION"
+    },
+    {
+      "path": "D:\\apphearv3claude\\AppHear-claude-s2-r3-eval-suite\\AppHear-claude-s2-r3-eval-suite\\experiments\\continuous_asl\\20261020_continuous_expand04\\data\\raw\\bu_signstream\\exports\\741_546.txt",
+      "reason": "ANNOTATION_VERSION_GLOSS_CONFLICT_NO_SUBSTITUTION"
+    },
+    {
+      "path": "D:\\apphearv3claude\\AppHear-claude-s2-r3-eval-suite\\AppHear-claude-s2-r3-eval-suite\\experiments\\continuous_asl\\20261020_continuous_expand04\\data\\raw\\bu_signstream\\exports\\742_547.txt",
+      "reason": "ANNOTATION_VERSION_GLOSS_CONFLICT_NO_SUBSTITUTION"
+    },
+    {
+      "path": "D:\\apphearv3claude\\AppHear-claude-s2-r3-eval-suite\\AppHear-claude-s2-r3-eval-suite\\experiments\\continuous_asl\\20261020_continuous_expand04\\data\\raw\\bu_signstream\\exports\\749_556.txt",
+      "reason": "ANNOTATION_VERSION_GLOSS_CONFLICT_NO_SUBSTITUTION"
+    },
+    {
+      "path": "D:\\apphearv3claude\\AppHear-claude-s2-r3-eval-suite\\AppHear-claude-s2-r3-eval-suite\\experiments\\continuous_asl\\20261020_continuous_expand04\\data\\raw\\bu_signstream\\exports\\750_557.txt",
+      "reason": "ANNOTATION_VERSION_GLOSS_CONFLICT_NO_SUBSTITUTION"
+    },
+    {
+      "path": "D:\\apphearv3claude\\AppHear-claude-s2-r3-eval-suite\\AppHear-claude-s2-r3-eval-suite\\experiments\\continuous_asl\\20261020_continuous_expand04\\data\\raw\\bu_signstream\\exports\\751_558.txt",
+      "reason": "ANNOTATION_VERSION_GLOSS_CONFLICT_NO_SUBSTITUTION"
+    },
+    {
+      "path": "D:\\apphearv3claude\\AppHear-claude-s2-r3-eval-suite\\AppHear-claude-s2-r3-eval-suite\\experiments\\continuous_asl\\20261020_continuous_expand04\\data\\raw\\bu_signstream\\exports\\752_559.txt",
+      "reason": "NONSTANDARD_EVENT_OR_TIME_NO_REPAIR"
+    },
+    {
+      "path": "D:\\apphearv3claude\\AppHear-claude-s2-r3-eval-suite\\AppHear-claude-s2-r3-eval-suite\\experiments\\continuous_asl\\20261020_continuous_expand04\\data\\raw\\bu_signstream\\exports\\753_560.txt",
+      "reason": "ANNOTATION_VERSION_GLOSS_CONFLICT_NO_SUBSTITUTION"
+    },
+    {
+      "path": "D:\\apphearv3claude\\AppHear-claude-s2-r3-eval-suite\\AppHear-claude-s2-r3-eval-suite\\experiments\\continuous_asl\\20261020_continuous_expand04\\data\\raw\\bu_signstream\\exports\\754_561.txt",
+      "reason": "NONSTANDARD_EVENT_OR_TIME_NO_REPAIR"
+    },
+    {
+      "path": "D:\\apphearv3claude\\AppHear-claude-s2-r3-eval-suite\\AppHear-claude-s2-r3-eval-suite\\experiments\\continuous_asl\\20261020_continuous_expand04\\data\\raw\\bu_signstream\\exports\\755_564.txt",
+      "reason": "ANNOTATION_VERSION_GLOSS_CONFLICT_NO_SUBSTITUTION"
+    },
+    {
+      "path": "D:\\apphearv3claude\\AppHear-claude-s2-r3-eval-suite\\AppHear-claude-s2-r3-eval-suite\\experiments\\continuous_asl\\20261020_continuous_expand04\\data\\raw\\bu_signstream\\exports\\756_565.txt",
+      "reason": "NONSTANDARD_EVENT_OR_TIME_NO_REPAIR"
+    },
+    {
+      "path": "D:\\apphearv3claude\\AppHear-claude-s2-r3-eval-suite\\AppHear-claude-s2-r3-eval-suite\\experiments\\continuous_asl\\20261020_continuous_expand04\\data\\raw\\bu_signstream\\exports\\757_566.txt",
+      "reason": "NONSTANDARD_EVENT_OR_TIME_NO_REPAIR"
+    },
+    {
+      "path": "D:\\apphearv3claude\\AppHear-claude-s2-r3-eval-suite\\AppHear-claude-s2-r3-eval-suite\\experiments\\continuous_asl\\20261020_continuous_expand04\\data\\raw\\bu_signstream\\exports\\758_567.txt",
+      "reason": "NONSTANDARD_EVENT_OR_TIME_NO_REPAIR"
+    },
+    {
+      "path": "D:\\apphearv3claude\\AppHear-claude-s2-r3-eval-suite\\AppHear-claude-s2-r3-eval-suite\\experiments\\continuous_asl\\20261020_continuous_expand04\\data\\raw\\bu_signstream\\exports\\759_568.txt",
+      "reason": "NONSTANDARD_EVENT_OR_TIME_NO_REPAIR"
+    },
+    {
+      "path": "D:\\apphearv3claude\\AppHear-claude-s2-r3-eval-suite\\AppHear-claude-s2-r3-eval-suite\\experiments\\continuous_asl\\20261020_continuous_expand04\\data\\raw\\bu_signstream\\exports\\760_569.txt",
+      "reason": "ANNOTATION_VERSION_GLOSS_CONFLICT_NO_SUBSTITUTION"
+    },
+    {
+      "path": "D:\\apphearv3claude\\AppHear-claude-s2-r3-eval-suite\\AppHear-claude-s2-r3-eval-suite\\experiments\\continuous_asl\\20261020_continuous_expand04\\data\\raw\\bu_signstream\\exports\\761_570.txt",
+      "reason": "NONSTANDARD_EVENT_OR_TIME_NO_REPAIR"
+    },
+    {
+      "path": "D:\\apphearv3claude\\AppHear-claude-s2-r3-eval-suite\\AppHear-claude-s2-r3-eval-suite\\experiments\\continuous_asl\\20261020_continuous_expand04\\data\\raw\\bu_signstream\\exports\\762_571.txt",
+      "reason": "ANNOTATION_VERSION_GLOSS_CONFLICT_NO_SUBSTITUTION"
+    },
+    {
+      "path": "D:\\apphearv3claude\\AppHear-claude-s2-r3-eval-suite\\AppHear-claude-s2-r3-eval-suite\\experiments\\continuous_asl\\20261020_continuous_expand04\\data\\raw\\bu_signstream\\exports\\763_572.txt",
+      "reason": "NONSTANDARD_EVENT_OR_TIME_NO_REPAIR"
+    },
+    {
+      "path": "D:\\apphearv3claude\\AppHear-claude-s2-r3-eval-suite\\AppHear-claude-s2-r3-eval-suite\\experiments\\continuous_asl\\20261020_continuous_expand04\\data\\raw\\bu_signstream\\exports\\764_573.txt",
+      "reason": "NONSTANDARD_EVENT_OR_TIME_NO_REPAIR"
+    },
+    {
+      "path": "D:\\apphearv3claude\\AppHear-claude-s2-r3-eval-suite\\AppHear-claude-s2-r3-eval-suite\\experiments\\continuous_asl\\20261020_continuous_expand04\\data\\raw\\bu_signstream\\exports\\768_577.txt",
+      "reason": "ANNOTATION_VERSION_GLOSS_CONFLICT_NO_SUBSTITUTION"
+    },
+    {
+      "path": "D:\\apphearv3claude\\AppHear-claude-s2-r3-eval-suite\\AppHear-claude-s2-r3-eval-suite\\experiments\\continuous_asl\\20261020_continuous_expand04\\data\\raw\\bu_signstream\\exports\\775_585.txt",
+      "reason": "ANNOTATION_VERSION_GLOSS_CONFLICT_NO_SUBSTITUTION"
+    },
+    {
+      "path": "D:\\apphearv3claude\\AppHear-claude-s2-r3-eval-suite\\AppHear-claude-s2-r3-eval-suite\\experiments\\continuous_asl\\20261020_continuous_expand04\\data\\raw\\bu_signstream\\exports\\776_586.txt",
+      "reason": "NONSTANDARD_EVENT_OR_TIME_NO_REPAIR"
+    },
+    {
+      "path": "D:\\apphearv3claude\\AppHear-claude-s2-r3-eval-suite\\AppHear-claude-s2-r3-eval-suite\\experiments\\continuous_asl\\20261020_continuous_expand04\\data\\raw\\bu_signstream\\exports\\777_587.txt",
+      "reason": "ANNOTATION_VERSION_GLOSS_CONFLICT_NO_SUBSTITUTION"
+    },
+    {
+      "path": "D:\\apphearv3claude\\AppHear-claude-s2-r3-eval-suite\\AppHear-claude-s2-r3-eval-suite\\experiments\\continuous_asl\\20261020_continuous_expand04\\data\\raw\\bu_signstream\\exports\\778_588.txt",
+      "reason": "ANNOTATION_VERSION_GLOSS_CONFLICT_NO_SUBSTITUTION"
+    },
+    {
+      "path": "D:\\apphearv3claude\\AppHear-claude-s2-r3-eval-suite\\AppHear-claude-s2-r3-eval-suite\\experiments\\continuous_asl\\20261020_continuous_expand04\\data\\raw\\bu_signstream\\exports\\779_589.txt",
+      "reason": "ANNOTATION_VERSION_GLOSS_CONFLICT_NO_SUBSTITUTION"
+    },
+    {
+      "path": "D:\\apphearv3claude\\AppHear-claude-s2-r3-eval-suite\\AppHear-claude-s2-r3-eval-suite\\experiments\\continuous_asl\\20261020_continuous_expand04\\data\\raw\\bu_signstream\\exports\\780_590.txt",
+      "reason": "ANNOTATION_VERSION_GLOSS_CONFLICT_NO_SUBSTITUTION"
+    },
+    {
+      "path": "D:\\apphearv3claude\\AppHear-claude-s2-r3-eval-suite\\AppHear-claude-s2-r3-eval-suite\\experiments\\continuous_asl\\20261020_continuous_expand04\\data\\raw\\bu_signstream\\exports\\781_591.txt",
+      "reason": "INVALID_GLOSS_TRIPLES"
+    },
+    {
+      "path": "D:\\apphearv3claude\\AppHear-claude-s2-r3-eval-suite\\AppHear-claude-s2-r3-eval-suite\\experiments\\continuous_asl\\20261020_continuous_expand04\\data\\raw\\bu_signstream\\exports\\784_594.txt",
+      "reason": "NONSTANDARD_EVENT_OR_TIME_NO_REPAIR"
+    },
+    {
+      "path": "D:\\apphearv3claude\\AppHear-claude-s2-r3-eval-suite\\AppHear-claude-s2-r3-eval-suite\\experiments\\continuous_asl\\20261020_continuous_expand04\\data\\raw\\bu_signstream\\exports\\785_595.txt",
+      "reason": "ANNOTATION_VERSION_GLOSS_CONFLICT_NO_SUBSTITUTION"
+    },
+    {
+      "path": "D:\\apphearv3claude\\AppHear-claude-s2-r3-eval-suite\\AppHear-claude-s2-r3-eval-suite\\experiments\\continuous_asl\\20261020_continuous_expand04\\data\\raw\\bu_signstream\\exports\\786_596.txt",
+      "reason": "ANNOTATION_VERSION_GLOSS_CONFLICT_NO_SUBSTITUTION"
+    },
+    {
+      "path": "D:\\apphearv3claude\\AppHear-claude-s2-r3-eval-suite\\AppHear-claude-s2-r3-eval-suite\\experiments\\continuous_asl\\20261020_continuous_expand04\\data\\raw\\bu_signstream\\exports\\791_601.txt",
+      "reason": "ANNOTATION_VERSION_GLOSS_CONFLICT_NO_SUBSTITUTION"
+    },
+    {
+      "path": "D:\\apphearv3claude\\AppHear-claude-s2-r3-eval-suite\\AppHear-claude-s2-r3-eval-suite\\experiments\\continuous_asl\\20261020_continuous_expand04\\data\\raw\\bu_signstream\\exports\\792_602.txt",
+      "reason": "ANNOTATION_VERSION_GLOSS_CONFLICT_NO_SUBSTITUTION"
+    },
+    {
+      "path": "D:\\apphearv3claude\\AppHear-claude-s2-r3-eval-suite\\AppHear-claude-s2-r3-eval-suite\\experiments\\continuous_asl\\20261020_continuous_expand04\\data\\raw\\bu_signstream\\exports\\793_603.txt",
+      "reason": "ANNOTATION_VERSION_GLOSS_CONFLICT_NO_SUBSTITUTION"
+    },
+    {
+      "path": "D:\\apphearv3claude\\AppHear-claude-s2-r3-eval-suite\\AppHear-claude-s2-r3-eval-suite\\experiments\\continuous_asl\\20261020_continuous_expand04\\data\\raw\\bu_signstream\\exports\\794_604.txt",
+      "reason": "INVALID_GLOSS_TRIPLES"
+    },
+    {
+      "path": "D:\\apphearv3claude\\AppHear-claude-s2-r3-eval-suite\\AppHear-claude-s2-r3-eval-suite\\experiments\\continuous_asl\\20261020_continuous_expand04\\data\\raw\\bu_signstream\\exports\\795_605.txt",
+      "reason": "ANNOTATION_VERSION_GLOSS_CONFLICT_NO_SUBSTITUTION"
+    },
+    {
+      "path": "D:\\apphearv3claude\\AppHear-claude-s2-r3-eval-suite\\AppHear-claude-s2-r3-eval-suite\\experiments\\continuous_asl\\20261020_continuous_expand04\\data\\raw\\bu_signstream\\exports\\796_606.txt",
+      "reason": "ANNOTATION_VERSION_GLOSS_CONFLICT_NO_SUBSTITUTION"
+    },
+    {
+      "path": "D:\\apphearv3claude\\AppHear-claude-s2-r3-eval-suite\\AppHear-claude-s2-r3-eval-suite\\experiments\\continuous_asl\\20261020_continuous_expand04\\data\\raw\\bu_signstream\\exports\\797_607.txt",
+      "reason": "ANNOTATION_VERSION_GLOSS_CONFLICT_NO_SUBSTITUTION"
+    },
+    {
+      "path": "D:\\apphearv3claude\\AppHear-claude-s2-r3-eval-suite\\AppHear-claude-s2-r3-eval-suite\\experiments\\continuous_asl\\20261020_continuous_expand04\\data\\raw\\bu_signstream\\exports\\801_611.txt",
+      "reason": "INVALID_GLOSS_TRIPLES"
+    },
+    {
+      "path": "D:\\apphearv3claude\\AppHear-claude-s2-r3-eval-suite\\AppHear-claude-s2-r3-eval-suite\\experiments\\continuous_asl\\20261020_continuous_expand04\\data\\raw\\bu_signstream\\exports\\805_618.txt",
+      "reason": "ANNOTATION_VERSION_GLOSS_CONFLICT_NO_SUBSTITUTION"
+    },
+    {
+      "path": "D:\\apphearv3claude\\AppHear-claude-s2-r3-eval-suite\\AppHear-claude-s2-r3-eval-suite\\experiments\\continuous_asl\\20261020_continuous_expand04\\data\\raw\\bu_signstream\\exports\\806_619.txt",
+      "reason": "ANNOTATION_VERSION_GLOSS_CONFLICT_NO_SUBSTITUTION"
+    },
+    {
+      "path": "D:\\apphearv3claude\\AppHear-claude-s2-r3-eval-suite\\AppHear-claude-s2-r3-eval-suite\\experiments\\continuous_asl\\20261020_continuous_expand04\\data\\raw\\bu_signstream\\exports\\807_621.txt",
+      "reason": "INVALID_GLOSS_TRIPLES"
+    },
+    {
+      "path": "D:\\apphearv3claude\\AppHear-claude-s2-r3-eval-suite\\AppHear-claude-s2-r3-eval-suite\\experiments\\continuous_asl\\20261020_continuous_expand04\\data\\raw\\bu_signstream\\exports\\808_622.txt",
+      "reason": "NONSTANDARD_EVENT_OR_TIME_NO_REPAIR"
+    },
+    {
+      "path": "D:\\apphearv3claude\\AppHear-claude-s2-r3-eval-suite\\AppHear-claude-s2-r3-eval-suite\\experiments\\continuous_asl\\20261020_continuous_expand04\\data\\raw\\bu_signstream\\exports\\809_623.txt",
+      "reason": "ANNOTATION_VERSION_GLOSS_CONFLICT_NO_SUBSTITUTION"
+    },
+    {
+      "path": "D:\\apphearv3claude\\AppHear-claude-s2-r3-eval-suite\\AppHear-claude-s2-r3-eval-suite\\experiments\\continuous_asl\\20261020_continuous_expand04\\data\\raw\\bu_signstream\\exports\\810_624.txt",
+      "reason": "NONSTANDARD_EVENT_OR_TIME_NO_REPAIR"
+    },
+    {
+      "path": "D:\\apphearv3claude\\AppHear-claude-s2-r3-eval-suite\\AppHear-claude-s2-r3-eval-suite\\experiments\\continuous_asl\\20261020_continuous_expand04\\data\\raw\\bu_signstream\\exports\\811_625.txt",
+      "reason": "NONSTANDARD_EVENT_OR_TIME_NO_REPAIR"
+    },
+    {
+      "path": "D:\\apphearv3claude\\AppHear-claude-s2-r3-eval-suite\\AppHear-claude-s2-r3-eval-suite\\experiments\\continuous_asl\\20261020_continuous_expand04\\data\\raw\\bu_signstream\\exports\\812_626.txt",
+      "reason": "ANNOTATION_VERSION_GLOSS_CONFLICT_NO_SUBSTITUTION"
+    },
+    {
+      "path": "D:\\apphearv3claude\\AppHear-claude-s2-r3-eval-suite\\AppHear-claude-s2-r3-eval-suite\\experiments\\continuous_asl\\20261020_continuous_expand04\\data\\raw\\bu_signstream\\exports\\813_627.txt",
+      "reason": "ANNOTATION_VERSION_GLOSS_CONFLICT_NO_SUBSTITUTION"
+    },
+    {
+      "path": "D:\\apphearv3claude\\AppHear-claude-s2-r3-eval-suite\\AppHear-claude-s2-r3-eval-suite\\experiments\\continuous_asl\\20261020_continuous_expand04\\data\\raw\\bu_signstream\\exports\\815_629.txt",
+      "reason": "INVALID_GLOSS_TRIPLES"
+    },
+    {
+      "path": "D:\\apphearv3claude\\AppHear-claude-s2-r3-eval-suite\\AppHear-claude-s2-r3-eval-suite\\experiments\\continuous_asl\\20261020_continuous_expand04\\data\\raw\\bu_signstream\\exports\\816_630.txt",
+      "reason": "ANNOTATION_VERSION_GLOSS_CONFLICT_NO_SUBSTITUTION"
+    },
+    {
+      "path": "D:\\apphearv3claude\\AppHear-claude-s2-r3-eval-suite\\AppHear-claude-s2-r3-eval-suite\\experiments\\continuous_asl\\20261020_continuous_expand04\\data\\raw\\bu_signstream\\exports\\817_631.txt",
+      "reason": "ANNOTATION_VERSION_GLOSS_CONFLICT_NO_SUBSTITUTION"
+    },
+    {
+      "path": "D:\\apphearv3claude\\AppHear-claude-s2-r3-eval-suite\\AppHear-claude-s2-r3-eval-suite\\experiments\\continuous_asl\\20261020_continuous_expand04\\data\\raw\\bu_signstream\\exports\\818_632.txt",
+      "reason": "NONSTANDARD_EVENT_OR_TIME_NO_REPAIR"
+    },
+    {
+      "path": "D:\\apphearv3claude\\AppHear-claude-s2-r3-eval-suite\\AppHear-claude-s2-r3-eval-suite\\experiments\\continuous_asl\\20261020_continuous_expand04\\data\\raw\\bu_signstream\\exports\\819_633.txt",
+      "reason": "ANNOTATION_VERSION_GLOSS_CONFLICT_NO_SUBSTITUTION"
+    },
+    {
+      "path": "D:\\apphearv3claude\\AppHear-claude-s2-r3-eval-suite\\AppHear-claude-s2-r3-eval-suite\\experiments\\continuous_asl\\20261020_continuous_expand04\\data\\raw\\bu_signstream\\exports\\821_635.txt",
+      "reason": "NONSTANDARD_EVENT_OR_TIME_NO_REPAIR"
+    },
+    {
+      "path": "D:\\apphearv3claude\\AppHear-claude-s2-r3-eval-suite\\AppHear-claude-s2-r3-eval-suite\\experiments\\continuous_asl\\20261020_continuous_expand04\\data\\raw\\bu_signstream\\exports\\825_642.txt",
+      "reason": "NONSTANDARD_EVENT_OR_TIME_NO_REPAIR"
+    },
+    {
+      "path": "D:\\apphearv3claude\\AppHear-claude-s2-r3-eval-suite\\AppHear-claude-s2-r3-eval-suite\\experiments\\continuous_asl\\20261020_continuous_expand04\\data\\raw\\bu_signstream\\exports\\826_643.txt",
+      "reason": "NONSTANDARD_EVENT_OR_TIME_NO_REPAIR"
+    },
+    {
+      "path": "D:\\apphearv3claude\\AppHear-claude-s2-r3-eval-suite\\AppHear-claude-s2-r3-eval-suite\\experiments\\continuous_asl\\20261020_continuous_expand04\\data\\raw\\bu_signstream\\exports\\828_645.txt",
+      "reason": "ANNOTATION_VERSION_GLOSS_CONFLICT_NO_SUBSTITUTION"
+    },
+    {
+      "path": "D:\\apphearv3claude\\AppHear-claude-s2-r3-eval-suite\\AppHear-claude-s2-r3-eval-suite\\experiments\\continuous_asl\\20261020_continuous_expand04\\data\\raw\\bu_signstream\\exports\\829_646.txt",
+      "reason": "INVALID_GLOSS_TRIPLES"
+    },
+    {
+      "path": "D:\\apphearv3claude\\AppHear-claude-s2-r3-eval-suite\\AppHear-claude-s2-r3-eval-suite\\experiments\\continuous_asl\\20261020_continuous_expand04\\data\\raw\\bu_signstream\\exports\\830_647.txt",
+      "reason": "NONSTANDARD_EVENT_OR_TIME_NO_REPAIR"
+    },
+    {
+      "path": "D:\\apphearv3claude\\AppHear-claude-s2-r3-eval-suite\\AppHear-claude-s2-r3-eval-suite\\experiments\\continuous_asl\\20261020_continuous_expand04\\data\\raw\\bu_signstream\\exports\\837_654.txt",
+      "reason": "ANNOTATION_VERSION_GLOSS_CONFLICT_NO_SUBSTITUTION"
+    },
+    {
+      "path": "D:\\apphearv3claude\\AppHear-claude-s2-r3-eval-suite\\AppHear-claude-s2-r3-eval-suite\\experiments\\continuous_asl\\20261020_continuous_expand04\\data\\raw\\bu_signstream\\exports\\838_655.txt",
+      "reason": "NONSTANDARD_EVENT_OR_TIME_NO_REPAIR"
+    },
+    {
+      "path": "D:\\apphearv3claude\\AppHear-claude-s2-r3-eval-suite\\AppHear-claude-s2-r3-eval-suite\\experiments\\continuous_asl\\20261020_continuous_expand04\\data\\raw\\bu_signstream\\exports\\840_657.txt",
+      "reason": "NONSTANDARD_EVENT_OR_TIME_NO_REPAIR"
+    },
+    {
+      "path": "D:\\apphearv3claude\\AppHear-claude-s2-r3-eval-suite\\AppHear-claude-s2-r3-eval-suite\\experiments\\continuous_asl\\20261020_continuous_expand04\\data\\raw\\bu_signstream\\exports\\841_658.txt",
+      "reason": "NONSTANDARD_EVENT_OR_TIME_NO_REPAIR"
+    },
+    {
+      "path": "D:\\apphearv3claude\\AppHear-claude-s2-r3-eval-suite\\AppHear-claude-s2-r3-eval-suite\\experiments\\continuous_asl\\20261020_continuous_expand04\\data\\raw\\bu_signstream\\exports\\842_659.txt",
+      "reason": "NONSTANDARD_EVENT_OR_TIME_NO_REPAIR"
+    },
+    {
+      "path": "D:\\apphearv3claude\\AppHear-claude-s2-r3-eval-suite\\AppHear-claude-s2-r3-eval-suite\\experiments\\continuous_asl\\20261020_continuous_expand04\\data\\raw\\bu_signstream\\exports\\844_661.txt",
+      "reason": "NONSTANDARD_EVENT_OR_TIME_NO_REPAIR"
+    },
+    {
+      "path": "D:\\apphearv3claude\\AppHear-claude-s2-r3-eval-suite\\AppHear-claude-s2-r3-eval-suite\\experiments\\continuous_asl\\20261020_continuous_expand04\\data\\raw\\bu_signstream\\exports\\845_662.txt",
+      "reason": "NONSTANDARD_EVENT_OR_TIME_NO_REPAIR"
+    },
+    {
+      "path": "D:\\apphearv3claude\\AppHear-claude-s2-r3-eval-suite\\AppHear-claude-s2-r3-eval-suite\\experiments\\continuous_asl\\20261020_continuous_expand04\\data\\raw\\bu_signstream\\exports\\846_663.txt",
+      "reason": "NONSTANDARD_EVENT_OR_TIME_NO_REPAIR"
+    },
+    {
+      "path": "D:\\apphearv3claude\\AppHear-claude-s2-r3-eval-suite\\AppHear-claude-s2-r3-eval-suite\\experiments\\continuous_asl\\20261020_continuous_expand04\\data\\raw\\bu_signstream\\exports\\849_666.txt",
+      "reason": "NONSTANDARD_EVENT_OR_TIME_NO_REPAIR"
+    },
+    {
+      "path": "D:\\apphearv3claude\\AppHear-claude-s2-r3-eval-suite\\AppHear-claude-s2-r3-eval-suite\\experiments\\continuous_asl\\20261020_continuous_expand04\\data\\raw\\bu_signstream\\exports\\851_668.txt",
+      "reason": "INVALID_GLOSS_TRIPLES"
+    },
+    {
+      "path": "D:\\apphearv3claude\\AppHear-claude-s2-r3-eval-suite\\AppHear-claude-s2-r3-eval-suite\\experiments\\continuous_asl\\20261020_continuous_expand04\\data\\raw\\bu_signstream\\exports\\852_669.txt",
+      "reason": "NONSTANDARD_EVENT_OR_TIME_NO_REPAIR"
+    },
+    {
+      "path": "D:\\apphearv3claude\\AppHear-claude-s2-r3-eval-suite\\AppHear-claude-s2-r3-eval-suite\\experiments\\continuous_asl\\20261020_continuous_expand04\\data\\raw\\bu_signstream\\exports\\853_670.txt",
+      "reason": "NONSTANDARD_EVENT_OR_TIME_NO_REPAIR"
+    },
+    {
+      "path": "D:\\apphearv3claude\\AppHear-claude-s2-r3-eval-suite\\AppHear-claude-s2-r3-eval-suite\\experiments\\continuous_asl\\20261020_continuous_expand04\\data\\raw\\bu_signstream\\exports\\855_672.txt",
+      "reason": "NONSTANDARD_EVENT_OR_TIME_NO_REPAIR"
+    },
+    {
+      "path": "D:\\apphearv3claude\\AppHear-claude-s2-r3-eval-suite\\AppHear-claude-s2-r3-eval-suite\\experiments\\continuous_asl\\20261020_continuous_expand04\\data\\raw\\bu_signstream\\exports\\856_673.txt",
+      "reason": "NONSTANDARD_EVENT_OR_TIME_NO_REPAIR"
+    },
+    {
+      "path": "D:\\apphearv3claude\\AppHear-claude-s2-r3-eval-suite\\AppHear-claude-s2-r3-eval-suite\\experiments\\continuous_asl\\20261020_continuous_expand04\\data\\raw\\bu_signstream\\exports\\858_675.txt",
+      "reason": "NONSTANDARD_EVENT_OR_TIME_NO_REPAIR"
+    },
+    {
+      "path": "D:\\apphearv3claude\\AppHear-claude-s2-r3-eval-suite\\AppHear-claude-s2-r3-eval-suite\\experiments\\continuous_asl\\20261020_continuous_expand04\\data\\raw\\bu_signstream\\exports\\859_676.txt",
+      "reason": "NONSTANDARD_EVENT_OR_TIME_NO_REPAIR"
+    },
+    {
+      "path": "D:\\apphearv3claude\\AppHear-claude-s2-r3-eval-suite\\AppHear-claude-s2-r3-eval-suite\\experiments\\continuous_asl\\20261020_continuous_expand04\\data\\raw\\bu_signstream\\exports\\860_677.txt",
+      "reason": "NONSTANDARD_EVENT_OR_TIME_NO_REPAIR"
+    },
+    {
+      "path": "D:\\apphearv3claude\\AppHear-claude-s2-r3-eval-suite\\AppHear-claude-s2-r3-eval-suite\\experiments\\continuous_asl\\20261020_continuous_expand04\\data\\raw\\bu_signstream\\exports\\861_678.txt",
+      "reason": "INVALID_GLOSS_TRIPLES"
+    },
+    {
+      "path": "D:\\apphearv3claude\\AppHear-claude-s2-r3-eval-suite\\AppHear-claude-s2-r3-eval-suite\\experiments\\continuous_asl\\20261020_continuous_expand04\\data\\raw\\bu_signstream\\exports\\862_679.txt",
+      "reason": "ANNOTATION_VERSION_GLOSS_CONFLICT_NO_SUBSTITUTION"
+    }
+  ],
+  "rejected_count": 135,
+  "index_sha256": "8b1dfa8f58da82272c475263f65f30f9d41be03bf523fc70d6e5820d17e7cc63",
+  "timing_policy": "Preserve original coordinates; use only unique one-utterance source files for CTC; no unverified time conversion.",
+  "annotation_identity_policy": "Exact master media basename, collection and full gloss text; index2011 and legacy2002 identifiers are distinct."
+}

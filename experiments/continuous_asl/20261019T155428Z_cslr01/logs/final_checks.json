@@ -1,0 +1,12 @@
+{
+  "all_present": true,
+  "best_checkpoint_hash_matches": true,
+  "new_run_dry_run_creates_no_run": true,
+  "required_outputs": 17,
+  "originalFiles": 2932,
+  "checkpoints": 14,
+  "completed_resume_preserves_training_log": true,
+  "tools_files": 34,
+  "export_hash_matches": true,
+  "plot_visually_checked": true
+}

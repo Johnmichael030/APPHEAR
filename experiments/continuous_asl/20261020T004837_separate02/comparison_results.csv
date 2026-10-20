@@ -1,0 +1,20 @@
+task,candidate,metric,value,comparison,status
+isolated_gloss,frozen_legacy_INT8,top1,0.6427696078431373,same 3264 validation rows; five held-out signer IDs,DIAGNOSTIC_VALIDATION
+isolated_gloss,frozen_legacy_INT8,macro_f1,0.6300688939975758,same 3264 validation rows; five held-out signer IDs,DIAGNOSTIC_VALIDATION
+isolated_gloss,frozen_legacy_FP32,top1,0.6513480392156863,same 3264 validation rows; five held-out signer IDs,DIAGNOSTIC_VALIDATION
+isolated_gloss,frozen_legacy_FP32,macro_f1,0.6412252510871352,same 3264 validation rows; five held-out signer IDs,DIAGNOSTIC_VALIDATION
+isolated_gloss,scratch_5epoch,top1,0.19454656862745098,same 3264 validation rows; five held-out signer IDs,DIAGNOSTIC_VALIDATION
+isolated_gloss,scratch_5epoch,macro_f1,0.15487897514977284,same 3264 validation rows; five held-out signer IDs,DIAGNOSTIC_VALIDATION
+isolated_gloss,warmstart_clip_objective,top1,0.6709558823529411,same 3264 validation rows; five held-out signer IDs,DIAGNOSTIC_VALIDATION
+isolated_gloss,warmstart_clip_objective,macro_f1,0.665724989734123,same 3264 validation rows; five held-out signer IDs,DIAGNOSTIC_VALIDATION
+continuous_gloss,prior_10Hz,gloss_WER,0.88,"same seven complete reference clips, signer IDs unknown",DIAGNOSTIC
+continuous_gloss,prior_model_on_native,gloss_WER,0.92,"same seven complete reference clips, signer IDs unknown",DIAGNOSTIC
+continuous_gloss,native_retrained,gloss_WER,0.92,"same seven complete reference clips, signer IDs unknown",DIAGNOSTIC
+isolated_gloss,warmstart_repeat_seed20261021,top1,0.6654411764705882,"same validation signer IDs, independent training seed",DIAGNOSTIC_VALIDATION
+isolated_gloss,warmstart_repeat_seed20261021,macro_f1,0.6577941895764976,"same validation signer IDs, independent training seed",DIAGNOSTIC_VALIDATION
+isolated_gloss_native_final_test,frozen_FP32,top1,0.6122137404580152,"2620 native rows, 11 held-out signer IDs, frozen selection",FINAL_TEST_EVALUATION_ONLY
+isolated_gloss_native_final_test,frozen_FP32,macro_f1,0.6021852804986968,"2620 native rows, 11 held-out signer IDs, frozen selection",FINAL_TEST_EVALUATION_ONLY
+isolated_gloss_native_final_test,preselected_primary,top1,0.6255725190839695,"2620 native rows, 11 held-out signer IDs, frozen selection",FINAL_TEST_EVALUATION_ONLY
+isolated_gloss_native_final_test,preselected_primary,macro_f1,0.6168613687580461,"2620 native rows, 11 held-out signer IDs, frozen selection",FINAL_TEST_EVALUATION_ONLY
+isolated_gloss_native_final_test,independent_repeat,top1,0.6217557251908397,"2620 native rows, 11 held-out signer IDs, frozen selection",FINAL_TEST_EVALUATION_ONLY
+isolated_gloss_native_final_test,independent_repeat,macro_f1,0.6144525647534597,"2620 native rows, 11 held-out signer IDs, frozen selection",FINAL_TEST_EVALUATION_ONLY

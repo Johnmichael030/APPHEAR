@@ -1,0 +1,21 @@
+Initial existing read-only verification (run first):
+& 'D:\apphearv3claude\AppHear-claude-s2-r3-eval-suite\AppHear-claude-s2-r3-eval-suite\experiments\continuous_asl\20261019T155428Z_cslr01\runtime\venv\Scripts\python.exe' -B 'D:\apphearv3claude\AppHear-claude-s2-r3-eval-suite\AppHear-claude-s2-r3-eval-suite\experiments\continuous_asl\20261020T124813Z_label_support01\verify.py'
+PASS:65label-support artifacts;46prior diagnostic artifacts;1061continuation artifacts;20745protectedmetadata;3121eligible;noTESTscoring.
+
+TRAIN identity/fold audit:
+& 'D:\apphearv3claude\AppHear-claude-s2-r3-eval-suite\AppHear-claude-s2-r3-eval-suite\experiments\continuous_asl\20261019T155428Z_cslr01\runtime\venv\Scripts\python.exe' -B 'D:\apphearv3claude\AppHear-claude-s2-r3-eval-suite\AppHear-claude-s2-r3-eval-suite\experiments\continuous_asl\20261020T131348Z_source_signer_audit01\audit.py'
+PASS1.311seconds for bounded metadata/prediction analysis;2708applicableTRAIN IDs. No model execution, fit, media decoding or downloads.
+
+Conservative parent-family guard:
+& 'D:\apphearv3claude\AppHear-claude-s2-r3-eval-suite\AppHear-claude-s2-r3-eval-suite\experiments\continuous_asl\20261019T155428Z_cslr01\runtime\venv\Scripts\python.exe' -B 'D:\apphearv3claude\AppHear-claude-s2-r3-eval-suite\AppHear-claude-s2-r3-eval-suite\experiments\continuous_asl\20261020T131348Z_source_signer_audit01\family_guard.py'
+PASS. Preliminary filename-only A folds retained but not fit-ready. New guarded folds keep related/undated masters together. No signer IDs inferred.
+
+Finalize reports:
+& 'D:\apphearv3claude\AppHear-claude-s2-r3-eval-suite\AppHear-claude-s2-r3-eval-suite\experiments\continuous_asl\20261019T155428Z_cslr01\runtime\venv\Scripts\python.exe' -B 'D:\apphearv3claude\AppHear-claude-s2-r3-eval-suite\AppHear-claude-s2-r3-eval-suite\experiments\continuous_asl\20261020T131348Z_source_signer_audit01\finish.py'
+Requiredoutputs:SOURCE_SIGNER_AUDIT.md;SOURCE_SIGNER_COVERAGE.csv;SOURCE_SIGNER_CROSS_TAB.csv;CANDIDATE_FOLDS.csv;LABEL_COVERAGE_BY_FOLD.csv;NEXT_EXPERIMENT_DECISION.md;commands_and_results.txt;artifact_hashes.sha256.
+
+Exact next command — READ ONLY:
+& 'D:\apphearv3claude\AppHear-claude-s2-r3-eval-suite\AppHear-claude-s2-r3-eval-suite\experiments\continuous_asl\20261019T155428Z_cslr01\runtime\venv\Scripts\python.exe' -B 'D:\apphearv3claude\AppHear-claude-s2-r3-eval-suite\AppHear-claude-s2-r3-eval-suite\experiments\continuous_asl\20261020T131348Z_source_signer_audit01\verify.py'
+Verifies new hashes, guarded TRAIN-only folds and frozen prior chain; no model inference, fitting, acquisition or TEST scoring.
+
+Future training: NOT AUTHORIZED. No training command has been scheduled or run. No APK, Android integration, production selection, thresholds, avatar/GLB, frozen manifest/checkpoint/result or reservedTEST change.

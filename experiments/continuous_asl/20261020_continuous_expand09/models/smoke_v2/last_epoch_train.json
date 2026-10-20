@@ -1,0 +1,132 @@
+{
+  "loss": 27.069400787353516,
+  "gloss_wer": 2.4285714285714284,
+  "substitutions": 17,
+  "deletions": 0,
+  "insertions": 34,
+  "reference_tokens": 21,
+  "predictions": [
+    {
+      "sample_id": "ncslgr_d9ecd1ee55ecb558",
+      "reference": [
+        "fs-JOHN",
+        "FINISH",
+        "READ+",
+        "BOOK+"
+      ],
+      "hypothesis": [
+        "PITY:i",
+        "fs-MPH",
+        "SCL:3\"pulling over\"",
+        "RIGHT-HERE",
+        "(2h)alt.BCL\"pulling people from the water\"++",
+        "(1h)SICK+",
+        "FINISH",
+        "(2h)alt.BCL\"pulling people from the water\"++",
+        "FINISH",
+        "(2h)alt.BCL\"pulling people from the water\"++",
+        "FINISH"
+      ],
+      "substitutions": 3,
+      "deletions": 0,
+      "insertions": 7,
+      "reference_tokens": 4
+    },
+    {
+      "sample_id": "ncslgr_d1eacecc4238db1e",
+      "reference": [
+        "fs-JOHN",
+        "FINISH",
+        "READ",
+        "BOOK",
+        "WHEN",
+        "HOLD"
+      ],
+      "hypothesis": [
+        "PITY:i",
+        "fs-MPH",
+        "fs-MR",
+        "fs-MPH",
+        "(2h)alt.BCL\"pulling people from the water\"++",
+        "(1h)SICK+",
+        "(2h)alt.BCL\"pulling people from the water\"++",
+        "FINISH",
+        "(2h)alt.BCL\"pulling people from the water\"++",
+        "RUN",
+        "(2h)alt.BCL\"pulling people from the water\"++",
+        "FINISH",
+        "(2h)alt.BCL\"pulling people from the water\"++",
+        "FINISH",
+        "(2h)alt.BCL\"pulling people from the water\"++",
+        "FINISH",
+        "(2h)alt.BCL\"pulling people from the water\"++",
+        "FINISH",
+        "(2h)alt.BCL\"pulling people from the water\"++",
+        "FINISH"
+      ],
+      "substitutions": 5,
+      "deletions": 0,
+      "insertions": 14,
+      "reference_tokens": 6
+    },
+    {
+      "sample_id": "ncslgr_4c75713bcd51bf20",
+      "reference": [
+        "fs-JOHN",
+        "FINISH",
+        "READ",
+        "BOOK",
+        "WHEN",
+        "HOLD"
+      ],
+      "hypothesis": [
+        "PITY:i",
+        "fs-MPH",
+        "fs-MR",
+        "SCL:crvd-V\"sitting on\"++",
+        "(2h)alt.BCL\"pulling people from the water\"++",
+        "SCL:crvd-V\"sitting on\"++",
+        "(2h)alt.BCL\"pulling people from the water\"++",
+        "FINISH",
+        "RUN",
+        "(2h)alt.BCL\"pulling people from the water\"++",
+        "FINISH",
+        "(2h)alt.BCL\"pulling people from the water\"++",
+        "FINISH"
+      ],
+      "substitutions": 5,
+      "deletions": 0,
+      "insertions": 7,
+      "reference_tokens": 6
+    },
+    {
+      "sample_id": "ncslgr_5a6a4ed78c4f22b0",
+      "reference": [
+        "fs-JOHN",
+        "NOT-YET",
+        "FINISH",
+        "READ",
+        "BOOK"
+      ],
+      "hypothesis": [
+        "SCL:crvd-V\"sitting on\"++",
+        "fs-MPH",
+        "fs-MR",
+        "fs-MPH",
+        "(2h)alt.BCL\"pulling people from the water\"++",
+        "(1h)SICK+",
+        "(2h)alt.BCL\"pulling people from the water\"++",
+        "(2h)DCL:5\"getting bigger\":l",
+        "FINISH",
+        "(2h)alt.BCL\"pulling people from the water\"++",
+        "FINISH"
+      ],
+      "substitutions": 4,
+      "deletions": 0,
+      "insertions": 6,
+      "reference_tokens": 5
+    }
+  ],
+  "scope": "COLLECTION-DISJOINT DIAGNOSTIC, SIGNER UNVERIFIED; NOT PRODUCT ACCURACY",
+  "out_of_vocabulary_tokens": 0
+}

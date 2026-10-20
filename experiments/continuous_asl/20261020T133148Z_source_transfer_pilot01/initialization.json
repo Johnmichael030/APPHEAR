@@ -1,0 +1,7 @@
+{
+  "path": "checkpoints\\initialization.pt",
+  "sha256": "2f0202eb7c24ef5cde79e6d8d4d9f5dc34831fac6091aeb42aa6dc4dc59b6ef2",
+  "epoch": 0,
+  "optimizer_updates": 0,
+  "recognition_weights_reused": false
+}

@@ -1,0 +1,10 @@
+{
+  "D:\\apphearv3claude\\AppHear-claude-s2-r3-eval-suite\\AppHear-claude-s2-r3-eval-suite\\experiments\\continuous_asl\\20261020T131348Z_source_signer_audit01\\guarded_decision.json": "3f1285548195a0087bcf107bdbd6122dc8ee8d67ed4dbc44ac325df188de445c",
+  "D:\\apphearv3claude\\AppHear-claude-s2-r3-eval-suite\\AppHear-claude-s2-r3-eval-suite\\experiments\\continuous_asl\\20261020T131348Z_source_signer_audit01\\identifiability.json": "adadd493d37e717d40e7dc325f352f3f4ee034c9272948e13475ed3c68603dba",
+  "D:\\apphearv3claude\\AppHear-claude-s2-r3-eval-suite\\AppHear-claude-s2-r3-eval-suite\\experiments\\continuous_asl\\20261020T131348Z_source_signer_audit01\\identity_issues.json": "61ef87ce2c964ff47aa21fff38f79bae56181d9a14a2ed6bdb60e225df2ab7a8",
+  "D:\\apphearv3claude\\AppHear-claude-s2-r3-eval-suite\\AppHear-claude-s2-r3-eval-suite\\experiments\\continuous_asl\\20261020T131348Z_source_signer_audit01\\guarded_fold_details.json": "a0278cbf01eb04a4699016f14292d0ef6c4083563ca1eefcca68e813036fb238",
+  "D:\\apphearv3claude\\AppHear-claude-s2-r3-eval-suite\\AppHear-claude-s2-r3-eval-suite\\experiments\\continuous_asl\\20261020T104054Z_expand_eval01\\data\\processed\\train_dev\\manifest.json": "04fb7c6c26bc934d6618902ceeaa2ee69e19d0c12e5bfe922e5743c8518c0ebe",
+  "D:\\apphearv3claude\\AppHear-claude-s2-r3-eval-suite\\AppHear-claude-s2-r3-eval-suite\\experiments\\continuous_asl\\20261020T131348Z_source_signer_audit01\\folds\\A_guarded_pooled_family_holdout.json": "87442a6f1241860e369a5c8f0768d583b3a4058f5a9ad03dcc135532c419c72f",
+  "D:\\apphearv3claude\\AppHear-claude-s2-r3-eval-suite\\AppHear-claude-s2-r3-eval-suite\\experiments\\continuous_asl\\20261020T124813Z_label_support01\\frozen_manifest.json": "a735d19f84338a36146c11aeba7923cda6204c41153f617251ace9c1a5daafdf",
+  "D:\\apphearv3claude\\AppHear-claude-s2-r3-eval-suite\\AppHear-claude-s2-r3-eval-suite\\experiments\\continuous_asl\\20261020T104054Z_expand_eval01\\eligible_corpus\\manifest.json": "f1e9c9fdd5825a087d0e860b943bbac39e5ad02ea18f64a45dd513641b85f5f5"
+}

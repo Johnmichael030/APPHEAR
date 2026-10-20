@@ -1,0 +1,26 @@
+{
+  "task": "isolated_gloss_classification",
+  "schema": "3.0",
+  "shape": [
+    96,
+    258
+  ],
+  "seed": 20261020,
+  "max_epochs": 5,
+  "wall_budget_seconds": 600,
+  "batch_candidates": [
+    1,
+    2,
+    4
+  ],
+  "accumulation": 8,
+  "optimizer": "AdamW",
+  "lr": 0.001,
+  "channels": 64,
+  "dropout": 0.1,
+  "augmentation": "none",
+  "selection": "validation macro F1 then top1",
+  "classes": 236,
+  "source_audit_sha256": "ccffb97e84f568792f49049532f0b802794cdf410b406632ab3cfc9191aab193",
+  "production_enabled": false
+}

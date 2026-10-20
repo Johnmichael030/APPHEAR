@@ -1,0 +1,80 @@
+[
+  {
+    "key": "phaseA_baseline_0",
+    "value": {
+      "status": "fulfilled",
+      "value": {
+        "chunk_id": "af6f37",
+        "wall_time_seconds": 1.799633,
+        "exit_code": 1,
+        "original_token_count": 336,
+        "output": "> **Team continuation state — 2026-10-09:** Read [TEAM_HANDOFF.md](TEAM_HANDOFF.md) and [current state](context/team-current-state-2026-10-09.md) before older history below. The shared branch is `codex/team-handoff-2026-10-09`; October9 baseline refs remain frozen. Repository-root paths are portable; old F:/C:/I: paths document the original machine. WORD and fingerspelling remain experimental; engineering passes are not reliable cross-signer live accuracy.\r\n\r\n﻿# AppHear 3 â€” Agent Operating Guide\r\n\r\nAppHear 3 is a **re-architecture** (not a retrain) of a real-time, on-device ASL\r\nrecognition system: an **Android runtime** (Kotlin + CameraX + MediaPipe Tasks + TFLite) fed\r\nby an **offline training/data pipeline** (Python + TensorFlow/Keras). Recognition is one\r\nstage of nine. The system metric is **end-to-end signed-phrase accuracy, cross-signer, under\r\nstreaming conditions** â€” never per-window accuracy on a training signer.\r\n\r\n---\r\n\r\nfatal: not a git repository (or any of the parent directories): .git\n{\"root\":\"D:\\\\apphearv3claude\\\\AppHear-claude-s2-r3-eval-suite\\\\AppHear-claude-s2-r3-eval-suite\",\"files\":2932,\"bytes\":1569935151.0,\"metadata_sha256\":\"CCBC5BFC50A7908389BF40C9FF2AA79A5D12EB78EAFDFD20806BE4CD7B2ADB18\",\"previous_audit_digest\":\"CCBC5BFC50A7908389BF40C9FF2AA79A5D12EB78EAFDFD20806BE4CD7B2ADB18\"}\r\n"
+      }
+    }
+  },
+  {
+    "key": "phaseA_baseline_1",
+    "value": {
+      "status": "fulfilled",
+      "value": {
+        "chunk_id": "3b8513",
+        "wall_time_seconds": 4.1662751,
+        "exit_code": 1,
+        "original_token_count": 356,
+        "output": "{\"powershell\":\"7.6.5\",\"edition\":\"Core\",\"os\":\"Microsoft Windows 10.0.26200\"}\r\nGet-CimInstance: \r\nLine |\r\n   2 |  … nvertTo-Json -Compress; Get-CimInstance Win32_OperatingSystem | Selec …\r\n     |                            ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\r\n     | Access to a CIM resource was not available to the client.\r\nGet-CimInstance: \r\nLine |\r\n   2 |  … ime|ConvertTo-Json -Compress; Get-CimInstance Win32_Processor|Select- …\r\n     |                                  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\r\n     | Access to a CIM resource was not available to the client.\r\nGet-CimInstance: \r\nLine |\r\n   2 |  … onvertTo-Json -Compress; Get-CimInstance Win32_ComputerSystem|Select- …\r\n     |                             ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\r\n     | Access to a CIM resource was not available to the client.\r\nGet-CimInstance: \r\nLine |\r\n   2 |  … |ConvertTo-Json -Compress;Get-CimInstance Win32_PageFileUsage|Select- …\r\n     |                              ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\r\n     | Access to a CIM resource was not available to the client.\r\nParentContainsErrorRecordException: \r\nLine |\r\n 279 |      $__cmdletization_objectModelWrapper.ProcessRecord($__cmdletizatio …\r\n     |      ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\r\n     | Exception calling \"ProcessRecord\" with \"1\" argument(s): \"Access to a CIM resource was not available to the client.\"\r\n"
+      }
+    }
+  },
+  {
+    "key": "phaseA_baseline_2",
+    "value": {
+      "status": "fulfilled",
+      "value": {
+        "chunk_id": "3e3b4a",
+        "wall_time_seconds": 6.0993331,
+        "exit_code": 0,
+        "original_token_count": 746,
+        "output": "[{\"Name\":\"nvidia-smi.exe\",\"Source\":\"C:\\\\Windows\\\\system32\\\\nvidia-smi.exe\"},{\"Name\":\"python.exe\",\"Source\":\"C:\\\\Users\\\\johnm\\\\AppData\\\\Local\\\\Microsoft\\\\WindowsApps\\\\python.exe\"},{\"Name\":\"python3.exe\",\"Source\":\"C:\\\\Users\\\\johnm\\\\AppData\\\\Local\\\\Microsoft\\\\WindowsApps\\\\python3.exe\"},{\"Name\":\"py.exe\",\"Source\":\"C:\\\\Windows\\\\py.exe\"},{\"Name\":\"pip.exe\",\"Source\":\"C:\\\\Users\\\\johnm\\\\AppData\\\\Local\\\\Programs\\\\Python\\\\Python39\\\\Scripts\\\\pip.exe\"},{\"Name\":\"uv.exe\",\"Source\":\"C:\\\\Users\\\\johnm\\\\AppData\\\\Local\\\\Programs\\\\Python\\\\Python39\\\\Scripts\\\\uv.exe\"},{\"Name\":\"git.exe\",\"Source\":\"C:\\\\Program Files\\\\Git\\\\cmd\\\\git.exe\"},{\"Name\":\"git-lfs.exe\",\"Source\":\"C:\\\\Program Files\\\\Git LFS\\\\git-lfs.exe\"},{\"Name\":\"curl.exe\",\"Source\":\"C:\\\\Windows\\\\system32\\\\curl.exe\"},{\"Name\":\"wsl.exe\",\"Source\":\"C:\\\\Windows\\\\system32\\\\wsl.exe\"},{\"Name\":\"winget.exe\",\"Source\":\"C:\\\\Users\\\\johnm\\\\AppData\\\\Local\\\\Microsoft\\\\WindowsApps\\\\winget.exe\"},{\"Name\":\"node.exe\",\"Source\":\"D:\\\\nodejs\\\\node.exe\"},{\"Name\":\"java.exe\",\"Source\":\"C:\\\\Program Files\\\\Eclipse Adoptium\\\\jdk-17.0.20.101-hotspot\\\\bin\\\\java.exe\"}]\r\nNVIDIA GeForce RTX 3050 Laptop GPU, 4096 MiB, 0 MiB, 0 %, 591.86\r\nMon Oct 19 23:52:22 2026       \r\n+-----------------------------------------------------------------------------------------+\r\n| NVIDIA-SMI 591.86                 Driver Version: 591.86         CUDA Version: 13.1     |\r\n+-----------------------------------------+------------------------+----------------------+\r\n| GPU  Name                  Driver-Model | Bus-Id          Disp.A | Volatile Uncorr. ECC |\r\n| Fan  Temp   Perf          Pwr:Usage/Cap |           Memory-Usage | GPU-Util  Compute M. |\r\n|                                         |                        |               MIG M. |\r\n|=========================================+========================+======================|\r\n|   0  NVIDIA GeForce RTX 3050 ...  WDDM  |   00000000:01:00.0 Off |                  N/A |\r\n| N/A   46C    P0             14W /   73W |       0MiB /   4096MiB |      0%      Default |\r\n|                                         |                        |                  N/A |\r\n+-----------------------------------------+------------------------+----------------------+\r\n\r\n+-----------------------------------------------------------------------------------------+\r\n| Processes:                                                                              |\r\n|  GPU   GI   CI              PID   Type   Process name                        GPU Memory |\r\n|        ID   ID                                                               Usage      |\r\n|=========================================================================================|\r\n|  No running processes found                                                             |\r\n+-----------------------------------------------------------------------------------------+\r\nNo installed Pythons found!\r\nA\u0000c\u0000c\u0000e\u0000s\u0000s\u0000 \u0000i\u0000s\u0000 \u0000d\u0000e\u0000n\u0000i\u0000e\u0000d\u0000.\u0000 \u0000\r\u0000\n\u0000E\u0000r\u0000r\u0000o\u0000r\u0000 \u0000c\u0000o\u0000d\u0000e\u0000:\u0000 \u0000W\u0000s\u0000l\u0000/\u0000E\u0000_\u0000A\u0000C\u0000C\u0000E\u0000S\u0000S\u0000D\u0000E\u0000N\u0000I\u0000E\u0000D\u0000\r\u0000\n\u0000"
+      }
+    }
+  },
+  {
+    "key": "discovery_0",
+    "value": {
+      "status": "fulfilled",
+      "value": {
+        "chunk_id": "dc59d4",
+        "wall_time_seconds": 6.256719,
+        "exit_code": 0,
+        "original_token_count": 332,
+        "output": "{\"Caption\":\"Microsoft Windows 11 Home Single Language\",\"Version\":\"10.0.26200\",\"BuildNumber\":\"26200\",\"OSArchitecture\":\"64-bit\",\"TotalVisibleMemorySize\":16168444,\"FreePhysicalMemory\":3399760,\"LastBootUpTime\":\"2026-10-17T16:01:21.501727+08:00\"}\r\n{\"Name\":\"AMD Ryzen 7 4800H with Radeon Graphics         \",\"NumberOfCores\":8,\"NumberOfLogicalProcessors\":16}\r\n{\"TotalPhysicalMemory\":16556486656,\"AutomaticManagedPagefile\":true}\r\n{\"Name\":\"C:\\\\pagefile.sys\",\"AllocatedBaseSize\":12582,\"CurrentUsage\":452,\"PeakUsage\":6578}\r\n[{\"DriveLetter\":\"C\",\"FileSystem\":\"NTFS\",\"Size\":486983143424,\"SizeRemaining\":26722525184,\"HealthStatus\":\"Healthy\"},{\"DriveLetter\":\"D\",\"FileSystem\":\"NTFS\",\"Size\":1000202039296,\"SizeRemaining\":188578664448,\"HealthStatus\":\"Healthy\"}]\r\n[{\"Name\":\"AMD Radeon(TM) Graphics\",\"DriverVersion\":\"31.0.21923.1000\",\"DriverDate\":\"2025-03-06T08:00:00+08:00\",\"Status\":\"OK\"},{\"Name\":\"NVIDIA GeForce RTX 3050 Laptop GPU\",\"DriverVersion\":\"32.0.15.9186\",\"DriverDate\":\"2026-01-20T08:00:00+08:00\",\"Status\":\"OK\"}]\r\n \u0000 \u0000N\u0000A\u0000M\u0000E\u0000 \u0000 \u0000 \u0000 \u0000 \u0000 \u0000 \u0000 \u0000 \u0000 \u0000 \u0000 \u0000 \u0000 \u0000S\u0000T\u0000A\u0000T\u0000E\u0000 \u0000 \u0000 \u0000 \u0000 \u0000 \u0000 \u0000 \u0000 \u0000 \u0000 \u0000V\u0000E\u0000R\u0000S\u0000I\u0000O\u0000N\u0000\r\u0000\n\u0000*\u0000 \u0000U\u0000b\u0000u\u0000n\u0000t\u0000u\u0000 \u0000 \u0000 \u0000 \u0000 \u0000 \u0000 \u0000 \u0000 \u0000 \u0000 \u0000 \u0000S\u0000t\u0000o\u0000p\u0000p\u0000e\u0000d\u0000 \u0000 \u0000 \u0000 \u0000 \u0000 \u0000 \u0000 \u0000 \u00002\u0000\r\u0000\n\u0000 \u0000 \u0000d\u0000o\u0000c\u0000k\u0000e\u0000r\u0000-\u0000d\u0000e\u0000s\u0000k\u0000t\u0000o\u0000p\u0000 \u0000 \u0000 \u0000 \u0000S\u0000t\u0000o\u0000p\u0000p\u0000e\u0000d\u0000 \u0000 \u0000 \u0000 \u0000 \u0000 \u0000 \u0000 \u0000 \u00002\u0000\r\u0000\n\u0000 \u0000 \u0000U\u0000b\u0000u\u0000n\u0000t\u0000u\u0000-\u00002\u00002\u0000.\u00000\u00004\u0000 \u0000 \u0000 \u0000 \u0000 \u0000 \u0000S\u0000t\u0000o\u0000p\u0000p\u0000e\u0000d\u0000 \u0000 \u0000 \u0000 \u0000 \u0000 \u0000 \u0000 \u0000 \u00002\u0000\r\u0000\n\u0000"
+      }
+    }
+  },
+  {
+    "key": "discovery_1",
+    "value": {
+      "status": "fulfilled",
+      "value": {
+        "chunk_id": "d204ab",
+        "wall_time_seconds": 2.3858933,
+        "exit_code": 0,
+        "original_token_count": 249,
+        "output": "{\"known_python_exists\":true,\"uv_path\":\"C:\\\\Users\\\\johnm\\\\AppData\\\\Local\\\\Programs\\\\Python\\\\Python39\\\\Scripts\\\\uv.exe\",\"drives\":[{\"Name\":\"C\",\"Root\":\"C:\\\\\",\"Used\":460260749312,\"Free\":26722394112},{\"Name\":\"D\",\"Root\":\"D:\\\\\",\"Used\":811623374848,\"Free\":188578664448},{\"Name\":\"Temp\",\"Root\":\"C:\\\\Users\\\\johnm\\\\AppData\\\\Local\\\\Packages\\\\sandbox.{e136bf3d-3ccf-41cb-8856-2003ece12a13}\\\\AC\\\\Temp\\\\\",\"Used\":460260749312,\"Free\":26722394112}]}\r\n{\"executable\": \"C:\\\\Users\\\\johnm\\\\AppData\\\\Local\\\\Programs\\\\Python\\\\Python39\\\\python.exe\", \"version\": \"3.9.13 (tags/v3.9.13:6de2ca5, May 17 2022, 16:36:42) [MSC v.1929 64 bit (AMD64)]\", \"packages\": {\"torch\": \"2.8.0\", \"tensorflow\": \"2.20.0\", \"onnxruntime\": null, \"onnxruntime-gpu\": null, \"numpy\": \"2.0.2\", \"pip\": \"26.0.1\", \"uv\": \"0.10.12\"}}\r\nuv 0.10.12 (00d72dac7 2026-03-19 x86_64-pc-windows-msvc)\ngit version 2.56.0.windows.2\ngit-lfs/3.8.0 (GitHub; windows amd64; go 1.27.0; git aece9221)\ncurl 8.21.0 (Windows) libcurl/8.21.0 Schannel zlib/1.3.2 WinIDN WinLDAP\r\n"
+      }
+    }
+  },
+  {
+    "key": "gpu_dataset_0",
+    "value": {
+      "status": "fulfilled",
+      "value": {
+        "chunk_id": "595990",
+        "wall_time_seconds": 7.7399546,
+        "exit_code": 1,
+        "original_token_count": 80,
+        "output": "{\"python\": \"3.9.13 (tags/v3.9.13:6de2ca5, May 17 2022, 16:36:42) [MSC v.1929 64 bit (AMD64)]\", \"torch\": \"2.8.0+cpu\", \"torch_cuda_runtime\": null, \"cudnn_version\": null, \"cuda_available\": false, \"devices\": 0}\r\nTraceback (most recent call last):\r\n  File \"<string>\", line 1, in <module>\r\nAssertionError: CUDA_UNAVAILABLE\r\n"
+      }
+    }
+  }
+]

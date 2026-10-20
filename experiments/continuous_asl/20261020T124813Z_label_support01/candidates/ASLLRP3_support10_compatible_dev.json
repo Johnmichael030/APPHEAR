@@ -1,0 +1,4488 @@
+[
+  {
+    "sample_id": "asllrp3_a4c90a286bc87eaf",
+    "dataset": "ASLLRP_SIGNSTREAM3_2025",
+    "collection": "Jonathan_2012-11-27_sc98",
+    "utterance_id": "36",
+    "source_group": "2012-11-27_JM9_0098-cam1-for-ss3.mp4",
+    "signer_id": "asllrp_dai_participant_4",
+    "split": "dev",
+    "utterance_filename": "4233941.mp4",
+    "utterance_start_frame_master": 7651,
+    "utterance_end_frame_master": 7750,
+    "glosses": [
+      "MOTHER",
+      "IX-loc:i",
+      "SICK",
+      "QMwg",
+      "HOW"
+    ],
+    "events": [
+      {
+        "source_row": 5003,
+        "event_id": "346196",
+        "label": "MOTHER",
+        "start_frame_master": 7663,
+        "end_frame_master": 7664,
+        "hidden": false
+      },
+      {
+        "source_row": 5004,
+        "event_id": "346197",
+        "label": "IX-loc:i",
+        "start_frame_master": 7667,
+        "end_frame_master": 7667,
+        "hidden": false
+      },
+      {
+        "source_row": 5005,
+        "event_id": "346198",
+        "label": "SICK",
+        "start_frame_master": 7670,
+        "end_frame_master": 7676,
+        "hidden": false
+      },
+      {
+        "source_row": 5006,
+        "event_id": "346199",
+        "label": "QMwg",
+        "start_frame_master": 7682,
+        "end_frame_master": 7686,
+        "hidden": false
+      },
+      {
+        "source_row": 5007,
+        "event_id": "346200",
+        "label": "HOW",
+        "start_frame_master": 7691,
+        "end_frame_master": 7707,
+        "hidden": false
+      }
+    ],
+    "annotation_type": "AUTHENTIC_PUBLISHED_DOMINANT_HAND_OCCURRENCE_EVENTS",
+    "annotation_provenance": {
+      "csv_path": "D:\\apphearv3claude\\AppHear-claude-s2-r3-eval-suite\\AppHear-claude-s2-r3-eval-suite\\experiments\\continuous_asl\\20261020_continuous_expand06\\data\\raw\\asllrp2025\\asllrp_sentence_signs_2025_06_28.csv",
+      "csv_sha256": "9c1641b6b95a6e6c2223c34eb101ed2e83bb1da824e18c7a21791c59b1593e86",
+      "source_rows": [
+        5003,
+        5004,
+        5005,
+        5006,
+        5007
+      ],
+      "target_column": "Occurrence label",
+      "order": "verified master frame start; retain hidden events, compounds and full literal labels",
+      "frame_rate_reference": "https://www.bu.edu/asllrp/rpt24/asllrpr24.pdf",
+      "hand_scope_reference": "https://dai.cs.rutgers.edu/asllvd/signbank/Additional-information-6-29-25.pdf",
+      "excluded_nondominant_only_events": "Publisher CSV omits these; never invent missing labels",
+      "English_translation_used_as_gloss": false
+    },
+    "license_status": "PRIVATE_NONCOMMERCIAL_RESEARCH_ONLY_NO_REDISTRIBUTION",
+    "license_reference": "https://www.bu.edu/asllrp/dai-terms.html",
+    "timing_status": "EXACT_INCLUSIVE_MASTER_FRAME_SPAN_AND_29.97FPS_MEDIA_COUNT_JOIN; NO_OFFSET_SCALING; VISUAL_ALIGNMENT_NOT_INDEPENDENTLY_AUDITED",
+    "signer_independent": false,
+    "video_path": "D:\\apphearv3claude\\AppHear-claude-s2-r3-eval-suite\\AppHear-claude-s2-r3-eval-suite\\experiments\\continuous_asl\\20261020_continuous_expand06\\data\\raw\\asllrp2025\\utterances\\4233941.mp4",
+    "raw_sha256": "7f6b8235325219ae3d001df98bb307ed9ad01d7d83df0db6beb158bbf3e5263f",
+    "bytes": 478425,
+    "media_provenance": {
+      "official_archive_url": "https://dai.cs.rutgers.edu/asllvd/signbank/asllrp_videos/batch_utterance_video_v3_1.zip",
+      "archive_sha256": "e021e4814703ecf3fd3342f32c7a2112b0040921d10f8c4b625caa8c9f2a4b32",
+      "member": "4233941.mp4",
+      "crc32": 842682603
+    },
+    "media_status": "CRC_VERIFIED_NOT_YET_DECODED",
+    "feature_path": "D:\\apphearv3claude\\AppHear-claude-s2-r3-eval-suite\\AppHear-claude-s2-r3-eval-suite\\experiments\\continuous_asl\\20261020_continuous_expand06\\data\\processed\\asllrp2025\\asllrp3_a4c90a286bc87eaf.features.npz",
+    "feature_sha256": "7fd9259c63f16a6ad0c2f961493b9ec2541f7f09087341f4a81fd4e6da6101c4",
+    "decoded_pixel_sha256": "07883e1b59c68afbd393756393429637a2bbe18e6f872a1c5ada8a537d11af28",
+    "observations": 34,
+    "decoded_frames": 100,
+    "native_fps": 29.97002997002997,
+    "dimensions": [
+      1280,
+      720
+    ],
+    "timestamp_sources": [
+      "CONTAINER_POS_MSEC"
+    ],
+    "max_pts_frame_error_ms": 4.547473508864641e-13,
+    "individual_sign_times_ms": [
+      [
+        400.40000000000003,
+        467.1333333333333
+      ],
+      [
+        533.8666666666667,
+        567.2333333333333
+      ],
+      [
+        633.9666666666667,
+        867.5333333333333
+      ],
+      [
+        1034.3666666666668,
+        1201.2
+      ],
+      [
+        1334.6666666666667,
+        1901.9
+      ]
+    ],
+    "preprocessing_status": "PASS",
+    "unique_valid": true,
+    "cadence_max_hz": 10,
+    "extraction_ms_sum": 2206.543300068006,
+    "extraction_ms_p50": 63.787649996811524,
+    "extraction_ms_p95": 76.46704499493353,
+    "preprocessing_seconds": 4.2721848000073805,
+    "hand_observed_fraction": [
+      0.4411764705882353,
+      0.17647058823529413
+    ],
+    "body_available_fraction": 0.9705882352941176,
+    "canonical_role": "eligible_train",
+    "training_pool": "ASLLRP3_LITERAL_DOMINANT_REALIZED_OCCURRENCE",
+    "source_catalog": "official_ASLLRP2025_verified_utterance_archive",
+    "schema_version": "apphear.continuous_asl.candidate01_causal378.v1",
+    "signer_provenance": {
+      "publisher_participant_id": "4",
+      "publisher_participant_name": "Jonathan",
+      "signer_id": "asllrp_dai_participant_4",
+      "collection": "Jonathan_2012-11-27_sc98",
+      "utterance_id": "36",
+      "source_page": "D:\\apphearv3claude\\AppHear-claude-s2-r3-eval-suite\\AppHear-claude-s2-r3-eval-suite\\experiments\\continuous_asl\\20261020T104054Z_expand_eval01\\sources\\utterances_participant4_page9.html",
+      "source_page_sha256": "67ea74c4bc51e94fa17c2ad3c4bd9b5b91b9808d1446e32f58dc84f76117e415",
+      "query_receipt": "D:\\apphearv3claude\\AppHear-claude-s2-r3-eval-suite\\AppHear-claude-s2-r3-eval-suite\\experiments\\continuous_asl\\20261020T104054Z_expand_eval01\\sources\\utterances_participant4_page9.html.receipt.json",
+      "method": "Official public participant-filtered utterance search, exhaustive published pagination."
+    }
+  },
+  {
+    "sample_id": "asllrp3_468f4ccad97ae83c",
+    "dataset": "ASLLRP_SIGNSTREAM3_2025",
+    "collection": "Jonathan_2012-11-27_sc98",
+    "utterance_id": "37",
+    "source_group": "2012-11-27_JM9_0098-cam1-for-ss3.mp4",
+    "signer_id": "asllrp_dai_participant_4",
+    "split": "dev",
+    "utterance_filename": "4234042.mp4",
+    "utterance_start_frame_master": 7841,
+    "utterance_end_frame_master": 7924,
+    "glosses": [
+      "SICK",
+      "WHO"
+    ],
+    "events": [
+      {
+        "source_row": 5008,
+        "event_id": "346201",
+        "label": "SICK",
+        "start_frame_master": 7864,
+        "end_frame_master": 7866,
+        "hidden": false
+      },
+      {
+        "source_row": 5009,
+        "event_id": "346202",
+        "label": "WHO",
+        "start_frame_master": 7871,
+        "end_frame_master": 7889,
+        "hidden": false
+      }
+    ],
+    "annotation_type": "AUTHENTIC_PUBLISHED_DOMINANT_HAND_OCCURRENCE_EVENTS",
+    "annotation_provenance": {
+      "csv_path": "D:\\apphearv3claude\\AppHear-claude-s2-r3-eval-suite\\AppHear-claude-s2-r3-eval-suite\\experiments\\continuous_asl\\20261020_continuous_expand06\\data\\raw\\asllrp2025\\asllrp_sentence_signs_2025_06_28.csv",
+      "csv_sha256": "9c1641b6b95a6e6c2223c34eb101ed2e83bb1da824e18c7a21791c59b1593e86",
+      "source_rows": [
+        5008,
+        5009
+      ],
+      "target_column": "Occurrence label",
+      "order": "verified master frame start; retain hidden events, compounds and full literal labels",
+      "frame_rate_reference": "https://www.bu.edu/asllrp/rpt24/asllrpr24.pdf",
+      "hand_scope_reference": "https://dai.cs.rutgers.edu/asllvd/signbank/Additional-information-6-29-25.pdf",
+      "excluded_nondominant_only_events": "Publisher CSV omits these; never invent missing labels",
+      "English_translation_used_as_gloss": false
+    },
+    "license_status": "PRIVATE_NONCOMMERCIAL_RESEARCH_ONLY_NO_REDISTRIBUTION",
+    "license_reference": "https://www.bu.edu/asllrp/dai-terms.html",
+    "timing_status": "EXACT_INCLUSIVE_MASTER_FRAME_SPAN_AND_29.97FPS_MEDIA_COUNT_JOIN; NO_OFFSET_SCALING; VISUAL_ALIGNMENT_NOT_INDEPENDENTLY_AUDITED",
+    "signer_independent": false,
+    "video_path": "D:\\apphearv3claude\\AppHear-claude-s2-r3-eval-suite\\AppHear-claude-s2-r3-eval-suite\\experiments\\continuous_asl\\20261020_continuous_expand06\\data\\raw\\asllrp2025\\utterances\\4234042.mp4",
+    "raw_sha256": "59fe98bf99078c8d94d3e32444e792a48d96506f605cd763ac210ad585649864",
+    "bytes": 389309,
+    "media_provenance": {
+      "official_archive_url": "https://dai.cs.rutgers.edu/asllvd/signbank/asllrp_videos/batch_utterance_video_v3_1.zip",
+      "archive_sha256": "e021e4814703ecf3fd3342f32c7a2112b0040921d10f8c4b625caa8c9f2a4b32",
+      "member": "4234042.mp4",
+      "crc32": 2846809333
+    },
+    "media_status": "CRC_VERIFIED_NOT_YET_DECODED",
+    "feature_path": "D:\\apphearv3claude\\AppHear-claude-s2-r3-eval-suite\\AppHear-claude-s2-r3-eval-suite\\experiments\\continuous_asl\\20261020_continuous_expand06\\data\\processed\\asllrp2025\\asllrp3_468f4ccad97ae83c.features.npz",
+    "feature_sha256": "a0d1d894383fdbcb4db152b7ed12df9cfd54d9a2d0e71bb3009437bd61ba0afc",
+    "decoded_pixel_sha256": "a0637283f601cee6af602a7fc5e85609854cf0680894e5b4ab85843e52d8ab9c",
+    "observations": 28,
+    "decoded_frames": 84,
+    "native_fps": 29.97002997002997,
+    "dimensions": [
+      1280,
+      720
+    ],
+    "timestamp_sources": [
+      "CONTAINER_POS_MSEC"
+    ],
+    "max_pts_frame_error_ms": 4.547473508864641e-13,
+    "individual_sign_times_ms": [
+      [
+        767.4333333333334,
+        867.5333333333333
+      ],
+      [
+        1001.0,
+        1634.9666666666667
+      ]
+    ],
+    "preprocessing_status": "PASS",
+    "unique_valid": true,
+    "cadence_max_hz": 10,
+    "extraction_ms_sum": 1804.143299930729,
+    "extraction_ms_p50": 63.80194998928346,
+    "extraction_ms_p95": 75.82147999783045,
+    "preprocessing_seconds": 3.580556400003843,
+    "hand_observed_fraction": [
+      0.21428571428571427,
+      0.17857142857142858
+    ],
+    "body_available_fraction": 0.9642857142857143,
+    "canonical_role": "eligible_train",
+    "training_pool": "ASLLRP3_LITERAL_DOMINANT_REALIZED_OCCURRENCE",
+    "source_catalog": "official_ASLLRP2025_verified_utterance_archive",
+    "schema_version": "apphear.continuous_asl.candidate01_causal378.v1",
+    "signer_provenance": {
+      "publisher_participant_id": "4",
+      "publisher_participant_name": "Jonathan",
+      "signer_id": "asllrp_dai_participant_4",
+      "collection": "Jonathan_2012-11-27_sc98",
+      "utterance_id": "37",
+      "source_page": "D:\\apphearv3claude\\AppHear-claude-s2-r3-eval-suite\\AppHear-claude-s2-r3-eval-suite\\experiments\\continuous_asl\\20261020T104054Z_expand_eval01\\sources\\utterances_participant4_page9.html",
+      "source_page_sha256": "67ea74c4bc51e94fa17c2ad3c4bd9b5b91b9808d1446e32f58dc84f76117e415",
+      "query_receipt": "D:\\apphearv3claude\\AppHear-claude-s2-r3-eval-suite\\AppHear-claude-s2-r3-eval-suite\\experiments\\continuous_asl\\20261020T104054Z_expand_eval01\\sources\\utterances_participant4_page9.html.receipt.json",
+      "method": "Official public participant-filtered utterance search, exhaustive published pagination."
+    }
+  },
+  {
+    "sample_id": "asllrp3_b4af6c11ffa7fed4",
+    "dataset": "ASLLRP_SIGNSTREAM3_2025",
+    "collection": "Jonathan_2012-11-27_sc98",
+    "utterance_id": "38",
+    "source_group": "2012-11-27_JM9_0098-cam1-for-ss3.mp4",
+    "signer_id": "asllrp_dai_participant_4",
+    "split": "dev",
+    "utterance_filename": "4234143.mp4",
+    "utterance_start_frame_master": 8015,
+    "utterance_end_frame_master": 8094,
+    "glosses": [
+      "WHO",
+      "SICK",
+      "WHO"
+    ],
+    "events": [
+      {
+        "source_row": 5010,
+        "event_id": "346203",
+        "label": "WHO",
+        "start_frame_master": 8024,
+        "end_frame_master": 8026,
+        "hidden": false
+      },
+      {
+        "source_row": 5011,
+        "event_id": "346204",
+        "label": "SICK",
+        "start_frame_master": 8032,
+        "end_frame_master": 8035,
+        "hidden": false
+      },
+      {
+        "source_row": 5012,
+        "event_id": "346205",
+        "label": "WHO",
+        "start_frame_master": 8041,
+        "end_frame_master": 8054,
+        "hidden": false
+      }
+    ],
+    "annotation_type": "AUTHENTIC_PUBLISHED_DOMINANT_HAND_OCCURRENCE_EVENTS",
+    "annotation_provenance": {
+      "csv_path": "D:\\apphearv3claude\\AppHear-claude-s2-r3-eval-suite\\AppHear-claude-s2-r3-eval-suite\\experiments\\continuous_asl\\20261020_continuous_expand06\\data\\raw\\asllrp2025\\asllrp_sentence_signs_2025_06_28.csv",
+      "csv_sha256": "9c1641b6b95a6e6c2223c34eb101ed2e83bb1da824e18c7a21791c59b1593e86",
+      "source_rows": [
+        5010,
+        5011,
+        5012
+      ],
+      "target_column": "Occurrence label",
+      "order": "verified master frame start; retain hidden events, compounds and full literal labels",
+      "frame_rate_reference": "https://www.bu.edu/asllrp/rpt24/asllrpr24.pdf",
+      "hand_scope_reference": "https://dai.cs.rutgers.edu/asllvd/signbank/Additional-information-6-29-25.pdf",
+      "excluded_nondominant_only_events": "Publisher CSV omits these; never invent missing labels",
+      "English_translation_used_as_gloss": false
+    },
+    "license_status": "PRIVATE_NONCOMMERCIAL_RESEARCH_ONLY_NO_REDISTRIBUTION",
+    "license_reference": "https://www.bu.edu/asllrp/dai-terms.html",
+    "timing_status": "EXACT_INCLUSIVE_MASTER_FRAME_SPAN_AND_29.97FPS_MEDIA_COUNT_JOIN; NO_OFFSET_SCALING; VISUAL_ALIGNMENT_NOT_INDEPENDENTLY_AUDITED",
+    "signer_independent": false,
+    "video_path": "D:\\apphearv3claude\\AppHear-claude-s2-r3-eval-suite\\AppHear-claude-s2-r3-eval-suite\\experiments\\continuous_asl\\20261020_continuous_expand06\\data\\raw\\asllrp2025\\utterances\\4234143.mp4",
+    "raw_sha256": "7759f8768ad13b4c88e50e9c5a89602962e3c14cb00a2942dcdc88a10f9bdf74",
+    "bytes": 371821,
+    "media_provenance": {
+      "official_archive_url": "https://dai.cs.rutgers.edu/asllvd/signbank/asllrp_videos/batch_utterance_video_v3_1.zip",
+      "archive_sha256": "e021e4814703ecf3fd3342f32c7a2112b0040921d10f8c4b625caa8c9f2a4b32",
+      "member": "4234143.mp4",
+      "crc32": 4190771117
+    },
+    "media_status": "CRC_VERIFIED_NOT_YET_DECODED",
+    "feature_path": "D:\\apphearv3claude\\AppHear-claude-s2-r3-eval-suite\\AppHear-claude-s2-r3-eval-suite\\experiments\\continuous_asl\\20261020_continuous_expand06\\data\\processed\\asllrp2025\\asllrp3_b4af6c11ffa7fed4.features.npz",
+    "feature_sha256": "2bcce025ee9c7142c6960c4fc415b15097a3e34060b3b810f5de9a58ebb87d05",
+    "decoded_pixel_sha256": "b7a30511946f845839b248507d9bf3fb17996262449efb5a35a6f526b7418708",
+    "observations": 27,
+    "decoded_frames": 80,
+    "native_fps": 29.97002997002997,
+    "dimensions": [
+      1280,
+      720
+    ],
+    "timestamp_sources": [
+      "CONTAINER_POS_MSEC"
+    ],
+    "max_pts_frame_error_ms": 4.547473508864641e-13,
+    "individual_sign_times_ms": [
+      [
+        300.3,
+        400.40000000000003
+      ],
+      [
+        567.2333333333333,
+        700.7
+      ],
+      [
+        867.5333333333333,
+        1334.6666666666667
+      ]
+    ],
+    "preprocessing_status": "PASS",
+    "unique_valid": true,
+    "cadence_max_hz": 10,
+    "extraction_ms_sum": 1719.8461999651045,
+    "extraction_ms_p50": 64.6390000183601,
+    "extraction_ms_p95": 70.16831998480484,
+    "preprocessing_seconds": 3.3789249999972526,
+    "hand_observed_fraction": [
+      0.14814814814814814,
+      0.25925925925925924
+    ],
+    "body_available_fraction": 0.9629629629629629,
+    "canonical_role": "eligible_train",
+    "training_pool": "ASLLRP3_LITERAL_DOMINANT_REALIZED_OCCURRENCE",
+    "source_catalog": "official_ASLLRP2025_verified_utterance_archive",
+    "schema_version": "apphear.continuous_asl.candidate01_causal378.v1",
+    "signer_provenance": {
+      "publisher_participant_id": "4",
+      "publisher_participant_name": "Jonathan",
+      "signer_id": "asllrp_dai_participant_4",
+      "collection": "Jonathan_2012-11-27_sc98",
+      "utterance_id": "38",
+      "source_page": "D:\\apphearv3claude\\AppHear-claude-s2-r3-eval-suite\\AppHear-claude-s2-r3-eval-suite\\experiments\\continuous_asl\\20261020T104054Z_expand_eval01\\sources\\utterances_participant4_page9.html",
+      "source_page_sha256": "67ea74c4bc51e94fa17c2ad3c4bd9b5b91b9808d1446e32f58dc84f76117e415",
+      "query_receipt": "D:\\apphearv3claude\\AppHear-claude-s2-r3-eval-suite\\AppHear-claude-s2-r3-eval-suite\\experiments\\continuous_asl\\20261020T104054Z_expand_eval01\\sources\\utterances_participant4_page9.html.receipt.json",
+      "method": "Official public participant-filtered utterance search, exhaustive published pagination."
+    }
+  },
+  {
+    "sample_id": "asllrp3_2dc5095ccdd80637",
+    "dataset": "ASLLRP_SIGNSTREAM3_2025",
+    "collection": "Jonathan_2012-11-27_sc95",
+    "utterance_id": "4",
+    "source_group": "2012-11-27_JM6_0095-cam1-for-ss3.mp4",
+    "signer_id": "asllrp_dai_participant_4",
+    "split": "dev",
+    "utterance_filename": "28310.mp4",
+    "utterance_start_frame_master": 602,
+    "utterance_end_frame_master": 676,
+    "glosses": [
+      "BUY",
+      "CAR",
+      "IX-2p",
+      "WHERE"
+    ],
+    "events": [
+      {
+        "source_row": 5880,
+        "event_id": "347133",
+        "label": "BUY",
+        "start_frame_master": 616,
+        "end_frame_master": 618,
+        "hidden": false
+      },
+      {
+        "source_row": 5881,
+        "event_id": "347134",
+        "label": "CAR",
+        "start_frame_master": 622,
+        "end_frame_master": 627,
+        "hidden": false
+      },
+      {
+        "source_row": 5882,
+        "event_id": "347135",
+        "label": "IX-2p",
+        "start_frame_master": 634,
+        "end_frame_master": 634,
+        "hidden": false
+      },
+      {
+        "source_row": 5883,
+        "event_id": "347136",
+        "label": "WHERE",
+        "start_frame_master": 639,
+        "end_frame_master": 653,
+        "hidden": false
+      }
+    ],
+    "annotation_type": "AUTHENTIC_PUBLISHED_DOMINANT_HAND_OCCURRENCE_EVENTS",
+    "annotation_provenance": {
+      "csv_path": "D:\\apphearv3claude\\AppHear-claude-s2-r3-eval-suite\\AppHear-claude-s2-r3-eval-suite\\experiments\\continuous_asl\\20261020_continuous_expand06\\data\\raw\\asllrp2025\\asllrp_sentence_signs_2025_06_28.csv",
+      "csv_sha256": "9c1641b6b95a6e6c2223c34eb101ed2e83bb1da824e18c7a21791c59b1593e86",
+      "source_rows": [
+        5880,
+        5881,
+        5882,
+        5883
+      ],
+      "target_column": "Occurrence label",
+      "order": "verified master frame start; retain hidden events, compounds and full literal labels",
+      "frame_rate_reference": "https://www.bu.edu/asllrp/rpt24/asllrpr24.pdf",
+      "hand_scope_reference": "https://dai.cs.rutgers.edu/asllvd/signbank/Additional-information-6-29-25.pdf",
+      "excluded_nondominant_only_events": "Publisher CSV omits these; never invent missing labels",
+      "English_translation_used_as_gloss": false
+    },
+    "license_status": "PRIVATE_NONCOMMERCIAL_RESEARCH_ONLY_NO_REDISTRIBUTION",
+    "license_reference": "https://www.bu.edu/asllrp/dai-terms.html",
+    "timing_status": "EXACT_INCLUSIVE_MASTER_FRAME_SPAN_AND_29.97FPS_MEDIA_COUNT_JOIN; NO_OFFSET_SCALING; VISUAL_ALIGNMENT_NOT_INDEPENDENTLY_AUDITED",
+    "signer_independent": false,
+    "video_path": "D:\\apphearv3claude\\AppHear-claude-s2-r3-eval-suite\\AppHear-claude-s2-r3-eval-suite\\experiments\\continuous_asl\\20261020_continuous_expand06\\data\\raw\\asllrp2025\\utterances\\28310.mp4",
+    "raw_sha256": "874927e040e798f30aa70750519c9a5a98b757164860dec580bfb45b87ef41cc",
+    "bytes": 416635,
+    "media_provenance": {
+      "official_archive_url": "https://dai.cs.rutgers.edu/asllvd/signbank/asllrp_videos/batch_utterance_video_v3_1.zip",
+      "archive_sha256": "e021e4814703ecf3fd3342f32c7a2112b0040921d10f8c4b625caa8c9f2a4b32",
+      "member": "28310.mp4",
+      "crc32": 481303530
+    },
+    "media_status": "CRC_VERIFIED_NOT_YET_DECODED",
+    "feature_path": "D:\\apphearv3claude\\AppHear-claude-s2-r3-eval-suite\\AppHear-claude-s2-r3-eval-suite\\experiments\\continuous_asl\\20261020_continuous_expand06\\data\\processed\\asllrp2025\\asllrp3_2dc5095ccdd80637.features.npz",
+    "feature_sha256": "4c4a36e81c9033fd6a9fcacf0e3add1c29ce91b6c460a7e61f7d232b4222ac95",
+    "decoded_pixel_sha256": "1bf6d946d27ac517458544faf6e68a292ff018a6dda7857e9e0706f26476cbff",
+    "observations": 25,
+    "decoded_frames": 75,
+    "native_fps": 29.97002997002997,
+    "dimensions": [
+      1280,
+      720
+    ],
+    "timestamp_sources": [
+      "CONTAINER_POS_MSEC"
+    ],
+    "max_pts_frame_error_ms": 4.547473508864641e-13,
+    "individual_sign_times_ms": [
+      [
+        467.1333333333333,
+        567.2333333333333
+      ],
+      [
+        667.3333333333334,
+        867.5333333333333
+      ],
+      [
+        1067.7333333333333,
+        1101.1
+      ],
+      [
+        1234.5666666666666,
+        1735.0666666666666
+      ]
+    ],
+    "preprocessing_status": "PASS",
+    "unique_valid": true,
+    "cadence_max_hz": 10,
+    "extraction_ms_sum": 1546.8670999398455,
+    "extraction_ms_p50": 61.59339999430813,
+    "extraction_ms_p95": 65.95677999430336,
+    "preprocessing_seconds": 3.056441500026267,
+    "hand_observed_fraction": [
+      0.24,
+      0.28
+    ],
+    "body_available_fraction": 0.96,
+    "canonical_role": "eligible_train",
+    "training_pool": "ASLLRP3_LITERAL_DOMINANT_REALIZED_OCCURRENCE",
+    "source_catalog": "official_ASLLRP2025_verified_utterance_archive",
+    "schema_version": "apphear.continuous_asl.candidate01_causal378.v1",
+    "signer_provenance": {
+      "publisher_participant_id": "4",
+      "publisher_participant_name": "Jonathan",
+      "signer_id": "asllrp_dai_participant_4",
+      "collection": "Jonathan_2012-11-27_sc95",
+      "utterance_id": "4",
+      "source_page": "D:\\apphearv3claude\\AppHear-claude-s2-r3-eval-suite\\AppHear-claude-s2-r3-eval-suite\\experiments\\continuous_asl\\20261020T104054Z_expand_eval01\\sources\\utterances_participant4_page9.html",
+      "source_page_sha256": "67ea74c4bc51e94fa17c2ad3c4bd9b5b91b9808d1446e32f58dc84f76117e415",
+      "query_receipt": "D:\\apphearv3claude\\AppHear-claude-s2-r3-eval-suite\\AppHear-claude-s2-r3-eval-suite\\experiments\\continuous_asl\\20261020T104054Z_expand_eval01\\sources\\utterances_participant4_page9.html.receipt.json",
+      "method": "Official public participant-filtered utterance search, exhaustive published pagination."
+    }
+  },
+  {
+    "sample_id": "asllrp3_1ffd20f12d278b4a",
+    "dataset": "ASLLRP_SIGNSTREAM3_2025",
+    "collection": "Jonathan_2012-11-27_sc95",
+    "utterance_id": "7",
+    "source_group": "2012-11-27_JM6_0095-cam1-for-ss3.mp4",
+    "signer_id": "asllrp_dai_participant_4",
+    "split": "dev",
+    "utterance_filename": "28513.mp4",
+    "utterance_start_frame_master": 1149,
+    "utterance_end_frame_master": 1252,
+    "glosses": [
+      "IX-2p",
+      "FINISH",
+      "WORK",
+      "#WHEN"
+    ],
+    "events": [
+      {
+        "source_row": 5893,
+        "event_id": "347146",
+        "label": "IX-2p",
+        "start_frame_master": 1158,
+        "end_frame_master": 1158,
+        "hidden": false
+      },
+      {
+        "source_row": 5894,
+        "event_id": "347147",
+        "label": "FINISH",
+        "start_frame_master": 1163,
+        "end_frame_master": 1168,
+        "hidden": false
+      },
+      {
+        "source_row": 5895,
+        "event_id": "347148",
+        "label": "WORK",
+        "start_frame_master": 1174,
+        "end_frame_master": 1182,
+        "hidden": false
+      },
+      {
+        "source_row": 5896,
+        "event_id": "347149",
+        "label": "#WHEN",
+        "start_frame_master": 1190,
+        "end_frame_master": 1197,
+        "hidden": false
+      }
+    ],
+    "annotation_type": "AUTHENTIC_PUBLISHED_DOMINANT_HAND_OCCURRENCE_EVENTS",
+    "annotation_provenance": {
+      "csv_path": "D:\\apphearv3claude\\AppHear-claude-s2-r3-eval-suite\\AppHear-claude-s2-r3-eval-suite\\experiments\\continuous_asl\\20261020_continuous_expand06\\data\\raw\\asllrp2025\\asllrp_sentence_signs_2025_06_28.csv",
+      "csv_sha256": "9c1641b6b95a6e6c2223c34eb101ed2e83bb1da824e18c7a21791c59b1593e86",
+      "source_rows": [
+        5893,
+        5894,
+        5895,
+        5896
+      ],
+      "target_column": "Occurrence label",
+      "order": "verified master frame start; retain hidden events, compounds and full literal labels",
+      "frame_rate_reference": "https://www.bu.edu/asllrp/rpt24/asllrpr24.pdf",
+      "hand_scope_reference": "https://dai.cs.rutgers.edu/asllvd/signbank/Additional-information-6-29-25.pdf",
+      "excluded_nondominant_only_events": "Publisher CSV omits these; never invent missing labels",
+      "English_translation_used_as_gloss": false
+    },
+    "license_status": "PRIVATE_NONCOMMERCIAL_RESEARCH_ONLY_NO_REDISTRIBUTION",
+    "license_reference": "https://www.bu.edu/asllrp/dai-terms.html",
+    "timing_status": "EXACT_INCLUSIVE_MASTER_FRAME_SPAN_AND_29.97FPS_MEDIA_COUNT_JOIN; NO_OFFSET_SCALING; VISUAL_ALIGNMENT_NOT_INDEPENDENTLY_AUDITED",
+    "signer_independent": false,
+    "video_path": "D:\\apphearv3claude\\AppHear-claude-s2-r3-eval-suite\\AppHear-claude-s2-r3-eval-suite\\experiments\\continuous_asl\\20261020_continuous_expand06\\data\\raw\\asllrp2025\\utterances\\28513.mp4",
+    "raw_sha256": "ad6ff4e2fbefe91c6162310c01be62eaf8e7fcd03b6c5680adc355208699c30f",
+    "bytes": 530883,
+    "media_provenance": {
+      "official_archive_url": "https://dai.cs.rutgers.edu/asllvd/signbank/asllrp_videos/batch_utterance_video_v3_1.zip",
+      "archive_sha256": "e021e4814703ecf3fd3342f32c7a2112b0040921d10f8c4b625caa8c9f2a4b32",
+      "member": "28513.mp4",
+      "crc32": 1895119464
+    },
+    "media_status": "CRC_VERIFIED_NOT_YET_DECODED",
+    "feature_path": "D:\\apphearv3claude\\AppHear-claude-s2-r3-eval-suite\\AppHear-claude-s2-r3-eval-suite\\experiments\\continuous_asl\\20261020_continuous_expand06\\data\\processed\\asllrp2025\\asllrp3_1ffd20f12d278b4a.features.npz",
+    "feature_sha256": "5401f0a9ee4e66adffdd31a1485e0a824f1eecb96755281d974ba43672c39e57",
+    "decoded_pixel_sha256": "57ae123f70f7202e4fd3a9d460c7dba16ddffff9efb0d0264593c035fd6e24a5",
+    "observations": 35,
+    "decoded_frames": 104,
+    "native_fps": 29.97002997002997,
+    "dimensions": [
+      1280,
+      720
+    ],
+    "timestamp_sources": [
+      "CONTAINER_POS_MSEC"
+    ],
+    "max_pts_frame_error_ms": 4.547473508864641e-13,
+    "individual_sign_times_ms": [
+      [
+        300.3,
+        333.6666666666667
+      ],
+      [
+        467.1333333333333,
+        667.3333333333334
+      ],
+      [
+        834.1666666666666,
+        1134.4666666666667
+      ],
+      [
+        1368.0333333333333,
+        1634.9666666666667
+      ]
+    ],
+    "preprocessing_status": "PASS",
+    "unique_valid": true,
+    "cadence_max_hz": 10,
+    "extraction_ms_sum": 2295.703099895036,
+    "extraction_ms_p50": 64.37609999557026,
+    "extraction_ms_p95": 76.87511999974954,
+    "preprocessing_seconds": 4.392340999998851,
+    "hand_observed_fraction": [
+      0.6857142857142857,
+      0.22857142857142856
+    ],
+    "body_available_fraction": 1.0,
+    "canonical_role": "eligible_train",
+    "training_pool": "ASLLRP3_LITERAL_DOMINANT_REALIZED_OCCURRENCE",
+    "source_catalog": "official_ASLLRP2025_verified_utterance_archive",
+    "schema_version": "apphear.continuous_asl.candidate01_causal378.v1",
+    "signer_provenance": {
+      "publisher_participant_id": "4",
+      "publisher_participant_name": "Jonathan",
+      "signer_id": "asllrp_dai_participant_4",
+      "collection": "Jonathan_2012-11-27_sc95",
+      "utterance_id": "7",
+      "source_page": "D:\\apphearv3claude\\AppHear-claude-s2-r3-eval-suite\\AppHear-claude-s2-r3-eval-suite\\experiments\\continuous_asl\\20261020T104054Z_expand_eval01\\sources\\utterances_participant4_page15.html",
+      "source_page_sha256": "90fc25571caf39b239100e116a3578a4ded8e5683b27bd708bd80b1eeae575b1",
+      "query_receipt": "D:\\apphearv3claude\\AppHear-claude-s2-r3-eval-suite\\AppHear-claude-s2-r3-eval-suite\\experiments\\continuous_asl\\20261020T104054Z_expand_eval01\\sources\\utterances_participant4_page15.html.receipt.json",
+      "method": "Official public participant-filtered utterance search, exhaustive published pagination."
+    }
+  },
+  {
+    "sample_id": "asllrp3_4dd26ae5b0bce2ae",
+    "dataset": "ASLLRP_SIGNSTREAM3_2025",
+    "collection": "Jonathan_2012-11-27_sc95",
+    "utterance_id": "23",
+    "source_group": "2012-11-27_JM6_0095-cam1-for-ss3.mp4",
+    "signer_id": "asllrp_dai_participant_4",
+    "split": "dev",
+    "utterance_filename": "29829.mp4",
+    "utterance_start_frame_master": 5235,
+    "utterance_end_frame_master": 5363,
+    "glosses": [
+      "#WHEN",
+      "IX-1p",
+      "FINISH",
+      "WORK",
+      "IX-1p",
+      "DEPART",
+      "HOME"
+    ],
+    "events": [
+      {
+        "source_row": 6061,
+        "event_id": "347320",
+        "label": "#WHEN",
+        "start_frame_master": 5251,
+        "end_frame_master": 5254,
+        "hidden": false
+      },
+      {
+        "source_row": 6062,
+        "event_id": "347321",
+        "label": "IX-1p",
+        "start_frame_master": 5258,
+        "end_frame_master": 5258,
+        "hidden": false
+      },
+      {
+        "source_row": 6063,
+        "event_id": "347322",
+        "label": "FINISH",
+        "start_frame_master": 5261,
+        "end_frame_master": 5265,
+        "hidden": false
+      },
+      {
+        "source_row": 6064,
+        "event_id": "347323",
+        "label": "WORK",
+        "start_frame_master": 5271,
+        "end_frame_master": 5281,
+        "hidden": false
+      },
+      {
+        "source_row": 6065,
+        "event_id": "347324",
+        "label": "IX-1p",
+        "start_frame_master": 5285,
+        "end_frame_master": 5285,
+        "hidden": false
+      },
+      {
+        "source_row": 6066,
+        "event_id": "347325",
+        "label": "DEPART",
+        "start_frame_master": 5290,
+        "end_frame_master": 5295,
+        "hidden": false
+      },
+      {
+        "source_row": 6067,
+        "event_id": "347326",
+        "label": "HOME",
+        "start_frame_master": 5306,
+        "end_frame_master": 5314,
+        "hidden": false
+      }
+    ],
+    "annotation_type": "AUTHENTIC_PUBLISHED_DOMINANT_HAND_OCCURRENCE_EVENTS",
+    "annotation_provenance": {
+      "csv_path": "D:\\apphearv3claude\\AppHear-claude-s2-r3-eval-suite\\AppHear-claude-s2-r3-eval-suite\\experiments\\continuous_asl\\20261020_continuous_expand06\\data\\raw\\asllrp2025\\asllrp_sentence_signs_2025_06_28.csv",
+      "csv_sha256": "9c1641b6b95a6e6c2223c34eb101ed2e83bb1da824e18c7a21791c59b1593e86",
+      "source_rows": [
+        6061,
+        6062,
+        6063,
+        6064,
+        6065,
+        6066,
+        6067
+      ],
+      "target_column": "Occurrence label",
+      "order": "verified master frame start; retain hidden events, compounds and full literal labels",
+      "frame_rate_reference": "https://www.bu.edu/asllrp/rpt24/asllrpr24.pdf",
+      "hand_scope_reference": "https://dai.cs.rutgers.edu/asllvd/signbank/Additional-information-6-29-25.pdf",
+      "excluded_nondominant_only_events": "Publisher CSV omits these; never invent missing labels",
+      "English_translation_used_as_gloss": false
+    },
+    "license_status": "PRIVATE_NONCOMMERCIAL_RESEARCH_ONLY_NO_REDISTRIBUTION",
+    "license_reference": "https://www.bu.edu/asllrp/dai-terms.html",
+    "timing_status": "EXACT_INCLUSIVE_MASTER_FRAME_SPAN_AND_29.97FPS_MEDIA_COUNT_JOIN; NO_OFFSET_SCALING; VISUAL_ALIGNMENT_NOT_INDEPENDENTLY_AUDITED",
+    "signer_independent": false,
+    "video_path": "D:\\apphearv3claude\\AppHear-claude-s2-r3-eval-suite\\AppHear-claude-s2-r3-eval-suite\\experiments\\continuous_asl\\20261020_continuous_expand06\\data\\raw\\asllrp2025\\utterances\\29829.mp4",
+    "raw_sha256": "12495f9d56b2d1a316ea5dcac0f42c732da56f9ad3929e427be4a87176e73e02",
+    "bytes": 645637,
+    "media_provenance": {
+      "official_archive_url": "https://dai.cs.rutgers.edu/asllvd/signbank/asllrp_videos/batch_utterance_video_v3_1.zip",
+      "archive_sha256": "e021e4814703ecf3fd3342f32c7a2112b0040921d10f8c4b625caa8c9f2a4b32",
+      "member": "29829.mp4",
+      "crc32": 3824922712
+    },
+    "media_status": "CRC_VERIFIED_NOT_YET_DECODED",
+    "feature_path": "D:\\apphearv3claude\\AppHear-claude-s2-r3-eval-suite\\AppHear-claude-s2-r3-eval-suite\\experiments\\continuous_asl\\20261020_continuous_expand06\\data\\processed\\asllrp2025\\asllrp3_4dd26ae5b0bce2ae.features.npz",
+    "feature_sha256": "ec85b2597da490e1534fd3ebfb1285643b53e8d7bb031c627be0195afbd97955",
+    "decoded_pixel_sha256": "6b70417a708ce41ce243362ef531e71e09417c1288cb9ded90871ea70be4b69b",
+    "observations": 43,
+    "decoded_frames": 129,
+    "native_fps": 29.97002997002997,
+    "dimensions": [
+      1280,
+      720
+    ],
+    "timestamp_sources": [
+      "CONTAINER_POS_MSEC"
+    ],
+    "max_pts_frame_error_ms": 9.094947017729282e-13,
+    "individual_sign_times_ms": [
+      [
+        533.8666666666667,
+        667.3333333333334
+      ],
+      [
+        767.4333333333334,
+        800.8000000000001
+      ],
+      [
+        867.5333333333333,
+        1034.3666666666668
+      ],
+      [
+        1201.2,
+        1568.2333333333333
+      ],
+      [
+        1668.3333333333333,
+        1701.7
+      ],
+      [
+        1835.1666666666667,
+        2035.3666666666668
+      ],
+      [
+        2369.0333333333333,
+        2669.3333333333335
+      ]
+    ],
+    "preprocessing_status": "PASS",
+    "unique_valid": true,
+    "cadence_max_hz": 10,
+    "extraction_ms_sum": 3558.104500058107,
+    "extraction_ms_p50": 81.50870000827126,
+    "extraction_ms_p95": 104.49084000720177,
+    "preprocessing_seconds": 6.466744799981825,
+    "hand_observed_fraction": [
+      0.46511627906976744,
+      0.2558139534883721
+    ],
+    "body_available_fraction": 1.0,
+    "canonical_role": "eligible_train",
+    "training_pool": "ASLLRP3_LITERAL_DOMINANT_REALIZED_OCCURRENCE",
+    "source_catalog": "official_ASLLRP2025_verified_utterance_archive",
+    "schema_version": "apphear.continuous_asl.candidate01_causal378.v1",
+    "signer_provenance": {
+      "publisher_participant_id": "4",
+      "publisher_participant_name": "Jonathan",
+      "signer_id": "asllrp_dai_participant_4",
+      "collection": "Jonathan_2012-11-27_sc95",
+      "utterance_id": "23",
+      "source_page": "D:\\apphearv3claude\\AppHear-claude-s2-r3-eval-suite\\AppHear-claude-s2-r3-eval-suite\\experiments\\continuous_asl\\20261020T104054Z_expand_eval01\\sources\\utterances_participant4_page5.html",
+      "source_page_sha256": "c3e697bf8be451cbeba6788e63ca8264aae986a1027037a1f24a12c36ca08ed1",
+      "query_receipt": "D:\\apphearv3claude\\AppHear-claude-s2-r3-eval-suite\\AppHear-claude-s2-r3-eval-suite\\experiments\\continuous_asl\\20261020T104054Z_expand_eval01\\sources\\utterances_participant4_page5.html.receipt.json",
+      "method": "Official public participant-filtered utterance search, exhaustive published pagination."
+    }
+  },
+  {
+    "sample_id": "asllrp3_030f428b9a285d67",
+    "dataset": "ASLLRP_SIGNSTREAM3_2025",
+    "collection": "Jonathan_2012-11-27_sc95",
+    "utterance_id": "28",
+    "source_group": "2012-11-27_JM6_0095-cam1-for-ss3.mp4",
+    "signer_id": "asllrp_dai_participant_4",
+    "split": "dev",
+    "utterance_filename": "30134.mp4",
+    "utterance_start_frame_master": 6299,
+    "utterance_end_frame_master": 6390,
+    "glosses": [
+      "GO-OUT+",
+      "RAIN+"
+    ],
+    "events": [
+      {
+        "source_row": 6096,
+        "event_id": "347355",
+        "label": "GO-OUT+",
+        "start_frame_master": 6311,
+        "end_frame_master": 6319,
+        "hidden": false
+      },
+      {
+        "source_row": 6097,
+        "event_id": "347356",
+        "label": "RAIN+",
+        "start_frame_master": 6323,
+        "end_frame_master": 6338,
+        "hidden": false
+      }
+    ],
+    "annotation_type": "AUTHENTIC_PUBLISHED_DOMINANT_HAND_OCCURRENCE_EVENTS",
+    "annotation_provenance": {
+      "csv_path": "D:\\apphearv3claude\\AppHear-claude-s2-r3-eval-suite\\AppHear-claude-s2-r3-eval-suite\\experiments\\continuous_asl\\20261020_continuous_expand06\\data\\raw\\asllrp2025\\asllrp_sentence_signs_2025_06_28.csv",
+      "csv_sha256": "9c1641b6b95a6e6c2223c34eb101ed2e83bb1da824e18c7a21791c59b1593e86",
+      "source_rows": [
+        6096,
+        6097
+      ],
+      "target_column": "Occurrence label",
+      "order": "verified master frame start; retain hidden events, compounds and full literal labels",
+      "frame_rate_reference": "https://www.bu.edu/asllrp/rpt24/asllrpr24.pdf",
+      "hand_scope_reference": "https://dai.cs.rutgers.edu/asllvd/signbank/Additional-information-6-29-25.pdf",
+      "excluded_nondominant_only_events": "Publisher CSV omits these; never invent missing labels",
+      "English_translation_used_as_gloss": false
+    },
+    "license_status": "PRIVATE_NONCOMMERCIAL_RESEARCH_ONLY_NO_REDISTRIBUTION",
+    "license_reference": "https://www.bu.edu/asllrp/dai-terms.html",
+    "timing_status": "EXACT_INCLUSIVE_MASTER_FRAME_SPAN_AND_29.97FPS_MEDIA_COUNT_JOIN; NO_OFFSET_SCALING; VISUAL_ALIGNMENT_NOT_INDEPENDENTLY_AUDITED",
+    "signer_independent": false,
+    "video_path": "D:\\apphearv3claude\\AppHear-claude-s2-r3-eval-suite\\AppHear-claude-s2-r3-eval-suite\\experiments\\continuous_asl\\20261020_continuous_expand06\\data\\raw\\asllrp2025\\utterances\\30134.mp4",
+    "raw_sha256": "b8e561a9dc660331695188f8516cbf1ca9eff0bae5a466cdd851cb972c699f7c",
+    "bytes": 462375,
+    "media_provenance": {
+      "official_archive_url": "https://dai.cs.rutgers.edu/asllvd/signbank/asllrp_videos/batch_utterance_video_v3_1.zip",
+      "archive_sha256": "e021e4814703ecf3fd3342f32c7a2112b0040921d10f8c4b625caa8c9f2a4b32",
+      "member": "30134.mp4",
+      "crc32": 3998891781
+    },
+    "media_status": "CRC_VERIFIED_NOT_YET_DECODED",
+    "feature_path": "D:\\apphearv3claude\\AppHear-claude-s2-r3-eval-suite\\AppHear-claude-s2-r3-eval-suite\\experiments\\continuous_asl\\20261020_continuous_expand06\\data\\processed\\asllrp2025\\asllrp3_030f428b9a285d67.features.npz",
+    "feature_sha256": "cbb38c7f2f5788a347a701950487edd4f210a52b948e6239d4fb9a4b2cbed0df",
+    "decoded_pixel_sha256": "b41bdb8595a7d6181f5e3cb1efd3a03b0633255dd2dc88772df2387189b5a75c",
+    "observations": 31,
+    "decoded_frames": 92,
+    "native_fps": 29.97002997002997,
+    "dimensions": [
+      1280,
+      720
+    ],
+    "timestamp_sources": [
+      "CONTAINER_POS_MSEC"
+    ],
+    "max_pts_frame_error_ms": 4.547473508864641e-13,
+    "individual_sign_times_ms": [
+      [
+        400.40000000000003,
+        700.7
+      ],
+      [
+        800.8000000000001,
+        1334.6666666666667
+      ]
+    ],
+    "preprocessing_status": "PASS",
+    "unique_valid": true,
+    "cadence_max_hz": 10,
+    "extraction_ms_sum": 2152.7987002045847,
+    "extraction_ms_p50": 67.73320000502281,
+    "extraction_ms_p95": 84.93270000326447,
+    "preprocessing_seconds": 4.098092500003986,
+    "hand_observed_fraction": [
+      0.45161290322580644,
+      0.3225806451612903
+    ],
+    "body_available_fraction": 0.967741935483871,
+    "canonical_role": "eligible_train",
+    "training_pool": "ASLLRP3_LITERAL_DOMINANT_REALIZED_OCCURRENCE",
+    "source_catalog": "official_ASLLRP2025_verified_utterance_archive",
+    "schema_version": "apphear.continuous_asl.candidate01_causal378.v1",
+    "signer_provenance": {
+      "publisher_participant_id": "4",
+      "publisher_participant_name": "Jonathan",
+      "signer_id": "asllrp_dai_participant_4",
+      "collection": "Jonathan_2012-11-27_sc95",
+      "utterance_id": "28",
+      "source_page": "D:\\apphearv3claude\\AppHear-claude-s2-r3-eval-suite\\AppHear-claude-s2-r3-eval-suite\\experiments\\continuous_asl\\20261020T104054Z_expand_eval01\\sources\\utterances_participant4_page6.html",
+      "source_page_sha256": "63500d96896881bd27b1b6f6a477604401ed47faf7aeec505d95aa601aaf943c",
+      "query_receipt": "D:\\apphearv3claude\\AppHear-claude-s2-r3-eval-suite\\AppHear-claude-s2-r3-eval-suite\\experiments\\continuous_asl\\20261020T104054Z_expand_eval01\\sources\\utterances_participant4_page6.html.receipt.json",
+      "method": "Official public participant-filtered utterance search, exhaustive published pagination."
+    }
+  },
+  {
+    "sample_id": "asllrp3_ffbcaa429c80c8f6",
+    "dataset": "ASLLRP_SIGNSTREAM3_2025",
+    "collection": "Jonathan_2012-11-27_sc94",
+    "utterance_id": "1",
+    "source_group": "2012-11-27_JM5_0094-cam1-for-ss3.mp4",
+    "signer_id": "asllrp_dai_participant_4",
+    "split": "dev",
+    "utterance_filename": "84087.mp4",
+    "utterance_start_frame_master": 30,
+    "utterance_end_frame_master": 123,
+    "glosses": [
+      "FRIEND",
+      "IX-3p:i",
+      "DRIVE"
+    ],
+    "events": [
+      {
+        "source_row": 6148,
+        "event_id": "347407",
+        "label": "FRIEND",
+        "start_frame_master": 37,
+        "end_frame_master": 47,
+        "hidden": false
+      },
+      {
+        "source_row": 6149,
+        "event_id": "347408",
+        "label": "IX-3p:i",
+        "start_frame_master": 50,
+        "end_frame_master": 53,
+        "hidden": false
+      },
+      {
+        "source_row": 6150,
+        "event_id": "347409",
+        "label": "DRIVE",
+        "start_frame_master": 59,
+        "end_frame_master": 70,
+        "hidden": false
+      }
+    ],
+    "annotation_type": "AUTHENTIC_PUBLISHED_DOMINANT_HAND_OCCURRENCE_EVENTS",
+    "annotation_provenance": {
+      "csv_path": "D:\\apphearv3claude\\AppHear-claude-s2-r3-eval-suite\\AppHear-claude-s2-r3-eval-suite\\experiments\\continuous_asl\\20261020_continuous_expand06\\data\\raw\\asllrp2025\\asllrp_sentence_signs_2025_06_28.csv",
+      "csv_sha256": "9c1641b6b95a6e6c2223c34eb101ed2e83bb1da824e18c7a21791c59b1593e86",
+      "source_rows": [
+        6148,
+        6149,
+        6150
+      ],
+      "target_column": "Occurrence label",
+      "order": "verified master frame start; retain hidden events, compounds and full literal labels",
+      "frame_rate_reference": "https://www.bu.edu/asllrp/rpt24/asllrpr24.pdf",
+      "hand_scope_reference": "https://dai.cs.rutgers.edu/asllvd/signbank/Additional-information-6-29-25.pdf",
+      "excluded_nondominant_only_events": "Publisher CSV omits these; never invent missing labels",
+      "English_translation_used_as_gloss": false
+    },
+    "license_status": "PRIVATE_NONCOMMERCIAL_RESEARCH_ONLY_NO_REDISTRIBUTION",
+    "license_reference": "https://www.bu.edu/asllrp/dai-terms.html",
+    "timing_status": "EXACT_INCLUSIVE_MASTER_FRAME_SPAN_AND_29.97FPS_MEDIA_COUNT_JOIN; NO_OFFSET_SCALING; VISUAL_ALIGNMENT_NOT_INDEPENDENTLY_AUDITED",
+    "signer_independent": false,
+    "video_path": "D:\\apphearv3claude\\AppHear-claude-s2-r3-eval-suite\\AppHear-claude-s2-r3-eval-suite\\experiments\\continuous_asl\\20261020_continuous_expand06\\data\\raw\\asllrp2025\\utterances\\84087.mp4",
+    "raw_sha256": "9c2d903eb91da78e529a27230a06603fb55dc255e060bbabdb41ebb1c9e30e2d",
+    "bytes": 461007,
+    "media_provenance": {
+      "official_archive_url": "https://dai.cs.rutgers.edu/asllvd/signbank/asllrp_videos/batch_utterance_video_v3_1.zip",
+      "archive_sha256": "e021e4814703ecf3fd3342f32c7a2112b0040921d10f8c4b625caa8c9f2a4b32",
+      "member": "84087.mp4",
+      "crc32": 1667357541
+    },
+    "media_status": "CRC_VERIFIED_NOT_YET_DECODED",
+    "feature_path": "D:\\apphearv3claude\\AppHear-claude-s2-r3-eval-suite\\AppHear-claude-s2-r3-eval-suite\\experiments\\continuous_asl\\20261020_continuous_expand06\\data\\processed\\asllrp2025\\asllrp3_ffbcaa429c80c8f6.features.npz",
+    "feature_sha256": "314a0d4250d800a3b58ffc374ab4e0667d1ddfd0bfde79cbb8063e49eba6ab1f",
+    "decoded_pixel_sha256": "9b0276e43f54bbd3badad9c507b4b736fb24a4e044d24b70fdbba9253bc02ad4",
+    "observations": 32,
+    "decoded_frames": 94,
+    "native_fps": 29.97002997002997,
+    "dimensions": [
+      1280,
+      720
+    ],
+    "timestamp_sources": [
+      "CONTAINER_POS_MSEC"
+    ],
+    "max_pts_frame_error_ms": 4.547473508864641e-13,
+    "individual_sign_times_ms": [
+      [
+        233.56666666666666,
+        600.6
+      ],
+      [
+        667.3333333333334,
+        800.8000000000001
+      ],
+      [
+        967.6333333333333,
+        1368.0333333333333
+      ]
+    ],
+    "preprocessing_status": "PASS",
+    "unique_valid": true,
+    "cadence_max_hz": 10,
+    "extraction_ms_sum": 2359.97259998112,
+    "extraction_ms_p50": 68.20214999606833,
+    "extraction_ms_p95": 99.24832999095088,
+    "preprocessing_seconds": 4.333667200000491,
+    "hand_observed_fraction": [
+      0.21875,
+      0.34375
+    ],
+    "body_available_fraction": 1.0,
+    "canonical_role": "eligible_train",
+    "training_pool": "ASLLRP3_LITERAL_DOMINANT_REALIZED_OCCURRENCE",
+    "source_catalog": "official_ASLLRP2025_verified_utterance_archive",
+    "schema_version": "apphear.continuous_asl.candidate01_causal378.v1",
+    "signer_provenance": {
+      "publisher_participant_id": "4",
+      "publisher_participant_name": "Jonathan",
+      "signer_id": "asllrp_dai_participant_4",
+      "collection": "Jonathan_2012-11-27_sc94",
+      "utterance_id": "1",
+      "source_page": "D:\\apphearv3claude\\AppHear-claude-s2-r3-eval-suite\\AppHear-claude-s2-r3-eval-suite\\experiments\\continuous_asl\\20261020T104054Z_expand_eval01\\sources\\utterances_participant4_page1.html",
+      "source_page_sha256": "ad5bf51a90dba2e71182cacee47308c54137a8c4fb7fda3654e34b6e602ac848",
+      "query_receipt": "D:\\apphearv3claude\\AppHear-claude-s2-r3-eval-suite\\AppHear-claude-s2-r3-eval-suite\\experiments\\continuous_asl\\20261020T104054Z_expand_eval01\\sources\\utterances_participant4_page1.html.receipt.json",
+      "method": "Official public participant-filtered utterance search, exhaustive published pagination."
+    }
+  },
+  {
+    "sample_id": "asllrp3_0b94b425cc39c1d1",
+    "dataset": "ASLLRP_SIGNSTREAM3_2025",
+    "collection": "Jonathan_2012-11-27_sc94",
+    "utterance_id": "2",
+    "source_group": "2012-11-27_JM5_0094-cam1-for-ss3.mp4",
+    "signer_id": "asllrp_dai_participant_4",
+    "split": "dev",
+    "utterance_filename": "84088.mp4",
+    "utterance_start_frame_master": 223,
+    "utterance_end_frame_master": 289,
+    "glosses": [
+      "FRIEND",
+      "GO-OUT",
+      "(P)PARTY"
+    ],
+    "events": [
+      {
+        "source_row": 6151,
+        "event_id": "347410",
+        "label": "FRIEND",
+        "start_frame_master": 232,
+        "end_frame_master": 241,
+        "hidden": false
+      },
+      {
+        "source_row": 6152,
+        "event_id": "347411",
+        "label": "GO-OUT",
+        "start_frame_master": 247,
+        "end_frame_master": 253,
+        "hidden": false
+      },
+      {
+        "source_row": 6153,
+        "event_id": "347412",
+        "label": "(P)PARTY",
+        "start_frame_master": 261,
+        "end_frame_master": 272,
+        "hidden": false
+      }
+    ],
+    "annotation_type": "AUTHENTIC_PUBLISHED_DOMINANT_HAND_OCCURRENCE_EVENTS",
+    "annotation_provenance": {
+      "csv_path": "D:\\apphearv3claude\\AppHear-claude-s2-r3-eval-suite\\AppHear-claude-s2-r3-eval-suite\\experiments\\continuous_asl\\20261020_continuous_expand06\\data\\raw\\asllrp2025\\asllrp_sentence_signs_2025_06_28.csv",
+      "csv_sha256": "9c1641b6b95a6e6c2223c34eb101ed2e83bb1da824e18c7a21791c59b1593e86",
+      "source_rows": [
+        6151,
+        6152,
+        6153
+      ],
+      "target_column": "Occurrence label",
+      "order": "verified master frame start; retain hidden events, compounds and full literal labels",
+      "frame_rate_reference": "https://www.bu.edu/asllrp/rpt24/asllrpr24.pdf",
+      "hand_scope_reference": "https://dai.cs.rutgers.edu/asllvd/signbank/Additional-information-6-29-25.pdf",
+      "excluded_nondominant_only_events": "Publisher CSV omits these; never invent missing labels",
+      "English_translation_used_as_gloss": false
+    },
+    "license_status": "PRIVATE_NONCOMMERCIAL_RESEARCH_ONLY_NO_REDISTRIBUTION",
+    "license_reference": "https://www.bu.edu/asllrp/dai-terms.html",
+    "timing_status": "EXACT_INCLUSIVE_MASTER_FRAME_SPAN_AND_29.97FPS_MEDIA_COUNT_JOIN; NO_OFFSET_SCALING; VISUAL_ALIGNMENT_NOT_INDEPENDENTLY_AUDITED",
+    "signer_independent": false,
+    "video_path": "D:\\apphearv3claude\\AppHear-claude-s2-r3-eval-suite\\AppHear-claude-s2-r3-eval-suite\\experiments\\continuous_asl\\20261020_continuous_expand06\\data\\raw\\asllrp2025\\utterances\\84088.mp4",
+    "raw_sha256": "7673d45f3d22913e517e3af58886cbddedfdd1ba7a954979981d643af7c36592",
+    "bytes": 373565,
+    "media_provenance": {
+      "official_archive_url": "https://dai.cs.rutgers.edu/asllvd/signbank/asllrp_videos/batch_utterance_video_v3_1.zip",
+      "archive_sha256": "e021e4814703ecf3fd3342f32c7a2112b0040921d10f8c4b625caa8c9f2a4b32",
+      "member": "84088.mp4",
+      "crc32": 2848622074
+    },
+    "media_status": "CRC_VERIFIED_NOT_YET_DECODED",
+    "feature_path": "D:\\apphearv3claude\\AppHear-claude-s2-r3-eval-suite\\AppHear-claude-s2-r3-eval-suite\\experiments\\continuous_asl\\20261020_continuous_expand06\\data\\processed\\asllrp2025\\asllrp3_0b94b425cc39c1d1.features.npz",
+    "feature_sha256": "f4d825822b60d33b0e2fda8068627b965126cef102a73a3e174f724cea9a3ee3",
+    "decoded_pixel_sha256": "fde7ef1748d3ebb2b2013fd8c8ab9bacd0e95e96429adc5f80f7f972d12cde34",
+    "observations": 23,
+    "decoded_frames": 67,
+    "native_fps": 29.97002997002997,
+    "dimensions": [
+      1280,
+      720
+    ],
+    "timestamp_sources": [
+      "CONTAINER_POS_MSEC"
+    ],
+    "max_pts_frame_error_ms": 4.547473508864641e-13,
+    "individual_sign_times_ms": [
+      [
+        300.3,
+        633.9666666666667
+      ],
+      [
+        800.8000000000001,
+        1034.3666666666668
+      ],
+      [
+        1267.9333333333334,
+        1668.3333333333333
+      ]
+    ],
+    "preprocessing_status": "PASS",
+    "unique_valid": true,
+    "cadence_max_hz": 10,
+    "extraction_ms_sum": 1618.549200007692,
+    "extraction_ms_p50": 65.28689997503534,
+    "extraction_ms_p95": 94.28715000685769,
+    "preprocessing_seconds": 3.10542279999936,
+    "hand_observed_fraction": [
+      0.34782608695652173,
+      0.30434782608695654
+    ],
+    "body_available_fraction": 1.0,
+    "canonical_role": "eligible_train",
+    "training_pool": "ASLLRP3_LITERAL_DOMINANT_REALIZED_OCCURRENCE",
+    "source_catalog": "official_ASLLRP2025_verified_utterance_archive",
+    "schema_version": "apphear.continuous_asl.candidate01_causal378.v1",
+    "signer_provenance": {
+      "publisher_participant_id": "4",
+      "publisher_participant_name": "Jonathan",
+      "signer_id": "asllrp_dai_participant_4",
+      "collection": "Jonathan_2012-11-27_sc94",
+      "utterance_id": "2",
+      "source_page": "D:\\apphearv3claude\\AppHear-claude-s2-r3-eval-suite\\AppHear-claude-s2-r3-eval-suite\\experiments\\continuous_asl\\20261020T104054Z_expand_eval01\\sources\\utterances_participant4_page4.html",
+      "source_page_sha256": "58528a4827b0cf4488b50e6b80932ae6bbbe44b03d315ee2469c36ca1d8ec3d5",
+      "query_receipt": "D:\\apphearv3claude\\AppHear-claude-s2-r3-eval-suite\\AppHear-claude-s2-r3-eval-suite\\experiments\\continuous_asl\\20261020T104054Z_expand_eval01\\sources\\utterances_participant4_page4.html.receipt.json",
+      "method": "Official public participant-filtered utterance search, exhaustive published pagination."
+    }
+  },
+  {
+    "sample_id": "asllrp3_a8a3ace2b25c0952",
+    "dataset": "ASLLRP_SIGNSTREAM3_2025",
+    "collection": "Jonathan_2012-11-27_sc94",
+    "utterance_id": "3",
+    "source_group": "2012-11-27_JM5_0094-cam1-for-ss3.mp4",
+    "signer_id": "asllrp_dai_participant_4",
+    "split": "dev",
+    "utterance_filename": "84099.mp4",
+    "utterance_start_frame_master": 390,
+    "utterance_end_frame_master": 456,
+    "glosses": [
+      "IX-1p",
+      "WORK",
+      "IX-1p"
+    ],
+    "events": [
+      {
+        "source_row": 6154,
+        "event_id": "347413",
+        "label": "IX-1p",
+        "start_frame_master": 403,
+        "end_frame_master": 404,
+        "hidden": false
+      },
+      {
+        "source_row": 6155,
+        "event_id": "347414",
+        "label": "WORK",
+        "start_frame_master": 411,
+        "end_frame_master": 420,
+        "hidden": false
+      },
+      {
+        "source_row": 6156,
+        "event_id": "347415",
+        "label": "IX-1p",
+        "start_frame_master": 430,
+        "end_frame_master": 439,
+        "hidden": false
+      }
+    ],
+    "annotation_type": "AUTHENTIC_PUBLISHED_DOMINANT_HAND_OCCURRENCE_EVENTS",
+    "annotation_provenance": {
+      "csv_path": "D:\\apphearv3claude\\AppHear-claude-s2-r3-eval-suite\\AppHear-claude-s2-r3-eval-suite\\experiments\\continuous_asl\\20261020_continuous_expand06\\data\\raw\\asllrp2025\\asllrp_sentence_signs_2025_06_28.csv",
+      "csv_sha256": "9c1641b6b95a6e6c2223c34eb101ed2e83bb1da824e18c7a21791c59b1593e86",
+      "source_rows": [
+        6154,
+        6155,
+        6156
+      ],
+      "target_column": "Occurrence label",
+      "order": "verified master frame start; retain hidden events, compounds and full literal labels",
+      "frame_rate_reference": "https://www.bu.edu/asllrp/rpt24/asllrpr24.pdf",
+      "hand_scope_reference": "https://dai.cs.rutgers.edu/asllvd/signbank/Additional-information-6-29-25.pdf",
+      "excluded_nondominant_only_events": "Publisher CSV omits these; never invent missing labels",
+      "English_translation_used_as_gloss": false
+    },
+    "license_status": "PRIVATE_NONCOMMERCIAL_RESEARCH_ONLY_NO_REDISTRIBUTION",
+    "license_reference": "https://www.bu.edu/asllrp/dai-terms.html",
+    "timing_status": "EXACT_INCLUSIVE_MASTER_FRAME_SPAN_AND_29.97FPS_MEDIA_COUNT_JOIN; NO_OFFSET_SCALING; VISUAL_ALIGNMENT_NOT_INDEPENDENTLY_AUDITED",
+    "signer_independent": false,
+    "video_path": "D:\\apphearv3claude\\AppHear-claude-s2-r3-eval-suite\\AppHear-claude-s2-r3-eval-suite\\experiments\\continuous_asl\\20261020_continuous_expand06\\data\\raw\\asllrp2025\\utterances\\84099.mp4",
+    "raw_sha256": "145a04f6237d9ca9a44e38bea833c353f7b75ae3b2e6f1dcd34cc3023a19a9fc",
+    "bytes": 337986,
+    "media_provenance": {
+      "official_archive_url": "https://dai.cs.rutgers.edu/asllvd/signbank/asllrp_videos/batch_utterance_video_v3_1.zip",
+      "archive_sha256": "e021e4814703ecf3fd3342f32c7a2112b0040921d10f8c4b625caa8c9f2a4b32",
+      "member": "84099.mp4",
+      "crc32": 3877087572
+    },
+    "media_status": "CRC_VERIFIED_NOT_YET_DECODED",
+    "feature_path": "D:\\apphearv3claude\\AppHear-claude-s2-r3-eval-suite\\AppHear-claude-s2-r3-eval-suite\\experiments\\continuous_asl\\20261020_continuous_expand06\\data\\processed\\asllrp2025\\asllrp3_a8a3ace2b25c0952.features.npz",
+    "feature_sha256": "93d5d779baa83e0226e90ea557c67dc632869d10a90bba3885edb3f0e6d60fe7",
+    "decoded_pixel_sha256": "5df4867822704180cce1039e807138bcf344ab4c1648c5bde78a782a67a5a4d0",
+    "observations": 23,
+    "decoded_frames": 67,
+    "native_fps": 29.97002997002997,
+    "dimensions": [
+      1280,
+      720
+    ],
+    "timestamp_sources": [
+      "CONTAINER_POS_MSEC"
+    ],
+    "max_pts_frame_error_ms": 4.547473508864641e-13,
+    "individual_sign_times_ms": [
+      [
+        433.76666666666665,
+        500.5
+      ],
+      [
+        700.7,
+        1034.3666666666668
+      ],
+      [
+        1334.6666666666667,
+        1668.3333333333333
+      ]
+    ],
+    "preprocessing_status": "PASS",
+    "unique_valid": true,
+    "cadence_max_hz": 10,
+    "extraction_ms_sum": 1698.55879995157,
+    "extraction_ms_p50": 65.6864000193309,
+    "extraction_ms_p95": 99.76824999030212,
+    "preprocessing_seconds": 3.1359710000106134,
+    "hand_observed_fraction": [
+      0.17391304347826086,
+      0.21739130434782608
+    ],
+    "body_available_fraction": 0.9565217391304348,
+    "canonical_role": "eligible_train",
+    "training_pool": "ASLLRP3_LITERAL_DOMINANT_REALIZED_OCCURRENCE",
+    "source_catalog": "official_ASLLRP2025_verified_utterance_archive",
+    "schema_version": "apphear.continuous_asl.candidate01_causal378.v1",
+    "signer_provenance": {
+      "publisher_participant_id": "4",
+      "publisher_participant_name": "Jonathan",
+      "signer_id": "asllrp_dai_participant_4",
+      "collection": "Jonathan_2012-11-27_sc94",
+      "utterance_id": "3",
+      "source_page": "D:\\apphearv3claude\\AppHear-claude-s2-r3-eval-suite\\AppHear-claude-s2-r3-eval-suite\\experiments\\continuous_asl\\20261020T104054Z_expand_eval01\\sources\\utterances_participant4_page7.html",
+      "source_page_sha256": "af84608e136e1d61369fd7f79dcca89221a7add7be1c3465f79da08d16886c53",
+      "query_receipt": "D:\\apphearv3claude\\AppHear-claude-s2-r3-eval-suite\\AppHear-claude-s2-r3-eval-suite\\experiments\\continuous_asl\\20261020T104054Z_expand_eval01\\sources\\utterances_participant4_page7.html.receipt.json",
+      "method": "Official public participant-filtered utterance search, exhaustive published pagination."
+    }
+  },
+  {
+    "sample_id": "asllrp3_eaffab85232e0098",
+    "dataset": "ASLLRP_SIGNSTREAM3_2025",
+    "collection": "Jonathan_2012-11-27_sc94",
+    "utterance_id": "7",
+    "source_group": "2012-11-27_JM5_0094-cam1-for-ss3.mp4",
+    "signer_id": "asllrp_dai_participant_4",
+    "split": "dev",
+    "utterance_filename": "841213.mp4",
+    "utterance_start_frame_master": 1085,
+    "utterance_end_frame_master": 1167,
+    "glosses": [
+      "FRIEND",
+      "GO-OUT",
+      "TRIP"
+    ],
+    "events": [
+      {
+        "source_row": 6171,
+        "event_id": "347430",
+        "label": "FRIEND",
+        "start_frame_master": 1092,
+        "end_frame_master": 1102,
+        "hidden": false
+      },
+      {
+        "source_row": 6172,
+        "event_id": "347431",
+        "label": "GO-OUT",
+        "start_frame_master": 1107,
+        "end_frame_master": 1111,
+        "hidden": false
+      },
+      {
+        "source_row": 6173,
+        "event_id": "347432",
+        "label": "TRIP",
+        "start_frame_master": 1116,
+        "end_frame_master": 1141,
+        "hidden": false
+      }
+    ],
+    "annotation_type": "AUTHENTIC_PUBLISHED_DOMINANT_HAND_OCCURRENCE_EVENTS",
+    "annotation_provenance": {
+      "csv_path": "D:\\apphearv3claude\\AppHear-claude-s2-r3-eval-suite\\AppHear-claude-s2-r3-eval-suite\\experiments\\continuous_asl\\20261020_continuous_expand06\\data\\raw\\asllrp2025\\asllrp_sentence_signs_2025_06_28.csv",
+      "csv_sha256": "9c1641b6b95a6e6c2223c34eb101ed2e83bb1da824e18c7a21791c59b1593e86",
+      "source_rows": [
+        6171,
+        6172,
+        6173
+      ],
+      "target_column": "Occurrence label",
+      "order": "verified master frame start; retain hidden events, compounds and full literal labels",
+      "frame_rate_reference": "https://www.bu.edu/asllrp/rpt24/asllrpr24.pdf",
+      "hand_scope_reference": "https://dai.cs.rutgers.edu/asllvd/signbank/Additional-information-6-29-25.pdf",
+      "excluded_nondominant_only_events": "Publisher CSV omits these; never invent missing labels",
+      "English_translation_used_as_gloss": false
+    },
+    "license_status": "PRIVATE_NONCOMMERCIAL_RESEARCH_ONLY_NO_REDISTRIBUTION",
+    "license_reference": "https://www.bu.edu/asllrp/dai-terms.html",
+    "timing_status": "EXACT_INCLUSIVE_MASTER_FRAME_SPAN_AND_29.97FPS_MEDIA_COUNT_JOIN; NO_OFFSET_SCALING; VISUAL_ALIGNMENT_NOT_INDEPENDENTLY_AUDITED",
+    "signer_independent": false,
+    "video_path": "D:\\apphearv3claude\\AppHear-claude-s2-r3-eval-suite\\AppHear-claude-s2-r3-eval-suite\\experiments\\continuous_asl\\20261020_continuous_expand06\\data\\raw\\asllrp2025\\utterances\\841213.mp4",
+    "raw_sha256": "1ef6c6b5134d39d798dc144e0ce6abbfe12aec9f21747034df26d8d2814cf249",
+    "bytes": 433571,
+    "media_provenance": {
+      "official_archive_url": "https://dai.cs.rutgers.edu/asllvd/signbank/asllrp_videos/batch_utterance_video_v3_1.zip",
+      "archive_sha256": "e021e4814703ecf3fd3342f32c7a2112b0040921d10f8c4b625caa8c9f2a4b32",
+      "member": "841213.mp4",
+      "crc32": 2667475084
+    },
+    "media_status": "CRC_VERIFIED_NOT_YET_DECODED",
+    "feature_path": "D:\\apphearv3claude\\AppHear-claude-s2-r3-eval-suite\\AppHear-claude-s2-r3-eval-suite\\experiments\\continuous_asl\\20261020_continuous_expand06\\data\\processed\\asllrp2025\\asllrp3_eaffab85232e0098.features.npz",
+    "feature_sha256": "bfbf4e9534304fcf7f3cfee32f42fb3e3489c7094b890141675ab59a5980ea15",
+    "decoded_pixel_sha256": "1df3686816dd01b6e2c1d49e4a57a49194ae3b4bf9e691722d2b3f1fa049b900",
+    "observations": 28,
+    "decoded_frames": 83,
+    "native_fps": 29.97002997002997,
+    "dimensions": [
+      1280,
+      720
+    ],
+    "timestamp_sources": [
+      "CONTAINER_POS_MSEC"
+    ],
+    "max_pts_frame_error_ms": 4.547473508864641e-13,
+    "individual_sign_times_ms": [
+      [
+        233.56666666666666,
+        600.6
+      ],
+      [
+        734.0666666666667,
+        900.9
+      ],
+      [
+        1034.3666666666668,
+        1901.9
+      ]
+    ],
+    "preprocessing_status": "PASS",
+    "unique_valid": true,
+    "cadence_max_hz": 10,
+    "extraction_ms_sum": 1806.8067001004238,
+    "extraction_ms_p50": 64.04075000318699,
+    "extraction_ms_p95": 72.66882999101654,
+    "preprocessing_seconds": 3.468882699991809,
+    "hand_observed_fraction": [
+      0.25,
+      0.42857142857142855
+    ],
+    "body_available_fraction": 0.9642857142857143,
+    "canonical_role": "eligible_train",
+    "training_pool": "ASLLRP3_LITERAL_DOMINANT_REALIZED_OCCURRENCE",
+    "source_catalog": "official_ASLLRP2025_verified_utterance_archive",
+    "schema_version": "apphear.continuous_asl.candidate01_causal378.v1",
+    "signer_provenance": {
+      "publisher_participant_id": "4",
+      "publisher_participant_name": "Jonathan",
+      "signer_id": "asllrp_dai_participant_4",
+      "collection": "Jonathan_2012-11-27_sc94",
+      "utterance_id": "7",
+      "source_page": "D:\\apphearv3claude\\AppHear-claude-s2-r3-eval-suite\\AppHear-claude-s2-r3-eval-suite\\experiments\\continuous_asl\\20261020T104054Z_expand_eval01\\sources\\utterances_participant4_page15.html",
+      "source_page_sha256": "90fc25571caf39b239100e116a3578a4ded8e5683b27bd708bd80b1eeae575b1",
+      "query_receipt": "D:\\apphearv3claude\\AppHear-claude-s2-r3-eval-suite\\AppHear-claude-s2-r3-eval-suite\\experiments\\continuous_asl\\20261020T104054Z_expand_eval01\\sources\\utterances_participant4_page15.html.receipt.json",
+      "method": "Official public participant-filtered utterance search, exhaustive published pagination."
+    }
+  },
+  {
+    "sample_id": "asllrp3_071add8780678564",
+    "dataset": "ASLLRP_SIGNSTREAM3_2025",
+    "collection": "Jonathan_2012-11-27_sc94",
+    "utterance_id": "11",
+    "source_group": "2012-11-27_JM5_0094-cam1-for-ss3.mp4",
+    "signer_id": "asllrp_dai_participant_4",
+    "split": "dev",
+    "utterance_filename": "841517.mp4",
+    "utterance_start_frame_master": 1880,
+    "utterance_end_frame_master": 1956,
+    "glosses": [
+      "FRIEND",
+      "FINISH",
+      "CAR",
+      "QMwg"
+    ],
+    "events": [
+      {
+        "source_row": 6189,
+        "event_id": "347448",
+        "label": "FRIEND",
+        "start_frame_master": 1890,
+        "end_frame_master": 1896,
+        "hidden": false
+      },
+      {
+        "source_row": 6190,
+        "event_id": "347449",
+        "label": "FINISH",
+        "start_frame_master": 1900,
+        "end_frame_master": 1904,
+        "hidden": false
+      },
+      {
+        "source_row": 6191,
+        "event_id": "347450",
+        "label": "CAR",
+        "start_frame_master": 1909,
+        "end_frame_master": 1922,
+        "hidden": false
+      },
+      {
+        "source_row": 6192,
+        "event_id": "347451",
+        "label": "QMwg",
+        "start_frame_master": 1931,
+        "end_frame_master": 1936,
+        "hidden": false
+      }
+    ],
+    "annotation_type": "AUTHENTIC_PUBLISHED_DOMINANT_HAND_OCCURRENCE_EVENTS",
+    "annotation_provenance": {
+      "csv_path": "D:\\apphearv3claude\\AppHear-claude-s2-r3-eval-suite\\AppHear-claude-s2-r3-eval-suite\\experiments\\continuous_asl\\20261020_continuous_expand06\\data\\raw\\asllrp2025\\asllrp_sentence_signs_2025_06_28.csv",
+      "csv_sha256": "9c1641b6b95a6e6c2223c34eb101ed2e83bb1da824e18c7a21791c59b1593e86",
+      "source_rows": [
+        6189,
+        6190,
+        6191,
+        6192
+      ],
+      "target_column": "Occurrence label",
+      "order": "verified master frame start; retain hidden events, compounds and full literal labels",
+      "frame_rate_reference": "https://www.bu.edu/asllrp/rpt24/asllrpr24.pdf",
+      "hand_scope_reference": "https://dai.cs.rutgers.edu/asllvd/signbank/Additional-information-6-29-25.pdf",
+      "excluded_nondominant_only_events": "Publisher CSV omits these; never invent missing labels",
+      "English_translation_used_as_gloss": false
+    },
+    "license_status": "PRIVATE_NONCOMMERCIAL_RESEARCH_ONLY_NO_REDISTRIBUTION",
+    "license_reference": "https://www.bu.edu/asllrp/dai-terms.html",
+    "timing_status": "EXACT_INCLUSIVE_MASTER_FRAME_SPAN_AND_29.97FPS_MEDIA_COUNT_JOIN; NO_OFFSET_SCALING; VISUAL_ALIGNMENT_NOT_INDEPENDENTLY_AUDITED",
+    "signer_independent": false,
+    "video_path": "D:\\apphearv3claude\\AppHear-claude-s2-r3-eval-suite\\AppHear-claude-s2-r3-eval-suite\\experiments\\continuous_asl\\20261020_continuous_expand06\\data\\raw\\asllrp2025\\utterances\\841517.mp4",
+    "raw_sha256": "63b72cfe65f78408e2445b0e45a59b0d50b20a5ae715be8f321be56c718826f5",
+    "bytes": 405159,
+    "media_provenance": {
+      "official_archive_url": "https://dai.cs.rutgers.edu/asllvd/signbank/asllrp_videos/batch_utterance_video_v3_1.zip",
+      "archive_sha256": "e021e4814703ecf3fd3342f32c7a2112b0040921d10f8c4b625caa8c9f2a4b32",
+      "member": "841517.mp4",
+      "crc32": 1166448704
+    },
+    "media_status": "CRC_VERIFIED_NOT_YET_DECODED",
+    "feature_path": "D:\\apphearv3claude\\AppHear-claude-s2-r3-eval-suite\\AppHear-claude-s2-r3-eval-suite\\experiments\\continuous_asl\\20261020_continuous_expand06\\data\\processed\\asllrp2025\\asllrp3_071add8780678564.features.npz",
+    "feature_sha256": "00be7a245df37d690e76f3bc6387bbf5a4c317cd91ff01c4b6aa489687f55c02",
+    "decoded_pixel_sha256": "44f4a0699f36fd01f8d781b987ee4dd0583b57949133c1d7e9ab0483b9331bb9",
+    "observations": 26,
+    "decoded_frames": 77,
+    "native_fps": 29.97002997002997,
+    "dimensions": [
+      1280,
+      720
+    ],
+    "timestamp_sources": [
+      "CONTAINER_POS_MSEC"
+    ],
+    "max_pts_frame_error_ms": 4.547473508864641e-13,
+    "individual_sign_times_ms": [
+      [
+        333.6666666666667,
+        567.2333333333333
+      ],
+      [
+        667.3333333333334,
+        834.1666666666666
+      ],
+      [
+        967.6333333333333,
+        1434.7666666666667
+      ],
+      [
+        1701.7,
+        1901.9
+      ]
+    ],
+    "preprocessing_status": "PASS",
+    "unique_valid": true,
+    "cadence_max_hz": 10,
+    "extraction_ms_sum": 1737.1913000242785,
+    "extraction_ms_p50": 67.26435000018682,
+    "extraction_ms_p95": 79.60794999962673,
+    "preprocessing_seconds": 3.2412738999992143,
+    "hand_observed_fraction": [
+      0.23076923076923078,
+      0.15384615384615385
+    ],
+    "body_available_fraction": 0.9615384615384616,
+    "canonical_role": "eligible_train",
+    "training_pool": "ASLLRP3_LITERAL_DOMINANT_REALIZED_OCCURRENCE",
+    "source_catalog": "official_ASLLRP2025_verified_utterance_archive",
+    "schema_version": "apphear.continuous_asl.candidate01_causal378.v1",
+    "signer_provenance": {
+      "publisher_participant_id": "4",
+      "publisher_participant_name": "Jonathan",
+      "signer_id": "asllrp_dai_participant_4",
+      "collection": "Jonathan_2012-11-27_sc94",
+      "utterance_id": "11",
+      "source_page": "D:\\apphearv3claude\\AppHear-claude-s2-r3-eval-suite\\AppHear-claude-s2-r3-eval-suite\\experiments\\continuous_asl\\20261020T104054Z_expand_eval01\\sources\\utterances_participant4_page1.html",
+      "source_page_sha256": "ad5bf51a90dba2e71182cacee47308c54137a8c4fb7fda3654e34b6e602ac848",
+      "query_receipt": "D:\\apphearv3claude\\AppHear-claude-s2-r3-eval-suite\\AppHear-claude-s2-r3-eval-suite\\experiments\\continuous_asl\\20261020T104054Z_expand_eval01\\sources\\utterances_participant4_page1.html.receipt.json",
+      "method": "Official public participant-filtered utterance search, exhaustive published pagination."
+    }
+  },
+  {
+    "sample_id": "asllrp3_72d088315f62fc5a",
+    "dataset": "ASLLRP_SIGNSTREAM3_2025",
+    "collection": "Jonathan_2012-11-27_sc94",
+    "utterance_id": "12",
+    "source_group": "2012-11-27_JM5_0094-cam1-for-ss3.mp4",
+    "signer_id": "asllrp_dai_participant_4",
+    "split": "dev",
+    "utterance_filename": "841618.mp4",
+    "utterance_start_frame_master": 2082,
+    "utterance_end_frame_master": 2150,
+    "glosses": [
+      "FRIEND",
+      "IX-loc:i",
+      "(P)PARTY",
+      "(1h)GOOD/THANK-YOU",
+      "QMwg"
+    ],
+    "events": [
+      {
+        "source_row": 6193,
+        "event_id": "347452",
+        "label": "FRIEND",
+        "start_frame_master": 2090,
+        "end_frame_master": 2096,
+        "hidden": false
+      },
+      {
+        "source_row": 6194,
+        "event_id": "347453",
+        "label": "IX-loc:i",
+        "start_frame_master": 2099,
+        "end_frame_master": 2099,
+        "hidden": false
+      },
+      {
+        "source_row": 6195,
+        "event_id": "347454",
+        "label": "(P)PARTY",
+        "start_frame_master": 2106,
+        "end_frame_master": 2110,
+        "hidden": false
+      },
+      {
+        "source_row": 6196,
+        "event_id": "347455",
+        "label": "(1h)GOOD/THANK-YOU",
+        "start_frame_master": 2114,
+        "end_frame_master": 2123,
+        "hidden": false
+      },
+      {
+        "source_row": 6197,
+        "event_id": "347456",
+        "label": "QMwg",
+        "start_frame_master": 2128,
+        "end_frame_master": 2132,
+        "hidden": false
+      }
+    ],
+    "annotation_type": "AUTHENTIC_PUBLISHED_DOMINANT_HAND_OCCURRENCE_EVENTS",
+    "annotation_provenance": {
+      "csv_path": "D:\\apphearv3claude\\AppHear-claude-s2-r3-eval-suite\\AppHear-claude-s2-r3-eval-suite\\experiments\\continuous_asl\\20261020_continuous_expand06\\data\\raw\\asllrp2025\\asllrp_sentence_signs_2025_06_28.csv",
+      "csv_sha256": "9c1641b6b95a6e6c2223c34eb101ed2e83bb1da824e18c7a21791c59b1593e86",
+      "source_rows": [
+        6193,
+        6194,
+        6195,
+        6196,
+        6197
+      ],
+      "target_column": "Occurrence label",
+      "order": "verified master frame start; retain hidden events, compounds and full literal labels",
+      "frame_rate_reference": "https://www.bu.edu/asllrp/rpt24/asllrpr24.pdf",
+      "hand_scope_reference": "https://dai.cs.rutgers.edu/asllvd/signbank/Additional-information-6-29-25.pdf",
+      "excluded_nondominant_only_events": "Publisher CSV omits these; never invent missing labels",
+      "English_translation_used_as_gloss": false
+    },
+    "license_status": "PRIVATE_NONCOMMERCIAL_RESEARCH_ONLY_NO_REDISTRIBUTION",
+    "license_reference": "https://www.bu.edu/asllrp/dai-terms.html",
+    "timing_status": "EXACT_INCLUSIVE_MASTER_FRAME_SPAN_AND_29.97FPS_MEDIA_COUNT_JOIN; NO_OFFSET_SCALING; VISUAL_ALIGNMENT_NOT_INDEPENDENTLY_AUDITED",
+    "signer_independent": false,
+    "video_path": "D:\\apphearv3claude\\AppHear-claude-s2-r3-eval-suite\\AppHear-claude-s2-r3-eval-suite\\experiments\\continuous_asl\\20261020_continuous_expand06\\data\\raw\\asllrp2025\\utterances\\841618.mp4",
+    "raw_sha256": "698320b200f36cba973daf2d2d6f93dd7d78acc1336d4596303f20d37a44414c",
+    "bytes": 361923,
+    "media_provenance": {
+      "official_archive_url": "https://dai.cs.rutgers.edu/asllvd/signbank/asllrp_videos/batch_utterance_video_v3_1.zip",
+      "archive_sha256": "e021e4814703ecf3fd3342f32c7a2112b0040921d10f8c4b625caa8c9f2a4b32",
+      "member": "841618.mp4",
+      "crc32": 1647512631
+    },
+    "media_status": "CRC_VERIFIED_NOT_YET_DECODED",
+    "feature_path": "D:\\apphearv3claude\\AppHear-claude-s2-r3-eval-suite\\AppHear-claude-s2-r3-eval-suite\\experiments\\continuous_asl\\20261020_continuous_expand06\\data\\processed\\asllrp2025\\asllrp3_72d088315f62fc5a.features.npz",
+    "feature_sha256": "cb4d3cd0a3710f8291a58124425a7849bc47c6340ee0469c165d9519d513341b",
+    "decoded_pixel_sha256": "4bdd73f2847db1c9ca1e6b535cb6c3cfc5b35108cf5c0e7e730e875bc9423a5a",
+    "observations": 23,
+    "decoded_frames": 69,
+    "native_fps": 29.97002997002997,
+    "dimensions": [
+      1280,
+      720
+    ],
+    "timestamp_sources": [
+      "CONTAINER_POS_MSEC"
+    ],
+    "max_pts_frame_error_ms": 4.547473508864641e-13,
+    "individual_sign_times_ms": [
+      [
+        266.93333333333334,
+        500.5
+      ],
+      [
+        567.2333333333333,
+        600.6
+      ],
+      [
+        800.8000000000001,
+        967.6333333333333
+      ],
+      [
+        1067.7333333333333,
+        1401.4
+      ],
+      [
+        1534.8666666666668,
+        1701.7
+      ]
+    ],
+    "preprocessing_status": "PASS",
+    "unique_valid": true,
+    "cadence_max_hz": 10,
+    "extraction_ms_sum": 1594.7617999627255,
+    "extraction_ms_p50": 69.12530001136474,
+    "extraction_ms_p95": 81.16215001500677,
+    "preprocessing_seconds": 3.1512101000116672,
+    "hand_observed_fraction": [
+      0.17391304347826086,
+      0.391304347826087
+    ],
+    "body_available_fraction": 0.9565217391304348,
+    "canonical_role": "eligible_train",
+    "training_pool": "ASLLRP3_LITERAL_DOMINANT_REALIZED_OCCURRENCE",
+    "source_catalog": "official_ASLLRP2025_verified_utterance_archive",
+    "schema_version": "apphear.continuous_asl.candidate01_causal378.v1",
+    "signer_provenance": {
+      "publisher_participant_id": "4",
+      "publisher_participant_name": "Jonathan",
+      "signer_id": "asllrp_dai_participant_4",
+      "collection": "Jonathan_2012-11-27_sc94",
+      "utterance_id": "12",
+      "source_page": "D:\\apphearv3claude\\AppHear-claude-s2-r3-eval-suite\\AppHear-claude-s2-r3-eval-suite\\experiments\\continuous_asl\\20261020T104054Z_expand_eval01\\sources\\utterances_participant4_page2.html",
+      "source_page_sha256": "c671fcd3d94dbf04805f4f094e9ad5b814d589a3b6e57fe2ea0abb8868f3d4e3",
+      "query_receipt": "D:\\apphearv3claude\\AppHear-claude-s2-r3-eval-suite\\AppHear-claude-s2-r3-eval-suite\\experiments\\continuous_asl\\20261020T104054Z_expand_eval01\\sources\\utterances_participant4_page2.html.receipt.json",
+      "method": "Official public participant-filtered utterance search, exhaustive published pagination."
+    }
+  },
+  {
+    "sample_id": "asllrp3_2fd309e88c37a621",
+    "dataset": "ASLLRP_SIGNSTREAM3_2025",
+    "collection": "Jonathan_2012-11-27_sc94",
+    "utterance_id": "22",
+    "source_group": "2012-11-27_JM5_0094-cam1-for-ss3.mp4",
+    "signer_id": "asllrp_dai_participant_4",
+    "split": "dev",
+    "utterance_filename": "842428.mp4",
+    "utterance_start_frame_master": 3901,
+    "utterance_end_frame_master": 3981,
+    "glosses": [
+      "CAR",
+      "WHO",
+      "part:indef"
+    ],
+    "events": [
+      {
+        "source_row": 6243,
+        "event_id": "347506",
+        "label": "CAR",
+        "start_frame_master": 3914,
+        "end_frame_master": 3922,
+        "hidden": false
+      },
+      {
+        "source_row": 6244,
+        "event_id": "347507",
+        "label": "WHO",
+        "start_frame_master": 3930,
+        "end_frame_master": 3943,
+        "hidden": true
+      },
+      {
+        "source_row": 6245,
+        "event_id": "347508",
+        "label": "part:indef",
+        "start_frame_master": 3951,
+        "end_frame_master": 3955,
+        "hidden": true
+      }
+    ],
+    "annotation_type": "AUTHENTIC_PUBLISHED_DOMINANT_HAND_OCCURRENCE_EVENTS",
+    "annotation_provenance": {
+      "csv_path": "D:\\apphearv3claude\\AppHear-claude-s2-r3-eval-suite\\AppHear-claude-s2-r3-eval-suite\\experiments\\continuous_asl\\20261020_continuous_expand06\\data\\raw\\asllrp2025\\asllrp_sentence_signs_2025_06_28.csv",
+      "csv_sha256": "9c1641b6b95a6e6c2223c34eb101ed2e83bb1da824e18c7a21791c59b1593e86",
+      "source_rows": [
+        6243,
+        6244,
+        6245
+      ],
+      "target_column": "Occurrence label",
+      "order": "verified master frame start; retain hidden events, compounds and full literal labels",
+      "frame_rate_reference": "https://www.bu.edu/asllrp/rpt24/asllrpr24.pdf",
+      "hand_scope_reference": "https://dai.cs.rutgers.edu/asllvd/signbank/Additional-information-6-29-25.pdf",
+      "excluded_nondominant_only_events": "Publisher CSV omits these; never invent missing labels",
+      "English_translation_used_as_gloss": false
+    },
+    "license_status": "PRIVATE_NONCOMMERCIAL_RESEARCH_ONLY_NO_REDISTRIBUTION",
+    "license_reference": "https://www.bu.edu/asllrp/dai-terms.html",
+    "timing_status": "EXACT_INCLUSIVE_MASTER_FRAME_SPAN_AND_29.97FPS_MEDIA_COUNT_JOIN; NO_OFFSET_SCALING; VISUAL_ALIGNMENT_NOT_INDEPENDENTLY_AUDITED",
+    "signer_independent": false,
+    "video_path": "D:\\apphearv3claude\\AppHear-claude-s2-r3-eval-suite\\AppHear-claude-s2-r3-eval-suite\\experiments\\continuous_asl\\20261020_continuous_expand06\\data\\raw\\asllrp2025\\utterances\\842428.mp4",
+    "raw_sha256": "729dbb0447358167a9a72f9d35c12a57958bd5b221ac05805c08c7f7abb89e60",
+    "bytes": 427789,
+    "media_provenance": {
+      "official_archive_url": "https://dai.cs.rutgers.edu/asllvd/signbank/asllrp_videos/batch_utterance_video_v3_1.zip",
+      "archive_sha256": "e021e4814703ecf3fd3342f32c7a2112b0040921d10f8c4b625caa8c9f2a4b32",
+      "member": "842428.mp4",
+      "crc32": 2898416393
+    },
+    "media_status": "CRC_VERIFIED_NOT_YET_DECODED",
+    "feature_path": "D:\\apphearv3claude\\AppHear-claude-s2-r3-eval-suite\\AppHear-claude-s2-r3-eval-suite\\experiments\\continuous_asl\\20261020_continuous_expand06\\data\\processed\\asllrp2025\\asllrp3_2fd309e88c37a621.features.npz",
+    "feature_sha256": "81c68123777fbd208152a0649831968c647e761110bed0f413551bdad46128db",
+    "decoded_pixel_sha256": "dbfc77b7d085da3b49550ad4b683f4086be784f4e79bdbb97a337e5cc4f8ed84",
+    "observations": 27,
+    "decoded_frames": 81,
+    "native_fps": 29.97002997002997,
+    "dimensions": [
+      1280,
+      720
+    ],
+    "timestamp_sources": [
+      "CONTAINER_POS_MSEC"
+    ],
+    "max_pts_frame_error_ms": 4.547473508864641e-13,
+    "individual_sign_times_ms": [
+      [
+        433.76666666666665,
+        734.0666666666667
+      ],
+      [
+        967.6333333333333,
+        1434.7666666666667
+      ],
+      [
+        1668.3333333333333,
+        1835.1666666666667
+      ]
+    ],
+    "preprocessing_status": "PASS",
+    "unique_valid": true,
+    "cadence_max_hz": 10,
+    "extraction_ms_sum": 1941.4222999184858,
+    "extraction_ms_p50": 69.08459999249317,
+    "extraction_ms_p95": 88.67585000116378,
+    "preprocessing_seconds": 3.739166799990926,
+    "hand_observed_fraction": [
+      0.4444444444444444,
+      0.18518518518518517
+    ],
+    "body_available_fraction": 1.0,
+    "canonical_role": "eligible_train",
+    "training_pool": "ASLLRP3_LITERAL_DOMINANT_REALIZED_OCCURRENCE",
+    "source_catalog": "official_ASLLRP2025_verified_utterance_archive",
+    "schema_version": "apphear.continuous_asl.candidate01_causal378.v1",
+    "signer_provenance": {
+      "publisher_participant_id": "4",
+      "publisher_participant_name": "Jonathan",
+      "signer_id": "asllrp_dai_participant_4",
+      "collection": "Jonathan_2012-11-27_sc94",
+      "utterance_id": "22",
+      "source_page": "D:\\apphearv3claude\\AppHear-claude-s2-r3-eval-suite\\AppHear-claude-s2-r3-eval-suite\\experiments\\continuous_asl\\20261020T104054Z_expand_eval01\\sources\\utterances_participant4_page5.html",
+      "source_page_sha256": "c3e697bf8be451cbeba6788e63ca8264aae986a1027037a1f24a12c36ca08ed1",
+      "query_receipt": "D:\\apphearv3claude\\AppHear-claude-s2-r3-eval-suite\\AppHear-claude-s2-r3-eval-suite\\experiments\\continuous_asl\\20261020T104054Z_expand_eval01\\sources\\utterances_participant4_page5.html.receipt.json",
+      "method": "Official public participant-filtered utterance search, exhaustive published pagination."
+    }
+  },
+  {
+    "sample_id": "asllrp3_098e749b1a4a57de",
+    "dataset": "ASLLRP_SIGNSTREAM3_2025",
+    "collection": "Jonathan_2012-11-27_sc94",
+    "utterance_id": "23",
+    "source_group": "2012-11-27_JM5_0094-cam1-for-ss3.mp4",
+    "signer_id": "asllrp_dai_participant_4",
+    "split": "dev",
+    "utterance_filename": "842429.mp4",
+    "utterance_start_frame_master": 4078,
+    "utterance_end_frame_master": 4172,
+    "glosses": [
+      "FRIEND",
+      "CAR",
+      "WHERE",
+      "(1h)part:indef"
+    ],
+    "events": [
+      {
+        "source_row": 6246,
+        "event_id": "347509",
+        "label": "FRIEND",
+        "start_frame_master": 4090,
+        "end_frame_master": 4107,
+        "hidden": false
+      },
+      {
+        "source_row": 6247,
+        "event_id": "347510",
+        "label": "CAR",
+        "start_frame_master": 4112,
+        "end_frame_master": 4118,
+        "hidden": false
+      },
+      {
+        "source_row": 6248,
+        "event_id": "347511",
+        "label": "WHERE",
+        "start_frame_master": 4129,
+        "end_frame_master": 4135,
+        "hidden": false
+      },
+      {
+        "source_row": 6249,
+        "event_id": "347512",
+        "label": "(1h)part:indef",
+        "start_frame_master": 4141,
+        "end_frame_master": 4148,
+        "hidden": false
+      }
+    ],
+    "annotation_type": "AUTHENTIC_PUBLISHED_DOMINANT_HAND_OCCURRENCE_EVENTS",
+    "annotation_provenance": {
+      "csv_path": "D:\\apphearv3claude\\AppHear-claude-s2-r3-eval-suite\\AppHear-claude-s2-r3-eval-suite\\experiments\\continuous_asl\\20261020_continuous_expand06\\data\\raw\\asllrp2025\\asllrp_sentence_signs_2025_06_28.csv",
+      "csv_sha256": "9c1641b6b95a6e6c2223c34eb101ed2e83bb1da824e18c7a21791c59b1593e86",
+      "source_rows": [
+        6246,
+        6247,
+        6248,
+        6249
+      ],
+      "target_column": "Occurrence label",
+      "order": "verified master frame start; retain hidden events, compounds and full literal labels",
+      "frame_rate_reference": "https://www.bu.edu/asllrp/rpt24/asllrpr24.pdf",
+      "hand_scope_reference": "https://dai.cs.rutgers.edu/asllvd/signbank/Additional-information-6-29-25.pdf",
+      "excluded_nondominant_only_events": "Publisher CSV omits these; never invent missing labels",
+      "English_translation_used_as_gloss": false
+    },
+    "license_status": "PRIVATE_NONCOMMERCIAL_RESEARCH_ONLY_NO_REDISTRIBUTION",
+    "license_reference": "https://www.bu.edu/asllrp/dai-terms.html",
+    "timing_status": "EXACT_INCLUSIVE_MASTER_FRAME_SPAN_AND_29.97FPS_MEDIA_COUNT_JOIN; NO_OFFSET_SCALING; VISUAL_ALIGNMENT_NOT_INDEPENDENTLY_AUDITED",
+    "signer_independent": false,
+    "video_path": "D:\\apphearv3claude\\AppHear-claude-s2-r3-eval-suite\\AppHear-claude-s2-r3-eval-suite\\experiments\\continuous_asl\\20261020_continuous_expand06\\data\\raw\\asllrp2025\\utterances\\842429.mp4",
+    "raw_sha256": "0f333478325a60a062e3794de32906eead1a7641fb1dae26dc28d5b7da0d021e",
+    "bytes": 470840,
+    "media_provenance": {
+      "official_archive_url": "https://dai.cs.rutgers.edu/asllvd/signbank/asllrp_videos/batch_utterance_video_v3_1.zip",
+      "archive_sha256": "e021e4814703ecf3fd3342f32c7a2112b0040921d10f8c4b625caa8c9f2a4b32",
+      "member": "842429.mp4",
+      "crc32": 231142035
+    },
+    "media_status": "CRC_VERIFIED_NOT_YET_DECODED",
+    "feature_path": "D:\\apphearv3claude\\AppHear-claude-s2-r3-eval-suite\\AppHear-claude-s2-r3-eval-suite\\experiments\\continuous_asl\\20261020_continuous_expand06\\data\\processed\\asllrp2025\\asllrp3_098e749b1a4a57de.features.npz",
+    "feature_sha256": "f162f14e8b1ffedc7ae44a54fcb4e3d90606f0b929e0f5fdc2a8c3450a24ba5b",
+    "decoded_pixel_sha256": "b80480a5a63b17fc8e038c399fe69bb7892957aeeb1acda14c635845e2100c0b",
+    "observations": 32,
+    "decoded_frames": 95,
+    "native_fps": 29.97002997002997,
+    "dimensions": [
+      1280,
+      720
+    ],
+    "timestamp_sources": [
+      "CONTAINER_POS_MSEC"
+    ],
+    "max_pts_frame_error_ms": 4.547473508864641e-13,
+    "individual_sign_times_ms": [
+      [
+        400.40000000000003,
+        1001.0
+      ],
+      [
+        1134.4666666666667,
+        1368.0333333333333
+      ],
+      [
+        1701.7,
+        1935.2666666666667
+      ],
+      [
+        2102.1,
+        2369.0333333333333
+      ]
+    ],
+    "preprocessing_status": "PASS",
+    "unique_valid": true,
+    "cadence_max_hz": 10,
+    "extraction_ms_sum": 1986.373599851504,
+    "extraction_ms_p50": 61.96895000175573,
+    "extraction_ms_p95": 71.62946498574456,
+    "preprocessing_seconds": 3.950461300002644,
+    "hand_observed_fraction": [
+      0.25,
+      0.0625
+    ],
+    "body_available_fraction": 0.96875,
+    "canonical_role": "eligible_train",
+    "training_pool": "ASLLRP3_LITERAL_DOMINANT_REALIZED_OCCURRENCE",
+    "source_catalog": "official_ASLLRP2025_verified_utterance_archive",
+    "schema_version": "apphear.continuous_asl.candidate01_causal378.v1",
+    "signer_provenance": {
+      "publisher_participant_id": "4",
+      "publisher_participant_name": "Jonathan",
+      "signer_id": "asllrp_dai_participant_4",
+      "collection": "Jonathan_2012-11-27_sc94",
+      "utterance_id": "23",
+      "source_page": "D:\\apphearv3claude\\AppHear-claude-s2-r3-eval-suite\\AppHear-claude-s2-r3-eval-suite\\experiments\\continuous_asl\\20261020T104054Z_expand_eval01\\sources\\utterances_participant4_page5.html",
+      "source_page_sha256": "c3e697bf8be451cbeba6788e63ca8264aae986a1027037a1f24a12c36ca08ed1",
+      "query_receipt": "D:\\apphearv3claude\\AppHear-claude-s2-r3-eval-suite\\AppHear-claude-s2-r3-eval-suite\\experiments\\continuous_asl\\20261020T104054Z_expand_eval01\\sources\\utterances_participant4_page5.html.receipt.json",
+      "method": "Official public participant-filtered utterance search, exhaustive published pagination."
+    }
+  },
+  {
+    "sample_id": "asllrp3_3808aef0e5d5289b",
+    "dataset": "ASLLRP_SIGNSTREAM3_2025",
+    "collection": "Jonathan_2012-11-27_sc94",
+    "utterance_id": "24",
+    "source_group": "2012-11-27_JM5_0094-cam1-for-ss3.mp4",
+    "signer_id": "asllrp_dai_participant_4",
+    "split": "dev",
+    "utterance_filename": "842530.mp4",
+    "utterance_start_frame_master": 4276,
+    "utterance_end_frame_master": 4374,
+    "glosses": [
+      "FRIEND",
+      "IX-loc:i",
+      "START",
+      "CAR",
+      "#WHEN"
+    ],
+    "events": [
+      {
+        "source_row": 6250,
+        "event_id": "347513",
+        "label": "FRIEND",
+        "start_frame_master": 4289,
+        "end_frame_master": 4299,
+        "hidden": false
+      },
+      {
+        "source_row": 6251,
+        "event_id": "347514",
+        "label": "IX-loc:i",
+        "start_frame_master": 4304,
+        "end_frame_master": 4305,
+        "hidden": false
+      },
+      {
+        "source_row": 6252,
+        "event_id": "347515",
+        "label": "START",
+        "start_frame_master": 4311,
+        "end_frame_master": 4315,
+        "hidden": false
+      },
+      {
+        "source_row": 6253,
+        "event_id": "347516",
+        "label": "CAR",
+        "start_frame_master": 4321,
+        "end_frame_master": 4332,
+        "hidden": false
+      },
+      {
+        "source_row": 6254,
+        "event_id": "347517",
+        "label": "#WHEN",
+        "start_frame_master": 4339,
+        "end_frame_master": 4346,
+        "hidden": false
+      }
+    ],
+    "annotation_type": "AUTHENTIC_PUBLISHED_DOMINANT_HAND_OCCURRENCE_EVENTS",
+    "annotation_provenance": {
+      "csv_path": "D:\\apphearv3claude\\AppHear-claude-s2-r3-eval-suite\\AppHear-claude-s2-r3-eval-suite\\experiments\\continuous_asl\\20261020_continuous_expand06\\data\\raw\\asllrp2025\\asllrp_sentence_signs_2025_06_28.csv",
+      "csv_sha256": "9c1641b6b95a6e6c2223c34eb101ed2e83bb1da824e18c7a21791c59b1593e86",
+      "source_rows": [
+        6250,
+        6251,
+        6252,
+        6253,
+        6254
+      ],
+      "target_column": "Occurrence label",
+      "order": "verified master frame start; retain hidden events, compounds and full literal labels",
+      "frame_rate_reference": "https://www.bu.edu/asllrp/rpt24/asllrpr24.pdf",
+      "hand_scope_reference": "https://dai.cs.rutgers.edu/asllvd/signbank/Additional-information-6-29-25.pdf",
+      "excluded_nondominant_only_events": "Publisher CSV omits these; never invent missing labels",
+      "English_translation_used_as_gloss": false
+    },
+    "license_status": "PRIVATE_NONCOMMERCIAL_RESEARCH_ONLY_NO_REDISTRIBUTION",
+    "license_reference": "https://www.bu.edu/asllrp/dai-terms.html",
+    "timing_status": "EXACT_INCLUSIVE_MASTER_FRAME_SPAN_AND_29.97FPS_MEDIA_COUNT_JOIN; NO_OFFSET_SCALING; VISUAL_ALIGNMENT_NOT_INDEPENDENTLY_AUDITED",
+    "signer_independent": false,
+    "video_path": "D:\\apphearv3claude\\AppHear-claude-s2-r3-eval-suite\\AppHear-claude-s2-r3-eval-suite\\experiments\\continuous_asl\\20261020_continuous_expand06\\data\\raw\\asllrp2025\\utterances\\842530.mp4",
+    "raw_sha256": "88b4c75599a8c2694fc9740be8552ad362c5db3fe0803204589941a3b8a6638a",
+    "bytes": 510973,
+    "media_provenance": {
+      "official_archive_url": "https://dai.cs.rutgers.edu/asllvd/signbank/asllrp_videos/batch_utterance_video_v3_1.zip",
+      "archive_sha256": "e021e4814703ecf3fd3342f32c7a2112b0040921d10f8c4b625caa8c9f2a4b32",
+      "member": "842530.mp4",
+      "crc32": 2358099896
+    },
+    "media_status": "CRC_VERIFIED_NOT_YET_DECODED",
+    "feature_path": "D:\\apphearv3claude\\AppHear-claude-s2-r3-eval-suite\\AppHear-claude-s2-r3-eval-suite\\experiments\\continuous_asl\\20261020_continuous_expand06\\data\\processed\\asllrp2025\\asllrp3_3808aef0e5d5289b.features.npz",
+    "feature_sha256": "0fc28d1268160f9665694abca08b3da1d4039de894a4fbc939d6efb54dd66809",
+    "decoded_pixel_sha256": "8304affb8e15c26a9d8cd0b5823591fc07a7ccf419565e391435b68ea1e86e00",
+    "observations": 33,
+    "decoded_frames": 99,
+    "native_fps": 29.97002997002997,
+    "dimensions": [
+      1280,
+      720
+    ],
+    "timestamp_sources": [
+      "CONTAINER_POS_MSEC"
+    ],
+    "max_pts_frame_error_ms": 4.547473508864641e-13,
+    "individual_sign_times_ms": [
+      [
+        433.76666666666665,
+        800.8000000000001
+      ],
+      [
+        934.2666666666667,
+        1001.0
+      ],
+      [
+        1167.8333333333333,
+        1334.6666666666667
+      ],
+      [
+        1501.5,
+        1901.9
+      ],
+      [
+        2102.1,
+        2369.0333333333333
+      ]
+    ],
+    "preprocessing_status": "PASS",
+    "unique_valid": true,
+    "cadence_max_hz": 10,
+    "extraction_ms_sum": 2164.9176999926567,
+    "extraction_ms_p50": 61.515500012319535,
+    "extraction_ms_p95": 86.20093999197705,
+    "preprocessing_seconds": 4.253540200006682,
+    "hand_observed_fraction": [
+      0.15151515151515152,
+      0.21212121212121213
+    ],
+    "body_available_fraction": 1.0,
+    "canonical_role": "eligible_train",
+    "training_pool": "ASLLRP3_LITERAL_DOMINANT_REALIZED_OCCURRENCE",
+    "source_catalog": "official_ASLLRP2025_verified_utterance_archive",
+    "schema_version": "apphear.continuous_asl.candidate01_causal378.v1",
+    "signer_provenance": {
+      "publisher_participant_id": "4",
+      "publisher_participant_name": "Jonathan",
+      "signer_id": "asllrp_dai_participant_4",
+      "collection": "Jonathan_2012-11-27_sc94",
+      "utterance_id": "24",
+      "source_page": "D:\\apphearv3claude\\AppHear-claude-s2-r3-eval-suite\\AppHear-claude-s2-r3-eval-suite\\experiments\\continuous_asl\\20261020T104054Z_expand_eval01\\sources\\utterances_participant4_page5.html",
+      "source_page_sha256": "c3e697bf8be451cbeba6788e63ca8264aae986a1027037a1f24a12c36ca08ed1",
+      "query_receipt": "D:\\apphearv3claude\\AppHear-claude-s2-r3-eval-suite\\AppHear-claude-s2-r3-eval-suite\\experiments\\continuous_asl\\20261020T104054Z_expand_eval01\\sources\\utterances_participant4_page5.html.receipt.json",
+      "method": "Official public participant-filtered utterance search, exhaustive published pagination."
+    }
+  },
+  {
+    "sample_id": "asllrp3_d2b0997df077c6ab",
+    "dataset": "ASLLRP_SIGNSTREAM3_2025",
+    "collection": "Jonathan_2012-11-27_sc94",
+    "utterance_id": "25",
+    "source_group": "2012-11-27_JM5_0094-cam1-for-ss3.mp4",
+    "signer_id": "asllrp_dai_participant_4",
+    "split": "dev",
+    "utterance_filename": "842631.mp4",
+    "utterance_start_frame_master": 4476,
+    "utterance_end_frame_master": 4570,
+    "glosses": [
+      "(P)PARTY",
+      "START",
+      "#WHEN",
+      "part:indef"
+    ],
+    "events": [
+      {
+        "source_row": 6255,
+        "event_id": "347518",
+        "label": "(P)PARTY",
+        "start_frame_master": 4487,
+        "end_frame_master": 4492,
+        "hidden": false
+      },
+      {
+        "source_row": 6256,
+        "event_id": "347519",
+        "label": "START",
+        "start_frame_master": 4500,
+        "end_frame_master": 4507,
+        "hidden": false
+      },
+      {
+        "source_row": 6257,
+        "event_id": "347520",
+        "label": "#WHEN",
+        "start_frame_master": 4520,
+        "end_frame_master": 4525,
+        "hidden": true
+      },
+      {
+        "source_row": 6258,
+        "event_id": "347521",
+        "label": "part:indef",
+        "start_frame_master": 4539,
+        "end_frame_master": 4543,
+        "hidden": true
+      }
+    ],
+    "annotation_type": "AUTHENTIC_PUBLISHED_DOMINANT_HAND_OCCURRENCE_EVENTS",
+    "annotation_provenance": {
+      "csv_path": "D:\\apphearv3claude\\AppHear-claude-s2-r3-eval-suite\\AppHear-claude-s2-r3-eval-suite\\experiments\\continuous_asl\\20261020_continuous_expand06\\data\\raw\\asllrp2025\\asllrp_sentence_signs_2025_06_28.csv",
+      "csv_sha256": "9c1641b6b95a6e6c2223c34eb101ed2e83bb1da824e18c7a21791c59b1593e86",
+      "source_rows": [
+        6255,
+        6256,
+        6257,
+        6258
+      ],
+      "target_column": "Occurrence label",
+      "order": "verified master frame start; retain hidden events, compounds and full literal labels",
+      "frame_rate_reference": "https://www.bu.edu/asllrp/rpt24/asllrpr24.pdf",
+      "hand_scope_reference": "https://dai.cs.rutgers.edu/asllvd/signbank/Additional-information-6-29-25.pdf",
+      "excluded_nondominant_only_events": "Publisher CSV omits these; never invent missing labels",
+      "English_translation_used_as_gloss": false
+    },
+    "license_status": "PRIVATE_NONCOMMERCIAL_RESEARCH_ONLY_NO_REDISTRIBUTION",
+    "license_reference": "https://www.bu.edu/asllrp/dai-terms.html",
+    "timing_status": "EXACT_INCLUSIVE_MASTER_FRAME_SPAN_AND_29.97FPS_MEDIA_COUNT_JOIN; NO_OFFSET_SCALING; VISUAL_ALIGNMENT_NOT_INDEPENDENTLY_AUDITED",
+    "signer_independent": false,
+    "video_path": "D:\\apphearv3claude\\AppHear-claude-s2-r3-eval-suite\\AppHear-claude-s2-r3-eval-suite\\experiments\\continuous_asl\\20261020_continuous_expand06\\data\\raw\\asllrp2025\\utterances\\842631.mp4",
+    "raw_sha256": "b188f54a3e959adbc9516553dd7b995676eb94283d71838db97a11c9a20497f8",
+    "bytes": 484531,
+    "media_provenance": {
+      "official_archive_url": "https://dai.cs.rutgers.edu/asllvd/signbank/asllrp_videos/batch_utterance_video_v3_1.zip",
+      "archive_sha256": "e021e4814703ecf3fd3342f32c7a2112b0040921d10f8c4b625caa8c9f2a4b32",
+      "member": "842631.mp4",
+      "crc32": 1622875381
+    },
+    "media_status": "CRC_VERIFIED_NOT_YET_DECODED",
+    "feature_path": "D:\\apphearv3claude\\AppHear-claude-s2-r3-eval-suite\\AppHear-claude-s2-r3-eval-suite\\experiments\\continuous_asl\\20261020_continuous_expand06\\data\\processed\\asllrp2025\\asllrp3_d2b0997df077c6ab.features.npz",
+    "feature_sha256": "a3bb48eb6ff4fd3abe03a38b64ee92fd59b4f9b9128a54233138a911a41067a3",
+    "decoded_pixel_sha256": "f9a8f0075866e2eac2ddc4bc01a74666b872cbe098b165adc18aeaa308957614",
+    "observations": 32,
+    "decoded_frames": 95,
+    "native_fps": 29.97002997002997,
+    "dimensions": [
+      1280,
+      720
+    ],
+    "timestamp_sources": [
+      "CONTAINER_POS_MSEC"
+    ],
+    "max_pts_frame_error_ms": 4.547473508864641e-13,
+    "individual_sign_times_ms": [
+      [
+        367.03333333333336,
+        567.2333333333333
+      ],
+      [
+        800.8000000000001,
+        1067.7333333333333
+      ],
+      [
+        1468.1333333333334,
+        1668.3333333333333
+      ],
+      [
+        2102.1,
+        2268.9333333333334
+      ]
+    ],
+    "preprocessing_status": "PASS",
+    "unique_valid": true,
+    "cadence_max_hz": 10,
+    "extraction_ms_sum": 2411.152100074105,
+    "extraction_ms_p50": 70.73370000580326,
+    "extraction_ms_p95": 102.87879499810515,
+    "preprocessing_seconds": 4.488940600014757,
+    "hand_observed_fraction": [
+      0.1875,
+      0.125
+    ],
+    "body_available_fraction": 1.0,
+    "canonical_role": "eligible_train",
+    "training_pool": "ASLLRP3_LITERAL_DOMINANT_REALIZED_OCCURRENCE",
+    "source_catalog": "official_ASLLRP2025_verified_utterance_archive",
+    "schema_version": "apphear.continuous_asl.candidate01_causal378.v1",
+    "signer_provenance": {
+      "publisher_participant_id": "4",
+      "publisher_participant_name": "Jonathan",
+      "signer_id": "asllrp_dai_participant_4",
+      "collection": "Jonathan_2012-11-27_sc94",
+      "utterance_id": "25",
+      "source_page": "D:\\apphearv3claude\\AppHear-claude-s2-r3-eval-suite\\AppHear-claude-s2-r3-eval-suite\\experiments\\continuous_asl\\20261020T104054Z_expand_eval01\\sources\\utterances_participant4_page6.html",
+      "source_page_sha256": "63500d96896881bd27b1b6f6a477604401ed47faf7aeec505d95aa601aaf943c",
+      "query_receipt": "D:\\apphearv3claude\\AppHear-claude-s2-r3-eval-suite\\AppHear-claude-s2-r3-eval-suite\\experiments\\continuous_asl\\20261020T104054Z_expand_eval01\\sources\\utterances_participant4_page6.html.receipt.json",
+      "method": "Official public participant-filtered utterance search, exhaustive published pagination."
+    }
+  },
+  {
+    "sample_id": "asllrp3_ff656751e0001d3e",
+    "dataset": "ASLLRP_SIGNSTREAM3_2025",
+    "collection": "Jonathan_2012-11-27_sc94",
+    "utterance_id": "27",
+    "source_group": "2012-11-27_JM5_0094-cam1-for-ss3.mp4",
+    "signer_id": "asllrp_dai_participant_4",
+    "split": "dev",
+    "utterance_filename": "842733.mp4",
+    "utterance_start_frame_master": 4846,
+    "utterance_end_frame_master": 4936,
+    "glosses": [
+      "IX-2p",
+      "START",
+      "WORK",
+      "IX-2p",
+      "#WHEN"
+    ],
+    "events": [
+      {
+        "source_row": 6263,
+        "event_id": "347526",
+        "label": "IX-2p",
+        "start_frame_master": 4855,
+        "end_frame_master": 4857,
+        "hidden": false
+      },
+      {
+        "source_row": 6264,
+        "event_id": "347527",
+        "label": "START",
+        "start_frame_master": 4862,
+        "end_frame_master": 4868,
+        "hidden": false
+      },
+      {
+        "source_row": 6265,
+        "event_id": "347528",
+        "label": "WORK",
+        "start_frame_master": 4875,
+        "end_frame_master": 4885,
+        "hidden": false
+      },
+      {
+        "source_row": 6266,
+        "event_id": "347529",
+        "label": "IX-2p",
+        "start_frame_master": 4888,
+        "end_frame_master": 4888,
+        "hidden": false
+      },
+      {
+        "source_row": 6267,
+        "event_id": "347530",
+        "label": "#WHEN",
+        "start_frame_master": 4894,
+        "end_frame_master": 4901,
+        "hidden": false
+      }
+    ],
+    "annotation_type": "AUTHENTIC_PUBLISHED_DOMINANT_HAND_OCCURRENCE_EVENTS",
+    "annotation_provenance": {
+      "csv_path": "D:\\apphearv3claude\\AppHear-claude-s2-r3-eval-suite\\AppHear-claude-s2-r3-eval-suite\\experiments\\continuous_asl\\20261020_continuous_expand06\\data\\raw\\asllrp2025\\asllrp_sentence_signs_2025_06_28.csv",
+      "csv_sha256": "9c1641b6b95a6e6c2223c34eb101ed2e83bb1da824e18c7a21791c59b1593e86",
+      "source_rows": [
+        6263,
+        6264,
+        6265,
+        6266,
+        6267
+      ],
+      "target_column": "Occurrence label",
+      "order": "verified master frame start; retain hidden events, compounds and full literal labels",
+      "frame_rate_reference": "https://www.bu.edu/asllrp/rpt24/asllrpr24.pdf",
+      "hand_scope_reference": "https://dai.cs.rutgers.edu/asllvd/signbank/Additional-information-6-29-25.pdf",
+      "excluded_nondominant_only_events": "Publisher CSV omits these; never invent missing labels",
+      "English_translation_used_as_gloss": false
+    },
+    "license_status": "PRIVATE_NONCOMMERCIAL_RESEARCH_ONLY_NO_REDISTRIBUTION",
+    "license_reference": "https://www.bu.edu/asllrp/dai-terms.html",
+    "timing_status": "EXACT_INCLUSIVE_MASTER_FRAME_SPAN_AND_29.97FPS_MEDIA_COUNT_JOIN; NO_OFFSET_SCALING; VISUAL_ALIGNMENT_NOT_INDEPENDENTLY_AUDITED",
+    "signer_independent": false,
+    "video_path": "D:\\apphearv3claude\\AppHear-claude-s2-r3-eval-suite\\AppHear-claude-s2-r3-eval-suite\\experiments\\continuous_asl\\20261020_continuous_expand06\\data\\raw\\asllrp2025\\utterances\\842733.mp4",
+    "raw_sha256": "4af7edd3c8d564a7cc9fe1cf0a8e0a88b0b8311ffa4c4034b91476eef49ef5a3",
+    "bytes": 473854,
+    "media_provenance": {
+      "official_archive_url": "https://dai.cs.rutgers.edu/asllvd/signbank/asllrp_videos/batch_utterance_video_v3_1.zip",
+      "archive_sha256": "e021e4814703ecf3fd3342f32c7a2112b0040921d10f8c4b625caa8c9f2a4b32",
+      "member": "842733.mp4",
+      "crc32": 1611259284
+    },
+    "media_status": "CRC_VERIFIED_NOT_YET_DECODED",
+    "feature_path": "D:\\apphearv3claude\\AppHear-claude-s2-r3-eval-suite\\AppHear-claude-s2-r3-eval-suite\\experiments\\continuous_asl\\20261020_continuous_expand06\\data\\processed\\asllrp2025\\asllrp3_ff656751e0001d3e.features.npz",
+    "feature_sha256": "861278200bbfd4a67cbd1cc48867ec8f9d1f0acdb82cad6d23191f385097df9c",
+    "decoded_pixel_sha256": "c98e673ccbf0510e48ba7a7c69f6968a06a0d39b8b03a12405143e559cd474f5",
+    "observations": 31,
+    "decoded_frames": 91,
+    "native_fps": 29.97002997002997,
+    "dimensions": [
+      1280,
+      720
+    ],
+    "timestamp_sources": [
+      "CONTAINER_POS_MSEC"
+    ],
+    "max_pts_frame_error_ms": 4.547473508864641e-13,
+    "individual_sign_times_ms": [
+      [
+        300.3,
+        400.40000000000003
+      ],
+      [
+        533.8666666666667,
+        767.4333333333334
+      ],
+      [
+        967.6333333333333,
+        1334.6666666666667
+      ],
+      [
+        1401.4,
+        1434.7666666666667
+      ],
+      [
+        1601.6000000000001,
+        1868.5333333333333
+      ]
+    ],
+    "preprocessing_status": "PASS",
+    "unique_valid": true,
+    "cadence_max_hz": 10,
+    "extraction_ms_sum": 1974.271100043552,
+    "extraction_ms_p50": 62.21509998431429,
+    "extraction_ms_p95": 71.79735001409426,
+    "preprocessing_seconds": 3.864976100012427,
+    "hand_observed_fraction": [
+      0.1935483870967742,
+      0.06451612903225806
+    ],
+    "body_available_fraction": 1.0,
+    "canonical_role": "eligible_train",
+    "training_pool": "ASLLRP3_LITERAL_DOMINANT_REALIZED_OCCURRENCE",
+    "source_catalog": "official_ASLLRP2025_verified_utterance_archive",
+    "schema_version": "apphear.continuous_asl.candidate01_causal378.v1",
+    "signer_provenance": {
+      "publisher_participant_id": "4",
+      "publisher_participant_name": "Jonathan",
+      "signer_id": "asllrp_dai_participant_4",
+      "collection": "Jonathan_2012-11-27_sc94",
+      "utterance_id": "27",
+      "source_page": "D:\\apphearv3claude\\AppHear-claude-s2-r3-eval-suite\\AppHear-claude-s2-r3-eval-suite\\experiments\\continuous_asl\\20261020T104054Z_expand_eval01\\sources\\utterances_participant4_page6.html",
+      "source_page_sha256": "63500d96896881bd27b1b6f6a477604401ed47faf7aeec505d95aa601aaf943c",
+      "query_receipt": "D:\\apphearv3claude\\AppHear-claude-s2-r3-eval-suite\\AppHear-claude-s2-r3-eval-suite\\experiments\\continuous_asl\\20261020T104054Z_expand_eval01\\sources\\utterances_participant4_page6.html.receipt.json",
+      "method": "Official public participant-filtered utterance search, exhaustive published pagination."
+    }
+  },
+  {
+    "sample_id": "asllrp3_a8f5780a44cc47b7",
+    "dataset": "ASLLRP_SIGNSTREAM3_2025",
+    "collection": "Jonathan_2012-11-27_sc94",
+    "utterance_id": "29",
+    "source_group": "2012-11-27_JM5_0094-cam1-for-ss3.mp4",
+    "signer_id": "asllrp_dai_participant_4",
+    "split": "dev",
+    "utterance_filename": "842935.mp4",
+    "utterance_start_frame_master": 5233,
+    "utterance_end_frame_master": 5319,
+    "glosses": [
+      "IX-2p",
+      "WORK",
+      "WHERE"
+    ],
+    "events": [
+      {
+        "source_row": 6274,
+        "event_id": "347537",
+        "label": "IX-2p",
+        "start_frame_master": 5251,
+        "end_frame_master": 5253,
+        "hidden": false
+      },
+      {
+        "source_row": 6275,
+        "event_id": "347538",
+        "label": "WORK",
+        "start_frame_master": 5258,
+        "end_frame_master": 5267,
+        "hidden": false
+      },
+      {
+        "source_row": 6276,
+        "event_id": "347539",
+        "label": "WHERE",
+        "start_frame_master": 5279,
+        "end_frame_master": 5291,
+        "hidden": false
+      }
+    ],
+    "annotation_type": "AUTHENTIC_PUBLISHED_DOMINANT_HAND_OCCURRENCE_EVENTS",
+    "annotation_provenance": {
+      "csv_path": "D:\\apphearv3claude\\AppHear-claude-s2-r3-eval-suite\\AppHear-claude-s2-r3-eval-suite\\experiments\\continuous_asl\\20261020_continuous_expand06\\data\\raw\\asllrp2025\\asllrp_sentence_signs_2025_06_28.csv",
+      "csv_sha256": "9c1641b6b95a6e6c2223c34eb101ed2e83bb1da824e18c7a21791c59b1593e86",
+      "source_rows": [
+        6274,
+        6275,
+        6276
+      ],
+      "target_column": "Occurrence label",
+      "order": "verified master frame start; retain hidden events, compounds and full literal labels",
+      "frame_rate_reference": "https://www.bu.edu/asllrp/rpt24/asllrpr24.pdf",
+      "hand_scope_reference": "https://dai.cs.rutgers.edu/asllvd/signbank/Additional-information-6-29-25.pdf",
+      "excluded_nondominant_only_events": "Publisher CSV omits these; never invent missing labels",
+      "English_translation_used_as_gloss": false
+    },
+    "license_status": "PRIVATE_NONCOMMERCIAL_RESEARCH_ONLY_NO_REDISTRIBUTION",
+    "license_reference": "https://www.bu.edu/asllrp/dai-terms.html",
+    "timing_status": "EXACT_INCLUSIVE_MASTER_FRAME_SPAN_AND_29.97FPS_MEDIA_COUNT_JOIN; NO_OFFSET_SCALING; VISUAL_ALIGNMENT_NOT_INDEPENDENTLY_AUDITED",
+    "signer_independent": false,
+    "video_path": "D:\\apphearv3claude\\AppHear-claude-s2-r3-eval-suite\\AppHear-claude-s2-r3-eval-suite\\experiments\\continuous_asl\\20261020_continuous_expand06\\data\\raw\\asllrp2025\\utterances\\842935.mp4",
+    "raw_sha256": "e5da3bbfbd48dbf61cc7f8c0670f124b5f11033235e3a67c72727dadb35a63ca",
+    "bytes": 441393,
+    "media_provenance": {
+      "official_archive_url": "https://dai.cs.rutgers.edu/asllvd/signbank/asllrp_videos/batch_utterance_video_v3_1.zip",
+      "archive_sha256": "e021e4814703ecf3fd3342f32c7a2112b0040921d10f8c4b625caa8c9f2a4b32",
+      "member": "842935.mp4",
+      "crc32": 1220669659
+    },
+    "media_status": "CRC_VERIFIED_NOT_YET_DECODED",
+    "feature_path": "D:\\apphearv3claude\\AppHear-claude-s2-r3-eval-suite\\AppHear-claude-s2-r3-eval-suite\\experiments\\continuous_asl\\20261020_continuous_expand06\\data\\processed\\asllrp2025\\asllrp3_a8f5780a44cc47b7.features.npz",
+    "feature_sha256": "70013b8863e480e86b15aa1cb5790436edd0280a1944bae7fff3a675faa13d3d",
+    "decoded_pixel_sha256": "7305af172f58aa2c03228449323333c154f87f3aff9d02c5d518c615be82fba2",
+    "observations": 29,
+    "decoded_frames": 87,
+    "native_fps": 29.97002997002997,
+    "dimensions": [
+      1280,
+      720
+    ],
+    "timestamp_sources": [
+      "CONTAINER_POS_MSEC"
+    ],
+    "max_pts_frame_error_ms": 4.547473508864641e-13,
+    "individual_sign_times_ms": [
+      [
+        600.6,
+        700.7
+      ],
+      [
+        834.1666666666666,
+        1167.8333333333333
+      ],
+      [
+        1534.8666666666668,
+        1968.6333333333334
+      ]
+    ],
+    "preprocessing_status": "PASS",
+    "unique_valid": true,
+    "cadence_max_hz": 10,
+    "extraction_ms_sum": 2470.1800999755505,
+    "extraction_ms_p50": 82.9313000140246,
+    "extraction_ms_p95": 110.26549997623077,
+    "preprocessing_seconds": 4.517813700018451,
+    "hand_observed_fraction": [
+      0.2413793103448276,
+      0.1724137931034483
+    ],
+    "body_available_fraction": 0.9655172413793104,
+    "canonical_role": "eligible_train",
+    "training_pool": "ASLLRP3_LITERAL_DOMINANT_REALIZED_OCCURRENCE",
+    "source_catalog": "official_ASLLRP2025_verified_utterance_archive",
+    "schema_version": "apphear.continuous_asl.candidate01_causal378.v1",
+    "signer_provenance": {
+      "publisher_participant_id": "4",
+      "publisher_participant_name": "Jonathan",
+      "signer_id": "asllrp_dai_participant_4",
+      "collection": "Jonathan_2012-11-27_sc94",
+      "utterance_id": "29",
+      "source_page": "D:\\apphearv3claude\\AppHear-claude-s2-r3-eval-suite\\AppHear-claude-s2-r3-eval-suite\\experiments\\continuous_asl\\20261020T104054Z_expand_eval01\\sources\\utterances_participant4_page7.html",
+      "source_page_sha256": "af84608e136e1d61369fd7f79dcca89221a7add7be1c3465f79da08d16886c53",
+      "query_receipt": "D:\\apphearv3claude\\AppHear-claude-s2-r3-eval-suite\\AppHear-claude-s2-r3-eval-suite\\experiments\\continuous_asl\\20261020T104054Z_expand_eval01\\sources\\utterances_participant4_page7.html.receipt.json",
+      "method": "Official public participant-filtered utterance search, exhaustive published pagination."
+    }
+  },
+  {
+    "sample_id": "asllrp3_6a193c46d2ac9b82",
+    "dataset": "ASLLRP_SIGNSTREAM3_2025",
+    "collection": "Jonathan_2012-11-27_sc94",
+    "utterance_id": "38",
+    "source_group": "2012-11-27_JM5_0094-cam1-for-ss3.mp4",
+    "signer_id": "asllrp_dai_participant_4",
+    "split": "dev",
+    "utterance_filename": "843544.mp4",
+    "utterance_start_frame_master": 7043,
+    "utterance_end_frame_master": 7127,
+    "glosses": [
+      "IX-2p",
+      "START",
+      "TRIP",
+      "#WHEN",
+      "(1h)part:indef"
+    ],
+    "events": [
+      {
+        "source_row": 6319,
+        "event_id": "347582",
+        "label": "IX-2p",
+        "start_frame_master": 7052,
+        "end_frame_master": 7052,
+        "hidden": false
+      },
+      {
+        "source_row": 6320,
+        "event_id": "347583",
+        "label": "START",
+        "start_frame_master": 7056,
+        "end_frame_master": 7062,
+        "hidden": false
+      },
+      {
+        "source_row": 6321,
+        "event_id": "347584",
+        "label": "TRIP",
+        "start_frame_master": 7065,
+        "end_frame_master": 7074,
+        "hidden": false
+      },
+      {
+        "source_row": 6322,
+        "event_id": "347585",
+        "label": "#WHEN",
+        "start_frame_master": 7081,
+        "end_frame_master": 7086,
+        "hidden": false
+      },
+      {
+        "source_row": 6323,
+        "event_id": "347586",
+        "label": "(1h)part:indef",
+        "start_frame_master": 7096,
+        "end_frame_master": 7106,
+        "hidden": false
+      }
+    ],
+    "annotation_type": "AUTHENTIC_PUBLISHED_DOMINANT_HAND_OCCURRENCE_EVENTS",
+    "annotation_provenance": {
+      "csv_path": "D:\\apphearv3claude\\AppHear-claude-s2-r3-eval-suite\\AppHear-claude-s2-r3-eval-suite\\experiments\\continuous_asl\\20261020_continuous_expand06\\data\\raw\\asllrp2025\\asllrp_sentence_signs_2025_06_28.csv",
+      "csv_sha256": "9c1641b6b95a6e6c2223c34eb101ed2e83bb1da824e18c7a21791c59b1593e86",
+      "source_rows": [
+        6319,
+        6320,
+        6321,
+        6322,
+        6323
+      ],
+      "target_column": "Occurrence label",
+      "order": "verified master frame start; retain hidden events, compounds and full literal labels",
+      "frame_rate_reference": "https://www.bu.edu/asllrp/rpt24/asllrpr24.pdf",
+      "hand_scope_reference": "https://dai.cs.rutgers.edu/asllvd/signbank/Additional-information-6-29-25.pdf",
+      "excluded_nondominant_only_events": "Publisher CSV omits these; never invent missing labels",
+      "English_translation_used_as_gloss": false
+    },
+    "license_status": "PRIVATE_NONCOMMERCIAL_RESEARCH_ONLY_NO_REDISTRIBUTION",
+    "license_reference": "https://www.bu.edu/asllrp/dai-terms.html",
+    "timing_status": "EXACT_INCLUSIVE_MASTER_FRAME_SPAN_AND_29.97FPS_MEDIA_COUNT_JOIN; NO_OFFSET_SCALING; VISUAL_ALIGNMENT_NOT_INDEPENDENTLY_AUDITED",
+    "signer_independent": false,
+    "video_path": "D:\\apphearv3claude\\AppHear-claude-s2-r3-eval-suite\\AppHear-claude-s2-r3-eval-suite\\experiments\\continuous_asl\\20261020_continuous_expand06\\data\\raw\\asllrp2025\\utterances\\843544.mp4",
+    "raw_sha256": "52e69a6303d144005dd2f988ae49834397625d773a99ae6a06fff8a9ed7851db",
+    "bytes": 454810,
+    "media_provenance": {
+      "official_archive_url": "https://dai.cs.rutgers.edu/asllvd/signbank/asllrp_videos/batch_utterance_video_v3_1.zip",
+      "archive_sha256": "e021e4814703ecf3fd3342f32c7a2112b0040921d10f8c4b625caa8c9f2a4b32",
+      "member": "843544.mp4",
+      "crc32": 4242701198
+    },
+    "media_status": "CRC_VERIFIED_NOT_YET_DECODED",
+    "feature_path": "D:\\apphearv3claude\\AppHear-claude-s2-r3-eval-suite\\AppHear-claude-s2-r3-eval-suite\\experiments\\continuous_asl\\20261020_continuous_expand06\\data\\processed\\asllrp2025\\asllrp3_6a193c46d2ac9b82.features.npz",
+    "feature_sha256": "f2abed5eb7edea3e37b2267d36857e33365d10b2a5e8cad6ab715e4ce3843fae",
+    "decoded_pixel_sha256": "00d779c4a23d6c1618744c1fee4cec39f5fc7e62267b2ea84eb133d48215549f",
+    "observations": 29,
+    "decoded_frames": 85,
+    "native_fps": 29.97002997002997,
+    "dimensions": [
+      1280,
+      720
+    ],
+    "timestamp_sources": [
+      "CONTAINER_POS_MSEC"
+    ],
+    "max_pts_frame_error_ms": 4.547473508864641e-13,
+    "individual_sign_times_ms": [
+      [
+        300.3,
+        333.6666666666667
+      ],
+      [
+        433.76666666666665,
+        667.3333333333334
+      ],
+      [
+        734.0666666666667,
+        1067.7333333333333
+      ],
+      [
+        1267.9333333333334,
+        1468.1333333333334
+      ],
+      [
+        1768.4333333333334,
+        2135.4666666666667
+      ]
+    ],
+    "preprocessing_status": "PASS",
+    "unique_valid": true,
+    "cadence_max_hz": 10,
+    "extraction_ms_sum": 1992.0491999946535,
+    "extraction_ms_p50": 64.50239999685436,
+    "extraction_ms_p95": 89.13528001285158,
+    "preprocessing_seconds": 3.828703499981202,
+    "hand_observed_fraction": [
+      0.41379310344827586,
+      0.10344827586206896
+    ],
+    "body_available_fraction": 0.9655172413793104,
+    "canonical_role": "eligible_train",
+    "training_pool": "ASLLRP3_LITERAL_DOMINANT_REALIZED_OCCURRENCE",
+    "source_catalog": "official_ASLLRP2025_verified_utterance_archive",
+    "schema_version": "apphear.continuous_asl.candidate01_causal378.v1",
+    "signer_provenance": {
+      "publisher_participant_id": "4",
+      "publisher_participant_name": "Jonathan",
+      "signer_id": "asllrp_dai_participant_4",
+      "collection": "Jonathan_2012-11-27_sc94",
+      "utterance_id": "38",
+      "source_page": "D:\\apphearv3claude\\AppHear-claude-s2-r3-eval-suite\\AppHear-claude-s2-r3-eval-suite\\experiments\\continuous_asl\\20261020T104054Z_expand_eval01\\sources\\utterances_participant4_page9.html",
+      "source_page_sha256": "67ea74c4bc51e94fa17c2ad3c4bd9b5b91b9808d1446e32f58dc84f76117e415",
+      "query_receipt": "D:\\apphearv3claude\\AppHear-claude-s2-r3-eval-suite\\AppHear-claude-s2-r3-eval-suite\\experiments\\continuous_asl\\20261020T104054Z_expand_eval01\\sources\\utterances_participant4_page9.html.receipt.json",
+      "method": "Official public participant-filtered utterance search, exhaustive published pagination."
+    }
+  },
+  {
+    "sample_id": "asllrp3_9fbb3a9f1c3f7602",
+    "dataset": "ASLLRP_SIGNSTREAM3_2025",
+    "collection": "Jonathan_2012-11-27_sc94",
+    "utterance_id": "56",
+    "source_group": "2012-11-27_JM5_0094-cam1-for-ss3.mp4",
+    "signer_id": "asllrp_dai_participant_4",
+    "split": "dev",
+    "utterance_filename": "844762.mp4",
+    "utterance_start_frame_master": 11273,
+    "utterance_end_frame_master": 11390,
+    "glosses": [
+      "#IF",
+      "IX-3p:i",
+      "FRIEND",
+      "GO-OUT",
+      "TRIP",
+      "IX-1p",
+      "MUST",
+      "JOIN"
+    ],
+    "events": [
+      {
+        "source_row": 6501,
+        "event_id": "347768",
+        "label": "#IF",
+        "start_frame_master": 11283,
+        "end_frame_master": 11286,
+        "hidden": false
+      },
+      {
+        "source_row": 6502,
+        "event_id": "347769",
+        "label": "IX-3p:i",
+        "start_frame_master": 11290,
+        "end_frame_master": 11291,
+        "hidden": true
+      },
+      {
+        "source_row": 6503,
+        "event_id": "347770",
+        "label": "FRIEND",
+        "start_frame_master": 11295,
+        "end_frame_master": 11296,
+        "hidden": false
+      },
+      {
+        "source_row": 6504,
+        "event_id": "347771",
+        "label": "GO-OUT",
+        "start_frame_master": 11303,
+        "end_frame_master": 11306,
+        "hidden": false
+      },
+      {
+        "source_row": 6505,
+        "event_id": "347772",
+        "label": "TRIP",
+        "start_frame_master": 11310,
+        "end_frame_master": 11323,
+        "hidden": false
+      },
+      {
+        "source_row": 6506,
+        "event_id": "347773",
+        "label": "IX-1p",
+        "start_frame_master": 11332,
+        "end_frame_master": 11332,
+        "hidden": false
+      },
+      {
+        "source_row": 6507,
+        "event_id": "347774",
+        "label": "MUST",
+        "start_frame_master": 11339,
+        "end_frame_master": 11343,
+        "hidden": false
+      },
+      {
+        "source_row": 6508,
+        "event_id": "347775",
+        "label": "JOIN",
+        "start_frame_master": 11348,
+        "end_frame_master": 11355,
+        "hidden": false
+      }
+    ],
+    "annotation_type": "AUTHENTIC_PUBLISHED_DOMINANT_HAND_OCCURRENCE_EVENTS",
+    "annotation_provenance": {
+      "csv_path": "D:\\apphearv3claude\\AppHear-claude-s2-r3-eval-suite\\AppHear-claude-s2-r3-eval-suite\\experiments\\continuous_asl\\20261020_continuous_expand06\\data\\raw\\asllrp2025\\asllrp_sentence_signs_2025_06_28.csv",
+      "csv_sha256": "9c1641b6b95a6e6c2223c34eb101ed2e83bb1da824e18c7a21791c59b1593e86",
+      "source_rows": [
+        6501,
+        6502,
+        6503,
+        6504,
+        6505,
+        6506,
+        6507,
+        6508
+      ],
+      "target_column": "Occurrence label",
+      "order": "verified master frame start; retain hidden events, compounds and full literal labels",
+      "frame_rate_reference": "https://www.bu.edu/asllrp/rpt24/asllrpr24.pdf",
+      "hand_scope_reference": "https://dai.cs.rutgers.edu/asllvd/signbank/Additional-information-6-29-25.pdf",
+      "excluded_nondominant_only_events": "Publisher CSV omits these; never invent missing labels",
+      "English_translation_used_as_gloss": false
+    },
+    "license_status": "PRIVATE_NONCOMMERCIAL_RESEARCH_ONLY_NO_REDISTRIBUTION",
+    "license_reference": "https://www.bu.edu/asllrp/dai-terms.html",
+    "timing_status": "EXACT_INCLUSIVE_MASTER_FRAME_SPAN_AND_29.97FPS_MEDIA_COUNT_JOIN; NO_OFFSET_SCALING; VISUAL_ALIGNMENT_NOT_INDEPENDENTLY_AUDITED",
+    "signer_independent": false,
+    "video_path": "D:\\apphearv3claude\\AppHear-claude-s2-r3-eval-suite\\AppHear-claude-s2-r3-eval-suite\\experiments\\continuous_asl\\20261020_continuous_expand06\\data\\raw\\asllrp2025\\utterances\\844762.mp4",
+    "raw_sha256": "a1b3bc28ff1b585deb700d669f2bc27740252f54826739afc651c240c2cd9aae",
+    "bytes": 616141,
+    "media_provenance": {
+      "official_archive_url": "https://dai.cs.rutgers.edu/asllvd/signbank/asllrp_videos/batch_utterance_video_v3_1.zip",
+      "archive_sha256": "e021e4814703ecf3fd3342f32c7a2112b0040921d10f8c4b625caa8c9f2a4b32",
+      "member": "844762.mp4",
+      "crc32": 2976210229
+    },
+    "media_status": "CRC_VERIFIED_NOT_YET_DECODED",
+    "feature_path": "D:\\apphearv3claude\\AppHear-claude-s2-r3-eval-suite\\AppHear-claude-s2-r3-eval-suite\\experiments\\continuous_asl\\20261020_continuous_expand06\\data\\processed\\asllrp2025\\asllrp3_9fbb3a9f1c3f7602.features.npz",
+    "feature_sha256": "be3163f7c774a2aa251c173185576a92d4ed9479843a38f6c48380bbaf12853b",
+    "decoded_pixel_sha256": "a5ec5f671aec3b17d1b4d3b6e436ca2791190f5fdbd7d4a8d683d4a4867cf013",
+    "observations": 40,
+    "decoded_frames": 118,
+    "native_fps": 29.97002997002997,
+    "dimensions": [
+      1280,
+      720
+    ],
+    "timestamp_sources": [
+      "CONTAINER_POS_MSEC"
+    ],
+    "max_pts_frame_error_ms": 4.547473508864641e-13,
+    "individual_sign_times_ms": [
+      [
+        333.6666666666667,
+        467.1333333333333
+      ],
+      [
+        567.2333333333333,
+        633.9666666666667
+      ],
+      [
+        734.0666666666667,
+        800.8000000000001
+      ],
+      [
+        1001.0,
+        1134.4666666666667
+      ],
+      [
+        1234.5666666666666,
+        1701.7
+      ],
+      [
+        1968.6333333333334,
+        2002.0
+      ],
+      [
+        2202.2,
+        2369.0333333333333
+      ],
+      [
+        2502.5,
+        2769.4333333333334
+      ]
+    ],
+    "preprocessing_status": "PASS",
+    "unique_valid": true,
+    "cadence_max_hz": 10,
+    "extraction_ms_sum": 2835.79619997181,
+    "extraction_ms_p50": 68.95330001134425,
+    "extraction_ms_p95": 88.57248000567778,
+    "preprocessing_seconds": 5.372169800015399,
+    "hand_observed_fraction": [
+      0.15,
+      0.2
+    ],
+    "body_available_fraction": 1.0,
+    "canonical_role": "eligible_train",
+    "training_pool": "ASLLRP3_LITERAL_DOMINANT_REALIZED_OCCURRENCE",
+    "source_catalog": "official_ASLLRP2025_verified_utterance_archive",
+    "schema_version": "apphear.continuous_asl.candidate01_causal378.v1",
+    "signer_provenance": {
+      "publisher_participant_id": "4",
+      "publisher_participant_name": "Jonathan",
+      "signer_id": "asllrp_dai_participant_4",
+      "collection": "Jonathan_2012-11-27_sc94",
+      "utterance_id": "56",
+      "source_page": "D:\\apphearv3claude\\AppHear-claude-s2-r3-eval-suite\\AppHear-claude-s2-r3-eval-suite\\experiments\\continuous_asl\\20261020T104054Z_expand_eval01\\sources\\utterances_participant4_page13.html",
+      "source_page_sha256": "7458f48bff01b2d0eec30e3397ba52a72fd3b5fc5b68539d3f807042196a6e92",
+      "query_receipt": "D:\\apphearv3claude\\AppHear-claude-s2-r3-eval-suite\\AppHear-claude-s2-r3-eval-suite\\experiments\\continuous_asl\\20261020T104054Z_expand_eval01\\sources\\utterances_participant4_page13.html.receipt.json",
+      "method": "Official public participant-filtered utterance search, exhaustive published pagination."
+    }
+  },
+  {
+    "sample_id": "asllrp3_7a092bf37fc5a69f",
+    "dataset": "ASLLRP_SIGNSTREAM3_2025",
+    "collection": "Jonathan_2012-11-27_sc93",
+    "utterance_id": "2",
+    "source_group": "2012-11-27_JM4_0093-cam1-for-ss3.mp4",
+    "signer_id": "asllrp_dai_participant_4",
+    "split": "dev",
+    "utterance_filename": "557218.mp4",
+    "utterance_start_frame_master": 216,
+    "utterance_end_frame_master": 292,
+    "glosses": [
+      "FRIEND",
+      "IX-3p:i",
+      "GO-OUT",
+      "(25)WHY",
+      "(1h)part:indef",
+      "BORE"
+    ],
+    "events": [
+      {
+        "source_row": 6701,
+        "event_id": "347972",
+        "label": "FRIEND",
+        "start_frame_master": 229,
+        "end_frame_master": 238,
+        "hidden": false
+      },
+      {
+        "source_row": 6702,
+        "event_id": "347973",
+        "label": "IX-3p:i",
+        "start_frame_master": 243,
+        "end_frame_master": 243,
+        "hidden": false
+      },
+      {
+        "source_row": 6703,
+        "event_id": "347974",
+        "label": "GO-OUT",
+        "start_frame_master": 247,
+        "end_frame_master": 253,
+        "hidden": false
+      },
+      {
+        "source_row": 6704,
+        "event_id": "347975",
+        "label": "(25)WHY",
+        "start_frame_master": 259,
+        "end_frame_master": 261,
+        "hidden": false
+      },
+      {
+        "source_row": 6705,
+        "event_id": "347976",
+        "label": "(1h)part:indef",
+        "start_frame_master": 266,
+        "end_frame_master": 267,
+        "hidden": false
+      },
+      {
+        "source_row": 6706,
+        "event_id": "347977",
+        "label": "BORE",
+        "start_frame_master": 275,
+        "end_frame_master": 281,
+        "hidden": false
+      }
+    ],
+    "annotation_type": "AUTHENTIC_PUBLISHED_DOMINANT_HAND_OCCURRENCE_EVENTS",
+    "annotation_provenance": {
+      "csv_path": "D:\\apphearv3claude\\AppHear-claude-s2-r3-eval-suite\\AppHear-claude-s2-r3-eval-suite\\experiments\\continuous_asl\\20261020_continuous_expand06\\data\\raw\\asllrp2025\\asllrp_sentence_signs_2025_06_28.csv",
+      "csv_sha256": "9c1641b6b95a6e6c2223c34eb101ed2e83bb1da824e18c7a21791c59b1593e86",
+      "source_rows": [
+        6701,
+        6702,
+        6703,
+        6704,
+        6705,
+        6706
+      ],
+      "target_column": "Occurrence label",
+      "order": "verified master frame start; retain hidden events, compounds and full literal labels",
+      "frame_rate_reference": "https://www.bu.edu/asllrp/rpt24/asllrpr24.pdf",
+      "hand_scope_reference": "https://dai.cs.rutgers.edu/asllvd/signbank/Additional-information-6-29-25.pdf",
+      "excluded_nondominant_only_events": "Publisher CSV omits these; never invent missing labels",
+      "English_translation_used_as_gloss": false
+    },
+    "license_status": "PRIVATE_NONCOMMERCIAL_RESEARCH_ONLY_NO_REDISTRIBUTION",
+    "license_reference": "https://www.bu.edu/asllrp/dai-terms.html",
+    "timing_status": "EXACT_INCLUSIVE_MASTER_FRAME_SPAN_AND_29.97FPS_MEDIA_COUNT_JOIN; NO_OFFSET_SCALING; VISUAL_ALIGNMENT_NOT_INDEPENDENTLY_AUDITED",
+    "signer_independent": false,
+    "video_path": "D:\\apphearv3claude\\AppHear-claude-s2-r3-eval-suite\\AppHear-claude-s2-r3-eval-suite\\experiments\\continuous_asl\\20261020_continuous_expand06\\data\\raw\\asllrp2025\\utterances\\557218.mp4",
+    "raw_sha256": "55c4f348a91281960d1f6b343848896942094cbdb6a6b03b1be9dcd9ab9a43d2",
+    "bytes": 432884,
+    "media_provenance": {
+      "official_archive_url": "https://dai.cs.rutgers.edu/asllvd/signbank/asllrp_videos/batch_utterance_video_v3_1.zip",
+      "archive_sha256": "e021e4814703ecf3fd3342f32c7a2112b0040921d10f8c4b625caa8c9f2a4b32",
+      "member": "557218.mp4",
+      "crc32": 1464048129
+    },
+    "media_status": "CRC_VERIFIED_NOT_YET_DECODED",
+    "feature_path": "D:\\apphearv3claude\\AppHear-claude-s2-r3-eval-suite\\AppHear-claude-s2-r3-eval-suite\\experiments\\continuous_asl\\20261020_continuous_expand06\\data\\processed\\asllrp2025\\asllrp3_7a092bf37fc5a69f.features.npz",
+    "feature_sha256": "caa50a2716b3a5ca89d25b69fb5342d0dd68b89cd5b58a3852860733408d2ea7",
+    "decoded_pixel_sha256": "8455fb17b09358ce5eecb3cff68911df7db5561961e2c2478688b081251c08b0",
+    "observations": 26,
+    "decoded_frames": 77,
+    "native_fps": 29.97002997002997,
+    "dimensions": [
+      1280,
+      720
+    ],
+    "timestamp_sources": [
+      "CONTAINER_POS_MSEC"
+    ],
+    "max_pts_frame_error_ms": 4.547473508864641e-13,
+    "individual_sign_times_ms": [
+      [
+        433.76666666666665,
+        767.4333333333334
+      ],
+      [
+        900.9,
+        934.2666666666667
+      ],
+      [
+        1034.3666666666668,
+        1267.9333333333334
+      ],
+      [
+        1434.7666666666667,
+        1534.8666666666668
+      ],
+      [
+        1668.3333333333333,
+        1735.0666666666666
+      ],
+      [
+        1968.6333333333334,
+        2202.2
+      ]
+    ],
+    "preprocessing_status": "PASS",
+    "unique_valid": true,
+    "cadence_max_hz": 10,
+    "extraction_ms_sum": 1844.5268000068609,
+    "extraction_ms_p50": 68.96790000610054,
+    "extraction_ms_p95": 88.4227749920683,
+    "preprocessing_seconds": 3.496953099995153,
+    "hand_observed_fraction": [
+      0.23076923076923078,
+      0.3076923076923077
+    ],
+    "body_available_fraction": 1.0,
+    "canonical_role": "eligible_train",
+    "training_pool": "ASLLRP3_LITERAL_DOMINANT_REALIZED_OCCURRENCE",
+    "source_catalog": "official_ASLLRP2025_verified_utterance_archive",
+    "schema_version": "apphear.continuous_asl.candidate01_causal378.v1",
+    "signer_provenance": {
+      "publisher_participant_id": "4",
+      "publisher_participant_name": "Jonathan",
+      "signer_id": "asllrp_dai_participant_4",
+      "collection": "Jonathan_2012-11-27_sc93",
+      "utterance_id": "2",
+      "source_page": "D:\\apphearv3claude\\AppHear-claude-s2-r3-eval-suite\\AppHear-claude-s2-r3-eval-suite\\experiments\\continuous_asl\\20261020T104054Z_expand_eval01\\sources\\utterances_participant4_page4.html",
+      "source_page_sha256": "58528a4827b0cf4488b50e6b80932ae6bbbe44b03d315ee2469c36ca1d8ec3d5",
+      "query_receipt": "D:\\apphearv3claude\\AppHear-claude-s2-r3-eval-suite\\AppHear-claude-s2-r3-eval-suite\\experiments\\continuous_asl\\20261020T104054Z_expand_eval01\\sources\\utterances_participant4_page4.html.receipt.json",
+      "method": "Official public participant-filtered utterance search, exhaustive published pagination."
+    }
+  },
+  {
+    "sample_id": "asllrp3_44dede8dcaf1c254",
+    "dataset": "ASLLRP_SIGNSTREAM3_2025",
+    "collection": "Jonathan_2012-11-27_sc93",
+    "utterance_id": "3",
+    "source_group": "2012-11-27_JM4_0093-cam1-for-ss3.mp4",
+    "signer_id": "asllrp_dai_participant_4",
+    "split": "dev",
+    "utterance_filename": "557229.mp4",
+    "utterance_start_frame_master": 442,
+    "utterance_end_frame_master": 514,
+    "glosses": [
+      "FRIEND",
+      "DEPART",
+      "WHERE",
+      "(P)PARTY"
+    ],
+    "events": [
+      {
+        "source_row": 6707,
+        "event_id": "347978",
+        "label": "FRIEND",
+        "start_frame_master": 447,
+        "end_frame_master": 455,
+        "hidden": false
+      },
+      {
+        "source_row": 6708,
+        "event_id": "347979",
+        "label": "DEPART",
+        "start_frame_master": 461,
+        "end_frame_master": 467,
+        "hidden": false
+      },
+      {
+        "source_row": 6709,
+        "event_id": "347980",
+        "label": "WHERE",
+        "start_frame_master": 476,
+        "end_frame_master": 483,
+        "hidden": false
+      },
+      {
+        "source_row": 6710,
+        "event_id": "347981",
+        "label": "(P)PARTY",
+        "start_frame_master": 488,
+        "end_frame_master": 501,
+        "hidden": false
+      }
+    ],
+    "annotation_type": "AUTHENTIC_PUBLISHED_DOMINANT_HAND_OCCURRENCE_EVENTS",
+    "annotation_provenance": {
+      "csv_path": "D:\\apphearv3claude\\AppHear-claude-s2-r3-eval-suite\\AppHear-claude-s2-r3-eval-suite\\experiments\\continuous_asl\\20261020_continuous_expand06\\data\\raw\\asllrp2025\\asllrp_sentence_signs_2025_06_28.csv",
+      "csv_sha256": "9c1641b6b95a6e6c2223c34eb101ed2e83bb1da824e18c7a21791c59b1593e86",
+      "source_rows": [
+        6707,
+        6708,
+        6709,
+        6710
+      ],
+      "target_column": "Occurrence label",
+      "order": "verified master frame start; retain hidden events, compounds and full literal labels",
+      "frame_rate_reference": "https://www.bu.edu/asllrp/rpt24/asllrpr24.pdf",
+      "hand_scope_reference": "https://dai.cs.rutgers.edu/asllvd/signbank/Additional-information-6-29-25.pdf",
+      "excluded_nondominant_only_events": "Publisher CSV omits these; never invent missing labels",
+      "English_translation_used_as_gloss": false
+    },
+    "license_status": "PRIVATE_NONCOMMERCIAL_RESEARCH_ONLY_NO_REDISTRIBUTION",
+    "license_reference": "https://www.bu.edu/asllrp/dai-terms.html",
+    "timing_status": "EXACT_INCLUSIVE_MASTER_FRAME_SPAN_AND_29.97FPS_MEDIA_COUNT_JOIN; NO_OFFSET_SCALING; VISUAL_ALIGNMENT_NOT_INDEPENDENTLY_AUDITED",
+    "signer_independent": false,
+    "video_path": "D:\\apphearv3claude\\AppHear-claude-s2-r3-eval-suite\\AppHear-claude-s2-r3-eval-suite\\experiments\\continuous_asl\\20261020_continuous_expand06\\data\\raw\\asllrp2025\\utterances\\557229.mp4",
+    "raw_sha256": "d4c5d16c36789b8081d7ddf33cde5306b28a164c0e95919f8e87bcfc03b3659c",
+    "bytes": 411688,
+    "media_provenance": {
+      "official_archive_url": "https://dai.cs.rutgers.edu/asllvd/signbank/asllrp_videos/batch_utterance_video_v3_1.zip",
+      "archive_sha256": "e021e4814703ecf3fd3342f32c7a2112b0040921d10f8c4b625caa8c9f2a4b32",
+      "member": "557229.mp4",
+      "crc32": 1602991913
+    },
+    "media_status": "CRC_VERIFIED_NOT_YET_DECODED",
+    "feature_path": "D:\\apphearv3claude\\AppHear-claude-s2-r3-eval-suite\\AppHear-claude-s2-r3-eval-suite\\experiments\\continuous_asl\\20261020_continuous_expand06\\data\\processed\\asllrp2025\\asllrp3_44dede8dcaf1c254.features.npz",
+    "feature_sha256": "bb36aed13e4997aeb0d68f61947af0b9c835d7cd9533bb1aa8fd03c5df89eec3",
+    "decoded_pixel_sha256": "837f197e0139561bc7886cc9bdf91ca56e75f56ce8ff9864ef51baae00d4a733",
+    "observations": 25,
+    "decoded_frames": 73,
+    "native_fps": 29.97002997002997,
+    "dimensions": [
+      1280,
+      720
+    ],
+    "timestamp_sources": [
+      "CONTAINER_POS_MSEC"
+    ],
+    "max_pts_frame_error_ms": 4.547473508864641e-13,
+    "individual_sign_times_ms": [
+      [
+        166.83333333333334,
+        467.1333333333333
+      ],
+      [
+        633.9666666666667,
+        867.5333333333333
+      ],
+      [
+        1134.4666666666667,
+        1401.4
+      ],
+      [
+        1534.8666666666668,
+        2002.0
+      ]
+    ],
+    "preprocessing_status": "PASS",
+    "unique_valid": true,
+    "cadence_max_hz": 10,
+    "extraction_ms_sum": 1785.73010006221,
+    "extraction_ms_p50": 68.4981000085827,
+    "extraction_ms_p95": 83.14266001689248,
+    "preprocessing_seconds": 3.3254870000237133,
+    "hand_observed_fraction": [
+      0.24,
+      0.12
+    ],
+    "body_available_fraction": 1.0,
+    "canonical_role": "eligible_train",
+    "training_pool": "ASLLRP3_LITERAL_DOMINANT_REALIZED_OCCURRENCE",
+    "source_catalog": "official_ASLLRP2025_verified_utterance_archive",
+    "schema_version": "apphear.continuous_asl.candidate01_causal378.v1",
+    "signer_provenance": {
+      "publisher_participant_id": "4",
+      "publisher_participant_name": "Jonathan",
+      "signer_id": "asllrp_dai_participant_4",
+      "collection": "Jonathan_2012-11-27_sc93",
+      "utterance_id": "3",
+      "source_page": "D:\\apphearv3claude\\AppHear-claude-s2-r3-eval-suite\\AppHear-claude-s2-r3-eval-suite\\experiments\\continuous_asl\\20261020T104054Z_expand_eval01\\sources\\utterances_participant4_page7.html",
+      "source_page_sha256": "af84608e136e1d61369fd7f79dcca89221a7add7be1c3465f79da08d16886c53",
+      "query_receipt": "D:\\apphearv3claude\\AppHear-claude-s2-r3-eval-suite\\AppHear-claude-s2-r3-eval-suite\\experiments\\continuous_asl\\20261020T104054Z_expand_eval01\\sources\\utterances_participant4_page7.html.receipt.json",
+      "method": "Official public participant-filtered utterance search, exhaustive published pagination."
+    }
+  },
+  {
+    "sample_id": "asllrp3_193edc92a1200acb",
+    "dataset": "ASLLRP_SIGNSTREAM3_2025",
+    "collection": "Jonathan_2012-11-27_sc92",
+    "utterance_id": "4",
+    "source_group": "2012-11-27_JM3_0092-cam1-for-ss3.mp4",
+    "signer_id": "asllrp_dai_participant_4",
+    "split": "dev",
+    "utterance_filename": "7343510.mp4",
+    "utterance_start_frame_master": 817,
+    "utterance_end_frame_master": 940,
+    "glosses": [
+      "#IF",
+      "POSS-1p",
+      "FRIEND",
+      "GROUP/TOGETHER",
+      "GO-OUT",
+      "IX-1p",
+      "FUTURE",
+      "JOIN"
+    ],
+    "events": [
+      {
+        "source_row": 6836,
+        "event_id": "348111",
+        "label": "#IF",
+        "start_frame_master": 827,
+        "end_frame_master": 833,
+        "hidden": false
+      },
+      {
+        "source_row": 6837,
+        "event_id": "348112",
+        "label": "POSS-1p",
+        "start_frame_master": 840,
+        "end_frame_master": 840,
+        "hidden": false
+      },
+      {
+        "source_row": 6838,
+        "event_id": "348113",
+        "label": "FRIEND",
+        "start_frame_master": 846,
+        "end_frame_master": 851,
+        "hidden": false
+      },
+      {
+        "source_row": 6839,
+        "event_id": "348114",
+        "label": "GROUP/TOGETHER",
+        "start_frame_master": 856,
+        "end_frame_master": 858,
+        "hidden": false
+      },
+      {
+        "source_row": 6840,
+        "event_id": "348115",
+        "label": "GO-OUT",
+        "start_frame_master": 864,
+        "end_frame_master": 871,
+        "hidden": false
+      },
+      {
+        "source_row": 6841,
+        "event_id": "348116",
+        "label": "IX-1p",
+        "start_frame_master": 879,
+        "end_frame_master": 879,
+        "hidden": false
+      },
+      {
+        "source_row": 6842,
+        "event_id": "348117",
+        "label": "FUTURE",
+        "start_frame_master": 885,
+        "end_frame_master": 889,
+        "hidden": false
+      },
+      {
+        "source_row": 6843,
+        "event_id": "348118",
+        "label": "JOIN",
+        "start_frame_master": 893,
+        "end_frame_master": 898,
+        "hidden": false
+      }
+    ],
+    "annotation_type": "AUTHENTIC_PUBLISHED_DOMINANT_HAND_OCCURRENCE_EVENTS",
+    "annotation_provenance": {
+      "csv_path": "D:\\apphearv3claude\\AppHear-claude-s2-r3-eval-suite\\AppHear-claude-s2-r3-eval-suite\\experiments\\continuous_asl\\20261020_continuous_expand06\\data\\raw\\asllrp2025\\asllrp_sentence_signs_2025_06_28.csv",
+      "csv_sha256": "9c1641b6b95a6e6c2223c34eb101ed2e83bb1da824e18c7a21791c59b1593e86",
+      "source_rows": [
+        6836,
+        6837,
+        6838,
+        6839,
+        6840,
+        6841,
+        6842,
+        6843
+      ],
+      "target_column": "Occurrence label",
+      "order": "verified master frame start; retain hidden events, compounds and full literal labels",
+      "frame_rate_reference": "https://www.bu.edu/asllrp/rpt24/asllrpr24.pdf",
+      "hand_scope_reference": "https://dai.cs.rutgers.edu/asllvd/signbank/Additional-information-6-29-25.pdf",
+      "excluded_nondominant_only_events": "Publisher CSV omits these; never invent missing labels",
+      "English_translation_used_as_gloss": false
+    },
+    "license_status": "PRIVATE_NONCOMMERCIAL_RESEARCH_ONLY_NO_REDISTRIBUTION",
+    "license_reference": "https://www.bu.edu/asllrp/dai-terms.html",
+    "timing_status": "EXACT_INCLUSIVE_MASTER_FRAME_SPAN_AND_29.97FPS_MEDIA_COUNT_JOIN; NO_OFFSET_SCALING; VISUAL_ALIGNMENT_NOT_INDEPENDENTLY_AUDITED",
+    "signer_independent": false,
+    "video_path": "D:\\apphearv3claude\\AppHear-claude-s2-r3-eval-suite\\AppHear-claude-s2-r3-eval-suite\\experiments\\continuous_asl\\20261020_continuous_expand06\\data\\raw\\asllrp2025\\utterances\\7343510.mp4",
+    "raw_sha256": "64b77a4e91fecc6b12e5f6bc72f77e9a67d24151ac4cc0d7ea589900c5fc4d93",
+    "bytes": 619657,
+    "media_provenance": {
+      "official_archive_url": "https://dai.cs.rutgers.edu/asllvd/signbank/asllrp_videos/batch_utterance_video_v3_1.zip",
+      "archive_sha256": "e021e4814703ecf3fd3342f32c7a2112b0040921d10f8c4b625caa8c9f2a4b32",
+      "member": "7343510.mp4",
+      "crc32": 1044988474
+    },
+    "media_status": "CRC_VERIFIED_NOT_YET_DECODED",
+    "feature_path": "D:\\apphearv3claude\\AppHear-claude-s2-r3-eval-suite\\AppHear-claude-s2-r3-eval-suite\\experiments\\continuous_asl\\20261020_continuous_expand06\\data\\processed\\asllrp2025\\asllrp3_193edc92a1200acb.features.npz",
+    "feature_sha256": "b1d52efad685aba44f1cea2b5f510e3ea7045c6d7e51bf82ee220fae903408c4",
+    "decoded_pixel_sha256": "8c11fcb608abec33fe684ed69ec567cdbaaf02808b9c6a2e5e1e57887a28512d",
+    "observations": 42,
+    "decoded_frames": 124,
+    "native_fps": 29.97002997002997,
+    "dimensions": [
+      1280,
+      720
+    ],
+    "timestamp_sources": [
+      "CONTAINER_POS_MSEC"
+    ],
+    "max_pts_frame_error_ms": 9.094947017729282e-13,
+    "individual_sign_times_ms": [
+      [
+        333.6666666666667,
+        567.2333333333333
+      ],
+      [
+        767.4333333333334,
+        800.8000000000001
+      ],
+      [
+        967.6333333333333,
+        1167.8333333333333
+      ],
+      [
+        1301.3,
+        1401.4
+      ],
+      [
+        1568.2333333333333,
+        1835.1666666666667
+      ],
+      [
+        2068.7333333333336,
+        2102.1
+      ],
+      [
+        2268.9333333333334,
+        2435.766666666667
+      ],
+      [
+        2535.866666666667,
+        2736.0666666666666
+      ]
+    ],
+    "preprocessing_status": "PASS",
+    "unique_valid": true,
+    "cadence_max_hz": 10,
+    "extraction_ms_sum": 3176.1636998853646,
+    "extraction_ms_p50": 72.71305000176653,
+    "extraction_ms_p95": 90.40766501420875,
+    "preprocessing_seconds": 5.809609000018099,
+    "hand_observed_fraction": [
+      0.2619047619047619,
+      0.14285714285714285
+    ],
+    "body_available_fraction": 1.0,
+    "canonical_role": "eligible_train",
+    "training_pool": "ASLLRP3_LITERAL_DOMINANT_REALIZED_OCCURRENCE",
+    "source_catalog": "official_ASLLRP2025_verified_utterance_archive",
+    "schema_version": "apphear.continuous_asl.candidate01_causal378.v1",
+    "signer_provenance": {
+      "publisher_participant_id": "4",
+      "publisher_participant_name": "Jonathan",
+      "signer_id": "asllrp_dai_participant_4",
+      "collection": "Jonathan_2012-11-27_sc92",
+      "utterance_id": "4",
+      "source_page": "D:\\apphearv3claude\\AppHear-claude-s2-r3-eval-suite\\AppHear-claude-s2-r3-eval-suite\\experiments\\continuous_asl\\20261020T104054Z_expand_eval01\\sources\\utterances_participant4_page10.html",
+      "source_page_sha256": "33bcdd28ee3c9fab35f6374aa1486f1d3c2744bd128ceaf48e75a359f369ffb3",
+      "query_receipt": "D:\\apphearv3claude\\AppHear-claude-s2-r3-eval-suite\\AppHear-claude-s2-r3-eval-suite\\experiments\\continuous_asl\\20261020T104054Z_expand_eval01\\sources\\utterances_participant4_page10.html.receipt.json",
+      "method": "Official public participant-filtered utterance search, exhaustive published pagination."
+    }
+  },
+  {
+    "sample_id": "asllrp3_cbcc64c9e90b2c8d",
+    "dataset": "ASLLRP_SIGNSTREAM3_2025",
+    "collection": "Jonathan_2012-11-27_sc90",
+    "utterance_id": "2",
+    "source_group": "2012-11-27_JM1_0090-cam1-for-ss3.mp4",
+    "signer_id": "asllrp_dai_participant_4",
+    "split": "dev",
+    "utterance_filename": "771138.mp4",
+    "utterance_start_frame_master": 200,
+    "utterance_end_frame_master": 278,
+    "glosses": [
+      "FRIEND",
+      "GROUP/TOGETHER",
+      "DEPART"
+    ],
+    "events": [
+      {
+        "source_row": 7146,
+        "event_id": "348439",
+        "label": "FRIEND",
+        "start_frame_master": 210,
+        "end_frame_master": 218,
+        "hidden": false
+      },
+      {
+        "source_row": 7147,
+        "event_id": "348440",
+        "label": "GROUP/TOGETHER",
+        "start_frame_master": 225,
+        "end_frame_master": 230,
+        "hidden": false
+      },
+      {
+        "source_row": 7148,
+        "event_id": "348441",
+        "label": "DEPART",
+        "start_frame_master": 242,
+        "end_frame_master": 250,
+        "hidden": false
+      }
+    ],
+    "annotation_type": "AUTHENTIC_PUBLISHED_DOMINANT_HAND_OCCURRENCE_EVENTS",
+    "annotation_provenance": {
+      "csv_path": "D:\\apphearv3claude\\AppHear-claude-s2-r3-eval-suite\\AppHear-claude-s2-r3-eval-suite\\experiments\\continuous_asl\\20261020_continuous_expand06\\data\\raw\\asllrp2025\\asllrp_sentence_signs_2025_06_28.csv",
+      "csv_sha256": "9c1641b6b95a6e6c2223c34eb101ed2e83bb1da824e18c7a21791c59b1593e86",
+      "source_rows": [
+        7146,
+        7147,
+        7148
+      ],
+      "target_column": "Occurrence label",
+      "order": "verified master frame start; retain hidden events, compounds and full literal labels",
+      "frame_rate_reference": "https://www.bu.edu/asllrp/rpt24/asllrpr24.pdf",
+      "hand_scope_reference": "https://dai.cs.rutgers.edu/asllvd/signbank/Additional-information-6-29-25.pdf",
+      "excluded_nondominant_only_events": "Publisher CSV omits these; never invent missing labels",
+      "English_translation_used_as_gloss": false
+    },
+    "license_status": "PRIVATE_NONCOMMERCIAL_RESEARCH_ONLY_NO_REDISTRIBUTION",
+    "license_reference": "https://www.bu.edu/asllrp/dai-terms.html",
+    "timing_status": "EXACT_INCLUSIVE_MASTER_FRAME_SPAN_AND_29.97FPS_MEDIA_COUNT_JOIN; NO_OFFSET_SCALING; VISUAL_ALIGNMENT_NOT_INDEPENDENTLY_AUDITED",
+    "signer_independent": false,
+    "video_path": "D:\\apphearv3claude\\AppHear-claude-s2-r3-eval-suite\\AppHear-claude-s2-r3-eval-suite\\experiments\\continuous_asl\\20261020_continuous_expand06\\data\\raw\\asllrp2025\\utterances\\771138.mp4",
+    "raw_sha256": "c097cc6e5d82e31bfdd076003a5384d7b8478877bb913479068adeb8062a18c3",
+    "bytes": 439083,
+    "media_provenance": {
+      "official_archive_url": "https://dai.cs.rutgers.edu/asllvd/signbank/asllrp_videos/batch_utterance_video_v3_1.zip",
+      "archive_sha256": "e021e4814703ecf3fd3342f32c7a2112b0040921d10f8c4b625caa8c9f2a4b32",
+      "member": "771138.mp4",
+      "crc32": 3156341498
+    },
+    "media_status": "CRC_VERIFIED_NOT_YET_DECODED",
+    "feature_path": "D:\\apphearv3claude\\AppHear-claude-s2-r3-eval-suite\\AppHear-claude-s2-r3-eval-suite\\experiments\\continuous_asl\\20261020_continuous_expand06\\data\\processed\\asllrp2025\\asllrp3_cbcc64c9e90b2c8d.features.npz",
+    "feature_sha256": "c036974befcb30849a991d66f670827285add838ce1dcc9b1c28b678ab308a9e",
+    "decoded_pixel_sha256": "ebfd4e58f2bba29d0864d0ff8de9e0e3221c78ee57c88aa8bcaeedcc3b2d383e",
+    "observations": 27,
+    "decoded_frames": 79,
+    "native_fps": 29.97002997002997,
+    "dimensions": [
+      1280,
+      720
+    ],
+    "timestamp_sources": [
+      "CONTAINER_POS_MSEC"
+    ],
+    "max_pts_frame_error_ms": 4.547473508864641e-13,
+    "individual_sign_times_ms": [
+      [
+        333.6666666666667,
+        633.9666666666667
+      ],
+      [
+        834.1666666666666,
+        1034.3666666666668
+      ],
+      [
+        1401.4,
+        1701.7
+      ]
+    ],
+    "preprocessing_status": "PASS",
+    "unique_valid": true,
+    "cadence_max_hz": 10,
+    "extraction_ms_sum": 1823.868100065738,
+    "extraction_ms_p50": 64.04749999637716,
+    "extraction_ms_p95": 89.1130800038809,
+    "preprocessing_seconds": 3.5044297999993432,
+    "hand_observed_fraction": [
+      0.25925925925925924,
+      0.2962962962962963
+    ],
+    "body_available_fraction": 1.0,
+    "canonical_role": "eligible_train",
+    "training_pool": "ASLLRP3_LITERAL_DOMINANT_REALIZED_OCCURRENCE",
+    "source_catalog": "official_ASLLRP2025_verified_utterance_archive",
+    "schema_version": "apphear.continuous_asl.candidate01_causal378.v1",
+    "signer_provenance": {
+      "publisher_participant_id": "4",
+      "publisher_participant_name": "Jonathan",
+      "signer_id": "asllrp_dai_participant_4",
+      "collection": "Jonathan_2012-11-27_sc90",
+      "utterance_id": "2",
+      "source_page": "D:\\apphearv3claude\\AppHear-claude-s2-r3-eval-suite\\AppHear-claude-s2-r3-eval-suite\\experiments\\continuous_asl\\20261020T104054Z_expand_eval01\\sources\\utterances_participant4_page4.html",
+      "source_page_sha256": "58528a4827b0cf4488b50e6b80932ae6bbbe44b03d315ee2469c36ca1d8ec3d5",
+      "query_receipt": "D:\\apphearv3claude\\AppHear-claude-s2-r3-eval-suite\\AppHear-claude-s2-r3-eval-suite\\experiments\\continuous_asl\\20261020T104054Z_expand_eval01\\sources\\utterances_participant4_page4.html.receipt.json",
+      "method": "Official public participant-filtered utterance search, exhaustive published pagination."
+    }
+  },
+  {
+    "sample_id": "asllrp3_75dbcb3ded94b0dd",
+    "dataset": "ASLLRP_SIGNSTREAM3_2025",
+    "collection": "Jonathan_2012-11-27_sc90",
+    "utterance_id": "8",
+    "source_group": "2012-11-27_JM1_0090-cam1-for-ss3.mp4",
+    "signer_id": "asllrp_dai_participant_4",
+    "split": "dev",
+    "utterance_filename": "7708714.mp4",
+    "utterance_start_frame_master": 1541,
+    "utterance_end_frame_master": 1643,
+    "glosses": [
+      "MOTHER+",
+      "IX-3p:i",
+      "NICE/CLEAN+",
+      "(K)KITCHEN"
+    ],
+    "events": [
+      {
+        "source_row": 7174,
+        "event_id": "348469",
+        "label": "MOTHER+",
+        "start_frame_master": 1556,
+        "end_frame_master": 1563,
+        "hidden": false
+      },
+      {
+        "source_row": 7175,
+        "event_id": "348470",
+        "label": "IX-3p:i",
+        "start_frame_master": 1569,
+        "end_frame_master": 1569,
+        "hidden": false
+      },
+      {
+        "source_row": 7176,
+        "event_id": "348471",
+        "label": "NICE/CLEAN+",
+        "start_frame_master": 1574,
+        "end_frame_master": 1590,
+        "hidden": false
+      },
+      {
+        "source_row": 7177,
+        "event_id": "348472",
+        "label": "(K)KITCHEN",
+        "start_frame_master": 1598,
+        "end_frame_master": 1609,
+        "hidden": false
+      }
+    ],
+    "annotation_type": "AUTHENTIC_PUBLISHED_DOMINANT_HAND_OCCURRENCE_EVENTS",
+    "annotation_provenance": {
+      "csv_path": "D:\\apphearv3claude\\AppHear-claude-s2-r3-eval-suite\\AppHear-claude-s2-r3-eval-suite\\experiments\\continuous_asl\\20261020_continuous_expand06\\data\\raw\\asllrp2025\\asllrp_sentence_signs_2025_06_28.csv",
+      "csv_sha256": "9c1641b6b95a6e6c2223c34eb101ed2e83bb1da824e18c7a21791c59b1593e86",
+      "source_rows": [
+        7174,
+        7175,
+        7176,
+        7177
+      ],
+      "target_column": "Occurrence label",
+      "order": "verified master frame start; retain hidden events, compounds and full literal labels",
+      "frame_rate_reference": "https://www.bu.edu/asllrp/rpt24/asllrpr24.pdf",
+      "hand_scope_reference": "https://dai.cs.rutgers.edu/asllvd/signbank/Additional-information-6-29-25.pdf",
+      "excluded_nondominant_only_events": "Publisher CSV omits these; never invent missing labels",
+      "English_translation_used_as_gloss": false
+    },
+    "license_status": "PRIVATE_NONCOMMERCIAL_RESEARCH_ONLY_NO_REDISTRIBUTION",
+    "license_reference": "https://www.bu.edu/asllrp/dai-terms.html",
+    "timing_status": "EXACT_INCLUSIVE_MASTER_FRAME_SPAN_AND_29.97FPS_MEDIA_COUNT_JOIN; NO_OFFSET_SCALING; VISUAL_ALIGNMENT_NOT_INDEPENDENTLY_AUDITED",
+    "signer_independent": false,
+    "video_path": "D:\\apphearv3claude\\AppHear-claude-s2-r3-eval-suite\\AppHear-claude-s2-r3-eval-suite\\experiments\\continuous_asl\\20261020_continuous_expand06\\data\\raw\\asllrp2025\\utterances\\7708714.mp4",
+    "raw_sha256": "6dd61070cdbc0266c3b97b48d8e0dc8f32fbe7fa6cccd4271f86b9e4159eb0b0",
+    "bytes": 507106,
+    "media_provenance": {
+      "official_archive_url": "https://dai.cs.rutgers.edu/asllvd/signbank/asllrp_videos/batch_utterance_video_v3_1.zip",
+      "archive_sha256": "e021e4814703ecf3fd3342f32c7a2112b0040921d10f8c4b625caa8c9f2a4b32",
+      "member": "7708714.mp4",
+      "crc32": 1844042504
+    },
+    "media_status": "CRC_VERIFIED_NOT_YET_DECODED",
+    "feature_path": "D:\\apphearv3claude\\AppHear-claude-s2-r3-eval-suite\\AppHear-claude-s2-r3-eval-suite\\experiments\\continuous_asl\\20261020_continuous_expand06\\data\\processed\\asllrp2025\\asllrp3_75dbcb3ded94b0dd.features.npz",
+    "feature_sha256": "d45a72cb02483a1f203f563492b3c45c17978c7f8b51084b6f56f333badfc76c",
+    "decoded_pixel_sha256": "f628eb552175e36ebd0269d29a3b06ae3dddf89149b548061484a6e3dad90b7b",
+    "observations": 35,
+    "decoded_frames": 103,
+    "native_fps": 29.97002997002997,
+    "dimensions": [
+      1280,
+      720
+    ],
+    "timestamp_sources": [
+      "CONTAINER_POS_MSEC"
+    ],
+    "max_pts_frame_error_ms": 4.547473508864641e-13,
+    "individual_sign_times_ms": [
+      [
+        500.5,
+        767.4333333333334
+      ],
+      [
+        934.2666666666667,
+        967.6333333333333
+      ],
+      [
+        1101.1,
+        1668.3333333333333
+      ],
+      [
+        1901.9,
+        2302.3
+      ]
+    ],
+    "preprocessing_status": "PASS",
+    "unique_valid": true,
+    "cadence_max_hz": 10,
+    "extraction_ms_sum": 2265.579799946863,
+    "extraction_ms_p50": 64.22420000308193,
+    "extraction_ms_p95": 73.88515000056941,
+    "preprocessing_seconds": 4.35823879999225,
+    "hand_observed_fraction": [
+      0.2,
+      0.4857142857142857
+    ],
+    "body_available_fraction": 1.0,
+    "canonical_role": "eligible_train",
+    "training_pool": "ASLLRP3_LITERAL_DOMINANT_REALIZED_OCCURRENCE",
+    "source_catalog": "official_ASLLRP2025_verified_utterance_archive",
+    "schema_version": "apphear.continuous_asl.candidate01_causal378.v1",
+    "signer_provenance": {
+      "publisher_participant_id": "4",
+      "publisher_participant_name": "Jonathan",
+      "signer_id": "asllrp_dai_participant_4",
+      "collection": "Jonathan_2012-11-27_sc90",
+      "utterance_id": "8",
+      "source_page": "D:\\apphearv3claude\\AppHear-claude-s2-r3-eval-suite\\AppHear-claude-s2-r3-eval-suite\\experiments\\continuous_asl\\20261020T104054Z_expand_eval01\\sources\\utterances_participant4_page16.html",
+      "source_page_sha256": "c367dbc623c5e78c7f8f01f06e247ee913878525c4b8d299560f31c3a9ccc4d4",
+      "query_receipt": "D:\\apphearv3claude\\AppHear-claude-s2-r3-eval-suite\\AppHear-claude-s2-r3-eval-suite\\experiments\\continuous_asl\\20261020T104054Z_expand_eval01\\sources\\utterances_participant4_page16.html.receipt.json",
+      "method": "Official public participant-filtered utterance search, exhaustive published pagination."
+    }
+  },
+  {
+    "sample_id": "asllrp3_7d61e83d019b986d",
+    "dataset": "ASLLRP_SIGNSTREAM3_2025",
+    "collection": "Jonathan_2012-11-27_sc90",
+    "utterance_id": "22",
+    "source_group": "2012-11-27_JM1_0090-cam1-for-ss3.mp4",
+    "signer_id": "asllrp_dai_participant_4",
+    "split": "dev",
+    "utterance_filename": "7700527.mp4",
+    "utterance_start_frame_master": 4624,
+    "utterance_end_frame_master": 4742,
+    "glosses": [
+      "MOTHER",
+      "IX-loc:i",
+      "NICE/CLEAN+",
+      "(K)KITCHEN"
+    ],
+    "events": [
+      {
+        "source_row": 7243,
+        "event_id": "348544",
+        "label": "MOTHER",
+        "start_frame_master": 4640,
+        "end_frame_master": 4643,
+        "hidden": false
+      },
+      {
+        "source_row": 7244,
+        "event_id": "348545",
+        "label": "IX-loc:i",
+        "start_frame_master": 4650,
+        "end_frame_master": 4652,
+        "hidden": false
+      },
+      {
+        "source_row": 7245,
+        "event_id": "348546",
+        "label": "NICE/CLEAN+",
+        "start_frame_master": 4657,
+        "end_frame_master": 4678,
+        "hidden": false
+      },
+      {
+        "source_row": 7246,
+        "event_id": "348547",
+        "label": "(K)KITCHEN",
+        "start_frame_master": 4685,
+        "end_frame_master": 4697,
+        "hidden": false
+      }
+    ],
+    "annotation_type": "AUTHENTIC_PUBLISHED_DOMINANT_HAND_OCCURRENCE_EVENTS",
+    "annotation_provenance": {
+      "csv_path": "D:\\apphearv3claude\\AppHear-claude-s2-r3-eval-suite\\AppHear-claude-s2-r3-eval-suite\\experiments\\continuous_asl\\20261020_continuous_expand06\\data\\raw\\asllrp2025\\asllrp_sentence_signs_2025_06_28.csv",
+      "csv_sha256": "9c1641b6b95a6e6c2223c34eb101ed2e83bb1da824e18c7a21791c59b1593e86",
+      "source_rows": [
+        7243,
+        7244,
+        7245,
+        7246
+      ],
+      "target_column": "Occurrence label",
+      "order": "verified master frame start; retain hidden events, compounds and full literal labels",
+      "frame_rate_reference": "https://www.bu.edu/asllrp/rpt24/asllrpr24.pdf",
+      "hand_scope_reference": "https://dai.cs.rutgers.edu/asllvd/signbank/Additional-information-6-29-25.pdf",
+      "excluded_nondominant_only_events": "Publisher CSV omits these; never invent missing labels",
+      "English_translation_used_as_gloss": false
+    },
+    "license_status": "PRIVATE_NONCOMMERCIAL_RESEARCH_ONLY_NO_REDISTRIBUTION",
+    "license_reference": "https://www.bu.edu/asllrp/dai-terms.html",
+    "timing_status": "EXACT_INCLUSIVE_MASTER_FRAME_SPAN_AND_29.97FPS_MEDIA_COUNT_JOIN; NO_OFFSET_SCALING; VISUAL_ALIGNMENT_NOT_INDEPENDENTLY_AUDITED",
+    "signer_independent": false,
+    "video_path": "D:\\apphearv3claude\\AppHear-claude-s2-r3-eval-suite\\AppHear-claude-s2-r3-eval-suite\\experiments\\continuous_asl\\20261020_continuous_expand06\\data\\raw\\asllrp2025\\utterances\\7700527.mp4",
+    "raw_sha256": "2ec234ab76b1cb572a7b37367e1d1ee51bd80c9e484b7f1cb0eeda7fc5051f1e",
+    "bytes": 579066,
+    "media_provenance": {
+      "official_archive_url": "https://dai.cs.rutgers.edu/asllvd/signbank/asllrp_videos/batch_utterance_video_v3_1.zip",
+      "archive_sha256": "e021e4814703ecf3fd3342f32c7a2112b0040921d10f8c4b625caa8c9f2a4b32",
+      "member": "7700527.mp4",
+      "crc32": 3834252129
+    },
+    "media_status": "CRC_VERIFIED_NOT_YET_DECODED",
+    "feature_path": "D:\\apphearv3claude\\AppHear-claude-s2-r3-eval-suite\\AppHear-claude-s2-r3-eval-suite\\experiments\\continuous_asl\\20261020_continuous_expand06\\data\\processed\\asllrp2025\\asllrp3_7d61e83d019b986d.features.npz",
+    "feature_sha256": "80f7a31b707bce023e811f9916ce565c0e16a01a13dd7f7ffe2e276f8ab2409c",
+    "decoded_pixel_sha256": "fafe5b17b9714f2e3a50f7e595c0dc94560c3d1aa8e4b5228c1260dba1f4cd42",
+    "observations": 40,
+    "decoded_frames": 119,
+    "native_fps": 29.97002997002997,
+    "dimensions": [
+      1280,
+      720
+    ],
+    "timestamp_sources": [
+      "CONTAINER_POS_MSEC"
+    ],
+    "max_pts_frame_error_ms": 4.547473508864641e-13,
+    "individual_sign_times_ms": [
+      [
+        533.8666666666667,
+        667.3333333333334
+      ],
+      [
+        867.5333333333333,
+        967.6333333333333
+      ],
+      [
+        1101.1,
+        1835.1666666666667
+      ],
+      [
+        2035.3666666666668,
+        2469.133333333333
+      ]
+    ],
+    "preprocessing_status": "PASS",
+    "unique_valid": true,
+    "cadence_max_hz": 10,
+    "extraction_ms_sum": 2529.6725000371225,
+    "extraction_ms_p50": 62.7641000028234,
+    "extraction_ms_p95": 70.96551499707857,
+    "preprocessing_seconds": 5.007070099993143,
+    "hand_observed_fraction": [
+      0.075,
+      0.2
+    ],
+    "body_available_fraction": 1.0,
+    "canonical_role": "eligible_train",
+    "training_pool": "ASLLRP3_LITERAL_DOMINANT_REALIZED_OCCURRENCE",
+    "source_catalog": "official_ASLLRP2025_verified_utterance_archive",
+    "schema_version": "apphear.continuous_asl.candidate01_causal378.v1",
+    "signer_provenance": {
+      "publisher_participant_id": "4",
+      "publisher_participant_name": "Jonathan",
+      "signer_id": "asllrp_dai_participant_4",
+      "collection": "Jonathan_2012-11-27_sc90",
+      "utterance_id": "22",
+      "source_page": "D:\\apphearv3claude\\AppHear-claude-s2-r3-eval-suite\\AppHear-claude-s2-r3-eval-suite\\experiments\\continuous_asl\\20261020T104054Z_expand_eval01\\sources\\utterances_participant4_page5.html",
+      "source_page_sha256": "c3e697bf8be451cbeba6788e63ca8264aae986a1027037a1f24a12c36ca08ed1",
+      "query_receipt": "D:\\apphearv3claude\\AppHear-claude-s2-r3-eval-suite\\AppHear-claude-s2-r3-eval-suite\\experiments\\continuous_asl\\20261020T104054Z_expand_eval01\\sources\\utterances_participant4_page5.html.receipt.json",
+      "method": "Official public participant-filtered utterance search, exhaustive published pagination."
+    }
+  },
+  {
+    "sample_id": "asllrp3_98eb3f6674714ad0",
+    "dataset": "ASLLRP_SIGNSTREAM3_2025",
+    "collection": "Jonathan_2012-11-27_sc90",
+    "utterance_id": "27",
+    "source_group": "2012-11-27_JM1_0090-cam1-for-ss3.mp4",
+    "signer_id": "asllrp_dai_participant_4",
+    "split": "dev",
+    "utterance_filename": "7698632.mp4",
+    "utterance_start_frame_master": 5878,
+    "utterance_end_frame_master": 5965,
+    "glosses": [
+      "FRIEND",
+      "IX-3p-pl-2:i/j",
+      "FINISH",
+      "GO-OUT"
+    ],
+    "events": [
+      {
+        "source_row": 7276,
+        "event_id": "348577",
+        "label": "FRIEND",
+        "start_frame_master": 5893,
+        "end_frame_master": 5902,
+        "hidden": false
+      },
+      {
+        "source_row": 7277,
+        "event_id": "348578",
+        "label": "IX-3p-pl-2:i/j",
+        "start_frame_master": 5906,
+        "end_frame_master": 5910,
+        "hidden": false
+      },
+      {
+        "source_row": 7278,
+        "event_id": "348579",
+        "label": "FINISH",
+        "start_frame_master": 5915,
+        "end_frame_master": 5920,
+        "hidden": false
+      },
+      {
+        "source_row": 7279,
+        "event_id": "348580",
+        "label": "GO-OUT",
+        "start_frame_master": 5929,
+        "end_frame_master": 5938,
+        "hidden": false
+      }
+    ],
+    "annotation_type": "AUTHENTIC_PUBLISHED_DOMINANT_HAND_OCCURRENCE_EVENTS",
+    "annotation_provenance": {
+      "csv_path": "D:\\apphearv3claude\\AppHear-claude-s2-r3-eval-suite\\AppHear-claude-s2-r3-eval-suite\\experiments\\continuous_asl\\20261020_continuous_expand06\\data\\raw\\asllrp2025\\asllrp_sentence_signs_2025_06_28.csv",
+      "csv_sha256": "9c1641b6b95a6e6c2223c34eb101ed2e83bb1da824e18c7a21791c59b1593e86",
+      "source_rows": [
+        7276,
+        7277,
+        7278,
+        7279
+      ],
+      "target_column": "Occurrence label",
+      "order": "verified master frame start; retain hidden events, compounds and full literal labels",
+      "frame_rate_reference": "https://www.bu.edu/asllrp/rpt24/asllrpr24.pdf",
+      "hand_scope_reference": "https://dai.cs.rutgers.edu/asllvd/signbank/Additional-information-6-29-25.pdf",
+      "excluded_nondominant_only_events": "Publisher CSV omits these; never invent missing labels",
+      "English_translation_used_as_gloss": false
+    },
+    "license_status": "PRIVATE_NONCOMMERCIAL_RESEARCH_ONLY_NO_REDISTRIBUTION",
+    "license_reference": "https://www.bu.edu/asllrp/dai-terms.html",
+    "timing_status": "EXACT_INCLUSIVE_MASTER_FRAME_SPAN_AND_29.97FPS_MEDIA_COUNT_JOIN; NO_OFFSET_SCALING; VISUAL_ALIGNMENT_NOT_INDEPENDENTLY_AUDITED",
+    "signer_independent": false,
+    "video_path": "D:\\apphearv3claude\\AppHear-claude-s2-r3-eval-suite\\AppHear-claude-s2-r3-eval-suite\\experiments\\continuous_asl\\20261020_continuous_expand06\\data\\raw\\asllrp2025\\utterances\\7698632.mp4",
+    "raw_sha256": "223dd867785ae745bff2ab3f85786806d6931eec4206f92068aa2ebcca01d221",
+    "bytes": 462486,
+    "media_provenance": {
+      "official_archive_url": "https://dai.cs.rutgers.edu/asllvd/signbank/asllrp_videos/batch_utterance_video_v3_1.zip",
+      "archive_sha256": "e021e4814703ecf3fd3342f32c7a2112b0040921d10f8c4b625caa8c9f2a4b32",
+      "member": "7698632.mp4",
+      "crc32": 4189654039
+    },
+    "media_status": "CRC_VERIFIED_NOT_YET_DECODED",
+    "feature_path": "D:\\apphearv3claude\\AppHear-claude-s2-r3-eval-suite\\AppHear-claude-s2-r3-eval-suite\\experiments\\continuous_asl\\20261020_continuous_expand06\\data\\processed\\asllrp2025\\asllrp3_98eb3f6674714ad0.features.npz",
+    "feature_sha256": "722bf29234c0a98d4ddfb466487881595a4e54845d04e9647e9efeaabbc88928",
+    "decoded_pixel_sha256": "992d5155fbced8eaa36a03ca41ceada8287a95181f3e0a4d0cb753aba1d03e54",
+    "observations": 30,
+    "decoded_frames": 88,
+    "native_fps": 29.97002997002997,
+    "dimensions": [
+      1280,
+      720
+    ],
+    "timestamp_sources": [
+      "CONTAINER_POS_MSEC"
+    ],
+    "max_pts_frame_error_ms": 4.547473508864641e-13,
+    "individual_sign_times_ms": [
+      [
+        500.5,
+        834.1666666666666
+      ],
+      [
+        934.2666666666667,
+        1101.1
+      ],
+      [
+        1234.5666666666666,
+        1434.7666666666667
+      ],
+      [
+        1701.7,
+        2035.3666666666668
+      ]
+    ],
+    "preprocessing_status": "PASS",
+    "unique_valid": true,
+    "cadence_max_hz": 10,
+    "extraction_ms_sum": 2016.5897000406403,
+    "extraction_ms_p50": 65.5722999945283,
+    "extraction_ms_p95": 74.32147000363328,
+    "preprocessing_seconds": 3.7807561000226997,
+    "hand_observed_fraction": [
+      0.16666666666666666,
+      0.26666666666666666
+    ],
+    "body_available_fraction": 1.0,
+    "canonical_role": "eligible_train",
+    "training_pool": "ASLLRP3_LITERAL_DOMINANT_REALIZED_OCCURRENCE",
+    "source_catalog": "official_ASLLRP2025_verified_utterance_archive",
+    "schema_version": "apphear.continuous_asl.candidate01_causal378.v1",
+    "signer_provenance": {
+      "publisher_participant_id": "4",
+      "publisher_participant_name": "Jonathan",
+      "signer_id": "asllrp_dai_participant_4",
+      "collection": "Jonathan_2012-11-27_sc90",
+      "utterance_id": "27",
+      "source_page": "D:\\apphearv3claude\\AppHear-claude-s2-r3-eval-suite\\AppHear-claude-s2-r3-eval-suite\\experiments\\continuous_asl\\20261020T104054Z_expand_eval01\\sources\\utterances_participant4_page6.html",
+      "source_page_sha256": "63500d96896881bd27b1b6f6a477604401ed47faf7aeec505d95aa601aaf943c",
+      "query_receipt": "D:\\apphearv3claude\\AppHear-claude-s2-r3-eval-suite\\AppHear-claude-s2-r3-eval-suite\\experiments\\continuous_asl\\20261020T104054Z_expand_eval01\\sources\\utterances_participant4_page6.html.receipt.json",
+      "method": "Official public participant-filtered utterance search, exhaustive published pagination."
+    }
+  },
+  {
+    "sample_id": "asllrp3_143494201020e77d",
+    "dataset": "ASLLRP_SIGNSTREAM3_2025",
+    "collection": "Jonathan_2012-11-27_sc90",
+    "utterance_id": "32",
+    "source_group": "2012-11-27_JM1_0090-cam1-for-ss3.mp4",
+    "signer_id": "asllrp_dai_participant_4",
+    "split": "dev",
+    "utterance_filename": "7691537.mp4",
+    "utterance_start_frame_master": 7041,
+    "utterance_end_frame_master": 7147,
+    "glosses": [
+      "MOTHER",
+      "IX-loc:i",
+      "NICE/CLEAN+",
+      "(K)KITCHEN",
+      "QMwg"
+    ],
+    "events": [
+      {
+        "source_row": 7300,
+        "event_id": "348605",
+        "label": "MOTHER",
+        "start_frame_master": 7057,
+        "end_frame_master": 7059,
+        "hidden": false
+      },
+      {
+        "source_row": 7301,
+        "event_id": "348606",
+        "label": "IX-loc:i",
+        "start_frame_master": 7066,
+        "end_frame_master": 7067,
+        "hidden": false
+      },
+      {
+        "source_row": 7302,
+        "event_id": "348607",
+        "label": "NICE/CLEAN+",
+        "start_frame_master": 7074,
+        "end_frame_master": 7100,
+        "hidden": false
+      },
+      {
+        "source_row": 7303,
+        "event_id": "348608",
+        "label": "(K)KITCHEN",
+        "start_frame_master": 7106,
+        "end_frame_master": 7114,
+        "hidden": false
+      },
+      {
+        "source_row": 7304,
+        "event_id": "348609",
+        "label": "QMwg",
+        "start_frame_master": 7120,
+        "end_frame_master": 7130,
+        "hidden": false
+      }
+    ],
+    "annotation_type": "AUTHENTIC_PUBLISHED_DOMINANT_HAND_OCCURRENCE_EVENTS",
+    "annotation_provenance": {
+      "csv_path": "D:\\apphearv3claude\\AppHear-claude-s2-r3-eval-suite\\AppHear-claude-s2-r3-eval-suite\\experiments\\continuous_asl\\20261020_continuous_expand06\\data\\raw\\asllrp2025\\asllrp_sentence_signs_2025_06_28.csv",
+      "csv_sha256": "9c1641b6b95a6e6c2223c34eb101ed2e83bb1da824e18c7a21791c59b1593e86",
+      "source_rows": [
+        7300,
+        7301,
+        7302,
+        7303,
+        7304
+      ],
+      "target_column": "Occurrence label",
+      "order": "verified master frame start; retain hidden events, compounds and full literal labels",
+      "frame_rate_reference": "https://www.bu.edu/asllrp/rpt24/asllrpr24.pdf",
+      "hand_scope_reference": "https://dai.cs.rutgers.edu/asllvd/signbank/Additional-information-6-29-25.pdf",
+      "excluded_nondominant_only_events": "Publisher CSV omits these; never invent missing labels",
+      "English_translation_used_as_gloss": false
+    },
+    "license_status": "PRIVATE_NONCOMMERCIAL_RESEARCH_ONLY_NO_REDISTRIBUTION",
+    "license_reference": "https://www.bu.edu/asllrp/dai-terms.html",
+    "timing_status": "EXACT_INCLUSIVE_MASTER_FRAME_SPAN_AND_29.97FPS_MEDIA_COUNT_JOIN; NO_OFFSET_SCALING; VISUAL_ALIGNMENT_NOT_INDEPENDENTLY_AUDITED",
+    "signer_independent": false,
+    "video_path": "D:\\apphearv3claude\\AppHear-claude-s2-r3-eval-suite\\AppHear-claude-s2-r3-eval-suite\\experiments\\continuous_asl\\20261020_continuous_expand06\\data\\raw\\asllrp2025\\utterances\\7691537.mp4",
+    "raw_sha256": "8d9edfe6d33d93509c586b74de4b8febf3158e73a10bcf13228e06467de3d56d",
+    "bytes": 526975,
+    "media_provenance": {
+      "official_archive_url": "https://dai.cs.rutgers.edu/asllvd/signbank/asllrp_videos/batch_utterance_video_v3_1.zip",
+      "archive_sha256": "e021e4814703ecf3fd3342f32c7a2112b0040921d10f8c4b625caa8c9f2a4b32",
+      "member": "7691537.mp4",
+      "crc32": 1701436924
+    },
+    "media_status": "CRC_VERIFIED_NOT_YET_DECODED",
+    "feature_path": "D:\\apphearv3claude\\AppHear-claude-s2-r3-eval-suite\\AppHear-claude-s2-r3-eval-suite\\experiments\\continuous_asl\\20261020_continuous_expand06\\data\\processed\\asllrp2025\\asllrp3_143494201020e77d.features.npz",
+    "feature_sha256": "6da376b41d89d573fd757c24fbd312cad15324fc73cb697b195e5631db4ac50f",
+    "decoded_pixel_sha256": "482ea9198bc1e13649524b2d98144a027fbe7bbd83cf337474ac50d562ed838e",
+    "observations": 36,
+    "decoded_frames": 107,
+    "native_fps": 29.97002997002997,
+    "dimensions": [
+      1280,
+      720
+    ],
+    "timestamp_sources": [
+      "CONTAINER_POS_MSEC"
+    ],
+    "max_pts_frame_error_ms": 4.547473508864641e-13,
+    "individual_sign_times_ms": [
+      [
+        533.8666666666667,
+        633.9666666666667
+      ],
+      [
+        834.1666666666666,
+        900.9
+      ],
+      [
+        1101.1,
+        2002.0
+      ],
+      [
+        2168.8333333333335,
+        2469.133333333333
+      ],
+      [
+        2635.9666666666667,
+        3003.0
+      ]
+    ],
+    "preprocessing_status": "PASS",
+    "unique_valid": true,
+    "cadence_max_hz": 10,
+    "extraction_ms_sum": 2385.771100030979,
+    "extraction_ms_p50": 64.51285000366624,
+    "extraction_ms_p95": 75.72220001020469,
+    "preprocessing_seconds": 4.55234890000429,
+    "hand_observed_fraction": [
+      0.2222222222222222,
+      0.2777777777777778
+    ],
+    "body_available_fraction": 1.0,
+    "canonical_role": "eligible_train",
+    "training_pool": "ASLLRP3_LITERAL_DOMINANT_REALIZED_OCCURRENCE",
+    "source_catalog": "official_ASLLRP2025_verified_utterance_archive",
+    "schema_version": "apphear.continuous_asl.candidate01_causal378.v1",
+    "signer_provenance": {
+      "publisher_participant_id": "4",
+      "publisher_participant_name": "Jonathan",
+      "signer_id": "asllrp_dai_participant_4",
+      "collection": "Jonathan_2012-11-27_sc90",
+      "utterance_id": "32",
+      "source_page": "D:\\apphearv3claude\\AppHear-claude-s2-r3-eval-suite\\AppHear-claude-s2-r3-eval-suite\\experiments\\continuous_asl\\20261020T104054Z_expand_eval01\\sources\\utterances_participant4_page8.html",
+      "source_page_sha256": "2f43324eacea4f6186fe6b3cff913170f44fab73eea72335dd03889eb9562dee",
+      "query_receipt": "D:\\apphearv3claude\\AppHear-claude-s2-r3-eval-suite\\AppHear-claude-s2-r3-eval-suite\\experiments\\continuous_asl\\20261020T104054Z_expand_eval01\\sources\\utterances_participant4_page8.html.receipt.json",
+      "method": "Official public participant-filtered utterance search, exhaustive published pagination."
+    }
+  },
+  {
+    "sample_id": "asllrp3_ee49708798064115",
+    "dataset": "ASLLRP_SIGNSTREAM3_2025",
+    "collection": "Jonathan_2012-11-27_sc96",
+    "utterance_id": "42",
+    "source_group": "2012-11-27_JM7_0096-cam1-for-ss3.mp4",
+    "signer_id": "asllrp_dai_participant_4",
+    "split": "dev",
+    "utterance_filename": "31657848.mp4",
+    "utterance_start_frame_master": 9087,
+    "utterance_end_frame_master": 9175,
+    "glosses": [
+      "MOTHER",
+      "SICK",
+      "QMwg"
+    ],
+    "events": [
+      {
+        "source_row": 16694,
+        "event_id": "388770",
+        "label": "MOTHER",
+        "start_frame_master": 9098,
+        "end_frame_master": 9100,
+        "hidden": false
+      },
+      {
+        "source_row": 16695,
+        "event_id": "388771",
+        "label": "SICK",
+        "start_frame_master": 9104,
+        "end_frame_master": 9119,
+        "hidden": false
+      },
+      {
+        "source_row": 16696,
+        "event_id": "388772",
+        "label": "QMwg",
+        "start_frame_master": 9149,
+        "end_frame_master": 9151,
+        "hidden": false
+      }
+    ],
+    "annotation_type": "AUTHENTIC_PUBLISHED_DOMINANT_HAND_OCCURRENCE_EVENTS",
+    "annotation_provenance": {
+      "csv_path": "D:\\apphearv3claude\\AppHear-claude-s2-r3-eval-suite\\AppHear-claude-s2-r3-eval-suite\\experiments\\continuous_asl\\20261020_continuous_expand06\\data\\raw\\asllrp2025\\asllrp_sentence_signs_2025_06_28.csv",
+      "csv_sha256": "9c1641b6b95a6e6c2223c34eb101ed2e83bb1da824e18c7a21791c59b1593e86",
+      "source_rows": [
+        16694,
+        16695,
+        16696
+      ],
+      "target_column": "Occurrence label",
+      "order": "verified master frame start; retain hidden events, compounds and full literal labels",
+      "frame_rate_reference": "https://www.bu.edu/asllrp/rpt24/asllrpr24.pdf",
+      "hand_scope_reference": "https://dai.cs.rutgers.edu/asllvd/signbank/Additional-information-6-29-25.pdf",
+      "excluded_nondominant_only_events": "Publisher CSV omits these; never invent missing labels",
+      "English_translation_used_as_gloss": false
+    },
+    "license_status": "PRIVATE_NONCOMMERCIAL_RESEARCH_ONLY_NO_REDISTRIBUTION",
+    "license_reference": "https://www.bu.edu/asllrp/dai-terms.html",
+    "timing_status": "EXACT_INCLUSIVE_MASTER_FRAME_SPAN_AND_29.97FPS_MEDIA_COUNT_JOIN; NO_OFFSET_SCALING; VISUAL_ALIGNMENT_NOT_INDEPENDENTLY_AUDITED",
+    "signer_independent": false,
+    "video_path": "D:\\apphearv3claude\\AppHear-claude-s2-r3-eval-suite\\AppHear-claude-s2-r3-eval-suite\\experiments\\continuous_asl\\20261020_continuous_expand06\\data\\raw\\asllrp2025\\utterances\\31657848.mp4",
+    "raw_sha256": "3a9cd470b8ff8ebcc6dece076d09949dd949af49145f6109763ede9bce316350",
+    "bytes": 481429,
+    "media_provenance": {
+      "official_archive_url": "https://dai.cs.rutgers.edu/asllvd/signbank/asllrp_videos/batch_utterance_video_v3_1.zip",
+      "archive_sha256": "e021e4814703ecf3fd3342f32c7a2112b0040921d10f8c4b625caa8c9f2a4b32",
+      "member": "31657848.mp4",
+      "crc32": 3183112902
+    },
+    "media_status": "CRC_VERIFIED_NOT_YET_DECODED",
+    "feature_path": "D:\\apphearv3claude\\AppHear-claude-s2-r3-eval-suite\\AppHear-claude-s2-r3-eval-suite\\experiments\\continuous_asl\\20261020_continuous_expand06\\data\\processed\\asllrp2025\\asllrp3_ee49708798064115.features.npz",
+    "feature_sha256": "2e30c680db4d6d0bd4d227be11485fc39ae5db70758cf5fb3b9f51a750e6ddca",
+    "decoded_pixel_sha256": "875f0a27eba8830fc6ab1435a6ed8095e510f79fce684f5879ee774557ea3cbe",
+    "observations": 30,
+    "decoded_frames": 89,
+    "native_fps": 29.97002997002997,
+    "dimensions": [
+      1280,
+      720
+    ],
+    "timestamp_sources": [
+      "CONTAINER_POS_MSEC"
+    ],
+    "max_pts_frame_error_ms": 4.547473508864641e-13,
+    "individual_sign_times_ms": [
+      [
+        367.03333333333336,
+        467.1333333333333
+      ],
+      [
+        567.2333333333333,
+        1101.1
+      ],
+      [
+        2068.7333333333336,
+        2168.8333333333335
+      ]
+    ],
+    "preprocessing_status": "PASS",
+    "unique_valid": true,
+    "cadence_max_hz": 10,
+    "extraction_ms_sum": 2036.467000056291,
+    "extraction_ms_p50": 67.63545001740567,
+    "extraction_ms_p95": 78.20127999584656,
+    "preprocessing_seconds": 3.8741276999935508,
+    "hand_observed_fraction": [
+      0.1,
+      0.16666666666666666
+    ],
+    "body_available_fraction": 1.0,
+    "canonical_role": "eligible_train",
+    "training_pool": "ASLLRP3_LITERAL_DOMINANT_REALIZED_OCCURRENCE",
+    "source_catalog": "official_ASLLRP2025_verified_utterance_archive",
+    "schema_version": "apphear.continuous_asl.candidate01_causal378.v1",
+    "signer_provenance": {
+      "publisher_participant_id": "4",
+      "publisher_participant_name": "Jonathan",
+      "signer_id": "asllrp_dai_participant_4",
+      "collection": "Jonathan_2012-11-27_sc96",
+      "utterance_id": "42",
+      "source_page": "D:\\apphearv3claude\\AppHear-claude-s2-r3-eval-suite\\AppHear-claude-s2-r3-eval-suite\\experiments\\continuous_asl\\20261020T104054Z_expand_eval01\\sources\\utterances_participant4_page10.html",
+      "source_page_sha256": "33bcdd28ee3c9fab35f6374aa1486f1d3c2744bd128ceaf48e75a359f369ffb3",
+      "query_receipt": "D:\\apphearv3claude\\AppHear-claude-s2-r3-eval-suite\\AppHear-claude-s2-r3-eval-suite\\experiments\\continuous_asl\\20261020T104054Z_expand_eval01\\sources\\utterances_participant4_page10.html.receipt.json",
+      "method": "Official public participant-filtered utterance search, exhaustive published pagination."
+    }
+  },
+  {
+    "sample_id": "asllrp3_862703344962fcee",
+    "dataset": "ASLLRP_SIGNSTREAM3_2025",
+    "collection": "Jonathan_2012-11-27_sc96",
+    "utterance_id": "55",
+    "source_group": "2012-11-27_JM7_0096-cam1-for-ss3.mp4",
+    "signer_id": "asllrp_dai_participant_4",
+    "split": "dev",
+    "utterance_filename": "31656961.mp4",
+    "utterance_start_frame_master": 11756,
+    "utterance_end_frame_master": 11861,
+    "glosses": [
+      "KNOW",
+      "WHERE",
+      "GO-OUT",
+      "IX-2p"
+    ],
+    "events": [
+      {
+        "source_row": 16772,
+        "event_id": "388852",
+        "label": "KNOW",
+        "start_frame_master": 11776,
+        "end_frame_master": 11779,
+        "hidden": false
+      },
+      {
+        "source_row": 16773,
+        "event_id": "388853",
+        "label": "WHERE",
+        "start_frame_master": 11783,
+        "end_frame_master": 11785,
+        "hidden": false
+      },
+      {
+        "source_row": 16774,
+        "event_id": "388854",
+        "label": "GO-OUT",
+        "start_frame_master": 11789,
+        "end_frame_master": 11793,
+        "hidden": false
+      },
+      {
+        "source_row": 16775,
+        "event_id": "388855",
+        "label": "IX-2p",
+        "start_frame_master": 11802,
+        "end_frame_master": 11811,
+        "hidden": false
+      }
+    ],
+    "annotation_type": "AUTHENTIC_PUBLISHED_DOMINANT_HAND_OCCURRENCE_EVENTS",
+    "annotation_provenance": {
+      "csv_path": "D:\\apphearv3claude\\AppHear-claude-s2-r3-eval-suite\\AppHear-claude-s2-r3-eval-suite\\experiments\\continuous_asl\\20261020_continuous_expand06\\data\\raw\\asllrp2025\\asllrp_sentence_signs_2025_06_28.csv",
+      "csv_sha256": "9c1641b6b95a6e6c2223c34eb101ed2e83bb1da824e18c7a21791c59b1593e86",
+      "source_rows": [
+        16772,
+        16773,
+        16774,
+        16775
+      ],
+      "target_column": "Occurrence label",
+      "order": "verified master frame start; retain hidden events, compounds and full literal labels",
+      "frame_rate_reference": "https://www.bu.edu/asllrp/rpt24/asllrpr24.pdf",
+      "hand_scope_reference": "https://dai.cs.rutgers.edu/asllvd/signbank/Additional-information-6-29-25.pdf",
+      "excluded_nondominant_only_events": "Publisher CSV omits these; never invent missing labels",
+      "English_translation_used_as_gloss": false
+    },
+    "license_status": "PRIVATE_NONCOMMERCIAL_RESEARCH_ONLY_NO_REDISTRIBUTION",
+    "license_reference": "https://www.bu.edu/asllrp/dai-terms.html",
+    "timing_status": "EXACT_INCLUSIVE_MASTER_FRAME_SPAN_AND_29.97FPS_MEDIA_COUNT_JOIN; NO_OFFSET_SCALING; VISUAL_ALIGNMENT_NOT_INDEPENDENTLY_AUDITED",
+    "signer_independent": false,
+    "video_path": "D:\\apphearv3claude\\AppHear-claude-s2-r3-eval-suite\\AppHear-claude-s2-r3-eval-suite\\experiments\\continuous_asl\\20261020_continuous_expand06\\data\\raw\\asllrp2025\\utterances\\31656961.mp4",
+    "raw_sha256": "cf4bdfb5579c91676eda9e3fc575eb4e0b031665c8cf1d2ff4b825d4f69e2c0c",
+    "bytes": 515188,
+    "media_provenance": {
+      "official_archive_url": "https://dai.cs.rutgers.edu/asllvd/signbank/asllrp_videos/batch_utterance_video_v3_1.zip",
+      "archive_sha256": "e021e4814703ecf3fd3342f32c7a2112b0040921d10f8c4b625caa8c9f2a4b32",
+      "member": "31656961.mp4",
+      "crc32": 3583613473
+    },
+    "media_status": "CRC_VERIFIED_NOT_YET_DECODED",
+    "feature_path": "D:\\apphearv3claude\\AppHear-claude-s2-r3-eval-suite\\AppHear-claude-s2-r3-eval-suite\\experiments\\continuous_asl\\20261020_continuous_expand06\\data\\processed\\asllrp2025\\asllrp3_862703344962fcee.features.npz",
+    "feature_sha256": "e78f984c6671cfa300ba7cad9f49c01600ef713e4fefcc69a2cef2e3c62047c9",
+    "decoded_pixel_sha256": "bfe1be6d179ecbf1f76b8e0075c63cd4c460505c786d5494739821cfc13fa1fd",
+    "observations": 36,
+    "decoded_frames": 106,
+    "native_fps": 29.97002997002997,
+    "dimensions": [
+      1280,
+      720
+    ],
+    "timestamp_sources": [
+      "CONTAINER_POS_MSEC"
+    ],
+    "max_pts_frame_error_ms": 4.547473508864641e-13,
+    "individual_sign_times_ms": [
+      [
+        667.3333333333334,
+        800.8000000000001
+      ],
+      [
+        900.9,
+        1001.0
+      ],
+      [
+        1101.1,
+        1267.9333333333334
+      ],
+      [
+        1534.8666666666668,
+        1868.5333333333333
+      ]
+    ],
+    "preprocessing_status": "PASS",
+    "unique_valid": true,
+    "cadence_max_hz": 10,
+    "extraction_ms_sum": 2525.3106000600383,
+    "extraction_ms_p50": 69.17070000781678,
+    "extraction_ms_p95": 80.87714999419404,
+    "preprocessing_seconds": 4.663457299990114,
+    "hand_observed_fraction": [
+      0.0,
+      0.3611111111111111
+    ],
+    "body_available_fraction": 0.9722222222222222,
+    "canonical_role": "eligible_train",
+    "training_pool": "ASLLRP3_LITERAL_DOMINANT_REALIZED_OCCURRENCE",
+    "source_catalog": "official_ASLLRP2025_verified_utterance_archive",
+    "schema_version": "apphear.continuous_asl.candidate01_causal378.v1",
+    "signer_provenance": {
+      "publisher_participant_id": "4",
+      "publisher_participant_name": "Jonathan",
+      "signer_id": "asllrp_dai_participant_4",
+      "collection": "Jonathan_2012-11-27_sc96",
+      "utterance_id": "55",
+      "source_page": "D:\\apphearv3claude\\AppHear-claude-s2-r3-eval-suite\\AppHear-claude-s2-r3-eval-suite\\experiments\\continuous_asl\\20261020T104054Z_expand_eval01\\sources\\utterances_participant4_page13.html",
+      "source_page_sha256": "7458f48bff01b2d0eec30e3397ba52a72fd3b5fc5b68539d3f807042196a6e92",
+      "query_receipt": "D:\\apphearv3claude\\AppHear-claude-s2-r3-eval-suite\\AppHear-claude-s2-r3-eval-suite\\experiments\\continuous_asl\\20261020T104054Z_expand_eval01\\sources\\utterances_participant4_page13.html.receipt.json",
+      "method": "Official public participant-filtered utterance search, exhaustive published pagination."
+    }
+  }
+]

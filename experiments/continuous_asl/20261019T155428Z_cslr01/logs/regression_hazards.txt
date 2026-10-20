@@ -1,0 +1,29 @@
+test_a_count_eviction_and_missing_commit (__main__.Regressions.test_a_count_eviction_and_missing_commit) ... ok
+test_a_exact_age_boundary (__main__.Regressions.test_a_exact_age_boundary) ... ok
+test_a_guard_never_commits_and_validates (__main__.Regressions.test_a_guard_never_commits_and_validates) ... ok
+test_a_original_long_active_then_guard (__main__.Regressions.test_a_original_long_active_then_guard) ... ok
+test_e_new_guard (__main__.Regressions.test_e_new_guard) ... ERROR
+test_e_original_overwrite_on_disposable_fixture (__main__.Regressions.test_e_original_overwrite_on_disposable_fixture) ... ok
+
+======================================================================
+ERROR: test_e_new_guard (__main__.Regressions.test_e_new_guard)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "D:\apphearv3claude\AppHear-claude-s2-r3-eval-suite\AppHear-claude-s2-r3-eval-suite\tools\continuous_asl\regression_cases.py", line 77, in test_e_new_guard
+    with self.assertRaises(ValueError): assert_disjoint(source,bad)
+                                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\apphearv3claude\AppHear-claude-s2-r3-eval-suite\AppHear-claude-s2-r3-eval-suite\tools\continuous_asl\archive_safety.py", line 30, in assert_disjoint
+    for source in sources:
+TypeError: 'WindowsPath' object is not iterable
+
+----------------------------------------------------------------------
+Ran 6 tests in 0.024s
+
+FAILED (errors=1)
+[merge] recorded: 1 clips across glosses ['SYNTHETIC_REGRESSION_ONLY']
+[merge] train: 1 + 1 recorded = 2 clips
+[merge] val: 1 (unchanged)
+[merge] test: 1 (unchanged)
+
+[merge] done (supplement) -> D:\apphearv3claude\AppHear-claude-s2-r3-eval-suite\AppHear-claude-s2-r3-eval-suite\experiments\continuous_asl\20261019T155428Z_cslr01\regressions\hazards_01\merge_overlap\source
+[merge] retrain: clone model/config/train_streaming_conversational.yaml, set features_dir="D:\apphearv3claude\AppHear-claude-s2-r3-eval-suite\AppHear-claude-s2-r3-eval-suite\experiments\continuous_asl\20261019T155428Z_cslr01\regressions\hazards_01\merge_overlap\source", output_dir to a NEW run dir, then train in .venv.

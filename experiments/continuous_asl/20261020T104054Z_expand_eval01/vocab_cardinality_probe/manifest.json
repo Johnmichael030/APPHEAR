@@ -1,0 +1,1698 @@
+[
+  {
+    "sample_id": "asllrp3_a86eaaaaed5a06e4",
+    "dataset": "ASLLRP_SIGNSTREAM3_2025",
+    "collection": "Cory_2013-6-27_sc110",
+    "utterance_id": "34",
+    "source_group": "2013-06-27_CB_0110-cam1-for-ss3.mp4",
+    "signer_id": "asllrp_dai_participant_2",
+    "split": "train",
+    "utterance_filename": "173340.mp4",
+    "utterance_start_frame_master": 7241,
+    "utterance_end_frame_master": 7375,
+    "glosses": [
+      "POSS-1p-pl",
+      "COUSIN",
+      "ns-fs-JOHN",
+      "IX-loc:i",
+      "BREAK",
+      "IX-3p:j",
+      "fs-TRUCK",
+      "IX-3p:j"
+    ],
+    "events": [
+      {
+        "source_row": 9164,
+        "event_id": "350625",
+        "label": "POSS-1p-pl",
+        "start_frame_master": 7253,
+        "end_frame_master": 7262,
+        "hidden": false
+      },
+      {
+        "source_row": 9165,
+        "event_id": "350626",
+        "label": "COUSIN",
+        "start_frame_master": 7272,
+        "end_frame_master": 7280,
+        "hidden": false
+      },
+      {
+        "source_row": 9166,
+        "event_id": "350627",
+        "label": "ns-fs-JOHN",
+        "start_frame_master": 7288,
+        "end_frame_master": 7300,
+        "hidden": false
+      },
+      {
+        "source_row": 9167,
+        "event_id": "350628",
+        "label": "IX-loc:i",
+        "start_frame_master": 7309,
+        "end_frame_master": 7309,
+        "hidden": false
+      },
+      {
+        "source_row": 9168,
+        "event_id": "350629",
+        "label": "BREAK",
+        "start_frame_master": 7319,
+        "end_frame_master": 7325,
+        "hidden": false
+      },
+      {
+        "source_row": 9169,
+        "event_id": "350630",
+        "label": "IX-3p:j",
+        "start_frame_master": 7334,
+        "end_frame_master": 7334,
+        "hidden": false
+      },
+      {
+        "source_row": 9170,
+        "event_id": "350631",
+        "label": "fs-TRUCK",
+        "start_frame_master": 7339,
+        "end_frame_master": 7350,
+        "hidden": false
+      },
+      {
+        "source_row": 9171,
+        "event_id": "350632",
+        "label": "IX-3p:j",
+        "start_frame_master": 7357,
+        "end_frame_master": 7358,
+        "hidden": false
+      }
+    ],
+    "annotation_type": "AUTHENTIC_PUBLISHED_DOMINANT_HAND_OCCURRENCE_EVENTS",
+    "annotation_provenance": {
+      "csv_path": "D:\\apphearv3claude\\AppHear-claude-s2-r3-eval-suite\\AppHear-claude-s2-r3-eval-suite\\experiments\\continuous_asl\\20261020_continuous_expand06\\data\\raw\\asllrp2025\\asllrp_sentence_signs_2025_06_28.csv",
+      "csv_sha256": "9c1641b6b95a6e6c2223c34eb101ed2e83bb1da824e18c7a21791c59b1593e86",
+      "source_rows": [
+        9164,
+        9165,
+        9166,
+        9167,
+        9168,
+        9169,
+        9170,
+        9171
+      ],
+      "target_column": "Occurrence label",
+      "order": "verified master frame start; retain hidden events, compounds and full literal labels",
+      "frame_rate_reference": "https://www.bu.edu/asllrp/rpt24/asllrpr24.pdf",
+      "hand_scope_reference": "https://dai.cs.rutgers.edu/asllvd/signbank/Additional-information-6-29-25.pdf",
+      "excluded_nondominant_only_events": "Publisher CSV omits these; never invent missing labels",
+      "English_translation_used_as_gloss": false
+    },
+    "license_status": "PRIVATE_NONCOMMERCIAL_RESEARCH_ONLY_NO_REDISTRIBUTION",
+    "license_reference": "https://www.bu.edu/asllrp/dai-terms.html",
+    "timing_status": "EXACT_INCLUSIVE_MASTER_FRAME_SPAN_AND_29.97FPS_MEDIA_COUNT_JOIN; NO_OFFSET_SCALING; VISUAL_ALIGNMENT_NOT_INDEPENDENTLY_AUDITED",
+    "signer_independent": false,
+    "video_path": "D:\\apphearv3claude\\AppHear-claude-s2-r3-eval-suite\\AppHear-claude-s2-r3-eval-suite\\experiments\\continuous_asl\\20261020_continuous_expand06\\data\\raw\\asllrp2025\\utterances\\173340.mp4",
+    "raw_sha256": "a1728c72e6701921e6c210ad1c85b23e340b3992f06edf1e97c702f6cbad3994",
+    "bytes": 715268,
+    "media_provenance": {
+      "official_archive_url": "https://dai.cs.rutgers.edu/asllvd/signbank/asllrp_videos/batch_utterance_video_v3_1.zip",
+      "archive_sha256": "e021e4814703ecf3fd3342f32c7a2112b0040921d10f8c4b625caa8c9f2a4b32",
+      "member": "173340.mp4",
+      "crc32": 2097231687
+    },
+    "media_status": "CRC_VERIFIED_NOT_YET_DECODED",
+    "feature_path": "D:\\apphearv3claude\\AppHear-claude-s2-r3-eval-suite\\AppHear-claude-s2-r3-eval-suite\\experiments\\continuous_asl\\20261020_continuous_expand06\\data\\processed\\asllrp2025\\asllrp3_a86eaaaaed5a06e4.features.npz",
+    "feature_sha256": "8a751b1ef4116a1fba4700e1de906ac96d77540ac09f420865f9be6ca68b83c9",
+    "decoded_pixel_sha256": "f4a152eb44ab0134ec0e1f383b998d5d8b03de14b62752a7be231c45eb6abec6",
+    "observations": 45,
+    "decoded_frames": 135,
+    "native_fps": 29.97002997002997,
+    "dimensions": [
+      1280,
+      720
+    ],
+    "timestamp_sources": [
+      "CONTAINER_POS_MSEC"
+    ],
+    "max_pts_frame_error_ms": 9.094947017729282e-13,
+    "individual_sign_times_ms": [
+      [
+        400.40000000000003,
+        734.0666666666667
+      ],
+      [
+        1034.3666666666668,
+        1334.6666666666667
+      ],
+      [
+        1568.2333333333333,
+        2002.0
+      ],
+      [
+        2268.9333333333334,
+        2302.3
+      ],
+      [
+        2602.6,
+        2836.1666666666665
+      ],
+      [
+        3103.1,
+        3136.4666666666667
+      ],
+      [
+        3269.9333333333334,
+        3670.3333333333335
+      ],
+      [
+        3870.5333333333333,
+        3937.266666666667
+      ]
+    ],
+    "preprocessing_status": "PASS",
+    "unique_valid": true,
+    "cadence_max_hz": 10,
+    "extraction_ms_sum": 2960.7211999536958,
+    "extraction_ms_p50": 64.70109999645501,
+    "extraction_ms_p95": 77.28264001198113,
+    "preprocessing_seconds": 5.923087200004375,
+    "hand_observed_fraction": [
+      0.8,
+      0.7555555555555555
+    ],
+    "body_available_fraction": 1.0,
+    "canonical_role": "eligible_train",
+    "training_pool": "ASLLRP3_LITERAL_DOMINANT_REALIZED_OCCURRENCE",
+    "source_catalog": "official_ASLLRP2025_verified_utterance_archive",
+    "schema_version": "apphear.continuous_asl.candidate01_causal378.v1",
+    "signer_provenance": {
+      "publisher_participant_id": "2",
+      "publisher_participant_name": "Cory",
+      "signer_id": "asllrp_dai_participant_2",
+      "collection": "Cory_2013-6-27_sc110",
+      "utterance_id": "34",
+      "source_page": "D:\\apphearv3claude\\AppHear-claude-s2-r3-eval-suite\\AppHear-claude-s2-r3-eval-suite\\experiments\\continuous_asl\\20261020T104054Z_expand_eval01\\sources\\utterances_participant2_page12.html",
+      "source_page_sha256": "21f25f2056b6936f9113189a21778c465cfb28394141681d0ac06316a4e5cedf",
+      "query_receipt": "D:\\apphearv3claude\\AppHear-claude-s2-r3-eval-suite\\AppHear-claude-s2-r3-eval-suite\\experiments\\continuous_asl\\20261020T104054Z_expand_eval01\\sources\\utterances_participant2_page12.html.receipt.json",
+      "method": "Official public participant-filtered utterance search, exhaustive published pagination."
+    }
+  },
+  {
+    "sample_id": "asllrp3_d6573e9aaf690351",
+    "dataset": "ASLLRP_SIGNSTREAM3_2025",
+    "collection": "Rachel_2012-02-09_sc60",
+    "utterance_id": "30",
+    "source_group": "2012-02-09_0060-cam1-for-ss3.mp4",
+    "signer_id": "asllrp_dai_participant_3",
+    "split": "train",
+    "utterance_filename": "23882533.mp4",
+    "utterance_start_frame_master": 9753,
+    "utterance_end_frame_master": 9839,
+    "glosses": [
+      "HAPPEN",
+      "SNOW",
+      "SCHOOL",
+      "CANCEL/CRITICIZE"
+    ],
+    "events": [
+      {
+        "source_row": 2277,
+        "event_id": "343366",
+        "label": "HAPPEN",
+        "start_frame_master": 9762,
+        "end_frame_master": 9768,
+        "hidden": false
+      },
+      {
+        "source_row": 2278,
+        "event_id": "343367",
+        "label": "SNOW",
+        "start_frame_master": 9777,
+        "end_frame_master": 9786,
+        "hidden": false
+      },
+      {
+        "source_row": 2279,
+        "event_id": "343368",
+        "label": "SCHOOL",
+        "start_frame_master": 9793,
+        "end_frame_master": 9803,
+        "hidden": false
+      },
+      {
+        "source_row": 2280,
+        "event_id": "343369",
+        "label": "CANCEL/CRITICIZE",
+        "start_frame_master": 9808,
+        "end_frame_master": 9827,
+        "hidden": false
+      }
+    ],
+    "annotation_type": "AUTHENTIC_PUBLISHED_DOMINANT_HAND_OCCURRENCE_EVENTS",
+    "annotation_provenance": {
+      "csv_path": "D:\\apphearv3claude\\AppHear-claude-s2-r3-eval-suite\\AppHear-claude-s2-r3-eval-suite\\experiments\\continuous_asl\\20261020_continuous_expand06\\data\\raw\\asllrp2025\\asllrp_sentence_signs_2025_06_28.csv",
+      "csv_sha256": "9c1641b6b95a6e6c2223c34eb101ed2e83bb1da824e18c7a21791c59b1593e86",
+      "source_rows": [
+        2277,
+        2278,
+        2279,
+        2280
+      ],
+      "target_column": "Occurrence label",
+      "order": "verified master frame start; retain hidden events, compounds and full literal labels",
+      "frame_rate_reference": "https://www.bu.edu/asllrp/rpt24/asllrpr24.pdf",
+      "hand_scope_reference": "https://dai.cs.rutgers.edu/asllvd/signbank/Additional-information-6-29-25.pdf",
+      "excluded_nondominant_only_events": "Publisher CSV omits these; never invent missing labels",
+      "English_translation_used_as_gloss": false
+    },
+    "license_status": "PRIVATE_NONCOMMERCIAL_RESEARCH_ONLY_NO_REDISTRIBUTION",
+    "license_reference": "https://www.bu.edu/asllrp/dai-terms.html",
+    "timing_status": "EXACT_INCLUSIVE_MASTER_FRAME_SPAN_AND_29.97FPS_MEDIA_COUNT_JOIN; NO_OFFSET_SCALING; VISUAL_ALIGNMENT_NOT_INDEPENDENTLY_AUDITED",
+    "signer_independent": false,
+    "video_path": "D:\\apphearv3claude\\AppHear-claude-s2-r3-eval-suite\\AppHear-claude-s2-r3-eval-suite\\experiments\\continuous_asl\\20261020_continuous_expand06\\data\\raw\\asllrp2025\\utterances\\23882533.mp4",
+    "raw_sha256": "45db096af7f6506e442df3686cfc60355ba59873c9d99beaec68a6d37756ea0f",
+    "bytes": 680035,
+    "media_provenance": {
+      "official_archive_url": "https://dai.cs.rutgers.edu/asllvd/signbank/asllrp_videos/batch_utterance_video_v3_1.zip",
+      "archive_sha256": "e021e4814703ecf3fd3342f32c7a2112b0040921d10f8c4b625caa8c9f2a4b32",
+      "member": "23882533.mp4",
+      "crc32": 27156278
+    },
+    "media_status": "CRC_VERIFIED_NOT_YET_DECODED",
+    "feature_path": "D:\\apphearv3claude\\AppHear-claude-s2-r3-eval-suite\\AppHear-claude-s2-r3-eval-suite\\experiments\\continuous_asl\\20261020_continuous_expand06\\data\\processed\\asllrp2025\\asllrp3_d6573e9aaf690351.features.npz",
+    "feature_sha256": "7b896573961f158ca39f5dad9fccbab00e7b363347bb78ee66280053ce002361",
+    "decoded_pixel_sha256": "d0a7d645b3313779769ddd9a0ce2eec4b1ff00cd9a5d61e438453f68ed604669",
+    "observations": 29,
+    "decoded_frames": 87,
+    "native_fps": 29.97002997002997,
+    "dimensions": [
+      1280,
+      960
+    ],
+    "timestamp_sources": [
+      "CONTAINER_POS_MSEC"
+    ],
+    "max_pts_frame_error_ms": 4.547473508864641e-13,
+    "individual_sign_times_ms": [
+      [
+        300.3,
+        533.8666666666667
+      ],
+      [
+        800.8000000000001,
+        1134.4666666666667
+      ],
+      [
+        1334.6666666666667,
+        1701.7
+      ],
+      [
+        1835.1666666666667,
+        2502.5
+      ]
+    ],
+    "preprocessing_status": "PASS",
+    "unique_valid": true,
+    "cadence_max_hz": 10,
+    "extraction_ms_sum": 2256.2767000345048,
+    "extraction_ms_p50": 76.03769999695942,
+    "extraction_ms_p95": 94.40296001266687,
+    "preprocessing_seconds": 4.741692800016608,
+    "hand_observed_fraction": [
+      0.3448275862068966,
+      0.5517241379310345
+    ],
+    "body_available_fraction": 1.0,
+    "canonical_role": "eligible_train",
+    "training_pool": "ASLLRP3_LITERAL_DOMINANT_REALIZED_OCCURRENCE",
+    "source_catalog": "official_ASLLRP2025_verified_utterance_archive",
+    "schema_version": "apphear.continuous_asl.candidate01_causal378.v1",
+    "signer_provenance": {
+      "publisher_participant_id": "3",
+      "publisher_participant_name": "Rachel",
+      "signer_id": "asllrp_dai_participant_3",
+      "collection": "Rachel_2012-02-09_sc60",
+      "utterance_id": "30",
+      "source_page": "D:\\apphearv3claude\\AppHear-claude-s2-r3-eval-suite\\AppHear-claude-s2-r3-eval-suite\\experiments\\continuous_asl\\20261020T104054Z_expand_eval01\\sources\\utterances_participant3_page15.html",
+      "source_page_sha256": "aa8d5315e9db390fc0754c38b8bb777b4e16f23814fcdbbcf7db08b4dd1596bc",
+      "query_receipt": "D:\\apphearv3claude\\AppHear-claude-s2-r3-eval-suite\\AppHear-claude-s2-r3-eval-suite\\experiments\\continuous_asl\\20261020T104054Z_expand_eval01\\sources\\utterances_participant3_page15.html.receipt.json",
+      "method": "Official public participant-filtered utterance search, exhaustive published pagination."
+    }
+  },
+  {
+    "sample_id": "asllrp3_c78f443982ed707e",
+    "dataset": "ASLLRP_SIGNSTREAM3_2025",
+    "collection": "9-Ben-Sensory-Politics",
+    "utterance_id": "1",
+    "source_group": "9-Sensory-Politics.mov",
+    "signer_id": "asllrp_dai_participant_5",
+    "split": "train",
+    "utterance_filename": "10168352.mp4",
+    "utterance_start_frame_master": 36,
+    "utterance_end_frame_master": 314,
+    "glosses": [
+      "fs-AUDIOVOCAL",
+      "fs-ORIENTATION",
+      "MAJOR:i",
+      "IX-loc-line",
+      "HAVE",
+      "POSS-3p:i",
+      "SET-UP:i",
+      "VISUALIZE",
+      "RULE",
+      "COOPERATE/UNITE",
+      "WITH",
+      "VOICE",
+      "RANGE"
+    ],
+    "events": [
+      {
+        "source_row": 11184,
+        "event_id": "352704",
+        "label": "fs-AUDIOVOCAL",
+        "start_frame_master": 47,
+        "end_frame_master": 96,
+        "hidden": false
+      },
+      {
+        "source_row": 11185,
+        "event_id": "352705",
+        "label": "fs-ORIENTATION",
+        "start_frame_master": 106,
+        "end_frame_master": 129,
+        "hidden": false
+      },
+      {
+        "source_row": 11186,
+        "event_id": "352706",
+        "label": "MAJOR:i",
+        "start_frame_master": 140,
+        "end_frame_master": 150,
+        "hidden": false
+      },
+      {
+        "source_row": 11187,
+        "event_id": "352707",
+        "label": "IX-loc-line",
+        "start_frame_master": 156,
+        "end_frame_master": 163,
+        "hidden": true
+      },
+      {
+        "source_row": 11188,
+        "event_id": "352708",
+        "label": "HAVE",
+        "start_frame_master": 170,
+        "end_frame_master": 171,
+        "hidden": false
+      },
+      {
+        "source_row": 11189,
+        "event_id": "352709",
+        "label": "POSS-3p:i",
+        "start_frame_master": 178,
+        "end_frame_master": 178,
+        "hidden": false
+      },
+      {
+        "source_row": 11190,
+        "event_id": "352710",
+        "label": "SET-UP:i",
+        "start_frame_master": 188,
+        "end_frame_master": 190,
+        "hidden": false
+      },
+      {
+        "source_row": 11191,
+        "event_id": "352711",
+        "label": "VISUALIZE",
+        "start_frame_master": 211,
+        "end_frame_master": 222,
+        "hidden": false
+      },
+      {
+        "source_row": 11192,
+        "event_id": "352712",
+        "label": "RULE",
+        "start_frame_master": 236,
+        "end_frame_master": 245,
+        "hidden": false
+      },
+      {
+        "source_row": 11193,
+        "event_id": "352713",
+        "label": "COOPERATE/UNITE",
+        "start_frame_master": 252,
+        "end_frame_master": 260,
+        "hidden": false
+      },
+      {
+        "source_row": 11194,
+        "event_id": "352714",
+        "label": "WITH",
+        "start_frame_master": 265,
+        "end_frame_master": 269,
+        "hidden": false
+      },
+      {
+        "source_row": 11195,
+        "event_id": "352715",
+        "label": "VOICE",
+        "start_frame_master": 288,
+        "end_frame_master": 295,
+        "hidden": true
+      },
+      {
+        "source_row": 11196,
+        "event_id": "352716",
+        "label": "RANGE",
+        "start_frame_master": 302,
+        "end_frame_master": 314,
+        "hidden": false
+      }
+    ],
+    "annotation_type": "AUTHENTIC_PUBLISHED_DOMINANT_HAND_OCCURRENCE_EVENTS",
+    "annotation_provenance": {
+      "csv_path": "D:\\apphearv3claude\\AppHear-claude-s2-r3-eval-suite\\AppHear-claude-s2-r3-eval-suite\\experiments\\continuous_asl\\20261020_continuous_expand06\\data\\raw\\asllrp2025\\asllrp_sentence_signs_2025_06_28.csv",
+      "csv_sha256": "9c1641b6b95a6e6c2223c34eb101ed2e83bb1da824e18c7a21791c59b1593e86",
+      "source_rows": [
+        11184,
+        11185,
+        11186,
+        11187,
+        11188,
+        11189,
+        11190,
+        11191,
+        11192,
+        11193,
+        11194,
+        11195,
+        11196
+      ],
+      "target_column": "Occurrence label",
+      "order": "verified master frame start; retain hidden events, compounds and full literal labels",
+      "frame_rate_reference": "https://www.bu.edu/asllrp/rpt24/asllrpr24.pdf",
+      "hand_scope_reference": "https://dai.cs.rutgers.edu/asllvd/signbank/Additional-information-6-29-25.pdf",
+      "excluded_nondominant_only_events": "Publisher CSV omits these; never invent missing labels",
+      "English_translation_used_as_gloss": false
+    },
+    "license_status": "PRIVATE_NONCOMMERCIAL_RESEARCH_ONLY_NO_REDISTRIBUTION",
+    "license_reference": "https://www.bu.edu/asllrp/dai-terms.html",
+    "timing_status": "EXACT_INCLUSIVE_MASTER_FRAME_SPAN_AND_29.97FPS_MEDIA_COUNT_JOIN; NO_OFFSET_SCALING; VISUAL_ALIGNMENT_NOT_INDEPENDENTLY_AUDITED",
+    "signer_independent": false,
+    "video_path": "D:\\apphearv3claude\\AppHear-claude-s2-r3-eval-suite\\AppHear-claude-s2-r3-eval-suite\\experiments\\continuous_asl\\20261020_continuous_expand06\\data\\raw\\asllrp2025\\utterances\\10168352.mp4",
+    "raw_sha256": "b813110ec67cac700157478f5d032ef97d259a281476b8155a0ef1d42dc730bc",
+    "bytes": 1235508,
+    "media_provenance": {
+      "official_archive_url": "https://dai.cs.rutgers.edu/asllvd/signbank/asllrp_videos/batch_utterance_video_v3_1.zip",
+      "archive_sha256": "e021e4814703ecf3fd3342f32c7a2112b0040921d10f8c4b625caa8c9f2a4b32",
+      "member": "10168352.mp4",
+      "crc32": 1013346240
+    },
+    "media_status": "CRC_VERIFIED_NOT_YET_DECODED",
+    "feature_path": "D:\\apphearv3claude\\AppHear-claude-s2-r3-eval-suite\\AppHear-claude-s2-r3-eval-suite\\experiments\\continuous_asl\\20261020_continuous_expand06\\data\\processed\\asllrp2025\\asllrp3_c78f443982ed707e.features.npz",
+    "feature_sha256": "cf5dc58688ddbbc86e764c3bfa8cecdaf0f95024959f7dc04801399325793a18",
+    "decoded_pixel_sha256": "a02576bb9e60e77e0bcb8f9f29d7c6a4e18e9b3c0f84d15fd9430da60c48df48",
+    "observations": 93,
+    "decoded_frames": 279,
+    "native_fps": 29.97002997002997,
+    "dimensions": [
+      1280,
+      960
+    ],
+    "timestamp_sources": [
+      "CONTAINER_POS_MSEC"
+    ],
+    "max_pts_frame_error_ms": 1.8189894035458565e-12,
+    "individual_sign_times_ms": [
+      [
+        367.03333333333336,
+        2035.3666666666668
+      ],
+      [
+        2335.6666666666665,
+        3136.4666666666667
+      ],
+      [
+        3470.133333333333,
+        3837.1666666666665
+      ],
+      [
+        4004.0,
+        4270.933333333333
+      ],
+      [
+        4471.133333333333,
+        4537.866666666667
+      ],
+      [
+        4738.066666666667,
+        4771.433333333333
+      ],
+      [
+        5071.733333333334,
+        5171.833333333333
+      ],
+      [
+        5839.166666666667,
+        6239.566666666667
+      ],
+      [
+        6673.333333333333,
+        7007.0
+      ],
+      [
+        7207.2,
+        7507.5
+      ],
+      [
+        7640.966666666667,
+        7807.8
+      ],
+      [
+        8408.4,
+        8675.333333333334
+      ],
+      [
+        8875.533333333333,
+        9309.3
+      ]
+    ],
+    "preprocessing_status": "PASS",
+    "unique_valid": true,
+    "cadence_max_hz": 10,
+    "extraction_ms_sum": 8465.414499863982,
+    "extraction_ms_p50": 83.14649999374524,
+    "extraction_ms_p95": 130.62484000110985,
+    "preprocessing_seconds": 17.106426600017585,
+    "hand_observed_fraction": [
+      0.22580645161290322,
+      0.41935483870967744
+    ],
+    "body_available_fraction": 1.0,
+    "canonical_role": "eligible_train",
+    "training_pool": "ASLLRP3_LITERAL_DOMINANT_REALIZED_OCCURRENCE",
+    "source_catalog": "official_ASLLRP2025_verified_utterance_archive",
+    "schema_version": "apphear.continuous_asl.candidate01_causal378.v1",
+    "signer_provenance": {
+      "publisher_participant_id": "5",
+      "publisher_participant_name": "Ben",
+      "signer_id": "asllrp_dai_participant_5",
+      "collection": "9-Ben-Sensory-Politics",
+      "utterance_id": "1",
+      "source_page": "D:\\apphearv3claude\\AppHear-claude-s2-r3-eval-suite\\AppHear-claude-s2-r3-eval-suite\\experiments\\continuous_asl\\20261020T104054Z_expand_eval01\\sources\\utterances_participant5_page1.html",
+      "source_page_sha256": "4c8e54bf3d8bc287271803fe46eaa0541b382c5e5ee54461c9ba7cfcb450e510",
+      "query_receipt": "D:\\apphearv3claude\\AppHear-claude-s2-r3-eval-suite\\AppHear-claude-s2-r3-eval-suite\\experiments\\continuous_asl\\20261020T104054Z_expand_eval01\\sources\\utterances_participant5_page1.html.receipt.json",
+      "method": "Official public participant-filtered utterance search, exhaustive published pagination."
+    }
+  },
+  {
+    "sample_id": "asllrp3_f6c16dd6fdfc2924",
+    "dataset": "ASLLRP_SIGNSTREAM3_2025",
+    "collection": "Cory_2013-6-27_sc114",
+    "utterance_id": "47",
+    "source_group": "2013-06-27_CB_0114-cam1-for-ss3.mp4",
+    "signer_id": "asllrp_dai_participant_2",
+    "split": "train",
+    "utterance_filename": "7984053.mp4",
+    "utterance_start_frame_master": 9107,
+    "utterance_end_frame_master": 9201,
+    "glosses": [
+      "PAST+NIGHT",
+      "IX-1p",
+      "LIE-DOWN",
+      "DRUNK",
+      "IX-1p"
+    ],
+    "events": [
+      {
+        "source_row": 8355,
+        "event_id": "349754",
+        "label": "PAST+NIGHT",
+        "start_frame_master": 9119,
+        "end_frame_master": 9130,
+        "hidden": false
+      },
+      {
+        "source_row": 8356,
+        "event_id": "349755",
+        "label": "IX-1p",
+        "start_frame_master": 9139,
+        "end_frame_master": 9139,
+        "hidden": false
+      },
+      {
+        "source_row": 8357,
+        "event_id": "349756",
+        "label": "LIE-DOWN",
+        "start_frame_master": 9147,
+        "end_frame_master": 9155,
+        "hidden": false
+      },
+      {
+        "source_row": 8358,
+        "event_id": "349757",
+        "label": "DRUNK",
+        "start_frame_master": 9165,
+        "end_frame_master": 9172,
+        "hidden": false
+      },
+      {
+        "source_row": 8359,
+        "event_id": "349758",
+        "label": "IX-1p",
+        "start_frame_master": 9184,
+        "end_frame_master": 9184,
+        "hidden": false
+      }
+    ],
+    "annotation_type": "AUTHENTIC_PUBLISHED_DOMINANT_HAND_OCCURRENCE_EVENTS",
+    "annotation_provenance": {
+      "csv_path": "D:\\apphearv3claude\\AppHear-claude-s2-r3-eval-suite\\AppHear-claude-s2-r3-eval-suite\\experiments\\continuous_asl\\20261020_continuous_expand06\\data\\raw\\asllrp2025\\asllrp_sentence_signs_2025_06_28.csv",
+      "csv_sha256": "9c1641b6b95a6e6c2223c34eb101ed2e83bb1da824e18c7a21791c59b1593e86",
+      "source_rows": [
+        8355,
+        8356,
+        8357,
+        8358,
+        8359
+      ],
+      "target_column": "Occurrence label",
+      "order": "verified master frame start; retain hidden events, compounds and full literal labels",
+      "frame_rate_reference": "https://www.bu.edu/asllrp/rpt24/asllrpr24.pdf",
+      "hand_scope_reference": "https://dai.cs.rutgers.edu/asllvd/signbank/Additional-information-6-29-25.pdf",
+      "excluded_nondominant_only_events": "Publisher CSV omits these; never invent missing labels",
+      "English_translation_used_as_gloss": false
+    },
+    "license_status": "PRIVATE_NONCOMMERCIAL_RESEARCH_ONLY_NO_REDISTRIBUTION",
+    "license_reference": "https://www.bu.edu/asllrp/dai-terms.html",
+    "timing_status": "EXACT_INCLUSIVE_MASTER_FRAME_SPAN_AND_29.97FPS_MEDIA_COUNT_JOIN; NO_OFFSET_SCALING; VISUAL_ALIGNMENT_NOT_INDEPENDENTLY_AUDITED",
+    "signer_independent": false,
+    "video_path": "D:\\apphearv3claude\\AppHear-claude-s2-r3-eval-suite\\AppHear-claude-s2-r3-eval-suite\\experiments\\continuous_asl\\20261020_continuous_expand06\\data\\raw\\asllrp2025\\utterances\\7984053.mp4",
+    "raw_sha256": "7710a192ad594323216a5f9208fc53f35ee77ac14376705290651f0c06ad602d",
+    "bytes": 520698,
+    "media_provenance": {
+      "official_archive_url": "https://dai.cs.rutgers.edu/asllvd/signbank/asllrp_videos/batch_utterance_video_v3_1.zip",
+      "archive_sha256": "e021e4814703ecf3fd3342f32c7a2112b0040921d10f8c4b625caa8c9f2a4b32",
+      "member": "7984053.mp4",
+      "crc32": 689542540
+    },
+    "media_status": "CRC_VERIFIED_NOT_YET_DECODED",
+    "feature_path": "D:\\apphearv3claude\\AppHear-claude-s2-r3-eval-suite\\AppHear-claude-s2-r3-eval-suite\\experiments\\continuous_asl\\20261020_continuous_expand06\\data\\processed\\asllrp2025\\asllrp3_f6c16dd6fdfc2924.features.npz",
+    "feature_sha256": "78d3ef2e33f96773f37a873c58f96664e8210e42b29921923b7adf6d8173a73e",
+    "decoded_pixel_sha256": "37206f15695e0ce0edb84bc856e3b025730e6239b10c05ca06e4cbbed030a143",
+    "observations": 32,
+    "decoded_frames": 95,
+    "native_fps": 29.97002997002997,
+    "dimensions": [
+      1280,
+      720
+    ],
+    "timestamp_sources": [
+      "CONTAINER_POS_MSEC"
+    ],
+    "max_pts_frame_error_ms": 4.547473508864641e-13,
+    "individual_sign_times_ms": [
+      [
+        400.40000000000003,
+        800.8000000000001
+      ],
+      [
+        1067.7333333333333,
+        1101.1
+      ],
+      [
+        1334.6666666666667,
+        1634.9666666666667
+      ],
+      [
+        1935.2666666666667,
+        2202.2
+      ],
+      [
+        2569.2333333333336,
+        2602.6
+      ]
+    ],
+    "preprocessing_status": "PASS",
+    "unique_valid": true,
+    "cadence_max_hz": 10,
+    "extraction_ms_sum": 2001.7139999836218,
+    "extraction_ms_p50": 64.37389999337029,
+    "extraction_ms_p95": 71.06443000375293,
+    "preprocessing_seconds": 4.016223599988734,
+    "hand_observed_fraction": [
+      0.65625,
+      0.375
+    ],
+    "body_available_fraction": 0.96875,
+    "canonical_role": "eligible_train",
+    "training_pool": "ASLLRP3_LITERAL_DOMINANT_REALIZED_OCCURRENCE",
+    "source_catalog": "official_ASLLRP2025_verified_utterance_archive",
+    "schema_version": "apphear.continuous_asl.candidate01_causal378.v1",
+    "signer_provenance": {
+      "publisher_participant_id": "2",
+      "publisher_participant_name": "Cory",
+      "signer_id": "asllrp_dai_participant_2",
+      "collection": "Cory_2013-6-27_sc114",
+      "utterance_id": "47",
+      "source_page": "D:\\apphearv3claude\\AppHear-claude-s2-r3-eval-suite\\AppHear-claude-s2-r3-eval-suite\\experiments\\continuous_asl\\20261020T104054Z_expand_eval01\\sources\\utterances_participant2_page17.html",
+      "source_page_sha256": "76511c180fde867ba2bb2e4c6e91aff763bf22cbf1cd041a8cd927e526a23aa9",
+      "query_receipt": "D:\\apphearv3claude\\AppHear-claude-s2-r3-eval-suite\\AppHear-claude-s2-r3-eval-suite\\experiments\\continuous_asl\\20261020T104054Z_expand_eval01\\sources\\utterances_participant2_page17.html.receipt.json",
+      "method": "Official public participant-filtered utterance search, exhaustive published pagination."
+    }
+  },
+  {
+    "sample_id": "asllrp3_f27e40aae77bb6f2",
+    "dataset": "ASLLRP_SIGNSTREAM3_2025",
+    "collection": "Rachel_2011-12-01_sc43",
+    "utterance_id": "30",
+    "source_group": "2011-12-01_0043-cam1-for-ss3.mp4",
+    "signer_id": "asllrp_dai_participant_3",
+    "split": "train",
+    "utterance_filename": "17586205.mp4",
+    "utterance_start_frame_master": 5751,
+    "utterance_end_frame_master": 5834,
+    "glosses": [
+      "TEACH+AGENT",
+      "DISTRIBUTE",
+      "ANSWER",
+      "TO/UNTIL",
+      "TEST"
+    ],
+    "events": [
+      {
+        "source_row": 4687,
+        "event_id": "345850",
+        "label": "TEACH+AGENT",
+        "start_frame_master": 5761,
+        "end_frame_master": 5768,
+        "hidden": false
+      },
+      {
+        "source_row": 4688,
+        "event_id": "345851",
+        "label": "DISTRIBUTE",
+        "start_frame_master": 5772,
+        "end_frame_master": 5779,
+        "hidden": false
+      },
+      {
+        "source_row": 4689,
+        "event_id": "345852",
+        "label": "ANSWER",
+        "start_frame_master": 5787,
+        "end_frame_master": 5792,
+        "hidden": false
+      },
+      {
+        "source_row": 4690,
+        "event_id": "345853",
+        "label": "TO/UNTIL",
+        "start_frame_master": 5797,
+        "end_frame_master": 5799,
+        "hidden": false
+      },
+      {
+        "source_row": 4691,
+        "event_id": "345854",
+        "label": "TEST",
+        "start_frame_master": 5805,
+        "end_frame_master": 5812,
+        "hidden": false
+      }
+    ],
+    "annotation_type": "AUTHENTIC_PUBLISHED_DOMINANT_HAND_OCCURRENCE_EVENTS",
+    "annotation_provenance": {
+      "csv_path": "D:\\apphearv3claude\\AppHear-claude-s2-r3-eval-suite\\AppHear-claude-s2-r3-eval-suite\\experiments\\continuous_asl\\20261020_continuous_expand06\\data\\raw\\asllrp2025\\asllrp_sentence_signs_2025_06_28.csv",
+      "csv_sha256": "9c1641b6b95a6e6c2223c34eb101ed2e83bb1da824e18c7a21791c59b1593e86",
+      "source_rows": [
+        4687,
+        4688,
+        4689,
+        4690,
+        4691
+      ],
+      "target_column": "Occurrence label",
+      "order": "verified master frame start; retain hidden events, compounds and full literal labels",
+      "frame_rate_reference": "https://www.bu.edu/asllrp/rpt24/asllrpr24.pdf",
+      "hand_scope_reference": "https://dai.cs.rutgers.edu/asllvd/signbank/Additional-information-6-29-25.pdf",
+      "excluded_nondominant_only_events": "Publisher CSV omits these; never invent missing labels",
+      "English_translation_used_as_gloss": false
+    },
+    "license_status": "PRIVATE_NONCOMMERCIAL_RESEARCH_ONLY_NO_REDISTRIBUTION",
+    "license_reference": "https://www.bu.edu/asllrp/dai-terms.html",
+    "timing_status": "EXACT_INCLUSIVE_MASTER_FRAME_SPAN_AND_29.97FPS_MEDIA_COUNT_JOIN; NO_OFFSET_SCALING; VISUAL_ALIGNMENT_NOT_INDEPENDENTLY_AUDITED",
+    "signer_independent": false,
+    "video_path": "D:\\apphearv3claude\\AppHear-claude-s2-r3-eval-suite\\AppHear-claude-s2-r3-eval-suite\\experiments\\continuous_asl\\20261020_continuous_expand06\\data\\raw\\asllrp2025\\utterances\\17586205.mp4",
+    "raw_sha256": "dea587aa8daf2fc8634dda11299e0cc97025de1bf20ea4adf220256f0af5651a",
+    "bytes": 567666,
+    "media_provenance": {
+      "official_archive_url": "https://dai.cs.rutgers.edu/asllvd/signbank/asllrp_videos/batch_utterance_video_v3_1.zip",
+      "archive_sha256": "e021e4814703ecf3fd3342f32c7a2112b0040921d10f8c4b625caa8c9f2a4b32",
+      "member": "17586205.mp4",
+      "crc32": 1083612437
+    },
+    "media_status": "CRC_VERIFIED_NOT_YET_DECODED",
+    "feature_path": "D:\\apphearv3claude\\AppHear-claude-s2-r3-eval-suite\\AppHear-claude-s2-r3-eval-suite\\experiments\\continuous_asl\\20261020_continuous_expand06\\data\\processed\\asllrp2025\\asllrp3_f27e40aae77bb6f2.features.npz",
+    "feature_sha256": "4eeea13fdbf76729001119569de86ef4428308f3484905a939516d72e2863cdc",
+    "decoded_pixel_sha256": "ede673c15e28cd7fcc003c4cd6bbdc0cdc9f075d1d7bad2eb989f6bf271caf62",
+    "observations": 28,
+    "decoded_frames": 84,
+    "native_fps": 29.97002997002997,
+    "dimensions": [
+      1280,
+      960
+    ],
+    "timestamp_sources": [
+      "CONTAINER_POS_MSEC"
+    ],
+    "max_pts_frame_error_ms": 4.547473508864641e-13,
+    "individual_sign_times_ms": [
+      [
+        333.6666666666667,
+        600.6
+      ],
+      [
+        700.7,
+        967.6333333333333
+      ],
+      [
+        1201.2,
+        1401.4
+      ],
+      [
+        1534.8666666666668,
+        1634.9666666666667
+      ],
+      [
+        1801.8,
+        2068.7333333333336
+      ]
+    ],
+    "preprocessing_status": "PASS",
+    "unique_valid": true,
+    "cadence_max_hz": 10,
+    "extraction_ms_sum": 1980.32310011331,
+    "extraction_ms_p50": 68.09815000451636,
+    "extraction_ms_p95": 81.73601500311634,
+    "preprocessing_seconds": 4.229221899993718,
+    "hand_observed_fraction": [
+      0.17857142857142858,
+      0.21428571428571427
+    ],
+    "body_available_fraction": 1.0,
+    "canonical_role": "eligible_train",
+    "training_pool": "ASLLRP3_LITERAL_DOMINANT_REALIZED_OCCURRENCE",
+    "source_catalog": "official_ASLLRP2025_verified_utterance_archive",
+    "schema_version": "apphear.continuous_asl.candidate01_causal378.v1",
+    "signer_provenance": {
+      "publisher_participant_id": "3",
+      "publisher_participant_name": "Rachel",
+      "signer_id": "asllrp_dai_participant_3",
+      "collection": "Rachel_2011-12-01_sc43",
+      "utterance_id": "30",
+      "source_page": "D:\\apphearv3claude\\AppHear-claude-s2-r3-eval-suite\\AppHear-claude-s2-r3-eval-suite\\experiments\\continuous_asl\\20261020T104054Z_expand_eval01\\sources\\utterances_participant3_page15.html",
+      "source_page_sha256": "aa8d5315e9db390fc0754c38b8bb777b4e16f23814fcdbbcf7db08b4dd1596bc",
+      "query_receipt": "D:\\apphearv3claude\\AppHear-claude-s2-r3-eval-suite\\AppHear-claude-s2-r3-eval-suite\\experiments\\continuous_asl\\20261020T104054Z_expand_eval01\\sources\\utterances_participant3_page15.html.receipt.json",
+      "method": "Official public participant-filtered utterance search, exhaustive published pagination."
+    }
+  },
+  {
+    "sample_id": "asllrp3_091cd61d054e0934",
+    "dataset": "ASLLRP_SIGNSTREAM3_2025",
+    "collection": "2-Ben-Voice-Identity",
+    "utterance_id": "41",
+    "source_group": "2-Voice-Identity.mov",
+    "signer_id": "asllrp_dai_participant_5",
+    "split": "train",
+    "utterance_filename": "66517466.mp4",
+    "utterance_start_frame_master": 7650,
+    "utterance_end_frame_master": 7752,
+    "glosses": [
+      "FUTURE",
+      "VISUALIZE",
+      "THAT",
+      "(1h)PERSON",
+      "IX-3p:i",
+      "HIGH",
+      "fs-PITCHED",
+      "CHARACTER",
+      "(2h)TALKwg"
+    ],
+    "events": [
+      {
+        "source_row": 12396,
+        "event_id": "353932",
+        "label": "FUTURE",
+        "start_frame_master": 7651,
+        "end_frame_master": 7653,
+        "hidden": false
+      },
+      {
+        "source_row": 12397,
+        "event_id": "353933",
+        "label": "VISUALIZE",
+        "start_frame_master": 7663,
+        "end_frame_master": 7669,
+        "hidden": false
+      },
+      {
+        "source_row": 12398,
+        "event_id": "353934",
+        "label": "THAT",
+        "start_frame_master": 7676,
+        "end_frame_master": 7678,
+        "hidden": false
+      },
+      {
+        "source_row": 12399,
+        "event_id": "353935",
+        "label": "(1h)PERSON",
+        "start_frame_master": 7682,
+        "end_frame_master": 7684,
+        "hidden": false
+      },
+      {
+        "source_row": 12400,
+        "event_id": "353936",
+        "label": "IX-3p:i",
+        "start_frame_master": 7688,
+        "end_frame_master": 7688,
+        "hidden": false
+      },
+      {
+        "source_row": 12401,
+        "event_id": "353937",
+        "label": "HIGH",
+        "start_frame_master": 7696,
+        "end_frame_master": 7700,
+        "hidden": false
+      },
+      {
+        "source_row": 12402,
+        "event_id": "353938",
+        "label": "fs-PITCHED",
+        "start_frame_master": 7705,
+        "end_frame_master": 7722,
+        "hidden": false
+      },
+      {
+        "source_row": 12403,
+        "event_id": "353939",
+        "label": "CHARACTER",
+        "start_frame_master": 7728,
+        "end_frame_master": 7737,
+        "hidden": false
+      },
+      {
+        "source_row": 12404,
+        "event_id": "353940",
+        "label": "(2h)TALKwg",
+        "start_frame_master": 7743,
+        "end_frame_master": 7750,
+        "hidden": false
+      }
+    ],
+    "annotation_type": "AUTHENTIC_PUBLISHED_DOMINANT_HAND_OCCURRENCE_EVENTS",
+    "annotation_provenance": {
+      "csv_path": "D:\\apphearv3claude\\AppHear-claude-s2-r3-eval-suite\\AppHear-claude-s2-r3-eval-suite\\experiments\\continuous_asl\\20261020_continuous_expand06\\data\\raw\\asllrp2025\\asllrp_sentence_signs_2025_06_28.csv",
+      "csv_sha256": "9c1641b6b95a6e6c2223c34eb101ed2e83bb1da824e18c7a21791c59b1593e86",
+      "source_rows": [
+        12396,
+        12397,
+        12398,
+        12399,
+        12400,
+        12401,
+        12402,
+        12403,
+        12404
+      ],
+      "target_column": "Occurrence label",
+      "order": "verified master frame start; retain hidden events, compounds and full literal labels",
+      "frame_rate_reference": "https://www.bu.edu/asllrp/rpt24/asllrpr24.pdf",
+      "hand_scope_reference": "https://dai.cs.rutgers.edu/asllvd/signbank/Additional-information-6-29-25.pdf",
+      "excluded_nondominant_only_events": "Publisher CSV omits these; never invent missing labels",
+      "English_translation_used_as_gloss": false
+    },
+    "license_status": "PRIVATE_NONCOMMERCIAL_RESEARCH_ONLY_NO_REDISTRIBUTION",
+    "license_reference": "https://www.bu.edu/asllrp/dai-terms.html",
+    "timing_status": "EXACT_INCLUSIVE_MASTER_FRAME_SPAN_AND_29.97FPS_MEDIA_COUNT_JOIN; NO_OFFSET_SCALING; VISUAL_ALIGNMENT_NOT_INDEPENDENTLY_AUDITED",
+    "signer_independent": false,
+    "video_path": "D:\\apphearv3claude\\AppHear-claude-s2-r3-eval-suite\\AppHear-claude-s2-r3-eval-suite\\experiments\\continuous_asl\\20261020_continuous_expand06\\data\\raw\\asllrp2025\\utterances\\66517466.mp4",
+    "raw_sha256": "548265bca2ac5941abb22d0ab0da3eb6aba653402b9c5da32a5b199848ee9ec0",
+    "bytes": 517151,
+    "media_provenance": {
+      "official_archive_url": "https://dai.cs.rutgers.edu/asllvd/signbank/asllrp_videos/batch_utterance_video_v3_1.zip",
+      "archive_sha256": "e021e4814703ecf3fd3342f32c7a2112b0040921d10f8c4b625caa8c9f2a4b32",
+      "member": "66517466.mp4",
+      "crc32": 1467972401
+    },
+    "media_status": "CRC_VERIFIED_NOT_YET_DECODED",
+    "feature_path": "D:\\apphearv3claude\\AppHear-claude-s2-r3-eval-suite\\AppHear-claude-s2-r3-eval-suite\\experiments\\continuous_asl\\20261020_continuous_expand06\\data\\processed\\asllrp2025\\asllrp3_091cd61d054e0934.features.npz",
+    "feature_sha256": "b9721e4314d58259b75dcc7ec4c0efd57f84f5cb9162ed0487c4b4dd73e32e84",
+    "decoded_pixel_sha256": "702aca98a37fdcf65958fd38505199979692e8f222b5ad73a7dacdf9e35ecf56",
+    "observations": 35,
+    "decoded_frames": 103,
+    "native_fps": 29.97002997002997,
+    "dimensions": [
+      1280,
+      960
+    ],
+    "timestamp_sources": [
+      "CONTAINER_POS_MSEC"
+    ],
+    "max_pts_frame_error_ms": 4.547473508864641e-13,
+    "individual_sign_times_ms": [
+      [
+        33.36666666666667,
+        133.46666666666667
+      ],
+      [
+        433.76666666666665,
+        667.3333333333334
+      ],
+      [
+        867.5333333333333,
+        967.6333333333333
+      ],
+      [
+        1067.7333333333333,
+        1167.8333333333333
+      ],
+      [
+        1267.9333333333334,
+        1301.3
+      ],
+      [
+        1534.8666666666668,
+        1701.7
+      ],
+      [
+        1835.1666666666667,
+        2435.766666666667
+      ],
+      [
+        2602.6,
+        2936.266666666667
+      ],
+      [
+        3103.1,
+        3370.0333333333333
+      ]
+    ],
+    "preprocessing_status": "PASS",
+    "unique_valid": true,
+    "cadence_max_hz": 10,
+    "extraction_ms_sum": 2340.2368000533897,
+    "extraction_ms_p50": 65.83190002129413,
+    "extraction_ms_p95": 75.66729999962261,
+    "preprocessing_seconds": 5.019348600006197,
+    "hand_observed_fraction": [
+      0.6,
+      0.2571428571428571
+    ],
+    "body_available_fraction": 1.0,
+    "canonical_role": "eligible_train",
+    "training_pool": "ASLLRP3_LITERAL_DOMINANT_REALIZED_OCCURRENCE",
+    "source_catalog": "official_ASLLRP2025_verified_utterance_archive",
+    "schema_version": "apphear.continuous_asl.candidate01_causal378.v1",
+    "signer_provenance": {
+      "publisher_participant_id": "5",
+      "publisher_participant_name": "Ben",
+      "signer_id": "asllrp_dai_participant_5",
+      "collection": "2-Ben-Voice-Identity",
+      "utterance_id": "41",
+      "source_page": "D:\\apphearv3claude\\AppHear-claude-s2-r3-eval-suite\\AppHear-claude-s2-r3-eval-suite\\experiments\\continuous_asl\\20261020T104054Z_expand_eval01\\sources\\utterances_participant5_page10.html",
+      "source_page_sha256": "895e2e7890a1cf83ace33a7aa7f2b2a29de14ef712e235f4f272ff8bb7c743b1",
+      "query_receipt": "D:\\apphearv3claude\\AppHear-claude-s2-r3-eval-suite\\AppHear-claude-s2-r3-eval-suite\\experiments\\continuous_asl\\20261020T104054Z_expand_eval01\\sources\\utterances_participant5_page10.html.receipt.json",
+      "method": "Official public participant-filtered utterance search, exhaustive published pagination."
+    }
+  },
+  {
+    "sample_id": "asllrp3_8ea4735ee49926ff",
+    "dataset": "ASLLRP_SIGNSTREAM3_2025",
+    "collection": "Cory_2013-6-27_sc108",
+    "utterance_id": "6",
+    "source_group": "2013-06-27_CB_0108-cam1-for-ss3.mp4",
+    "signer_id": "asllrp_dai_participant_2",
+    "split": "train",
+    "utterance_filename": "3381912.mp4",
+    "utterance_start_frame_master": 1237,
+    "utterance_end_frame_master": 1489,
+    "glosses": [
+      "#IF",
+      "IX-1p",
+      "INVITE/HIRE",
+      "IX-3p:i",
+      "PEOPLE",
+      "IX-3p-pl-arc",
+      "POP-UP",
+      "fs-LATE",
+      "IX-3p-pl-arc",
+      "SORRY",
+      "FUTURE",
+      "IX-3p:i"
+    ],
+    "events": [
+      {
+        "source_row": 9892,
+        "event_id": "351376",
+        "label": "#IF",
+        "start_frame_master": 1285,
+        "end_frame_master": 1289,
+        "hidden": false
+      },
+      {
+        "source_row": 9893,
+        "event_id": "351377",
+        "label": "IX-1p",
+        "start_frame_master": 1299,
+        "end_frame_master": 1300,
+        "hidden": false
+      },
+      {
+        "source_row": 9894,
+        "event_id": "351378",
+        "label": "INVITE/HIRE",
+        "start_frame_master": 1312,
+        "end_frame_master": 1320,
+        "hidden": false
+      },
+      {
+        "source_row": 9895,
+        "event_id": "351379",
+        "label": "IX-3p:i",
+        "start_frame_master": 1325,
+        "end_frame_master": 1326,
+        "hidden": false
+      },
+      {
+        "source_row": 9896,
+        "event_id": "351380",
+        "label": "PEOPLE",
+        "start_frame_master": 1333,
+        "end_frame_master": 1337,
+        "hidden": false
+      },
+      {
+        "source_row": 9897,
+        "event_id": "351381",
+        "label": "IX-3p-pl-arc",
+        "start_frame_master": 1348,
+        "end_frame_master": 1361,
+        "hidden": false
+      },
+      {
+        "source_row": 9898,
+        "event_id": "351382",
+        "label": "POP-UP",
+        "start_frame_master": 1370,
+        "end_frame_master": 1376,
+        "hidden": false
+      },
+      {
+        "source_row": 9899,
+        "event_id": "351383",
+        "label": "fs-LATE",
+        "start_frame_master": 1382,
+        "end_frame_master": 1393,
+        "hidden": false
+      },
+      {
+        "source_row": 9900,
+        "event_id": "351384",
+        "label": "IX-3p-pl-arc",
+        "start_frame_master": 1406,
+        "end_frame_master": 1419,
+        "hidden": false
+      },
+      {
+        "source_row": 9901,
+        "event_id": "351385",
+        "label": "SORRY",
+        "start_frame_master": 1426,
+        "end_frame_master": 1439,
+        "hidden": false
+      },
+      {
+        "source_row": 9902,
+        "event_id": "351386",
+        "label": "FUTURE",
+        "start_frame_master": 1447,
+        "end_frame_master": 1450,
+        "hidden": false
+      },
+      {
+        "source_row": 9903,
+        "event_id": "351387",
+        "label": "IX-3p:i",
+        "start_frame_master": 1457,
+        "end_frame_master": 1467,
+        "hidden": false
+      }
+    ],
+    "annotation_type": "AUTHENTIC_PUBLISHED_DOMINANT_HAND_OCCURRENCE_EVENTS",
+    "annotation_provenance": {
+      "csv_path": "D:\\apphearv3claude\\AppHear-claude-s2-r3-eval-suite\\AppHear-claude-s2-r3-eval-suite\\experiments\\continuous_asl\\20261020_continuous_expand06\\data\\raw\\asllrp2025\\asllrp_sentence_signs_2025_06_28.csv",
+      "csv_sha256": "9c1641b6b95a6e6c2223c34eb101ed2e83bb1da824e18c7a21791c59b1593e86",
+      "source_rows": [
+        9892,
+        9893,
+        9894,
+        9895,
+        9896,
+        9897,
+        9898,
+        9899,
+        9900,
+        9901,
+        9902,
+        9903
+      ],
+      "target_column": "Occurrence label",
+      "order": "verified master frame start; retain hidden events, compounds and full literal labels",
+      "frame_rate_reference": "https://www.bu.edu/asllrp/rpt24/asllrpr24.pdf",
+      "hand_scope_reference": "https://dai.cs.rutgers.edu/asllvd/signbank/Additional-information-6-29-25.pdf",
+      "excluded_nondominant_only_events": "Publisher CSV omits these; never invent missing labels",
+      "English_translation_used_as_gloss": false
+    },
+    "license_status": "PRIVATE_NONCOMMERCIAL_RESEARCH_ONLY_NO_REDISTRIBUTION",
+    "license_reference": "https://www.bu.edu/asllrp/dai-terms.html",
+    "timing_status": "EXACT_INCLUSIVE_MASTER_FRAME_SPAN_AND_29.97FPS_MEDIA_COUNT_JOIN; NO_OFFSET_SCALING; VISUAL_ALIGNMENT_NOT_INDEPENDENTLY_AUDITED",
+    "signer_independent": false,
+    "video_path": "D:\\apphearv3claude\\AppHear-claude-s2-r3-eval-suite\\AppHear-claude-s2-r3-eval-suite\\experiments\\continuous_asl\\20261020_continuous_expand06\\data\\raw\\asllrp2025\\utterances\\3381912.mp4",
+    "raw_sha256": "214c53c4f9405f8fcdc696aced7741ed9c071afb69025708cb257f8ae076ca19",
+    "bytes": 1201394,
+    "media_provenance": {
+      "official_archive_url": "https://dai.cs.rutgers.edu/asllvd/signbank/asllrp_videos/batch_utterance_video_v3_1.zip",
+      "archive_sha256": "e021e4814703ecf3fd3342f32c7a2112b0040921d10f8c4b625caa8c9f2a4b32",
+      "member": "3381912.mp4",
+      "crc32": 4212401025
+    },
+    "media_status": "CRC_VERIFIED_NOT_YET_DECODED",
+    "feature_path": "D:\\apphearv3claude\\AppHear-claude-s2-r3-eval-suite\\AppHear-claude-s2-r3-eval-suite\\experiments\\continuous_asl\\20261020_continuous_expand06\\data\\processed\\asllrp2025\\asllrp3_8ea4735ee49926ff.features.npz",
+    "feature_sha256": "93f362e7099990cd42bfc811de65dad8d63425300c956dba208a1b5046cbff81",
+    "decoded_pixel_sha256": "747b940c677be2df314db2c9e82f839004e8165f0e4994a252e8bab35e9e9211",
+    "observations": 85,
+    "decoded_frames": 253,
+    "native_fps": 29.97002997002997,
+    "dimensions": [
+      1280,
+      720
+    ],
+    "timestamp_sources": [
+      "CONTAINER_POS_MSEC"
+    ],
+    "max_pts_frame_error_ms": 1.8189894035458565e-12,
+    "individual_sign_times_ms": [
+      [
+        1601.6000000000001,
+        1768.4333333333334
+      ],
+      [
+        2068.7333333333336,
+        2135.4666666666667
+      ],
+      [
+        2502.5,
+        2802.8
+      ],
+      [
+        2936.266666666667,
+        3003.0
+      ],
+      [
+        3203.2000000000003,
+        3370.0333333333333
+      ],
+      [
+        3703.7000000000003,
+        4170.833333333333
+      ],
+      [
+        4437.766666666666,
+        4671.333333333333
+      ],
+      [
+        4838.166666666667,
+        5238.566666666667
+      ],
+      [
+        5638.966666666667,
+        6106.1
+      ],
+      [
+        6306.3,
+        6773.433333333333
+      ],
+      [
+        7007.0,
+        7140.466666666667
+      ],
+      [
+        7340.666666666667,
+        7707.7
+      ]
+    ],
+    "preprocessing_status": "PASS",
+    "unique_valid": true,
+    "cadence_max_hz": 10,
+    "extraction_ms_sum": 5675.0111002183985,
+    "extraction_ms_p50": 65.35390001954511,
+    "extraction_ms_p95": 76.88946001580916,
+    "preprocessing_seconds": 10.750853600009577,
+    "hand_observed_fraction": [
+      0.7294117647058823,
+      0.5647058823529412
+    ],
+    "body_available_fraction": 1.0,
+    "canonical_role": "eligible_train",
+    "training_pool": "ASLLRP3_LITERAL_DOMINANT_REALIZED_OCCURRENCE",
+    "source_catalog": "official_ASLLRP2025_verified_utterance_archive",
+    "schema_version": "apphear.continuous_asl.candidate01_causal378.v1",
+    "signer_provenance": {
+      "publisher_participant_id": "2",
+      "publisher_participant_name": "Cory",
+      "signer_id": "asllrp_dai_participant_2",
+      "collection": "Cory_2013-6-27_sc108",
+      "utterance_id": "6",
+      "source_page": "D:\\apphearv3claude\\AppHear-claude-s2-r3-eval-suite\\AppHear-claude-s2-r3-eval-suite\\experiments\\continuous_asl\\20261020T104054Z_expand_eval01\\sources\\utterances_participant2_page21.html",
+      "source_page_sha256": "0a5895b5753c9a4e4cfc269000e0e0aa17188f0275c2df062fd2b3ed23348be5",
+      "query_receipt": "D:\\apphearv3claude\\AppHear-claude-s2-r3-eval-suite\\AppHear-claude-s2-r3-eval-suite\\experiments\\continuous_asl\\20261020T104054Z_expand_eval01\\sources\\utterances_participant2_page21.html.receipt.json",
+      "method": "Official public participant-filtered utterance search, exhaustive published pagination."
+    }
+  },
+  {
+    "sample_id": "asllrp3_55c67deba904c267",
+    "dataset": "ASLLRP_SIGNSTREAM3_2025",
+    "collection": "Rachel_2011-12-08_sc44",
+    "utterance_id": "8",
+    "source_group": "2011-12-08_0044-cam1-for-ss3.mp4",
+    "signer_id": "asllrp_dai_participant_3",
+    "split": "train",
+    "utterance_filename": "1540613.mp4",
+    "utterance_start_frame_master": 2220,
+    "utterance_end_frame_master": 2468,
+    "glosses": [
+      "IX-3p:i",
+      "ns-TEXAS",
+      "IX-loc:i",
+      "(1h)HAVE",
+      "(1h)GOOD/THANK-YOU",
+      "FOOTBALL",
+      "TEAM",
+      "#NO+",
+      "IX-3p:i",
+      "LOUSY",
+      "IX-3p:i",
+      "LOSE-COMPETITION++",
+      "UP-TO-NOW",
+      "NOT-YET",
+      "WIN",
+      "part:indef"
+    ],
+    "events": [
+      {
+        "source_row": 4278,
+        "event_id": "345413",
+        "label": "IX-3p:i",
+        "start_frame_master": 2242,
+        "end_frame_master": 2246,
+        "hidden": false
+      },
+      {
+        "source_row": 4279,
+        "event_id": "345414",
+        "label": "ns-TEXAS",
+        "start_frame_master": 2256,
+        "end_frame_master": 2264,
+        "hidden": false
+      },
+      {
+        "source_row": 4280,
+        "event_id": "345415",
+        "label": "IX-loc:i",
+        "start_frame_master": 2266,
+        "end_frame_master": 2268,
+        "hidden": false
+      },
+      {
+        "source_row": 4281,
+        "event_id": "345416",
+        "label": "(1h)HAVE",
+        "start_frame_master": 2272,
+        "end_frame_master": 2274,
+        "hidden": false
+      },
+      {
+        "source_row": 4282,
+        "event_id": "345417",
+        "label": "(1h)GOOD/THANK-YOU",
+        "start_frame_master": 2278,
+        "end_frame_master": 2286,
+        "hidden": false
+      },
+      {
+        "source_row": 4283,
+        "event_id": "345418",
+        "label": "FOOTBALL",
+        "start_frame_master": 2292,
+        "end_frame_master": 2304,
+        "hidden": false
+      },
+      {
+        "source_row": 4284,
+        "event_id": "345419",
+        "label": "TEAM",
+        "start_frame_master": 2311,
+        "end_frame_master": 2325,
+        "hidden": false
+      },
+      {
+        "source_row": 4285,
+        "event_id": "345420",
+        "label": "#NO+",
+        "start_frame_master": 2356,
+        "end_frame_master": 2363,
+        "hidden": false
+      },
+      {
+        "source_row": 4286,
+        "event_id": "345421",
+        "label": "IX-3p:i",
+        "start_frame_master": 2367,
+        "end_frame_master": 2369,
+        "hidden": false
+      },
+      {
+        "source_row": 4287,
+        "event_id": "345422",
+        "label": "LOUSY",
+        "start_frame_master": 2374,
+        "end_frame_master": 2377,
+        "hidden": false
+      },
+      {
+        "source_row": 4288,
+        "event_id": "345423",
+        "label": "IX-3p:i",
+        "start_frame_master": 2379,
+        "end_frame_master": 2381,
+        "hidden": false
+      },
+      {
+        "source_row": 4289,
+        "event_id": "345424",
+        "label": "LOSE-COMPETITION++",
+        "start_frame_master": 2385,
+        "end_frame_master": 2397,
+        "hidden": false
+      },
+      {
+        "source_row": 4290,
+        "event_id": "345425",
+        "label": "UP-TO-NOW",
+        "start_frame_master": 2403,
+        "end_frame_master": 2408,
+        "hidden": false
+      },
+      {
+        "source_row": 4291,
+        "event_id": "345426",
+        "label": "NOT-YET",
+        "start_frame_master": 2411,
+        "end_frame_master": 2412,
+        "hidden": false
+      },
+      {
+        "source_row": 4292,
+        "event_id": "345427",
+        "label": "WIN",
+        "start_frame_master": 2416,
+        "end_frame_master": 2425,
+        "hidden": false
+      },
+      {
+        "source_row": 4293,
+        "event_id": "345428",
+        "label": "part:indef",
+        "start_frame_master": 2435,
+        "end_frame_master": 2442,
+        "hidden": false
+      }
+    ],
+    "annotation_type": "AUTHENTIC_PUBLISHED_DOMINANT_HAND_OCCURRENCE_EVENTS",
+    "annotation_provenance": {
+      "csv_path": "D:\\apphearv3claude\\AppHear-claude-s2-r3-eval-suite\\AppHear-claude-s2-r3-eval-suite\\experiments\\continuous_asl\\20261020_continuous_expand06\\data\\raw\\asllrp2025\\asllrp_sentence_signs_2025_06_28.csv",
+      "csv_sha256": "9c1641b6b95a6e6c2223c34eb101ed2e83bb1da824e18c7a21791c59b1593e86",
+      "source_rows": [
+        4278,
+        4279,
+        4280,
+        4281,
+        4282,
+        4283,
+        4284,
+        4285,
+        4286,
+        4287,
+        4288,
+        4289,
+        4290,
+        4291,
+        4292,
+        4293
+      ],
+      "target_column": "Occurrence label",
+      "order": "verified master frame start; retain hidden events, compounds and full literal labels",
+      "frame_rate_reference": "https://www.bu.edu/asllrp/rpt24/asllrpr24.pdf",
+      "hand_scope_reference": "https://dai.cs.rutgers.edu/asllvd/signbank/Additional-information-6-29-25.pdf",
+      "excluded_nondominant_only_events": "Publisher CSV omits these; never invent missing labels",
+      "English_translation_used_as_gloss": false
+    },
+    "license_status": "PRIVATE_NONCOMMERCIAL_RESEARCH_ONLY_NO_REDISTRIBUTION",
+    "license_reference": "https://www.bu.edu/asllrp/dai-terms.html",
+    "timing_status": "EXACT_INCLUSIVE_MASTER_FRAME_SPAN_AND_29.97FPS_MEDIA_COUNT_JOIN; NO_OFFSET_SCALING; VISUAL_ALIGNMENT_NOT_INDEPENDENTLY_AUDITED",
+    "signer_independent": false,
+    "video_path": "D:\\apphearv3claude\\AppHear-claude-s2-r3-eval-suite\\AppHear-claude-s2-r3-eval-suite\\experiments\\continuous_asl\\20261020_continuous_expand06\\data\\raw\\asllrp2025\\utterances\\1540613.mp4",
+    "raw_sha256": "8aaaebd6cd6450410efd15fb4f9be5d155e18e6cbb28c046c18514ea3c6439e8",
+    "bytes": 1515295,
+    "media_provenance": {
+      "official_archive_url": "https://dai.cs.rutgers.edu/asllvd/signbank/asllrp_videos/batch_utterance_video_v3_1.zip",
+      "archive_sha256": "e021e4814703ecf3fd3342f32c7a2112b0040921d10f8c4b625caa8c9f2a4b32",
+      "member": "1540613.mp4",
+      "crc32": 2562159415
+    },
+    "media_status": "CRC_VERIFIED_NOT_YET_DECODED",
+    "feature_path": "D:\\apphearv3claude\\AppHear-claude-s2-r3-eval-suite\\AppHear-claude-s2-r3-eval-suite\\experiments\\continuous_asl\\20261020_continuous_expand06\\data\\processed\\asllrp2025\\asllrp3_55c67deba904c267.features.npz",
+    "feature_sha256": "5fca2952f4fec8748116ed9d7c13e298f325f170607d9019622bb34c30b52dfc",
+    "decoded_pixel_sha256": "11c7d1bcfb3d427b2994e6c7cb9604cf0387aca1541d09ea1dc47f8f5243e3f6",
+    "observations": 83,
+    "decoded_frames": 249,
+    "native_fps": 29.97002997002997,
+    "dimensions": [
+      1280,
+      960
+    ],
+    "timestamp_sources": [
+      "CONTAINER_POS_MSEC"
+    ],
+    "max_pts_frame_error_ms": 1.8189894035458565e-12,
+    "individual_sign_times_ms": [
+      [
+        734.0666666666667,
+        900.9
+      ],
+      [
+        1201.2,
+        1501.5
+      ],
+      [
+        1534.8666666666668,
+        1634.9666666666667
+      ],
+      [
+        1735.0666666666666,
+        1835.1666666666667
+      ],
+      [
+        1935.2666666666667,
+        2235.5666666666666
+      ],
+      [
+        2402.4,
+        2836.1666666666665
+      ],
+      [
+        3036.366666666667,
+        3536.866666666667
+      ],
+      [
+        4537.866666666667,
+        4804.8
+      ],
+      [
+        4904.9,
+        5005.0
+      ],
+      [
+        5138.466666666667,
+        5271.933333333333
+      ],
+      [
+        5305.3,
+        5405.400000000001
+      ],
+      [
+        5505.5,
+        5939.266666666666
+      ],
+      [
+        6106.1,
+        6306.3
+      ],
+      [
+        6373.033333333334,
+        6439.766666666666
+      ],
+      [
+        6539.866666666667,
+        6873.533333333334
+      ],
+      [
+        7173.833333333333,
+        7440.766666666666
+      ]
+    ],
+    "preprocessing_status": "PASS",
+    "unique_valid": true,
+    "cadence_max_hz": 10,
+    "extraction_ms_sum": 6551.690699881874,
+    "extraction_ms_p50": 77.058200025931,
+    "extraction_ms_p95": 99.4153199950233,
+    "preprocessing_seconds": 13.831013099988922,
+    "hand_observed_fraction": [
+      0.21686746987951808,
+      0.42168674698795183
+    ],
+    "body_available_fraction": 1.0,
+    "canonical_role": "eligible_train",
+    "training_pool": "ASLLRP3_LITERAL_DOMINANT_REALIZED_OCCURRENCE",
+    "source_catalog": "official_ASLLRP2025_verified_utterance_archive",
+    "schema_version": "apphear.continuous_asl.candidate01_causal378.v1",
+    "signer_provenance": {
+      "publisher_participant_id": "3",
+      "publisher_participant_name": "Rachel",
+      "signer_id": "asllrp_dai_participant_3",
+      "collection": "Rachel_2011-12-08_sc44",
+      "utterance_id": "8",
+      "source_page": "D:\\apphearv3claude\\AppHear-claude-s2-r3-eval-suite\\AppHear-claude-s2-r3-eval-suite\\experiments\\continuous_asl\\20261020T104054Z_expand_eval01\\sources\\utterances_participant3_page24.html",
+      "source_page_sha256": "06fc1fc9aa6273c3a628292019e74bcfc33f6b05296cdb65f5f1ea50ed0b9dd4",
+      "query_receipt": "D:\\apphearv3claude\\AppHear-claude-s2-r3-eval-suite\\AppHear-claude-s2-r3-eval-suite\\experiments\\continuous_asl\\20261020T104054Z_expand_eval01\\sources\\utterances_participant3_page24.html.receipt.json",
+      "method": "Official public participant-filtered utterance search, exhaustive published pagination."
+    }
+  }
+]

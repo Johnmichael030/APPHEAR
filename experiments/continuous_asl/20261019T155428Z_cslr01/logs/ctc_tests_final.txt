@@ -1,0 +1,3 @@
+.....                                                                    [100%]
+- generated xml file: D:\apphearv3claude\AppHear-claude-s2-r3-eval-suite\AppHear-claude-s2-r3-eval-suite\experiments\continuous_asl\20261019T155428Z_cslr01\logs\ctc_tests_final.xml -
+5 passed in 4.72s

@@ -1,0 +1,1 @@
+{"id":"how2sign_original_val_translation","status":"DOWNLOADED","bytes":311131,"sha256":"f6f0cef01c3f891ca624a45c71eb7f7748b77362d7418c47567a984384f1537c"}

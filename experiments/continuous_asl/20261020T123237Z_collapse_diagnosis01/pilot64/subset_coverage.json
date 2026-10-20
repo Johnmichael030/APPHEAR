@@ -1,0 +1,11 @@
+{
+  "unique_train_target_tokens": 372,
+  "DEV_tokens_not_in64TRAIN": 1399,
+  "DEV_reference_tokens": 3236,
+  "TRAIN_signers": [
+    "asllrp_dai_participant_2",
+    "asllrp_dai_participant_3",
+    "asllrp_dai_participant_5"
+  ],
+  "TRAIN_source_groups": 39
+}

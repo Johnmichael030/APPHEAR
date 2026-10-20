@@ -1,0 +1,30 @@
+{
+  "status": "PASS_SCOPED_RESEARCH_PILOT",
+  "feature_records_checked": 3121,
+  "selected_checkpoint_replay_exact": true,
+  "manifest_sha256": "04fb7c6c26bc934d6618902ceeaa2ee69e19d0c12e5bfe922e5743c8518c0ebe",
+  "selected_checkpoint_sha256": "3d66372e84f94bc42b0bdaa61702013601d3b7b1ac160f76a1e5a9bf147c25de",
+  "blank_id": 0,
+  "unknown_id": 1,
+  "training_unknown_targets": 0,
+  "vocabulary_exact_checkpoint_and_train_set_match": true,
+  "normalization_exact_TRAIN_recomputation_match": true,
+  "CTC_length_violations": 0,
+  "decoder_duplicate_blank_roundtrip": true,
+  "pool_shared_literal_spellings": 431,
+  "pool_union_glosses": 3370,
+  "semantic_pool_equivalence": "UNKNOWN; shared spelling is insufficient",
+  "train_dev_overlap": {
+    "sample_id": [],
+    "signer_id": [],
+    "source_group": [],
+    "collection": [],
+    "raw_sha256": [],
+    "decoded_pixel_sha256": []
+  },
+  "DEV_OOV_tokens": 357,
+  "alignment_limits": "Publisher frame/event and feature contracts verified; prior joins reused. No independent linguistic/visual boundary ground truth created. NCSLGR legacy alignment remains limited.",
+  "elapsed_seconds": 26.25347569998121,
+  "TEST_used": false,
+  "bug_found": false
+}

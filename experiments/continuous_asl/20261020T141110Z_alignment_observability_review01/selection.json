@@ -1,0 +1,112 @@
+{
+  "version": "apphear-alignment-review-v1",
+  "candidate_counts": {
+    "C": 6492,
+    "MIXED": 3611,
+    "A": 880,
+    "B": 1440
+  },
+  "universe_train_utterances": 1500,
+  "train_event_count": 12423,
+  "full_candidate_event_digest": "1955876d8e0556f515fa9f6d58ee21b22de29da69516d480a7347c36061f6040",
+  "selected_event_keys": [
+    "asllrp3_74056df91b3d6f10:10871:352385",
+    "asllrp3_5e8c232c421b973c:10780:352288",
+    "asllrp3_f14263e33ffe5d2a:10991:352509",
+    "asllrp3_6b64205041deb7a4:3404:344521",
+    "asllrp3_ba5ef08595898ad5:3539:344658",
+    "asllrp3_261ef7b7731ef7c4:3549:344668",
+    "asllrp3_c255e0bc881edc3d:13800:385770",
+    "asllrp3_7de3e1853e10841b:13867:385845",
+    "asllrp3_fd476c9928d0ec59:14064:386050",
+    "asllrp3_6805dc16c3ef4442:2849:343958",
+    "asllrp3_1154932b4f4440a4:1834:342909",
+    "asllrp3_07c4abd57070cc40:2694:343801"
+  ],
+  "matches": [
+    {
+      "anchor": "asllrp3_74056df91b3d6f10:10871:352385",
+      "matched": "asllrp3_5e8c232c421b973c:10780:352288",
+      "group": "B",
+      "same_family": true,
+      "cost": 0.0687127500840142,
+      "duration_ratio": 1.0,
+      "support_ratio": 1.0,
+      "observation_length_ratio": 0.9534883720930233
+    },
+    {
+      "anchor": "asllrp3_74056df91b3d6f10:10871:352385",
+      "matched": "asllrp3_f14263e33ffe5d2a:10991:352509",
+      "group": "C",
+      "same_family": true,
+      "cost": 0.06558834162757689,
+      "duration_ratio": 1.0,
+      "support_ratio": 1.0,
+      "observation_length_ratio": 1.0465116279069768
+    },
+    {
+      "anchor": "asllrp3_6b64205041deb7a4:3404:344521",
+      "matched": "asllrp3_ba5ef08595898ad5:3539:344658",
+      "group": "B",
+      "same_family": true,
+      "cost": 1.9717505231958268,
+      "duration_ratio": 2.0,
+      "support_ratio": 0.7916666666666666,
+      "observation_length_ratio": 0.6440677966101694
+    },
+    {
+      "anchor": "asllrp3_6b64205041deb7a4:3404:344521",
+      "matched": "asllrp3_261ef7b7731ef7c4:3549:344668",
+      "group": "C",
+      "same_family": true,
+      "cost": 0.26793320524663305,
+      "duration_ratio": 1.0,
+      "support_ratio": 1.0,
+      "observation_length_ratio": 0.8305084745762712
+    },
+    {
+      "anchor": "asllrp3_c255e0bc881edc3d:13800:385770",
+      "matched": "asllrp3_7de3e1853e10841b:13867:385845",
+      "group": "B",
+      "same_family": true,
+      "cost": 1.1683651010151386,
+      "duration_ratio": 2.0,
+      "support_ratio": 1.0689655172413792,
+      "observation_length_ratio": 1.0512820512820513
+    },
+    {
+      "anchor": "asllrp3_c255e0bc881edc3d:13800:385770",
+      "matched": "asllrp3_fd476c9928d0ec59:14064:386050",
+      "group": "C",
+      "same_family": true,
+      "cost": 0.5040425053375887,
+      "duration_ratio": 1.0,
+      "support_ratio": 1.0,
+      "observation_length_ratio": 0.7051282051282052
+    },
+    {
+      "anchor": "asllrp3_6805dc16c3ef4442:2849:343958",
+      "matched": "asllrp3_1154932b4f4440a4:1834:342909",
+      "group": "B",
+      "same_family": true,
+      "cost": 0.11247472925841266,
+      "duration_ratio": 1.0,
+      "support_ratio": 1.0,
+      "observation_length_ratio": 1.0810810810810811
+    },
+    {
+      "anchor": "asllrp3_6805dc16c3ef4442:2849:343958",
+      "matched": "asllrp3_07c4abd57070cc40:2694:343801",
+      "group": "C",
+      "same_family": true,
+      "cost": 0.08017034868398333,
+      "duration_ratio": 1.0,
+      "support_ratio": 1.0,
+      "observation_length_ratio": 0.9459459459459459
+    }
+  ],
+  "group_C_definition": "at least one retained frame; every retained frame has at least one observed hand; neither both hands nor linguistic observability guaranteed",
+  "algorithm": "A: smallest stable SHA after unused family/unused master preference. B,C: same family first, then sum absolute log2 ratios of duration frames, distinct-utterance support and observation length; unused master tie preference then SHA. Hash prefix apphear-alignment-review-v1|. Twelve unique utterances.",
+  "candidate_exclusions": "Only frozen internal TRAIN; MIXED excluded from A/B/C; no label/hidden-flag filtering; predictions not parsed.",
+  "limitations": "Hash anchors are not representative. Approximate matching; family preference may worsen balance. C is a cached-mask control."
+}

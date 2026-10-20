@@ -1,0 +1,1541 @@
+{
+  "WER": 1.0,
+  "CTC_loss": 6.627052217721939,
+  "substitutions": 0,
+  "deletions": 485,
+  "insertions": 0,
+  "reference_tokens": 485,
+  "blank_fraction": 1.0,
+  "token_diversity": 0,
+  "top_token_fraction": 0.0,
+  "empty_outputs": 80,
+  "multi_token_outputs": 0,
+  "utterances": 80,
+  "predictions": [
+    {
+      "sample_id": "asllrp3_013cf20f34d13a56",
+      "reference": [
+        "IX-1p",
+        "(L)LIVE",
+        "HOUSE",
+        "IX-loc:i",
+        "WITH",
+        "MOTHER+FATHER",
+        "TWO",
+        "BROTHER"
+      ],
+      "hypothesis": [],
+      "substitutions": 0,
+      "deletions": 8,
+      "insertions": 0,
+      "reference_tokens": 8,
+      "CTC_loss": 6.7130961418151855,
+      "blank_frames": 51,
+      "output_frames": 51
+    },
+    {
+      "sample_id": "asllrp3_086eb559c9e909a1",
+      "reference": [
+        "IX-3p:i",
+        "ns-fs-MARY",
+        "BORN",
+        "BIG_2",
+        "BABY",
+        "(1h)WOW/AWFUL"
+      ],
+      "hypothesis": [],
+      "substitutions": 0,
+      "deletions": 6,
+      "insertions": 0,
+      "reference_tokens": 6,
+      "CTC_loss": 7.014392375946045,
+      "blank_frames": 31,
+      "output_frames": 31
+    },
+    {
+      "sample_id": "asllrp3_09bf85196934962b",
+      "reference": [
+        "ns-fs-MARY",
+        "ACCEPT",
+        "MANY",
+        "DIFFERENT+",
+        "CAR"
+      ],
+      "hypothesis": [],
+      "substitutions": 0,
+      "deletions": 5,
+      "insertions": 0,
+      "reference_tokens": 5,
+      "CTC_loss": 6.812220096588135,
+      "blank_frames": 37,
+      "output_frames": 37
+    },
+    {
+      "sample_id": "asllrp3_0a66b09f16ef3e3a",
+      "reference": [
+        "ns-fs-JOHN",
+        "READ+",
+        "MANY",
+        "BOOK+"
+      ],
+      "hypothesis": [],
+      "substitutions": 0,
+      "deletions": 4,
+      "insertions": 0,
+      "reference_tokens": 4,
+      "CTC_loss": 7.352576732635498,
+      "blank_frames": 32,
+      "output_frames": 32
+    },
+    {
+      "sample_id": "asllrp3_0b4efabf526e5ea0",
+      "reference": [
+        "IX-3p:i",
+        "ns-fs-MARY",
+        "ACCEPT",
+        "MANY",
+        "DO-DO+",
+        "part:indef"
+      ],
+      "hypothesis": [],
+      "substitutions": 0,
+      "deletions": 6,
+      "insertions": 0,
+      "reference_tokens": 6,
+      "CTC_loss": 6.348262786865234,
+      "blank_frames": 24,
+      "output_frames": 24
+    },
+    {
+      "sample_id": "asllrp3_1238b6ced8e5f67b",
+      "reference": [
+        "(2h)WOW",
+        "IX-3p:i",
+        "DEPART",
+        "FAST"
+      ],
+      "hypothesis": [],
+      "substitutions": 0,
+      "deletions": 4,
+      "insertions": 0,
+      "reference_tokens": 4,
+      "CTC_loss": 7.328269958496094,
+      "blank_frames": 23,
+      "output_frames": 23
+    },
+    {
+      "sample_id": "asllrp3_1402f887b8f3ef62",
+      "reference": [
+        "fs-LATE",
+        "IX-1p",
+        "KNOW-THAT",
+        "IX-1p",
+        "FUTURE",
+        "FINISH",
+        "SOON++"
+      ],
+      "hypothesis": [],
+      "substitutions": 0,
+      "deletions": 7,
+      "insertions": 0,
+      "reference_tokens": 7,
+      "CTC_loss": 6.267623424530029,
+      "blank_frames": 27,
+      "output_frames": 27
+    },
+    {
+      "sample_id": "asllrp3_155b2dea6ecb923d",
+      "reference": [
+        "(2h)5\\wow\\\"\"",
+        "OF-COURSE",
+        "MOTHER+FATHER",
+        "AFRAID",
+        "KNOW",
+        "SORRY",
+        "NEVER",
+        "GOOD",
+        "(2h)THING"
+      ],
+      "hypothesis": [],
+      "substitutions": 0,
+      "deletions": 9,
+      "insertions": 0,
+      "reference_tokens": 9,
+      "CTC_loss": 8.314863204956055,
+      "blank_frames": 39,
+      "output_frames": 39
+    },
+    {
+      "sample_id": "asllrp3_17b01f5251d1003a",
+      "reference": [
+        "POSS-3p:i",
+        "FATHER",
+        "GO-OUT",
+        "5\\perplexed\\\"\""
+      ],
+      "hypothesis": [],
+      "substitutions": 0,
+      "deletions": 4,
+      "insertions": 0,
+      "reference_tokens": 4,
+      "CTC_loss": 6.226507663726807,
+      "blank_frames": 21,
+      "output_frames": 21
+    },
+    {
+      "sample_id": "asllrp3_1c787271cb80fda4",
+      "reference": [
+        "IX-1p",
+        "NOT",
+        "WANT_2",
+        "READ+",
+        "IX-1p",
+        "WANT",
+        "DEPART"
+      ],
+      "hypothesis": [],
+      "substitutions": 0,
+      "deletions": 7,
+      "insertions": 0,
+      "reference_tokens": 7,
+      "CTC_loss": 5.239182949066162,
+      "blank_frames": 30,
+      "output_frames": 30
+    },
+    {
+      "sample_id": "asllrp3_1cb026a006162a79",
+      "reference": [
+        "POSS-1p",
+        "CAR",
+        "DIFFERENT",
+        "NOW",
+        "NOT",
+        "BIG",
+        "(1h)NOW",
+        "SMALL"
+      ],
+      "hypothesis": [],
+      "substitutions": 0,
+      "deletions": 8,
+      "insertions": 0,
+      "reference_tokens": 8,
+      "CTC_loss": 6.089052200317383,
+      "blank_frames": 29,
+      "output_frames": 29
+    },
+    {
+      "sample_id": "asllrp3_1de0a3b5aa32c1f2",
+      "reference": [
+        "ns-fs-MARY",
+        "DECIDE",
+        "FUTURE",
+        "TELL:j",
+        "ns-fs-JOHN"
+      ],
+      "hypothesis": [],
+      "substitutions": 0,
+      "deletions": 5,
+      "insertions": 0,
+      "reference_tokens": 5,
+      "CTC_loss": 6.738320827484131,
+      "blank_frames": 27,
+      "output_frames": 27
+    },
+    {
+      "sample_id": "asllrp3_1e458742a29e665a",
+      "reference": [
+        "IX-3p:i",
+        "(Y)YESTERDAY",
+        "ns-fs-JOHN",
+        "DECIDE",
+        "DO-DO+",
+        "part:indef"
+      ],
+      "hypothesis": [],
+      "substitutions": 0,
+      "deletions": 6,
+      "insertions": 0,
+      "reference_tokens": 6,
+      "CTC_loss": 6.365563869476318,
+      "blank_frames": 31,
+      "output_frames": 31
+    },
+    {
+      "sample_id": "asllrp3_2b9a2bf445c11968",
+      "reference": [
+        "NOT",
+        "ONLY",
+        "IN",
+        "HOSPITAL",
+        "BUT",
+        "MORE",
+        "GENERAL"
+      ],
+      "hypothesis": [],
+      "substitutions": 0,
+      "deletions": 7,
+      "insertions": 0,
+      "reference_tokens": 7,
+      "CTC_loss": 8.267205238342285,
+      "blank_frames": 23,
+      "output_frames": 23
+    },
+    {
+      "sample_id": "asllrp3_2cdc0e6201284bad",
+      "reference": [
+        "part:indef",
+        "MOTHER",
+        "TEACH",
+        "IX-1p+",
+        "AND",
+        "TWO",
+        "BROTHER",
+        "EASY",
+        "MOVE",
+        "part:indef"
+      ],
+      "hypothesis": [],
+      "substitutions": 0,
+      "deletions": 10,
+      "insertions": 0,
+      "reference_tokens": 10,
+      "CTC_loss": 7.166889190673828,
+      "blank_frames": 47,
+      "output_frames": 47
+    },
+    {
+      "sample_id": "asllrp3_3429ff5aff4e6fe7",
+      "reference": [
+        "MEAN",
+        "IX-1p+",
+        "FINISH",
+        "GRADUATE",
+        "PAST+"
+      ],
+      "hypothesis": [],
+      "substitutions": 0,
+      "deletions": 5,
+      "insertions": 0,
+      "reference_tokens": 5,
+      "CTC_loss": 7.237331390380859,
+      "blank_frames": 32,
+      "output_frames": 32
+    },
+    {
+      "sample_id": "asllrp3_35284858338db8f7",
+      "reference": [
+        "IX-1p",
+        "KNOW+",
+        "IX-3p:i",
+        "READ",
+        "MANY",
+        "BOOK"
+      ],
+      "hypothesis": [],
+      "substitutions": 0,
+      "deletions": 6,
+      "insertions": 0,
+      "reference_tokens": 6,
+      "CTC_loss": 5.843870162963867,
+      "blank_frames": 25,
+      "output_frames": 25
+    },
+    {
+      "sample_id": "asllrp3_393aa142bad460ac",
+      "reference": [
+        "IX-1p",
+        "KNOW+",
+        "IX-3p:i",
+        "FINISH",
+        "READ",
+        "BOOK"
+      ],
+      "hypothesis": [],
+      "substitutions": 0,
+      "deletions": 6,
+      "insertions": 0,
+      "reference_tokens": 6,
+      "CTC_loss": 5.613964557647705,
+      "blank_frames": 23,
+      "output_frames": 23
+    },
+    {
+      "sample_id": "asllrp3_3ac54cbe46704471",
+      "reference": [
+        "UP-TO-NOW",
+        "(L)LIVE",
+        "IX-loc:i",
+        "AROUND",
+        "ALMOST",
+        "THREE",
+        "YEAR"
+      ],
+      "hypothesis": [],
+      "substitutions": 0,
+      "deletions": 7,
+      "insertions": 0,
+      "reference_tokens": 7,
+      "CTC_loss": 7.766869068145752,
+      "blank_frames": 41,
+      "output_frames": 41
+    },
+    {
+      "sample_id": "asllrp3_3f4a23b8e27c980f",
+      "reference": [
+        "IX-3p:i",
+        "ns-fs-JOHN",
+        "(1h)HAVE",
+        "DIFFERENT",
+        "CAR+"
+      ],
+      "hypothesis": [],
+      "substitutions": 0,
+      "deletions": 5,
+      "insertions": 0,
+      "reference_tokens": 5,
+      "CTC_loss": 5.814594268798828,
+      "blank_frames": 32,
+      "output_frames": 32
+    },
+    {
+      "sample_id": "asllrp3_4019d8621080e327",
+      "reference": [
+        "ns-fs-MARY",
+        "IX-loc:i",
+        "DECIDE",
+        "(1h)PAY/BUY",
+        "NEW",
+        "CAR"
+      ],
+      "hypothesis": [],
+      "substitutions": 0,
+      "deletions": 6,
+      "insertions": 0,
+      "reference_tokens": 6,
+      "CTC_loss": 6.075667858123779,
+      "blank_frames": 32,
+      "output_frames": 32
+    },
+    {
+      "sample_id": "asllrp3_41077c9bfcc5be12",
+      "reference": [
+        "POSS-1p",
+        "FRIEND",
+        "i:TELL-1p",
+        "IX-3p:i",
+        "BORN",
+        "ns-CHICAGO"
+      ],
+      "hypothesis": [],
+      "substitutions": 0,
+      "deletions": 6,
+      "insertions": 0,
+      "reference_tokens": 6,
+      "CTC_loss": 6.982327938079834,
+      "blank_frames": 25,
+      "output_frames": 25
+    },
+    {
+      "sample_id": "asllrp3_42771e7b1a5dcdce",
+      "reference": [
+        "MAYBE",
+        "ns-fs-MARY",
+        "FUTURE",
+        "(1h)PAY/BUY",
+        "CAR"
+      ],
+      "hypothesis": [],
+      "substitutions": 0,
+      "deletions": 5,
+      "insertions": 0,
+      "reference_tokens": 5,
+      "CTC_loss": 6.594788551330566,
+      "blank_frames": 31,
+      "output_frames": 31
+    },
+    {
+      "sample_id": "asllrp3_494f2a5f6d3a10a9",
+      "reference": [
+        "IX-3p:i",
+        "ns-fs-MARY",
+        "NOT",
+        "HERE",
+        "IX-3p:i",
+        "DEPART",
+        "RECENT-PAST"
+      ],
+      "hypothesis": [],
+      "substitutions": 0,
+      "deletions": 7,
+      "insertions": 0,
+      "reference_tokens": 7,
+      "CTC_loss": 5.10540246963501,
+      "blank_frames": 27,
+      "output_frames": 27
+    },
+    {
+      "sample_id": "asllrp3_4d329f5d34988526",
+      "reference": [
+        "IX-1p",
+        "DEPART",
+        "(2h)LOOK",
+        "MOVIE",
+        "FINISH",
+        "(1h)part:indef"
+      ],
+      "hypothesis": [],
+      "substitutions": 0,
+      "deletions": 6,
+      "insertions": 0,
+      "reference_tokens": 6,
+      "CTC_loss": 5.530665874481201,
+      "blank_frames": 31,
+      "output_frames": 31
+    },
+    {
+      "sample_id": "asllrp3_4f9e5dc9019bbf2d",
+      "reference": [
+        "IX-3p:i",
+        "(5)MAN",
+        "DECIDE",
+        "WANT+NEG",
+        "BIG",
+        "CAR",
+        "FAVORITE/PREFER",
+        "SMALL",
+        "CAR"
+      ],
+      "hypothesis": [],
+      "substitutions": 0,
+      "deletions": 9,
+      "insertions": 0,
+      "reference_tokens": 9,
+      "CTC_loss": 6.562878131866455,
+      "blank_frames": 35,
+      "output_frames": 35
+    },
+    {
+      "sample_id": "asllrp3_5418574fe1b71fd7",
+      "reference": [
+        "IX-1p",
+        "HERE",
+        "ALL-DAY",
+        "IX-1p",
+        "WANT_3",
+        "GO-OUT"
+      ],
+      "hypothesis": [],
+      "substitutions": 0,
+      "deletions": 6,
+      "insertions": 0,
+      "reference_tokens": 6,
+      "CTC_loss": 6.49567985534668,
+      "blank_frames": 25,
+      "output_frames": 25
+    },
+    {
+      "sample_id": "asllrp3_5455b88ff3559d60",
+      "reference": [
+        "IX-3p:i",
+        "ns-fs-JOHN",
+        "FINISH-shake",
+        "DECIDE",
+        "FUTURE",
+        "(1h)PAY/BUY",
+        "CAR"
+      ],
+      "hypothesis": [],
+      "substitutions": 0,
+      "deletions": 7,
+      "insertions": 0,
+      "reference_tokens": 7,
+      "CTC_loss": 6.263132572174072,
+      "blank_frames": 38,
+      "output_frames": 38
+    },
+    {
+      "sample_id": "asllrp3_57a552adf38ffe9e",
+      "reference": [
+        "MANY",
+        "(2h)THING",
+        "WRONG",
+        "WITH",
+        "SYSTEM",
+        "(1h)part:indef"
+      ],
+      "hypothesis": [],
+      "substitutions": 0,
+      "deletions": 6,
+      "insertions": 0,
+      "reference_tokens": 6,
+      "CTC_loss": 7.614238739013672,
+      "blank_frames": 21,
+      "output_frames": 21
+    },
+    {
+      "sample_id": "asllrp3_5969eee0186dcd38",
+      "reference": [
+        "IX-3p:i",
+        "FINISH",
+        "DECIDE",
+        "DO-DO+"
+      ],
+      "hypothesis": [],
+      "substitutions": 0,
+      "deletions": 4,
+      "insertions": 0,
+      "reference_tokens": 4,
+      "CTC_loss": 6.751591682434082,
+      "blank_frames": 21,
+      "output_frames": 21
+    },
+    {
+      "sample_id": "asllrp3_5aff711abdd166e7",
+      "reference": [
+        "NOW",
+        "(1h)HAVE",
+        "BIG",
+        "SCL:5-C\\big house\\\"\"",
+        "HOUSE",
+        "REALLY",
+        "BEAUTIFUL"
+      ],
+      "hypothesis": [],
+      "substitutions": 0,
+      "deletions": 7,
+      "insertions": 0,
+      "reference_tokens": 7,
+      "CTC_loss": 6.851081848144531,
+      "blank_frames": 31,
+      "output_frames": 31
+    },
+    {
+      "sample_id": "asllrp3_5da2b9ed01b4a3c9",
+      "reference": [
+        "IX-3p:i",
+        "ns-fs-MARY",
+        "MAYBE",
+        "BORN",
+        "FUTURE",
+        "WIDE",
+        "BABY",
+        "MAYBE"
+      ],
+      "hypothesis": [],
+      "substitutions": 0,
+      "deletions": 8,
+      "insertions": 0,
+      "reference_tokens": 8,
+      "CTC_loss": 7.123020648956299,
+      "blank_frames": 31,
+      "output_frames": 31
+    },
+    {
+      "sample_id": "asllrp3_60926b1cb36dac72",
+      "reference": [
+        "POSS-1p+",
+        "CAR",
+        "HERE"
+      ],
+      "hypothesis": [],
+      "substitutions": 0,
+      "deletions": 3,
+      "insertions": 0,
+      "reference_tokens": 3,
+      "CTC_loss": 6.661953449249268,
+      "blank_frames": 18,
+      "output_frames": 18
+    },
+    {
+      "sample_id": "asllrp3_61724878bdf0560c",
+      "reference": [
+        "IX-3p:i",
+        "ns-fs-MARY",
+        "KNOW",
+        "MANY",
+        "DIFFERENT-arc",
+        "LANGUAGE"
+      ],
+      "hypothesis": [],
+      "substitutions": 0,
+      "deletions": 6,
+      "insertions": 0,
+      "reference_tokens": 6,
+      "CTC_loss": 6.912621021270752,
+      "blank_frames": 22,
+      "output_frames": 22
+    },
+    {
+      "sample_id": "asllrp3_6240d93cf145b177",
+      "reference": [
+        "ns-fs-MARY",
+        "ARRIVE",
+        "LATE+"
+      ],
+      "hypothesis": [],
+      "substitutions": 0,
+      "deletions": 3,
+      "insertions": 0,
+      "reference_tokens": 3,
+      "CTC_loss": 6.202114105224609,
+      "blank_frames": 22,
+      "output_frames": 22
+    },
+    {
+      "sample_id": "asllrp3_659c3053beaaec98",
+      "reference": [
+        "IX-3p:i",
+        "(5)MAN",
+        "BORN",
+        "WHERE",
+        "ns-CHICAGO"
+      ],
+      "hypothesis": [],
+      "substitutions": 0,
+      "deletions": 5,
+      "insertions": 0,
+      "reference_tokens": 5,
+      "CTC_loss": 7.079026222229004,
+      "blank_frames": 24,
+      "output_frames": 24
+    },
+    {
+      "sample_id": "asllrp3_669b90c8a08a6573",
+      "reference": [
+        "IX-3p:i",
+        "(5)MAN",
+        "(1h)FINISH",
+        "TELL:j",
+        "DO-DO+"
+      ],
+      "hypothesis": [],
+      "substitutions": 0,
+      "deletions": 5,
+      "insertions": 0,
+      "reference_tokens": 5,
+      "CTC_loss": 8.434064865112305,
+      "blank_frames": 24,
+      "output_frames": 24
+    },
+    {
+      "sample_id": "asllrp3_69ace5e1b653fdb8",
+      "reference": [
+        "POSS-3p:i",
+        "CAR",
+        "HERE+"
+      ],
+      "hypothesis": [],
+      "substitutions": 0,
+      "deletions": 3,
+      "insertions": 0,
+      "reference_tokens": 3,
+      "CTC_loss": 7.3285675048828125,
+      "blank_frames": 23,
+      "output_frames": 23
+    },
+    {
+      "sample_id": "asllrp3_6ac529c55c77b7d7",
+      "reference": [
+        "IX-1p",
+        "(1h)WANT_2",
+        "GO-OUT",
+        "NOW"
+      ],
+      "hypothesis": [],
+      "substitutions": 0,
+      "deletions": 4,
+      "insertions": 0,
+      "reference_tokens": 4,
+      "CTC_loss": 6.041031360626221,
+      "blank_frames": 21,
+      "output_frames": 21
+    },
+    {
+      "sample_id": "asllrp3_71e4d9f6d71d40a5",
+      "reference": [
+        "RAIN",
+        "IX-2p",
+        "FAVORITE/PREFER",
+        "DRIVE"
+      ],
+      "hypothesis": [],
+      "substitutions": 0,
+      "deletions": 4,
+      "insertions": 0,
+      "reference_tokens": 4,
+      "CTC_loss": 6.645965576171875,
+      "blank_frames": 24,
+      "output_frames": 24
+    },
+    {
+      "sample_id": "asllrp3_72acd27644ecc346",
+      "reference": [
+        "MAYBE",
+        "POSS-3p:i",
+        "CAR",
+        "HERE"
+      ],
+      "hypothesis": [],
+      "substitutions": 0,
+      "deletions": 4,
+      "insertions": 0,
+      "reference_tokens": 4,
+      "CTC_loss": 6.869861125946045,
+      "blank_frames": 18,
+      "output_frames": 18
+    },
+    {
+      "sample_id": "asllrp3_7365226957b6e38f",
+      "reference": [
+        "ns-fs-MARY",
+        "NOW",
+        "(1h)HAVE",
+        "(1h)GOOD/THANK-YOU",
+        "CAR"
+      ],
+      "hypothesis": [],
+      "substitutions": 0,
+      "deletions": 5,
+      "insertions": 0,
+      "reference_tokens": 5,
+      "CTC_loss": 5.772156715393066,
+      "blank_frames": 30,
+      "output_frames": 30
+    },
+    {
+      "sample_id": "asllrp3_77581677a0ac74b3",
+      "reference": [
+        "SEE",
+        "PRESIDENT",
+        "LONG-AGO",
+        "#TV",
+        "IX-1p",
+        "LOOK",
+        "NOW",
+        "(L)LIVE",
+        "IX-1p",
+        "LOOK",
+        "FACE",
+        "DIFFERENT"
+      ],
+      "hypothesis": [],
+      "substitutions": 0,
+      "deletions": 12,
+      "insertions": 0,
+      "reference_tokens": 12,
+      "CTC_loss": 6.95745325088501,
+      "blank_frames": 38,
+      "output_frames": 38
+    },
+    {
+      "sample_id": "asllrp3_7eb03f7e82d67f05",
+      "reference": [
+        "LONG-AGO+",
+        "POSS-3p:i",
+        "ns-fs-MARY",
+        "NAME",
+        "DO-DO+"
+      ],
+      "hypothesis": [],
+      "substitutions": 0,
+      "deletions": 5,
+      "insertions": 0,
+      "reference_tokens": 5,
+      "CTC_loss": 7.642899990081787,
+      "blank_frames": 25,
+      "output_frames": 25
+    },
+    {
+      "sample_id": "asllrp3_91cf89fed7a133db",
+      "reference": [
+        "ns-fs-JOHN",
+        "DECIDE",
+        "DO-DO",
+        "(Y)YESTERDAY",
+        "part:indef"
+      ],
+      "hypothesis": [],
+      "substitutions": 0,
+      "deletions": 5,
+      "insertions": 0,
+      "reference_tokens": 5,
+      "CTC_loss": 6.379580497741699,
+      "blank_frames": 26,
+      "output_frames": 26
+    },
+    {
+      "sample_id": "asllrp3_93cc08cd0553d0cd",
+      "reference": [
+        "FUTURE",
+        "SEARCH-FOR",
+        "FOR",
+        "#JOB",
+        "IX-3p:i",
+        "MEAN",
+        "FUTURE",
+        "MOVE"
+      ],
+      "hypothesis": [],
+      "substitutions": 0,
+      "deletions": 8,
+      "insertions": 0,
+      "reference_tokens": 8,
+      "CTC_loss": 6.53568172454834,
+      "blank_frames": 33,
+      "output_frames": 33
+    },
+    {
+      "sample_id": "asllrp3_951e994a7bee6608",
+      "reference": [
+        "IX-3p:i",
+        "KNOW",
+        "MANY",
+        "DIFFERENT-arc",
+        "(5)MAN"
+      ],
+      "hypothesis": [],
+      "substitutions": 0,
+      "deletions": 5,
+      "insertions": 0,
+      "reference_tokens": 5,
+      "CTC_loss": 6.904116630554199,
+      "blank_frames": 22,
+      "output_frames": 22
+    },
+    {
+      "sample_id": "asllrp3_982ec0ba59323430",
+      "reference": [
+        "ns-fs-MARY",
+        "LONG-AGO+",
+        "(L)LIVE",
+        "ns-BOSTON"
+      ],
+      "hypothesis": [],
+      "substitutions": 0,
+      "deletions": 4,
+      "insertions": 0,
+      "reference_tokens": 4,
+      "CTC_loss": 7.022307872772217,
+      "blank_frames": 21,
+      "output_frames": 21
+    },
+    {
+      "sample_id": "asllrp3_9a1c6b466c0d6f5d",
+      "reference": [
+        "IX-3p:i",
+        "(5)MAN",
+        "FINISH",
+        "DECIDE",
+        "READ",
+        "BOOK",
+        "TOMORROW"
+      ],
+      "hypothesis": [],
+      "substitutions": 0,
+      "deletions": 7,
+      "insertions": 0,
+      "reference_tokens": 7,
+      "CTC_loss": 6.115950107574463,
+      "blank_frames": 30,
+      "output_frames": 30
+    },
+    {
+      "sample_id": "asllrp3_9d23ef7cc6fdd9d0",
+      "reference": [
+        "IX-1p",
+        "1p-TELL:i",
+        "IX-1p",
+        "FINISH",
+        "IX-1p",
+        "GO-OUT",
+        "TOMORROW"
+      ],
+      "hypothesis": [],
+      "substitutions": 0,
+      "deletions": 7,
+      "insertions": 0,
+      "reference_tokens": 7,
+      "CTC_loss": 5.327369689941406,
+      "blank_frames": 23,
+      "output_frames": 23
+    },
+    {
+      "sample_id": "asllrp3_a0d346c32ab17c39",
+      "reference": [
+        "IX-3p:i",
+        "CAN",
+        "READ_2",
+        "WRITE",
+        "IX-3p:i",
+        "(1h)CAN",
+        "COMMUNICATE",
+        "(1h)part:indef",
+        "CAN",
+        "WORK+",
+        "IX-3p:i",
+        "HAVE",
+        "(1h)#ED",
+        "(1h)part:indef",
+        "LIST-ORDER",
+        "IX-3p:i",
+        "part:indef"
+      ],
+      "hypothesis": [],
+      "substitutions": 0,
+      "deletions": 17,
+      "insertions": 0,
+      "reference_tokens": 17,
+      "CTC_loss": 6.075145721435547,
+      "blank_frames": 64,
+      "output_frames": 64
+    },
+    {
+      "sample_id": "asllrp3_a2e9943352b62995",
+      "reference": [
+        "ns-fs-MARY",
+        "FINISH",
+        "BORN",
+        "BABY",
+        "GIRL+",
+        "FINISH"
+      ],
+      "hypothesis": [],
+      "substitutions": 0,
+      "deletions": 6,
+      "insertions": 0,
+      "reference_tokens": 6,
+      "CTC_loss": 6.824727535247803,
+      "blank_frames": 28,
+      "output_frames": 28
+    },
+    {
+      "sample_id": "asllrp3_a5466d81bd4900a1",
+      "reference": [
+        "IX-3p:i",
+        "ns-fs-MARY",
+        "(1h)HAVE",
+        "DIFFERENT",
+        "BICYCLE"
+      ],
+      "hypothesis": [],
+      "substitutions": 0,
+      "deletions": 5,
+      "insertions": 0,
+      "reference_tokens": 5,
+      "CTC_loss": 5.985625267028809,
+      "blank_frames": 35,
+      "output_frames": 35
+    },
+    {
+      "sample_id": "asllrp3_a580f08744b95afc",
+      "reference": [
+        "IX-3p:i",
+        "FUTURE",
+        "BECOME",
+        "PLUS",
+        "part:indef"
+      ],
+      "hypothesis": [],
+      "substitutions": 0,
+      "deletions": 5,
+      "insertions": 0,
+      "reference_tokens": 5,
+      "CTC_loss": 6.576245307922363,
+      "blank_frames": 16,
+      "output_frames": 16
+    },
+    {
+      "sample_id": "asllrp3_a7c6053ee62da447",
+      "reference": [
+        "ns-fs-MARY",
+        "FORMERLY",
+        "TEACH",
+        "BUT",
+        "NOW",
+        "IX-3p:i",
+        "BECOME",
+        "INTERNET",
+        "WORK+"
+      ],
+      "hypothesis": [],
+      "substitutions": 0,
+      "deletions": 9,
+      "insertions": 0,
+      "reference_tokens": 9,
+      "CTC_loss": 6.964085102081299,
+      "blank_frames": 42,
+      "output_frames": 42
+    },
+    {
+      "sample_id": "asllrp3_a85733fd765c39ad",
+      "reference": [
+        "ns-fs-JOHN",
+        "ARRIVE",
+        "(Y)YESTERDAY"
+      ],
+      "hypothesis": [],
+      "substitutions": 0,
+      "deletions": 3,
+      "insertions": 0,
+      "reference_tokens": 3,
+      "CTC_loss": 6.578542709350586,
+      "blank_frames": 32,
+      "output_frames": 32
+    },
+    {
+      "sample_id": "asllrp3_adb22b0ae8cb894c",
+      "reference": [
+        "NEXT-WEEK",
+        "IX-1p",
+        "HOPE",
+        "IX-1p",
+        "PASS",
+        "TEST"
+      ],
+      "hypothesis": [],
+      "substitutions": 0,
+      "deletions": 6,
+      "insertions": 0,
+      "reference_tokens": 6,
+      "CTC_loss": 6.669471740722656,
+      "blank_frames": 28,
+      "output_frames": 28
+    },
+    {
+      "sample_id": "asllrp3_b4e6f9b173c4b2ad",
+      "reference": [
+        "IX-2p",
+        "KNOW+",
+        "PRESIDENT",
+        "ARRIVE",
+        "(Y)YESTERDAY"
+      ],
+      "hypothesis": [],
+      "substitutions": 0,
+      "deletions": 5,
+      "insertions": 0,
+      "reference_tokens": 5,
+      "CTC_loss": 6.3829803466796875,
+      "blank_frames": 24,
+      "output_frames": 24
+    },
+    {
+      "sample_id": "asllrp3_b715dc03ce348ce8",
+      "reference": [
+        "REALLY",
+        "CAN",
+        "ALL",
+        "IX-3p:i",
+        "CAN",
+        "USE-SIGN-LANGUAGE",
+        "IX-3p:j",
+        "WANT_2",
+        "LEARN",
+        "TALKwg",
+        "SPEECH/ORAL"
+      ],
+      "hypothesis": [],
+      "substitutions": 0,
+      "deletions": 11,
+      "insertions": 0,
+      "reference_tokens": 11,
+      "CTC_loss": 7.016607761383057,
+      "blank_frames": 52,
+      "output_frames": 52
+    },
+    {
+      "sample_id": "asllrp3_b8b332526e5361da",
+      "reference": [
+        "IX-1p",
+        "BORN",
+        "ns-BOSTON",
+        "GROW-UP",
+        "NOW",
+        "IX-1p",
+        "LIVE",
+        "HERE",
+        "MANY",
+        "YEAR"
+      ],
+      "hypothesis": [],
+      "substitutions": 0,
+      "deletions": 10,
+      "insertions": 0,
+      "reference_tokens": 10,
+      "CTC_loss": 6.959986686706543,
+      "blank_frames": 33,
+      "output_frames": 33
+    },
+    {
+      "sample_id": "asllrp3_bd59754d52abaf1a",
+      "reference": [
+        "ns-fs-MARY",
+        "ENJOY",
+        "ACT+",
+        "READ+",
+        "NOT"
+      ],
+      "hypothesis": [],
+      "substitutions": 0,
+      "deletions": 5,
+      "insertions": 0,
+      "reference_tokens": 5,
+      "CTC_loss": 6.688096523284912,
+      "blank_frames": 34,
+      "output_frames": 34
+    },
+    {
+      "sample_id": "asllrp3_c820ca6bf469097c",
+      "reference": [
+        "NEXT-WEEK",
+        "HOPE",
+        "ns-fs-JOHN",
+        "ARRIVE",
+        "ON",
+        "TIME",
+        "part:indef"
+      ],
+      "hypothesis": [],
+      "substitutions": 0,
+      "deletions": 7,
+      "insertions": 0,
+      "reference_tokens": 7,
+      "CTC_loss": 6.520151615142822,
+      "blank_frames": 30,
+      "output_frames": 30
+    },
+    {
+      "sample_id": "asllrp3_c858509ef73f63a2",
+      "reference": [
+        "ns-fs-MARY",
+        "IX-loc:i",
+        "(1h)PAY/BUY",
+        "CAR",
+        "(Y)YESTERDAY"
+      ],
+      "hypothesis": [],
+      "substitutions": 0,
+      "deletions": 5,
+      "insertions": 0,
+      "reference_tokens": 5,
+      "CTC_loss": 6.281787872314453,
+      "blank_frames": 33,
+      "output_frames": 33
+    },
+    {
+      "sample_id": "asllrp3_ca4d9ba0d05a5478",
+      "reference": [
+        "IX-3p:i",
+        "DECIDE",
+        "TELL:j",
+        "ns-fs-JOHN",
+        "DO-DO+"
+      ],
+      "hypothesis": [],
+      "substitutions": 0,
+      "deletions": 5,
+      "insertions": 0,
+      "reference_tokens": 5,
+      "CTC_loss": 7.459784030914307,
+      "blank_frames": 22,
+      "output_frames": 22
+    },
+    {
+      "sample_id": "asllrp3_cb0290c30dd95c05",
+      "reference": [
+        "IX-1p",
+        "KNOW",
+        "IX-3p:i",
+        "FINISH",
+        "i:TELL-1p",
+        "PAST+",
+        "FINISH"
+      ],
+      "hypothesis": [],
+      "substitutions": 0,
+      "deletions": 7,
+      "insertions": 0,
+      "reference_tokens": 7,
+      "CTC_loss": 6.155527591705322,
+      "blank_frames": 23,
+      "output_frames": 23
+    },
+    {
+      "sample_id": "asllrp3_cfc6fca988fcb269",
+      "reference": [
+        "ns-fs-MARY",
+        "LOVE",
+        "MANY",
+        "(5)MAN",
+        "part:indef"
+      ],
+      "hypothesis": [],
+      "substitutions": 0,
+      "deletions": 5,
+      "insertions": 0,
+      "reference_tokens": 5,
+      "CTC_loss": 6.099239826202393,
+      "blank_frames": 26,
+      "output_frames": 26
+    },
+    {
+      "sample_id": "asllrp3_d07ae4a18cc66093",
+      "reference": [
+        "ns-fs-MARY",
+        "IX-loc:i",
+        "KNOW+",
+        "RAIN+",
+        "HERE",
+        "(Y)YESTERDAY"
+      ],
+      "hypothesis": [],
+      "substitutions": 0,
+      "deletions": 6,
+      "insertions": 0,
+      "reference_tokens": 6,
+      "CTC_loss": 6.373846054077148,
+      "blank_frames": 42,
+      "output_frames": 42
+    },
+    {
+      "sample_id": "asllrp3_d78533714ba65d1a",
+      "reference": [
+        "NEXT-WEEK",
+        "IX-1p",
+        "GO",
+        "AGAIN",
+        "MOVIE"
+      ],
+      "hypothesis": [],
+      "substitutions": 0,
+      "deletions": 5,
+      "insertions": 0,
+      "reference_tokens": 5,
+      "CTC_loss": 6.3577423095703125,
+      "blank_frames": 27,
+      "output_frames": 27
+    },
+    {
+      "sample_id": "asllrp3_d8efd03ab52b8da4",
+      "reference": [
+        "IF",
+        "TOMORROW",
+        "RAIN",
+        "STOP",
+        "IX-1p",
+        "DEPART"
+      ],
+      "hypothesis": [],
+      "substitutions": 0,
+      "deletions": 6,
+      "insertions": 0,
+      "reference_tokens": 6,
+      "CTC_loss": 6.5016865730285645,
+      "blank_frames": 26,
+      "output_frames": 26
+    },
+    {
+      "sample_id": "asllrp3_dac36cbddc1c5409",
+      "reference": [
+        "IX-1p",
+        "NOT",
+        "WANT",
+        "GO-OUT",
+        "RAIN+",
+        "NOW",
+        "part:indef"
+      ],
+      "hypothesis": [],
+      "substitutions": 0,
+      "deletions": 7,
+      "insertions": 0,
+      "reference_tokens": 7,
+      "CTC_loss": 4.907844066619873,
+      "blank_frames": 23,
+      "output_frames": 23
+    },
+    {
+      "sample_id": "asllrp3_e1590e6af3e7560b",
+      "reference": [
+        "(Y)YESTERDAY",
+        "RAIN+",
+        "ALL-DAY"
+      ],
+      "hypothesis": [],
+      "substitutions": 0,
+      "deletions": 3,
+      "insertions": 0,
+      "reference_tokens": 3,
+      "CTC_loss": 8.660895347595215,
+      "blank_frames": 32,
+      "output_frames": 32
+    },
+    {
+      "sample_id": "asllrp3_e15ce0a215e9a1ea",
+      "reference": [
+        "NEXT-WEEK",
+        "IX-1p",
+        "DEPART",
+        "SPEND",
+        "MONEY",
+        "AGAIN"
+      ],
+      "hypothesis": [],
+      "substitutions": 0,
+      "deletions": 6,
+      "insertions": 0,
+      "reference_tokens": 6,
+      "CTC_loss": 7.510264873504639,
+      "blank_frames": 30,
+      "output_frames": 30
+    },
+    {
+      "sample_id": "asllrp3_e246ee9429fcfa93",
+      "reference": [
+        "ns-fs-JOHN",
+        "MAYBE",
+        "FUTURE",
+        "LIVE",
+        "HERE"
+      ],
+      "hypothesis": [],
+      "substitutions": 0,
+      "deletions": 5,
+      "insertions": 0,
+      "reference_tokens": 5,
+      "CTC_loss": 6.619494438171387,
+      "blank_frames": 30,
+      "output_frames": 30
+    },
+    {
+      "sample_id": "asllrp3_e263157b3ad6cf33",
+      "reference": [
+        "KNOW",
+        "IX-3p:i",
+        "DURING/WHILE",
+        "DEAF",
+        "NOT"
+      ],
+      "hypothesis": [],
+      "substitutions": 0,
+      "deletions": 5,
+      "insertions": 0,
+      "reference_tokens": 5,
+      "CTC_loss": 5.76938533782959,
+      "blank_frames": 21,
+      "output_frames": 21
+    },
+    {
+      "sample_id": "asllrp3_ee2bfab62b712278",
+      "reference": [
+        "(1h)NOW",
+        "RECENT-PAST",
+        "ARRIVE",
+        "NOW"
+      ],
+      "hypothesis": [],
+      "substitutions": 0,
+      "deletions": 4,
+      "insertions": 0,
+      "reference_tokens": 4,
+      "CTC_loss": 6.519741058349609,
+      "blank_frames": 21,
+      "output_frames": 21
+    },
+    {
+      "sample_id": "asllrp3_ee82a5315fb2d32c",
+      "reference": [
+        "MAYBE",
+        "TOMORROW",
+        "RAIN",
+        "FINISH",
+        "STOP"
+      ],
+      "hypothesis": [],
+      "substitutions": 0,
+      "deletions": 5,
+      "insertions": 0,
+      "reference_tokens": 5,
+      "CTC_loss": 6.7458930015563965,
+      "blank_frames": 23,
+      "output_frames": 23
+    },
+    {
+      "sample_id": "asllrp3_f182e6fd05424c68",
+      "reference": [
+        "IX-1p",
+        "BORN",
+        "IX-loc:i",
+        "ns-#FLA"
+      ],
+      "hypothesis": [],
+      "substitutions": 0,
+      "deletions": 4,
+      "insertions": 0,
+      "reference_tokens": 4,
+      "CTC_loss": 7.310709476470947,
+      "blank_frames": 28,
+      "output_frames": 28
+    },
+    {
+      "sample_id": "asllrp3_f53dbfa5c07fb591",
+      "reference": [
+        "IX-3p-pl-2:i/j",
+        "ns-fs-MARY",
+        "ns-fs-JOHN",
+        "FUTURE",
+        "DEPART",
+        "TOMORROW"
+      ],
+      "hypothesis": [],
+      "substitutions": 0,
+      "deletions": 6,
+      "insertions": 0,
+      "reference_tokens": 6,
+      "CTC_loss": 5.771703720092773,
+      "blank_frames": 27,
+      "output_frames": 27
+    },
+    {
+      "sample_id": "asllrp3_fd6e3a238d36eda6",
+      "reference": [
+        "(1h)WOW/AWFUL",
+        "NOW",
+        "RAIN",
+        "FORGET-IT",
+        "IX-1p",
+        "GO-OUT"
+      ],
+      "hypothesis": [],
+      "substitutions": 0,
+      "deletions": 6,
+      "insertions": 0,
+      "reference_tokens": 6,
+      "CTC_loss": 6.396694660186768,
+      "blank_frames": 27,
+      "output_frames": 27
+    },
+    {
+      "sample_id": "asllrp3_ff2c5106efe8031c",
+      "reference": [
+        "MAYBE",
+        "IX-3p-pl-2:i/j",
+        "ns-fs-JOHN",
+        "ns-fs-MARY",
+        "DECIDE",
+        "WORK",
+        "WITH",
+        "NOW",
+        "part:indef"
+      ],
+      "hypothesis": [],
+      "substitutions": 0,
+      "deletions": 9,
+      "insertions": 0,
+      "reference_tokens": 9,
+      "CTC_loss": 6.176416873931885,
+      "blank_frames": 35,
+      "output_frames": 35
+    }
+  ]
+}

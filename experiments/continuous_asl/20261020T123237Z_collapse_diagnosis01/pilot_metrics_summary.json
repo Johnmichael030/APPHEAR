@@ -1,0 +1,7 @@
+{
+  "train_multi_token_outputs": 64,
+  "dev_correct_tokens": 84,
+  "dev_correct_fraction": 0.02595797280593325,
+  "DEV_tokens_without_subset_training_support": 1399,
+  "subset_support_missing_fraction": 0.4323238566131026
+}

@@ -1,0 +1,30 @@
+{
+  "status": "PARTIAL_EXCLUDE_OVERLAPPING_UTTERANCES",
+  "source_utterances": 278,
+  "source_master_files": 4,
+  "overlap_pairs": [
+    {
+      "master_video": "RIT-P02-new_front.mov",
+      "left_id": "rit3_266fca416aa4fae3",
+      "right_id": "rit3_351705a58575e0a7",
+      "left_frames": [
+        1921,
+        2031
+      ],
+      "right_frames": [
+        2031,
+        2260
+      ],
+      "reason": "INCLUSIVE_MASTER_FRAME_UTTERANCE_OVERLAP_NO_TRIMMING"
+    }
+  ],
+  "reject_sample_ids": [
+    "rit3_266fca416aa4fae3",
+    "rit3_351705a58575e0a7"
+  ],
+  "nonoverlapping_annotation_candidates": 276,
+  "plan_sha256": "5d06d737cca2e8e6f1603010ca15363957598e1e9c59c6a65eb01e3500197688",
+  "coordinate_semantics": "Unchanged publisher inclusive master frame ranges; endpoints shared by two utterances are overlap and both are excluded.",
+  "visual_boundary_accuracy_claim": false,
+  "script_sha256": "b9e0ff714adec921144e685b4338bfa41f26f761811e60ddbecd3435755f2c6e"
+}

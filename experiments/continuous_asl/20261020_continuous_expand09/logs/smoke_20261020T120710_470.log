@@ -1,0 +1,11 @@
+Traceback (most recent call last):
+  File "D:\apphearv3claude\AppHear-claude-s2-r3-eval-suite\AppHear-claude-s2-r3-eval-suite\experiments\continuous_asl\20261020_continuous_expand09\tools\train_pilot.py", line 167, in <module>
+    else:train(args.name,args.resume)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\apphearv3claude\AppHear-claude-s2-r3-eval-suite\AppHear-claude-s2-r3-eval-suite\experiments\continuous_asl\20261020_continuous_expand09\tools\train_pilot.py", line 95, in train
+    if not (out/'initial_train_monitor.json').exists():write(out/'initial_train_monitor.json',evaluate(model,monitor,data,vocabulary,'cuda:0'))
+                                                                                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\apphearv3claude\AppHear-claude-s2-r3-eval-suite\AppHear-claude-s2-r3-eval-suite\tools\continuous_asl\ctc_experiment.py", line 106, in evaluate
+    wer=(counts['substitutions']+counts['deletions']+counts['insertions'])/counts['reference_tokens']
+        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~
+ZeroDivisionError: division by zero

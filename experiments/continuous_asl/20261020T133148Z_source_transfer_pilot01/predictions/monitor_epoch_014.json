@@ -1,0 +1,3771 @@
+{
+  "gloss_WER": 0.8534635879218473,
+  "substitutions": 138,
+  "deletions": 823,
+  "insertions": 0,
+  "reference_tokens": 1126,
+  "CTC_loss": 3.5025574872270226,
+  "CTC_loss_samples": 128,
+  "utterances": 128,
+  "blank_argmax_fraction": 0.9490061909416748,
+  "output_frames": 6138,
+  "predicted_tokens": 303,
+  "unique_predicted_tokens": 141,
+  "top_predicted_token": "IX-1p",
+  "top_predicted_token_fraction": 0.19471947194719472,
+  "hypothesis_token_counts": {
+    "APPLAUSE+": 2,
+    "DEAF": 1,
+    "FIRST-IN-LIST": 3,
+    "IX-1p": 59,
+    "NOT": 11,
+    "(1h)5\\wave no\\\"\"": 6,
+    "(1h)part:indef": 3,
+    "RUN-OUT": 1,
+    "ARRIVE": 4,
+    "LATE+": 2,
+    "BOY+": 1,
+    "NONE/NOTHING": 4,
+    "fs-GOLD": 1,
+    "WEATHER": 6,
+    "IX-3p:i": 6,
+    "BREAK-DOWN": 2,
+    "BOOK": 2,
+    "QMwg": 1,
+    "SON": 2,
+    "IX-loc:i": 6,
+    "INTERPRET": 1,
+    "STRANGE": 1,
+    "(2h)LOOK-FORWARD": 1,
+    "FOOTBALL": 1,
+    "SELF-3p+:i": 1,
+    "TIRED": 1,
+    "(2h)ANY+(2h)THING": 1,
+    "part:indef": 8,
+    "SNOW": 3,
+    "SCHOOL": 3,
+    "PINEAPPLE": 3,
+    "CHEESE": 3,
+    "fs-LOX": 1,
+    "COMMUTE": 2,
+    "CANCEL/CRITICIZE": 2,
+    "COUSIN": 1,
+    "fs-TRUCK": 1,
+    "CAR": 1,
+    "GO-OUT": 5,
+    "SELL+": 1,
+    "fs-LATE": 2,
+    "GRAB-CHANCE": 1,
+    "DRUNK": 1,
+    "DIRECT/EXPLAIN": 1,
+    "#DO+part:indef": 1,
+    "CULTURE": 2,
+    "BPCL:1\\voice loop from mouth to ear\\\"\"": 1,
+    "MEAN": 2,
+    "SOME": 4,
+    "fs-ORIENTATION": 4,
+    "fs-SENSORY": 3,
+    "NOISE": 6,
+    "NOISE+RUMBLE": 1,
+    "CAN": 1,
+    "VISUALIZE": 3,
+    "HEAR+(1h)NOISE": 1,
+    "HOMEWORK": 2,
+    "LOVE": 1,
+    "(1h)5\\wave no\\\"+\"": 1,
+    "fs-CREAM": 1,
+    "5\\frustration\\\"\"": 1,
+    "CLASS_2": 2,
+    "LIKE": 3,
+    "WHERE": 1,
+    "HOME": 1,
+    "IX-2p": 3,
+    "SORRY": 2,
+    "DCL:S-5\\throw out of plane\\\"\"": 1,
+    "AIRPLANE": 1,
+    "MISTAKE": 1,
+    "RECENT-PAST": 1,
+    "INVITE/HIRE": 1,
+    "FRIEND": 5,
+    "BICYCLE": 2,
+    "GROUP/TOGETHER": 2,
+    "VOICE": 1,
+    "PERSON": 1,
+    "IX-3p-pl-circle": 1,
+    "TALK": 1,
+    "DCL:B-L\\overgoing with the range\\\"\"": 1,
+    "SHOW": 1,
+    "fs-SPEECH": 2,
+    "NUMBER": 1,
+    "DIFFERENT": 1,
+    "DCL:bent-1\\length of time\\\"\"": 1,
+    "SIGN": 1,
+    "DISCUSS++": 1,
+    "BLACK": 2,
+    "WHO": 2,
+    "CHILDREN": 1,
+    "ns-fs-PHIL": 1,
+    "ns-fs-BILL": 1,
+    "BROTHER": 1,
+    "SELF-3p:i": 1,
+    "BUTTER+": 1,
+    "MOTHER": 1,
+    "SIT-continuative": 1,
+    "WAIT+": 1,
+    "(crvd-5)POSS-1p": 1,
+    "LIE++": 1,
+    "PANTS_2": 1,
+    "A": 1,
+    "BOX/ROOM": 2,
+    "WIN": 1,
+    "DEPART": 2,
+    "RAIN+": 1,
+    "STILL": 1,
+    "DROP": 1,
+    "MOVIE_2": 1,
+    "(1h)LAST-YEAR": 1,
+    "MUST": 2,
+    "MOVE": 1,
+    "fs-CREAM+CHEESE": 1,
+    "FINISH": 1,
+    "LAPTOP": 1,
+    "INTERNET": 1,
+    "#PO": 1,
+    "5\\trepidation\\\"\"": 1,
+    "(2h)alt.USE-SIGN-LANGUAGE": 1,
+    "PAST+NIGHT": 1,
+    "ACT+AGENT": 1,
+    "RUN-MACHINE": 1,
+    "POSS-1p": 1,
+    "(1h)KEY": 1,
+    "FUNNY": 2,
+    "VEGETABLE": 1,
+    "BUTTER_2+": 1,
+    "(1h)5\\why is it so\\\"\"": 1,
+    "(1h)FINISH": 1,
+    "LIBRARY": 1,
+    "SIT++": 1,
+    "#NO+": 1,
+    "BELIEVE": 1,
+    "(1h)HAPPY+": 1,
+    "WINDOW+": 1,
+    "LEARN+AGENT": 1,
+    "SISTER": 1,
+    "TIME++": 1,
+    "SWIM+": 1,
+    "CHOCOLATE": 1,
+    "BOMB+": 1
+  },
+  "empty_hypotheses": 6,
+  "multi_token_hypotheses": 96,
+  "hypothesis_length_histogram": {
+    "0": 6,
+    "2": 38,
+    "1": 26,
+    "4": 16,
+    "3": 38,
+    "6": 3,
+    "5": 1
+  },
+  "predictions": [
+    {
+      "sample_id": "asllrp3_b8d81ee60519a130",
+      "reference": [
+        "IDEA",
+        "REALLY",
+        "MORE",
+        "TWO",
+        "DIFFERENT",
+        "SEPARATE",
+        "ROAD",
+        "SET-UP",
+        "ON",
+        "5\\let's see\\\"\"",
+        "(5)FIRST-IN-LIST",
+        "STORY",
+        "SYSTEM",
+        "HOW",
+        "EXPRESS"
+      ],
+      "hypothesis": [],
+      "substitutions": 0,
+      "deletions": 15,
+      "insertions": 0,
+      "reference_tokens": 15,
+      "CTC_loss": 5.490768909454346,
+      "blank_frames": 67,
+      "output_frames": 67,
+      "signer_id": "asllrp_dai_participant_5",
+      "source_group": "1-Introduction-SD.mov",
+      "capture_family": "asllrp_dai_participant_5::UNRESOLVED_ALL_UNDATED_MASTERS"
+    },
+    {
+      "sample_id": "asllrp3_81716c8cac04f3f5",
+      "reference": [
+        "ABOUT",
+        "(2h)alt.SEE",
+        "fs-VISION",
+        "SUPERIOR",
+        "fs-TYRANNY",
+        "fs-OF",
+        "fs-HEGEMONY",
+        "fs-OF",
+        "(2h)alt.SEE",
+        "SUPERIOR",
+        "DISCUSS",
+        "(1h)AREA",
+        "(2h)WOW",
+        "SUPERIOR"
+      ],
+      "hypothesis": [
+        "APPLAUSE+",
+        "DEAF"
+      ],
+      "substitutions": 2,
+      "deletions": 12,
+      "insertions": 0,
+      "reference_tokens": 14,
+      "CTC_loss": 5.734280586242676,
+      "blank_frames": 93,
+      "output_frames": 95,
+      "signer_id": "asllrp_dai_participant_5",
+      "source_group": "10-Conclusion.mov",
+      "capture_family": "asllrp_dai_participant_5::UNRESOLVED_ALL_UNDATED_MASTERS"
+    },
+    {
+      "sample_id": "asllrp3_091cd61d054e0934",
+      "reference": [
+        "FUTURE",
+        "VISUALIZE",
+        "THAT",
+        "(1h)PERSON",
+        "IX-3p:i",
+        "HIGH",
+        "fs-PITCHED",
+        "CHARACTER",
+        "(2h)TALKwg"
+      ],
+      "hypothesis": [
+        "FIRST-IN-LIST"
+      ],
+      "substitutions": 1,
+      "deletions": 8,
+      "insertions": 0,
+      "reference_tokens": 9,
+      "CTC_loss": 4.13613748550415,
+      "blank_frames": 34,
+      "output_frames": 35,
+      "signer_id": "asllrp_dai_participant_5",
+      "source_group": "2-Voice-Identity.mov",
+      "capture_family": "asllrp_dai_participant_5::UNRESOLVED_ALL_UNDATED_MASTERS"
+    },
+    {
+      "sample_id": "asllrp3_f27e40aae77bb6f2",
+      "reference": [
+        "TEACH+AGENT",
+        "DISTRIBUTE",
+        "ANSWER",
+        "TO/UNTIL",
+        "TEST"
+      ],
+      "hypothesis": [
+        "IX-1p"
+      ],
+      "substitutions": 1,
+      "deletions": 4,
+      "insertions": 0,
+      "reference_tokens": 5,
+      "CTC_loss": 3.614591598510742,
+      "blank_frames": 27,
+      "output_frames": 28,
+      "signer_id": "asllrp_dai_participant_3",
+      "source_group": "2011-12-01_0043-cam1-for-ss3.mp4",
+      "capture_family": "asllrp_dai_participant_3::2011-12-01"
+    },
+    {
+      "sample_id": "asllrp3_55c67deba904c267",
+      "reference": [
+        "IX-3p:i",
+        "ns-TEXAS",
+        "IX-loc:i",
+        "(1h)HAVE",
+        "(1h)GOOD/THANK-YOU",
+        "FOOTBALL",
+        "TEAM",
+        "#NO+",
+        "IX-3p:i",
+        "LOUSY",
+        "IX-3p:i",
+        "LOSE-COMPETITION++",
+        "UP-TO-NOW",
+        "NOT-YET",
+        "WIN",
+        "part:indef"
+      ],
+      "hypothesis": [
+        "NOT",
+        "(1h)5\\wave no\\\"\"",
+        "(1h)part:indef",
+        "RUN-OUT"
+      ],
+      "substitutions": 4,
+      "deletions": 12,
+      "insertions": 0,
+      "reference_tokens": 16,
+      "CTC_loss": 4.883479118347168,
+      "blank_frames": 78,
+      "output_frames": 83,
+      "signer_id": "asllrp_dai_participant_3",
+      "source_group": "2011-12-08_0044-cam1-for-ss3.mp4",
+      "capture_family": "asllrp_dai_participant_3::2011-12-08"
+    },
+    {
+      "sample_id": "asllrp3_4a49d7fa8cfa4c46",
+      "reference": [
+        "WHO",
+        "ARRIVE",
+        "LATE+",
+        "part:indef",
+        "WHO"
+      ],
+      "hypothesis": [
+        "IX-1p",
+        "ARRIVE",
+        "LATE+"
+      ],
+      "substitutions": 1,
+      "deletions": 2,
+      "insertions": 0,
+      "reference_tokens": 5,
+      "CTC_loss": 1.7536189556121826,
+      "blank_frames": 23,
+      "output_frames": 26,
+      "signer_id": "asllrp_dai_participant_3",
+      "source_group": "2011-12-08_0045-cam1-for-ss3.mp4",
+      "capture_family": "asllrp_dai_participant_3::2011-12-08"
+    },
+    {
+      "sample_id": "asllrp3_25319637438a418e",
+      "reference": [
+        "IX-3p:i",
+        "(5)MAN",
+        "NAB",
+        "BREAK",
+        "ENTER",
+        "HOUSE",
+        "IX-loc:j",
+        "ns-fs-NEWTON",
+        "FEEL+",
+        "ALSO",
+        "(5)MAN",
+        "IX-3p+:i",
+        "RESPONSIBILITY",
+        "BREAK",
+        "IX-loc-pl-arc",
+        "IN",
+        "ns-BROOKLINE",
+        "5\\I don't know\\\"\""
+      ],
+      "hypothesis": [
+        "BOY+",
+        "NONE/NOTHING",
+        "fs-GOLD"
+      ],
+      "substitutions": 3,
+      "deletions": 15,
+      "insertions": 0,
+      "reference_tokens": 18,
+      "CTC_loss": 5.343904972076416,
+      "blank_frames": 79,
+      "output_frames": 82,
+      "signer_id": "asllrp_dai_participant_3",
+      "source_group": "2011-12-08_0046-cam1-for-ss3.mp4",
+      "capture_family": "asllrp_dai_participant_3::2011-12-08"
+    },
+    {
+      "sample_id": "asllrp3_9a1d860245f0ad89",
+      "reference": [
+        "WEATHER",
+        "NOW",
+        "BEAUTIFUL"
+      ],
+      "hypothesis": [
+        "WEATHER"
+      ],
+      "substitutions": 0,
+      "deletions": 2,
+      "insertions": 0,
+      "reference_tokens": 3,
+      "CTC_loss": 3.3691699504852295,
+      "blank_frames": 23,
+      "output_frames": 24,
+      "signer_id": "asllrp_dai_participant_3",
+      "source_group": "2012-01-27_0050-cam1-for-ss3.mp4",
+      "capture_family": "asllrp_dai_participant_3::2012-01-27"
+    },
+    {
+      "sample_id": "asllrp3_b873382844337c29",
+      "reference": [
+        "IX-3p:i",
+        "CAR",
+        "NOT",
+        "BREAK-DOWN",
+        "#NO+"
+      ],
+      "hypothesis": [
+        "IX-3p:i",
+        "BREAK-DOWN"
+      ],
+      "substitutions": 0,
+      "deletions": 3,
+      "insertions": 0,
+      "reference_tokens": 5,
+      "CTC_loss": 2.1689083576202393,
+      "blank_frames": 29,
+      "output_frames": 31,
+      "signer_id": "asllrp_dai_participant_3",
+      "source_group": "2012-01-27_0051-cam1-for-ss3.mp4",
+      "capture_family": "asllrp_dai_participant_3::2012-01-27"
+    },
+    {
+      "sample_id": "asllrp3_ba5ef08595898ad5",
+      "reference": [
+        "IX-3p:i",
+        "MAGAZINE",
+        "QUOTE/TOPIC",
+        "PEOPLE",
+        "fs-PEOPLE",
+        "KNOW",
+        "IX-2p",
+        "THINK",
+        "(1h)GOOD/THANK-YOU",
+        "IX-2p",
+        "QMwg"
+      ],
+      "hypothesis": [
+        "WEATHER",
+        "BOOK",
+        "QMwg"
+      ],
+      "substitutions": 2,
+      "deletions": 8,
+      "insertions": 0,
+      "reference_tokens": 11,
+      "CTC_loss": 3.679610252380371,
+      "blank_frames": 35,
+      "output_frames": 38,
+      "signer_id": "asllrp_dai_participant_3",
+      "source_group": "2012-01-27_0052-cam1-for-ss3.mp4",
+      "capture_family": "asllrp_dai_participant_3::2012-01-27"
+    },
+    {
+      "sample_id": "asllrp3_f4488f12b7da4404",
+      "reference": [
+        "(G/Q)POSS-1p",
+        "SON",
+        "IX-3p:i",
+        "WANT",
+        "INTERPRET",
+        "FUTURE",
+        "IX-3p:i"
+      ],
+      "hypothesis": [
+        "IX-1p",
+        "SON",
+        "IX-loc:i"
+      ],
+      "substitutions": 2,
+      "deletions": 4,
+      "insertions": 0,
+      "reference_tokens": 7,
+      "CTC_loss": 3.166966199874878,
+      "blank_frames": 24,
+      "output_frames": 27,
+      "signer_id": "asllrp_dai_participant_3",
+      "source_group": "2012-01-27_0053-cam1-for-ss3.mp4",
+      "capture_family": "asllrp_dai_participant_3::2012-01-27"
+    },
+    {
+      "sample_id": "asllrp3_c21b47aead3a65b7",
+      "reference": [
+        "IF",
+        "INTERPRET",
+        "ARRIVE",
+        "STRANGE",
+        "SITUATION"
+      ],
+      "hypothesis": [
+        "INTERPRET",
+        "STRANGE"
+      ],
+      "substitutions": 0,
+      "deletions": 3,
+      "insertions": 0,
+      "reference_tokens": 5,
+      "CTC_loss": 2.1108789443969727,
+      "blank_frames": 27,
+      "output_frames": 29,
+      "signer_id": "asllrp_dai_participant_3",
+      "source_group": "2012-01-27_0055-cam1-for-ss3.mp4",
+      "capture_family": "asllrp_dai_participant_3::2012-01-27"
+    },
+    {
+      "sample_id": "asllrp3_d731055c883f6dd3",
+      "reference": [
+        "(2h)LOOK-FORWARD",
+        "FOOTBALL",
+        "GAME",
+        "IX-2p"
+      ],
+      "hypothesis": [
+        "(2h)LOOK-FORWARD",
+        "FOOTBALL",
+        "SELF-3p+:i"
+      ],
+      "substitutions": 1,
+      "deletions": 1,
+      "insertions": 0,
+      "reference_tokens": 4,
+      "CTC_loss": 1.8272844552993774,
+      "blank_frames": 23,
+      "output_frames": 26,
+      "signer_id": "asllrp_dai_participant_3",
+      "source_group": "2012-01-27_0056-cam1-for-ss3.mp4",
+      "capture_family": "asllrp_dai_participant_3::2012-01-27"
+    },
+    {
+      "sample_id": "asllrp3_797ed80a4a3050c8",
+      "reference": [
+        "IX-3p:i",
+        "FUTURE",
+        "(1h)(flat-O)PAY/SPEND",
+        "IX-3p:j",
+        "FLOWER",
+        "FOR",
+        "REALLY",
+        "YES+"
+      ],
+      "hypothesis": [
+        "IX-1p"
+      ],
+      "substitutions": 1,
+      "deletions": 7,
+      "insertions": 0,
+      "reference_tokens": 8,
+      "CTC_loss": 4.081655502319336,
+      "blank_frames": 38,
+      "output_frames": 39,
+      "signer_id": "asllrp_dai_participant_3",
+      "source_group": "2012-02-09_0057-cam1-for-ss3.mp4",
+      "capture_family": "asllrp_dai_participant_3::2012-02-09"
+    },
+    {
+      "sample_id": "asllrp3_dbfc1f8e4632801f",
+      "reference": [
+        "TIRED",
+        "(1h)5\\wave no\\\"\""
+      ],
+      "hypothesis": [
+        "TIRED",
+        "(1h)5\\wave no\\\"\""
+      ],
+      "substitutions": 0,
+      "deletions": 0,
+      "insertions": 0,
+      "reference_tokens": 2,
+      "CTC_loss": 0.7273439168930054,
+      "blank_frames": 17,
+      "output_frames": 19,
+      "signer_id": "asllrp_dai_participant_3",
+      "source_group": "2012-02-09_0058-cam1-for-ss3.mp4",
+      "capture_family": "asllrp_dai_participant_3::2012-02-09"
+    },
+    {
+      "sample_id": "asllrp3_b664507d23e53503",
+      "reference": [
+        "WANT_2",
+        "(2h)ANY+(2h)THING",
+        "part:indef"
+      ],
+      "hypothesis": [
+        "IX-1p",
+        "(2h)ANY+(2h)THING",
+        "part:indef"
+      ],
+      "substitutions": 1,
+      "deletions": 0,
+      "insertions": 0,
+      "reference_tokens": 3,
+      "CTC_loss": 1.8852077722549438,
+      "blank_frames": 13,
+      "output_frames": 16,
+      "signer_id": "asllrp_dai_participant_3",
+      "source_group": "2012-02-09_0059-cam1-for-ss3.mp4",
+      "capture_family": "asllrp_dai_participant_3::2012-02-09"
+    },
+    {
+      "sample_id": "asllrp3_d6573e9aaf690351",
+      "reference": [
+        "HAPPEN",
+        "SNOW",
+        "SCHOOL",
+        "CANCEL/CRITICIZE"
+      ],
+      "hypothesis": [
+        "IX-1p",
+        "SNOW",
+        "SCHOOL"
+      ],
+      "substitutions": 1,
+      "deletions": 1,
+      "insertions": 0,
+      "reference_tokens": 4,
+      "CTC_loss": 1.7937251329421997,
+      "blank_frames": 25,
+      "output_frames": 29,
+      "signer_id": "asllrp_dai_participant_3",
+      "source_group": "2012-02-09_0060-cam1-for-ss3.mp4",
+      "capture_family": "asllrp_dai_participant_3::2012-02-09"
+    },
+    {
+      "sample_id": "asllrp3_1e27cfa63cce8991",
+      "reference": [
+        "IX-2p",
+        "WRONG",
+        "IX-3p:i",
+        "NOT",
+        "PINEAPPLE",
+        "fs-CREAM",
+        "CHEESE",
+        "IX-1p",
+        "FAVORITE/PREFER",
+        "fs-LOX"
+      ],
+      "hypothesis": [
+        "IX-1p",
+        "IX-1p",
+        "PINEAPPLE",
+        "CHEESE",
+        "NOT",
+        "fs-LOX"
+      ],
+      "substitutions": 3,
+      "deletions": 4,
+      "insertions": 0,
+      "reference_tokens": 10,
+      "CTC_loss": 3.2532429695129395,
+      "blank_frames": 32,
+      "output_frames": 39,
+      "signer_id": "asllrp_dai_participant_3",
+      "source_group": "2012-02-09_0061-cam1-for-ss3.mp4",
+      "capture_family": "asllrp_dai_participant_3::2012-02-09"
+    },
+    {
+      "sample_id": "asllrp3_a5c593868c84368d",
+      "reference": [
+        "THAT",
+        "BOOK",
+        "IX-2p",
+        "READ+",
+        "IX-loc:i",
+        "IX-1p",
+        "READ_2",
+        "IX-3p:i",
+        "LONG-AGO",
+        "IX-1p",
+        "YOUNG+",
+        "IX-1p"
+      ],
+      "hypothesis": [
+        "COMMUTE",
+        "IX-1p"
+      ],
+      "substitutions": 1,
+      "deletions": 10,
+      "insertions": 0,
+      "reference_tokens": 12,
+      "CTC_loss": 4.2708611488342285,
+      "blank_frames": 56,
+      "output_frames": 58,
+      "signer_id": "asllrp_dai_participant_2",
+      "source_group": "2013-06-27_CB_0107-cam1-for-ss3.mp4",
+      "capture_family": "asllrp_dai_participant_2::2013-06-27"
+    },
+    {
+      "sample_id": "asllrp3_8ea4735ee49926ff",
+      "reference": [
+        "#IF",
+        "IX-1p",
+        "INVITE/HIRE",
+        "IX-3p:i",
+        "PEOPLE",
+        "IX-3p-pl-arc",
+        "POP-UP",
+        "fs-LATE",
+        "IX-3p-pl-arc",
+        "SORRY",
+        "FUTURE",
+        "IX-3p:i"
+      ],
+      "hypothesis": [
+        "part:indef"
+      ],
+      "substitutions": 1,
+      "deletions": 11,
+      "insertions": 0,
+      "reference_tokens": 12,
+      "CTC_loss": 3.853996992111206,
+      "blank_frames": 84,
+      "output_frames": 85,
+      "signer_id": "asllrp_dai_participant_2",
+      "source_group": "2013-06-27_CB_0108-cam1-for-ss3.mp4",
+      "capture_family": "asllrp_dai_participant_2::2013-06-27"
+    },
+    {
+      "sample_id": "asllrp3_5cdd0c61edea0bfb",
+      "reference": [
+        "PLEASE/(1h)ENJOY+",
+        "IF",
+        "HURRICANE+",
+        "GAME",
+        "DECIDE",
+        "CANCEL/CRITICIZE"
+      ],
+      "hypothesis": [
+        "IX-1p",
+        "CANCEL/CRITICIZE"
+      ],
+      "substitutions": 1,
+      "deletions": 4,
+      "insertions": 0,
+      "reference_tokens": 6,
+      "CTC_loss": 4.3096604347229,
+      "blank_frames": 51,
+      "output_frames": 53,
+      "signer_id": "asllrp_dai_participant_2",
+      "source_group": "2013-06-27_CB_0109-cam1-for-ss3.mp4",
+      "capture_family": "asllrp_dai_participant_2::2013-06-27"
+    },
+    {
+      "sample_id": "asllrp3_a86eaaaaed5a06e4",
+      "reference": [
+        "POSS-1p-pl",
+        "COUSIN",
+        "ns-fs-JOHN",
+        "IX-loc:i",
+        "BREAK",
+        "IX-3p:j",
+        "fs-TRUCK",
+        "IX-3p:j"
+      ],
+      "hypothesis": [
+        "COUSIN",
+        "COMMUTE",
+        "fs-TRUCK"
+      ],
+      "substitutions": 1,
+      "deletions": 5,
+      "insertions": 0,
+      "reference_tokens": 8,
+      "CTC_loss": 3.685757875442505,
+      "blank_frames": 42,
+      "output_frames": 45,
+      "signer_id": "asllrp_dai_participant_2",
+      "source_group": "2013-06-27_CB_0110-cam1-for-ss3.mp4",
+      "capture_family": "asllrp_dai_participant_2::2013-06-27"
+    },
+    {
+      "sample_id": "asllrp3_86c053d794119968",
+      "reference": [
+        "NOT",
+        "BUY",
+        "CAR",
+        "INSURANCE/INFECTION",
+        "FOR-FOR+",
+        "part:indef"
+      ],
+      "hypothesis": [
+        "NOT",
+        "CAR",
+        "part:indef"
+      ],
+      "substitutions": 0,
+      "deletions": 3,
+      "insertions": 0,
+      "reference_tokens": 6,
+      "CTC_loss": 2.248281955718994,
+      "blank_frames": 32,
+      "output_frames": 36,
+      "signer_id": "asllrp_dai_participant_2",
+      "source_group": "2013-06-27_CB_0111-cam1-for-ss3.mp4",
+      "capture_family": "asllrp_dai_participant_2::2013-06-27"
+    },
+    {
+      "sample_id": "asllrp3_5e57bdc8e1b4af32",
+      "reference": [
+        "MOTHER",
+        "IX-3p:i",
+        "SCL:bent-U-L\\person walking\\\"\"",
+        "SELL+"
+      ],
+      "hypothesis": [
+        "GO-OUT",
+        "SELL+"
+      ],
+      "substitutions": 1,
+      "deletions": 2,
+      "insertions": 0,
+      "reference_tokens": 4,
+      "CTC_loss": 2.7032320499420166,
+      "blank_frames": 31,
+      "output_frames": 33,
+      "signer_id": "asllrp_dai_participant_2",
+      "source_group": "2013-06-27_CB_0112-cam1-for-ss3.mp4",
+      "capture_family": "asllrp_dai_participant_2::2013-06-27"
+    },
+    {
+      "sample_id": "asllrp3_5427e628e6bd9454",
+      "reference": [
+        "IX-1p",
+        "PROCEED",
+        "WORK",
+        "ALL-NIGHT",
+        "WHY",
+        "IX-1p",
+        "GRAB-CHANCE",
+        "MONEY++"
+      ],
+      "hypothesis": [
+        "fs-LATE",
+        "GRAB-CHANCE",
+        "IX-1p"
+      ],
+      "substitutions": 2,
+      "deletions": 5,
+      "insertions": 0,
+      "reference_tokens": 8,
+      "CTC_loss": 3.0200910568237305,
+      "blank_frames": 44,
+      "output_frames": 47,
+      "signer_id": "asllrp_dai_participant_2",
+      "source_group": "2013-06-27_CB_0113-cam1-for-ss3.mp4",
+      "capture_family": "asllrp_dai_participant_2::2013-06-27"
+    },
+    {
+      "sample_id": "asllrp3_f6c16dd6fdfc2924",
+      "reference": [
+        "PAST+NIGHT",
+        "IX-1p",
+        "LIE-DOWN",
+        "DRUNK",
+        "IX-1p"
+      ],
+      "hypothesis": [
+        "IX-1p",
+        "DRUNK"
+      ],
+      "substitutions": 0,
+      "deletions": 3,
+      "insertions": 0,
+      "reference_tokens": 5,
+      "CTC_loss": 2.4436023235321045,
+      "blank_frames": 30,
+      "output_frames": 32,
+      "signer_id": "asllrp_dai_participant_2",
+      "source_group": "2013-06-27_CB_0114-cam1-for-ss3.mp4",
+      "capture_family": "asllrp_dai_participant_2::2013-06-27"
+    },
+    {
+      "sample_id": "asllrp3_e54a34538f5cb2d7",
+      "reference": [
+        "WHO",
+        "ASK",
+        "FOR",
+        "DIRECT/EXPLAIN",
+        "part:indef"
+      ],
+      "hypothesis": [
+        "IX-loc:i",
+        "DIRECT/EXPLAIN"
+      ],
+      "substitutions": 1,
+      "deletions": 3,
+      "insertions": 0,
+      "reference_tokens": 5,
+      "CTC_loss": 2.3474056720733643,
+      "blank_frames": 29,
+      "output_frames": 31,
+      "signer_id": "asllrp_dai_participant_2",
+      "source_group": "2013-06-27_CB_0115-cam1-for-ss3.mp4",
+      "capture_family": "asllrp_dai_participant_2::2013-06-27"
+    },
+    {
+      "sample_id": "asllrp3_f1babebcf7f26127",
+      "reference": [
+        "FEEL",
+        "DIE",
+        "fs-ZOMBIE",
+        "SCL:V\\person levitating\\\"\"",
+        "(1h)WORLD",
+        "SCL:V\\person levitating\\\"\"",
+        "5\\hesitation\\\"\"",
+        "TALK",
+        "HEAR",
+        "(1h)CANNOT",
+        "HEAR",
+        "5\\hesitation\\\"\""
+      ],
+      "hypothesis": [],
+      "substitutions": 0,
+      "deletions": 12,
+      "insertions": 0,
+      "reference_tokens": 12,
+      "CTC_loss": 5.124218463897705,
+      "blank_frames": 68,
+      "output_frames": 68,
+      "signer_id": "asllrp_dai_participant_5",
+      "source_group": "3-Voice-Life.mov",
+      "capture_family": "asllrp_dai_participant_5::UNRESOLVED_ALL_UNDATED_MASTERS"
+    },
+    {
+      "sample_id": "asllrp3_298b431fed1004cf",
+      "reference": [
+        "#WHAT",
+        "IX-1p",
+        "#WHAT",
+        "IX-1p",
+        "#DO+part:indef",
+        "(1h)TEACH+(1h)AGENT",
+        "LOOK:j",
+        "STORY",
+        "IX-1p",
+        "part:indef",
+        "NOT",
+        "UNDERSTAND",
+        "#WHAT",
+        "(1h)DO-DO",
+        "HAPPEN",
+        "IX-1p",
+        "\\WHAT\\\"\"",
+        "REASON"
+      ],
+      "hypothesis": [
+        "#DO+part:indef"
+      ],
+      "substitutions": 0,
+      "deletions": 17,
+      "insertions": 0,
+      "reference_tokens": 18,
+      "CTC_loss": 5.1146721839904785,
+      "blank_frames": 67,
+      "output_frames": 68,
+      "signer_id": "asllrp_dai_participant_5",
+      "source_group": "4-Deaf-Speech.mov",
+      "capture_family": "asllrp_dai_participant_5::UNRESOLVED_ALL_UNDATED_MASTERS"
+    },
+    {
+      "sample_id": "asllrp3_7de3e1853e10841b",
+      "reference": [
+        "CURIOUS",
+        "FIND/FIND-OUT",
+        "TWO",
+        "DEAF",
+        "IX-3p:i",
+        "IX-3p:j",
+        "IX-3p:i",
+        "IX-3p:j",
+        "HIGH",
+        "PLACE",
+        "ONE",
+        "TEACH+AGENT",
+        "AND",
+        "MANAGE/CONTROL+AGENT",
+        "IX-3p-pl-2:i/j",
+        "DELIBERATE",
+        "DISCUSS++",
+        "POLITICS",
+        "DISCUSS++++",
+        "DEEP",
+        "DISCUSS+",
+        "DIALOG",
+        "REALLY",
+        "DEEP",
+        "SIGN",
+        "USE-SIGN-LANGUAGE",
+        "WOW",
+        "DEEP",
+        "BUT",
+        "5\\dismissive gesture\\\"\"",
+        "ALSO",
+        "FIGHT",
+        "ANIMAL",
+        "WANT_2",
+        "DCL:crvd-5\\grunting voices\\\"\""
+      ],
+      "hypothesis": [
+        "CULTURE",
+        "BPCL:1\\voice loop from mouth to ear\\\"\"",
+        "MEAN"
+      ],
+      "substitutions": 3,
+      "deletions": 32,
+      "insertions": 0,
+      "reference_tokens": 35,
+      "CTC_loss": 6.143570899963379,
+      "blank_frames": 243,
+      "output_frames": 246,
+      "signer_id": "asllrp_dai_participant_5",
+      "source_group": "5-Deaf-Grunts.mov",
+      "capture_family": "asllrp_dai_participant_5::UNRESOLVED_ALL_UNDATED_MASTERS"
+    },
+    {
+      "sample_id": "asllrp3_450aa8cc96a3aa0d",
+      "reference": [
+        "LETTER/MAIL_2",
+        "A",
+        "IX-loc-pl-arc",
+        "DCL:crvd-5\\list of alphabet\\\"\"",
+        "IX-loc:j",
+        "PICK/CHOOSE",
+        "WORD",
+        "fs-NOISE",
+        "DCL:sml-C/3\\morpheme word\\\"\"",
+        "INFORM",
+        "DEAF",
+        "PEOPLE",
+        "MAKE",
+        "AGAIN",
+        "NOISE",
+        "OFTEN",
+        "IX-3p:i",
+        "NOT",
+        "REASON",
+        "THAT"
+      ],
+      "hypothesis": [
+        "SOME",
+        "fs-ORIENTATION",
+        "fs-SENSORY",
+        "NOISE"
+      ],
+      "substitutions": 3,
+      "deletions": 16,
+      "insertions": 0,
+      "reference_tokens": 20,
+      "CTC_loss": 5.443661689758301,
+      "blank_frames": 98,
+      "output_frames": 102,
+      "signer_id": "asllrp_dai_participant_5",
+      "source_group": "6-Control-of-sound-intro.mov",
+      "capture_family": "asllrp_dai_participant_5::UNRESOLVED_ALL_UNDATED_MASTERS"
+    },
+    {
+      "sample_id": "asllrp3_7966804295eb3c06",
+      "reference": [
+        "MUST",
+        "DCL:flat-O\\rip paper\\\"\"",
+        "SLOW",
+        "DCL:flat-O\\rip paper\\\"\"",
+        "NOISE+RUMBLE",
+        "NOISE"
+      ],
+      "hypothesis": [
+        "NOISE+RUMBLE",
+        "NOISE"
+      ],
+      "substitutions": 0,
+      "deletions": 4,
+      "insertions": 0,
+      "reference_tokens": 6,
+      "CTC_loss": 3.4602372646331787,
+      "blank_frames": 59,
+      "output_frames": 61,
+      "signer_id": "asllrp_dai_participant_5",
+      "source_group": "7-Social-Msg.mov",
+      "capture_family": "asllrp_dai_participant_5::UNRESOLVED_ALL_UNDATED_MASTERS"
+    },
+    {
+      "sample_id": "asllrp3_bd2e5c2e5c9fc309",
+      "reference": [
+        "GROW-UP",
+        "ENTER",
+        "COLLEGE",
+        "GROW-UP",
+        "MEET",
+        "(5)WOMAN",
+        "SELF:i",
+        "HEARING",
+        "fs-CODA",
+        "MEET",
+        "CHAT:j",
+        "ENJOY",
+        "LIKE",
+        "5\\you know\\\"\"",
+        "PONDER",
+        "5\\exasperation\\\"\"",
+        "IN",
+        "AROUND",
+        "fs-L",
+        "TWENTY-FIVE",
+        "#EARLY",
+        "MIDDLE",
+        "TWENTY",
+        "IX-3p:i",
+        "MEET",
+        "CHAT:j"
+      ],
+      "hypothesis": [
+        "IX-1p",
+        "CAN"
+      ],
+      "substitutions": 2,
+      "deletions": 24,
+      "insertions": 0,
+      "reference_tokens": 26,
+      "CTC_loss": 6.629710674285889,
+      "blank_frames": 158,
+      "output_frames": 160,
+      "signer_id": "asllrp_dai_participant_5",
+      "source_group": "8-Control-of-sound-places.mov",
+      "capture_family": "asllrp_dai_participant_5::UNRESOLVED_ALL_UNDATED_MASTERS"
+    },
+    {
+      "sample_id": "asllrp3_c78f443982ed707e",
+      "reference": [
+        "fs-AUDIOVOCAL",
+        "fs-ORIENTATION",
+        "MAJOR:i",
+        "IX-loc-line",
+        "HAVE",
+        "POSS-3p:i",
+        "SET-UP:i",
+        "VISUALIZE",
+        "RULE",
+        "COOPERATE/UNITE",
+        "WITH",
+        "VOICE",
+        "RANGE"
+      ],
+      "hypothesis": [
+        "IX-1p",
+        "VISUALIZE"
+      ],
+      "substitutions": 1,
+      "deletions": 11,
+      "insertions": 0,
+      "reference_tokens": 13,
+      "CTC_loss": 3.905484437942505,
+      "blank_frames": 90,
+      "output_frames": 93,
+      "signer_id": "asllrp_dai_participant_5",
+      "source_group": "9-Sensory-Politics.mov",
+      "capture_family": "asllrp_dai_participant_5::UNRESOLVED_ALL_UNDATED_MASTERS"
+    },
+    {
+      "sample_id": "asllrp3_7085e46ce23ce2bc",
+      "reference": [
+        "THAT",
+        "TWO",
+        "DIFFERENT",
+        "(B)NEXT-TOPIC",
+        "fs-ORIENTATION",
+        "CURRENT-TOPIC",
+        "SET-UP",
+        "FROM",
+        "\\WHAT\\\"\""
+      ],
+      "hypothesis": [
+        "IX-1p",
+        "fs-ORIENTATION"
+      ],
+      "substitutions": 1,
+      "deletions": 7,
+      "insertions": 0,
+      "reference_tokens": 9,
+      "CTC_loss": 4.687010288238525,
+      "blank_frames": 35,
+      "output_frames": 37,
+      "signer_id": "asllrp_dai_participant_5",
+      "source_group": "1-Introduction-SD.mov",
+      "capture_family": "asllrp_dai_participant_5::UNRESOLVED_ALL_UNDATED_MASTERS"
+    },
+    {
+      "sample_id": "asllrp3_35d28ee3b19f361a",
+      "reference": [
+        "ALSO",
+        "fs-SENSE",
+        "LIST-ORDER",
+        "(2h)alt.SEE",
+        "NOW",
+        "REALLY",
+        "HEAR+(1h)NOISE",
+        "(1h)UNDER"
+      ],
+      "hypothesis": [
+        "SOME",
+        "HEAR+(1h)NOISE"
+      ],
+      "substitutions": 1,
+      "deletions": 6,
+      "insertions": 0,
+      "reference_tokens": 8,
+      "CTC_loss": 4.199950218200684,
+      "blank_frames": 49,
+      "output_frames": 51,
+      "signer_id": "asllrp_dai_participant_5",
+      "source_group": "10-Conclusion.mov",
+      "capture_family": "asllrp_dai_participant_5::UNRESOLVED_ALL_UNDATED_MASTERS"
+    },
+    {
+      "sample_id": "asllrp3_f61a034e094e33b0",
+      "reference": [
+        "CAN",
+        "(2h)alt.LOOK-OVER",
+        "DECIDE",
+        "CLEVER",
+        "(1h)FINISH",
+        "COLLEGE",
+        "#OR",
+        "NEVER",
+        "COLLEGE",
+        "A-LEVEL-ABOVE",
+        "NOT"
+      ],
+      "hypothesis": [
+        "VISUALIZE"
+      ],
+      "substitutions": 1,
+      "deletions": 10,
+      "insertions": 0,
+      "reference_tokens": 11,
+      "CTC_loss": 6.645095348358154,
+      "blank_frames": 61,
+      "output_frames": 62,
+      "signer_id": "asllrp_dai_participant_5",
+      "source_group": "2-Voice-Identity.mov",
+      "capture_family": "asllrp_dai_participant_5::UNRESOLVED_ALL_UNDATED_MASTERS"
+    },
+    {
+      "sample_id": "asllrp3_d6a2d1d380e3f30f",
+      "reference": [
+        "PAST+ALL-NIGHT",
+        "IX-1p",
+        "#DO",
+        "HOMEWORK",
+        "5\\wow\\\"\"",
+        "A-LOT"
+      ],
+      "hypothesis": [
+        "IX-1p",
+        "NOT",
+        "HOMEWORK",
+        "NONE/NOTHING"
+      ],
+      "substitutions": 2,
+      "deletions": 2,
+      "insertions": 0,
+      "reference_tokens": 6,
+      "CTC_loss": 2.5662643909454346,
+      "blank_frames": 32,
+      "output_frames": 36,
+      "signer_id": "asllrp_dai_participant_3",
+      "source_group": "2011-12-01_0043-cam1-for-ss3.mp4",
+      "capture_family": "asllrp_dai_participant_3::2011-12-01"
+    },
+    {
+      "sample_id": "asllrp3_a8f4f2dfcc4a3743",
+      "reference": [
+        "POSS-2p",
+        "MOTHER",
+        "FUTURE",
+        "LOVE",
+        "SURPRISE",
+        "(P)PARTY",
+        "(1h)5\\wave no\\\"++\"",
+        "POSS-1p",
+        "MOTHER",
+        "HATE",
+        "ANY",
+        "SURPRISE",
+        "(1h)5\\wave no\\\"+\""
+      ],
+      "hypothesis": [
+        "IX-1p",
+        "IX-1p",
+        "LOVE",
+        "IX-1p",
+        "(1h)5\\wave no\\\"+\""
+      ],
+      "substitutions": 3,
+      "deletions": 8,
+      "insertions": 0,
+      "reference_tokens": 13,
+      "CTC_loss": 4.246009826660156,
+      "blank_frames": 59,
+      "output_frames": 64,
+      "signer_id": "asllrp_dai_participant_3",
+      "source_group": "2011-12-08_0044-cam1-for-ss3.mp4",
+      "capture_family": "asllrp_dai_participant_3::2011-12-08"
+    },
+    {
+      "sample_id": "asllrp3_22c24f9f0bde6e0e",
+      "reference": [
+        "WHICH",
+        "COLLEGE",
+        "ns-fs-MARY",
+        "GO-OUT",
+        "WHICH",
+        "(1h)part:indef"
+      ],
+      "hypothesis": [
+        "IX-1p",
+        "IX-loc:i",
+        "GO-OUT"
+      ],
+      "substitutions": 2,
+      "deletions": 3,
+      "insertions": 0,
+      "reference_tokens": 6,
+      "CTC_loss": 4.463374614715576,
+      "blank_frames": 24,
+      "output_frames": 27,
+      "signer_id": "asllrp_dai_participant_3",
+      "source_group": "2011-12-08_0045-cam1-for-ss3.mp4",
+      "capture_family": "asllrp_dai_participant_3::2011-12-08"
+    },
+    {
+      "sample_id": "asllrp3_c467ef7d51080f48",
+      "reference": [
+        "ns-fs-JACK",
+        "STAND",
+        "GO-OUT+",
+        "IX-3p:i",
+        "SEE",
+        "SOMETHING/ONE",
+        "STRANGE",
+        "QMwg"
+      ],
+      "hypothesis": [
+        "IX-1p",
+        "NOT"
+      ],
+      "substitutions": 2,
+      "deletions": 6,
+      "insertions": 0,
+      "reference_tokens": 8,
+      "CTC_loss": 4.1050238609313965,
+      "blank_frames": 29,
+      "output_frames": 31,
+      "signer_id": "asllrp_dai_participant_3",
+      "source_group": "2011-12-08_0046-cam1-for-ss3.mp4",
+      "capture_family": "asllrp_dai_participant_3::2011-12-08"
+    },
+    {
+      "sample_id": "asllrp3_1f7ca48563dec93c",
+      "reference": [
+        "#NO",
+        "IX-1p",
+        "NOT",
+        "LIKE",
+        "PINEAPPLE",
+        "fs-CREAM",
+        "CHEESE",
+        "#NO"
+      ],
+      "hypothesis": [
+        "WEATHER",
+        "PINEAPPLE",
+        "fs-CREAM",
+        "CHEESE"
+      ],
+      "substitutions": 1,
+      "deletions": 4,
+      "insertions": 0,
+      "reference_tokens": 8,
+      "CTC_loss": 2.5577077865600586,
+      "blank_frames": 28,
+      "output_frames": 32,
+      "signer_id": "asllrp_dai_participant_3",
+      "source_group": "2012-01-27_0050-cam1-for-ss3.mp4",
+      "capture_family": "asllrp_dai_participant_3::2012-01-27"
+    },
+    {
+      "sample_id": "asllrp3_626e769a1bef0b50",
+      "reference": [
+        "IX-3p:i",
+        "CAR",
+        "BREAK-DOWN",
+        "5\\frustration\\\"\""
+      ],
+      "hypothesis": [
+        "IX-3p:i",
+        "BREAK-DOWN",
+        "5\\frustration\\\"\""
+      ],
+      "substitutions": 0,
+      "deletions": 1,
+      "insertions": 0,
+      "reference_tokens": 4,
+      "CTC_loss": 1.0802909135818481,
+      "blank_frames": 27,
+      "output_frames": 30,
+      "signer_id": "asllrp_dai_participant_3",
+      "source_group": "2012-01-27_0051-cam1-for-ss3.mp4",
+      "capture_family": "asllrp_dai_participant_3::2012-01-27"
+    },
+    {
+      "sample_id": "asllrp3_d83b54f059243eba",
+      "reference": [
+        "FATHER",
+        "IX-3p:i",
+        "FUNNY",
+        "MOTHER",
+        "IX-3p:j",
+        "SERIOUS"
+      ],
+      "hypothesis": [
+        "WEATHER",
+        "IX-3p:i"
+      ],
+      "substitutions": 1,
+      "deletions": 4,
+      "insertions": 0,
+      "reference_tokens": 6,
+      "CTC_loss": 3.156291961669922,
+      "blank_frames": 24,
+      "output_frames": 26,
+      "signer_id": "asllrp_dai_participant_3",
+      "source_group": "2012-01-27_0052-cam1-for-ss3.mp4",
+      "capture_family": "asllrp_dai_participant_3::2012-01-27"
+    },
+    {
+      "sample_id": "asllrp3_cfdfd917c62678dc",
+      "reference": [
+        "NOW",
+        "COLD",
+        "IX-1p",
+        "MUST",
+        "BETTER",
+        "SHOE+"
+      ],
+      "hypothesis": [
+        "IX-1p",
+        "CLASS_2"
+      ],
+      "substitutions": 1,
+      "deletions": 4,
+      "insertions": 0,
+      "reference_tokens": 6,
+      "CTC_loss": 4.243750095367432,
+      "blank_frames": 21,
+      "output_frames": 23,
+      "signer_id": "asllrp_dai_participant_3",
+      "source_group": "2012-01-27_0053-cam1-for-ss3.mp4",
+      "capture_family": "asllrp_dai_participant_3::2012-01-27"
+    },
+    {
+      "sample_id": "asllrp3_7d22820e462c268b",
+      "reference": [
+        "ns-fs-PAUL",
+        "IX-loc:i",
+        "i:TELL-1p",
+        "IX-3p:i",
+        "CANNOT",
+        "INTERPRET",
+        "CAR",
+        "BREAK-DOWN"
+      ],
+      "hypothesis": [
+        "NOT"
+      ],
+      "substitutions": 1,
+      "deletions": 7,
+      "insertions": 0,
+      "reference_tokens": 8,
+      "CTC_loss": 3.625133514404297,
+      "blank_frames": 34,
+      "output_frames": 35,
+      "signer_id": "asllrp_dai_participant_3",
+      "source_group": "2012-01-27_0055-cam1-for-ss3.mp4",
+      "capture_family": "asllrp_dai_participant_3::2012-01-27"
+    },
+    {
+      "sample_id": "asllrp3_8aaceb618440922e",
+      "reference": [
+        "WHO",
+        "IX-3p:i",
+        "LIKE",
+        "IX-3p:j"
+      ],
+      "hypothesis": [
+        "IX-1p",
+        "LIKE"
+      ],
+      "substitutions": 1,
+      "deletions": 2,
+      "insertions": 0,
+      "reference_tokens": 4,
+      "CTC_loss": 2.803415060043335,
+      "blank_frames": 13,
+      "output_frames": 15,
+      "signer_id": "asllrp_dai_participant_3",
+      "source_group": "2012-01-27_0056-cam1-for-ss3.mp4",
+      "capture_family": "asllrp_dai_participant_3::2012-01-27"
+    },
+    {
+      "sample_id": "asllrp3_909fe62e2de7d50e",
+      "reference": [
+        "EMERGENCY+",
+        "IX-loc:i",
+        "GO-OUT",
+        "WHERE"
+      ],
+      "hypothesis": [
+        "IX-1p",
+        "GO-OUT",
+        "WHERE"
+      ],
+      "substitutions": 1,
+      "deletions": 1,
+      "insertions": 0,
+      "reference_tokens": 4,
+      "CTC_loss": 2.2936344146728516,
+      "blank_frames": 22,
+      "output_frames": 25,
+      "signer_id": "asllrp_dai_participant_3",
+      "source_group": "2012-02-09_0057-cam1-for-ss3.mp4",
+      "capture_family": "asllrp_dai_participant_3::2012-02-09"
+    },
+    {
+      "sample_id": "asllrp3_34c98ee319f03efb",
+      "reference": [
+        "GO-OUT",
+        "GO-OUT",
+        "GO-OUT",
+        "HOME"
+      ],
+      "hypothesis": [
+        "IX-1p",
+        "GO-OUT",
+        "GO-OUT",
+        "HOME"
+      ],
+      "substitutions": 1,
+      "deletions": 0,
+      "insertions": 0,
+      "reference_tokens": 4,
+      "CTC_loss": 1.4829624891281128,
+      "blank_frames": 21,
+      "output_frames": 25,
+      "signer_id": "asllrp_dai_participant_3",
+      "source_group": "2012-02-09_0058-cam1-for-ss3.mp4",
+      "capture_family": "asllrp_dai_participant_3::2012-02-09"
+    },
+    {
+      "sample_id": "asllrp3_040fd6b5a163896a",
+      "reference": [
+        "IX-2p",
+        "RULE",
+        "BREAK",
+        "fs-TAX",
+        "NONE",
+        "(1h)part:indef"
+      ],
+      "hypothesis": [
+        "IX-1p",
+        "(1h)part:indef"
+      ],
+      "substitutions": 1,
+      "deletions": 4,
+      "insertions": 0,
+      "reference_tokens": 6,
+      "CTC_loss": 2.6548306941986084,
+      "blank_frames": 27,
+      "output_frames": 29,
+      "signer_id": "asllrp_dai_participant_3",
+      "source_group": "2012-02-09_0059-cam1-for-ss3.mp4",
+      "capture_family": "asllrp_dai_participant_3::2012-02-09"
+    },
+    {
+      "sample_id": "asllrp3_1b826388cd623c69",
+      "reference": [
+        "WHEN",
+        "NOT",
+        "SNOW",
+        "(G/Q)POSS-1p",
+        "fs-TRIP",
+        "IX-3p:i",
+        "CANCEL/CRITICIZE"
+      ],
+      "hypothesis": [
+        "IX-1p",
+        "NOT",
+        "SNOW",
+        "CANCEL/CRITICIZE"
+      ],
+      "substitutions": 1,
+      "deletions": 3,
+      "insertions": 0,
+      "reference_tokens": 7,
+      "CTC_loss": 2.4266345500946045,
+      "blank_frames": 22,
+      "output_frames": 26,
+      "signer_id": "asllrp_dai_participant_3",
+      "source_group": "2012-02-09_0060-cam1-for-ss3.mp4",
+      "capture_family": "asllrp_dai_participant_3::2012-02-09"
+    },
+    {
+      "sample_id": "asllrp3_c2cc1eb149655739",
+      "reference": [
+        "(1h)5\\wave no\\\"\"",
+        "IX-1p",
+        "USE_2",
+        "CORRECT",
+        "(1h)KEY++",
+        "IX-loc:i",
+        "CAR",
+        "BREAK-DOWN"
+      ],
+      "hypothesis": [
+        "IX-1p"
+      ],
+      "substitutions": 0,
+      "deletions": 7,
+      "insertions": 0,
+      "reference_tokens": 8,
+      "CTC_loss": 4.117714881896973,
+      "blank_frames": 32,
+      "output_frames": 33,
+      "signer_id": "asllrp_dai_participant_3",
+      "source_group": "2012-02-09_0061-cam1-for-ss3.mp4",
+      "capture_family": "asllrp_dai_participant_3::2012-02-09"
+    },
+    {
+      "sample_id": "asllrp3_0d6bbfe51110727f",
+      "reference": [
+        "IX-1p",
+        "NOT",
+        "ARRIVE",
+        "fs-LATE",
+        "IX-1p",
+        "ON-TIME",
+        "IX-1p"
+      ],
+      "hypothesis": [
+        "IX-2p",
+        "IX-1p"
+      ],
+      "substitutions": 1,
+      "deletions": 5,
+      "insertions": 0,
+      "reference_tokens": 7,
+      "CTC_loss": 3.7437005043029785,
+      "blank_frames": 33,
+      "output_frames": 35,
+      "signer_id": "asllrp_dai_participant_2",
+      "source_group": "2013-06-27_CB_0107-cam1-for-ss3.mp4",
+      "capture_family": "asllrp_dai_participant_2::2013-06-27"
+    },
+    {
+      "sample_id": "asllrp3_4e879f3dcb5ff047",
+      "reference": [
+        "5\\whoa\\\"\"",
+        "#IF+",
+        "ORDER",
+        "PIZZA_4",
+        "HERE",
+        "FUTURE",
+        "DELICIOUS"
+      ],
+      "hypothesis": [
+        "part:indef",
+        "SORRY"
+      ],
+      "substitutions": 2,
+      "deletions": 5,
+      "insertions": 0,
+      "reference_tokens": 7,
+      "CTC_loss": 4.325281620025635,
+      "blank_frames": 41,
+      "output_frames": 43,
+      "signer_id": "asllrp_dai_participant_2",
+      "source_group": "2013-06-27_CB_0108-cam1-for-ss3.mp4",
+      "capture_family": "asllrp_dai_participant_2::2013-06-27"
+    },
+    {
+      "sample_id": "asllrp3_232939142beb8435",
+      "reference": [
+        "(5)MAN",
+        "WHO",
+        "DCL:S-5\\throw out of plane\\\"\"",
+        "AIRPLANE",
+        "WHO",
+        "IX-3p:i",
+        "ns-fs-ALEC-BALDWIN"
+      ],
+      "hypothesis": [
+        "DCL:S-5\\throw out of plane\\\"\"",
+        "AIRPLANE",
+        "IX-3p:i"
+      ],
+      "substitutions": 0,
+      "deletions": 4,
+      "insertions": 0,
+      "reference_tokens": 7,
+      "CTC_loss": 3.2923781871795654,
+      "blank_frames": 55,
+      "output_frames": 58,
+      "signer_id": "asllrp_dai_participant_2",
+      "source_group": "2013-06-27_CB_0109-cam1-for-ss3.mp4",
+      "capture_family": "asllrp_dai_participant_2::2013-06-27"
+    },
+    {
+      "sample_id": "asllrp3_e099e9fabdcc6b5a",
+      "reference": [
+        "ns-fs-MARY",
+        "SELF-3p+:i",
+        "NOT",
+        "VEGETABLE+AGENT"
+      ],
+      "hypothesis": [],
+      "substitutions": 0,
+      "deletions": 4,
+      "insertions": 0,
+      "reference_tokens": 4,
+      "CTC_loss": 3.5716171264648438,
+      "blank_frames": 32,
+      "output_frames": 32,
+      "signer_id": "asllrp_dai_participant_2",
+      "source_group": "2013-06-27_CB_0110-cam1-for-ss3.mp4",
+      "capture_family": "asllrp_dai_participant_2::2013-06-27"
+    },
+    {
+      "sample_id": "asllrp3_f736bd103379a1e7",
+      "reference": [
+        "#IF",
+        "IX-2p",
+        "SPELL",
+        "ONE",
+        "WORD",
+        "MISTAKE",
+        "IX-3p:i",
+        "FUTURE",
+        "WRITE",
+        "SUBTRACT"
+      ],
+      "hypothesis": [
+        "MISTAKE"
+      ],
+      "substitutions": 0,
+      "deletions": 9,
+      "insertions": 0,
+      "reference_tokens": 10,
+      "CTC_loss": 4.454629898071289,
+      "blank_frames": 44,
+      "output_frames": 45,
+      "signer_id": "asllrp_dai_participant_2",
+      "source_group": "2013-06-27_CB_0111-cam1-for-ss3.mp4",
+      "capture_family": "asllrp_dai_participant_2::2013-06-27"
+    },
+    {
+      "sample_id": "asllrp3_df27beef0841f3ac",
+      "reference": [
+        "FATHER+",
+        "ARRIVE",
+        "HOME",
+        "WHEN"
+      ],
+      "hypothesis": [
+        "ARRIVE"
+      ],
+      "substitutions": 0,
+      "deletions": 3,
+      "insertions": 0,
+      "reference_tokens": 4,
+      "CTC_loss": 2.7311253547668457,
+      "blank_frames": 30,
+      "output_frames": 31,
+      "signer_id": "asllrp_dai_participant_2",
+      "source_group": "2013-06-27_CB_0112-cam1-for-ss3.mp4",
+      "capture_family": "asllrp_dai_participant_2::2013-06-27"
+    },
+    {
+      "sample_id": "asllrp3_0153058fbec678f9",
+      "reference": [
+        "#IF+",
+        "POSS-1p",
+        "FRIEND",
+        "MAKE-IT",
+        "SURPRISE",
+        "ns-fs-BOB",
+        "IX-1p",
+        "DCL:X-over-thumb\\tip hat\\\"\"",
+        "WHY+",
+        "ns-fs-BOB",
+        "IX-3p:i",
+        "REALLY",
+        "IMPOSSIBLE",
+        "SURPRISE",
+        "IX-3p:i"
+      ],
+      "hypothesis": [
+        "fs-LATE",
+        "BOOK",
+        "RECENT-PAST"
+      ],
+      "substitutions": 3,
+      "deletions": 12,
+      "insertions": 0,
+      "reference_tokens": 15,
+      "CTC_loss": 4.417136192321777,
+      "blank_frames": 75,
+      "output_frames": 78,
+      "signer_id": "asllrp_dai_participant_2",
+      "source_group": "2013-06-27_CB_0113-cam1-for-ss3.mp4",
+      "capture_family": "asllrp_dai_participant_2::2013-06-27"
+    },
+    {
+      "sample_id": "asllrp3_7bc3813b2359c450",
+      "reference": [
+        "IX-1p+++",
+        "INVITE/HIRE",
+        "FRIEND",
+        "#BBQ",
+        "(P)PARTY",
+        "GROUP/TOGETHER"
+      ],
+      "hypothesis": [
+        "INVITE/HIRE",
+        "FRIEND",
+        "BICYCLE",
+        "GROUP/TOGETHER"
+      ],
+      "substitutions": 1,
+      "deletions": 2,
+      "insertions": 0,
+      "reference_tokens": 6,
+      "CTC_loss": 2.749728202819824,
+      "blank_frames": 40,
+      "output_frames": 45,
+      "signer_id": "asllrp_dai_participant_2",
+      "source_group": "2013-06-27_CB_0114-cam1-for-ss3.mp4",
+      "capture_family": "asllrp_dai_participant_2::2013-06-27"
+    },
+    {
+      "sample_id": "asllrp3_e7706923049d1085",
+      "reference": [
+        "FRIEND",
+        "NOT-YET",
+        "PROCEED",
+        "START",
+        "FRISBEE",
+        "NOT-YET+"
+      ],
+      "hypothesis": [
+        "IX-1p",
+        "FRIEND"
+      ],
+      "substitutions": 2,
+      "deletions": 4,
+      "insertions": 0,
+      "reference_tokens": 6,
+      "CTC_loss": 3.4476451873779297,
+      "blank_frames": 32,
+      "output_frames": 34,
+      "signer_id": "asllrp_dai_participant_2",
+      "source_group": "2013-06-27_CB_0115-cam1-for-ss3.mp4",
+      "capture_family": "asllrp_dai_participant_2::2013-06-27"
+    },
+    {
+      "sample_id": "asllrp3_50a190373aa030fd",
+      "reference": [
+        "#SO",
+        "\\WHAT\\\"\"",
+        "(F)BELONG",
+        "WITH",
+        "DEAF",
+        "fs-SPEECH",
+        "IX-1p",
+        "ANALYZE+"
+      ],
+      "hypothesis": [
+        "SOME"
+      ],
+      "substitutions": 1,
+      "deletions": 7,
+      "insertions": 0,
+      "reference_tokens": 8,
+      "CTC_loss": 4.1234025955200195,
+      "blank_frames": 39,
+      "output_frames": 40,
+      "signer_id": "asllrp_dai_participant_5",
+      "source_group": "3-Voice-Life.mov",
+      "capture_family": "asllrp_dai_participant_5::UNRESOLVED_ALL_UNDATED_MASTERS"
+    },
+    {
+      "sample_id": "asllrp3_eb945f3eda3f77e6",
+      "reference": [
+        "\\WHAT\\\"\"",
+        "CHARACTER",
+        "ANALYZE_3",
+        "APPLY",
+        "FOR",
+        "DEAF",
+        "fs-SPEECH"
+      ],
+      "hypothesis": [
+        "APPLAUSE+"
+      ],
+      "substitutions": 1,
+      "deletions": 6,
+      "insertions": 0,
+      "reference_tokens": 7,
+      "CTC_loss": 4.307651042938232,
+      "blank_frames": 68,
+      "output_frames": 69,
+      "signer_id": "asllrp_dai_participant_5",
+      "source_group": "4-Deaf-Speech.mov",
+      "capture_family": "asllrp_dai_participant_5::UNRESOLVED_ALL_UNDATED_MASTERS"
+    },
+    {
+      "sample_id": "asllrp3_bb667218ee971ab1",
+      "reference": [
+        "IX-loc:i",
+        "IX-loc:j",
+        "PLACE",
+        "ALLOW",
+        "AMONG_2",
+        "BUT",
+        "GENERAL",
+        "(1h)AREA",
+        "SITUATION",
+        "EVERYDAY",
+        "VOICE_2",
+        "fs-GRUNT",
+        "#GRUNT"
+      ],
+      "hypothesis": [
+        "FIRST-IN-LIST"
+      ],
+      "substitutions": 1,
+      "deletions": 12,
+      "insertions": 0,
+      "reference_tokens": 13,
+      "CTC_loss": 5.513882160186768,
+      "blank_frames": 62,
+      "output_frames": 63,
+      "signer_id": "asllrp_dai_participant_5",
+      "source_group": "5-Deaf-Grunts.mov",
+      "capture_family": "asllrp_dai_participant_5::UNRESOLVED_ALL_UNDATED_MASTERS"
+    },
+    {
+      "sample_id": "asllrp3_00db627b2bb6575f",
+      "reference": [
+        "BELOW_2",
+        "IX-3p:i",
+        "TWO",
+        "DIFFERENT",
+        "GROUP/TOGETHER:i",
+        "GROUP/TOGETHER:j",
+        "INFORM-ALL",
+        "WORLD",
+        "THAT",
+        "DEAF",
+        "PEOPLE",
+        "MAKE",
+        "NOISE",
+        "AND",
+        "STORY",
+        "DEAF",
+        "PEOPLE",
+        "BETWEEN/SHARE-arc",
+        "COOPERATE/UNITE",
+        "WITH",
+        "NOISE",
+        "LIST-ORDER",
+        "INCLUDE/INVOLVE"
+      ],
+      "hypothesis": [
+        "FIRST-IN-LIST",
+        "VOICE",
+        "NOISE"
+      ],
+      "substitutions": 2,
+      "deletions": 20,
+      "insertions": 0,
+      "reference_tokens": 23,
+      "CTC_loss": 4.87056827545166,
+      "blank_frames": 123,
+      "output_frames": 126,
+      "signer_id": "asllrp_dai_participant_5",
+      "source_group": "6-Control-of-sound-intro.mov",
+      "capture_family": "asllrp_dai_participant_5::UNRESOLVED_ALL_UNDATED_MASTERS"
+    },
+    {
+      "sample_id": "asllrp3_54f4a9c5bf860ecf",
+      "reference": [
+        "MANY",
+        "QUOTE/TOPIC_2",
+        "COOPERATE/UNITE",
+        "WITH",
+        "HOW",
+        "BODY",
+        "MANAGE/CONTROL",
+        "COOPERATE/UNITE",
+        "WITH",
+        "(2h)THING",
+        "IN",
+        "ENVIRONMENT"
+      ],
+      "hypothesis": [
+        "PERSON"
+      ],
+      "substitutions": 1,
+      "deletions": 11,
+      "insertions": 0,
+      "reference_tokens": 12,
+      "CTC_loss": 5.2401604652404785,
+      "blank_frames": 61,
+      "output_frames": 62,
+      "signer_id": "asllrp_dai_participant_5",
+      "source_group": "7-Social-Msg.mov",
+      "capture_family": "asllrp_dai_participant_5::UNRESOLVED_ALL_UNDATED_MASTERS"
+    },
+    {
+      "sample_id": "asllrp3_917f627c44256858",
+      "reference": [
+        "ONE",
+        "IX-3p-pl-circle",
+        "EXPERIENCE",
+        "PLAY",
+        "FOOTBALL",
+        "IX-loc:i",
+        "fs-FIELD",
+        "SCL:5\\football players wrestling\\\"\"",
+        "BCL:crvd-5\\holding football\\\"\"",
+        "RUN",
+        "BCL:crvd-5\\holding football\\\"\"",
+        "(1h)SCREAM",
+        "HEAR",
+        "IX-3p:j",
+        "DCL:5\\crowd of fans\\\"\"",
+        "IX-3p:j",
+        "IX-3p:j",
+        "MOTHER+FATHER",
+        "S\\cheering\\\"\"",
+        "SCREAM",
+        "S\\cheering\\\"\""
+      ],
+      "hypothesis": [
+        "IX-3p-pl-circle",
+        "TALK"
+      ],
+      "substitutions": 1,
+      "deletions": 19,
+      "insertions": 0,
+      "reference_tokens": 21,
+      "CTC_loss": 5.265902042388916,
+      "blank_frames": 104,
+      "output_frames": 106,
+      "signer_id": "asllrp_dai_participant_5",
+      "source_group": "8-Control-of-sound-places.mov",
+      "capture_family": "asllrp_dai_participant_5::UNRESOLVED_ALL_UNDATED_MASTERS"
+    },
+    {
+      "sample_id": "asllrp3_ef923a5127264573",
+      "reference": [
+        "fs-RANGE",
+        "DCL:B-L\\overgoing with the range\\\"\"",
+        "MAKE",
+        "LONG-LIST",
+        "VISUALIZE",
+        "MEANING-LIST"
+      ],
+      "hypothesis": [
+        "IX-1p",
+        "DCL:B-L\\overgoing with the range\\\"\"",
+        "VISUALIZE"
+      ],
+      "substitutions": 1,
+      "deletions": 3,
+      "insertions": 0,
+      "reference_tokens": 6,
+      "CTC_loss": 3.569145441055298,
+      "blank_frames": 43,
+      "output_frames": 47,
+      "signer_id": "asllrp_dai_participant_5",
+      "source_group": "9-Sensory-Politics.mov",
+      "capture_family": "asllrp_dai_participant_5::UNRESOLVED_ALL_UNDATED_MASTERS"
+    },
+    {
+      "sample_id": "asllrp3_f8657fb69d12c41b",
+      "reference": [
+        "BEFORE_2",
+        "fs-ISSUE",
+        "ns-fs-DESDJ",
+        "#VOL",
+        "ONE",
+        "NUMBER",
+        "ONE",
+        "IX-1p",
+        "FOCUS/NARROW",
+        "(2h)alt.SEE",
+        "FEEL+",
+        "fs-TACTILE",
+        "MAJOR",
+        "fs-ORIENTATION",
+        "TALK-OVER",
+        "STILL"
+      ],
+      "hypothesis": [
+        "SHOW",
+        "fs-SPEECH",
+        "NUMBER",
+        "DIFFERENT"
+      ],
+      "substitutions": 3,
+      "deletions": 12,
+      "insertions": 0,
+      "reference_tokens": 16,
+      "CTC_loss": 5.4179487228393555,
+      "blank_frames": 92,
+      "output_frames": 96,
+      "signer_id": "asllrp_dai_participant_5",
+      "source_group": "1-Introduction-SD.mov",
+      "capture_family": "asllrp_dai_participant_5::UNRESOLVED_ALL_UNDATED_MASTERS"
+    },
+    {
+      "sample_id": "asllrp3_39448ebfb3817f71",
+      "reference": [
+        "GROW",
+        "(2h)TALKwg",
+        "DCL:bent-1\\length of time\\\"\"",
+        "GROW",
+        "SIGN",
+        "DCL:B\\pathway of sign language\\\"\""
+      ],
+      "hypothesis": [
+        "DCL:bent-1\\length of time\\\"\"",
+        "SIGN"
+      ],
+      "substitutions": 0,
+      "deletions": 4,
+      "insertions": 0,
+      "reference_tokens": 6,
+      "CTC_loss": 3.140493154525757,
+      "blank_frames": 32,
+      "output_frames": 34,
+      "signer_id": "asllrp_dai_participant_5",
+      "source_group": "10-Conclusion.mov",
+      "capture_family": "asllrp_dai_participant_5::UNRESOLVED_ALL_UNDATED_MASTERS"
+    },
+    {
+      "sample_id": "asllrp3_678ff6c403a76378",
+      "reference": [
+        "THAT",
+        "MEAN",
+        "CULTURE",
+        "(U-L)BUILD+",
+        "MEAN",
+        "(1h)GIFT",
+        "TO/UNTIL",
+        "THAT",
+        "PERSON",
+        "LOOK",
+        "VOICE",
+        "VISUALIZE"
+      ],
+      "hypothesis": [
+        "IX-1p"
+      ],
+      "substitutions": 1,
+      "deletions": 11,
+      "insertions": 0,
+      "reference_tokens": 12,
+      "CTC_loss": 4.192188262939453,
+      "blank_frames": 50,
+      "output_frames": 51,
+      "signer_id": "asllrp_dai_participant_5",
+      "source_group": "2-Voice-Identity.mov",
+      "capture_family": "asllrp_dai_participant_5::UNRESOLVED_ALL_UNDATED_MASTERS"
+    },
+    {
+      "sample_id": "asllrp3_292df8eeac7f66bd",
+      "reference": [
+        "IX-1p",
+        "1p-ASK:i",
+        "POSS-1p",
+        "TEACH+AGENT",
+        "FOR",
+        "SOME",
+        "ADVISE/INFLUENCE",
+        "IX-1p",
+        "DISCUSS++",
+        "part:indef"
+      ],
+      "hypothesis": [
+        "IX-1p",
+        "DISCUSS++"
+      ],
+      "substitutions": 0,
+      "deletions": 8,
+      "insertions": 0,
+      "reference_tokens": 10,
+      "CTC_loss": 3.7163829803466797,
+      "blank_frames": 52,
+      "output_frames": 54,
+      "signer_id": "asllrp_dai_participant_3",
+      "source_group": "2011-12-01_0043-cam1-for-ss3.mp4",
+      "capture_family": "asllrp_dai_participant_3::2011-12-01"
+    },
+    {
+      "sample_id": "asllrp3_7e5b2ce770b6d0a9",
+      "reference": [
+        "IX-3p:i",
+        "TABLE",
+        "IX-loc:i",
+        "(1h)HAVE",
+        "BOOK",
+        "(1h)LEAVE-THERE",
+        "IX-loc:i",
+        "(1h)5\\wave no\\\"\"",
+        "IX-loc:i",
+        "NONE/NOTHING",
+        "TABLE",
+        "(1h)5\\perplexed\\\"\"",
+        "WHERE",
+        "BOOK",
+        "NONE/NOTHING",
+        "5\\I don't know\\\"\""
+      ],
+      "hypothesis": [
+        "IX-1p",
+        "HOMEWORK",
+        "BLACK",
+        "WHO",
+        "(1h)5\\wave no\\\"\"",
+        "(1h)5\\wave no\\\"\""
+      ],
+      "substitutions": 5,
+      "deletions": 10,
+      "insertions": 0,
+      "reference_tokens": 16,
+      "CTC_loss": 4.958573818206787,
+      "blank_frames": 56,
+      "output_frames": 62,
+      "signer_id": "asllrp_dai_participant_3",
+      "source_group": "2011-12-08_0044-cam1-for-ss3.mp4",
+      "capture_family": "asllrp_dai_participant_3::2011-12-08"
+    },
+    {
+      "sample_id": "asllrp3_3bcb2682a88a9e69",
+      "reference": [
+        "HOW-MANY",
+        "CHILDREN",
+        "ns-fs-PHIL",
+        "HAVE",
+        "(1h)part:indef"
+      ],
+      "hypothesis": [
+        "IX-1p",
+        "CHILDREN",
+        "ns-fs-PHIL"
+      ],
+      "substitutions": 1,
+      "deletions": 2,
+      "insertions": 0,
+      "reference_tokens": 5,
+      "CTC_loss": 1.8468444347381592,
+      "blank_frames": 20,
+      "output_frames": 23,
+      "signer_id": "asllrp_dai_participant_3",
+      "source_group": "2011-12-08_0045-cam1-for-ss3.mp4",
+      "capture_family": "asllrp_dai_participant_3::2011-12-08"
+    },
+    {
+      "sample_id": "asllrp3_7700920d6105eb7c",
+      "reference": [
+        "POSS-1p",
+        "BROTHER",
+        "FIND/FIND-OUT",
+        "BRACELET",
+        "SELF-3p:i",
+        "REALLY",
+        "fs-GOLD"
+      ],
+      "hypothesis": [
+        "ns-fs-BILL",
+        "BROTHER",
+        "SELF-3p:i"
+      ],
+      "substitutions": 1,
+      "deletions": 4,
+      "insertions": 0,
+      "reference_tokens": 7,
+      "CTC_loss": 3.431476593017578,
+      "blank_frames": 43,
+      "output_frames": 46,
+      "signer_id": "asllrp_dai_participant_3",
+      "source_group": "2011-12-08_0046-cam1-for-ss3.mp4",
+      "capture_family": "asllrp_dai_participant_3::2011-12-08"
+    },
+    {
+      "sample_id": "asllrp3_fdbc1d03a8eb1084",
+      "reference": [
+        "IX-1p",
+        "FAVORITE/PREFER+",
+        "IX-3p:i",
+        "fs-LOX",
+        "fs-CREAM",
+        "CHEESE"
+      ],
+      "hypothesis": [
+        "WEATHER",
+        "NOT",
+        "CHEESE"
+      ],
+      "substitutions": 2,
+      "deletions": 3,
+      "insertions": 0,
+      "reference_tokens": 6,
+      "CTC_loss": 2.4749596118927,
+      "blank_frames": 27,
+      "output_frames": 30,
+      "signer_id": "asllrp_dai_participant_3",
+      "source_group": "2012-01-27_0050-cam1-for-ss3.mp4",
+      "capture_family": "asllrp_dai_participant_3::2012-01-27"
+    },
+    {
+      "sample_id": "asllrp3_0f129909ad2562aa",
+      "reference": [
+        "IX-1p",
+        "SURPRISE",
+        "IX-1p",
+        "CANNOT",
+        "THINK+MARRY",
+        "NOT",
+        "RAIN",
+        "IX-1p",
+        "WONDER"
+      ],
+      "hypothesis": [
+        "IX-1p"
+      ],
+      "substitutions": 0,
+      "deletions": 8,
+      "insertions": 0,
+      "reference_tokens": 9,
+      "CTC_loss": 3.884908437728882,
+      "blank_frames": 36,
+      "output_frames": 37,
+      "signer_id": "asllrp_dai_participant_3",
+      "source_group": "2012-01-27_0051-cam1-for-ss3.mp4",
+      "capture_family": "asllrp_dai_participant_3::2012-01-27"
+    },
+    {
+      "sample_id": "asllrp3_24988ca807c25392",
+      "reference": [
+        "IX-2p",
+        "WANT",
+        "BUTTER+",
+        "IX-2p"
+      ],
+      "hypothesis": [
+        "IX-1p",
+        "BUTTER+",
+        "IX-2p"
+      ],
+      "substitutions": 1,
+      "deletions": 1,
+      "insertions": 0,
+      "reference_tokens": 4,
+      "CTC_loss": 1.9546602964401245,
+      "blank_frames": 14,
+      "output_frames": 17,
+      "signer_id": "asllrp_dai_participant_3",
+      "source_group": "2012-01-27_0052-cam1-for-ss3.mp4",
+      "capture_family": "asllrp_dai_participant_3::2012-01-27"
+    },
+    {
+      "sample_id": "asllrp3_798ac39b880c7ca4",
+      "reference": [
+        "TEACH+AGENT",
+        "NOT",
+        "i:INFORM-1p",
+        "CLASS_2",
+        "CANCEL/CRITICIZE",
+        "IX-1p",
+        "ENTER",
+        "CLASS_2",
+        "IX-1p",
+        "SIT-continuative",
+        "TWENTY",
+        "MINUTE",
+        "WAIT+",
+        "5\\exasperation\\\"\""
+      ],
+      "hypothesis": [
+        "IX-1p",
+        "MOTHER",
+        "SIT-continuative",
+        "WAIT+"
+      ],
+      "substitutions": 1,
+      "deletions": 10,
+      "insertions": 0,
+      "reference_tokens": 14,
+      "CTC_loss": 4.643164157867432,
+      "blank_frames": 45,
+      "output_frames": 49,
+      "signer_id": "asllrp_dai_participant_3",
+      "source_group": "2012-01-27_0053-cam1-for-ss3.mp4",
+      "capture_family": "asllrp_dai_participant_3::2012-01-27"
+    },
+    {
+      "sample_id": "asllrp3_1fc5dc26785f7953",
+      "reference": [
+        "IX-3p:i",
+        "(crvd-5)POSS-1p",
+        "SON",
+        "i:TELL-1p",
+        "FAVORITE/PREFER",
+        "BLACK",
+        "PANTS_2",
+        "part:indef"
+      ],
+      "hypothesis": [
+        "(crvd-5)POSS-1p",
+        "SON",
+        "LIE++",
+        "BLACK",
+        "PANTS_2",
+        "part:indef"
+      ],
+      "substitutions": 1,
+      "deletions": 2,
+      "insertions": 0,
+      "reference_tokens": 8,
+      "CTC_loss": 1.453451156616211,
+      "blank_frames": 27,
+      "output_frames": 33,
+      "signer_id": "asllrp_dai_participant_3",
+      "source_group": "2012-01-27_0055-cam1-for-ss3.mp4",
+      "capture_family": "asllrp_dai_participant_3::2012-01-27"
+    },
+    {
+      "sample_id": "asllrp3_f1ffc9d6bb0b8aca",
+      "reference": [
+        "IF",
+        "IX-2p",
+        "STUDY",
+        "IX-2p",
+        "FUTURE",
+        "A",
+        "CLASS_2"
+      ],
+      "hypothesis": [
+        "IX-1p",
+        "BICYCLE",
+        "A",
+        "CLASS_2"
+      ],
+      "substitutions": 2,
+      "deletions": 3,
+      "insertions": 0,
+      "reference_tokens": 7,
+      "CTC_loss": 3.948784112930298,
+      "blank_frames": 32,
+      "output_frames": 36,
+      "signer_id": "asllrp_dai_participant_3",
+      "source_group": "2012-01-27_0056-cam1-for-ss3.mp4",
+      "capture_family": "asllrp_dai_participant_3::2012-01-27"
+    },
+    {
+      "sample_id": "asllrp3_7ffc6460c984b550",
+      "reference": [
+        "IX-3p:i",
+        "WIN",
+        "fs-LOTTERY",
+        "DEPART",
+        "ns-nat-JAMAICA",
+        "(1h)part:indef"
+      ],
+      "hypothesis": [
+        "BOX/ROOM",
+        "WIN",
+        "DEPART"
+      ],
+      "substitutions": 1,
+      "deletions": 3,
+      "insertions": 0,
+      "reference_tokens": 6,
+      "CTC_loss": 3.02095890045166,
+      "blank_frames": 30,
+      "output_frames": 33,
+      "signer_id": "asllrp_dai_participant_3",
+      "source_group": "2012-02-09_0057-cam1-for-ss3.mp4",
+      "capture_family": "asllrp_dai_participant_3::2012-02-09"
+    },
+    {
+      "sample_id": "asllrp3_0ac803511c6b79e9",
+      "reference": [
+        "GO-OUT",
+        "RAIN",
+        "5\\wave no\\\"\"",
+        "(1)TEMPERATURE-DROP",
+        "SNOW"
+      ],
+      "hypothesis": [
+        "IX-1p",
+        "SNOW"
+      ],
+      "substitutions": 1,
+      "deletions": 3,
+      "insertions": 0,
+      "reference_tokens": 5,
+      "CTC_loss": 2.5367958545684814,
+      "blank_frames": 30,
+      "output_frames": 34,
+      "signer_id": "asllrp_dai_participant_3",
+      "source_group": "2012-02-09_0058-cam1-for-ss3.mp4",
+      "capture_family": "asllrp_dai_participant_3::2012-02-09"
+    },
+    {
+      "sample_id": "asllrp3_e84dbbbacc672e68",
+      "reference": [
+        "IX-1p",
+        "CANNOT",
+        "BELIEVE",
+        "IX-3p:i",
+        "(1)GUILTY+",
+        "#NO+"
+      ],
+      "hypothesis": [
+        "IX-1p",
+        "NOT",
+        "(1h)5\\wave no\\\"\""
+      ],
+      "substitutions": 2,
+      "deletions": 3,
+      "insertions": 0,
+      "reference_tokens": 6,
+      "CTC_loss": 2.084887742996216,
+      "blank_frames": 20,
+      "output_frames": 23,
+      "signer_id": "asllrp_dai_participant_3",
+      "source_group": "2012-02-09_0059-cam1-for-ss3.mp4",
+      "capture_family": "asllrp_dai_participant_3::2012-02-09"
+    },
+    {
+      "sample_id": "asllrp3_964bf5ef7643afae",
+      "reference": [
+        "HAPPEN",
+        "RAIN+",
+        "IX-1p",
+        "STILL",
+        "DEPART"
+      ],
+      "hypothesis": [
+        "IX-1p",
+        "RAIN+",
+        "IX-1p",
+        "STILL"
+      ],
+      "substitutions": 1,
+      "deletions": 1,
+      "insertions": 0,
+      "reference_tokens": 5,
+      "CTC_loss": 1.3300279378890991,
+      "blank_frames": 21,
+      "output_frames": 25,
+      "signer_id": "asllrp_dai_participant_3",
+      "source_group": "2012-02-09_0060-cam1-for-ss3.mp4",
+      "capture_family": "asllrp_dai_participant_3::2012-02-09"
+    },
+    {
+      "sample_id": "asllrp3_4e797666982b3cee",
+      "reference": [
+        "TEACH+AGENT",
+        "NOT",
+        "REQUIRE",
+        "BOOK",
+        "READ",
+        "DROP",
+        "IX-3p:i",
+        "ns-fs-JOHN",
+        "FUTURE",
+        "READ",
+        "BOOK",
+        "(2h)B-L\\I don't know\\\"\""
+      ],
+      "hypothesis": [
+        "IX-1p",
+        "SCHOOL",
+        "DROP",
+        "MOVIE_2"
+      ],
+      "substitutions": 3,
+      "deletions": 8,
+      "insertions": 0,
+      "reference_tokens": 12,
+      "CTC_loss": 4.161660194396973,
+      "blank_frames": 43,
+      "output_frames": 47,
+      "signer_id": "asllrp_dai_participant_3",
+      "source_group": "2012-02-09_0061-cam1-for-ss3.mp4",
+      "capture_family": "asllrp_dai_participant_3::2012-02-09"
+    },
+    {
+      "sample_id": "asllrp3_65fc3aed15d7f2fa",
+      "reference": [
+        "ns-fs-JOHN",
+        "IX-loc:i",
+        "(L)LIVE",
+        "(1h)LAST-YEAR",
+        "WHERE"
+      ],
+      "hypothesis": [
+        "IX-loc:i",
+        "(1h)LAST-YEAR"
+      ],
+      "substitutions": 0,
+      "deletions": 3,
+      "insertions": 0,
+      "reference_tokens": 5,
+      "CTC_loss": 1.7743752002716064,
+      "blank_frames": 36,
+      "output_frames": 38,
+      "signer_id": "asllrp_dai_participant_2",
+      "source_group": "2013-06-27_CB_0107-cam1-for-ss3.mp4",
+      "capture_family": "asllrp_dai_participant_2::2013-06-27"
+    },
+    {
+      "sample_id": "asllrp3_552418b64afbaa3d",
+      "reference": [
+        "(5)MAN",
+        "IX-loc:i",
+        "(1h)HAVE",
+        "WIFE",
+        "MEAN",
+        "IX-3p:i",
+        "LOVE",
+        "IX-3p:j"
+      ],
+      "hypothesis": [
+        "IX-loc:i",
+        "MUST",
+        "MEAN"
+      ],
+      "substitutions": 1,
+      "deletions": 5,
+      "insertions": 0,
+      "reference_tokens": 8,
+      "CTC_loss": 3.66719126701355,
+      "blank_frames": 43,
+      "output_frames": 46,
+      "signer_id": "asllrp_dai_participant_2",
+      "source_group": "2013-06-27_CB_0108-cam1-for-ss3.mp4",
+      "capture_family": "asllrp_dai_participant_2::2013-06-27"
+    },
+    {
+      "sample_id": "asllrp3_94e4b98f83e595fb",
+      "reference": [
+        "ns-fs-SUE",
+        "IX-3p:i",
+        "MOVE",
+        "WHERE++"
+      ],
+      "hypothesis": [
+        "MOVE"
+      ],
+      "substitutions": 0,
+      "deletions": 3,
+      "insertions": 0,
+      "reference_tokens": 4,
+      "CTC_loss": 1.7895203828811646,
+      "blank_frames": 28,
+      "output_frames": 29,
+      "signer_id": "asllrp_dai_participant_2",
+      "source_group": "2013-06-27_CB_0109-cam1-for-ss3.mp4",
+      "capture_family": "asllrp_dai_participant_2::2013-06-27"
+    },
+    {
+      "sample_id": "asllrp3_d8ce9e55455535f0",
+      "reference": [
+        "LIKE",
+        "PINEAPPLE",
+        "fs-CREAM+CHEESE",
+        "IX-1p",
+        "(1h)part:indef"
+      ],
+      "hypothesis": [
+        "PINEAPPLE",
+        "fs-CREAM+CHEESE",
+        "(1h)part:indef"
+      ],
+      "substitutions": 0,
+      "deletions": 2,
+      "insertions": 0,
+      "reference_tokens": 5,
+      "CTC_loss": 1.5788315534591675,
+      "blank_frames": 35,
+      "output_frames": 38,
+      "signer_id": "asllrp_dai_participant_2",
+      "source_group": "2013-06-27_CB_0110-cam1-for-ss3.mp4",
+      "capture_family": "asllrp_dai_participant_2::2013-06-27"
+    },
+    {
+      "sample_id": "asllrp3_d356b687595c0b7f",
+      "reference": [
+        "HAPPEN",
+        "IX-1p",
+        "NONE/NOTHING",
+        "MONEY++",
+        "IX-1p",
+        "TEND",
+        "GO",
+        "AUNT",
+        "HOUSE",
+        "EAT+",
+        "IX-loc:i"
+      ],
+      "hypothesis": [
+        "IX-1p",
+        "IX-1p",
+        "FINISH"
+      ],
+      "substitutions": 1,
+      "deletions": 8,
+      "insertions": 0,
+      "reference_tokens": 11,
+      "CTC_loss": 4.768592357635498,
+      "blank_frames": 51,
+      "output_frames": 54,
+      "signer_id": "asllrp_dai_participant_2",
+      "source_group": "2013-06-27_CB_0111-cam1-for-ss3.mp4",
+      "capture_family": "asllrp_dai_participant_2::2013-06-27"
+    },
+    {
+      "sample_id": "asllrp3_7bc8a4b3e3572f21",
+      "reference": [
+        "FRIEND",
+        "DEPART",
+        "CAMP+",
+        "#WHEN"
+      ],
+      "hypothesis": [
+        "FRIEND",
+        "DEPART"
+      ],
+      "substitutions": 0,
+      "deletions": 2,
+      "insertions": 0,
+      "reference_tokens": 4,
+      "CTC_loss": 2.1722512245178223,
+      "blank_frames": 31,
+      "output_frames": 33,
+      "signer_id": "asllrp_dai_participant_2",
+      "source_group": "2013-06-27_CB_0112-cam1-for-ss3.mp4",
+      "capture_family": "asllrp_dai_participant_2::2013-06-27"
+    },
+    {
+      "sample_id": "asllrp3_d8d93b3dc199ba92",
+      "reference": [
+        "FRIEND",
+        "IX-loc:i",
+        "KISS-FIST",
+        "LAPTOP",
+        "TYPE",
+        "INTERNET"
+      ],
+      "hypothesis": [
+        "FRIEND",
+        "LAPTOP",
+        "INTERNET"
+      ],
+      "substitutions": 0,
+      "deletions": 3,
+      "insertions": 0,
+      "reference_tokens": 6,
+      "CTC_loss": 1.8549305200576782,
+      "blank_frames": 35,
+      "output_frames": 38,
+      "signer_id": "asllrp_dai_participant_2",
+      "source_group": "2013-06-27_CB_0113-cam1-for-ss3.mp4",
+      "capture_family": "asllrp_dai_participant_2::2013-06-27"
+    },
+    {
+      "sample_id": "asllrp3_55b825a7ba96f1e1",
+      "reference": [
+        "ns-fs-BOB",
+        "FINISH",
+        "ARRIVE",
+        "#PO"
+      ],
+      "hypothesis": [
+        "ARRIVE",
+        "#PO"
+      ],
+      "substitutions": 0,
+      "deletions": 2,
+      "insertions": 0,
+      "reference_tokens": 4,
+      "CTC_loss": 2.345407485961914,
+      "blank_frames": 33,
+      "output_frames": 35,
+      "signer_id": "asllrp_dai_participant_2",
+      "source_group": "2013-06-27_CB_0114-cam1-for-ss3.mp4",
+      "capture_family": "asllrp_dai_participant_2::2013-06-27"
+    },
+    {
+      "sample_id": "asllrp3_ea7546a8e21cd183",
+      "reference": [
+        "MOTHER",
+        "SICK",
+        "HOW",
+        "part:indef"
+      ],
+      "hypothesis": [
+        "part:indef"
+      ],
+      "substitutions": 0,
+      "deletions": 3,
+      "insertions": 0,
+      "reference_tokens": 4,
+      "CTC_loss": 3.3565685749053955,
+      "blank_frames": 31,
+      "output_frames": 32,
+      "signer_id": "asllrp_dai_participant_2",
+      "source_group": "2013-06-27_CB_0115-cam1-for-ss3.mp4",
+      "capture_family": "asllrp_dai_participant_2::2013-06-27"
+    },
+    {
+      "sample_id": "asllrp3_f74d17e775035c49",
+      "reference": [
+        "TALK",
+        "fs-OF",
+        "fs-DISORDER",
+        "A-LOT",
+        "fs-OF",
+        "QUOTE/TOPIC_2+",
+        "(F)BELONG",
+        "WITH",
+        "TALK",
+        "fs-DISORDER",
+        "IN",
+        "DEAF",
+        "IX-loc:i"
+      ],
+      "hypothesis": [
+        "IX-1p",
+        "fs-SENSORY"
+      ],
+      "substitutions": 2,
+      "deletions": 11,
+      "insertions": 0,
+      "reference_tokens": 13,
+      "CTC_loss": 4.648120880126953,
+      "blank_frames": 68,
+      "output_frames": 70,
+      "signer_id": "asllrp_dai_participant_5",
+      "source_group": "3-Voice-Life.mov",
+      "capture_family": "asllrp_dai_participant_5::UNRESOLVED_ALL_UNDATED_MASTERS"
+    },
+    {
+      "sample_id": "asllrp3_ce45beadc4caa01a",
+      "reference": [
+        "IX-1p",
+        "IX-1p",
+        "5\\sheepish\\\"\"",
+        "READY",
+        "IX-1p",
+        "COUGH",
+        "IX-1p",
+        "INHALE",
+        "5\\trepidation\\\"\""
+      ],
+      "hypothesis": [
+        "5\\trepidation\\\"\""
+      ],
+      "substitutions": 0,
+      "deletions": 8,
+      "insertions": 0,
+      "reference_tokens": 9,
+      "CTC_loss": 3.0626707077026367,
+      "blank_frames": 34,
+      "output_frames": 35,
+      "signer_id": "asllrp_dai_participant_5",
+      "source_group": "4-Deaf-Speech.mov",
+      "capture_family": "asllrp_dai_participant_5::UNRESOLVED_ALL_UNDATED_MASTERS"
+    },
+    {
+      "sample_id": "asllrp3_a1da6306decae3ba",
+      "reference": [
+        "SOME",
+        "(P)PROFESSION",
+        "PING-PONG/TENNIS",
+        "PLAY+AGENT",
+        "ALSO",
+        "ns-fs-SHARPOVA",
+        "SECOND-IN-LIST_4",
+        "ns-fs-NADAL",
+        "IX-3p:i",
+        "IX-3p:j",
+        "IX-3p:i",
+        "LONG-AGO",
+        "ns-fs-SELES",
+        "ns-fs-CONTRO",
+        "IX-3p:k",
+        "IX-3p:i",
+        "IX-3p:j",
+        "IX-3p:i",
+        "(P)PROFESSION",
+        "TEND",
+        "USE_2",
+        "VOICE",
+        "fs-GRUNT"
+      ],
+      "hypothesis": [
+        "SOME",
+        "fs-ORIENTATION"
+      ],
+      "substitutions": 1,
+      "deletions": 21,
+      "insertions": 0,
+      "reference_tokens": 23,
+      "CTC_loss": 5.592958450317383,
+      "blank_frames": 110,
+      "output_frames": 112,
+      "signer_id": "asllrp_dai_participant_5",
+      "source_group": "5-Deaf-Grunts.mov",
+      "capture_family": "asllrp_dai_participant_5::UNRESOLVED_ALL_UNDATED_MASTERS"
+    },
+    {
+      "sample_id": "asllrp3_7b55980ab878a665",
+      "reference": [
+        "IX-3p:o",
+        "N",
+        "(1h)part:indef",
+        "fs-NOISY",
+        "SAME",
+        "THAT",
+        "1\\tracing sentence\\\"\"",
+        "IX-3p:o",
+        "MORE",
+        "INFORM",
+        "DEAF",
+        "PEOPLE",
+        "IX-3p-pl-arc",
+        "THINK",
+        "DEAF",
+        "QUIET",
+        "(1h)5\\wave no\\\"\"",
+        "IX-3p:i",
+        "REALLY",
+        "MAKE",
+        "NOISE"
+      ],
+      "hypothesis": [
+        "(2h)alt.USE-SIGN-LANGUAGE"
+      ],
+      "substitutions": 1,
+      "deletions": 20,
+      "insertions": 0,
+      "reference_tokens": 21,
+      "CTC_loss": 5.202418327331543,
+      "blank_frames": 102,
+      "output_frames": 103,
+      "signer_id": "asllrp_dai_participant_5",
+      "source_group": "6-Control-of-sound-intro.mov",
+      "capture_family": "asllrp_dai_participant_5::UNRESOLVED_ALL_UNDATED_MASTERS"
+    },
+    {
+      "sample_id": "asllrp3_54e71e7a0e0a5b9d",
+      "reference": [
+        "SAME",
+        "IX-3p:j",
+        "BELOW_2",
+        "NOISE",
+        "MAKE",
+        "INCLUDE/INVOLVE",
+        "CULTURE",
+        "ACCEPT",
+        "fs-RANGE",
+        "VOICE-RANGE_2"
+      ],
+      "hypothesis": [
+        "NONE/NOTHING",
+        "NOISE",
+        "NOISE"
+      ],
+      "substitutions": 2,
+      "deletions": 7,
+      "insertions": 0,
+      "reference_tokens": 10,
+      "CTC_loss": 5.037254333496094,
+      "blank_frames": 66,
+      "output_frames": 69,
+      "signer_id": "asllrp_dai_participant_5",
+      "source_group": "7-Social-Msg.mov",
+      "capture_family": "asllrp_dai_participant_5::UNRESOLVED_ALL_UNDATED_MASTERS"
+    },
+    {
+      "sample_id": "asllrp3_c43376ceaaf599e9",
+      "reference": [
+        "fs-C",
+        "FRIEND",
+        "fs-COLLEAGUE",
+        "POSS-1p",
+        "IX-loc:i",
+        "HERE",
+        "fs-AT",
+        "ns-GALLAUDET",
+        "COLLEGE",
+        "TELL-1p",
+        "ENTER",
+        "TOILET",
+        "IX-3p:i",
+        "CAN",
+        "LOOK:j",
+        "fs-PUBLIC",
+        "(1h)AREA",
+        "CAN",
+        "TELL",
+        "WHICH",
+        "IX-3p:i",
+        "HEARING",
+        "DEAF",
+        "HEARING",
+        "REALLY",
+        "SET-UP",
+        "ON",
+        "HOW",
+        "IX-3p:i",
+        "DCL:5\\emit waste\\\"\"",
+        "fs-WASTE"
+      ],
+      "hypothesis": [],
+      "substitutions": 0,
+      "deletions": 31,
+      "insertions": 0,
+      "reference_tokens": 31,
+      "CTC_loss": 5.960018157958984,
+      "blank_frames": 152,
+      "output_frames": 152,
+      "signer_id": "asllrp_dai_participant_5",
+      "source_group": "8-Control-of-sound-places.mov",
+      "capture_family": "asllrp_dai_participant_5::UNRESOLVED_ALL_UNDATED_MASTERS"
+    },
+    {
+      "sample_id": "asllrp3_af0703fa9e6d223f",
+      "reference": [
+        "IX-3p:i",
+        "HAPPEN",
+        "ABOUT",
+        "PEOPLE",
+        "NOT",
+        "KNOW",
+        "fs-OF",
+        "fs-ORIENTATION",
+        "DIFFERENT",
+        "LCL:B\\pathway\\\":i\""
+      ],
+      "hypothesis": [
+        "IX-1p"
+      ],
+      "substitutions": 1,
+      "deletions": 9,
+      "insertions": 0,
+      "reference_tokens": 10,
+      "CTC_loss": 3.9041905403137207,
+      "blank_frames": 63,
+      "output_frames": 64,
+      "signer_id": "asllrp_dai_participant_5",
+      "source_group": "9-Sensory-Politics.mov",
+      "capture_family": "asllrp_dai_participant_5::UNRESOLVED_ALL_UNDATED_MASTERS"
+    },
+    {
+      "sample_id": "asllrp3_6a1a5ecfb24720c3",
+      "reference": [
+        "BELOW_2",
+        "ON",
+        "IDEA",
+        "HOW",
+        "fs-HUMAN",
+        "LANGUAGE",
+        "EXPRESS"
+      ],
+      "hypothesis": [
+        "IX-1p"
+      ],
+      "substitutions": 1,
+      "deletions": 6,
+      "insertions": 0,
+      "reference_tokens": 7,
+      "CTC_loss": 4.611608028411865,
+      "blank_frames": 39,
+      "output_frames": 40,
+      "signer_id": "asllrp_dai_participant_5",
+      "source_group": "1-Introduction-SD.mov",
+      "capture_family": "asllrp_dai_participant_5::UNRESOLVED_ALL_UNDATED_MASTERS"
+    },
+    {
+      "sample_id": "asllrp3_58adb5f8f6c2b8c7",
+      "reference": [
+        "MANY+",
+        "NOW",
+        "SCHOOL",
+        "IN",
+        "CULTURE",
+        "STUDY",
+        "(2h)alt.SEE",
+        "CULTURE",
+        "(2h)alt.SEE",
+        "STUDY",
+        "IX-3p-pl-arc",
+        "DISCUSS",
+        "ABOUT",
+        "fs-SENSES",
+        "IN",
+        "NOW",
+        "WORLD"
+      ],
+      "hypothesis": [
+        "CULTURE",
+        "NOISE",
+        "fs-ORIENTATION",
+        "fs-SENSORY"
+      ],
+      "substitutions": 3,
+      "deletions": 13,
+      "insertions": 0,
+      "reference_tokens": 17,
+      "CTC_loss": 5.60230016708374,
+      "blank_frames": 109,
+      "output_frames": 113,
+      "signer_id": "asllrp_dai_participant_5",
+      "source_group": "10-Conclusion.mov",
+      "capture_family": "asllrp_dai_participant_5::UNRESOLVED_ALL_UNDATED_MASTERS"
+    },
+    {
+      "sample_id": "asllrp3_66c66ed7c0c11591",
+      "reference": [
+        "WHO",
+        "IX-3p:i",
+        "part:indef",
+        "(B-L)BECAUSE",
+        "\\WHAT\\\"\"",
+        "CLEAR",
+        "POSS-1p",
+        "CULTURE",
+        "TOTAL",
+        "(1h)part:indef"
+      ],
+      "hypothesis": [
+        "fs-SPEECH",
+        "part:indef"
+      ],
+      "substitutions": 1,
+      "deletions": 8,
+      "insertions": 0,
+      "reference_tokens": 10,
+      "CTC_loss": 4.910885810852051,
+      "blank_frames": 49,
+      "output_frames": 52,
+      "signer_id": "asllrp_dai_participant_5",
+      "source_group": "2-Voice-Identity.mov",
+      "capture_family": "asllrp_dai_participant_5::UNRESOLVED_ALL_UNDATED_MASTERS"
+    },
+    {
+      "sample_id": "asllrp3_504e268845a5da2e",
+      "reference": [
+        "IX-1p",
+        "(2h)LOOK",
+        "MOVIE",
+        "PAST+NIGHT",
+        "ACT+AGENT",
+        "(1h)GOOD/THANK-YOU"
+      ],
+      "hypothesis": [
+        "IX-1p",
+        "PAST+NIGHT",
+        "ACT+AGENT"
+      ],
+      "substitutions": 0,
+      "deletions": 3,
+      "insertions": 0,
+      "reference_tokens": 6,
+      "CTC_loss": 2.380441188812256,
+      "blank_frames": 34,
+      "output_frames": 37,
+      "signer_id": "asllrp_dai_participant_3",
+      "source_group": "2011-12-01_0043-cam1-for-ss3.mp4",
+      "capture_family": "asllrp_dai_participant_3::2011-12-01"
+    },
+    {
+      "sample_id": "asllrp3_c6dda2aee9a90a0c",
+      "reference": [
+        "IX-2p",
+        "VOTE",
+        "FOR",
+        "IX-3p:i",
+        "ns-fs-GEORGE-BUSH",
+        "IX-2p",
+        "5\\wave no\\\"\"",
+        "IX-1p",
+        "NOT",
+        "fs-EVEN",
+        "OLD",
+        "ENOUGH",
+        "TO/UNTIL",
+        "VOTE",
+        "WHEN",
+        "IX-3p:i",
+        "RUN-MACHINE",
+        "5\\you know\\\"\""
+      ],
+      "hypothesis": [
+        "IX-1p",
+        "NONE/NOTHING",
+        "RUN-MACHINE"
+      ],
+      "substitutions": 1,
+      "deletions": 15,
+      "insertions": 0,
+      "reference_tokens": 18,
+      "CTC_loss": 5.1623077392578125,
+      "blank_frames": 74,
+      "output_frames": 77,
+      "signer_id": "asllrp_dai_participant_3",
+      "source_group": "2011-12-08_0044-cam1-for-ss3.mp4",
+      "capture_family": "asllrp_dai_participant_3::2011-12-08"
+    },
+    {
+      "sample_id": "asllrp3_2c68583a6062f6c0",
+      "reference": [
+        "WHO",
+        "FIND/FIND-OUT",
+        "POSS-1p",
+        "(1h)KEY",
+        "WHO"
+      ],
+      "hypothesis": [
+        "IX-1p",
+        "POSS-1p",
+        "(1h)KEY",
+        "part:indef"
+      ],
+      "substitutions": 2,
+      "deletions": 1,
+      "insertions": 0,
+      "reference_tokens": 5,
+      "CTC_loss": 2.1881885528564453,
+      "blank_frames": 17,
+      "output_frames": 21,
+      "signer_id": "asllrp_dai_participant_3",
+      "source_group": "2011-12-08_0045-cam1-for-ss3.mp4",
+      "capture_family": "asllrp_dai_participant_3::2011-12-08"
+    },
+    {
+      "sample_id": "asllrp3_69d3513ca6fa9f6b",
+      "reference": [
+        "PERSON",
+        "ARRIVE",
+        "LATE+",
+        "WHO"
+      ],
+      "hypothesis": [
+        "IX-1p",
+        "LATE+",
+        "WHO"
+      ],
+      "substitutions": 1,
+      "deletions": 1,
+      "insertions": 0,
+      "reference_tokens": 4,
+      "CTC_loss": 2.0455470085144043,
+      "blank_frames": 19,
+      "output_frames": 22,
+      "signer_id": "asllrp_dai_participant_3",
+      "source_group": "2011-12-08_0046-cam1-for-ss3.mp4",
+      "capture_family": "asllrp_dai_participant_3::2011-12-08"
+    },
+    {
+      "sample_id": "asllrp3_7db7437d8ada500f",
+      "reference": [
+        "ns-fs-MARY",
+        "IX-3p:i",
+        "NOT",
+        "VEGETABLE",
+        "#NO+"
+      ],
+      "hypothesis": [
+        "IX-1p",
+        "FUNNY",
+        "VEGETABLE"
+      ],
+      "substitutions": 2,
+      "deletions": 2,
+      "insertions": 0,
+      "reference_tokens": 5,
+      "CTC_loss": 2.846911907196045,
+      "blank_frames": 22,
+      "output_frames": 25,
+      "signer_id": "asllrp_dai_participant_3",
+      "source_group": "2012-01-27_0050-cam1-for-ss3.mp4",
+      "capture_family": "asllrp_dai_participant_3::2012-01-27"
+    },
+    {
+      "sample_id": "asllrp3_577080aeb0cd93b7",
+      "reference": [
+        "IX-3p:i",
+        "CAR",
+        "REALLY+WORK/BUSINESS",
+        "BREAK-DOWN",
+        "YES+"
+      ],
+      "hypothesis": [
+        "IX-3p:i"
+      ],
+      "substitutions": 0,
+      "deletions": 4,
+      "insertions": 0,
+      "reference_tokens": 5,
+      "CTC_loss": 2.2592244148254395,
+      "blank_frames": 34,
+      "output_frames": 35,
+      "signer_id": "asllrp_dai_participant_3",
+      "source_group": "2012-01-27_0051-cam1-for-ss3.mp4",
+      "capture_family": "asllrp_dai_participant_3::2012-01-27"
+    },
+    {
+      "sample_id": "asllrp3_cfe1f3a93edfe745",
+      "reference": [
+        "SOUP",
+        "fs-GAZPACHO",
+        "SOUP",
+        "IX-3p:i",
+        "COLD",
+        "NOT",
+        "HOT",
+        "(1h)5\\why is it so\\\"\""
+      ],
+      "hypothesis": [
+        "IX-1p",
+        "NOT",
+        "BUTTER_2+",
+        "(1h)5\\why is it so\\\"\""
+      ],
+      "substitutions": 2,
+      "deletions": 4,
+      "insertions": 0,
+      "reference_tokens": 8,
+      "CTC_loss": 3.2595040798187256,
+      "blank_frames": 39,
+      "output_frames": 43,
+      "signer_id": "asllrp_dai_participant_3",
+      "source_group": "2012-01-27_0052-cam1-for-ss3.mp4",
+      "capture_family": "asllrp_dai_participant_3::2012-01-27"
+    },
+    {
+      "sample_id": "asllrp3_134819a628365aa8",
+      "reference": [
+        "LIE",
+        "(1h)FINISH",
+        "NOT",
+        "FUNNY",
+        "WHERE",
+        "MOTHER+",
+        "(1h)part:indef"
+      ],
+      "hypothesis": [
+        "WEATHER",
+        "(1h)FINISH",
+        "LIBRARY",
+        "FUNNY"
+      ],
+      "substitutions": 2,
+      "deletions": 3,
+      "insertions": 0,
+      "reference_tokens": 7,
+      "CTC_loss": 3.2200093269348145,
+      "blank_frames": 20,
+      "output_frames": 24,
+      "signer_id": "asllrp_dai_participant_3",
+      "source_group": "2012-01-27_0053-cam1-for-ss3.mp4",
+      "capture_family": "asllrp_dai_participant_3::2012-01-27"
+    },
+    {
+      "sample_id": "asllrp3_8bd697e4d98de24f",
+      "reference": [
+        "SORRY",
+        "MUST",
+        "WAIT",
+        "SIT++",
+        "IX-loc:i"
+      ],
+      "hypothesis": [
+        "SORRY",
+        "MUST",
+        "SIT++"
+      ],
+      "substitutions": 0,
+      "deletions": 2,
+      "insertions": 0,
+      "reference_tokens": 5,
+      "CTC_loss": 1.775019645690918,
+      "blank_frames": 22,
+      "output_frames": 25,
+      "signer_id": "asllrp_dai_participant_3",
+      "source_group": "2012-01-27_0055-cam1-for-ss3.mp4",
+      "capture_family": "asllrp_dai_participant_3::2012-01-27"
+    },
+    {
+      "sample_id": "asllrp3_b559d58067fbf4bd",
+      "reference": [
+        "IX-2p",
+        "GO",
+        "SCHOOL",
+        "TOMORROW"
+      ],
+      "hypothesis": [
+        "SCHOOL"
+      ],
+      "substitutions": 0,
+      "deletions": 3,
+      "insertions": 0,
+      "reference_tokens": 4,
+      "CTC_loss": 1.9986653327941895,
+      "blank_frames": 21,
+      "output_frames": 22,
+      "signer_id": "asllrp_dai_participant_3",
+      "source_group": "2012-01-27_0056-cam1-for-ss3.mp4",
+      "capture_family": "asllrp_dai_participant_3::2012-01-27"
+    },
+    {
+      "sample_id": "asllrp3_bb58893c00872fd9",
+      "reference": [
+        "IX-1p",
+        "NONE",
+        "(flat-O)PAY/SPEND",
+        "IX-1p",
+        "GO",
+        "AUNT",
+        "HOUSE",
+        "EAT",
+        "IX-loc:i"
+      ],
+      "hypothesis": [
+        "BOX/ROOM",
+        "#NO+"
+      ],
+      "substitutions": 2,
+      "deletions": 7,
+      "insertions": 0,
+      "reference_tokens": 9,
+      "CTC_loss": 4.963765621185303,
+      "blank_frames": 33,
+      "output_frames": 35,
+      "signer_id": "asllrp_dai_participant_3",
+      "source_group": "2012-02-09_0057-cam1-for-ss3.mp4",
+      "capture_family": "asllrp_dai_participant_3::2012-02-09"
+    },
+    {
+      "sample_id": "asllrp3_afd3e3aed4a23178",
+      "reference": [
+        "ns-fs-JOHN",
+        "IX-loc:i",
+        "NOT",
+        "BUY",
+        "TURKEY",
+        "#NO+",
+        "IX-3p:j",
+        "ns-fs-JAMES",
+        "BUY",
+        "TURKEY"
+      ],
+      "hypothesis": [
+        "IX-1p",
+        "BELIEVE",
+        "NOT"
+      ],
+      "substitutions": 2,
+      "deletions": 7,
+      "insertions": 0,
+      "reference_tokens": 10,
+      "CTC_loss": 3.2451000213623047,
+      "blank_frames": 35,
+      "output_frames": 38,
+      "signer_id": "asllrp_dai_participant_3",
+      "source_group": "2012-02-09_0058-cam1-for-ss3.mp4",
+      "capture_family": "asllrp_dai_participant_3::2012-02-09"
+    },
+    {
+      "sample_id": "asllrp3_7947c6d79642a93b",
+      "reference": [
+        "IX-1p",
+        "(1h)HAPPY+"
+      ],
+      "hypothesis": [
+        "IX-1p",
+        "(1h)HAPPY+"
+      ],
+      "substitutions": 0,
+      "deletions": 0,
+      "insertions": 0,
+      "reference_tokens": 2,
+      "CTC_loss": 1.0996452569961548,
+      "blank_frames": 15,
+      "output_frames": 17,
+      "signer_id": "asllrp_dai_participant_3",
+      "source_group": "2012-02-09_0059-cam1-for-ss3.mp4",
+      "capture_family": "asllrp_dai_participant_3::2012-02-09"
+    },
+    {
+      "sample_id": "asllrp3_cf4f78261cb3dc3b",
+      "reference": [
+        "IX-3p:i",
+        "ns-fs-JOHN",
+        "BREAK",
+        "WINDOW+"
+      ],
+      "hypothesis": [
+        "IX-1p",
+        "WINDOW+"
+      ],
+      "substitutions": 1,
+      "deletions": 2,
+      "insertions": 0,
+      "reference_tokens": 4,
+      "CTC_loss": 2.4314818382263184,
+      "blank_frames": 23,
+      "output_frames": 25,
+      "signer_id": "asllrp_dai_participant_3",
+      "source_group": "2012-02-09_0060-cam1-for-ss3.mp4",
+      "capture_family": "asllrp_dai_participant_3::2012-02-09"
+    },
+    {
+      "sample_id": "asllrp3_f8e065e0e16a89c6",
+      "reference": [
+        "#ALL_2",
+        "LEARN+AGENT",
+        "PASS",
+        "TEST",
+        "NONE",
+        "SCHOOL",
+        "TOMORROW"
+      ],
+      "hypothesis": [
+        "IX-1p",
+        "LEARN+AGENT",
+        "(1h)5\\wave no\\\"\""
+      ],
+      "substitutions": 2,
+      "deletions": 4,
+      "insertions": 0,
+      "reference_tokens": 7,
+      "CTC_loss": 3.1788313388824463,
+      "blank_frames": 36,
+      "output_frames": 39,
+      "signer_id": "asllrp_dai_participant_3",
+      "source_group": "2012-02-09_0061-cam1-for-ss3.mp4",
+      "capture_family": "asllrp_dai_participant_3::2012-02-09"
+    },
+    {
+      "sample_id": "asllrp3_7e742dc39a915a12",
+      "reference": [
+        "ATTENTION-WAVE",
+        "POSS-1p+",
+        "FRIEND",
+        "ARRIVE",
+        "TIME++"
+      ],
+      "hypothesis": [
+        "SISTER",
+        "ARRIVE",
+        "TIME++"
+      ],
+      "substitutions": 1,
+      "deletions": 2,
+      "insertions": 0,
+      "reference_tokens": 5,
+      "CTC_loss": 2.3857386112213135,
+      "blank_frames": 34,
+      "output_frames": 37,
+      "signer_id": "asllrp_dai_participant_2",
+      "source_group": "2013-06-27_CB_0107-cam1-for-ss3.mp4",
+      "capture_family": "asllrp_dai_participant_2::2013-06-27"
+    },
+    {
+      "sample_id": "asllrp3_7395bda8f6f84f97",
+      "reference": [
+        "ANYWAY/NOT-MATTER++",
+        "RAIN",
+        "NOT",
+        "part:indef",
+        "STILL",
+        "PROCEED",
+        "SWIM+"
+      ],
+      "hypothesis": [
+        "SWIM+"
+      ],
+      "substitutions": 0,
+      "deletions": 6,
+      "insertions": 0,
+      "reference_tokens": 7,
+      "CTC_loss": 4.360426902770996,
+      "blank_frames": 44,
+      "output_frames": 45,
+      "signer_id": "asllrp_dai_participant_2",
+      "source_group": "2013-06-27_CB_0108-cam1-for-ss3.mp4",
+      "capture_family": "asllrp_dai_participant_2::2013-06-27"
+    },
+    {
+      "sample_id": "asllrp3_eea75e1d25b92738",
+      "reference": [
+        "#NO+",
+        "IX-1p",
+        "RECENT-PAST",
+        "#BACK_2",
+        "FROM",
+        "DINNER",
+        "IX-3p:i",
+        "NONE/NOTHING",
+        "ICE-CREAM",
+        "IX-honorific:i"
+      ],
+      "hypothesis": [],
+      "substitutions": 0,
+      "deletions": 10,
+      "insertions": 0,
+      "reference_tokens": 10,
+      "CTC_loss": 4.289587020874023,
+      "blank_frames": 43,
+      "output_frames": 43,
+      "signer_id": "asllrp_dai_participant_2",
+      "source_group": "2013-06-27_CB_0109-cam1-for-ss3.mp4",
+      "capture_family": "asllrp_dai_participant_2::2013-06-27"
+    },
+    {
+      "sample_id": "asllrp3_d3d11d44eee0dafe",
+      "reference": [
+        "(1h)5\\wave no\\\"\"",
+        "IX-1p",
+        "NOT",
+        "LIKE",
+        "CHOCOLATE",
+        "DRY-CEREAL",
+        "IX-1p"
+      ],
+      "hypothesis": [
+        "LIKE",
+        "CHOCOLATE"
+      ],
+      "substitutions": 0,
+      "deletions": 5,
+      "insertions": 0,
+      "reference_tokens": 7,
+      "CTC_loss": 2.4957540035247803,
+      "blank_frames": 34,
+      "output_frames": 36,
+      "signer_id": "asllrp_dai_participant_2",
+      "source_group": "2013-06-27_CB_0110-cam1-for-ss3.mp4",
+      "capture_family": "asllrp_dai_participant_2::2013-06-27"
+    },
+    {
+      "sample_id": "asllrp3_9a763ef2703cc8fd",
+      "reference": [
+        "(1h)5\\whoa\\\"\"",
+        "IX-3p:i",
+        "FUTURE",
+        "BUY",
+        "FLOWER",
+        "FOR",
+        "REALLY"
+      ],
+      "hypothesis": [
+        "IX-3p:i",
+        "IX-loc:i"
+      ],
+      "substitutions": 1,
+      "deletions": 5,
+      "insertions": 0,
+      "reference_tokens": 7,
+      "CTC_loss": 5.047608375549316,
+      "blank_frames": 37,
+      "output_frames": 39,
+      "signer_id": "asllrp_dai_participant_2",
+      "source_group": "2013-06-27_CB_0111-cam1-for-ss3.mp4",
+      "capture_family": "asllrp_dai_participant_2::2013-06-27"
+    },
+    {
+      "sample_id": "asllrp3_0b9e964ba2f233cd",
+      "reference": [
+        "FRIEND",
+        "IX-loc:i",
+        "DO-DO+",
+        "IX-3p:i"
+      ],
+      "hypothesis": [
+        "FRIEND",
+        "GROUP/TOGETHER"
+      ],
+      "substitutions": 1,
+      "deletions": 2,
+      "insertions": 0,
+      "reference_tokens": 4,
+      "CTC_loss": 2.496058940887451,
+      "blank_frames": 27,
+      "output_frames": 29,
+      "signer_id": "asllrp_dai_participant_2",
+      "source_group": "2013-06-27_CB_0112-cam1-for-ss3.mp4",
+      "capture_family": "asllrp_dai_participant_2::2013-06-27"
+    },
+    {
+      "sample_id": "asllrp3_6322defaccbe4639",
+      "reference": [
+        "IX-2p",
+        "(1h)VOMIT/HATE",
+        "VIDEO-GAME",
+        "IX-loc:i",
+        "(25)WHY",
+        "IX-loc:i"
+      ],
+      "hypothesis": [],
+      "substitutions": 0,
+      "deletions": 6,
+      "insertions": 0,
+      "reference_tokens": 6,
+      "CTC_loss": 3.327197790145874,
+      "blank_frames": 34,
+      "output_frames": 34,
+      "signer_id": "asllrp_dai_participant_2",
+      "source_group": "2013-06-27_CB_0113-cam1-for-ss3.mp4",
+      "capture_family": "asllrp_dai_participant_2::2013-06-27"
+    },
+    {
+      "sample_id": "asllrp3_608d68943068e794",
+      "reference": [
+        "LIKE",
+        "BOMB+",
+        "IX-2p"
+      ],
+      "hypothesis": [
+        "LIKE",
+        "BOMB+",
+        "IX-2p"
+      ],
+      "substitutions": 0,
+      "deletions": 0,
+      "insertions": 0,
+      "reference_tokens": 3,
+      "CTC_loss": 1.127813696861267,
+      "blank_frames": 32,
+      "output_frames": 35,
+      "signer_id": "asllrp_dai_participant_2",
+      "source_group": "2013-06-27_CB_0114-cam1-for-ss3.mp4",
+      "capture_family": "asllrp_dai_participant_2::2013-06-27"
+    }
+  ]
+}

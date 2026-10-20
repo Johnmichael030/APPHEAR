@@ -1,0 +1,38 @@
+{
+  "status": "PASS",
+  "source_manifest": "D:\\apphearv3claude\\AppHear-claude-s2-r3-eval-suite\\AppHear-claude-s2-r3-eval-suite\\experiments\\continuous_asl\\20261020T131348Z_source_signer_audit01\\folds\\A_guarded_pooled_family_holdout.json",
+  "source_manifest_sha256": "87442a6f1241860e369a5c8f0768d583b3a4058f5a9ad03dcc135532c419c72f",
+  "counts": {
+    "TRAIN": 1500,
+    "primary_eval": 80,
+    "strong_subgroup": 27,
+    "full_internal_eval": 206
+  },
+  "overlap": {
+    "sample_id": [],
+    "source_group": [],
+    "collection": [],
+    "raw_sha256": [],
+    "decoded_pixel_sha256": []
+  },
+  "capture_family_overlap": false,
+  "train_capture_families": [
+    "asllrp_dai_participant_2::2013-06-27",
+    "asllrp_dai_participant_3::2011-12-01",
+    "asllrp_dai_participant_3::2011-12-08",
+    "asllrp_dai_participant_3::2012-01-27",
+    "asllrp_dai_participant_3::2012-02-09",
+    "asllrp_dai_participant_5::UNRESOLVED_ALL_UNDATED_MASTERS"
+  ],
+  "held_capture_families": [
+    "asllrp_dai_participant_2::2013-06-25",
+    "asllrp_dai_participant_3::2012-02-14"
+  ],
+  "all80and27labels_in_vocabulary": true,
+  "feature_files_hash_schema_timestamp_CTC_checked": 1706,
+  "GPU": "NVIDIA GeForce RTX 3050 Laptop GPU",
+  "GPU_total_bytes": 4294443008,
+  "cuda_version": "12.8",
+  "torch_version": "2.8.0+cu128",
+  "TEST_used": false
+}

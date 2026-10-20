@@ -1,0 +1,9 @@
+D:\apphearv3claude\AppHear-claude-s2-r3-eval-suite\AppHear-claude-s2-r3-eval-suite\experiments\continuous_asl\20261019T155428Z_cslr01\runtime\venv\Lib\site-packages\tensorflow\lite\python\interpreter.py:457: UserWarning:     Warning: tf.lite.Interpreter is deprecated and is scheduled for deletion in
+    TF 2.20. Please use the LiteRT interpreter from the ai_edge_litert package.
+    See the [migration guide](https://ai.google.dev/edge/litert/migration)
+    for details.
+    
+  warnings.warn(_INTERPRETER_DELETION_WARNING)
+INFO: Created TensorFlow Lite XNNPACK delegate for CPU.
+{"sample_id": "ncslgr_189fd7d52377b3a8", "frames": 88, "observations": 30, "split": "train", "hands": [0.3, 0.36666666666666664]}
+{"schema": "apphear.continuous_asl.candidate01_causal378.v1", "status": "PASS", "requested": 1, "processed": 1, "failures": [], "preprocessing_config_sha256": "c9ad84cb9d5a00ee2f0ac18b16f09fdcb563b56d044f0960e5591d85d807f9b2", "elapsed_seconds": 11.365049499989254, "selected_frame_count": 30, "extraction_ms_p50": 62.30034999316558, "extraction_ms_p95": 96.63201500661663, "extraction_ms_sum": 1972.5368999352213, "split_counts": {"train": 1}, "video_sha256_duplicates": 0, "collection_overlap": [], "signer_leakage": "UNVERIFIABLE: IDs unavailable", "near_duplicate_method": "exact video SHA256 only; perceptual detection not performed", "hardware_scope": "Windows CPU ORT DWPose + CPU TFLite refiner, no Android FPS claim"}

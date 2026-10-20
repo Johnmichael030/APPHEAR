@@ -1,0 +1,10 @@
+{
+  "GPU": "NVIDIA GeForce RTX 3050 Laptop GPU",
+  "GPU_total_bytes": 4294443008,
+  "GPU_free_bytes": 3459986228,
+  "torch": "2.8.0+cu128",
+  "CUDA": "12.8",
+  "CUDA_available": true,
+  "CPU_threads": 16,
+  "disk_free_bytes": 166281871360
+}

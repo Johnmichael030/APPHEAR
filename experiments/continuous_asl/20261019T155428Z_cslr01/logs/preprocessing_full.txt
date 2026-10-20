@@ -1,0 +1,45 @@
+D:\apphearv3claude\AppHear-claude-s2-r3-eval-suite\AppHear-claude-s2-r3-eval-suite\experiments\continuous_asl\20261019T155428Z_cslr01\runtime\venv\Lib\site-packages\tensorflow\lite\python\interpreter.py:457: UserWarning:     Warning: tf.lite.Interpreter is deprecated and is scheduled for deletion in
+    TF 2.20. Please use the LiteRT interpreter from the ai_edge_litert package.
+    See the [migration guide](https://ai.google.dev/edge/litert/migration)
+    for details.
+    
+  warnings.warn(_INTERPRETER_DELETION_WARNING)
+INFO: Created TensorFlow Lite XNNPACK delegate for CPU.
+{"sample_id": "ncslgr_15ce3b0df9a36e45", "frames": 87, "observations": 29, "split": "train", "hands": [0.5172413793103449, 0.5862068965517241]}
+{"sample_id": "ncslgr_189fd7d52377b3a8", "frames": 88, "observations": 30, "split": "train", "hands": [0.3, 0.36666666666666664]}
+{"sample_id": "ncslgr_1e2c1b5b4aaadceb", "frames": 81, "observations": 27, "split": "train", "hands": [0.25925925925925924, 0.1111111111111111]}
+{"sample_id": "ncslgr_1fdea7c25c7c94f9", "frames": 43, "observations": 15, "split": "train", "hands": [0.8, 0.13333333333333333]}
+{"sample_id": "ncslgr_29025ebac908ca34", "frames": 80, "observations": 27, "split": "train", "hands": [0.14814814814814814, 0.037037037037037035]}
+{"sample_id": "ncslgr_3a72bddf4e899dc2", "frames": 62, "observations": 21, "split": "train", "hands": [0.09523809523809523, 0.23809523809523808]}
+{"sample_id": "ncslgr_41a940ff8bcad76e", "frames": 71, "observations": 24, "split": "val", "hands": [0.5833333333333334, 0.5833333333333334]}
+{"sample_id": "ncslgr_42e8b262b491ff76", "frames": 63, "observations": 21, "split": "train", "hands": [0.19047619047619047, 0.047619047619047616]}
+{"sample_id": "ncslgr_506eb32518c31cf0", "frames": 81, "observations": 27, "split": "train", "hands": [0.37037037037037035, 0.6666666666666666]}
+{"sample_id": "ncslgr_5217c2322e5f74f1", "frames": 51, "observations": 17, "split": "val", "hands": [0.5882352941176471, 0.9411764705882353]}
+{"sample_id": "ncslgr_5ebe678119cee7c7", "frames": 89, "observations": 30, "split": "train", "hands": [0.4666666666666667, 0.3333333333333333]}
+{"sample_id": "ncslgr_6388dfd0f663edff", "frames": 89, "observations": 30, "split": "train", "hands": [0.3, 0.43333333333333335]}
+{"sample_id": "ncslgr_6a4af42a32509d57", "frames": 97, "observations": 33, "split": "train", "hands": [0.3939393939393939, 0.48484848484848486]}
+{"sample_id": "ncslgr_6d36b1f27e4d56af", "frames": 68, "observations": 23, "split": "train", "hands": [0.08695652173913043, 0.21739130434782608]}
+{"sample_id": "ncslgr_6ffe901b165408f0", "frames": 113, "observations": 38, "split": "train", "hands": [0.5263157894736842, 0.6052631578947368]}
+{"sample_id": "ncslgr_70c974c405d9d22f", "frames": 72, "observations": 24, "split": "train", "hands": [0.041666666666666664, 0.20833333333333334]}
+{"sample_id": "ncslgr_72c804adf365509c", "frames": 78, "observations": 26, "split": "train", "hands": [0.38461538461538464, 0.11538461538461539]}
+{"sample_id": "ncslgr_7ce3508959b6daf0", "frames": 71, "observations": 24, "split": "val", "hands": [0.375, 0.20833333333333334]}
+{"sample_id": "ncslgr_80c4176c179c9190", "frames": 99, "observations": 33, "split": "train", "hands": [0.21212121212121213, 0.2727272727272727]}
+{"sample_id": "ncslgr_848668784c16c828", "frames": 69, "observations": 23, "split": "train", "hands": [0.4782608695652174, 0.391304347826087]}
+{"sample_id": "ncslgr_87f13ef225243f47", "frames": 83, "observations": 28, "split": "train", "hands": [0.14285714285714285, 0.21428571428571427]}
+{"sample_id": "ncslgr_8df5a103f3008daa", "frames": 87, "observations": 29, "split": "train", "hands": [0.5172413793103449, 0.3448275862068966]}
+{"sample_id": "ncslgr_96d4fba7d1c2598c", "frames": 59, "observations": 20, "split": "train", "hands": [0.35, 0.05]}
+{"sample_id": "ncslgr_9ab04c8d83836bbd", "frames": 73, "observations": 25, "split": "train", "hands": [0.04, 0.28]}
+{"sample_id": "ncslgr_a1f5b0418a1d8936", "frames": 81, "observations": 27, "split": "train", "hands": [0.3333333333333333, 0.4444444444444444]}
+{"sample_id": "ncslgr_aa797382ef0f84b9", "frames": 97, "observations": 33, "split": "val", "hands": [0.3939393939393939, 0.21212121212121213]}
+{"sample_id": "ncslgr_b4b6b3a8dd2384d4", "frames": 46, "observations": 16, "split": "val", "hands": [0.3125, 0.0625]}
+{"sample_id": "ncslgr_b5a0f500c50c90a5", "frames": 71, "observations": 24, "split": "train", "hands": [0.5833333333333334, 0.625]}
+{"sample_id": "ncslgr_b79906da14d728f6", "frames": 98, "observations": 33, "split": "train", "hands": [0.45454545454545453, 0.15151515151515152]}
+{"sample_id": "ncslgr_c9b58a7e5186fbcc", "frames": 65, "observations": 22, "split": "train", "hands": [0.3181818181818182, 0.13636363636363635]}
+{"sample_id": "ncslgr_d00de0e555560ccf", "frames": 89, "observations": 30, "split": "train", "hands": [0.3333333333333333, 0.3]}
+{"sample_id": "ncslgr_d58fc6ae63332323", "frames": 91, "observations": 31, "split": "train", "hands": [0.22580645161290322, 0.3225806451612903]}
+{"sample_id": "ncslgr_d79fcf66fb5f83a0", "frames": 64, "observations": 22, "split": "train", "hands": [0.5454545454545454, 0.36363636363636365]}
+{"sample_id": "ncslgr_d7df63242e304194", "frames": 53, "observations": 18, "split": "val", "hands": [0.2222222222222222, 0.16666666666666666]}
+{"sample_id": "ncslgr_db431890eb66b9b8", "frames": 70, "observations": 24, "split": "train", "hands": [0.041666666666666664, 0.4166666666666667]}
+{"sample_id": "ncslgr_ea3072063dcce434", "frames": 51, "observations": 17, "split": "val", "hands": [0.17647058823529413, 0.29411764705882354]}
+{"sample_id": "ncslgr_ff4ccab6214e02e3", "frames": 68, "observations": 23, "split": "train", "hands": [0.34782608695652173, 0.43478260869565216]}
+{"schema": "apphear.continuous_asl.candidate01_causal378.v1", "status": "PASS", "requested": 37, "processed": 37, "failures": [], "preprocessing_config_sha256": "c9ad84cb9d5a00ee2f0ac18b16f09fdcb563b56d044f0960e5591d85d807f9b2", "elapsed_seconds": 62.108765499986475, "selected_frame_count": 944, "extraction_ms_p50": 53.28130000270903, "extraction_ms_p95": 62.68516001000535, "extraction_ms_sum": 51379.207999736536, "split_counts": {"train": 30, "val": 7}, "video_sha256_duplicates": 0, "collection_overlap": [], "signer_leakage": "UNVERIFIABLE: IDs unavailable", "near_duplicate_method": "exact video SHA256 only; perceptual detection not performed", "hardware_scope": "Windows CPU ORT DWPose + CPU TFLite refiner, no Android FPS claim"}

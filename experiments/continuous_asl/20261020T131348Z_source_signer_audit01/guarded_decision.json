@@ -1,0 +1,40 @@
+{
+  "recommendation": "SOURCE_TRANSFER_PILOT_CONSERVATIVE_FAMILY_LEVEL",
+  "candidate": {
+    "fold": "A_guarded_pooled_family_holdout",
+    "kind": "source_family_pooled",
+    "status": "PASS_CONSERVATIVE_GROUP_GUARD; PARTIAL_EXPLORATORY_SUPPORT",
+    "causal_scope": "Same known signers; held-out conservative recording families. Capture/date/topic/label composition still bundled; no isolated signer or dataset effect.",
+    "TRAIN_utterances": 1500,
+    "internal_eval_utterances": 206,
+    "TRAIN_signers": 3,
+    "eval_signers": 2,
+    "shared_signer_IDs": 2,
+    "TRAIN_sources": 34,
+    "eval_sources": 5,
+    "TRAIN_labels": 2287,
+    "eval_labels": 607,
+    "shared_literal_labels": 377,
+    "eval_reference_tokens": 1794,
+    "eval_token_coverage": 0.810479375696767,
+    "compatible_eval_utterances": 80,
+    "support5_eval_utterances": 27,
+    "minimum_CTC_slack": 5,
+    "known_recording_content_leakage": false,
+    "manifest_sha256": "87442a6f1241860e369a5c8f0768d583b3a4058f5a9ad03dcc135532c419c72f",
+    "capture_family_overlap": false,
+    "eval_capture_families": 2,
+    "TRAIN_capture_families": 6,
+    "compatible_eval_token_coverage": 0.27034559643255296
+  },
+  "training_authorized": false,
+  "supersedes": "decision.json recommendation and filename-only A folds; their completed metadata artifacts are retained.",
+  "reason": "Keep uncertain related masters together. Two eval family clusters across two known seen signers; exploratory only. Cory compatible support is six samples, so no stable Cory-specific accuracy estimate.",
+  "held_family_by_signer": {
+    "asllrp_dai_participant_2": "asllrp_dai_participant_2::2013-06-25",
+    "asllrp_dai_participant_3": "asllrp_dai_participant_3::2012-02-14"
+  },
+  "independent_source_signer_effects": "BLOCKED; no crossed cells. This pilot only asks about new recording-family transfer among known signers.",
+  "signer5_limitation": "No independence evidence for ten undated numbered masters; keep whole335-record family together.",
+  "source_identity_limit": "Date-shaped publisher master prefixes are conservative grouping proxies, not proven capture dates. Unknown cross-date re-encoding remains a metadata limitation."
+}

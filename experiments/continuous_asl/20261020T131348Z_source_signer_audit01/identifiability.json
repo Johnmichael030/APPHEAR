@@ -1,0 +1,18 @@
+{
+  "ASLLRP_TRAIN_utterances": 1706,
+  "source_recordings": 39,
+  "publisher_signer_IDs": 3,
+  "sources_with_multiple_signers": 0,
+  "sources_per_signer": {
+    "asllrp_dai_participant_2": 10,
+    "asllrp_dai_participant_3": 19,
+    "asllrp_dai_participant_5": 10
+  },
+  "Cramers_V_source_vs_signer": 1.0,
+  "source_indicator_rank": 39,
+  "source_plus_signer_indicator_rank": 39,
+  "signer_additional_rank": 0,
+  "conclusion": "Signer indicators perfectly nested/aliased with recording indicators. No fully crossed or independent additive recording+signer effect identification.",
+  "cross_dataset_signer_bridge": "UNKNOWN; no verified same-person link across the two pool namespaces",
+  "pool_target_equivalence": "NOT_PROVEN; keep separate"
+}

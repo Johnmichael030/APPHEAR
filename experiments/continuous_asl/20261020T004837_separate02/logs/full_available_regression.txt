@@ -1,0 +1,189 @@
+.................................................................F...... [  7%]
+........................................................................ [ 14%]
+..................FF....FFFF..............................FFFFFF........ [ 22%]
+...................F................FsEEEEEEEEE.F....................... [ 29%]
+...........F...........................FF.F................FFFFFFFssss.. [ 36%]
+.......................................................................E [ 44%]
+EEEEEEEE.F.....F.FF..F..........EEEEEEEEEE...........FFFFFFFFFF........F [ 51%]
+FFF.......................F.....F........................FFFFFFFFFFFFFF. [ 58%]
+...............FFFFF..FFF.F............................................. [ 66%]
+.........F.FF..................FF.......................FFFF..FFFFFFFFF. [ 73%]
+FFFF..F.F..F.............FF........F.F..F..............F.FF...F..FFFF.F. [ 80%]
+........................................................................ [ 88%]
+......................FFF.FF.F.............FF................ssss..s.... [ 95%]
+............................FF.............                              [100%]
+- generated xml file: D:\apphearv3claude\AppHear-claude-s2-r3-eval-suite\AppHear-claude-s2-r3-eval-suite\experiments\continuous_asl\20261020T004837_separate02\logs\full_regression.xml -
+=========================== short test summary info ===========================
+FAILED tests/test_continuous_transition_diagnostics.py::test_frozen_s2_r2_package_against_existing_host_fixture
+FAILED tests/test_fingerspelling_1k_optimization.py::test_fixed_configuration_preserves_current_contract
+FAILED tests/test_fingerspelling_1k_optimization.py::test_learning_rate_finishes_at_lower_rate_without_a_sweep
+FAILED tests/test_fingerspelling_1k_optimization.py::test_gate_requires_discrimination_not_more_emission
+FAILED tests/test_fingerspelling_1k_optimization.py::test_gate_recognizes_broad_correct_character_improvement
+FAILED tests/test_fingerspelling_1k_optimization.py::test_gate_does_not_hide_sparse_regression
+FAILED tests/test_fingerspelling_1k_optimization.py::test_failed_gate_refuses_training_before_loading_model
+FAILED tests/test_fingerspelling_canonical_v2.py::test_v2_receipt_rejects_contract_role_and_lineage_mutation
+FAILED tests/test_fingerspelling_canonical_v2.py::test_v2_cache_preserves_lengths_targets_and_padding_masks
+FAILED tests/test_fingerspelling_capacity.py::test_fit_rule_requires_consistent_dual_view_character_improvement
+FAILED tests/test_fingerspelling_capacity.py::test_frozen_candidate_preserves_receptive_field_and_training_policy
+FAILED tests/test_fingerspelling_capacity.py::test_candidate_causality_padding_gradients_and_shape
+FAILED tests/test_fingerspelling_capacity.py::test_full_runner_is_separate_and_gate_bound
+FAILED tests/test_fingerspelling_dataset.py::test_empty_real_package_is_collection_only
+FAILED tests/test_fingerspelling_execution_handoff.py::test_preflight_disk_guard
+FAILED tests/test_fingerspelling_external_preparation.py::test_metadata_preflight_never_loads_candidate
+FAILED tests/test_fingerspelling_parallel_preparation.py::test_worker_inherits_root_lock_after_coordinator_socket_closes
+FAILED tests/test_fingerspelling_residual_visual.py::test_actual_b2_zero_fallback_gradients_causality_serialization
+FAILED tests/test_fingerspelling_residual_visual.py::test_retained_real_temporal_alignment
+FAILED tests/test_fingerspelling_residual_visual.py::test_writer_exclusion_and_release
+FAILED tests/test_fingerspelling_sequence_foundation.py::test_existing_package_keeps_pending_explicit
+FAILED tests/test_fingerspelling_sequence_foundation.py::test_metadata_tampering_is_refused[test_role-SIGNER_ROLE]
+FAILED tests/test_fingerspelling_sequence_foundation.py::test_metadata_tampering_is_refused[wrong_signer-OFFICIAL_METADATA]
+FAILED tests/test_fingerspelling_sequence_foundation.py::test_metadata_tampering_is_refused[fake_path-OFFICIAL_SOURCE_LINKAGE]
+FAILED tests/test_fingerspelling_sequence_foundation.py::test_metadata_tampering_is_refused[ctc_length-OFFICIAL_SOURCE_LINKAGE]
+FAILED tests/test_fingerspelling_sequence_foundation.py::test_metadata_tampering_is_refused[duplicate_id-DUPLICATE_ID]
+FAILED tests/test_fingerspelling_sequence_foundation.py::test_acquisition_reuses_fixed_sources_without_network
+FAILED tests/test_fingerspelling_train4096.py::test_confirmation_lock_prohibits_training_before_model_load
+FAILED tests/test_fingerspelling_train4096.py::test_final_confirmation_is_locked_cached_and_never_reselects
+FAILED tests/test_fingerspelling_visual.py::test_real_crop_temporal_indices_and_adapter_equivalence
+FAILED tests/test_fingerspelling_visual.py::test_historical_orientation_probe_identity_guard
+FAILED tests/test_fingerspelling_visual.py::test_fusion_masks_causality_gradients_and_serialization
+FAILED tests/test_negative_gold_external_confirmation.py::test_selection_uses_only_non_discordant_first_pass_zeros
+FAILED tests/test_negative_gold_external_confirmation.py::test_package_is_diverse_and_fully_licensed
+FAILED tests/test_negative_gold_external_confirmation.py::test_queue_is_blind_resumable_and_repeats_preserve_exact_bytes
+FAILED tests/test_negative_gold_external_confirmation.py::test_frozen_dhash_rule_holds_against_seed_and_within_selection
+FAILED tests/test_negative_gold_external_confirmation.py::test_provenance_confirms_no_models_or_downloads
+FAILED tests/test_negative_gold_external_confirmation.py::test_failed_repeat_qc_blocks_all_promotion
+FAILED tests/test_negative_gold_external_confirmation.py::test_finalization_hash_manifest_matches_result_artifacts
+FAILED tests/test_negative_gold_governance.py::test_seed_is_frozen_incomplete_and_independent
+FAILED tests/test_negative_gold_governance.py::test_review_queue_is_blinded_randomized_and_qc_mapped
+FAILED tests/test_negative_gold_governance.py::test_frozen_dhash_sanity_examples_cover_requested_buckets
+FAILED tests/test_negative_gold_open_images.py::test_frozen_package_has_complete_licensed_provenance
+FAILED tests/test_negative_gold_open_images.py::test_frozen_review_queue_is_neutral_and_exact_repeat_bytes_match
+FAILED tests/test_negative_gold_open_images.py::test_frozen_candidates_are_not_near_seed_or_each_other
+FAILED tests/test_negative_gold_open_images.py::test_completed_review_is_formally_blocked_by_hard_repeat_qc
+FAILED tests/test_p4a2_annotation_tool_v2.py::test_reproduction_interspersed_topup_changes_only_three_new_rows
+FAILED tests/test_p4a2_annotation_tool_v2.py::test_topup_after_partial_completion_preserves_completed_rows
+FAILED tests/test_p4c3a_raw_dwpose_failure_decomposition.py::test_frozen_case_counts
+FAILED tests/test_p4c3a_raw_dwpose_failure_decomposition.py::test_missing_categories_partition_all_misses
+FAILED tests/test_p4c3a_raw_dwpose_failure_decomposition.py::test_collision_categories_partition_all_collisions
+FAILED tests/test_p4c3a_raw_dwpose_failure_decomposition.py::test_decision_is_diagnostic_only
+FAILED tests/test_p4c3b_finalize.py::test_independent_truth_counts - FileNotF...
+FAILED tests/test_p4c3b_finalize.py::test_actual_capacity_uses_only_confirmed_missing_hands
+FAILED tests/test_p4c3b_finalize.py::test_split_is_signer_and_sequence_separated
+FAILED tests/test_p4c3b_finalize.py::test_pair_features_are_candidate_order_symmetric
+FAILED tests/test_p4c3b_finalize.py::test_validation_confusion_is_complete - ...
+FAILED tests/test_p4c3b_physical_instance_review.py::test_package_counts_and_resume
+FAILED tests/test_p4c3b_physical_instance_review.py::test_completed_row_cannot_be_silently_overwritten
+FAILED tests/test_p4c3b_physical_instance_review.py::test_explicit_undo_is_journaled
+FAILED tests/test_p4c3b_physical_instance_review.py::test_wrong_overlay_hash_is_rejected
+FAILED tests/test_p4c3b_physical_instance_review.py::test_task_specific_labels_are_enforced
+FAILED tests/test_p4r1a_recovery_review.py::test_package_count_resume_and_identity
+FAILED tests/test_p4r1a_recovery_review.py::test_completed_label_is_immutable
+FAILED tests/test_p4r1a_recovery_review.py::test_undo_is_explicit_and_journaled
+FAILED tests/test_p4r1a_recovery_review.py::test_wrong_overlay_hash_is_rejected
+FAILED tests/test_p4r1a_recovery_review.py::test_invalid_label_is_rejected - ...
+FAILED tests/test_p5b_preparation.py::test_frozen_inputs_and_role_counts - Fi...
+FAILED tests/test_p5b_preparation.py::test_smoke_native_round_trip_matches_frozen_builder
+FAILED tests/test_p5b_preparation.py::test_smoke_records_skip_only_in_smoke_mode
+FAILED tests/test_p5b_preparation.py::test_padding_has_no_stale_tail - StopIt...
+FAILED tests/test_phase5_1r_end_policy_recovery.py::test_end_duration_candidates_are_exact_calibration_breakpoints
+FAILED tests/test_phase5_1s_global_end_conflict_attribution.py::test_threshold_space_is_the_frozen_phase5_1_empirical_domain
+FAILED tests/test_phase5_1s_global_end_conflict_attribution.py::test_disjoint_projection_reports_exact_signal_dimension
+FAILED tests/test_phase5_1t_first_segmenter.py::test_decoder_merges_only_fixed_short_gap_and_pads_once
+FAILED tests/test_phase5_1t_first_segmenter.py::test_model_is_small_and_future_perturbation_cannot_change_past_logits
+FAILED tests/test_phase6_frozen_segmenter_phone_replay.py::test_exact_phone_population_and_source_session
+FAILED tests/test_phase6_frozen_segmenter_phone_replay.py::test_phone_observations_are_chronological_and_not_resampled
+FAILED tests/test_phase6_frozen_segmenter_phone_replay.py::test_sparse_features_use_immediately_previous_phone_observation
+FAILED tests/test_phase6_frozen_segmenter_phone_replay.py::test_frozen_segmenter_and_decoder_identities
+FAILED tests/test_phase6_frozen_segmenter_phone_replay.py::test_learned_event_freeze_is_hash_checked_and_has_no_labels
+FAILED tests/test_phase6_frozen_segmenter_phone_replay.py::test_oracle_and_recognizer_identities_remain_frozen
+FAILED tests/test_phase6_frozen_segmenter_phone_replay.py::test_reference_reproduction_matches_governed_results
+FAILED tests/test_phase6_frozen_segmenter_phone_replay.py::test_final_governance_and_no_unauthorized_operations
+FAILED tests/test_phase6_frozen_segmenter_phone_replay.py::test_artifact_population_and_source_hashes_are_consistent
+FAILED tests/test_phase7_production_cadence_aligned_segmenter.py::test_exact_frozen_population_and_full_raw_hashes
+FAILED tests/test_phase7_production_cadence_aligned_segmenter.py::test_fit_cal_split_is_deterministic_grouped_and_excludes_dev
+FAILED tests/test_phase7_production_cadence_aligned_segmenter.py::test_target_intervals_are_exactly_frozen
+FAILED tests/test_phase7_production_cadence_aligned_segmenter.py::test_sparse_sampling_is_deterministic_genuine_unique_and_chronological
+FAILED tests/test_phase7_production_cadence_aligned_segmenter.py::test_sparse_deltas_and_dt_use_previous_selected_observation
+FAILED tests/test_phase7_production_cadence_aligned_segmenter.py::test_human_boundaries_only_change_labels_not_sampling_or_features
+FAILED tests/test_phase7_production_cadence_aligned_segmenter.py::test_ignore_band_policy_is_exactly_100_ms
+FAILED tests/test_phase7_production_cadence_aligned_segmenter.py::test_feature_width_and_model_contract_remain_unchanged
+FAILED tests/test_phase7_production_cadence_aligned_segmenter.py::test_no_candidate01_rerun_recognizer_training_or_android_mutation
+FAILED tests/test_phase7_production_cadence_aligned_segmenter.py::test_protected_populations_are_not_referenced
+FAILED tests/test_phase8a_causal_streaming_decoder.py::test_frozen_s2_identity_and_sparse_population
+FAILED tests/test_phase8a_m2_frozen_sparse_dev_validation.py::test_frozen_identity_matches
+FAILED tests/test_phase8a_m2_frozen_sparse_dev_validation.py::test_exact_signer_disjoint_dev_membership
+FAILED tests/test_phase8a_m_causal_sparse_window_materialization.py::test_phase8am_loads_only_frozen_cal
+FAILED tests/test_phase8a_m_causal_sparse_window_materialization.py::test_b_and_c_share_identical_logical_events
+FAILED tests/test_phase8a_r_causal_episode_failure_attribution.py::test_implementation_audit_opens_exactly_cal
+FAILED tests/test_phase8a_r_evaluator_correction.py::test_continuity_uses_persisted_cal_only_and_no_inference
+FAILED tests/test_phase8a_t_terminal_evidence_attribution.py::test_frozen_persisted_stream_identities
+FAILED tests/test_phase8a_t_terminal_evidence_attribution.py::test_cal_and_dev_stream_membership
+FAILED tests/test_phase8a_u_s2_training_exposure_audit.py::test_frozen_integrity_and_population
+FAILED tests/test_phase8a_u_s2_training_exposure_audit.py::test_exact_fit_cal_exposure_and_training_label_reproduction
+FAILED tests/test_phase8a_u_s2_training_exposure_audit.py::test_checkpoint_audit_detects_sequence_global_alignment_gap
+FAILED tests/test_phase8a_u_s2_training_exposure_audit.py::test_unused_data_preserves_dev_signers
+FAILED tests/test_phase8a_u_s2_training_exposure_audit.py::test_terminal_control_discrepancy_is_exact_and_causal
+FAILED tests/test_phase8a_u_s2_training_exposure_audit.py::test_rows_are_deterministically_ordered
+FAILED tests/test_s2_r2_continuous_domain_correction.py::test_exact_phone_rows_are_complete_and_disjoint
+FAILED tests/test_s2_r2_continuous_domain_correction.py::test_frozen_main_design_preserves_validation_and_exact_phone
+FAILED tests/test_s2_r2_continuous_domain_correction.py::test_enrichment_correction_excludes_only_unsupervised_sparse_sign
+FAILED tests/test_s2_r2_continuous_domain_correction.py::test_smoke_dataset_uses_exact_phone_not_jpeg_reprocessing
+FAILED tests/test_s2_r2_continuous_domain_correction.py::test_smoke_run_does_not_consume_main_training_run
+FAILED tests/test_s2_r2_exact_phone_temporal_review.py::test_exact_linkage_covers_every_review_visual_observation
+FAILED tests/test_s2_r3_arm_a_phone_package.py::test_arm_a_package_is_debug_only_and_hash_pinned
+FAILED tests/test_s2_r3_arm_a_phone_package.py::test_arm_a_tflite_reproduces_exported_fixture_probabilities
+FAILED tests/test_terminal_evidence.py::test_interval_summary_uses_only_requested_observations
+FAILED tests/test_terminal_evidence.py::test_fragmented_post_and_active_return_are_explicit
+ERROR tests/test_e6_2_landmark_geometry.py
+ERROR tests/test_e6_3_open_set_rejection.py
+ERROR tests/test_e6_4_confusion_registry.py
+ERROR tests/test_e6_5_know_hello_specialist.py
+ERROR tests/test_e6_v30_confusion_root_cause.py
+ERROR tests/test_e6_v30_five_sign_baseline.py
+ERROR tests/test_e6_v30_five_sign_transfer.py
+ERROR tests/test_e6_v30_validation_repair.py
+ERROR tests/test_extract.py
+ERROR tests/test_phase2_p2_roi_audit.py
+ERROR tests/test_phase2_p2f_optical_flow.py
+ERROR tests/test_pilot.py
+ERROR tests/test_ru_d3_repair_candidate.py
+ERROR tests/test_ru_d5_semlex_apphear_extract.py
+ERROR tests/test_tracking_e2c.py
+ERROR tests/test_tracking_e2d.py
+ERROR tests/test_tracking_e2e_c0_capture.py
+ERROR tests/test_tracking_e2e_c0b.py
+ERROR tests/test_tracking_e2e_c0b_stage2.py
+ERROR tests/test_tracking_e2e_c0b_stage2_eval.py
+ERROR tests/test_tracking_e2e_c0b_stage2_train.py
+ERROR tests/test_tracking_e2e_c0b_topup.py
+ERROR tests/test_tracking_e2e_gold.py
+ERROR tests/test_tracking_e2e_gold_adjudicate.py
+ERROR tests/test_tracking_e2e_pilot.py
+ERROR tests/test_fingerspelling_external_preparation.py::test_existing_saved_arrays_unchanged_in_external_package
+ERROR tests/test_fingerspelling_external_preparation.py::test_scoped_validation_separate_report_and_full_check_preserved
+ERROR tests/test_fingerspelling_external_preparation.py::test_unknown_scope_and_accidental_global_overwrite_refused
+ERROR tests/test_fingerspelling_external_preparation.py::test_storage_escape_and_no_implicit_external_permission
+ERROR tests/test_fingerspelling_external_preparation.py::test_external_lineage_or_tensor_tampering_refused[marker]
+ERROR tests/test_fingerspelling_external_preparation.py::test_external_lineage_or_tensor_tampering_refused[source_path]
+ERROR tests/test_fingerspelling_external_preparation.py::test_external_lineage_or_tensor_tampering_refused[marker_hash]
+ERROR tests/test_fingerspelling_external_preparation.py::test_external_lineage_or_tensor_tampering_refused[array]
+ERROR tests/test_fingerspelling_external_preparation.py::test_scoped_empty_view_does_not_read_other_arrays
+ERROR tests/test_fingerspelling_train4096.py::test_real_absolute_external_lineage_and_cache_parity
+ERROR tests/test_fingerspelling_train4096.py::test_receipt_and_feature_tampering_refused[target]
+ERROR tests/test_fingerspelling_train4096.py::test_receipt_and_feature_tampering_refused[timestamp]
+ERROR tests/test_fingerspelling_train4096.py::test_receipt_and_feature_tampering_refused[mask]
+ERROR tests/test_fingerspelling_train4096.py::test_receipt_and_feature_tampering_refused[nan]
+ERROR tests/test_fingerspelling_train4096.py::test_receipt_and_feature_tampering_refused[escape]
+ERROR tests/test_fingerspelling_train4096.py::test_receipt_and_feature_tampering_refused[storage]
+ERROR tests/test_fingerspelling_train4096.py::test_receipt_and_feature_tampering_refused[receipt_role]
+ERROR tests/test_fingerspelling_train4096.py::test_incomplete_inventory_never_reduced_to_available
+ERROR tests/test_fsboard_expansion_plan.py::test_fixed_counts_subset_unchanged_rows_and_all_signers
+ERROR tests/test_fsboard_expansion_plan.py::test_reselection_is_byte_identity_and_dev_a_unchanged
+ERROR tests/test_fsboard_expansion_plan.py::test_governance_tampering_refused[old_row]
+ERROR tests/test_fsboard_expansion_plan.py::test_governance_tampering_refused[test_role]
+ERROR tests/test_fsboard_expansion_plan.py::test_governance_tampering_refused[signer]
+ERROR tests/test_fsboard_expansion_plan.py::test_governance_tampering_refused[source_path]
+ERROR tests/test_fsboard_expansion_plan.py::test_governance_tampering_refused[repeat_count]
+ERROR tests/test_fsboard_expansion_plan.py::test_governance_tampering_refused[dev_a_copy]
+ERROR tests/test_fsboard_expansion_plan.py::test_governance_tampering_refused[duplicate]
+ERROR tests/test_fsboard_expansion_plan.py::test_governance_tampering_refused[dev_b_tuning]

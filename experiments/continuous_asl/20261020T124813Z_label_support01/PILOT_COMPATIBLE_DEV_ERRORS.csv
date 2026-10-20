@@ -1,0 +1,6 @@
+﻿retained_TRAIN_support,reference_tokens,correct,substitutions,deletions,reference_error_fraction
+10-19,85,0,31,54,1.0
+20+,213,8,42,163,0.9624413145539906
+2-4,94,0,26,68,1.0
+5-9,90,0,32,58,1.0
+1,15,0,0,15,1.0

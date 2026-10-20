@@ -1,0 +1,3 @@
+﻿run,split,utterances,reference_tokens,WER,substitutions,deletions,insertions,checkpoint_sha256
+frozen_epoch12,primary80,80,485,0.9690721649484536,157,312,1,e2a6e0046bca4a3f97f33f023dc7346dd9d6226e19e9bd855357a00c8f1579bf
+corrected_accumulation_candidate,primary80,80,485,0.9567010309278351,136,328,0,14d0e4669674265ea2be8a3161fa6699e4f813daf4b97b384863dce1daa038ff

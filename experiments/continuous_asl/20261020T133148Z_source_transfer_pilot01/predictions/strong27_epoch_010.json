@@ -1,0 +1,680 @@
+{
+  "gloss_WER": 0.9594594594594594,
+  "substitutions": 26,
+  "deletions": 116,
+  "insertions": 0,
+  "reference_tokens": 148,
+  "CTC_loss": 6.2808914537783025,
+  "CTC_loss_samples": 27,
+  "utterances": 27,
+  "blank_argmax_fraction": 0.9562334217506632,
+  "output_frames": 754,
+  "predicted_tokens": 32,
+  "unique_predicted_tokens": 19,
+  "top_predicted_token": "ns-fs-JOHN",
+  "top_predicted_token_fraction": 0.125,
+  "hypothesis_token_counts": {
+    "BROTHER": 1,
+    "NOW": 3,
+    "LIKE": 1,
+    "GO-OUT": 2,
+    "NOT": 3,
+    "NONE/NOTHING": 1,
+    "CAR": 2,
+    "IX-1p": 3,
+    "ns-fs-JOHN": 4,
+    "SNOW": 2,
+    "IX-loc:i": 1,
+    "HOME": 1,
+    "IX-3p:i": 1,
+    "part:indef": 2,
+    "HAPPEN": 1,
+    "POSS-1p": 1,
+    "FUNNY": 1,
+    "BOX/ROOM": 1,
+    "STAY_2": 1
+  },
+  "empty_hypotheses": 6,
+  "multi_token_hypotheses": 10,
+  "hypothesis_length_histogram": {
+    "1": 11,
+    "3": 1,
+    "0": 6,
+    "2": 9
+  },
+  "predictions": [
+    {
+      "sample_id": "asllrp3_1c787271cb80fda4",
+      "reference": [
+        "IX-1p",
+        "NOT",
+        "WANT_2",
+        "READ+",
+        "IX-1p",
+        "WANT",
+        "DEPART"
+      ],
+      "hypothesis": [
+        "BROTHER"
+      ],
+      "substitutions": 1,
+      "deletions": 6,
+      "insertions": 0,
+      "reference_tokens": 7,
+      "CTC_loss": 5.231811046600342,
+      "blank_frames": 29,
+      "output_frames": 30,
+      "signer_id": "asllrp_dai_participant_3",
+      "source_group": "2012-02-14_0063-cam1-for-ss3.mp4",
+      "capture_family": "asllrp_dai_participant_3::2012-02-14"
+    },
+    {
+      "sample_id": "asllrp3_35284858338db8f7",
+      "reference": [
+        "IX-1p",
+        "KNOW+",
+        "IX-3p:i",
+        "READ",
+        "MANY",
+        "BOOK"
+      ],
+      "hypothesis": [
+        "NOW",
+        "LIKE",
+        "GO-OUT"
+      ],
+      "substitutions": 3,
+      "deletions": 3,
+      "insertions": 0,
+      "reference_tokens": 6,
+      "CTC_loss": 5.683317184448242,
+      "blank_frames": 22,
+      "output_frames": 25,
+      "signer_id": "asllrp_dai_participant_3",
+      "source_group": "2012-02-14_0063-cam1-for-ss3.mp4",
+      "capture_family": "asllrp_dai_participant_3::2012-02-14"
+    },
+    {
+      "sample_id": "asllrp3_393aa142bad460ac",
+      "reference": [
+        "IX-1p",
+        "KNOW+",
+        "IX-3p:i",
+        "FINISH",
+        "READ",
+        "BOOK"
+      ],
+      "hypothesis": [],
+      "substitutions": 0,
+      "deletions": 6,
+      "insertions": 0,
+      "reference_tokens": 6,
+      "CTC_loss": 5.634649753570557,
+      "blank_frames": 23,
+      "output_frames": 23,
+      "signer_id": "asllrp_dai_participant_3",
+      "source_group": "2012-02-14_0063-cam1-for-ss3.mp4",
+      "capture_family": "asllrp_dai_participant_3::2012-02-14"
+    },
+    {
+      "sample_id": "asllrp3_3f4a23b8e27c980f",
+      "reference": [
+        "IX-3p:i",
+        "ns-fs-JOHN",
+        "(1h)HAVE",
+        "DIFFERENT",
+        "CAR+"
+      ],
+      "hypothesis": [
+        "NOT"
+      ],
+      "substitutions": 1,
+      "deletions": 4,
+      "insertions": 0,
+      "reference_tokens": 5,
+      "CTC_loss": 6.04258394241333,
+      "blank_frames": 31,
+      "output_frames": 32,
+      "signer_id": "asllrp_dai_participant_3",
+      "source_group": "2012-02-14_0062-cam1-for-ss3.mp4",
+      "capture_family": "asllrp_dai_participant_3::2012-02-14"
+    },
+    {
+      "sample_id": "asllrp3_4019d8621080e327",
+      "reference": [
+        "ns-fs-MARY",
+        "IX-loc:i",
+        "DECIDE",
+        "(1h)PAY/BUY",
+        "NEW",
+        "CAR"
+      ],
+      "hypothesis": [
+        "NONE/NOTHING"
+      ],
+      "substitutions": 1,
+      "deletions": 5,
+      "insertions": 0,
+      "reference_tokens": 6,
+      "CTC_loss": 6.194436550140381,
+      "blank_frames": 31,
+      "output_frames": 32,
+      "signer_id": "asllrp_dai_participant_3",
+      "source_group": "2012-02-14_0062-cam1-for-ss3.mp4",
+      "capture_family": "asllrp_dai_participant_3::2012-02-14"
+    },
+    {
+      "sample_id": "asllrp3_42771e7b1a5dcdce",
+      "reference": [
+        "MAYBE",
+        "ns-fs-MARY",
+        "FUTURE",
+        "(1h)PAY/BUY",
+        "CAR"
+      ],
+      "hypothesis": [
+        "CAR"
+      ],
+      "substitutions": 0,
+      "deletions": 4,
+      "insertions": 0,
+      "reference_tokens": 5,
+      "CTC_loss": 6.292290687561035,
+      "blank_frames": 30,
+      "output_frames": 31,
+      "signer_id": "asllrp_dai_participant_3",
+      "source_group": "2012-02-14_0062-cam1-for-ss3.mp4",
+      "capture_family": "asllrp_dai_participant_3::2012-02-14"
+    },
+    {
+      "sample_id": "asllrp3_494f2a5f6d3a10a9",
+      "reference": [
+        "IX-3p:i",
+        "ns-fs-MARY",
+        "NOT",
+        "HERE",
+        "IX-3p:i",
+        "DEPART",
+        "RECENT-PAST"
+      ],
+      "hypothesis": [
+        "NOT"
+      ],
+      "substitutions": 0,
+      "deletions": 6,
+      "insertions": 0,
+      "reference_tokens": 7,
+      "CTC_loss": 5.4786601066589355,
+      "blank_frames": 26,
+      "output_frames": 27,
+      "signer_id": "asllrp_dai_participant_3",
+      "source_group": "2012-02-14_0062-cam1-for-ss3.mp4",
+      "capture_family": "asllrp_dai_participant_3::2012-02-14"
+    },
+    {
+      "sample_id": "asllrp3_4d329f5d34988526",
+      "reference": [
+        "IX-1p",
+        "DEPART",
+        "(2h)LOOK",
+        "MOVIE",
+        "FINISH",
+        "(1h)part:indef"
+      ],
+      "hypothesis": [
+        "IX-1p",
+        "GO-OUT"
+      ],
+      "substitutions": 1,
+      "deletions": 4,
+      "insertions": 0,
+      "reference_tokens": 6,
+      "CTC_loss": 6.083984851837158,
+      "blank_frames": 29,
+      "output_frames": 31,
+      "signer_id": "asllrp_dai_participant_3",
+      "source_group": "2012-02-14_0065-cam1-for-ss3.mp4",
+      "capture_family": "asllrp_dai_participant_3::2012-02-14"
+    },
+    {
+      "sample_id": "asllrp3_60926b1cb36dac72",
+      "reference": [
+        "POSS-1p+",
+        "CAR",
+        "HERE"
+      ],
+      "hypothesis": [],
+      "substitutions": 0,
+      "deletions": 3,
+      "insertions": 0,
+      "reference_tokens": 3,
+      "CTC_loss": 5.858613967895508,
+      "blank_frames": 18,
+      "output_frames": 18,
+      "signer_id": "asllrp_dai_participant_3",
+      "source_group": "2012-02-14_0062-cam1-for-ss3.mp4",
+      "capture_family": "asllrp_dai_participant_3::2012-02-14"
+    },
+    {
+      "sample_id": "asllrp3_71e4d9f6d71d40a5",
+      "reference": [
+        "RAIN",
+        "IX-2p",
+        "FAVORITE/PREFER",
+        "DRIVE"
+      ],
+      "hypothesis": [],
+      "substitutions": 0,
+      "deletions": 4,
+      "insertions": 0,
+      "reference_tokens": 4,
+      "CTC_loss": 9.32874870300293,
+      "blank_frames": 24,
+      "output_frames": 24,
+      "signer_id": "asllrp_dai_participant_3",
+      "source_group": "2012-02-14_0063-cam1-for-ss3.mp4",
+      "capture_family": "asllrp_dai_participant_3::2012-02-14"
+    },
+    {
+      "sample_id": "asllrp3_72acd27644ecc346",
+      "reference": [
+        "MAYBE",
+        "POSS-3p:i",
+        "CAR",
+        "HERE"
+      ],
+      "hypothesis": [
+        "NOW"
+      ],
+      "substitutions": 1,
+      "deletions": 3,
+      "insertions": 0,
+      "reference_tokens": 4,
+      "CTC_loss": 7.7364068031311035,
+      "blank_frames": 17,
+      "output_frames": 18,
+      "signer_id": "asllrp_dai_participant_3",
+      "source_group": "2012-02-14_0063-cam1-for-ss3.mp4",
+      "capture_family": "asllrp_dai_participant_3::2012-02-14"
+    },
+    {
+      "sample_id": "asllrp3_7365226957b6e38f",
+      "reference": [
+        "ns-fs-MARY",
+        "NOW",
+        "(1h)HAVE",
+        "(1h)GOOD/THANK-YOU",
+        "CAR"
+      ],
+      "hypothesis": [
+        "ns-fs-JOHN"
+      ],
+      "substitutions": 1,
+      "deletions": 4,
+      "insertions": 0,
+      "reference_tokens": 5,
+      "CTC_loss": 5.342974662780762,
+      "blank_frames": 29,
+      "output_frames": 30,
+      "signer_id": "asllrp_dai_participant_3",
+      "source_group": "2012-02-14_0062-cam1-for-ss3.mp4",
+      "capture_family": "asllrp_dai_participant_3::2012-02-14"
+    },
+    {
+      "sample_id": "asllrp3_91cf89fed7a133db",
+      "reference": [
+        "ns-fs-JOHN",
+        "DECIDE",
+        "DO-DO",
+        "(Y)YESTERDAY",
+        "part:indef"
+      ],
+      "hypothesis": [
+        "SNOW",
+        "IX-loc:i"
+      ],
+      "substitutions": 2,
+      "deletions": 3,
+      "insertions": 0,
+      "reference_tokens": 5,
+      "CTC_loss": 6.640616416931152,
+      "blank_frames": 24,
+      "output_frames": 26,
+      "signer_id": "asllrp_dai_participant_3",
+      "source_group": "2012-02-14_0062-cam1-for-ss3.mp4",
+      "capture_family": "asllrp_dai_participant_3::2012-02-14"
+    },
+    {
+      "sample_id": "asllrp3_9a1c6b466c0d6f5d",
+      "reference": [
+        "IX-3p:i",
+        "(5)MAN",
+        "FINISH",
+        "DECIDE",
+        "READ",
+        "BOOK",
+        "TOMORROW"
+      ],
+      "hypothesis": [
+        "ns-fs-JOHN",
+        "SNOW"
+      ],
+      "substitutions": 2,
+      "deletions": 5,
+      "insertions": 0,
+      "reference_tokens": 7,
+      "CTC_loss": 7.216301918029785,
+      "blank_frames": 27,
+      "output_frames": 30,
+      "signer_id": "asllrp_dai_participant_3",
+      "source_group": "2012-02-14_0063-cam1-for-ss3.mp4",
+      "capture_family": "asllrp_dai_participant_3::2012-02-14"
+    },
+    {
+      "sample_id": "asllrp3_a5466d81bd4900a1",
+      "reference": [
+        "IX-3p:i",
+        "ns-fs-MARY",
+        "(1h)HAVE",
+        "DIFFERENT",
+        "BICYCLE"
+      ],
+      "hypothesis": [],
+      "substitutions": 0,
+      "deletions": 5,
+      "insertions": 0,
+      "reference_tokens": 5,
+      "CTC_loss": 5.638816833496094,
+      "blank_frames": 35,
+      "output_frames": 35,
+      "signer_id": "asllrp_dai_participant_3",
+      "source_group": "2012-02-14_0062-cam1-for-ss3.mp4",
+      "capture_family": "asllrp_dai_participant_3::2012-02-14"
+    },
+    {
+      "sample_id": "asllrp3_a85733fd765c39ad",
+      "reference": [
+        "ns-fs-JOHN",
+        "ARRIVE",
+        "(Y)YESTERDAY"
+      ],
+      "hypothesis": [
+        "IX-1p"
+      ],
+      "substitutions": 1,
+      "deletions": 2,
+      "insertions": 0,
+      "reference_tokens": 3,
+      "CTC_loss": 5.098842144012451,
+      "blank_frames": 31,
+      "output_frames": 32,
+      "signer_id": "asllrp_dai_participant_3",
+      "source_group": "2012-02-14_0062-cam1-for-ss3.mp4",
+      "capture_family": "asllrp_dai_participant_3::2012-02-14"
+    },
+    {
+      "sample_id": "asllrp3_b4e6f9b173c4b2ad",
+      "reference": [
+        "IX-2p",
+        "KNOW+",
+        "PRESIDENT",
+        "ARRIVE",
+        "(Y)YESTERDAY"
+      ],
+      "hypothesis": [
+        "ns-fs-JOHN",
+        "HOME"
+      ],
+      "substitutions": 2,
+      "deletions": 3,
+      "insertions": 0,
+      "reference_tokens": 5,
+      "CTC_loss": 7.221375465393066,
+      "blank_frames": 22,
+      "output_frames": 24,
+      "signer_id": "asllrp_dai_participant_3",
+      "source_group": "2012-02-14_0063-cam1-for-ss3.mp4",
+      "capture_family": "asllrp_dai_participant_3::2012-02-14"
+    },
+    {
+      "sample_id": "asllrp3_c858509ef73f63a2",
+      "reference": [
+        "ns-fs-MARY",
+        "IX-loc:i",
+        "(1h)PAY/BUY",
+        "CAR",
+        "(Y)YESTERDAY"
+      ],
+      "hypothesis": [
+        "NOW"
+      ],
+      "substitutions": 1,
+      "deletions": 4,
+      "insertions": 0,
+      "reference_tokens": 5,
+      "CTC_loss": 6.122925281524658,
+      "blank_frames": 32,
+      "output_frames": 33,
+      "signer_id": "asllrp_dai_participant_3",
+      "source_group": "2012-02-14_0062-cam1-for-ss3.mp4",
+      "capture_family": "asllrp_dai_participant_3::2012-02-14"
+    },
+    {
+      "sample_id": "asllrp3_cfc6fca988fcb269",
+      "reference": [
+        "ns-fs-MARY",
+        "LOVE",
+        "MANY",
+        "(5)MAN",
+        "part:indef"
+      ],
+      "hypothesis": [],
+      "substitutions": 0,
+      "deletions": 5,
+      "insertions": 0,
+      "reference_tokens": 5,
+      "CTC_loss": 4.941969871520996,
+      "blank_frames": 26,
+      "output_frames": 26,
+      "signer_id": "asllrp_dai_participant_3",
+      "source_group": "2012-02-14_0062-cam1-for-ss3.mp4",
+      "capture_family": "asllrp_dai_participant_3::2012-02-14"
+    },
+    {
+      "sample_id": "asllrp3_d07ae4a18cc66093",
+      "reference": [
+        "ns-fs-MARY",
+        "IX-loc:i",
+        "KNOW+",
+        "RAIN+",
+        "HERE",
+        "(Y)YESTERDAY"
+      ],
+      "hypothesis": [
+        "IX-3p:i"
+      ],
+      "substitutions": 1,
+      "deletions": 5,
+      "insertions": 0,
+      "reference_tokens": 6,
+      "CTC_loss": 6.017935276031494,
+      "blank_frames": 41,
+      "output_frames": 42,
+      "signer_id": "asllrp_dai_participant_3",
+      "source_group": "2012-02-14_0062-cam1-for-ss3.mp4",
+      "capture_family": "asllrp_dai_participant_3::2012-02-14"
+    },
+    {
+      "sample_id": "asllrp3_d8efd03ab52b8da4",
+      "reference": [
+        "IF",
+        "TOMORROW",
+        "RAIN",
+        "STOP",
+        "IX-1p",
+        "DEPART"
+      ],
+      "hypothesis": [
+        "IX-1p"
+      ],
+      "substitutions": 0,
+      "deletions": 5,
+      "insertions": 0,
+      "reference_tokens": 6,
+      "CTC_loss": 6.708106994628906,
+      "blank_frames": 25,
+      "output_frames": 26,
+      "signer_id": "asllrp_dai_participant_3",
+      "source_group": "2012-02-14_0063-cam1-for-ss3.mp4",
+      "capture_family": "asllrp_dai_participant_3::2012-02-14"
+    },
+    {
+      "sample_id": "asllrp3_dac36cbddc1c5409",
+      "reference": [
+        "IX-1p",
+        "NOT",
+        "WANT",
+        "GO-OUT",
+        "RAIN+",
+        "NOW",
+        "part:indef"
+      ],
+      "hypothesis": [
+        "ns-fs-JOHN",
+        "part:indef"
+      ],
+      "substitutions": 1,
+      "deletions": 5,
+      "insertions": 0,
+      "reference_tokens": 7,
+      "CTC_loss": 4.229521751403809,
+      "blank_frames": 21,
+      "output_frames": 23,
+      "signer_id": "asllrp_dai_participant_3",
+      "source_group": "2012-02-14_0063-cam1-for-ss3.mp4",
+      "capture_family": "asllrp_dai_participant_3::2012-02-14"
+    },
+    {
+      "sample_id": "asllrp3_e246ee9429fcfa93",
+      "reference": [
+        "ns-fs-JOHN",
+        "MAYBE",
+        "FUTURE",
+        "LIVE",
+        "HERE"
+      ],
+      "hypothesis": [
+        "CAR",
+        "part:indef"
+      ],
+      "substitutions": 2,
+      "deletions": 3,
+      "insertions": 0,
+      "reference_tokens": 5,
+      "CTC_loss": 7.5874924659729,
+      "blank_frames": 28,
+      "output_frames": 30,
+      "signer_id": "asllrp_dai_participant_3",
+      "source_group": "2012-02-14_0062-cam1-for-ss3.mp4",
+      "capture_family": "asllrp_dai_participant_3::2012-02-14"
+    },
+    {
+      "sample_id": "asllrp3_e263157b3ad6cf33",
+      "reference": [
+        "KNOW",
+        "IX-3p:i",
+        "DURING/WHILE",
+        "DEAF",
+        "NOT"
+      ],
+      "hypothesis": [
+        "HAPPEN",
+        "NOT"
+      ],
+      "substitutions": 1,
+      "deletions": 3,
+      "insertions": 0,
+      "reference_tokens": 5,
+      "CTC_loss": 6.971421241760254,
+      "blank_frames": 19,
+      "output_frames": 21,
+      "signer_id": "asllrp_dai_participant_3",
+      "source_group": "2012-02-14_0066-cam1-for-ss3.mp4",
+      "capture_family": "asllrp_dai_participant_3::2012-02-14"
+    },
+    {
+      "sample_id": "asllrp3_ee82a5315fb2d32c",
+      "reference": [
+        "MAYBE",
+        "TOMORROW",
+        "RAIN",
+        "FINISH",
+        "STOP"
+      ],
+      "hypothesis": [],
+      "substitutions": 0,
+      "deletions": 5,
+      "insertions": 0,
+      "reference_tokens": 5,
+      "CTC_loss": 6.940463066101074,
+      "blank_frames": 23,
+      "output_frames": 23,
+      "signer_id": "asllrp_dai_participant_3",
+      "source_group": "2012-02-14_0063-cam1-for-ss3.mp4",
+      "capture_family": "asllrp_dai_participant_3::2012-02-14"
+    },
+    {
+      "sample_id": "asllrp3_f53dbfa5c07fb591",
+      "reference": [
+        "IX-3p-pl-2:i/j",
+        "ns-fs-MARY",
+        "ns-fs-JOHN",
+        "FUTURE",
+        "DEPART",
+        "TOMORROW"
+      ],
+      "hypothesis": [
+        "POSS-1p",
+        "FUNNY"
+      ],
+      "substitutions": 2,
+      "deletions": 4,
+      "insertions": 0,
+      "reference_tokens": 6,
+      "CTC_loss": 6.605288028717041,
+      "blank_frames": 25,
+      "output_frames": 27,
+      "signer_id": "asllrp_dai_participant_3",
+      "source_group": "2012-02-14_0063-cam1-for-ss3.mp4",
+      "capture_family": "asllrp_dai_participant_3::2012-02-14"
+    },
+    {
+      "sample_id": "asllrp3_ff2c5106efe8031c",
+      "reference": [
+        "MAYBE",
+        "IX-3p-pl-2:i/j",
+        "ns-fs-JOHN",
+        "ns-fs-MARY",
+        "DECIDE",
+        "WORK",
+        "WITH",
+        "NOW",
+        "part:indef"
+      ],
+      "hypothesis": [
+        "BOX/ROOM",
+        "STAY_2"
+      ],
+      "substitutions": 2,
+      "deletions": 7,
+      "insertions": 0,
+      "reference_tokens": 9,
+      "CTC_loss": 6.734514236450195,
+      "blank_frames": 33,
+      "output_frames": 35,
+      "signer_id": "asllrp_dai_participant_3",
+      "source_group": "2012-02-14_0063-cam1-for-ss3.mp4",
+      "capture_family": "asllrp_dai_participant_3::2012-02-14"
+    }
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "status": "PASS_VALID_SUBSET",
+  "unique_valid": 96,
+  "raw_source_files": 2,
+  "eligible_train": 96,
+  "all_features_schema": "apphear.continuous_asl.candidate01_causal378.v1",
+  "pending_or_failed_source_files": 0,
+  "source_failures": [],
+  "signer_independent": false,
+  "synthetic_samples": 0,
+  "script_sha256": "b78ba79af96aaa5e0c06b79f787c62e2643fb46edba15fb307f5e8461da029d4",
+  "seconds": 152.549051399983,
+  "no_test_access": true
+}

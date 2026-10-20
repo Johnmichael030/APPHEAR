@@ -1,0 +1,26 @@
+{
+  "status": "PARTIAL",
+  "reason": "WALL_BUDGET_PARTIAL_EPOCH",
+  "subset_learning_pass": true,
+  "full_candidate_trained": true,
+  "completed_epochs": 13,
+  "selected_checkpoint": {
+    "path": "candidate_checkpoints\\epoch_012.pt",
+    "epoch": 12,
+    "sha256": "14d0e4669674265ea2be8a3161fa6699e4f813daf4b97b384863dce1daa038ff"
+  },
+  "TRAIN_WER": 0.8840054737181036,
+  "primary80_WER": 0.9567010309278351,
+  "strong27_WER": 0.9527027027027027,
+  "primary_reference_tokens": 485,
+  "absolute_WER_gain_percentage_points": 1.2371134020618513,
+  "relative_WER_gain_percent": 1.2765957446808465,
+  "credible_gain": false,
+  "TRAIN_learning_screen_pass": false,
+  "training_loop_seconds": 188.33713940001326,
+  "peak_allocated_bytes": 1304623616,
+  "peak_reserved_bytes": 1342177280,
+  "comparison": "Equivalent primary IDs/labels/vocabulary/normalization/decoder; only accumulation-tail correction; selection protocol same",
+  "promote": false,
+  "TEST_used": false
+}

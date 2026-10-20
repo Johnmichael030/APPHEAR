@@ -1,0 +1,10 @@
+{
+  "total_acquired_payload_cap_bytes": 107374182400,
+  "cap_gib": 100,
+  "authorization": "User explicitly replied: raise total cap to 100Gib",
+  "previous_cap_bytes": 2147483648,
+  "minimum_disk_headroom_bytes": 10737418240,
+  "single_recording_cap_bytes": 536870912,
+  "single_file_timeout_seconds": 180,
+  "terms": "All source access, authentic gloss, split and provenance gates remain in force. Larger budget does not authorize bypassing HTTP403 or accepting English translations as glosses."
+}

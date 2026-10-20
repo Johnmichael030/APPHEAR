@@ -1,0 +1,158 @@
+{
+  "A_guarded_pooled_family_holdout": {
+    "summary": {
+      "fold": "A_guarded_pooled_family_holdout",
+      "kind": "source_family_pooled",
+      "status": "PASS_CONSERVATIVE_GROUP_GUARD; PARTIAL_EXPLORATORY_SUPPORT",
+      "causal_scope": "Same known signers; held-out conservative recording families. Capture/date/topic/label composition still bundled; no isolated signer or dataset effect.",
+      "TRAIN_utterances": 1500,
+      "internal_eval_utterances": 206,
+      "TRAIN_signers": 3,
+      "eval_signers": 2,
+      "shared_signer_IDs": 2,
+      "TRAIN_sources": 34,
+      "eval_sources": 5,
+      "TRAIN_labels": 2287,
+      "eval_labels": 607,
+      "shared_literal_labels": 377,
+      "eval_reference_tokens": 1794,
+      "eval_token_coverage": 0.810479375696767,
+      "compatible_eval_utterances": 80,
+      "support5_eval_utterances": 27,
+      "minimum_CTC_slack": 5,
+      "known_recording_content_leakage": false,
+      "manifest_sha256": "87442a6f1241860e369a5c8f0768d583b3a4058f5a9ad03dcc135532c419c72f",
+      "capture_family_overlap": false,
+      "eval_capture_families": 2,
+      "TRAIN_capture_families": 6,
+      "compatible_eval_token_coverage": 0.27034559643255296
+    },
+    "eval_count_by_signer": {
+      "asllrp_dai_participant_2": 32,
+      "asllrp_dai_participant_3": 174
+    },
+    "compatible_eval_count_by_signer": {
+      "asllrp_dai_participant_2": 6,
+      "asllrp_dai_participant_3": 74
+    },
+    "support5_eval_count_by_signer": {
+      "asllrp_dai_participant_3": 27
+    },
+    "eval_families": [
+      "asllrp_dai_participant_2::2013-06-25",
+      "asllrp_dai_participant_3::2012-02-14"
+    ],
+    "train_families": [
+      "asllrp_dai_participant_2::2013-06-27",
+      "asllrp_dai_participant_3::2011-12-01",
+      "asllrp_dai_participant_3::2011-12-08",
+      "asllrp_dai_participant_3::2012-01-27",
+      "asllrp_dai_participant_3::2012-02-09",
+      "asllrp_dai_participant_5::UNRESOLVED_ALL_UNDATED_MASTERS"
+    ],
+    "compatible_eval_tokens": 485,
+    "full_eval_length_summary": {
+      "min": 3,
+      "max": 27
+    }
+  },
+  "A_guarded_within_signer_2": {
+    "summary": {
+      "fold": "A_guarded_within_signer_2",
+      "kind": "source_family_within_signer",
+      "status": "PASS_CONSERVATIVE_GROUP_GUARD; PARTIAL_EXPLORATORY_SUPPORT",
+      "causal_scope": "Same known signers; held-out conservative recording families. Capture/date/topic/label composition still bundled; no isolated signer or dataset effect.",
+      "TRAIN_utterances": 722,
+      "internal_eval_utterances": 32,
+      "TRAIN_signers": 1,
+      "eval_signers": 1,
+      "shared_signer_IDs": 1,
+      "TRAIN_sources": 9,
+      "eval_sources": 1,
+      "TRAIN_labels": 1107,
+      "eval_labels": 173,
+      "shared_literal_labels": 92,
+      "eval_reference_tokens": 332,
+      "eval_token_coverage": 0.6536144578313253,
+      "compatible_eval_utterances": 3,
+      "support5_eval_utterances": 0,
+      "minimum_CTC_slack": 14,
+      "known_recording_content_leakage": false,
+      "manifest_sha256": "a09fe807bfa3715cee9d69a9c7d572bbcf82bd361b95db34089f579336d68323",
+      "capture_family_overlap": false,
+      "eval_capture_families": 1,
+      "TRAIN_capture_families": 1,
+      "compatible_eval_token_coverage": 0.060240963855421686
+    },
+    "eval_count_by_signer": {
+      "asllrp_dai_participant_2": 32
+    },
+    "compatible_eval_count_by_signer": {
+      "asllrp_dai_participant_2": 3
+    },
+    "support5_eval_count_by_signer": {},
+    "eval_families": [
+      "asllrp_dai_participant_2::2013-06-25"
+    ],
+    "train_families": [
+      "asllrp_dai_participant_2::2013-06-27"
+    ],
+    "compatible_eval_tokens": 20,
+    "full_eval_length_summary": {
+      "min": 3,
+      "max": 23
+    }
+  },
+  "A_guarded_within_signer_3": {
+    "summary": {
+      "fold": "A_guarded_within_signer_3",
+      "kind": "source_family_within_signer",
+      "status": "PASS_CONSERVATIVE_GROUP_GUARD; PARTIAL_EXPLORATORY_SUPPORT",
+      "causal_scope": "Same known signers; held-out conservative recording families. Capture/date/topic/label composition still bundled; no isolated signer or dataset effect.",
+      "TRAIN_utterances": 443,
+      "internal_eval_utterances": 174,
+      "TRAIN_signers": 1,
+      "eval_signers": 1,
+      "shared_signer_IDs": 1,
+      "TRAIN_sources": 15,
+      "eval_sources": 4,
+      "TRAIN_labels": 793,
+      "eval_labels": 510,
+      "shared_literal_labels": 209,
+      "eval_reference_tokens": 1462,
+      "eval_token_coverage": 0.6792065663474692,
+      "compatible_eval_utterances": 53,
+      "support5_eval_utterances": 2,
+      "minimum_CTC_slack": 8,
+      "known_recording_content_leakage": false,
+      "manifest_sha256": "c4128aff4f3e037cfa3465e3468a86c9eee45df47033c2021ca194f164aa78a9",
+      "capture_family_overlap": false,
+      "eval_capture_families": 1,
+      "TRAIN_capture_families": 4,
+      "compatible_eval_token_coverage": 0.20041039671682626
+    },
+    "eval_count_by_signer": {
+      "asllrp_dai_participant_3": 174
+    },
+    "compatible_eval_count_by_signer": {
+      "asllrp_dai_participant_3": 53
+    },
+    "support5_eval_count_by_signer": {
+      "asllrp_dai_participant_3": 2
+    },
+    "eval_families": [
+      "asllrp_dai_participant_3::2012-02-14"
+    ],
+    "train_families": [
+      "asllrp_dai_participant_3::2011-12-01",
+      "asllrp_dai_participant_3::2011-12-08",
+      "asllrp_dai_participant_3::2012-01-27",
+      "asllrp_dai_participant_3::2012-02-09"
+    ],
+    "compatible_eval_tokens": 293,
+    "full_eval_length_summary": {
+      "min": 3,
+      "max": 27
+    }
+  }
+}

@@ -1,0 +1,98 @@
+[
+  {
+    "scope": "train1500",
+    "condition": "no_reference_interval_sampling_gaps",
+    "utterances": 863,
+    "reference_tokens": 6066,
+    "WER": 0.8376195186284207,
+    "causal_claim": false
+  },
+  {
+    "scope": "train1500",
+    "condition": "some_reference_intervals_unsampled",
+    "utterances": 637,
+    "reference_tokens": 6357,
+    "WER": 0.9024697184206386,
+    "causal_claim": false
+  },
+  {
+    "scope": "train1500",
+    "condition": "any_hand_fraction_below50pct",
+    "utterances": 80,
+    "reference_tokens": 718,
+    "WER": 0.9136490250696379,
+    "causal_claim": false
+  },
+  {
+    "scope": "train1500",
+    "condition": "any_hand_fraction_atleast50pct",
+    "utterances": 1420,
+    "reference_tokens": 11705,
+    "WER": 0.868175993165314,
+    "causal_claim": false
+  },
+  {
+    "scope": "primary80",
+    "condition": "no_reference_interval_sampling_gaps",
+    "utterances": 47,
+    "reference_tokens": 265,
+    "WER": 0.9811320754716981,
+    "causal_claim": false
+  },
+  {
+    "scope": "primary80",
+    "condition": "some_reference_intervals_unsampled",
+    "utterances": 33,
+    "reference_tokens": 220,
+    "WER": 0.9545454545454546,
+    "causal_claim": false
+  },
+  {
+    "scope": "primary80",
+    "condition": "any_hand_fraction_below50pct",
+    "utterances": 4,
+    "reference_tokens": 31,
+    "WER": 0.9032258064516129,
+    "causal_claim": false
+  },
+  {
+    "scope": "primary80",
+    "condition": "any_hand_fraction_atleast50pct",
+    "utterances": 76,
+    "reference_tokens": 454,
+    "WER": 0.973568281938326,
+    "causal_claim": false
+  },
+  {
+    "scope": "strong27",
+    "condition": "no_reference_interval_sampling_gaps",
+    "utterances": 18,
+    "reference_tokens": 96,
+    "WER": 0.9791666666666666,
+    "causal_claim": false
+  },
+  {
+    "scope": "strong27",
+    "condition": "some_reference_intervals_unsampled",
+    "utterances": 9,
+    "reference_tokens": 52,
+    "WER": 0.9423076923076923,
+    "causal_claim": false
+  },
+  {
+    "scope": "strong27",
+    "condition": "any_hand_fraction_below50pct",
+    "utterances": 0,
+    "reference_tokens": 0,
+    "WER": null,
+    "causal_claim": false
+  },
+  {
+    "scope": "strong27",
+    "condition": "any_hand_fraction_atleast50pct",
+    "utterances": 27,
+    "reference_tokens": 148,
+    "WER": 0.9662162162162162,
+    "causal_claim": false
+  }
+]

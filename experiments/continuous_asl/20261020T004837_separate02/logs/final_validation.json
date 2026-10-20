@@ -1,0 +1,52 @@
+{
+  "status": "PASS",
+  "required_deliverables_checked": 16,
+  "dataset_manifest_rows": 16545,
+  "checkpoints": [
+    {
+      "candidate": "experiment_A",
+      "completed_epochs": 5,
+      "best": {
+        "path": "checkpoints\\epoch_005.pt",
+        "sha256": "7ca38f2fc518d3fe13bee3d3de2312d5d3b63a6b977beacc8ecd39cb90fcb109",
+        "epoch": 5
+      }
+    },
+    {
+      "candidate": "experiment_A/warmstart",
+      "completed_epochs": 5,
+      "best": {
+        "path": "checkpoints\\epoch_004.pt",
+        "sha256": "edb69d637c129ffd13258df427524d284a08945fcbb346370c210b19da45a417",
+        "epoch": 4
+      }
+    },
+    {
+      "candidate": "experiment_A/warmstart_repeat",
+      "completed_epochs": 5,
+      "best": {
+        "path": "checkpoints\\epoch_003.pt",
+        "sha256": "93d55aeb388cdc124e18da285e8d76f27d471d0c6388b04c93c99be940129e3b",
+        "epoch": 3
+      }
+    },
+    {
+      "candidate": "experiment_B",
+      "completed_epochs": 11,
+      "best": {
+        "path": "checkpoints\\epoch_005.pt",
+        "sha256": "a4d3453e3c9f32ea9de8f497af1f38b797793ec357bdecc9c837a3ec29c948d0",
+        "epoch": 5
+      }
+    }
+  ],
+  "exported_CPU_validation_top1": 0.6709558823529411,
+  "reported_training_source_hashes_match": true,
+  "old_Keras_TFLite_hashes_match": true,
+  "original_and_previous_run_preservation": "PASS",
+  "all_training_complete": true,
+  "completed_resume_commands_checked_no_new_epochs": true,
+  "figure_visually_inspected": true,
+  "production_integrated": false,
+  "regression_limit": "full suite is not green; see final_status and regression XML"
+}

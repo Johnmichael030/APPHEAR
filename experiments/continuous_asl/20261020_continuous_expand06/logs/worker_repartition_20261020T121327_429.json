@@ -1,0 +1,31 @@
+{
+  "reason": "Prevent future primary/tail overlap; resume unfinished front work in disjoint ranges",
+  "processes": [
+    {
+      "ProcessId": 16116,
+      "ParentProcessId": 13172,
+      "ExecutablePath": "D:\\apphearv3claude\\AppHear-claude-s2-r3-eval-suite\\AppHear-claude-s2-r3-eval-suite\\experiments\\continuous_asl\\20261019T155428Z_cslr01\\runtime\\venv\\Scripts\\python.exe",
+      "CommandLine": "\"D:\\apphearv3claude\\AppHear-claude-s2-r3-eval-suite\\AppHear-claude-s2-r3-eval-suite\\experiments\\continuous_asl\\20261019T155428Z_cslr01\\runtime\\venv\\Scripts\\python.exe\" -B experiments/continuous_asl/20261020_continuous_expand06/tools/prepare_asllrp.py --shard 0 --shards 2"
+    },
+    {
+      "ProcessId": 11668,
+      "ParentProcessId": 16116,
+      "ExecutablePath": "D:\\apphearv3claude\\AppHear-claude-s2-r3-eval-suite\\AppHear-claude-s2-r3-eval-suite\\experiments\\continuous_asl\\20261019T155428Z_cslr01\\runtime\\python\\cpython-3.11.11-windows-x86_64-none\\python.exe",
+      "CommandLine": "\"D:\\apphearv3claude\\AppHear-claude-s2-r3-eval-suite\\AppHear-claude-s2-r3-eval-suite\\experiments\\continuous_asl\\20261019T155428Z_cslr01\\runtime\\python\\cpython-3.11.11-windows-x86_64-none\\python.exe\" -B experiments/continuous_asl/20261020_continuous_expand06/tools/prepare_asllrp.py --shard 0 --shards 2"
+    },
+    {
+      "ProcessId": 32728,
+      "ParentProcessId": 34260,
+      "ExecutablePath": "D:\\apphearv3claude\\AppHear-claude-s2-r3-eval-suite\\AppHear-claude-s2-r3-eval-suite\\experiments\\continuous_asl\\20261019T155428Z_cslr01\\runtime\\venv\\Scripts\\python.exe",
+      "CommandLine": "\"D:\\apphearv3claude\\AppHear-claude-s2-r3-eval-suite\\AppHear-claude-s2-r3-eval-suite\\experiments\\continuous_asl\\20261019T155428Z_cslr01\\runtime\\venv\\Scripts\\python.exe\" -B experiments/continuous_asl/20261020_continuous_expand06/tools/prepare_asllrp.py --shard 1 --shards 2"
+    },
+    {
+      "ProcessId": 20604,
+      "ParentProcessId": 32728,
+      "ExecutablePath": "D:\\apphearv3claude\\AppHear-claude-s2-r3-eval-suite\\AppHear-claude-s2-r3-eval-suite\\experiments\\continuous_asl\\20261019T155428Z_cslr01\\runtime\\python\\cpython-3.11.11-windows-x86_64-none\\python.exe",
+      "CommandLine": "\"D:\\apphearv3claude\\AppHear-claude-s2-r3-eval-suite\\AppHear-claude-s2-r3-eval-suite\\experiments\\continuous_asl\\20261019T155428Z_cslr01\\runtime\\python\\cpython-3.11.11-windows-x86_64-none\\python.exe\" -B experiments/continuous_asl/20261020_continuous_expand06/tools/prepare_asllrp.py --shard 1 --shards 2"
+    }
+  ],
+  "completed_row_files": 849,
+  "replacement": "tools/prepare_asllrp_front.py --shard0/1, range<1300; tail workers retain ownership1300:1700 and1700:2126"
+}

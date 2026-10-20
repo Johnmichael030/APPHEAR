@@ -1,0 +1,11 @@
+{
+  "D:\\apphearv3claude\\AppHear-claude-s2-r3-eval-suite\\AppHear-claude-s2-r3-eval-suite\\experiments\\continuous_asl\\20261020T104054Z_expand_eval01\\data\\processed\\train_dev\\manifest.json": "04fb7c6c26bc934d6618902ceeaa2ee69e19d0c12e5bfe922e5743c8518c0ebe",
+  "D:\\apphearv3claude\\AppHear-claude-s2-r3-eval-suite\\AppHear-claude-s2-r3-eval-suite\\experiments\\continuous_asl\\20261020T131348Z_source_signer_audit01\\folds\\A_pooled_recording_holdout.json": "a57fabe25e981c5ec478d2d8c4e454bbc2e794d204e91593eeb1135b8625b174",
+  "D:\\apphearv3claude\\AppHear-claude-s2-r3-eval-suite\\AppHear-claude-s2-r3-eval-suite\\experiments\\continuous_asl\\20261020T131348Z_source_signer_audit01\\folds\\A_within_signer_2.json": "de7ca5798b055dd21da0f9a3bbf3955cbd75b3460bd4e650257b949824709c8a",
+  "D:\\apphearv3claude\\AppHear-claude-s2-r3-eval-suite\\AppHear-claude-s2-r3-eval-suite\\experiments\\continuous_asl\\20261020T131348Z_source_signer_audit01\\folds\\B_signer_2.json": "6f87e10bce76fab32772584603d463fc6ad369328e57b95745a0a9c249f76418",
+  "D:\\apphearv3claude\\AppHear-claude-s2-r3-eval-suite\\AppHear-claude-s2-r3-eval-suite\\experiments\\continuous_asl\\20261020T131348Z_source_signer_audit01\\folds\\A_within_signer_3.json": "a96d4771bedba0918ab96d24562cbc8dfbb63dcf6a4862a808f5d665c30f808e",
+  "D:\\apphearv3claude\\AppHear-claude-s2-r3-eval-suite\\AppHear-claude-s2-r3-eval-suite\\experiments\\continuous_asl\\20261020T131348Z_source_signer_audit01\\folds\\B_signer_3.json": "03933651ca5420a99ce911594f7de15b52eed6a053ef00b3668c20ed54c94c6c",
+  "D:\\apphearv3claude\\AppHear-claude-s2-r3-eval-suite\\AppHear-claude-s2-r3-eval-suite\\experiments\\continuous_asl\\20261020T131348Z_source_signer_audit01\\folds\\A_within_signer_5.json": "e81aec1fc989bcead7bed7ad29579f6e8d5131480984fddb872d0a53efc3106b",
+  "D:\\apphearv3claude\\AppHear-claude-s2-r3-eval-suite\\AppHear-claude-s2-r3-eval-suite\\experiments\\continuous_asl\\20261020T131348Z_source_signer_audit01\\folds\\B_signer_5.json": "f4806d701aeb4a036c06a5c17a4862302296fa81358979c148c6dad39ce3cb1d",
+  "D:\\apphearv3claude\\AppHear-claude-s2-r3-eval-suite\\AppHear-claude-s2-r3-eval-suite\\experiments\\continuous_asl\\20261020T123237Z_collapse_diagnosis01\\replayed_train.json": "4eb8b0f0ed5cbb8c18d056d3be332940d9bca55f2efadb75949389572b822026"
+}

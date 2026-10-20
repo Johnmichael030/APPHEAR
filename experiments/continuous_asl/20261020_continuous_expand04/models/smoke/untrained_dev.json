@@ -1,0 +1,92 @@
+{
+  "loss": 29.04021453857422,
+  "gloss_wer": 3.142857142857143,
+  "substitutions": 14,
+  "deletions": 0,
+  "insertions": 30,
+  "reference_tokens": 14,
+  "predictions": [
+    {
+      "sample_id": "ncslgr_6b627c2a6d44a0fc",
+      "reference": [
+        "IX-3p:i",
+        "LEARN+AGENT",
+        "MOTHERwg",
+        "CAR",
+        "BUY",
+        "FINISH",
+        "IX-3p:i"
+      ],
+      "hypothesis": [
+        "HOUSE",
+        "ONE-distributive-3p-pl-arc",
+        "HOUSE",
+        "GIRL",
+        "ONE-distributive-3p-pl-arc",
+        "HOUSE",
+        "ONE-distributive-3p-pl-arc",
+        "HOUSE",
+        "FAIL",
+        "ns-nat-AUSTRALIA",
+        "HOUSE",
+        "ns-nat-AUSTRALIA",
+        "HOUSE",
+        "NUT",
+        "ONE-distributive-3p-pl-arc",
+        "HOUSE",
+        "FAIL",
+        "HOUSE",
+        "FAIL",
+        "ns-nat-AUSTRALIA",
+        "HOUSE"
+      ],
+      "substitutions": 7,
+      "deletions": 0,
+      "insertions": 14,
+      "reference_tokens": 7
+    },
+    {
+      "sample_id": "ncslgr_480b611253531cc0",
+      "reference": [
+        "LEARN+AGENT",
+        "IX-loc:i",
+        "HOLD",
+        "MOTHER",
+        "FUTURE",
+        "BUY",
+        "CAR"
+      ],
+      "hypothesis": [
+        "HOUSE",
+        "ONE-distributive-3p-pl-arc",
+        "GIRL",
+        "ns-nat-AUSTRALIA",
+        "ONE-distributive-3p-pl-arc",
+        "HOUSE",
+        "MOVIE",
+        "HOUSE",
+        "ns-nat-AUSTRALIA",
+        "HOUSE",
+        "ONE-distributive-3p-pl-arc",
+        "HOUSE",
+        "ns-nat-AUSTRALIA",
+        "FAIL",
+        "HOUSE",
+        "FAIL",
+        "HOUSE",
+        "ns-nat-AUSTRALIA",
+        "FAIL",
+        "ns-nat-AUSTRALIA",
+        "FAIL",
+        "HOUSE",
+        "FAIL"
+      ],
+      "substitutions": 7,
+      "deletions": 0,
+      "insertions": 16,
+      "reference_tokens": 7
+    }
+  ],
+  "scope": "COLLECTION-DISJOINT DIAGNOSTIC, SIGNER UNVERIFIED; NOT PRODUCT ACCURACY",
+  "out_of_vocabulary_tokens": 1
+}

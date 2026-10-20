@@ -1,0 +1,134 @@
+[
+  {
+    "sample_id": "asllrp3_00808136f6af5bbc",
+    "role": "TRAIN",
+    "gloss": "IX-3p:i",
+    "source_relative_frame_span": [
+      31,
+      32
+    ],
+    "publisher_span_ms": 66.73333333333333,
+    "kept_frames_in_event": 0
+  },
+  {
+    "sample_id": "asllrp3_00db627b2bb6575f",
+    "role": "TRAIN",
+    "gloss": "TWO",
+    "source_relative_frame_span": [
+      47,
+      47
+    ],
+    "publisher_span_ms": 33.36666666666667,
+    "kept_frames_in_event": 0
+  },
+  {
+    "sample_id": "asllrp3_00db627b2bb6575f",
+    "role": "TRAIN",
+    "gloss": "DEAF",
+    "source_relative_frame_span": [
+      268,
+      268
+    ],
+    "publisher_span_ms": 33.36666666666667,
+    "kept_frames_in_event": 0
+  },
+  {
+    "sample_id": "asllrp3_0107eafd515f94d0",
+    "role": "TRAIN",
+    "gloss": "IX-3p:i",
+    "source_relative_frame_span": [
+      11,
+      11
+    ],
+    "publisher_span_ms": 33.36666666666667,
+    "kept_frames_in_event": 0
+  },
+  {
+    "sample_id": "asllrp3_0153058fbec678f9",
+    "role": "TRAIN",
+    "gloss": "IX-1p",
+    "source_relative_frame_span": [
+      103,
+      104
+    ],
+    "publisher_span_ms": 66.73333333333333,
+    "kept_frames_in_event": 0
+  },
+  {
+    "sample_id": "asllrp3_01fd1939feacc753",
+    "role": "TRAIN",
+    "gloss": "IX-1p",
+    "source_relative_frame_span": [
+      31,
+      31
+    ],
+    "publisher_span_ms": 33.36666666666667,
+    "kept_frames_in_event": 0
+  },
+  {
+    "sample_id": "asllrp3_022f63ac9c2d7327",
+    "role": "TRAIN",
+    "gloss": "IX-1p",
+    "source_relative_frame_span": [
+      19,
+      20
+    ],
+    "publisher_span_ms": 66.73333333333333,
+    "kept_frames_in_event": 0
+  },
+  {
+    "sample_id": "asllrp3_0257e7a69ba01246",
+    "role": "TRAIN",
+    "gloss": "IX-3p:i",
+    "source_relative_frame_span": [
+      5,
+      5
+    ],
+    "publisher_span_ms": 33.36666666666667,
+    "kept_frames_in_event": 0
+  },
+  {
+    "sample_id": "asllrp3_0267da1646621e8d",
+    "role": "TRAIN",
+    "gloss": "IX-1p",
+    "source_relative_frame_span": [
+      58,
+      59
+    ],
+    "publisher_span_ms": 66.73333333333333,
+    "kept_frames_in_event": 0
+  },
+  {
+    "sample_id": "asllrp3_02a3a7c9657635e6",
+    "role": "TRAIN",
+    "gloss": "IX-2p",
+    "source_relative_frame_span": [
+      16,
+      16
+    ],
+    "publisher_span_ms": 33.36666666666667,
+    "kept_frames_in_event": 0
+  },
+  {
+    "sample_id": "asllrp3_02a3a7c9657635e6",
+    "role": "TRAIN",
+    "gloss": "IX-3p:i",
+    "source_relative_frame_span": [
+      100,
+      100
+    ],
+    "publisher_span_ms": 33.36666666666667,
+    "kept_frames_in_event": 0
+  },
+  {
+    "sample_id": "asllrp3_03e8572d05198ba1",
+    "role": "TRAIN",
+    "gloss": "IX-3p:i",
+    "source_relative_frame_span": [
+      46,
+      46
+    ],
+    "publisher_span_ms": 33.36666666666667,
+    "kept_frames_in_event": 0
+  }
+]

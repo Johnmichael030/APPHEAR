@@ -1,0 +1,7 @@
+{
+  "dev_wer": 1.0,
+  "deletions": 3236,
+  "substitutions": 0,
+  "insertions": 0,
+  "scope": "All-empty literal-token baseline on this new DEV; old9DEV baseline is not comparable."
+}

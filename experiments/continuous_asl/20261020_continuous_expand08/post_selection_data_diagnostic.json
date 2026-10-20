@@ -1,0 +1,23 @@
+{
+  "selection_freeze_sha256": "7e1de8becff9510b2ac4a2816f534ef5a2ea82844b271dfeac27bf5da066157b",
+  "label_counts": {
+    "unique_train_labels": 2739,
+    "singleton_train_labels": 1331,
+    "train_target_tokens": 17453,
+    "dev_tokens_unseen_in_train": 6,
+    "dev_tokens_with_train_frequency_at_most5": 10
+  },
+  "feature_distributions": {
+    "train": {
+      "utterances": 2119,
+      "observations": 98198,
+      "feature_value_fraction_clipped_at10": 0.0002990933661619419
+    },
+    "fixed9dev": {
+      "utterances": 9,
+      "observations": 430,
+      "feature_value_fraction_clipped_at10": 0.00012919896640826872
+    }
+  },
+  "scope": "Read-only post-selection diagnosis; cannot uniquely identify a regression cause; no tuning or label changes."
+}

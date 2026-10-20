@@ -1,0 +1,9 @@
+{
+  "command": "experiments/continuous_asl/20261019T155428Z_cslr01/runtime/venv/Scripts/python.exe -B experiments/continuous_asl/20261020_continuous_expand04/tools/initialize.py",
+  "exit_code": 1,
+  "error": "NameError: name 'json' is not defined",
+  "stage": "Final status print after all initial manifests, plan and trainer provenance were successfully written; before fitting",
+  "correction": "Added missing json import and an existing-output verification branch. Rerun verified generated manifest/trainer hashes without overwriting or reinitializing outputs.",
+  "resolved": true,
+  "training_artifacts_lost_or_repeated": false
+}

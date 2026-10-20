@@ -1,0 +1,27 @@
+{
+  "status": "PARTIAL_REJECTED_OR_RESOURCE_STOP",
+  "requested": 3,
+  "valid": 0,
+  "accepted": [],
+  "failures": [
+    {
+      "sample_id": "rit3_115bc70b90616c49",
+      "reason": "PUBLISHER_FRAME_RATE_MISMATCH"
+    },
+    {
+      "sample_id": "rit3_070d5e0db572e28a",
+      "reason": "PUBLISHER_FRAME_RATE_MISMATCH"
+    },
+    {
+      "sample_id": "rit3_fd536cb9602ba89c",
+      "reason": "PUBLISHER_FRAME_RATE_MISMATCH"
+    }
+  ],
+  "resource_stop": null,
+  "shard": 0,
+  "shards": 1,
+  "seconds": 11.679421899956651,
+  "script_sha256": "71eb50ed46a1c8eb34b68580ee4ac0a9e77ae5ffab46461dab7a2d3d21385fce",
+  "synthetic": false,
+  "training_performed": false
+}

@@ -1,0 +1,20 @@
+Initial existing verification (executed first):
+& 'D:\apphearv3claude\AppHear-claude-s2-r3-eval-suite\AppHear-claude-s2-r3-eval-suite\experiments\continuous_asl\20261019T155428Z_cslr01\runtime\venv\Scripts\python.exe' -B 'D:\apphearv3claude\AppHear-claude-s2-r3-eval-suite\AppHear-claude-s2-r3-eval-suite\experiments\continuous_asl\20261020T123237Z_collapse_diagnosis01\verify.py'
+PASS46newpriorfiles; parentPASS1061files,20745protectedmetadata,3121eligible; noTESTscoring.
+
+Support audit:
+& 'D:\apphearv3claude\AppHear-claude-s2-r3-eval-suite\AppHear-claude-s2-r3-eval-suite\experiments\continuous_asl\20261019T155428Z_cslr01\runtime\venv\Scripts\python.exe' -B 'D:\apphearv3claude\AppHear-claude-s2-r3-eval-suite\AppHear-claude-s2-r3-eval-suite\experiments\continuous_asl\20261020T124813Z_label_support01\support_audit.py'
+PASS; whole-sequence≥5 and≥10 candidates for each separatepool; distinct-utterance counts; saved thresholds/protocol beforefit. audit_console.txt contains measured output.
+
+One new CUDA fit:
+& 'D:\apphearv3claude\AppHear-claude-s2-r3-eval-suite\AppHear-claude-s2-r3-eval-suite\experiments\continuous_asl\20261019T155428Z_cslr01\runtime\venv\Scripts\python.exe' -B 'D:\apphearv3claude\AppHear-claude-s2-r3-eval-suite\AppHear-claude-s2-r3-eval-suite\experiments\continuous_asl\20261020T124813Z_label_support01\pilot.py'
+Exit0; 20epochs; NO_MEANINGFUL_LEARNING_GATE20. pilot_console.txt, pilot_wall.json, protocol and trainingstatus contain exact evidence.
+FrozenmanifestSHA:a735d19f84338a36146c11aeba7923cda6204c41153f617251ace9c1a5daafdf
+Noacquisition,previousfitrerun,TESTtuning,production/Android/GLBchange. Existing frozenpreservationvalidators reused.
+
+Close reports:
+& 'D:\apphearv3claude\AppHear-claude-s2-r3-eval-suite\AppHear-claude-s2-r3-eval-suite\experiments\continuous_asl\20261019T155428Z_cslr01\runtime\venv\Scripts\python.exe' -B 'D:\apphearv3claude\AppHear-claude-s2-r3-eval-suite\AppHear-claude-s2-r3-eval-suite\experiments\continuous_asl\20261020T124813Z_label_support01\finish.py'
+
+NEXT READ-ONLY VERIFICATION:
+& 'D:\apphearv3claude\AppHear-claude-s2-r3-eval-suite\AppHear-claude-s2-r3-eval-suite\experiments\continuous_asl\20261019T155428Z_cslr01\runtime\venv\Scripts\python.exe' -B 'D:\apphearv3claude\AppHear-claude-s2-r3-eval-suite\AppHear-claude-s2-r3-eval-suite\experiments\continuous_asl\20261020T124813Z_label_support01\verify.py'
+Do not rerun completedpilot.py; it rejects existing output. No queued fit. Nextresearchaction is a predeclared TRAIN-only source-vs-signer transfer diagnostic, not another longfit or threshold sweep.

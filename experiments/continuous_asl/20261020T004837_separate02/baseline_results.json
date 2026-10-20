@@ -1,0 +1,248 @@
+{
+  "production_current_RecognitionV2": {
+    "status": "BLOCKED",
+    "reason": "new available data are legacy258, current WORD expects350 plus mask; no compatible current-path held-out benchmark"
+  },
+  "isolated_legacy_INT8": {
+    "top1": 0.6427696078431373,
+    "macro_f1": 0.6300688939975758,
+    "rows": 3264,
+    "model_path": "D:\\derived\\derived\\apphear3\\runs\\tcn_streaming_conversational_fps_v30\\streaming.tflite",
+    "model_sha256": "2763ce1de129af46e966dcdc6582beca6fbd0dba8252c5ad24314869a6cdcc5d",
+    "latency_p50_ms": 1.2992499978281558,
+    "latency_p95_ms": 1.9728999890503465
+  },
+  "isolated_legacy_FP32": {
+    "top1": 0.6513480392156863,
+    "macro_f1": 0.6412252510871352,
+    "rows": 3264,
+    "per_signer": {
+      "P12": {
+        "rows": 276,
+        "top1": 0.5144927536231884
+      },
+      "P21": {
+        "rows": 968,
+        "top1": 0.65599173553719
+      },
+      "P26": {
+        "rows": 932,
+        "top1": 0.6663090128755365
+      },
+      "P39": {
+        "rows": 976,
+        "top1": 0.7090163934426229
+      },
+      "P5": {
+        "rows": 112,
+        "top1": 0.32142857142857145
+      }
+    }
+  },
+  "continuous_prior_reproduced": {
+    "gloss_wer": 0.88,
+    "substitutions": 6,
+    "deletions": 16,
+    "insertions": 0,
+    "reference_tokens": 25,
+    "hypothesis_tokens": 9,
+    "checkpoint": {
+      "path": "checkpoints\\epoch_008.pt",
+      "sha256": "278f616ab5b6f9abe8584c124c542c221ff8e5ac641126eeddbff195cbc78180",
+      "epoch": 8
+    }
+  },
+  "frozen_CTC_on_native_cadence": {
+    "gloss_wer": 0.92,
+    "substitutions": 7,
+    "deletions": 16,
+    "insertions": 0,
+    "reference_tokens": 25,
+    "hypothesis_tokens": 9
+  },
+  "test_data_used": true,
+  "software_environment": "D:\\apphearv3claude\\AppHear-claude-s2-r3-eval-suite\\AppHear-claude-s2-r3-eval-suite\\experiments\\continuous_asl\\20261019T155428Z_cslr01\\requirements.observed.txt",
+  "native_final_test_after_freeze": {
+    "status": "PASS_EVALUATION_COMPLETE",
+    "partition": "native final test",
+    "source": "D:\\classmate_e1_matched_rtx3050_package\\classmate_e1_matched_rtx3050_package\\data\\test_native\\test.npz",
+    "source_sha256": "99243bd9cac8488dab70879a42b6c75ba2aa04b54c89f29679bb4c107e614dfc",
+    "rows": 2620,
+    "signer_count": 11,
+    "train_val_signer_overlap": {
+      "train": [],
+      "val": []
+    },
+    "baseline": {
+      "top1": 0.6122137404580152,
+      "macro_f1": 0.6021852804986968,
+      "rows": 2620,
+      "per_signer": {
+        "P15": {
+          "rows": 242,
+          "top1": 0.5743801652892562
+        },
+        "P17": {
+          "rows": 242,
+          "top1": 0.6363636363636364
+        },
+        "P18": {
+          "rows": 199,
+          "top1": 0.6633165829145728
+        },
+        "P22": {
+          "rows": 238,
+          "top1": 0.5588235294117647
+        },
+        "P35": {
+          "rows": 287,
+          "top1": 0.5853658536585366
+        },
+        "P42": {
+          "rows": 250,
+          "top1": 0.664
+        },
+        "P47": {
+          "rows": 239,
+          "top1": 0.6652719665271967
+        },
+        "P48": {
+          "rows": 252,
+          "top1": 0.6706349206349206
+        },
+        "P49": {
+          "rows": 147,
+          "top1": 0.5578231292517006
+        },
+        "P6": {
+          "rows": 265,
+          "top1": 0.569811320754717
+        },
+        "P9": {
+          "rows": 259,
+          "top1": 0.583011583011583
+        }
+      }
+    },
+    "candidates": {
+      "primary": {
+        "top1": 0.6255725190839695,
+        "macro_f1": 0.6168613687580461,
+        "rows": 2620,
+        "per_signer": {
+          "P15": {
+            "rows": 242,
+            "top1": 0.5909090909090909
+          },
+          "P17": {
+            "rows": 242,
+            "top1": 0.628099173553719
+          },
+          "P18": {
+            "rows": 199,
+            "top1": 0.6733668341708543
+          },
+          "P22": {
+            "rows": 238,
+            "top1": 0.5588235294117647
+          },
+          "P35": {
+            "rows": 287,
+            "top1": 0.5958188153310104
+          },
+          "P42": {
+            "rows": 250,
+            "top1": 0.7
+          },
+          "P47": {
+            "rows": 239,
+            "top1": 0.6694560669456067
+          },
+          "P48": {
+            "rows": 252,
+            "top1": 0.7142857142857143
+          },
+          "P49": {
+            "rows": 147,
+            "top1": 0.5714285714285714
+          },
+          "P6": {
+            "rows": 265,
+            "top1": 0.5924528301886792
+          },
+          "P9": {
+            "rows": 259,
+            "top1": 0.5791505791505791
+          }
+        }
+      },
+      "repeat": {
+        "top1": 0.6217557251908397,
+        "macro_f1": 0.6144525647534597,
+        "rows": 2620,
+        "per_signer": {
+          "P15": {
+            "rows": 242,
+            "top1": 0.5909090909090909
+          },
+          "P17": {
+            "rows": 242,
+            "top1": 0.6322314049586777
+          },
+          "P18": {
+            "rows": 199,
+            "top1": 0.6934673366834171
+          },
+          "P22": {
+            "rows": 238,
+            "top1": 0.5756302521008403
+          },
+          "P35": {
+            "rows": 287,
+            "top1": 0.5714285714285714
+          },
+          "P42": {
+            "rows": 250,
+            "top1": 0.68
+          },
+          "P47": {
+            "rows": 239,
+            "top1": 0.6778242677824268
+          },
+          "P48": {
+            "rows": 252,
+            "top1": 0.7063492063492064
+          },
+          "P49": {
+            "rows": 147,
+            "top1": 0.5782312925170068
+          },
+          "P6": {
+            "rows": 265,
+            "top1": 0.5735849056603773
+          },
+          "P9": {
+            "rows": 259,
+            "top1": 0.5675675675675675
+          }
+        }
+      }
+    },
+    "paired_signer_bootstrap_top1_delta_95pct": {
+      "primary": [
+        0.004558170345352175,
+        0.02336957956202001
+      ],
+      "repeat": [
+        0.00035293622613888077,
+        0.018941083229015145
+      ]
+    },
+    "checkpoint_selection_used_test": false,
+    "post_test_training_performed": false,
+    "same_input_same_FP32_backend": true,
+    "false_activations": "NOT_MEASURED",
+    "production_path": "legacy258 only, current350 incompatible"
+  },
+  "test_use": "FINAL_EVALUATION_ONLY_NO_TRAINING_SELECTION_OR_CALIBRATION"
+}

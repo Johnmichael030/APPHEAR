@@ -1,0 +1,2 @@
+......                                                                   [100%]
+- generated xml file: D:\apphearv3claude\AppHear-claude-s2-r3-eval-suite\AppHear-claude-s2-r3-eval-suite\experiments\continuous_asl\20261020_continuous_expand03\logs\focused_tests_20261020T021139_808.xml -

@@ -1,0 +1,39 @@
+{
+  "status": "NO_CREDIBLE_PRIMARY_GAIN",
+  "completed_epochs": 14,
+  "optimizer_updates": 2632,
+  "utterance_presentations": 21000,
+  "selected_checkpoint": {
+    "path": "checkpoints\\epoch_012.pt",
+    "sha256": "e2a6e0046bca4a3f97f33f023dc7346dd9d6226e19e9bd855357a00c8f1579bf",
+    "epoch": 12
+  },
+  "initialization_checkpoint": {
+    "path": "checkpoints\\initialization.pt",
+    "sha256": "2f0202eb7c24ef5cde79e6d8d4d9f5dc34831fac6091aeb42aa6dc4dc59b6ef2",
+    "epoch": 0
+  },
+  "TRAIN_WER": 0.8708041535860903,
+  "primary80_WER": 0.9690721649484536,
+  "strong27_WER": 0.9662162162162162,
+  "full206_WER": 0.9788182831661093,
+  "TRAIN_learning_screen_pass": false,
+  "primary_transfer_screen_pass": false,
+  "source_transfer_interpretable": false,
+  "further_training_justified": false,
+  "epoch_loop_seconds": 88.5016718999832,
+  "with_reload_full_TRAIN_validation_seconds": 96.48690060002264,
+  "peak_allocated_VRAM_bytes": 1303238656,
+  "peak_reserved_VRAM_bytes": 1340080128,
+  "GPU": "NVIDIA GeForce RTX 3050 Laptop GPU",
+  "used_cuda": true,
+  "checkpoint_reload_predictions_match": true,
+  "fold_manifest_sha256": "87442a6f1241860e369a5c8f0768d583b3a4058f5a9ad03dcc135532c419c72f",
+  "vocabulary_sha256": "365b44d435c9def2bba6e0f347155c72bf2ca001bd365d5b10f55dbe91174715",
+  "config_sha256": "75ea1f17e277894195a4f3a1370343e5d579ffd31ffcc40e9f52d3b459aa08ed",
+  "normalization_sha256": "394a3862286b01b884d30952f767f8620969ea21c0384715254e4bddb2d41489",
+  "training_script_sha256": "a372ab7970a4d4f64332f906499d84661a6f89ddac374c9c8989c1598f0d0b58",
+  "TEST_used": false,
+  "production_promoted": false,
+  "interpretation": "Known signers; unseen conservative recording families. No causal signer or unseen-signer claim."
+}

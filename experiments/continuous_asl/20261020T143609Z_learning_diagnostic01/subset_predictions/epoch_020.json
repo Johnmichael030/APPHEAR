@@ -1,0 +1,402 @@
+{
+  "WER": 0.9615384615384616,
+  "CTC_loss": 4.584792137145996,
+  "substitutions": 5,
+  "deletions": 145,
+  "insertions": 0,
+  "reference_tokens": 156,
+  "blank_fraction": 0.984375,
+  "token_diversity": 3,
+  "top_token_fraction": 0.6363636363636364,
+  "empty_outputs": 5,
+  "multi_token_outputs": 0,
+  "utterances": 16,
+  "predictions": [
+    {
+      "sample_id": "asllrp3_bdd0c468f269f54d",
+      "reference": [
+        "IX-1p",
+        "(1h)VOMIT/HATE",
+        "COMMUTE",
+        "WORK",
+        "BICYCLE"
+      ],
+      "hypothesis": [
+        "IX-1p"
+      ],
+      "substitutions": 0,
+      "deletions": 4,
+      "insertions": 0,
+      "reference_tokens": 5,
+      "CTC_loss": 4.674252510070801,
+      "blank_frames": 44,
+      "output_frames": 45
+    },
+    {
+      "sample_id": "asllrp3_99c3003b2b716ffb",
+      "reference": [
+        "IX-1p",
+        "LOOK",
+        "MOVIE",
+        "PAST+NIGHT",
+        "IX-1p",
+        "AFRAID",
+        "(1h)WOW/AWFUL"
+      ],
+      "hypothesis": [
+        "SELF-3p+:i"
+      ],
+      "substitutions": 1,
+      "deletions": 6,
+      "insertions": 0,
+      "reference_tokens": 7,
+      "CTC_loss": 4.19918966293335,
+      "blank_frames": 31,
+      "output_frames": 32
+    },
+    {
+      "sample_id": "asllrp3_2a8b9d69eedfae20",
+      "reference": [
+        "IX-2p",
+        "FACE",
+        "NOT",
+        "FEEL",
+        "(1h)GOOD/THANK-YOU",
+        "IX-3p:j",
+        "#OK",
+        "IX-2p",
+        "WRONG+",
+        "(1h)part:indef"
+      ],
+      "hypothesis": [],
+      "substitutions": 0,
+      "deletions": 10,
+      "insertions": 0,
+      "reference_tokens": 10,
+      "CTC_loss": 5.039398670196533,
+      "blank_frames": 31,
+      "output_frames": 31
+    },
+    {
+      "sample_id": "asllrp3_c758a427acc02075",
+      "reference": [
+        "IX-3p:i",
+        "ns-fs-MARY",
+        "FUNNY",
+        "IX-3p:i",
+        "WANT+",
+        "UGLY",
+        "#DOG_2",
+        "part:indef"
+      ],
+      "hypothesis": [
+        "IX-1p"
+      ],
+      "substitutions": 1,
+      "deletions": 7,
+      "insertions": 0,
+      "reference_tokens": 8,
+      "CTC_loss": 4.4791765213012695,
+      "blank_frames": 33,
+      "output_frames": 34
+    },
+    {
+      "sample_id": "asllrp3_1219503586aff765",
+      "reference": [
+        "#WHEN",
+        "RAIN+",
+        "IX-1p",
+        "NOT",
+        "STAY_2",
+        "HOME",
+        "DEPART"
+      ],
+      "hypothesis": [
+        "IX-1p"
+      ],
+      "substitutions": 0,
+      "deletions": 6,
+      "insertions": 0,
+      "reference_tokens": 7,
+      "CTC_loss": 4.063411235809326,
+      "blank_frames": 29,
+      "output_frames": 31
+    },
+    {
+      "sample_id": "asllrp3_5760b96d59d913d1",
+      "reference": [
+        "IN",
+        "DEAF",
+        "fs-SPEECH",
+        "CLASS_2",
+        "(1)RANGE",
+        "IX-3p:i",
+        "UNDERSTAND+",
+        "fs-INTELLIGIBLE",
+        "IX-3p-pl-arc",
+        "fs-GRUNTS",
+        "fs-GRUNT",
+        "MEAN",
+        "\\WHAT\\\"\"",
+        "CULTURE",
+        "MEAN",
+        "fs-GRUNT"
+      ],
+      "hypothesis": [
+        "IX-1p"
+      ],
+      "substitutions": 1,
+      "deletions": 15,
+      "insertions": 0,
+      "reference_tokens": 16,
+      "CTC_loss": 5.444065093994141,
+      "blank_frames": 140,
+      "output_frames": 141
+    },
+    {
+      "sample_id": "asllrp3_80b5cd0db78367b6",
+      "reference": [
+        "PAST+NIGHT",
+        "IX-1p",
+        "PLAY+",
+        "(crvd-5)BASKETBALL",
+        "SCRIMMAGE",
+        "WITH",
+        "FRIEND",
+        "(Y)WOW+",
+        "(baby-O)BY-A-HAIR",
+        "(1h)BEAT",
+        "THIRTY_2+",
+        "TWENTY-EIGHT"
+      ],
+      "hypothesis": [],
+      "substitutions": 0,
+      "deletions": 12,
+      "insertions": 0,
+      "reference_tokens": 12,
+      "CTC_loss": 4.692389011383057,
+      "blank_frames": 71,
+      "output_frames": 71
+    },
+    {
+      "sample_id": "asllrp3_72e456e7c5228d89",
+      "reference": [
+        "SELF-3p+:i",
+        "MOVIE",
+        "REALLY",
+        "SCARE+"
+      ],
+      "hypothesis": [
+        "SELF-3p+:i"
+      ],
+      "substitutions": 0,
+      "deletions": 3,
+      "insertions": 0,
+      "reference_tokens": 4,
+      "CTC_loss": 4.10683536529541,
+      "blank_frames": 34,
+      "output_frames": 35
+    },
+    {
+      "sample_id": "asllrp3_c467ef7d51080f48",
+      "reference": [
+        "ns-fs-JACK",
+        "STAND",
+        "GO-OUT+",
+        "IX-3p:i",
+        "SEE",
+        "SOMETHING/ONE",
+        "STRANGE",
+        "QMwg"
+      ],
+      "hypothesis": [
+        "IX-1p"
+      ],
+      "substitutions": 1,
+      "deletions": 7,
+      "insertions": 0,
+      "reference_tokens": 8,
+      "CTC_loss": 4.574466228485107,
+      "blank_frames": 30,
+      "output_frames": 31
+    },
+    {
+      "sample_id": "asllrp3_78e811c2d71614bf",
+      "reference": [
+        "#IF",
+        "IX-3p:i",
+        "PINEAPPLE",
+        "fs-CREAM",
+        "CHEESE",
+        "(1h)5\\wave no\\\"\"",
+        "IX-1p",
+        "REFUSE",
+        "EAT+",
+        "fs-BAGEL",
+        "(1h)5\\wave no\\\"\""
+      ],
+      "hypothesis": [
+        "SELF-3p+:i"
+      ],
+      "substitutions": 1,
+      "deletions": 10,
+      "insertions": 0,
+      "reference_tokens": 11,
+      "CTC_loss": 4.471114158630371,
+      "blank_frames": 43,
+      "output_frames": 44
+    },
+    {
+      "sample_id": "asllrp3_636f3ab59899f784",
+      "reference": [
+        "GO-OUT",
+        "SNOW",
+        "SCHOOL",
+        "QMwg",
+        "CLOSE-DOOR",
+        "part:indef"
+      ],
+      "hypothesis": [],
+      "substitutions": 0,
+      "deletions": 6,
+      "insertions": 0,
+      "reference_tokens": 6,
+      "CTC_loss": 4.549747467041016,
+      "blank_frames": 33,
+      "output_frames": 33
+    },
+    {
+      "sample_id": "asllrp3_5de5c7e78b37907b",
+      "reference": [
+        "SOMETIMES",
+        "DEAF",
+        "(1h)PEOPLE",
+        "LEARN+",
+        "STORY",
+        "FRIEND",
+        "TRADE-arc",
+        "IX-1p-pl-arc",
+        "BETWEEN/SHARE-arc",
+        "fs-TIPS",
+        "BETWEEN/SHARE-arc",
+        "INFORM",
+        "ABOUT",
+        "OH-I-SEE",
+        "NOISE",
+        "IX-1p",
+        "MAKE",
+        "AND",
+        "LEARN",
+        "OH-I-SEE",
+        "IX-1p",
+        "GO",
+        "SITUATION",
+        "IX-1p",
+        "CARE_2",
+        "(A)SELF-1p"
+      ],
+      "hypothesis": [],
+      "substitutions": 0,
+      "deletions": 26,
+      "insertions": 0,
+      "reference_tokens": 26,
+      "CTC_loss": 5.773691177368164,
+      "blank_frames": 131,
+      "output_frames": 131
+    },
+    {
+      "sample_id": "asllrp3_e6957989071cc74c",
+      "reference": [
+        "WHO",
+        "IX-3p-pl-arc",
+        "FIND/FIND-OUT",
+        "IX-1p",
+        "KEY",
+        "(1h)part:indef"
+      ],
+      "hypothesis": [
+        "IX-1p"
+      ],
+      "substitutions": 0,
+      "deletions": 5,
+      "insertions": 0,
+      "reference_tokens": 6,
+      "CTC_loss": 3.248424768447876,
+      "blank_frames": 31,
+      "output_frames": 32
+    },
+    {
+      "sample_id": "asllrp3_cfbdab19659683e8",
+      "reference": [
+        "IX-1p",
+        "HAVE",
+        "APPOINTMENT",
+        "(1h)NOW+AFTERNOON_2",
+        "WITH",
+        "(crvd-5)POSS-1p",
+        "TEACH+AGENT"
+      ],
+      "hypothesis": [
+        "IX-1p"
+      ],
+      "substitutions": 0,
+      "deletions": 6,
+      "insertions": 0,
+      "reference_tokens": 7,
+      "CTC_loss": 4.8275146484375,
+      "blank_frames": 28,
+      "output_frames": 30
+    },
+    {
+      "sample_id": "asllrp3_8a3dac0cd66440da",
+      "reference": [
+        "HERE",
+        "ns-BOSTON",
+        "NEVER",
+        "SNOW",
+        "(1h)5\\perplexed\\\"\"",
+        "5\\wave no\\\"\"",
+        "YES",
+        "SNOW",
+        "A-LOT",
+        "IX-3p:i",
+        "FINISH",
+        "SPEND",
+        "COLD",
+        "HERE",
+        "PAST+",
+        "part:indef"
+      ],
+      "hypothesis": [],
+      "substitutions": 0,
+      "deletions": 16,
+      "insertions": 0,
+      "reference_tokens": 16,
+      "CTC_loss": 5.455782890319824,
+      "blank_frames": 76,
+      "output_frames": 76
+    },
+    {
+      "sample_id": "asllrp3_34bb00a1f23fa5ec",
+      "reference": [
+        "IX-3p:i",
+        "ns-fs-MARY",
+        "LIKE",
+        "fs-MARGARINE",
+        "NOT",
+        "LIKE",
+        "BUTTER_2+"
+      ],
+      "hypothesis": [
+        "IX-3p:i"
+      ],
+      "substitutions": 0,
+      "deletions": 6,
+      "insertions": 0,
+      "reference_tokens": 7,
+      "CTC_loss": 3.7572147846221924,
+      "blank_frames": 34,
+      "output_frames": 35
+    }
+  ]
+}

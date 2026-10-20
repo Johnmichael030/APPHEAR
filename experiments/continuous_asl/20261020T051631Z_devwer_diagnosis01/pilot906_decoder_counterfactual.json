@@ -1,0 +1,232 @@
+{
+  "predeclared": "Change decoder only: prefix beam10/top16, blank0, no LM, no penalty or parameter sweep. Pruned approximation, not new official metrics.",
+  "gloss_wer": 0.9649122807017544,
+  "counts": {
+    "substitutions": 17,
+    "deletions": 38,
+    "insertions": 0,
+    "reference_tokens": 57
+  },
+  "pairs": [
+    {
+      "sample_id": "ncslgr_6b627c2a6d44a0fc",
+      "reference": [
+        "IX-3p:i",
+        "LEARN+AGENT",
+        "MOTHERwg",
+        "CAR",
+        "BUY",
+        "FINISH",
+        "IX-3p:i"
+      ],
+      "greedy": [
+        "fs-JOHN",
+        "FINISH",
+        "ARRIVE:i"
+      ],
+      "fixed_beam10_top16": [
+        "fs-JOHN",
+        "ARRIVE:i",
+        "SAY"
+      ],
+      "substitutions": 3,
+      "deletions": 4,
+      "insertions": 0,
+      "reference_tokens": 7,
+      "beam_log_probability": -8.91799869364064
+    },
+    {
+      "sample_id": "ncslgr_480b611253531cc0",
+      "reference": [
+        "LEARN+AGENT",
+        "IX-loc:i",
+        "HOLD",
+        "MOTHER",
+        "FUTURE",
+        "BUY",
+        "CAR"
+      ],
+      "greedy": [
+        "fs-JOHN",
+        "ARRIVE:i",
+        "IX-1p"
+      ],
+      "fixed_beam10_top16": [
+        "fs-JOHN",
+        "HOLD",
+        "IX-1p"
+      ],
+      "substitutions": 2,
+      "deletions": 4,
+      "insertions": 0,
+      "reference_tokens": 7,
+      "beam_log_probability": -9.884857912735187
+    },
+    {
+      "sample_id": "ncslgr_cecf49697b9aae80",
+      "reference": [
+        "IX-3p:i",
+        "LEARN+AGENT",
+        "POSS-3p:i",
+        "FATHERwg",
+        "HOUSE",
+        "WHICH",
+        "BUY",
+        "IX-loc-arc"
+      ],
+      "greedy": [
+        "fs-JOHN",
+        "HOLD"
+      ],
+      "fixed_beam10_top16": [
+        "fs-JOHN",
+        "HOLD"
+      ],
+      "substitutions": 2,
+      "deletions": 6,
+      "insertions": 0,
+      "reference_tokens": 8,
+      "beam_log_probability": -10.988827674612322
+    },
+    {
+      "sample_id": "ncslgr_510cf79b19adb2d4",
+      "reference": [
+        "IX-3p:i",
+        "MOTHERwg",
+        "BOOK",
+        "READ++"
+      ],
+      "greedy": [
+        "fs-JOHN",
+        "HOLD"
+      ],
+      "fixed_beam10_top16": [
+        "fs-JOHN",
+        "HOLD"
+      ],
+      "substitutions": 2,
+      "deletions": 2,
+      "insertions": 0,
+      "reference_tokens": 4,
+      "beam_log_probability": -8.225175883096744
+    },
+    {
+      "sample_id": "ncslgr_63612b0124839c79",
+      "reference": [
+        "IX-3p:i",
+        "MOTHERwg",
+        "PLAN",
+        "READ++",
+        "BOOK",
+        "LATERwg"
+      ],
+      "greedy": [
+        "fs-JOHN",
+        "HOLD"
+      ],
+      "fixed_beam10_top16": [
+        "fs-JOHN",
+        "HOLD"
+      ],
+      "substitutions": 2,
+      "deletions": 4,
+      "insertions": 0,
+      "reference_tokens": 6,
+      "beam_log_probability": -7.671492940086699
+    },
+    {
+      "sample_id": "ncslgr_1418dc0eb004ad3b",
+      "reference": [
+        "IX-3p:i",
+        "MOTHER+",
+        "READ+",
+        "BOOK",
+        "IX-3p:i"
+      ],
+      "greedy": [
+        "fs-JOHN"
+      ],
+      "fixed_beam10_top16": [
+        "fs-JOHN"
+      ],
+      "substitutions": 1,
+      "deletions": 4,
+      "insertions": 0,
+      "reference_tokens": 5,
+      "beam_log_probability": -5.962012869161681
+    },
+    {
+      "sample_id": "ncslgr_417afd4735362b64",
+      "reference": [
+        "IX-3p:i",
+        "MOTHER",
+        "IX-3p:i",
+        "CAR",
+        "BUY",
+        "IX-3p:j"
+      ],
+      "greedy": [
+        "fs-JOHN"
+      ],
+      "fixed_beam10_top16": [
+        "fs-JOHN",
+        "HOLD"
+      ],
+      "substitutions": 2,
+      "deletions": 4,
+      "insertions": 0,
+      "reference_tokens": 6,
+      "beam_log_probability": -6.385101983763841
+    },
+    {
+      "sample_id": "ncslgr_f9d66524fb30b3c5",
+      "reference": [
+        "IX-3p:i",
+        "FATHER",
+        "IX-loc:i",
+        "HOLD",
+        "BUY",
+        "BOOK",
+        "IX-3p:i"
+      ],
+      "greedy": [
+        "fs-JOHN",
+        "HOLD",
+        "5\"this is nothing\""
+      ],
+      "fixed_beam10_top16": [
+        "fs-JOHN",
+        "HOLD"
+      ],
+      "substitutions": 1,
+      "deletions": 5,
+      "insertions": 0,
+      "reference_tokens": 7,
+      "beam_log_probability": -8.76046931120176
+    },
+    {
+      "sample_id": "ncslgr_43f1ecb8adfc4359",
+      "reference": [
+        "IX-3p:i",
+        "MOTHERwg",
+        "IX-3p:i",
+        "CAR",
+        "BUY",
+        "SHOULD",
+        "NOT"
+      ],
+      "greedy": [
+        "fs-JOHN"
+      ],
+      "fixed_beam10_top16": [
+        "fs-JOHN",
+        "HOLD"
+      ],
+      "substitutions": 2,
+      "deletions": 5,
+      "insertions": 0,
+      "reference_tokens": 7,
+      "beam_log_probability": -7.045658272022241
+    }
+  ]
+}

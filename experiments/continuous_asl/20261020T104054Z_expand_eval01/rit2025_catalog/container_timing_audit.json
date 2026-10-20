@@ -1,0 +1,2798 @@
+{
+  "status": "BLOCKED_NEW_SOURCE_TIMING_CONTRACT",
+  "records": [
+    {
+      "sample_id": "rit3_115bc70b90616c49",
+      "collection": "RIT_P02-s01",
+      "publisher_inclusive_span_frames": 137,
+      "container_frames": 139,
+      "frame_difference": 2,
+      "native_fps": 60.0,
+      "excluded_overlap": false,
+      "status": "BLOCKED_PUBLISHER_CROP_ORIGIN_AND_RATE_UNVERIFIED"
+    },
+    {
+      "sample_id": "rit3_6e586974329d588b",
+      "collection": "RIT_P02-s01",
+      "publisher_inclusive_span_frames": 503,
+      "container_frames": 505,
+      "frame_difference": 2,
+      "native_fps": 60.0,
+      "excluded_overlap": false,
+      "status": "BLOCKED_PUBLISHER_CROP_ORIGIN_AND_RATE_UNVERIFIED"
+    },
+    {
+      "sample_id": "rit3_d14c709643fefc43",
+      "collection": "RIT_P02-s01",
+      "publisher_inclusive_span_frames": 475,
+      "container_frames": 477,
+      "frame_difference": 2,
+      "native_fps": 60.0,
+      "excluded_overlap": false,
+      "status": "BLOCKED_PUBLISHER_CROP_ORIGIN_AND_RATE_UNVERIFIED"
+    },
+    {
+      "sample_id": "rit3_544e72b6a4ce694a",
+      "collection": "RIT_P02-s01",
+      "publisher_inclusive_span_frames": 274,
+      "container_frames": 276,
+      "frame_difference": 2,
+      "native_fps": 60.0,
+      "excluded_overlap": false,
+      "status": "BLOCKED_PUBLISHER_CROP_ORIGIN_AND_RATE_UNVERIFIED"
+    },
+    {
+      "sample_id": "rit3_9becfb2bcbe0e3a1",
+      "collection": "RIT_P02-s01",
+      "publisher_inclusive_span_frames": 301,
+      "container_frames": 303,
+      "frame_difference": 2,
+      "native_fps": 60.0,
+      "excluded_overlap": false,
+      "status": "BLOCKED_PUBLISHER_CROP_ORIGIN_AND_RATE_UNVERIFIED"
+    },
+    {
+      "sample_id": "rit3_266fca416aa4fae3",
+      "collection": "RIT_P02-s01",
+      "publisher_inclusive_span_frames": 111,
+      "container_frames": 113,
+      "frame_difference": 2,
+      "native_fps": 60.0,
+      "excluded_overlap": true,
+      "status": "BLOCKED_PUBLISHER_CROP_ORIGIN_AND_RATE_UNVERIFIED"
+    },
+    {
+      "sample_id": "rit3_351705a58575e0a7",
+      "collection": "RIT_P02-s01",
+      "publisher_inclusive_span_frames": 230,
+      "container_frames": 232,
+      "frame_difference": 2,
+      "native_fps": 60.0,
+      "excluded_overlap": true,
+      "status": "BLOCKED_PUBLISHER_CROP_ORIGIN_AND_RATE_UNVERIFIED"
+    },
+    {
+      "sample_id": "rit3_db79f4e570cdcb1e",
+      "collection": "RIT_P02-s01",
+      "publisher_inclusive_span_frames": 166,
+      "container_frames": 168,
+      "frame_difference": 2,
+      "native_fps": 60.0,
+      "excluded_overlap": false,
+      "status": "BLOCKED_PUBLISHER_CROP_ORIGIN_AND_RATE_UNVERIFIED"
+    },
+    {
+      "sample_id": "rit3_6313666277512468",
+      "collection": "RIT_P02-s01",
+      "publisher_inclusive_span_frames": 227,
+      "container_frames": 229,
+      "frame_difference": 2,
+      "native_fps": 60.0,
+      "excluded_overlap": false,
+      "status": "BLOCKED_PUBLISHER_CROP_ORIGIN_AND_RATE_UNVERIFIED"
+    },
+    {
+      "sample_id": "rit3_b508400110e158b2",
+      "collection": "RIT_P02-s01",
+      "publisher_inclusive_span_frames": 128,
+      "container_frames": 130,
+      "frame_difference": 2,
+      "native_fps": 60.0,
+      "excluded_overlap": false,
+      "status": "BLOCKED_PUBLISHER_CROP_ORIGIN_AND_RATE_UNVERIFIED"
+    },
+    {
+      "sample_id": "rit3_984bdd918590285c",
+      "collection": "RIT_P02-s01",
+      "publisher_inclusive_span_frames": 253,
+      "container_frames": 255,
+      "frame_difference": 2,
+      "native_fps": 60.0,
+      "excluded_overlap": false,
+      "status": "BLOCKED_PUBLISHER_CROP_ORIGIN_AND_RATE_UNVERIFIED"
+    },
+    {
+      "sample_id": "rit3_425a0d0d734ef97c",
+      "collection": "RIT_P02-s01",
+      "publisher_inclusive_span_frames": 171,
+      "container_frames": 173,
+      "frame_difference": 2,
+      "native_fps": 60.0,
+      "excluded_overlap": false,
+      "status": "BLOCKED_PUBLISHER_CROP_ORIGIN_AND_RATE_UNVERIFIED"
+    },
+    {
+      "sample_id": "rit3_c78f360a5b025a1e",
+      "collection": "RIT_P02-s01",
+      "publisher_inclusive_span_frames": 203,
+      "container_frames": 205,
+      "frame_difference": 2,
+      "native_fps": 60.0,
+      "excluded_overlap": false,
+      "status": "BLOCKED_PUBLISHER_CROP_ORIGIN_AND_RATE_UNVERIFIED"
+    },
+    {
+      "sample_id": "rit3_1256a6ce5b9b0d9c",
+      "collection": "RIT_P02-s01",
+      "publisher_inclusive_span_frames": 140,
+      "container_frames": 142,
+      "frame_difference": 2,
+      "native_fps": 60.0,
+      "excluded_overlap": false,
+      "status": "BLOCKED_PUBLISHER_CROP_ORIGIN_AND_RATE_UNVERIFIED"
+    },
+    {
+      "sample_id": "rit3_0567ae198a841b27",
+      "collection": "RIT_P02-s01",
+      "publisher_inclusive_span_frames": 564,
+      "container_frames": 566,
+      "frame_difference": 2,
+      "native_fps": 60.0,
+      "excluded_overlap": false,
+      "status": "BLOCKED_PUBLISHER_CROP_ORIGIN_AND_RATE_UNVERIFIED"
+    },
+    {
+      "sample_id": "rit3_18d51e7274eb8f4a",
+      "collection": "RIT_P02-s01",
+      "publisher_inclusive_span_frames": 87,
+      "container_frames": 89,
+      "frame_difference": 2,
+      "native_fps": 60.0,
+      "excluded_overlap": false,
+      "status": "BLOCKED_PUBLISHER_CROP_ORIGIN_AND_RATE_UNVERIFIED"
+    },
+    {
+      "sample_id": "rit3_60450f7b260cb08d",
+      "collection": "RIT_P02-s01",
+      "publisher_inclusive_span_frames": 113,
+      "container_frames": 115,
+      "frame_difference": 2,
+      "native_fps": 60.0,
+      "excluded_overlap": false,
+      "status": "BLOCKED_PUBLISHER_CROP_ORIGIN_AND_RATE_UNVERIFIED"
+    },
+    {
+      "sample_id": "rit3_6cb680a0b7625e53",
+      "collection": "RIT_P02-s01",
+      "publisher_inclusive_span_frames": 114,
+      "container_frames": 116,
+      "frame_difference": 2,
+      "native_fps": 60.0,
+      "excluded_overlap": false,
+      "status": "BLOCKED_PUBLISHER_CROP_ORIGIN_AND_RATE_UNVERIFIED"
+    },
+    {
+      "sample_id": "rit3_c7b3dd542a823af0",
+      "collection": "RIT_P02-s01",
+      "publisher_inclusive_span_frames": 265,
+      "container_frames": 267,
+      "frame_difference": 2,
+      "native_fps": 60.0,
+      "excluded_overlap": false,
+      "status": "BLOCKED_PUBLISHER_CROP_ORIGIN_AND_RATE_UNVERIFIED"
+    },
+    {
+      "sample_id": "rit3_b99af51958de9728",
+      "collection": "RIT_P02-s01",
+      "publisher_inclusive_span_frames": 372,
+      "container_frames": 374,
+      "frame_difference": 2,
+      "native_fps": 60.0,
+      "excluded_overlap": false,
+      "status": "BLOCKED_PUBLISHER_CROP_ORIGIN_AND_RATE_UNVERIFIED"
+    },
+    {
+      "sample_id": "rit3_6fca8a41a98780e3",
+      "collection": "RIT_P02-s01",
+      "publisher_inclusive_span_frames": 738,
+      "container_frames": 740,
+      "frame_difference": 2,
+      "native_fps": 60.0,
+      "excluded_overlap": false,
+      "status": "BLOCKED_PUBLISHER_CROP_ORIGIN_AND_RATE_UNVERIFIED"
+    },
+    {
+      "sample_id": "rit3_403c7cebbe4f6a9e",
+      "collection": "RIT_P02-s01",
+      "publisher_inclusive_span_frames": 161,
+      "container_frames": 163,
+      "frame_difference": 2,
+      "native_fps": 60.0,
+      "excluded_overlap": false,
+      "status": "BLOCKED_PUBLISHER_CROP_ORIGIN_AND_RATE_UNVERIFIED"
+    },
+    {
+      "sample_id": "rit3_5425ebc21630f0dc",
+      "collection": "RIT_P02-s01",
+      "publisher_inclusive_span_frames": 252,
+      "container_frames": 254,
+      "frame_difference": 2,
+      "native_fps": 60.0,
+      "excluded_overlap": false,
+      "status": "BLOCKED_PUBLISHER_CROP_ORIGIN_AND_RATE_UNVERIFIED"
+    },
+    {
+      "sample_id": "rit3_a476179dcf5ac586",
+      "collection": "RIT_P02-s01",
+      "publisher_inclusive_span_frames": 329,
+      "container_frames": 331,
+      "frame_difference": 2,
+      "native_fps": 60.0,
+      "excluded_overlap": false,
+      "status": "BLOCKED_PUBLISHER_CROP_ORIGIN_AND_RATE_UNVERIFIED"
+    },
+    {
+      "sample_id": "rit3_1c8d14568e9818e3",
+      "collection": "RIT_P02-s01",
+      "publisher_inclusive_span_frames": 235,
+      "container_frames": 237,
+      "frame_difference": 2,
+      "native_fps": 60.0,
+      "excluded_overlap": false,
+      "status": "BLOCKED_PUBLISHER_CROP_ORIGIN_AND_RATE_UNVERIFIED"
+    },
+    {
+      "sample_id": "rit3_29a02b5c5cfb8da7",
+      "collection": "RIT_P02-s01",
+      "publisher_inclusive_span_frames": 211,
+      "container_frames": 213,
+      "frame_difference": 2,
+      "native_fps": 60.0,
+      "excluded_overlap": false,
+      "status": "BLOCKED_PUBLISHER_CROP_ORIGIN_AND_RATE_UNVERIFIED"
+    },
+    {
+      "sample_id": "rit3_a6b04f31f3bd10d5",
+      "collection": "RIT_P02-s01",
+      "publisher_inclusive_span_frames": 443,
+      "container_frames": 445,
+      "frame_difference": 2,
+      "native_fps": 60.0,
+      "excluded_overlap": false,
+      "status": "BLOCKED_PUBLISHER_CROP_ORIGIN_AND_RATE_UNVERIFIED"
+    },
+    {
+      "sample_id": "rit3_f490543781bc0dd5",
+      "collection": "RIT_P02-s01",
+      "publisher_inclusive_span_frames": 95,
+      "container_frames": 97,
+      "frame_difference": 2,
+      "native_fps": 60.0,
+      "excluded_overlap": false,
+      "status": "BLOCKED_PUBLISHER_CROP_ORIGIN_AND_RATE_UNVERIFIED"
+    },
+    {
+      "sample_id": "rit3_61eb3a1dd29ca87b",
+      "collection": "RIT_P02-s01",
+      "publisher_inclusive_span_frames": 353,
+      "container_frames": 355,
+      "frame_difference": 2,
+      "native_fps": 60.0,
+      "excluded_overlap": false,
+      "status": "BLOCKED_PUBLISHER_CROP_ORIGIN_AND_RATE_UNVERIFIED"
+    },
+    {
+      "sample_id": "rit3_cc5c4c68d48b1b49",
+      "collection": "RIT_P02-s01",
+      "publisher_inclusive_span_frames": 108,
+      "container_frames": 110,
+      "frame_difference": 2,
+      "native_fps": 60.0,
+      "excluded_overlap": false,
+      "status": "BLOCKED_PUBLISHER_CROP_ORIGIN_AND_RATE_UNVERIFIED"
+    },
+    {
+      "sample_id": "rit3_31694e0f665db674",
+      "collection": "RIT_P02-s01",
+      "publisher_inclusive_span_frames": 809,
+      "container_frames": 811,
+      "frame_difference": 2,
+      "native_fps": 60.0,
+      "excluded_overlap": false,
+      "status": "BLOCKED_PUBLISHER_CROP_ORIGIN_AND_RATE_UNVERIFIED"
+    },
+    {
+      "sample_id": "rit3_c7428714a62623b9",
+      "collection": "RIT_P02-s01",
+      "publisher_inclusive_span_frames": 214,
+      "container_frames": 216,
+      "frame_difference": 2,
+      "native_fps": 60.0,
+      "excluded_overlap": false,
+      "status": "BLOCKED_PUBLISHER_CROP_ORIGIN_AND_RATE_UNVERIFIED"
+    },
+    {
+      "sample_id": "rit3_01b3446475c61319",
+      "collection": "RIT_P02-s01",
+      "publisher_inclusive_span_frames": 224,
+      "container_frames": 226,
+      "frame_difference": 2,
+      "native_fps": 60.0,
+      "excluded_overlap": false,
+      "status": "BLOCKED_PUBLISHER_CROP_ORIGIN_AND_RATE_UNVERIFIED"
+    },
+    {
+      "sample_id": "rit3_265501bdcf2ade96",
+      "collection": "RIT_P02-s01",
+      "publisher_inclusive_span_frames": 222,
+      "container_frames": 224,
+      "frame_difference": 2,
+      "native_fps": 60.0,
+      "excluded_overlap": false,
+      "status": "BLOCKED_PUBLISHER_CROP_ORIGIN_AND_RATE_UNVERIFIED"
+    },
+    {
+      "sample_id": "rit3_d0cd42d400ec72c8",
+      "collection": "RIT_P02-s01",
+      "publisher_inclusive_span_frames": 703,
+      "container_frames": 705,
+      "frame_difference": 2,
+      "native_fps": 60.0,
+      "excluded_overlap": false,
+      "status": "BLOCKED_PUBLISHER_CROP_ORIGIN_AND_RATE_UNVERIFIED"
+    },
+    {
+      "sample_id": "rit3_834f0a8f26baeaf9",
+      "collection": "RIT_P02-s01",
+      "publisher_inclusive_span_frames": 279,
+      "container_frames": 281,
+      "frame_difference": 2,
+      "native_fps": 60.0,
+      "excluded_overlap": false,
+      "status": "BLOCKED_PUBLISHER_CROP_ORIGIN_AND_RATE_UNVERIFIED"
+    },
+    {
+      "sample_id": "rit3_621594c0922260c4",
+      "collection": "RIT_P02-s01",
+      "publisher_inclusive_span_frames": 753,
+      "container_frames": 755,
+      "frame_difference": 2,
+      "native_fps": 60.0,
+      "excluded_overlap": false,
+      "status": "BLOCKED_PUBLISHER_CROP_ORIGIN_AND_RATE_UNVERIFIED"
+    },
+    {
+      "sample_id": "rit3_615d55719419dc05",
+      "collection": "RIT_P02-s01",
+      "publisher_inclusive_span_frames": 1082,
+      "container_frames": 1084,
+      "frame_difference": 2,
+      "native_fps": 60.0,
+      "excluded_overlap": false,
+      "status": "BLOCKED_PUBLISHER_CROP_ORIGIN_AND_RATE_UNVERIFIED"
+    },
+    {
+      "sample_id": "rit3_e6bdefdf5c786bc6",
+      "collection": "RIT_P02-s01",
+      "publisher_inclusive_span_frames": 359,
+      "container_frames": 361,
+      "frame_difference": 2,
+      "native_fps": 60.0,
+      "excluded_overlap": false,
+      "status": "BLOCKED_PUBLISHER_CROP_ORIGIN_AND_RATE_UNVERIFIED"
+    },
+    {
+      "sample_id": "rit3_5adea1b6f5a5f0e5",
+      "collection": "RIT_P02-s01",
+      "publisher_inclusive_span_frames": 1894,
+      "container_frames": 1896,
+      "frame_difference": 2,
+      "native_fps": 60.0,
+      "excluded_overlap": false,
+      "status": "BLOCKED_PUBLISHER_CROP_ORIGIN_AND_RATE_UNVERIFIED"
+    },
+    {
+      "sample_id": "rit3_845bd297a3203f85",
+      "collection": "RIT_P02-s01",
+      "publisher_inclusive_span_frames": 1102,
+      "container_frames": 1104,
+      "frame_difference": 2,
+      "native_fps": 60.0,
+      "excluded_overlap": false,
+      "status": "BLOCKED_PUBLISHER_CROP_ORIGIN_AND_RATE_UNVERIFIED"
+    },
+    {
+      "sample_id": "rit3_cfc34cfdae3d0a48",
+      "collection": "RIT_P02-s01",
+      "publisher_inclusive_span_frames": 606,
+      "container_frames": 608,
+      "frame_difference": 2,
+      "native_fps": 60.0,
+      "excluded_overlap": false,
+      "status": "BLOCKED_PUBLISHER_CROP_ORIGIN_AND_RATE_UNVERIFIED"
+    },
+    {
+      "sample_id": "rit3_070d5e0db572e28a",
+      "collection": "RIT-P02-s02",
+      "publisher_inclusive_span_frames": 164,
+      "container_frames": 166,
+      "frame_difference": 2,
+      "native_fps": 60.0,
+      "excluded_overlap": false,
+      "status": "BLOCKED_PUBLISHER_CROP_ORIGIN_AND_RATE_UNVERIFIED"
+    },
+    {
+      "sample_id": "rit3_e051b8c5dbce7060",
+      "collection": "RIT-P02-s02",
+      "publisher_inclusive_span_frames": 282,
+      "container_frames": 284,
+      "frame_difference": 2,
+      "native_fps": 60.0,
+      "excluded_overlap": false,
+      "status": "BLOCKED_PUBLISHER_CROP_ORIGIN_AND_RATE_UNVERIFIED"
+    },
+    {
+      "sample_id": "rit3_4db4e024416c574c",
+      "collection": "RIT-P02-s02",
+      "publisher_inclusive_span_frames": 284,
+      "container_frames": 286,
+      "frame_difference": 2,
+      "native_fps": 60.0,
+      "excluded_overlap": false,
+      "status": "BLOCKED_PUBLISHER_CROP_ORIGIN_AND_RATE_UNVERIFIED"
+    },
+    {
+      "sample_id": "rit3_f662a435a448370c",
+      "collection": "RIT-P02-s02",
+      "publisher_inclusive_span_frames": 445,
+      "container_frames": 447,
+      "frame_difference": 2,
+      "native_fps": 60.0,
+      "excluded_overlap": false,
+      "status": "BLOCKED_PUBLISHER_CROP_ORIGIN_AND_RATE_UNVERIFIED"
+    },
+    {
+      "sample_id": "rit3_d40141688d847e7a",
+      "collection": "RIT-P02-s02",
+      "publisher_inclusive_span_frames": 570,
+      "container_frames": 572,
+      "frame_difference": 2,
+      "native_fps": 60.0,
+      "excluded_overlap": false,
+      "status": "BLOCKED_PUBLISHER_CROP_ORIGIN_AND_RATE_UNVERIFIED"
+    },
+    {
+      "sample_id": "rit3_a85b9316c6c9c1c9",
+      "collection": "RIT-P02-s02",
+      "publisher_inclusive_span_frames": 453,
+      "container_frames": 455,
+      "frame_difference": 2,
+      "native_fps": 60.0,
+      "excluded_overlap": false,
+      "status": "BLOCKED_PUBLISHER_CROP_ORIGIN_AND_RATE_UNVERIFIED"
+    },
+    {
+      "sample_id": "rit3_73fae27a62340021",
+      "collection": "RIT-P02-s02",
+      "publisher_inclusive_span_frames": 318,
+      "container_frames": 320,
+      "frame_difference": 2,
+      "native_fps": 60.0,
+      "excluded_overlap": false,
+      "status": "BLOCKED_PUBLISHER_CROP_ORIGIN_AND_RATE_UNVERIFIED"
+    },
+    {
+      "sample_id": "rit3_b14471635205422c",
+      "collection": "RIT-P02-s02",
+      "publisher_inclusive_span_frames": 396,
+      "container_frames": 398,
+      "frame_difference": 2,
+      "native_fps": 60.0,
+      "excluded_overlap": false,
+      "status": "BLOCKED_PUBLISHER_CROP_ORIGIN_AND_RATE_UNVERIFIED"
+    },
+    {
+      "sample_id": "rit3_89407101c8419d51",
+      "collection": "RIT-P02-s02",
+      "publisher_inclusive_span_frames": 789,
+      "container_frames": 791,
+      "frame_difference": 2,
+      "native_fps": 60.0,
+      "excluded_overlap": false,
+      "status": "BLOCKED_PUBLISHER_CROP_ORIGIN_AND_RATE_UNVERIFIED"
+    },
+    {
+      "sample_id": "rit3_c832a0553e5fe2b2",
+      "collection": "RIT-P02-s02",
+      "publisher_inclusive_span_frames": 124,
+      "container_frames": 126,
+      "frame_difference": 2,
+      "native_fps": 60.0,
+      "excluded_overlap": false,
+      "status": "BLOCKED_PUBLISHER_CROP_ORIGIN_AND_RATE_UNVERIFIED"
+    },
+    {
+      "sample_id": "rit3_67b238c2ffb6c6ef",
+      "collection": "RIT-P02-s02",
+      "publisher_inclusive_span_frames": 503,
+      "container_frames": 505,
+      "frame_difference": 2,
+      "native_fps": 60.0,
+      "excluded_overlap": false,
+      "status": "BLOCKED_PUBLISHER_CROP_ORIGIN_AND_RATE_UNVERIFIED"
+    },
+    {
+      "sample_id": "rit3_77bb6251add79666",
+      "collection": "RIT-P02-s02",
+      "publisher_inclusive_span_frames": 573,
+      "container_frames": 575,
+      "frame_difference": 2,
+      "native_fps": 60.0,
+      "excluded_overlap": false,
+      "status": "BLOCKED_PUBLISHER_CROP_ORIGIN_AND_RATE_UNVERIFIED"
+    },
+    {
+      "sample_id": "rit3_e6b879aa01a463ab",
+      "collection": "RIT-P02-s02",
+      "publisher_inclusive_span_frames": 159,
+      "container_frames": 161,
+      "frame_difference": 2,
+      "native_fps": 60.0,
+      "excluded_overlap": false,
+      "status": "BLOCKED_PUBLISHER_CROP_ORIGIN_AND_RATE_UNVERIFIED"
+    },
+    {
+      "sample_id": "rit3_c93a57f10f3867e5",
+      "collection": "RIT-P02-s02",
+      "publisher_inclusive_span_frames": 718,
+      "container_frames": 720,
+      "frame_difference": 2,
+      "native_fps": 60.0,
+      "excluded_overlap": false,
+      "status": "BLOCKED_PUBLISHER_CROP_ORIGIN_AND_RATE_UNVERIFIED"
+    },
+    {
+      "sample_id": "rit3_7a14b90cea0a4fc9",
+      "collection": "RIT-P02-s02",
+      "publisher_inclusive_span_frames": 248,
+      "container_frames": 250,
+      "frame_difference": 2,
+      "native_fps": 60.0,
+      "excluded_overlap": false,
+      "status": "BLOCKED_PUBLISHER_CROP_ORIGIN_AND_RATE_UNVERIFIED"
+    },
+    {
+      "sample_id": "rit3_34f980551b24d3be",
+      "collection": "RIT-P02-s02",
+      "publisher_inclusive_span_frames": 341,
+      "container_frames": 343,
+      "frame_difference": 2,
+      "native_fps": 60.0,
+      "excluded_overlap": false,
+      "status": "BLOCKED_PUBLISHER_CROP_ORIGIN_AND_RATE_UNVERIFIED"
+    },
+    {
+      "sample_id": "rit3_98c44a71c0a1e7b5",
+      "collection": "RIT-P02-s02",
+      "publisher_inclusive_span_frames": 428,
+      "container_frames": 430,
+      "frame_difference": 2,
+      "native_fps": 60.0,
+      "excluded_overlap": false,
+      "status": "BLOCKED_PUBLISHER_CROP_ORIGIN_AND_RATE_UNVERIFIED"
+    },
+    {
+      "sample_id": "rit3_54ae20841f95dd0c",
+      "collection": "RIT-P02-s02",
+      "publisher_inclusive_span_frames": 602,
+      "container_frames": 604,
+      "frame_difference": 2,
+      "native_fps": 60.0,
+      "excluded_overlap": false,
+      "status": "BLOCKED_PUBLISHER_CROP_ORIGIN_AND_RATE_UNVERIFIED"
+    },
+    {
+      "sample_id": "rit3_9bd7560be79f7476",
+      "collection": "RIT-P02-s02",
+      "publisher_inclusive_span_frames": 186,
+      "container_frames": 188,
+      "frame_difference": 2,
+      "native_fps": 60.0,
+      "excluded_overlap": false,
+      "status": "BLOCKED_PUBLISHER_CROP_ORIGIN_AND_RATE_UNVERIFIED"
+    },
+    {
+      "sample_id": "rit3_59a7f7dbb72983d5",
+      "collection": "RIT-P02-s02",
+      "publisher_inclusive_span_frames": 103,
+      "container_frames": 105,
+      "frame_difference": 2,
+      "native_fps": 60.0,
+      "excluded_overlap": false,
+      "status": "BLOCKED_PUBLISHER_CROP_ORIGIN_AND_RATE_UNVERIFIED"
+    },
+    {
+      "sample_id": "rit3_a3a9e591211d5151",
+      "collection": "RIT-P02-s02",
+      "publisher_inclusive_span_frames": 105,
+      "container_frames": 107,
+      "frame_difference": 2,
+      "native_fps": 60.0,
+      "excluded_overlap": false,
+      "status": "BLOCKED_PUBLISHER_CROP_ORIGIN_AND_RATE_UNVERIFIED"
+    },
+    {
+      "sample_id": "rit3_51dddd1575845856",
+      "collection": "RIT-P02-s02",
+      "publisher_inclusive_span_frames": 352,
+      "container_frames": 354,
+      "frame_difference": 2,
+      "native_fps": 60.0,
+      "excluded_overlap": false,
+      "status": "BLOCKED_PUBLISHER_CROP_ORIGIN_AND_RATE_UNVERIFIED"
+    },
+    {
+      "sample_id": "rit3_26b42c7660e6984d",
+      "collection": "RIT-P02-s02",
+      "publisher_inclusive_span_frames": 182,
+      "container_frames": 184,
+      "frame_difference": 2,
+      "native_fps": 60.0,
+      "excluded_overlap": false,
+      "status": "BLOCKED_PUBLISHER_CROP_ORIGIN_AND_RATE_UNVERIFIED"
+    },
+    {
+      "sample_id": "rit3_f2b54dabdbe493a6",
+      "collection": "RIT-P02-s02",
+      "publisher_inclusive_span_frames": 211,
+      "container_frames": 213,
+      "frame_difference": 2,
+      "native_fps": 60.0,
+      "excluded_overlap": false,
+      "status": "BLOCKED_PUBLISHER_CROP_ORIGIN_AND_RATE_UNVERIFIED"
+    },
+    {
+      "sample_id": "rit3_515e290a5ae7a419",
+      "collection": "RIT-P02-s02",
+      "publisher_inclusive_span_frames": 379,
+      "container_frames": 381,
+      "frame_difference": 2,
+      "native_fps": 60.0,
+      "excluded_overlap": false,
+      "status": "BLOCKED_PUBLISHER_CROP_ORIGIN_AND_RATE_UNVERIFIED"
+    },
+    {
+      "sample_id": "rit3_8233f130dc5c77de",
+      "collection": "RIT-P02-s02",
+      "publisher_inclusive_span_frames": 203,
+      "container_frames": 205,
+      "frame_difference": 2,
+      "native_fps": 60.0,
+      "excluded_overlap": false,
+      "status": "BLOCKED_PUBLISHER_CROP_ORIGIN_AND_RATE_UNVERIFIED"
+    },
+    {
+      "sample_id": "rit3_ae94aa8cdadb0124",
+      "collection": "RIT-P02-s02",
+      "publisher_inclusive_span_frames": 165,
+      "container_frames": 167,
+      "frame_difference": 2,
+      "native_fps": 60.0,
+      "excluded_overlap": false,
+      "status": "BLOCKED_PUBLISHER_CROP_ORIGIN_AND_RATE_UNVERIFIED"
+    },
+    {
+      "sample_id": "rit3_82ec8e3ede514aae",
+      "collection": "RIT-P02-s02",
+      "publisher_inclusive_span_frames": 320,
+      "container_frames": 322,
+      "frame_difference": 2,
+      "native_fps": 60.0,
+      "excluded_overlap": false,
+      "status": "BLOCKED_PUBLISHER_CROP_ORIGIN_AND_RATE_UNVERIFIED"
+    },
+    {
+      "sample_id": "rit3_66705f89e419d871",
+      "collection": "RIT-P02-s02",
+      "publisher_inclusive_span_frames": 509,
+      "container_frames": 511,
+      "frame_difference": 2,
+      "native_fps": 60.0,
+      "excluded_overlap": false,
+      "status": "BLOCKED_PUBLISHER_CROP_ORIGIN_AND_RATE_UNVERIFIED"
+    },
+    {
+      "sample_id": "rit3_21834d9bb8446e71",
+      "collection": "RIT-P02-s02",
+      "publisher_inclusive_span_frames": 122,
+      "container_frames": 124,
+      "frame_difference": 2,
+      "native_fps": 60.0,
+      "excluded_overlap": false,
+      "status": "BLOCKED_PUBLISHER_CROP_ORIGIN_AND_RATE_UNVERIFIED"
+    },
+    {
+      "sample_id": "rit3_e0abf6dad9f48237",
+      "collection": "RIT-P02-s02",
+      "publisher_inclusive_span_frames": 113,
+      "container_frames": 115,
+      "frame_difference": 2,
+      "native_fps": 60.0,
+      "excluded_overlap": false,
+      "status": "BLOCKED_PUBLISHER_CROP_ORIGIN_AND_RATE_UNVERIFIED"
+    },
+    {
+      "sample_id": "rit3_22f8ef043220f7bb",
+      "collection": "RIT-P02-s02",
+      "publisher_inclusive_span_frames": 202,
+      "container_frames": 204,
+      "frame_difference": 2,
+      "native_fps": 60.0,
+      "excluded_overlap": false,
+      "status": "BLOCKED_PUBLISHER_CROP_ORIGIN_AND_RATE_UNVERIFIED"
+    },
+    {
+      "sample_id": "rit3_8401ba0e6cde23f4",
+      "collection": "RIT-P02-s02",
+      "publisher_inclusive_span_frames": 170,
+      "container_frames": 172,
+      "frame_difference": 2,
+      "native_fps": 60.0,
+      "excluded_overlap": false,
+      "status": "BLOCKED_PUBLISHER_CROP_ORIGIN_AND_RATE_UNVERIFIED"
+    },
+    {
+      "sample_id": "rit3_0c8505828d172905",
+      "collection": "RIT-P02-s02",
+      "publisher_inclusive_span_frames": 280,
+      "container_frames": 282,
+      "frame_difference": 2,
+      "native_fps": 60.0,
+      "excluded_overlap": false,
+      "status": "BLOCKED_PUBLISHER_CROP_ORIGIN_AND_RATE_UNVERIFIED"
+    },
+    {
+      "sample_id": "rit3_405ffc6b50c6eb4c",
+      "collection": "RIT-P02-s02",
+      "publisher_inclusive_span_frames": 200,
+      "container_frames": 202,
+      "frame_difference": 2,
+      "native_fps": 60.0,
+      "excluded_overlap": false,
+      "status": "BLOCKED_PUBLISHER_CROP_ORIGIN_AND_RATE_UNVERIFIED"
+    },
+    {
+      "sample_id": "rit3_2fd4b4507954f552",
+      "collection": "RIT-P02-s02",
+      "publisher_inclusive_span_frames": 177,
+      "container_frames": 179,
+      "frame_difference": 2,
+      "native_fps": 60.0,
+      "excluded_overlap": false,
+      "status": "BLOCKED_PUBLISHER_CROP_ORIGIN_AND_RATE_UNVERIFIED"
+    },
+    {
+      "sample_id": "rit3_bd5148bb5d709267",
+      "collection": "RIT-P02-s02",
+      "publisher_inclusive_span_frames": 116,
+      "container_frames": 118,
+      "frame_difference": 2,
+      "native_fps": 60.0,
+      "excluded_overlap": false,
+      "status": "BLOCKED_PUBLISHER_CROP_ORIGIN_AND_RATE_UNVERIFIED"
+    },
+    {
+      "sample_id": "rit3_8755dbd98063c1f2",
+      "collection": "RIT-P02-s02",
+      "publisher_inclusive_span_frames": 325,
+      "container_frames": 327,
+      "frame_difference": 2,
+      "native_fps": 60.0,
+      "excluded_overlap": false,
+      "status": "BLOCKED_PUBLISHER_CROP_ORIGIN_AND_RATE_UNVERIFIED"
+    },
+    {
+      "sample_id": "rit3_e07f1e20ea61795e",
+      "collection": "RIT-P02-s02",
+      "publisher_inclusive_span_frames": 87,
+      "container_frames": 89,
+      "frame_difference": 2,
+      "native_fps": 60.0,
+      "excluded_overlap": false,
+      "status": "BLOCKED_PUBLISHER_CROP_ORIGIN_AND_RATE_UNVERIFIED"
+    },
+    {
+      "sample_id": "rit3_e9405797e66db957",
+      "collection": "RIT-P02-s02",
+      "publisher_inclusive_span_frames": 152,
+      "container_frames": 154,
+      "frame_difference": 2,
+      "native_fps": 60.0,
+      "excluded_overlap": false,
+      "status": "BLOCKED_PUBLISHER_CROP_ORIGIN_AND_RATE_UNVERIFIED"
+    },
+    {
+      "sample_id": "rit3_f6b0ab3cc1282021",
+      "collection": "RIT-P02-s02",
+      "publisher_inclusive_span_frames": 303,
+      "container_frames": 305,
+      "frame_difference": 2,
+      "native_fps": 60.0,
+      "excluded_overlap": false,
+      "status": "BLOCKED_PUBLISHER_CROP_ORIGIN_AND_RATE_UNVERIFIED"
+    },
+    {
+      "sample_id": "rit3_36f5877a734216da",
+      "collection": "RIT-P02-s02",
+      "publisher_inclusive_span_frames": 374,
+      "container_frames": 376,
+      "frame_difference": 2,
+      "native_fps": 60.0,
+      "excluded_overlap": false,
+      "status": "BLOCKED_PUBLISHER_CROP_ORIGIN_AND_RATE_UNVERIFIED"
+    },
+    {
+      "sample_id": "rit3_1b08448530c911ee",
+      "collection": "RIT-P02-s02",
+      "publisher_inclusive_span_frames": 101,
+      "container_frames": 103,
+      "frame_difference": 2,
+      "native_fps": 60.0,
+      "excluded_overlap": false,
+      "status": "BLOCKED_PUBLISHER_CROP_ORIGIN_AND_RATE_UNVERIFIED"
+    },
+    {
+      "sample_id": "rit3_ef09a736016c2107",
+      "collection": "RIT-P02-s02",
+      "publisher_inclusive_span_frames": 472,
+      "container_frames": 474,
+      "frame_difference": 2,
+      "native_fps": 60.0,
+      "excluded_overlap": false,
+      "status": "BLOCKED_PUBLISHER_CROP_ORIGIN_AND_RATE_UNVERIFIED"
+    },
+    {
+      "sample_id": "rit3_4833221f25e57e94",
+      "collection": "RIT-P02-s02",
+      "publisher_inclusive_span_frames": 522,
+      "container_frames": 524,
+      "frame_difference": 2,
+      "native_fps": 60.0,
+      "excluded_overlap": false,
+      "status": "BLOCKED_PUBLISHER_CROP_ORIGIN_AND_RATE_UNVERIFIED"
+    },
+    {
+      "sample_id": "rit3_8d81520c85792840",
+      "collection": "RIT-P02-s02",
+      "publisher_inclusive_span_frames": 380,
+      "container_frames": 382,
+      "frame_difference": 2,
+      "native_fps": 60.0,
+      "excluded_overlap": false,
+      "status": "BLOCKED_PUBLISHER_CROP_ORIGIN_AND_RATE_UNVERIFIED"
+    },
+    {
+      "sample_id": "rit3_d7c5a2c02d0aeeb4",
+      "collection": "RIT-P02-s02",
+      "publisher_inclusive_span_frames": 596,
+      "container_frames": 598,
+      "frame_difference": 2,
+      "native_fps": 60.0,
+      "excluded_overlap": false,
+      "status": "BLOCKED_PUBLISHER_CROP_ORIGIN_AND_RATE_UNVERIFIED"
+    },
+    {
+      "sample_id": "rit3_334ddc4c71b2f6ca",
+      "collection": "RIT-P02-s02",
+      "publisher_inclusive_span_frames": 178,
+      "container_frames": 180,
+      "frame_difference": 2,
+      "native_fps": 60.0,
+      "excluded_overlap": false,
+      "status": "BLOCKED_PUBLISHER_CROP_ORIGIN_AND_RATE_UNVERIFIED"
+    },
+    {
+      "sample_id": "rit3_cb2b325aedb9bca0",
+      "collection": "RIT-P02-s02",
+      "publisher_inclusive_span_frames": 157,
+      "container_frames": 159,
+      "frame_difference": 2,
+      "native_fps": 60.0,
+      "excluded_overlap": false,
+      "status": "BLOCKED_PUBLISHER_CROP_ORIGIN_AND_RATE_UNVERIFIED"
+    },
+    {
+      "sample_id": "rit3_0ef3bee08fa7db3c",
+      "collection": "RIT-P02-s02",
+      "publisher_inclusive_span_frames": 300,
+      "container_frames": 302,
+      "frame_difference": 2,
+      "native_fps": 60.0,
+      "excluded_overlap": false,
+      "status": "BLOCKED_PUBLISHER_CROP_ORIGIN_AND_RATE_UNVERIFIED"
+    },
+    {
+      "sample_id": "rit3_4470df1d50087487",
+      "collection": "RIT-P02-s02",
+      "publisher_inclusive_span_frames": 193,
+      "container_frames": 195,
+      "frame_difference": 2,
+      "native_fps": 60.0,
+      "excluded_overlap": false,
+      "status": "BLOCKED_PUBLISHER_CROP_ORIGIN_AND_RATE_UNVERIFIED"
+    },
+    {
+      "sample_id": "rit3_bf5ed89878daa849",
+      "collection": "RIT-P02-s02",
+      "publisher_inclusive_span_frames": 519,
+      "container_frames": 521,
+      "frame_difference": 2,
+      "native_fps": 60.0,
+      "excluded_overlap": false,
+      "status": "BLOCKED_PUBLISHER_CROP_ORIGIN_AND_RATE_UNVERIFIED"
+    },
+    {
+      "sample_id": "rit3_26b761f7e0f12807",
+      "collection": "RIT-P02-s02",
+      "publisher_inclusive_span_frames": 586,
+      "container_frames": 588,
+      "frame_difference": 2,
+      "native_fps": 60.0,
+      "excluded_overlap": false,
+      "status": "BLOCKED_PUBLISHER_CROP_ORIGIN_AND_RATE_UNVERIFIED"
+    },
+    {
+      "sample_id": "rit3_90b6bb670be8b80e",
+      "collection": "RIT-P02-s02",
+      "publisher_inclusive_span_frames": 335,
+      "container_frames": 337,
+      "frame_difference": 2,
+      "native_fps": 60.0,
+      "excluded_overlap": false,
+      "status": "BLOCKED_PUBLISHER_CROP_ORIGIN_AND_RATE_UNVERIFIED"
+    },
+    {
+      "sample_id": "rit3_1b0e8f40da08f806",
+      "collection": "RIT-P02-s02",
+      "publisher_inclusive_span_frames": 625,
+      "container_frames": 627,
+      "frame_difference": 2,
+      "native_fps": 60.0,
+      "excluded_overlap": false,
+      "status": "BLOCKED_PUBLISHER_CROP_ORIGIN_AND_RATE_UNVERIFIED"
+    },
+    {
+      "sample_id": "rit3_0346dba35f9a4411",
+      "collection": "RIT-P02-s02",
+      "publisher_inclusive_span_frames": 716,
+      "container_frames": 718,
+      "frame_difference": 2,
+      "native_fps": 60.0,
+      "excluded_overlap": false,
+      "status": "BLOCKED_PUBLISHER_CROP_ORIGIN_AND_RATE_UNVERIFIED"
+    },
+    {
+      "sample_id": "rit3_8d72d9363ea2590f",
+      "collection": "RIT-P02-s02",
+      "publisher_inclusive_span_frames": 452,
+      "container_frames": 454,
+      "frame_difference": 2,
+      "native_fps": 60.0,
+      "excluded_overlap": false,
+      "status": "BLOCKED_PUBLISHER_CROP_ORIGIN_AND_RATE_UNVERIFIED"
+    },
+    {
+      "sample_id": "rit3_8828b5cc11e952de",
+      "collection": "RIT-P02-s02",
+      "publisher_inclusive_span_frames": 170,
+      "container_frames": 172,
+      "frame_difference": 2,
+      "native_fps": 60.0,
+      "excluded_overlap": false,
+      "status": "BLOCKED_PUBLISHER_CROP_ORIGIN_AND_RATE_UNVERIFIED"
+    },
+    {
+      "sample_id": "rit3_d0565888345dd4a3",
+      "collection": "RIT-P02-s02",
+      "publisher_inclusive_span_frames": 538,
+      "container_frames": 540,
+      "frame_difference": 2,
+      "native_fps": 60.0,
+      "excluded_overlap": false,
+      "status": "BLOCKED_PUBLISHER_CROP_ORIGIN_AND_RATE_UNVERIFIED"
+    },
+    {
+      "sample_id": "rit3_524fe757a21d2d0e",
+      "collection": "RIT-P02-s02",
+      "publisher_inclusive_span_frames": 202,
+      "container_frames": 204,
+      "frame_difference": 2,
+      "native_fps": 60.0,
+      "excluded_overlap": false,
+      "status": "BLOCKED_PUBLISHER_CROP_ORIGIN_AND_RATE_UNVERIFIED"
+    },
+    {
+      "sample_id": "rit3_fd536cb9602ba89c",
+      "collection": "RIT-P02_s03",
+      "publisher_inclusive_span_frames": 205,
+      "container_frames": 207,
+      "frame_difference": 2,
+      "native_fps": 60.0,
+      "excluded_overlap": false,
+      "status": "BLOCKED_PUBLISHER_CROP_ORIGIN_AND_RATE_UNVERIFIED"
+    },
+    {
+      "sample_id": "rit3_f4b41dbd88b86903",
+      "collection": "RIT-P02_s03",
+      "publisher_inclusive_span_frames": 318,
+      "container_frames": 320,
+      "frame_difference": 2,
+      "native_fps": 60.0,
+      "excluded_overlap": false,
+      "status": "BLOCKED_PUBLISHER_CROP_ORIGIN_AND_RATE_UNVERIFIED"
+    },
+    {
+      "sample_id": "rit3_f011caf5e17a2291",
+      "collection": "RIT-P02_s03",
+      "publisher_inclusive_span_frames": 335,
+      "container_frames": 337,
+      "frame_difference": 2,
+      "native_fps": 60.0,
+      "excluded_overlap": false,
+      "status": "BLOCKED_PUBLISHER_CROP_ORIGIN_AND_RATE_UNVERIFIED"
+    },
+    {
+      "sample_id": "rit3_dd8f78fbf9ce5a09",
+      "collection": "RIT-P02_s03",
+      "publisher_inclusive_span_frames": 206,
+      "container_frames": 208,
+      "frame_difference": 2,
+      "native_fps": 60.0,
+      "excluded_overlap": false,
+      "status": "BLOCKED_PUBLISHER_CROP_ORIGIN_AND_RATE_UNVERIFIED"
+    },
+    {
+      "sample_id": "rit3_715dff3f22076148",
+      "collection": "RIT-P02_s03",
+      "publisher_inclusive_span_frames": 327,
+      "container_frames": 329,
+      "frame_difference": 2,
+      "native_fps": 60.0,
+      "excluded_overlap": false,
+      "status": "BLOCKED_PUBLISHER_CROP_ORIGIN_AND_RATE_UNVERIFIED"
+    },
+    {
+      "sample_id": "rit3_945d16ceaf97a288",
+      "collection": "RIT-P02_s03",
+      "publisher_inclusive_span_frames": 225,
+      "container_frames": 227,
+      "frame_difference": 2,
+      "native_fps": 60.0,
+      "excluded_overlap": false,
+      "status": "BLOCKED_PUBLISHER_CROP_ORIGIN_AND_RATE_UNVERIFIED"
+    },
+    {
+      "sample_id": "rit3_b90ad491434ea9b1",
+      "collection": "RIT-P02_s03",
+      "publisher_inclusive_span_frames": 125,
+      "container_frames": 127,
+      "frame_difference": 2,
+      "native_fps": 60.0,
+      "excluded_overlap": false,
+      "status": "BLOCKED_PUBLISHER_CROP_ORIGIN_AND_RATE_UNVERIFIED"
+    },
+    {
+      "sample_id": "rit3_ddc803282939798c",
+      "collection": "RIT-P02_s03",
+      "publisher_inclusive_span_frames": 518,
+      "container_frames": 520,
+      "frame_difference": 2,
+      "native_fps": 60.0,
+      "excluded_overlap": false,
+      "status": "BLOCKED_PUBLISHER_CROP_ORIGIN_AND_RATE_UNVERIFIED"
+    },
+    {
+      "sample_id": "rit3_ba1298c261fb104c",
+      "collection": "RIT-P02_s03",
+      "publisher_inclusive_span_frames": 162,
+      "container_frames": 164,
+      "frame_difference": 2,
+      "native_fps": 60.0,
+      "excluded_overlap": false,
+      "status": "BLOCKED_PUBLISHER_CROP_ORIGIN_AND_RATE_UNVERIFIED"
+    },
+    {
+      "sample_id": "rit3_7fc4104242ccc3f0",
+      "collection": "RIT-P02_s03",
+      "publisher_inclusive_span_frames": 306,
+      "container_frames": 308,
+      "frame_difference": 2,
+      "native_fps": 60.0,
+      "excluded_overlap": false,
+      "status": "BLOCKED_PUBLISHER_CROP_ORIGIN_AND_RATE_UNVERIFIED"
+    },
+    {
+      "sample_id": "rit3_665403c9f3a76ff4",
+      "collection": "RIT-P02_s03",
+      "publisher_inclusive_span_frames": 254,
+      "container_frames": 256,
+      "frame_difference": 2,
+      "native_fps": 60.0,
+      "excluded_overlap": false,
+      "status": "BLOCKED_PUBLISHER_CROP_ORIGIN_AND_RATE_UNVERIFIED"
+    },
+    {
+      "sample_id": "rit3_abdd606463debb60",
+      "collection": "RIT-P02_s03",
+      "publisher_inclusive_span_frames": 162,
+      "container_frames": 164,
+      "frame_difference": 2,
+      "native_fps": 60.0,
+      "excluded_overlap": false,
+      "status": "BLOCKED_PUBLISHER_CROP_ORIGIN_AND_RATE_UNVERIFIED"
+    },
+    {
+      "sample_id": "rit3_df1737e6df0a6646",
+      "collection": "RIT-P02_s03",
+      "publisher_inclusive_span_frames": 250,
+      "container_frames": 252,
+      "frame_difference": 2,
+      "native_fps": 60.0,
+      "excluded_overlap": false,
+      "status": "BLOCKED_PUBLISHER_CROP_ORIGIN_AND_RATE_UNVERIFIED"
+    },
+    {
+      "sample_id": "rit3_1be39d59c4a6595b",
+      "collection": "RIT-P02_s03",
+      "publisher_inclusive_span_frames": 335,
+      "container_frames": 337,
+      "frame_difference": 2,
+      "native_fps": 60.0,
+      "excluded_overlap": false,
+      "status": "BLOCKED_PUBLISHER_CROP_ORIGIN_AND_RATE_UNVERIFIED"
+    },
+    {
+      "sample_id": "rit3_86172fa3b3c0ee9b",
+      "collection": "RIT-P02_s03",
+      "publisher_inclusive_span_frames": 276,
+      "container_frames": 278,
+      "frame_difference": 2,
+      "native_fps": 60.0,
+      "excluded_overlap": false,
+      "status": "BLOCKED_PUBLISHER_CROP_ORIGIN_AND_RATE_UNVERIFIED"
+    },
+    {
+      "sample_id": "rit3_e5b9284359f57551",
+      "collection": "RIT-P02_s03",
+      "publisher_inclusive_span_frames": 470,
+      "container_frames": 472,
+      "frame_difference": 2,
+      "native_fps": 60.0,
+      "excluded_overlap": false,
+      "status": "BLOCKED_PUBLISHER_CROP_ORIGIN_AND_RATE_UNVERIFIED"
+    },
+    {
+      "sample_id": "rit3_75d0123e17fc8a10",
+      "collection": "RIT-P02_s03",
+      "publisher_inclusive_span_frames": 293,
+      "container_frames": 295,
+      "frame_difference": 2,
+      "native_fps": 60.0,
+      "excluded_overlap": false,
+      "status": "BLOCKED_PUBLISHER_CROP_ORIGIN_AND_RATE_UNVERIFIED"
+    },
+    {
+      "sample_id": "rit3_c4c064ebe2437ab3",
+      "collection": "RIT-P02_s03",
+      "publisher_inclusive_span_frames": 598,
+      "container_frames": 600,
+      "frame_difference": 2,
+      "native_fps": 60.0,
+      "excluded_overlap": false,
+      "status": "BLOCKED_PUBLISHER_CROP_ORIGIN_AND_RATE_UNVERIFIED"
+    },
+    {
+      "sample_id": "rit3_5f87c7d6aae3093a",
+      "collection": "RIT-P02_s03",
+      "publisher_inclusive_span_frames": 337,
+      "container_frames": 339,
+      "frame_difference": 2,
+      "native_fps": 60.0,
+      "excluded_overlap": false,
+      "status": "BLOCKED_PUBLISHER_CROP_ORIGIN_AND_RATE_UNVERIFIED"
+    },
+    {
+      "sample_id": "rit3_c584fe670ef127c7",
+      "collection": "RIT-P02_s03",
+      "publisher_inclusive_span_frames": 365,
+      "container_frames": 367,
+      "frame_difference": 2,
+      "native_fps": 60.0,
+      "excluded_overlap": false,
+      "status": "BLOCKED_PUBLISHER_CROP_ORIGIN_AND_RATE_UNVERIFIED"
+    },
+    {
+      "sample_id": "rit3_b6642eecd86579d9",
+      "collection": "RIT-P02_s03",
+      "publisher_inclusive_span_frames": 466,
+      "container_frames": 468,
+      "frame_difference": 2,
+      "native_fps": 60.0,
+      "excluded_overlap": false,
+      "status": "BLOCKED_PUBLISHER_CROP_ORIGIN_AND_RATE_UNVERIFIED"
+    },
+    {
+      "sample_id": "rit3_f972279e48a7343d",
+      "collection": "RIT-P02_s03",
+      "publisher_inclusive_span_frames": 382,
+      "container_frames": 384,
+      "frame_difference": 2,
+      "native_fps": 60.0,
+      "excluded_overlap": false,
+      "status": "BLOCKED_PUBLISHER_CROP_ORIGIN_AND_RATE_UNVERIFIED"
+    },
+    {
+      "sample_id": "rit3_727fd05cbbd28a37",
+      "collection": "RIT-P02_s03",
+      "publisher_inclusive_span_frames": 546,
+      "container_frames": 548,
+      "frame_difference": 2,
+      "native_fps": 60.0,
+      "excluded_overlap": false,
+      "status": "BLOCKED_PUBLISHER_CROP_ORIGIN_AND_RATE_UNVERIFIED"
+    },
+    {
+      "sample_id": "rit3_406b36ff4a8d4dfc",
+      "collection": "RIT-P02_s03",
+      "publisher_inclusive_span_frames": 453,
+      "container_frames": 455,
+      "frame_difference": 2,
+      "native_fps": 60.0,
+      "excluded_overlap": false,
+      "status": "BLOCKED_PUBLISHER_CROP_ORIGIN_AND_RATE_UNVERIFIED"
+    },
+    {
+      "sample_id": "rit3_0838624255c1ef16",
+      "collection": "RIT-P02_s03",
+      "publisher_inclusive_span_frames": 209,
+      "container_frames": 211,
+      "frame_difference": 2,
+      "native_fps": 60.0,
+      "excluded_overlap": false,
+      "status": "BLOCKED_PUBLISHER_CROP_ORIGIN_AND_RATE_UNVERIFIED"
+    },
+    {
+      "sample_id": "rit3_5c309815e52910fe",
+      "collection": "RIT-P02_s03",
+      "publisher_inclusive_span_frames": 521,
+      "container_frames": 523,
+      "frame_difference": 2,
+      "native_fps": 60.0,
+      "excluded_overlap": false,
+      "status": "BLOCKED_PUBLISHER_CROP_ORIGIN_AND_RATE_UNVERIFIED"
+    },
+    {
+      "sample_id": "rit3_7319fb60f0561bdd",
+      "collection": "RIT-P02_s03",
+      "publisher_inclusive_span_frames": 181,
+      "container_frames": 183,
+      "frame_difference": 2,
+      "native_fps": 60.0,
+      "excluded_overlap": false,
+      "status": "BLOCKED_PUBLISHER_CROP_ORIGIN_AND_RATE_UNVERIFIED"
+    },
+    {
+      "sample_id": "rit3_011d4c78b1dad90b",
+      "collection": "RIT-P02_s03",
+      "publisher_inclusive_span_frames": 144,
+      "container_frames": 146,
+      "frame_difference": 2,
+      "native_fps": 60.0,
+      "excluded_overlap": false,
+      "status": "BLOCKED_PUBLISHER_CROP_ORIGIN_AND_RATE_UNVERIFIED"
+    },
+    {
+      "sample_id": "rit3_ef10b3e2b42511fa",
+      "collection": "RIT-P02_s03",
+      "publisher_inclusive_span_frames": 199,
+      "container_frames": 201,
+      "frame_difference": 2,
+      "native_fps": 60.0,
+      "excluded_overlap": false,
+      "status": "BLOCKED_PUBLISHER_CROP_ORIGIN_AND_RATE_UNVERIFIED"
+    },
+    {
+      "sample_id": "rit3_90678990efffd34c",
+      "collection": "RIT-P02_s03",
+      "publisher_inclusive_span_frames": 116,
+      "container_frames": 118,
+      "frame_difference": 2,
+      "native_fps": 60.0,
+      "excluded_overlap": false,
+      "status": "BLOCKED_PUBLISHER_CROP_ORIGIN_AND_RATE_UNVERIFIED"
+    },
+    {
+      "sample_id": "rit3_904e6976b4375c5d",
+      "collection": "RIT-P02_s03",
+      "publisher_inclusive_span_frames": 635,
+      "container_frames": 637,
+      "frame_difference": 2,
+      "native_fps": 60.0,
+      "excluded_overlap": false,
+      "status": "BLOCKED_PUBLISHER_CROP_ORIGIN_AND_RATE_UNVERIFIED"
+    },
+    {
+      "sample_id": "rit3_cb2096ee7df87377",
+      "collection": "RIT-P02_s03",
+      "publisher_inclusive_span_frames": 345,
+      "container_frames": 347,
+      "frame_difference": 2,
+      "native_fps": 60.0,
+      "excluded_overlap": false,
+      "status": "BLOCKED_PUBLISHER_CROP_ORIGIN_AND_RATE_UNVERIFIED"
+    },
+    {
+      "sample_id": "rit3_0d961197b297025e",
+      "collection": "RIT-P02_s03",
+      "publisher_inclusive_span_frames": 449,
+      "container_frames": 451,
+      "frame_difference": 2,
+      "native_fps": 60.0,
+      "excluded_overlap": false,
+      "status": "BLOCKED_PUBLISHER_CROP_ORIGIN_AND_RATE_UNVERIFIED"
+    },
+    {
+      "sample_id": "rit3_8512622805da4d83",
+      "collection": "RIT-P02_s03",
+      "publisher_inclusive_span_frames": 405,
+      "container_frames": 407,
+      "frame_difference": 2,
+      "native_fps": 60.0,
+      "excluded_overlap": false,
+      "status": "BLOCKED_PUBLISHER_CROP_ORIGIN_AND_RATE_UNVERIFIED"
+    },
+    {
+      "sample_id": "rit3_d4c1ea941c55c4d4",
+      "collection": "RIT-P02_s03",
+      "publisher_inclusive_span_frames": 403,
+      "container_frames": 405,
+      "frame_difference": 2,
+      "native_fps": 60.0,
+      "excluded_overlap": false,
+      "status": "BLOCKED_PUBLISHER_CROP_ORIGIN_AND_RATE_UNVERIFIED"
+    },
+    {
+      "sample_id": "rit3_d537a4588f7443fa",
+      "collection": "RIT-P02_s03",
+      "publisher_inclusive_span_frames": 224,
+      "container_frames": 226,
+      "frame_difference": 2,
+      "native_fps": 60.0,
+      "excluded_overlap": false,
+      "status": "BLOCKED_PUBLISHER_CROP_ORIGIN_AND_RATE_UNVERIFIED"
+    },
+    {
+      "sample_id": "rit3_1dbb37933087c0a4",
+      "collection": "RIT-P02_s03",
+      "publisher_inclusive_span_frames": 706,
+      "container_frames": 708,
+      "frame_difference": 2,
+      "native_fps": 60.0,
+      "excluded_overlap": false,
+      "status": "BLOCKED_PUBLISHER_CROP_ORIGIN_AND_RATE_UNVERIFIED"
+    },
+    {
+      "sample_id": "rit3_23543738ef8555c1",
+      "collection": "RIT-P02_s03",
+      "publisher_inclusive_span_frames": 197,
+      "container_frames": 199,
+      "frame_difference": 2,
+      "native_fps": 60.0,
+      "excluded_overlap": false,
+      "status": "BLOCKED_PUBLISHER_CROP_ORIGIN_AND_RATE_UNVERIFIED"
+    },
+    {
+      "sample_id": "rit3_71c857514863a1c5",
+      "collection": "RIT-P02_s03",
+      "publisher_inclusive_span_frames": 651,
+      "container_frames": 653,
+      "frame_difference": 2,
+      "native_fps": 60.0,
+      "excluded_overlap": false,
+      "status": "BLOCKED_PUBLISHER_CROP_ORIGIN_AND_RATE_UNVERIFIED"
+    },
+    {
+      "sample_id": "rit3_153131079581cad6",
+      "collection": "RIT-P02_s03",
+      "publisher_inclusive_span_frames": 278,
+      "container_frames": 280,
+      "frame_difference": 2,
+      "native_fps": 60.0,
+      "excluded_overlap": false,
+      "status": "BLOCKED_PUBLISHER_CROP_ORIGIN_AND_RATE_UNVERIFIED"
+    },
+    {
+      "sample_id": "rit3_4a95cd789db7d85a",
+      "collection": "RIT-P02_s03",
+      "publisher_inclusive_span_frames": 423,
+      "container_frames": 425,
+      "frame_difference": 2,
+      "native_fps": 60.0,
+      "excluded_overlap": false,
+      "status": "BLOCKED_PUBLISHER_CROP_ORIGIN_AND_RATE_UNVERIFIED"
+    },
+    {
+      "sample_id": "rit3_8115baa111d30199",
+      "collection": "RIT-P02_s03",
+      "publisher_inclusive_span_frames": 323,
+      "container_frames": 325,
+      "frame_difference": 2,
+      "native_fps": 60.0,
+      "excluded_overlap": false,
+      "status": "BLOCKED_PUBLISHER_CROP_ORIGIN_AND_RATE_UNVERIFIED"
+    },
+    {
+      "sample_id": "rit3_671ccef07ce06c79",
+      "collection": "RIT-P02_s03",
+      "publisher_inclusive_span_frames": 409,
+      "container_frames": 411,
+      "frame_difference": 2,
+      "native_fps": 60.0,
+      "excluded_overlap": false,
+      "status": "BLOCKED_PUBLISHER_CROP_ORIGIN_AND_RATE_UNVERIFIED"
+    },
+    {
+      "sample_id": "rit3_1f861349b4820a10",
+      "collection": "RIT-P02_s03",
+      "publisher_inclusive_span_frames": 377,
+      "container_frames": 379,
+      "frame_difference": 2,
+      "native_fps": 60.0,
+      "excluded_overlap": false,
+      "status": "BLOCKED_PUBLISHER_CROP_ORIGIN_AND_RATE_UNVERIFIED"
+    },
+    {
+      "sample_id": "rit3_36874585806493f0",
+      "collection": "RIT-P02_s03",
+      "publisher_inclusive_span_frames": 233,
+      "container_frames": 235,
+      "frame_difference": 2,
+      "native_fps": 60.0,
+      "excluded_overlap": false,
+      "status": "BLOCKED_PUBLISHER_CROP_ORIGIN_AND_RATE_UNVERIFIED"
+    },
+    {
+      "sample_id": "rit3_6ff4c01b250c245b",
+      "collection": "RIT-P02_s03",
+      "publisher_inclusive_span_frames": 614,
+      "container_frames": 616,
+      "frame_difference": 2,
+      "native_fps": 60.0,
+      "excluded_overlap": false,
+      "status": "BLOCKED_PUBLISHER_CROP_ORIGIN_AND_RATE_UNVERIFIED"
+    },
+    {
+      "sample_id": "rit3_71151a83dab3a546",
+      "collection": "RIT-P02_s03",
+      "publisher_inclusive_span_frames": 350,
+      "container_frames": 352,
+      "frame_difference": 2,
+      "native_fps": 60.0,
+      "excluded_overlap": false,
+      "status": "BLOCKED_PUBLISHER_CROP_ORIGIN_AND_RATE_UNVERIFIED"
+    },
+    {
+      "sample_id": "rit3_7dc8dee28c7a5dd5",
+      "collection": "RIT-P02_s03",
+      "publisher_inclusive_span_frames": 409,
+      "container_frames": 411,
+      "frame_difference": 2,
+      "native_fps": 60.0,
+      "excluded_overlap": false,
+      "status": "BLOCKED_PUBLISHER_CROP_ORIGIN_AND_RATE_UNVERIFIED"
+    },
+    {
+      "sample_id": "rit3_18da0ae485c768f4",
+      "collection": "RIT-P02_s03",
+      "publisher_inclusive_span_frames": 138,
+      "container_frames": 140,
+      "frame_difference": 2,
+      "native_fps": 60.0,
+      "excluded_overlap": false,
+      "status": "BLOCKED_PUBLISHER_CROP_ORIGIN_AND_RATE_UNVERIFIED"
+    },
+    {
+      "sample_id": "rit3_f3ba42cfe289c7a4",
+      "collection": "RIT-P02_s03",
+      "publisher_inclusive_span_frames": 472,
+      "container_frames": 474,
+      "frame_difference": 2,
+      "native_fps": 60.0,
+      "excluded_overlap": false,
+      "status": "BLOCKED_PUBLISHER_CROP_ORIGIN_AND_RATE_UNVERIFIED"
+    },
+    {
+      "sample_id": "rit3_370ce84c0964eb67",
+      "collection": "RIT-P02_s03",
+      "publisher_inclusive_span_frames": 550,
+      "container_frames": 552,
+      "frame_difference": 2,
+      "native_fps": 60.0,
+      "excluded_overlap": false,
+      "status": "BLOCKED_PUBLISHER_CROP_ORIGIN_AND_RATE_UNVERIFIED"
+    },
+    {
+      "sample_id": "rit3_479c5506821f1fa4",
+      "collection": "RIT-P02_s03",
+      "publisher_inclusive_span_frames": 672,
+      "container_frames": 674,
+      "frame_difference": 2,
+      "native_fps": 60.0,
+      "excluded_overlap": false,
+      "status": "BLOCKED_PUBLISHER_CROP_ORIGIN_AND_RATE_UNVERIFIED"
+    },
+    {
+      "sample_id": "rit3_bcb59abd5d44552e",
+      "collection": "RIT-P02_s03",
+      "publisher_inclusive_span_frames": 125,
+      "container_frames": 127,
+      "frame_difference": 2,
+      "native_fps": 60.0,
+      "excluded_overlap": false,
+      "status": "BLOCKED_PUBLISHER_CROP_ORIGIN_AND_RATE_UNVERIFIED"
+    },
+    {
+      "sample_id": "rit3_a3023f67486de7e9",
+      "collection": "RIT-P02_s03",
+      "publisher_inclusive_span_frames": 223,
+      "container_frames": 225,
+      "frame_difference": 2,
+      "native_fps": 60.0,
+      "excluded_overlap": false,
+      "status": "BLOCKED_PUBLISHER_CROP_ORIGIN_AND_RATE_UNVERIFIED"
+    },
+    {
+      "sample_id": "rit3_6bfa7ae3bd0eaf5e",
+      "collection": "RIT-P02_s03",
+      "publisher_inclusive_span_frames": 233,
+      "container_frames": 235,
+      "frame_difference": 2,
+      "native_fps": 60.0,
+      "excluded_overlap": false,
+      "status": "BLOCKED_PUBLISHER_CROP_ORIGIN_AND_RATE_UNVERIFIED"
+    },
+    {
+      "sample_id": "rit3_4c656dfa6742dda9",
+      "collection": "RIT-P02_s03",
+      "publisher_inclusive_span_frames": 96,
+      "container_frames": 98,
+      "frame_difference": 2,
+      "native_fps": 60.0,
+      "excluded_overlap": false,
+      "status": "BLOCKED_PUBLISHER_CROP_ORIGIN_AND_RATE_UNVERIFIED"
+    },
+    {
+      "sample_id": "rit3_ddf110611089dc79",
+      "collection": "RIT-P02_s03",
+      "publisher_inclusive_span_frames": 226,
+      "container_frames": 228,
+      "frame_difference": 2,
+      "native_fps": 60.0,
+      "excluded_overlap": false,
+      "status": "BLOCKED_PUBLISHER_CROP_ORIGIN_AND_RATE_UNVERIFIED"
+    },
+    {
+      "sample_id": "rit3_ce8669816d0e355c",
+      "collection": "RIT-P02_s03",
+      "publisher_inclusive_span_frames": 258,
+      "container_frames": 260,
+      "frame_difference": 2,
+      "native_fps": 60.0,
+      "excluded_overlap": false,
+      "status": "BLOCKED_PUBLISHER_CROP_ORIGIN_AND_RATE_UNVERIFIED"
+    },
+    {
+      "sample_id": "rit3_8854ce16309241c7",
+      "collection": "RIT-P02_s03",
+      "publisher_inclusive_span_frames": 352,
+      "container_frames": 354,
+      "frame_difference": 2,
+      "native_fps": 60.0,
+      "excluded_overlap": false,
+      "status": "BLOCKED_PUBLISHER_CROP_ORIGIN_AND_RATE_UNVERIFIED"
+    },
+    {
+      "sample_id": "rit3_c42f9494000ef1c3",
+      "collection": "RIT-P02_s03",
+      "publisher_inclusive_span_frames": 118,
+      "container_frames": 120,
+      "frame_difference": 2,
+      "native_fps": 60.0,
+      "excluded_overlap": false,
+      "status": "BLOCKED_PUBLISHER_CROP_ORIGIN_AND_RATE_UNVERIFIED"
+    },
+    {
+      "sample_id": "rit3_08ded74f27b385aa",
+      "collection": "RIT-P02_s03",
+      "publisher_inclusive_span_frames": 318,
+      "container_frames": 320,
+      "frame_difference": 2,
+      "native_fps": 60.0,
+      "excluded_overlap": false,
+      "status": "BLOCKED_PUBLISHER_CROP_ORIGIN_AND_RATE_UNVERIFIED"
+    },
+    {
+      "sample_id": "rit3_42759d9dea5751b2",
+      "collection": "RIT-P02_s03",
+      "publisher_inclusive_span_frames": 176,
+      "container_frames": 178,
+      "frame_difference": 2,
+      "native_fps": 60.0,
+      "excluded_overlap": false,
+      "status": "BLOCKED_PUBLISHER_CROP_ORIGIN_AND_RATE_UNVERIFIED"
+    },
+    {
+      "sample_id": "rit3_d974f10bd8914537",
+      "collection": "RIT-P02_s03",
+      "publisher_inclusive_span_frames": 210,
+      "container_frames": 212,
+      "frame_difference": 2,
+      "native_fps": 60.0,
+      "excluded_overlap": false,
+      "status": "BLOCKED_PUBLISHER_CROP_ORIGIN_AND_RATE_UNVERIFIED"
+    },
+    {
+      "sample_id": "rit3_0b5861891e607d7f",
+      "collection": "RIT-P02_s03",
+      "publisher_inclusive_span_frames": 655,
+      "container_frames": 657,
+      "frame_difference": 2,
+      "native_fps": 60.0,
+      "excluded_overlap": false,
+      "status": "BLOCKED_PUBLISHER_CROP_ORIGIN_AND_RATE_UNVERIFIED"
+    },
+    {
+      "sample_id": "rit3_5d564199f3933368",
+      "collection": "RIT-P02_s03",
+      "publisher_inclusive_span_frames": 298,
+      "container_frames": 300,
+      "frame_difference": 2,
+      "native_fps": 60.0,
+      "excluded_overlap": false,
+      "status": "BLOCKED_PUBLISHER_CROP_ORIGIN_AND_RATE_UNVERIFIED"
+    },
+    {
+      "sample_id": "rit3_c754f0cbc666c374",
+      "collection": "RIT-P02_s03",
+      "publisher_inclusive_span_frames": 298,
+      "container_frames": 300,
+      "frame_difference": 2,
+      "native_fps": 60.0,
+      "excluded_overlap": false,
+      "status": "BLOCKED_PUBLISHER_CROP_ORIGIN_AND_RATE_UNVERIFIED"
+    },
+    {
+      "sample_id": "rit3_2533cf852b6685af",
+      "collection": "RIT-P02_s03",
+      "publisher_inclusive_span_frames": 220,
+      "container_frames": 222,
+      "frame_difference": 2,
+      "native_fps": 60.0,
+      "excluded_overlap": false,
+      "status": "BLOCKED_PUBLISHER_CROP_ORIGIN_AND_RATE_UNVERIFIED"
+    },
+    {
+      "sample_id": "rit3_5dea5860122563e8",
+      "collection": "RIT-P02_s03",
+      "publisher_inclusive_span_frames": 201,
+      "container_frames": 203,
+      "frame_difference": 2,
+      "native_fps": 60.0,
+      "excluded_overlap": false,
+      "status": "BLOCKED_PUBLISHER_CROP_ORIGIN_AND_RATE_UNVERIFIED"
+    },
+    {
+      "sample_id": "rit3_54fa4ef78f8a67a4",
+      "collection": "RIT-P02_s03",
+      "publisher_inclusive_span_frames": 445,
+      "container_frames": 447,
+      "frame_difference": 2,
+      "native_fps": 60.0,
+      "excluded_overlap": false,
+      "status": "BLOCKED_PUBLISHER_CROP_ORIGIN_AND_RATE_UNVERIFIED"
+    },
+    {
+      "sample_id": "rit3_0beeee70b9eebd79",
+      "collection": "RIT-P02_s03",
+      "publisher_inclusive_span_frames": 115,
+      "container_frames": 117,
+      "frame_difference": 2,
+      "native_fps": 60.0,
+      "excluded_overlap": false,
+      "status": "BLOCKED_PUBLISHER_CROP_ORIGIN_AND_RATE_UNVERIFIED"
+    },
+    {
+      "sample_id": "rit3_1bb3f58398235d13",
+      "collection": "RIT-P03_s01",
+      "publisher_inclusive_span_frames": 230,
+      "container_frames": 232,
+      "frame_difference": 2,
+      "native_fps": 60.0,
+      "excluded_overlap": false,
+      "status": "BLOCKED_PUBLISHER_CROP_ORIGIN_AND_RATE_UNVERIFIED"
+    },
+    {
+      "sample_id": "rit3_bf8758863f499a63",
+      "collection": "RIT-P03_s01",
+      "publisher_inclusive_span_frames": 515,
+      "container_frames": 517,
+      "frame_difference": 2,
+      "native_fps": 60.0,
+      "excluded_overlap": false,
+      "status": "BLOCKED_PUBLISHER_CROP_ORIGIN_AND_RATE_UNVERIFIED"
+    },
+    {
+      "sample_id": "rit3_98e891f9266e3cf3",
+      "collection": "RIT-P03_s01",
+      "publisher_inclusive_span_frames": 172,
+      "container_frames": 174,
+      "frame_difference": 2,
+      "native_fps": 60.0,
+      "excluded_overlap": false,
+      "status": "BLOCKED_PUBLISHER_CROP_ORIGIN_AND_RATE_UNVERIFIED"
+    },
+    {
+      "sample_id": "rit3_bed6ab0e43d85b53",
+      "collection": "RIT-P03_s01",
+      "publisher_inclusive_span_frames": 320,
+      "container_frames": 322,
+      "frame_difference": 2,
+      "native_fps": 60.0,
+      "excluded_overlap": false,
+      "status": "BLOCKED_PUBLISHER_CROP_ORIGIN_AND_RATE_UNVERIFIED"
+    },
+    {
+      "sample_id": "rit3_fe9b78692b4b6407",
+      "collection": "RIT-P03_s01",
+      "publisher_inclusive_span_frames": 144,
+      "container_frames": 146,
+      "frame_difference": 2,
+      "native_fps": 60.0,
+      "excluded_overlap": false,
+      "status": "BLOCKED_PUBLISHER_CROP_ORIGIN_AND_RATE_UNVERIFIED"
+    },
+    {
+      "sample_id": "rit3_d89ece1ad5ead3eb",
+      "collection": "RIT-P03_s01",
+      "publisher_inclusive_span_frames": 96,
+      "container_frames": 98,
+      "frame_difference": 2,
+      "native_fps": 60.0,
+      "excluded_overlap": false,
+      "status": "BLOCKED_PUBLISHER_CROP_ORIGIN_AND_RATE_UNVERIFIED"
+    },
+    {
+      "sample_id": "rit3_543ae8acc96d1de1",
+      "collection": "RIT-P03_s01",
+      "publisher_inclusive_span_frames": 237,
+      "container_frames": 239,
+      "frame_difference": 2,
+      "native_fps": 60.0,
+      "excluded_overlap": false,
+      "status": "BLOCKED_PUBLISHER_CROP_ORIGIN_AND_RATE_UNVERIFIED"
+    },
+    {
+      "sample_id": "rit3_272785391ec7ecd4",
+      "collection": "RIT-P03_s01",
+      "publisher_inclusive_span_frames": 141,
+      "container_frames": 143,
+      "frame_difference": 2,
+      "native_fps": 60.0,
+      "excluded_overlap": false,
+      "status": "BLOCKED_PUBLISHER_CROP_ORIGIN_AND_RATE_UNVERIFIED"
+    },
+    {
+      "sample_id": "rit3_d7660ab883f5a0b0",
+      "collection": "RIT-P03_s01",
+      "publisher_inclusive_span_frames": 318,
+      "container_frames": 320,
+      "frame_difference": 2,
+      "native_fps": 60.0,
+      "excluded_overlap": false,
+      "status": "BLOCKED_PUBLISHER_CROP_ORIGIN_AND_RATE_UNVERIFIED"
+    },
+    {
+      "sample_id": "rit3_e01d63e9ec5de103",
+      "collection": "RIT-P03_s01",
+      "publisher_inclusive_span_frames": 497,
+      "container_frames": 499,
+      "frame_difference": 2,
+      "native_fps": 60.0,
+      "excluded_overlap": false,
+      "status": "BLOCKED_PUBLISHER_CROP_ORIGIN_AND_RATE_UNVERIFIED"
+    },
+    {
+      "sample_id": "rit3_a0801e813aa138d2",
+      "collection": "RIT-P03_s01",
+      "publisher_inclusive_span_frames": 206,
+      "container_frames": 208,
+      "frame_difference": 2,
+      "native_fps": 60.0,
+      "excluded_overlap": false,
+      "status": "BLOCKED_PUBLISHER_CROP_ORIGIN_AND_RATE_UNVERIFIED"
+    },
+    {
+      "sample_id": "rit3_f7a371829edae94d",
+      "collection": "RIT-P03_s01",
+      "publisher_inclusive_span_frames": 328,
+      "container_frames": 330,
+      "frame_difference": 2,
+      "native_fps": 60.0,
+      "excluded_overlap": false,
+      "status": "BLOCKED_PUBLISHER_CROP_ORIGIN_AND_RATE_UNVERIFIED"
+    },
+    {
+      "sample_id": "rit3_ebb114a895db8c52",
+      "collection": "RIT-P03_s01",
+      "publisher_inclusive_span_frames": 95,
+      "container_frames": 97,
+      "frame_difference": 2,
+      "native_fps": 60.0,
+      "excluded_overlap": false,
+      "status": "BLOCKED_PUBLISHER_CROP_ORIGIN_AND_RATE_UNVERIFIED"
+    },
+    {
+      "sample_id": "rit3_9ff08e8e532f20b3",
+      "collection": "RIT-P03_s01",
+      "publisher_inclusive_span_frames": 108,
+      "container_frames": 110,
+      "frame_difference": 2,
+      "native_fps": 60.0,
+      "excluded_overlap": false,
+      "status": "BLOCKED_PUBLISHER_CROP_ORIGIN_AND_RATE_UNVERIFIED"
+    },
+    {
+      "sample_id": "rit3_576674b1f1ca83c6",
+      "collection": "RIT-P03_s01",
+      "publisher_inclusive_span_frames": 87,
+      "container_frames": 89,
+      "frame_difference": 2,
+      "native_fps": 60.0,
+      "excluded_overlap": false,
+      "status": "BLOCKED_PUBLISHER_CROP_ORIGIN_AND_RATE_UNVERIFIED"
+    },
+    {
+      "sample_id": "rit3_19725cf8d5827866",
+      "collection": "RIT-P03_s01",
+      "publisher_inclusive_span_frames": 105,
+      "container_frames": 107,
+      "frame_difference": 2,
+      "native_fps": 60.0,
+      "excluded_overlap": false,
+      "status": "BLOCKED_PUBLISHER_CROP_ORIGIN_AND_RATE_UNVERIFIED"
+    },
+    {
+      "sample_id": "rit3_ed2bfc769547eb1c",
+      "collection": "RIT-P03_s01",
+      "publisher_inclusive_span_frames": 128,
+      "container_frames": 130,
+      "frame_difference": 2,
+      "native_fps": 60.0,
+      "excluded_overlap": false,
+      "status": "BLOCKED_PUBLISHER_CROP_ORIGIN_AND_RATE_UNVERIFIED"
+    },
+    {
+      "sample_id": "rit3_e74ddb6e50d3c711",
+      "collection": "RIT-P03_s01",
+      "publisher_inclusive_span_frames": 330,
+      "container_frames": 332,
+      "frame_difference": 2,
+      "native_fps": 60.0,
+      "excluded_overlap": false,
+      "status": "BLOCKED_PUBLISHER_CROP_ORIGIN_AND_RATE_UNVERIFIED"
+    },
+    {
+      "sample_id": "rit3_6a518eebc9d51636",
+      "collection": "RIT-P03_s01",
+      "publisher_inclusive_span_frames": 303,
+      "container_frames": 305,
+      "frame_difference": 2,
+      "native_fps": 60.0,
+      "excluded_overlap": false,
+      "status": "BLOCKED_PUBLISHER_CROP_ORIGIN_AND_RATE_UNVERIFIED"
+    },
+    {
+      "sample_id": "rit3_8806d20cf7999ea6",
+      "collection": "RIT-P03_s01",
+      "publisher_inclusive_span_frames": 213,
+      "container_frames": 215,
+      "frame_difference": 2,
+      "native_fps": 60.0,
+      "excluded_overlap": false,
+      "status": "BLOCKED_PUBLISHER_CROP_ORIGIN_AND_RATE_UNVERIFIED"
+    },
+    {
+      "sample_id": "rit3_3995f1776f514569",
+      "collection": "RIT-P03_s01",
+      "publisher_inclusive_span_frames": 247,
+      "container_frames": 249,
+      "frame_difference": 2,
+      "native_fps": 60.0,
+      "excluded_overlap": false,
+      "status": "BLOCKED_PUBLISHER_CROP_ORIGIN_AND_RATE_UNVERIFIED"
+    },
+    {
+      "sample_id": "rit3_be12777d8c4da5c6",
+      "collection": "RIT-P03_s01",
+      "publisher_inclusive_span_frames": 538,
+      "container_frames": 540,
+      "frame_difference": 2,
+      "native_fps": 60.0,
+      "excluded_overlap": false,
+      "status": "BLOCKED_PUBLISHER_CROP_ORIGIN_AND_RATE_UNVERIFIED"
+    },
+    {
+      "sample_id": "rit3_089f325f01cd2cf4",
+      "collection": "RIT-P03_s01",
+      "publisher_inclusive_span_frames": 192,
+      "container_frames": 194,
+      "frame_difference": 2,
+      "native_fps": 60.0,
+      "excluded_overlap": false,
+      "status": "BLOCKED_PUBLISHER_CROP_ORIGIN_AND_RATE_UNVERIFIED"
+    },
+    {
+      "sample_id": "rit3_c10c9e7b6b66109b",
+      "collection": "RIT-P03_s01",
+      "publisher_inclusive_span_frames": 242,
+      "container_frames": 244,
+      "frame_difference": 2,
+      "native_fps": 60.0,
+      "excluded_overlap": false,
+      "status": "BLOCKED_PUBLISHER_CROP_ORIGIN_AND_RATE_UNVERIFIED"
+    },
+    {
+      "sample_id": "rit3_0ae9d5fdadef6703",
+      "collection": "RIT-P03_s01",
+      "publisher_inclusive_span_frames": 140,
+      "container_frames": 142,
+      "frame_difference": 2,
+      "native_fps": 60.0,
+      "excluded_overlap": false,
+      "status": "BLOCKED_PUBLISHER_CROP_ORIGIN_AND_RATE_UNVERIFIED"
+    },
+    {
+      "sample_id": "rit3_6ad5414e4b615c9a",
+      "collection": "RIT-P03_s01",
+      "publisher_inclusive_span_frames": 285,
+      "container_frames": 287,
+      "frame_difference": 2,
+      "native_fps": 60.0,
+      "excluded_overlap": false,
+      "status": "BLOCKED_PUBLISHER_CROP_ORIGIN_AND_RATE_UNVERIFIED"
+    },
+    {
+      "sample_id": "rit3_27234952a65f98e3",
+      "collection": "RIT-P03_s01",
+      "publisher_inclusive_span_frames": 388,
+      "container_frames": 390,
+      "frame_difference": 2,
+      "native_fps": 60.0,
+      "excluded_overlap": false,
+      "status": "BLOCKED_PUBLISHER_CROP_ORIGIN_AND_RATE_UNVERIFIED"
+    },
+    {
+      "sample_id": "rit3_0f74cb3347f6c528",
+      "collection": "RIT-P03_s01",
+      "publisher_inclusive_span_frames": 314,
+      "container_frames": 316,
+      "frame_difference": 2,
+      "native_fps": 60.0,
+      "excluded_overlap": false,
+      "status": "BLOCKED_PUBLISHER_CROP_ORIGIN_AND_RATE_UNVERIFIED"
+    },
+    {
+      "sample_id": "rit3_8169eb49c5f01c40",
+      "collection": "RIT-P03_s01",
+      "publisher_inclusive_span_frames": 149,
+      "container_frames": 151,
+      "frame_difference": 2,
+      "native_fps": 60.0,
+      "excluded_overlap": false,
+      "status": "BLOCKED_PUBLISHER_CROP_ORIGIN_AND_RATE_UNVERIFIED"
+    },
+    {
+      "sample_id": "rit3_968a422245db3219",
+      "collection": "RIT-P03_s01",
+      "publisher_inclusive_span_frames": 156,
+      "container_frames": 158,
+      "frame_difference": 2,
+      "native_fps": 60.0,
+      "excluded_overlap": false,
+      "status": "BLOCKED_PUBLISHER_CROP_ORIGIN_AND_RATE_UNVERIFIED"
+    },
+    {
+      "sample_id": "rit3_3ab86adc8734d64c",
+      "collection": "RIT-P03_s01",
+      "publisher_inclusive_span_frames": 178,
+      "container_frames": 180,
+      "frame_difference": 2,
+      "native_fps": 60.0,
+      "excluded_overlap": false,
+      "status": "BLOCKED_PUBLISHER_CROP_ORIGIN_AND_RATE_UNVERIFIED"
+    },
+    {
+      "sample_id": "rit3_305f6e022b8b6f30",
+      "collection": "RIT-P03_s01",
+      "publisher_inclusive_span_frames": 145,
+      "container_frames": 147,
+      "frame_difference": 2,
+      "native_fps": 60.0,
+      "excluded_overlap": false,
+      "status": "BLOCKED_PUBLISHER_CROP_ORIGIN_AND_RATE_UNVERIFIED"
+    },
+    {
+      "sample_id": "rit3_740240837bf1d4a1",
+      "collection": "RIT-P03_s01",
+      "publisher_inclusive_span_frames": 215,
+      "container_frames": 217,
+      "frame_difference": 2,
+      "native_fps": 60.0,
+      "excluded_overlap": false,
+      "status": "BLOCKED_PUBLISHER_CROP_ORIGIN_AND_RATE_UNVERIFIED"
+    },
+    {
+      "sample_id": "rit3_6cd92b15f2f52b19",
+      "collection": "RIT-P03_s01",
+      "publisher_inclusive_span_frames": 101,
+      "container_frames": 103,
+      "frame_difference": 2,
+      "native_fps": 60.0,
+      "excluded_overlap": false,
+      "status": "BLOCKED_PUBLISHER_CROP_ORIGIN_AND_RATE_UNVERIFIED"
+    },
+    {
+      "sample_id": "rit3_88231e0aef6808af",
+      "collection": "RIT-P03_s01",
+      "publisher_inclusive_span_frames": 132,
+      "container_frames": 134,
+      "frame_difference": 2,
+      "native_fps": 60.0,
+      "excluded_overlap": false,
+      "status": "BLOCKED_PUBLISHER_CROP_ORIGIN_AND_RATE_UNVERIFIED"
+    },
+    {
+      "sample_id": "rit3_c250cedd2c78f42a",
+      "collection": "RIT-P03_s01",
+      "publisher_inclusive_span_frames": 102,
+      "container_frames": 104,
+      "frame_difference": 2,
+      "native_fps": 60.0,
+      "excluded_overlap": false,
+      "status": "BLOCKED_PUBLISHER_CROP_ORIGIN_AND_RATE_UNVERIFIED"
+    },
+    {
+      "sample_id": "rit3_81431157ffe458a7",
+      "collection": "RIT-P03_s01",
+      "publisher_inclusive_span_frames": 111,
+      "container_frames": 113,
+      "frame_difference": 2,
+      "native_fps": 60.0,
+      "excluded_overlap": false,
+      "status": "BLOCKED_PUBLISHER_CROP_ORIGIN_AND_RATE_UNVERIFIED"
+    },
+    {
+      "sample_id": "rit3_fdadef22fd806f83",
+      "collection": "RIT-P03_s01",
+      "publisher_inclusive_span_frames": 218,
+      "container_frames": 220,
+      "frame_difference": 2,
+      "native_fps": 60.0,
+      "excluded_overlap": false,
+      "status": "BLOCKED_PUBLISHER_CROP_ORIGIN_AND_RATE_UNVERIFIED"
+    },
+    {
+      "sample_id": "rit3_3e0dfb2a05dbaa0b",
+      "collection": "RIT-P03_s01",
+      "publisher_inclusive_span_frames": 204,
+      "container_frames": 206,
+      "frame_difference": 2,
+      "native_fps": 60.0,
+      "excluded_overlap": false,
+      "status": "BLOCKED_PUBLISHER_CROP_ORIGIN_AND_RATE_UNVERIFIED"
+    },
+    {
+      "sample_id": "rit3_3096fb7bfcd33ee2",
+      "collection": "RIT-P03_s01",
+      "publisher_inclusive_span_frames": 188,
+      "container_frames": 190,
+      "frame_difference": 2,
+      "native_fps": 60.0,
+      "excluded_overlap": false,
+      "status": "BLOCKED_PUBLISHER_CROP_ORIGIN_AND_RATE_UNVERIFIED"
+    },
+    {
+      "sample_id": "rit3_b01bf7304af69871",
+      "collection": "RIT-P03_s01",
+      "publisher_inclusive_span_frames": 80,
+      "container_frames": 82,
+      "frame_difference": 2,
+      "native_fps": 60.0,
+      "excluded_overlap": false,
+      "status": "BLOCKED_PUBLISHER_CROP_ORIGIN_AND_RATE_UNVERIFIED"
+    },
+    {
+      "sample_id": "rit3_7da03928dac69589",
+      "collection": "RIT-P03_s01",
+      "publisher_inclusive_span_frames": 148,
+      "container_frames": 150,
+      "frame_difference": 2,
+      "native_fps": 60.0,
+      "excluded_overlap": false,
+      "status": "BLOCKED_PUBLISHER_CROP_ORIGIN_AND_RATE_UNVERIFIED"
+    },
+    {
+      "sample_id": "rit3_456b2443fe226b3b",
+      "collection": "RIT-P03_s01",
+      "publisher_inclusive_span_frames": 199,
+      "container_frames": 201,
+      "frame_difference": 2,
+      "native_fps": 60.0,
+      "excluded_overlap": false,
+      "status": "BLOCKED_PUBLISHER_CROP_ORIGIN_AND_RATE_UNVERIFIED"
+    },
+    {
+      "sample_id": "rit3_d87b9436866a3f61",
+      "collection": "RIT-P03_s01",
+      "publisher_inclusive_span_frames": 496,
+      "container_frames": 498,
+      "frame_difference": 2,
+      "native_fps": 60.0,
+      "excluded_overlap": false,
+      "status": "BLOCKED_PUBLISHER_CROP_ORIGIN_AND_RATE_UNVERIFIED"
+    },
+    {
+      "sample_id": "rit3_46287973b64b3b62",
+      "collection": "RIT-P03_s01",
+      "publisher_inclusive_span_frames": 147,
+      "container_frames": 149,
+      "frame_difference": 2,
+      "native_fps": 60.0,
+      "excluded_overlap": false,
+      "status": "BLOCKED_PUBLISHER_CROP_ORIGIN_AND_RATE_UNVERIFIED"
+    },
+    {
+      "sample_id": "rit3_86baae92ecae245a",
+      "collection": "RIT-P03_s01",
+      "publisher_inclusive_span_frames": 154,
+      "container_frames": 156,
+      "frame_difference": 2,
+      "native_fps": 60.0,
+      "excluded_overlap": false,
+      "status": "BLOCKED_PUBLISHER_CROP_ORIGIN_AND_RATE_UNVERIFIED"
+    },
+    {
+      "sample_id": "rit3_d847bfa2c1e36fcd",
+      "collection": "RIT-P03_s01",
+      "publisher_inclusive_span_frames": 152,
+      "container_frames": 154,
+      "frame_difference": 2,
+      "native_fps": 60.0,
+      "excluded_overlap": false,
+      "status": "BLOCKED_PUBLISHER_CROP_ORIGIN_AND_RATE_UNVERIFIED"
+    },
+    {
+      "sample_id": "rit3_ed71273b45bff931",
+      "collection": "RIT-P03_s01",
+      "publisher_inclusive_span_frames": 289,
+      "container_frames": 291,
+      "frame_difference": 2,
+      "native_fps": 60.0,
+      "excluded_overlap": false,
+      "status": "BLOCKED_PUBLISHER_CROP_ORIGIN_AND_RATE_UNVERIFIED"
+    },
+    {
+      "sample_id": "rit3_4774f118a36fb965",
+      "collection": "RIT-P03_s01",
+      "publisher_inclusive_span_frames": 160,
+      "container_frames": 162,
+      "frame_difference": 2,
+      "native_fps": 60.0,
+      "excluded_overlap": false,
+      "status": "BLOCKED_PUBLISHER_CROP_ORIGIN_AND_RATE_UNVERIFIED"
+    },
+    {
+      "sample_id": "rit3_1c83460ba49fb3f3",
+      "collection": "RIT-P03_s01",
+      "publisher_inclusive_span_frames": 98,
+      "container_frames": 100,
+      "frame_difference": 2,
+      "native_fps": 60.0,
+      "excluded_overlap": false,
+      "status": "BLOCKED_PUBLISHER_CROP_ORIGIN_AND_RATE_UNVERIFIED"
+    },
+    {
+      "sample_id": "rit3_ba3ebe40b0c695d1",
+      "collection": "RIT-P03_s01",
+      "publisher_inclusive_span_frames": 160,
+      "container_frames": 162,
+      "frame_difference": 2,
+      "native_fps": 60.0,
+      "excluded_overlap": false,
+      "status": "BLOCKED_PUBLISHER_CROP_ORIGIN_AND_RATE_UNVERIFIED"
+    },
+    {
+      "sample_id": "rit3_5f982e20da0ba2e0",
+      "collection": "RIT-P03_s01",
+      "publisher_inclusive_span_frames": 263,
+      "container_frames": 265,
+      "frame_difference": 2,
+      "native_fps": 60.0,
+      "excluded_overlap": false,
+      "status": "BLOCKED_PUBLISHER_CROP_ORIGIN_AND_RATE_UNVERIFIED"
+    },
+    {
+      "sample_id": "rit3_9a9aeb93979c1794",
+      "collection": "RIT-P03_s01",
+      "publisher_inclusive_span_frames": 235,
+      "container_frames": 237,
+      "frame_difference": 2,
+      "native_fps": 60.0,
+      "excluded_overlap": false,
+      "status": "BLOCKED_PUBLISHER_CROP_ORIGIN_AND_RATE_UNVERIFIED"
+    },
+    {
+      "sample_id": "rit3_3ed6a64494a70bf4",
+      "collection": "RIT-P03_s01",
+      "publisher_inclusive_span_frames": 215,
+      "container_frames": 217,
+      "frame_difference": 2,
+      "native_fps": 60.0,
+      "excluded_overlap": false,
+      "status": "BLOCKED_PUBLISHER_CROP_ORIGIN_AND_RATE_UNVERIFIED"
+    },
+    {
+      "sample_id": "rit3_afd0cd4fd20a51bf",
+      "collection": "RIT-P03_s01",
+      "publisher_inclusive_span_frames": 275,
+      "container_frames": 277,
+      "frame_difference": 2,
+      "native_fps": 60.0,
+      "excluded_overlap": false,
+      "status": "BLOCKED_PUBLISHER_CROP_ORIGIN_AND_RATE_UNVERIFIED"
+    },
+    {
+      "sample_id": "rit3_8472d37b7d9093c0",
+      "collection": "RIT-P03_s01",
+      "publisher_inclusive_span_frames": 239,
+      "container_frames": 241,
+      "frame_difference": 2,
+      "native_fps": 60.0,
+      "excluded_overlap": false,
+      "status": "BLOCKED_PUBLISHER_CROP_ORIGIN_AND_RATE_UNVERIFIED"
+    },
+    {
+      "sample_id": "rit3_16f6f933c1e5348f",
+      "collection": "RIT-P03_s01",
+      "publisher_inclusive_span_frames": 142,
+      "container_frames": 144,
+      "frame_difference": 2,
+      "native_fps": 60.0,
+      "excluded_overlap": false,
+      "status": "BLOCKED_PUBLISHER_CROP_ORIGIN_AND_RATE_UNVERIFIED"
+    },
+    {
+      "sample_id": "rit3_a2481db143159299",
+      "collection": "RIT-P03_s01",
+      "publisher_inclusive_span_frames": 292,
+      "container_frames": 294,
+      "frame_difference": 2,
+      "native_fps": 60.0,
+      "excluded_overlap": false,
+      "status": "BLOCKED_PUBLISHER_CROP_ORIGIN_AND_RATE_UNVERIFIED"
+    },
+    {
+      "sample_id": "rit3_f6c1732ef74e9bf2",
+      "collection": "RIT-P03_s01",
+      "publisher_inclusive_span_frames": 224,
+      "container_frames": 226,
+      "frame_difference": 2,
+      "native_fps": 60.0,
+      "excluded_overlap": false,
+      "status": "BLOCKED_PUBLISHER_CROP_ORIGIN_AND_RATE_UNVERIFIED"
+    },
+    {
+      "sample_id": "rit3_ee3121ff5fb11cb3",
+      "collection": "RIT-P03_s01",
+      "publisher_inclusive_span_frames": 185,
+      "container_frames": 187,
+      "frame_difference": 2,
+      "native_fps": 60.0,
+      "excluded_overlap": false,
+      "status": "BLOCKED_PUBLISHER_CROP_ORIGIN_AND_RATE_UNVERIFIED"
+    },
+    {
+      "sample_id": "rit3_6630d9bd1fbced7f",
+      "collection": "RIT-P03_s01",
+      "publisher_inclusive_span_frames": 198,
+      "container_frames": 200,
+      "frame_difference": 2,
+      "native_fps": 60.0,
+      "excluded_overlap": false,
+      "status": "BLOCKED_PUBLISHER_CROP_ORIGIN_AND_RATE_UNVERIFIED"
+    },
+    {
+      "sample_id": "rit3_d03e874208a30501",
+      "collection": "RIT-P03_s01",
+      "publisher_inclusive_span_frames": 108,
+      "container_frames": 110,
+      "frame_difference": 2,
+      "native_fps": 60.0,
+      "excluded_overlap": false,
+      "status": "BLOCKED_PUBLISHER_CROP_ORIGIN_AND_RATE_UNVERIFIED"
+    },
+    {
+      "sample_id": "rit3_e56bcdecc317f458",
+      "collection": "RIT-P03_s01",
+      "publisher_inclusive_span_frames": 261,
+      "container_frames": 263,
+      "frame_difference": 2,
+      "native_fps": 60.0,
+      "excluded_overlap": false,
+      "status": "BLOCKED_PUBLISHER_CROP_ORIGIN_AND_RATE_UNVERIFIED"
+    },
+    {
+      "sample_id": "rit3_e1d533365d77a6df",
+      "collection": "RIT-P03_s01",
+      "publisher_inclusive_span_frames": 164,
+      "container_frames": 166,
+      "frame_difference": 2,
+      "native_fps": 60.0,
+      "excluded_overlap": false,
+      "status": "BLOCKED_PUBLISHER_CROP_ORIGIN_AND_RATE_UNVERIFIED"
+    },
+    {
+      "sample_id": "rit3_55bb74857a90ef5b",
+      "collection": "RIT-P03_s01",
+      "publisher_inclusive_span_frames": 296,
+      "container_frames": 298,
+      "frame_difference": 2,
+      "native_fps": 60.0,
+      "excluded_overlap": false,
+      "status": "BLOCKED_PUBLISHER_CROP_ORIGIN_AND_RATE_UNVERIFIED"
+    },
+    {
+      "sample_id": "rit3_0eaca94e7f94b23b",
+      "collection": "RIT-P03_s01",
+      "publisher_inclusive_span_frames": 111,
+      "container_frames": 113,
+      "frame_difference": 2,
+      "native_fps": 60.0,
+      "excluded_overlap": false,
+      "status": "BLOCKED_PUBLISHER_CROP_ORIGIN_AND_RATE_UNVERIFIED"
+    },
+    {
+      "sample_id": "rit3_2ef09d4c72f41a69",
+      "collection": "RIT-P03_s01",
+      "publisher_inclusive_span_frames": 141,
+      "container_frames": 143,
+      "frame_difference": 2,
+      "native_fps": 60.0,
+      "excluded_overlap": false,
+      "status": "BLOCKED_PUBLISHER_CROP_ORIGIN_AND_RATE_UNVERIFIED"
+    },
+    {
+      "sample_id": "rit3_eec33be91e1302fe",
+      "collection": "RIT-P03_s01",
+      "publisher_inclusive_span_frames": 381,
+      "container_frames": 383,
+      "frame_difference": 2,
+      "native_fps": 60.0,
+      "excluded_overlap": false,
+      "status": "BLOCKED_PUBLISHER_CROP_ORIGIN_AND_RATE_UNVERIFIED"
+    },
+    {
+      "sample_id": "rit3_b36a028cc6cc1b9b",
+      "collection": "RIT-P03_s01",
+      "publisher_inclusive_span_frames": 112,
+      "container_frames": 114,
+      "frame_difference": 2,
+      "native_fps": 60.0,
+      "excluded_overlap": false,
+      "status": "BLOCKED_PUBLISHER_CROP_ORIGIN_AND_RATE_UNVERIFIED"
+    },
+    {
+      "sample_id": "rit3_942e574940b30d54",
+      "collection": "RIT-P03_s01",
+      "publisher_inclusive_span_frames": 212,
+      "container_frames": 214,
+      "frame_difference": 2,
+      "native_fps": 60.0,
+      "excluded_overlap": false,
+      "status": "BLOCKED_PUBLISHER_CROP_ORIGIN_AND_RATE_UNVERIFIED"
+    },
+    {
+      "sample_id": "rit3_1843bb6588f1fe8c",
+      "collection": "RIT-P03_s01",
+      "publisher_inclusive_span_frames": 168,
+      "container_frames": 170,
+      "frame_difference": 2,
+      "native_fps": 60.0,
+      "excluded_overlap": false,
+      "status": "BLOCKED_PUBLISHER_CROP_ORIGIN_AND_RATE_UNVERIFIED"
+    },
+    {
+      "sample_id": "rit3_e01500111fb17228",
+      "collection": "RIT-P03_s01",
+      "publisher_inclusive_span_frames": 254,
+      "container_frames": 256,
+      "frame_difference": 2,
+      "native_fps": 60.0,
+      "excluded_overlap": false,
+      "status": "BLOCKED_PUBLISHER_CROP_ORIGIN_AND_RATE_UNVERIFIED"
+    },
+    {
+      "sample_id": "rit3_b8fcbbeaaf420343",
+      "collection": "RIT-P03_s01",
+      "publisher_inclusive_span_frames": 158,
+      "container_frames": 160,
+      "frame_difference": 2,
+      "native_fps": 60.0,
+      "excluded_overlap": false,
+      "status": "BLOCKED_PUBLISHER_CROP_ORIGIN_AND_RATE_UNVERIFIED"
+    },
+    {
+      "sample_id": "rit3_f5198fb3976c4749",
+      "collection": "RIT-P03_s01",
+      "publisher_inclusive_span_frames": 475,
+      "container_frames": 477,
+      "frame_difference": 2,
+      "native_fps": 60.0,
+      "excluded_overlap": false,
+      "status": "BLOCKED_PUBLISHER_CROP_ORIGIN_AND_RATE_UNVERIFIED"
+    },
+    {
+      "sample_id": "rit3_ff66b200eaad9531",
+      "collection": "RIT-P03_s01",
+      "publisher_inclusive_span_frames": 229,
+      "container_frames": 231,
+      "frame_difference": 2,
+      "native_fps": 60.0,
+      "excluded_overlap": false,
+      "status": "BLOCKED_PUBLISHER_CROP_ORIGIN_AND_RATE_UNVERIFIED"
+    },
+    {
+      "sample_id": "rit3_5116dc0b2af522ad",
+      "collection": "RIT-P03_s01",
+      "publisher_inclusive_span_frames": 253,
+      "container_frames": 255,
+      "frame_difference": 2,
+      "native_fps": 60.0,
+      "excluded_overlap": false,
+      "status": "BLOCKED_PUBLISHER_CROP_ORIGIN_AND_RATE_UNVERIFIED"
+    },
+    {
+      "sample_id": "rit3_9367aded3faff3ca",
+      "collection": "RIT-P03_s01",
+      "publisher_inclusive_span_frames": 334,
+      "container_frames": 336,
+      "frame_difference": 2,
+      "native_fps": 60.0,
+      "excluded_overlap": false,
+      "status": "BLOCKED_PUBLISHER_CROP_ORIGIN_AND_RATE_UNVERIFIED"
+    },
+    {
+      "sample_id": "rit3_79fbf01c0421bed2",
+      "collection": "RIT-P03_s01",
+      "publisher_inclusive_span_frames": 98,
+      "container_frames": 100,
+      "frame_difference": 2,
+      "native_fps": 60.0,
+      "excluded_overlap": false,
+      "status": "BLOCKED_PUBLISHER_CROP_ORIGIN_AND_RATE_UNVERIFIED"
+    },
+    {
+      "sample_id": "rit3_36f9f84cf12deb5e",
+      "collection": "RIT-P03_s01",
+      "publisher_inclusive_span_frames": 238,
+      "container_frames": 240,
+      "frame_difference": 2,
+      "native_fps": 60.0,
+      "excluded_overlap": false,
+      "status": "BLOCKED_PUBLISHER_CROP_ORIGIN_AND_RATE_UNVERIFIED"
+    },
+    {
+      "sample_id": "rit3_f56aa3f7686e3d5f",
+      "collection": "RIT-P03_s01",
+      "publisher_inclusive_span_frames": 137,
+      "container_frames": 139,
+      "frame_difference": 2,
+      "native_fps": 60.0,
+      "excluded_overlap": false,
+      "status": "BLOCKED_PUBLISHER_CROP_ORIGIN_AND_RATE_UNVERIFIED"
+    },
+    {
+      "sample_id": "rit3_bbe29c105665f345",
+      "collection": "RIT-P03_s01",
+      "publisher_inclusive_span_frames": 298,
+      "container_frames": 300,
+      "frame_difference": 2,
+      "native_fps": 60.0,
+      "excluded_overlap": false,
+      "status": "BLOCKED_PUBLISHER_CROP_ORIGIN_AND_RATE_UNVERIFIED"
+    },
+    {
+      "sample_id": "rit3_a0335d9ece2bcf5f",
+      "collection": "RIT-P03_s01",
+      "publisher_inclusive_span_frames": 140,
+      "container_frames": 142,
+      "frame_difference": 2,
+      "native_fps": 60.0,
+      "excluded_overlap": false,
+      "status": "BLOCKED_PUBLISHER_CROP_ORIGIN_AND_RATE_UNVERIFIED"
+    },
+    {
+      "sample_id": "rit3_20259c165f3455e0",
+      "collection": "RIT-P03_s01",
+      "publisher_inclusive_span_frames": 258,
+      "container_frames": 260,
+      "frame_difference": 2,
+      "native_fps": 60.0,
+      "excluded_overlap": false,
+      "status": "BLOCKED_PUBLISHER_CROP_ORIGIN_AND_RATE_UNVERIFIED"
+    },
+    {
+      "sample_id": "rit3_8d1647d6518cc718",
+      "collection": "RIT-P03_s01",
+      "publisher_inclusive_span_frames": 351,
+      "container_frames": 353,
+      "frame_difference": 2,
+      "native_fps": 60.0,
+      "excluded_overlap": false,
+      "status": "BLOCKED_PUBLISHER_CROP_ORIGIN_AND_RATE_UNVERIFIED"
+    },
+    {
+      "sample_id": "rit3_3dedb2a0418550e0",
+      "collection": "RIT-P03_s01",
+      "publisher_inclusive_span_frames": 387,
+      "container_frames": 389,
+      "frame_difference": 2,
+      "native_fps": 60.0,
+      "excluded_overlap": false,
+      "status": "BLOCKED_PUBLISHER_CROP_ORIGIN_AND_RATE_UNVERIFIED"
+    },
+    {
+      "sample_id": "rit3_de2e3b4a7d2f004f",
+      "collection": "RIT-P03_s01",
+      "publisher_inclusive_span_frames": 149,
+      "container_frames": 151,
+      "frame_difference": 2,
+      "native_fps": 60.0,
+      "excluded_overlap": false,
+      "status": "BLOCKED_PUBLISHER_CROP_ORIGIN_AND_RATE_UNVERIFIED"
+    },
+    {
+      "sample_id": "rit3_af9d2080040a42dd",
+      "collection": "RIT-P03_s01",
+      "publisher_inclusive_span_frames": 68,
+      "container_frames": 70,
+      "frame_difference": 2,
+      "native_fps": 60.0,
+      "excluded_overlap": false,
+      "status": "BLOCKED_PUBLISHER_CROP_ORIGIN_AND_RATE_UNVERIFIED"
+    },
+    {
+      "sample_id": "rit3_44619badb270dbc3",
+      "collection": "RIT-P03_s01",
+      "publisher_inclusive_span_frames": 246,
+      "container_frames": 248,
+      "frame_difference": 2,
+      "native_fps": 60.0,
+      "excluded_overlap": false,
+      "status": "BLOCKED_PUBLISHER_CROP_ORIGIN_AND_RATE_UNVERIFIED"
+    },
+    {
+      "sample_id": "rit3_755b54b0bd4c7852",
+      "collection": "RIT-P03_s01",
+      "publisher_inclusive_span_frames": 122,
+      "container_frames": 124,
+      "frame_difference": 2,
+      "native_fps": 60.0,
+      "excluded_overlap": false,
+      "status": "BLOCKED_PUBLISHER_CROP_ORIGIN_AND_RATE_UNVERIFIED"
+    },
+    {
+      "sample_id": "rit3_6cdd3cbe7c4cc4f3",
+      "collection": "RIT-P03_s01",
+      "publisher_inclusive_span_frames": 137,
+      "container_frames": 139,
+      "frame_difference": 2,
+      "native_fps": 60.0,
+      "excluded_overlap": false,
+      "status": "BLOCKED_PUBLISHER_CROP_ORIGIN_AND_RATE_UNVERIFIED"
+    },
+    {
+      "sample_id": "rit3_d345940392617fce",
+      "collection": "RIT-P03_s01",
+      "publisher_inclusive_span_frames": 91,
+      "container_frames": 93,
+      "frame_difference": 2,
+      "native_fps": 60.0,
+      "excluded_overlap": false,
+      "status": "BLOCKED_PUBLISHER_CROP_ORIGIN_AND_RATE_UNVERIFIED"
+    },
+    {
+      "sample_id": "rit3_b98d951f747e3137",
+      "collection": "RIT-P03_s01",
+      "publisher_inclusive_span_frames": 215,
+      "container_frames": 217,
+      "frame_difference": 2,
+      "native_fps": 60.0,
+      "excluded_overlap": false,
+      "status": "BLOCKED_PUBLISHER_CROP_ORIGIN_AND_RATE_UNVERIFIED"
+    },
+    {
+      "sample_id": "rit3_8eda83e65f142047",
+      "collection": "RIT-P03_s01",
+      "publisher_inclusive_span_frames": 276,
+      "container_frames": 278,
+      "frame_difference": 2,
+      "native_fps": 60.0,
+      "excluded_overlap": false,
+      "status": "BLOCKED_PUBLISHER_CROP_ORIGIN_AND_RATE_UNVERIFIED"
+    },
+    {
+      "sample_id": "rit3_db804f8a403ec925",
+      "collection": "RIT-P03_s01",
+      "publisher_inclusive_span_frames": 195,
+      "container_frames": 197,
+      "frame_difference": 2,
+      "native_fps": 60.0,
+      "excluded_overlap": false,
+      "status": "BLOCKED_PUBLISHER_CROP_ORIGIN_AND_RATE_UNVERIFIED"
+    },
+    {
+      "sample_id": "rit3_93b14fb645b65564",
+      "collection": "RIT-P03_s01",
+      "publisher_inclusive_span_frames": 172,
+      "container_frames": 174,
+      "frame_difference": 2,
+      "native_fps": 60.0,
+      "excluded_overlap": false,
+      "status": "BLOCKED_PUBLISHER_CROP_ORIGIN_AND_RATE_UNVERIFIED"
+    },
+    {
+      "sample_id": "rit3_a21c32b6a6f75489",
+      "collection": "RIT-P03_s01",
+      "publisher_inclusive_span_frames": 266,
+      "container_frames": 268,
+      "frame_difference": 2,
+      "native_fps": 60.0,
+      "excluded_overlap": false,
+      "status": "BLOCKED_PUBLISHER_CROP_ORIGIN_AND_RATE_UNVERIFIED"
+    },
+    {
+      "sample_id": "rit3_ba98f2b911779b14",
+      "collection": "RIT-P03_s01",
+      "publisher_inclusive_span_frames": 65,
+      "container_frames": 67,
+      "frame_difference": 2,
+      "native_fps": 60.0,
+      "excluded_overlap": false,
+      "status": "BLOCKED_PUBLISHER_CROP_ORIGIN_AND_RATE_UNVERIFIED"
+    },
+    {
+      "sample_id": "rit3_4b144591cb53ad1f",
+      "collection": "RIT-P03_s01",
+      "publisher_inclusive_span_frames": 102,
+      "container_frames": 104,
+      "frame_difference": 2,
+      "native_fps": 60.0,
+      "excluded_overlap": false,
+      "status": "BLOCKED_PUBLISHER_CROP_ORIGIN_AND_RATE_UNVERIFIED"
+    },
+    {
+      "sample_id": "rit3_cf7ca7bb7f78cbd0",
+      "collection": "RIT-P03_s01",
+      "publisher_inclusive_span_frames": 110,
+      "container_frames": 112,
+      "frame_difference": 2,
+      "native_fps": 60.0,
+      "excluded_overlap": false,
+      "status": "BLOCKED_PUBLISHER_CROP_ORIGIN_AND_RATE_UNVERIFIED"
+    },
+    {
+      "sample_id": "rit3_4d7dabc9316f725a",
+      "collection": "RIT-P03_s01",
+      "publisher_inclusive_span_frames": 99,
+      "container_frames": 101,
+      "frame_difference": 2,
+      "native_fps": 60.0,
+      "excluded_overlap": false,
+      "status": "BLOCKED_PUBLISHER_CROP_ORIGIN_AND_RATE_UNVERIFIED"
+    },
+    {
+      "sample_id": "rit3_781607b7cb512938",
+      "collection": "RIT-P03_s01",
+      "publisher_inclusive_span_frames": 234,
+      "container_frames": 236,
+      "frame_difference": 2,
+      "native_fps": 60.0,
+      "excluded_overlap": false,
+      "status": "BLOCKED_PUBLISHER_CROP_ORIGIN_AND_RATE_UNVERIFIED"
+    },
+    {
+      "sample_id": "rit3_bb1ab8a7c877461e",
+      "collection": "RIT-P03_s01",
+      "publisher_inclusive_span_frames": 383,
+      "container_frames": 385,
+      "frame_difference": 2,
+      "native_fps": 60.0,
+      "excluded_overlap": false,
+      "status": "BLOCKED_PUBLISHER_CROP_ORIGIN_AND_RATE_UNVERIFIED"
+    },
+    {
+      "sample_id": "rit3_188510bcbde7c519",
+      "collection": "RIT-P03_s01",
+      "publisher_inclusive_span_frames": 96,
+      "container_frames": 98,
+      "frame_difference": 2,
+      "native_fps": 60.0,
+      "excluded_overlap": false,
+      "status": "BLOCKED_PUBLISHER_CROP_ORIGIN_AND_RATE_UNVERIFIED"
+    },
+    {
+      "sample_id": "rit3_85f4ed12df368a62",
+      "collection": "RIT-P03_s01",
+      "publisher_inclusive_span_frames": 165,
+      "container_frames": 167,
+      "frame_difference": 2,
+      "native_fps": 60.0,
+      "excluded_overlap": false,
+      "status": "BLOCKED_PUBLISHER_CROP_ORIGIN_AND_RATE_UNVERIFIED"
+    },
+    {
+      "sample_id": "rit3_958b5ac0186748a7",
+      "collection": "RIT-P03_s01",
+      "publisher_inclusive_span_frames": 278,
+      "container_frames": 280,
+      "frame_difference": 2,
+      "native_fps": 60.0,
+      "excluded_overlap": false,
+      "status": "BLOCKED_PUBLISHER_CROP_ORIGIN_AND_RATE_UNVERIFIED"
+    },
+    {
+      "sample_id": "rit3_4b82c389576a0224",
+      "collection": "RIT-P03_s01",
+      "publisher_inclusive_span_frames": 380,
+      "container_frames": 382,
+      "frame_difference": 2,
+      "native_fps": 60.0,
+      "excluded_overlap": false,
+      "status": "BLOCKED_PUBLISHER_CROP_ORIGIN_AND_RATE_UNVERIFIED"
+    }
+  ],
+  "joined_records": 278,
+  "nonoverlap_records": 276,
+  "fps_counts": {
+    "60.0": 278
+  },
+  "frame_difference_counts": {
+    "2": 278
+  },
+  "exact_span_matches": 0,
+  "accepted_training_records": 0,
+  "full_video_decode_or_feature_extraction_repeated": false,
+  "repair_performed": false,
+  "missing_evidence": "Publisher documentation for RIT60fps master-frame units and exact cropped-utterance origin/padding. Across observed clips container counts differ from the unchanged inclusive publisher span. No guessed one-frame offset, trimming, or frame-rate scaling is allowed."
+}

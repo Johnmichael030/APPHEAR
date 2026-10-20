@@ -1,0 +1,11 @@
+{
+  "reason": "The four-row smoke fit had no overlap with the global stratified64 monitor; evaluation on an empty list raised ZeroDivisionError before epoch1.",
+  "failed_command": "Run-Pilot.ps1 \u2192 python -B tools/train_pilot.py --name smoke",
+  "failed_output_preserved": "models/smoke and original logs; no checkpoint or epoch produced",
+  "source_sha256": "4d4f8bbaf48d90522e0d93fe09f84a3c6613479f4e3f13c99ec502f3fa0608dc",
+  "fixed_sha256": "1ad917550de6e9a11e487258fd48fe3e3da0f00e52d302c195906a7690a99333",
+  "manifest_sha256_unchanged": "efcb25826cab6d6ac5361ad80f12f65d722fdf483369d755c62f9791515cece6",
+  "smoke_monitor_count": 4,
+  "pilot_monitor_count": 64,
+  "changes": "Smoke monitor uses its actual four TRAIN rows; successful-smoke output gets new directory smoke_v2. Full pilot monitor/data/model/optimizer unchanged."
+}

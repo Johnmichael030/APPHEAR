@@ -1,0 +1,33 @@
+{
+  "status": "TRAIN_BLANK_OR_NO_LEARNABILITY_GATE",
+  "used_cuda": true,
+  "gpu": "NVIDIA GeForce RTX 3050 Laptop GPU",
+  "completed_epochs": 5,
+  "best_checkpoint": {
+    "path": "checkpoints\\epoch_004.pt",
+    "sha256": "3d66372e84f94bc42b0bdaa61702013601d3b7b1ac160f76a1e5a9bf147c25de",
+    "epoch": 4
+  },
+  "checkpoint_reload_predictions_match": true,
+  "train": 1706,
+  "dev": 413,
+  "unique_train_consumed": 1706,
+  "utterance_presentations": 8530,
+  "best_train_wer": 0.9760146303720898,
+  "best_dev_wer": 0.9799134734239803,
+  "best_dev_prediction_tokens": 283,
+  "best_dev_blank_fraction": 0.9839557087170216,
+  "epoch_loop_seconds": 58.49982250004541,
+  "fit_reload_full_train_diagnostics_seconds": 80.8409968999913,
+  "peak_allocated_vram_bytes": 1303643648,
+  "peak_reserved_vram_bytes": 1361051648,
+  "manifest_sha256": "04fb7c6c26bc934d6618902ceeaa2ee69e19d0c12e5bfe922e5743c8518c0ebe",
+  "script_sha256": "2da43ed0fca5542cf3e4259aac97718d70e0e2854a13ebdb9e382cd78f030d62",
+  "normalization_fit": "NewTRAIN only",
+  "vocab_fit": "NewTRAIN only",
+  "random_initialization": true,
+  "old_recognition_weights_read": false,
+  "test_accessed": false,
+  "production_promoted": false,
+  "comparison": "Newsame-pool signer-disjoint DEV; no numerical comparison to frozen old9DEV85.96%."
+}

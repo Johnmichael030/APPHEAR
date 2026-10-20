@@ -1,0 +1,83 @@
+{
+  "status": "PASS",
+  "tests": [
+    {
+      "status": "PASS",
+      "test": "synthetic_CTC_path_sum",
+      "target_ids": [
+        2
+      ],
+      "pytorch_loss": 2.616598325260428,
+      "exact_enumerated_loss": 2.616598325260428,
+      "absolute_error": 0.0,
+      "scope": "Synthetic test, not model evaluation; no optimizer/backward."
+    },
+    {
+      "status": "PASS",
+      "test": "synthetic_CTC_path_sum",
+      "target_ids": [
+        2,
+        2
+      ],
+      "pytorch_loss": 3.9303110114825817,
+      "exact_enumerated_loss": 3.930311011482581,
+      "absolute_error": 4.440892098500626e-16,
+      "scope": "Synthetic test, not model evaluation; no optimizer/backward."
+    },
+    {
+      "status": "PASS",
+      "test": "synthetic_CTC_path_sum",
+      "target_ids": [
+        1,
+        2
+      ],
+      "pytorch_loss": 2.6247042415602744,
+      "exact_enumerated_loss": 2.6247042415602744,
+      "absolute_error": 0.0,
+      "scope": "Synthetic test, not model evaluation; no optimizer/backward."
+    },
+    {
+      "status": "PASS",
+      "test": "latest_epoch_DEV_replay",
+      "epoch": 17,
+      "checkpoint_sha256": "99c8826b161c9d9964d3eb65f72bf426370e7884c24847d1a3bceb8695effcce",
+      "log_edit_count_parity": true
+    }
+  ],
+  "EAF_joins": 460,
+  "EAF_failures": [],
+  "index_joins": 915,
+  "index_failures": [],
+  "DEV_unique_literal_labels": 25,
+  "DEV_label_counts": {
+    "IX-3p:i": 13,
+    "LEARN+AGENT": 3,
+    "MOTHERwg": 4,
+    "CAR": 4,
+    "BUY": 6,
+    "FINISH": 1,
+    "IX-loc:i": 2,
+    "HOLD": 2,
+    "MOTHER": 2,
+    "FUTURE": 1,
+    "POSS-3p:i": 1,
+    "FATHERwg": 1,
+    "HOUSE": 1,
+    "WHICH": 1,
+    "IX-loc-arc": 1,
+    "BOOK": 4,
+    "READ++": 2,
+    "PLAN": 1,
+    "LATERwg": 1,
+    "MOTHER+": 1,
+    "READ+": 1,
+    "IX-3p:j": 1,
+    "FATHER": 1,
+    "SHOULD": 1,
+    "NOT": 1
+  },
+  "DEV_metadata_signer_ids_available": 0,
+  "EAF_DEV_participant_attributes_available": false,
+  "elapsed_seconds": 1.3341427999839652,
+  "training_performed": false
+}

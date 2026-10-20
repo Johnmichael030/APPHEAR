@@ -1,0 +1,32 @@
+{
+  "status": "MAX_EPOCHS",
+  "completed_epochs": 1,
+  "used_cuda": true,
+  "gpu_name": "NVIDIA GeForce RTX 3050 Laptop GPU",
+  "seconds": 0.45863290000124834,
+  "best_dev_score": [
+    1.8571428571428572,
+    30.108769416809082
+  ],
+  "best_checkpoint": {
+    "path": "checkpoints\\epoch_001.pt",
+    "sha256": "144f4b553c7d98eb35bcaea74a44e7c48ef27fadc29c1229e0c22bbe779fd2fa",
+    "epoch": 1
+  },
+  "checkpoint_reload_predictions_match": true,
+  "vocabulary_size": 117,
+  "parameter_count": 26421,
+  "worker_memory": {
+    "actual_pid": 11308,
+    "working_set_bytes": 1138393088,
+    "peak_working_set_bytes": 1139359744,
+    "private_commit_bytes": 2316861440,
+    "peak_pagefile_bytes": 2316861440
+  },
+  "manifest_sha256": "1835f9c30234add2a951793ab9fa2776a75ef295d2842f6d6f7d96f83ea510a9",
+  "script_sha256": "da5c24ca659652350b788325ae00437a7d1145ce36902ec823df7517efcfb140",
+  "peak_allocated_vram_bytes": 69322240,
+  "peak_reserved_vram_bytes": 71303168,
+  "device": "cuda:0",
+  "test_accessed": false
+}

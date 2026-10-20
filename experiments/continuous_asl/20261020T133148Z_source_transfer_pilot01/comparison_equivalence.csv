@@ -1,0 +1,4 @@
+﻿baseline,evaluation_equivalent,labels_equivalent,vocabulary_equivalent,normalization_equivalent,decoder,status
+Frozen85.96%NCSLGR9DEV,False,False,False,False,Same greedy CTC family; insufficient for equivalence,NON_EQUIVALENT; no WER ranking
+ASLLRP1706TRAIN413DEV pilot,False,True,False,False,Reused unchanged core greedy decoder,NON_EQUIVALENT; previous weights also leak internal holdout
+ASLLRP497TRAIN92compatibleDEV pilot,False,True,False,False,Reused unchanged core greedy decoder,NON_EQUIVALENT; restricted target task and different normalization

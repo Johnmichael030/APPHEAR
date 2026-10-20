@@ -1,0 +1,8 @@
+{
+  "status": "PASS",
+  "failures": [],
+  "fresh_guard_hashes_and_mtimes": 4,
+  "fresh_protected_metadata_checks": 3338,
+  "scope": "Fresh guard SHA256 and protected size/mtime checks; original full content-hash evidence reused, not rerun.",
+  "full_hash_evidence_reused": "D:\\apphearv3claude\\AppHear-claude-s2-r3-eval-suite\\AppHear-claude-s2-r3-eval-suite\\experiments\\continuous_asl\\20261020T004837_separate02\\continuation_20261020T013509\\evidence\\preservation.json"
+}

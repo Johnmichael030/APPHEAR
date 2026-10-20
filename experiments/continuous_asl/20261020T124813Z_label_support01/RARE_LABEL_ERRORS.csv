@@ -1,0 +1,19 @@
+﻿model,effective_TRAIN_support_bucket,reference_tokens,correct,substitutions,deletions,reference_error_fraction,insertions
+latest64,10-19,178,23,41,114,0.8707865168539326,excluded from reference-token strata; preserved in original WER
+latest64,0_UNSEEN,1399,0,495,904,1.0,excluded from reference-token strata; preserved in original WER
+latest64,2-4,648,37,186,425,0.9429012345679012,excluded from reference-token strata; preserved in original WER
+latest64,1,609,3,195,411,0.9950738916256158,excluded from reference-token strata; preserved in original WER
+latest64,5-9,305,8,72,225,0.9737704918032787,excluded from reference-token strata; preserved in original WER
+latest64,20+,97,13,12,72,0.865979381443299,excluded from reference-token strata; preserved in original WER
+full1706,20+,1687,65,126,1496,0.9614700652045051,excluded from reference-token strata; preserved in original WER
+full1706,2-4,261,0,13,248,1.0,excluded from reference-token strata; preserved in original WER
+full1706,5-9,403,0,27,376,1.0,excluded from reference-token strata; preserved in original WER
+full1706,1,146,0,7,139,1.0,excluded from reference-token strata; preserved in original WER
+full1706,10-19,382,0,19,363,1.0,excluded from reference-token strata; preserved in original WER
+full1706,0_UNSEEN,357,0,26,331,1.0,excluded from reference-token strata; preserved in original WER
+NCS906,20+,44,2,12,30,0.9545454545454546,excluded from reference-token strata; preserved in original WER
+NCS906,5-9,6,0,0,6,1.0,excluded from reference-token strata; preserved in original WER
+NCS906,2-4,4,0,2,2,1.0,excluded from reference-token strata; preserved in original WER
+NCS906,1,1,0,0,1,1.0,excluded from reference-token strata; preserved in original WER
+NCS906,0_UNSEEN,1,0,1,0,1.0,excluded from reference-token strata; preserved in original WER
+NCS906,10-19,1,0,1,0,1.0,excluded from reference-token strata; preserved in original WER

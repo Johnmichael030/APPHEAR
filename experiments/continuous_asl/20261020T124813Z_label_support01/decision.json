@@ -1,0 +1,51 @@
+{
+  "status": "PASS_SCOPED_PILOT_CANDIDATE",
+  "selected": "ASLLRP3_support5",
+  "rule": "ParentTRAINsupport>=5 whole-sequence one-pass; chosen by predeclared coverage gates, no score-based threshold choice.",
+  "critical_limitation": "Retained-set support may fall below5; not a guaranteed5-per-label closed core. Recursive5/10 cores empty. No target edits.",
+  "details": {
+    "threshold_in_parent_TRAIN": 5,
+    "parent_labels_allowed": 547,
+    "retained_TRAIN_utterances": 497,
+    "actual_TRAIN_vocabulary_labels": 423,
+    "retained_tokens": 2665,
+    "excluded_TRAIN_utterances": 1209,
+    "original_DEV_tokens_covered_pct": 72.96044499381954,
+    "compatible_DEV_utterances": 92,
+    "original_DEV_whole_utterance_coverage_pct": 22.276029055690074,
+    "retained_support_min": 1,
+    "retained_labels_below_parent_threshold": 279,
+    "retained_support_bins": {
+      "20+": 24,
+      "2-4": 189,
+      "1": 90,
+      "5-9": 86,
+      "10-19": 34
+    },
+    "TRAIN_signers": [
+      "asllrp_dai_participant_2",
+      "asllrp_dai_participant_3",
+      "asllrp_dai_participant_5"
+    ],
+    "TRAIN_sources": 37,
+    "compatible_DEV_sources": 8,
+    "recursive_counts": [
+      497,
+      176,
+      76,
+      43,
+      26,
+      12,
+      3,
+      0,
+      0
+    ],
+    "recursive_final_TRAIN": 0
+  },
+  "manifest_sha256": "a735d19f84338a36146c11aeba7923cda6204c41153f617251ace9c1a5daafdf",
+  "compatible_dev_sha256": "1232bdb2320b2a7ff869c4b349edc22b7a6f4321a5893da1d01760a4afe277af",
+  "original_DEV_unchanged": true,
+  "trial_budget": "One fresh425-class48channelCUDA model,30epoch/90s bound,greedyCTC. NewTRAIN-onlymean/std/vocab; restrictedDEVlocal selection,original413DEVreport only.",
+  "elapsed_seconds": 1.336330000020098,
+  "TEST_used": false
+}

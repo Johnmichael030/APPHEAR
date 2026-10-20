@@ -1,0 +1,14 @@
+# Dataset eligibility and separate learning tasks
+
+| Source | Task / evidence | Research decision | Remaining rights/data limits |
+|---|---|---|---|
+| ASL Citizen + canonical prepared bundle | Isolated glosses, 236 classes, [96,258], verified NPZ hashes/schema/masks/finite values | USED for A private noncommercial research | Local Microsoft Research License permits noncommercial/nonrevenue research, restricts distribution and personal-data use. No production/distribution clearance. |
+| NCSLGR | Authentic official-index gloss sequences; 37 complete RGB utterances | USED for B private research | [BU terms](https://www.bu.edu/asllrp/dai-terms.html) restrict commercial use and redistribution; signer/timed gloss XML unavailable without authorized account access. |
+| How2Sign | Eight newly decoded frontal validation clips + English tables + pose probe | Acquisition/quality probe only | [Project](https://how2sign.github.io/) research/CC BY-NC terms. No validated public gloss targets; no training on official validation. |
+| OpenASL | ASL-English translation, previously excluded ND terms | EXCLUDED | Training/derivative permissions not cleared; no payload acquired or used. |
+| WLASL | Isolated words; C-UDA agreement | EXCLUDED pending eligibility review | No agreement acceptance or verified payload in this run; never substituted as continuous labels. |
+| Local word videos / alphabet image folders | Filenames or static-letter labels do not establish sequence supervision/consent | EXCLUDED | Provenance/permissions unresolved, and static alphabet images do not establish streaming fingerspelling labels. |
+
+Raw ASL Citizen inventory: 83,399 video files, 49,600,223,768 bytes, plus official split CSVs and use.txt. This is metadata inventory, not full raw-video decoding/hash validation. The selected bundle has 13,236 TRAIN and 3,264 VAL **feature rows**, potentially multiple cadence views per source clip; raw clip IDs/timing are absent. Do not call them 16,500 independent videos. TRAIN class counts32–80, VAL4–24. All236 labels are retained. The vocabulary matches the unchanged legacy model's source vocabulary. Bundle signer sets match official train/validation membership:35/35 TRAIN,5 of6 official VAL; overlap0. Raw sample lineage/augmentation multiplicity was not independently reconstructed. No local recorder data were silently mixed in.
+
+Prepared feature provenance remains legacy normalized258; current Candidate01/RecognitionV2 uses a different representation. Research authorization does not make either candidate a drop-in production replacement. Retention/distribution obligations remain recorded; no source or derived media/model was redistributed. No additional negative-data consent is invented. Full private/raw content is not included in the reports.

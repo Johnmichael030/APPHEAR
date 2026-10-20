@@ -1,0 +1,1 @@
+{"status": "PASS", "checked_records": 3338, "original_2932_hashes_and_timestamps_preserved": true, "prior_run_artifacts_preserved": true, "hash_mismatches": [], "mtime_changes": [], "historical_timestamp_changes": [], "production_model_GLbs_manifests_avatar_choices": "included in protected original inventory", "Android_installed_or_changed": false}

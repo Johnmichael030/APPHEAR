@@ -1,0 +1,42 @@
+[
+  {
+    "sample_id": "rit3_115bc70b90616c49",
+    "collection": "RIT_P02-s01",
+    "path": "D:\\apphearv3claude\\AppHear-claude-s2-r3-eval-suite\\AppHear-claude-s2-r3-eval-suite\\experiments\\continuous_asl\\20261020T104054Z_expand_eval01\\data\\raw\\rit_utterances\\34676358.mp4",
+    "publisher_span_frames": 137,
+    "container_fps": 60.0,
+    "container_frames": 139,
+    "width": 1280.0,
+    "height": 1280.0
+  },
+  {
+    "sample_id": "rit3_070d5e0db572e28a",
+    "collection": "RIT-P02-s02",
+    "path": "D:\\apphearv3claude\\AppHear-claude-s2-r3-eval-suite\\AppHear-claude-s2-r3-eval-suite\\experiments\\continuous_asl\\20261020T104054Z_expand_eval01\\data\\raw\\rit_utterances\\8656936.mp4",
+    "publisher_span_frames": 164,
+    "container_fps": 60.0,
+    "container_frames": 166,
+    "width": 1280.0,
+    "height": 1280.0
+  },
+  {
+    "sample_id": "rit3_fd536cb9602ba89c",
+    "collection": "RIT-P02_s03",
+    "path": "D:\\apphearv3claude\\AppHear-claude-s2-r3-eval-suite\\AppHear-claude-s2-r3-eval-suite\\experiments\\continuous_asl\\20261020T104054Z_expand_eval01\\data\\raw\\rit_utterances\\53754130.mp4",
+    "publisher_span_frames": 205,
+    "container_fps": 60.0,
+    "container_frames": 207,
+    "width": 1280.0,
+    "height": 1280.0
+  },
+  {
+    "sample_id": "rit3_1bb3f58398235d13",
+    "collection": "RIT-P03_s01",
+    "path": "D:\\apphearv3claude\\AppHear-claude-s2-r3-eval-suite\\AppHear-claude-s2-r3-eval-suite\\experiments\\continuous_asl\\20261020T104054Z_expand_eval01\\data\\raw\\rit_utterances\\61671526.mp4",
+    "publisher_span_frames": 230,
+    "container_fps": 60.0,
+    "container_frames": 232,
+    "width": 1280.0,
+    "height": 1280.0
+  }
+]

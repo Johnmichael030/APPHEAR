@@ -1,0 +1,6 @@
+{
+  "source_sha256": "6cf2cdbb4c6d272e2e5e0e207f67ca37b1cc1a2a00b2de8de4a03be5f507a2fd",
+  "verification_prelude_sha256": "904552b1122e33276c683878e271a928668e811ed3734b69a156be401835acd9",
+  "trainer_sha256": "4d4f8bbaf48d90522e0d93fe09f84a3c6613479f4e3f13c99ec502f3fa0608dc",
+  "changes": "New906 snapshot/paths; unchanged model and optimizer math; stratifiedTRAIN monitoring and last/selected fullTRAIN diagnostics added."
+}

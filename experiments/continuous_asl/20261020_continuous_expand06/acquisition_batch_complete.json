@@ -1,0 +1,9 @@
+{
+  "status": "COMPLETE_MEDIA_BATCH",
+  "records": 234,
+  "downloaded": 231,
+  "reused": 1,
+  "deferred": 2,
+  "failures": 0,
+  "ledger": "logs/depaul_media_20261020T112710_458.jsonl"
+}

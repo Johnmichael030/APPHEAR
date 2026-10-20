@@ -1,0 +1,211 @@
+{
+  "status": "PARTIAL",
+  "paths": [
+    {
+      "path": "D:\\apphearv3claude\\AppHear-claude-s2-r3-eval-suite\\AppHear-claude-s2-r3-eval-suite\\artifacts\\recognition_upgrade\\perception_vnext\\recognition_utility_236_01\\s2_r2_phone_temporal_supervision_01\\p1_temporal_review_01\\p1_reviewed_intervals.csv",
+      "exists": false
+    },
+    {
+      "path": "D:\\apphearv3claude\\AppHear-claude-s2-r3-eval-suite\\AppHear-claude-s2-r3-eval-suite\\artifacts\\recognition_upgrade\\perception_vnext\\recognition_utility_236_01\\s2_r2_phone_temporal_supervision_01\\signer_governance_audit.json",
+      "exists": false
+    },
+    {
+      "path": "D:\\apphearv3claude\\AppHear-claude-s2-r3-eval-suite\\AppHear-claude-s2-r3-eval-suite\\artifacts\\recognition_upgrade\\perception_vnext\\recognition_utility_236_01\\s2_r3_negative_raw_01",
+      "exists": false
+    },
+    {
+      "path": "D:\\apphearv3claude\\AppHear-claude-s2-r3-eval-suite\\AppHear-claude-s2-r3-eval-suite\\artifacts\\recognition_upgrade\\perception_vnext\\recognition_utility_236_01\\phone_repeated_recognition_integration_01\\device_capture\\session_20260920T145710Z\\observations.jsonl",
+      "exists": false
+    },
+    {
+      "path": "D:\\apphearv3claude\\AppHear-claude-s2-r3-eval-suite\\AppHear-claude-s2-r3-eval-suite\\artifacts\\recognition_upgrade\\perception_vnext\\recognition_utility_236_01\\phone_new_sign_admission_and_active_acquisition_validation_01\\device_capture_final\\session_20260921T102840Z\\observations.jsonl",
+      "exists": false
+    },
+    {
+      "path": "D:\\apphearv3claude\\AppHear-claude-s2-r3-eval-suite\\AppHear-claude-s2-r3-eval-suite\\scratchpad\\e6_product_core_collection\\raw\\nosign\\signs",
+      "exists": false
+    },
+    {
+      "path": "D:\\apphearv3claude\\AppHear-claude-s2-r3-eval-suite\\AppHear-claude-s2-r3-eval-suite\\scratchpad\\e2e_c0_capture\\raw\\p1",
+      "exists": false
+    },
+    {
+      "path": "D:\\apphearv3claude\\AppHear-claude-s2-r3-eval-suite\\AppHear-claude-s2-r3-eval-suite\\evidence\\recognition_v3_stage2_device_20261015\\human_boundaries.analysis.json",
+      "exists": true,
+      "bytes": 2354,
+      "sha256": "ac73e5d569c24a543f7e982e3f36ad830c41c264ef77850248eae85fa948f96a"
+    },
+    {
+      "path": "D:\\apphearv3claude\\AppHear-claude-s2-r3-eval-suite\\AppHear-claude-s2-r3-eval-suite\\android\\app\\src\\test\\resources\\recognition_v3_stage2\\recorded_transition.tsv",
+      "exists": true,
+      "bytes": 66962,
+      "sha256": "da2ff92658b353eaf8a2b83fdb810f3cedd2488f4e944bbdfab9ff661652759c"
+    },
+    {
+      "path": "D:\\AppHear-claude-s2-r3-eval-suite\\artifacts\\recognition_upgrade\\perception_vnext\\recognition_utility_236_01\\s2_r2_phone_temporal_supervision_01\\p1_temporal_review_01\\p1_reviewed_intervals.csv",
+      "exists": false
+    },
+    {
+      "path": "D:\\AppHear-claude-s2-r3-eval-suite\\artifacts\\recognition_upgrade\\perception_vnext\\recognition_utility_236_01\\s2_r2_phone_temporal_supervision_01\\signer_governance_audit.json",
+      "exists": false
+    },
+    {
+      "path": "D:\\AppHear-claude-s2-r3-eval-suite\\artifacts\\recognition_upgrade\\perception_vnext\\recognition_utility_236_01\\s2_r3_negative_raw_01",
+      "exists": false
+    },
+    {
+      "path": "D:\\AppHear-claude-s2-r3-eval-suite\\artifacts\\recognition_upgrade\\perception_vnext\\recognition_utility_236_01\\phone_repeated_recognition_integration_01\\device_capture\\session_20260920T145710Z\\observations.jsonl",
+      "exists": false
+    },
+    {
+      "path": "D:\\AppHear-claude-s2-r3-eval-suite\\artifacts\\recognition_upgrade\\perception_vnext\\recognition_utility_236_01\\phone_new_sign_admission_and_active_acquisition_validation_01\\device_capture_final\\session_20260921T102840Z\\observations.jsonl",
+      "exists": false
+    },
+    {
+      "path": "D:\\AppHear-claude-s2-r3-eval-suite\\scratchpad\\e6_product_core_collection\\raw\\nosign\\signs",
+      "exists": false
+    },
+    {
+      "path": "D:\\AppHear-claude-s2-r3-eval-suite\\scratchpad\\e2e_c0_capture\\raw\\p1",
+      "exists": false
+    },
+    {
+      "path": "D:\\AppHear-claude-s2-r3-eval-suite\\evidence\\recognition_v3_stage2_device_20261015\\human_boundaries.analysis.json",
+      "exists": true,
+      "bytes": 2354,
+      "sha256": "ac73e5d569c24a543f7e982e3f36ad830c41c264ef77850248eae85fa948f96a"
+    },
+    {
+      "path": "D:\\AppHear-claude-s2-r3-eval-suite\\android\\app\\src\\test\\resources\\recognition_v3_stage2\\recorded_transition.tsv",
+      "exists": true,
+      "bytes": 66962,
+      "sha256": "da2ff92658b353eaf8a2b83fdb810f3cedd2488f4e944bbdfab9ff661652759c"
+    }
+  ],
+  "legacy_feature_headers": [
+    {
+      "path": "D:\\derived\\derived\\apphear3\\features_streaming_conversational_fps\\train.npz",
+      "exists": true,
+      "inspection": "NPY headers and scalar schema only; no feature/test payload loaded",
+      "bytes": 130210383,
+      "members": {
+        "X.npy": {
+          "descr": "<f4",
+          "fortran_order": false,
+          "shape": [
+            13236,
+            96,
+            258
+          ]
+        },
+        "frame_mask.npy": {
+          "descr": "|b1",
+          "fortran_order": false,
+          "shape": [
+            13236,
+            96
+          ]
+        },
+        "lengths.npy": {
+          "descr": "<i4",
+          "fortran_order": false,
+          "shape": [
+            13236
+          ]
+        },
+        "y.npy": {
+          "descr": "<i4",
+          "fortran_order": false,
+          "shape": [
+            13236
+          ]
+        },
+        "participant_ids.npy": {
+          "descr": "<U3",
+          "fortran_order": false,
+          "shape": [
+            13236
+          ]
+        },
+        "schema_version.npy": {
+          "descr": "<U3",
+          "fortran_order": false,
+          "shape": [],
+          "scalar_value": "3.0"
+        },
+        "t_max.npy": {
+          "descr": "<i8",
+          "fortran_order": false,
+          "shape": []
+        }
+      }
+    },
+    {
+      "path": "D:\\derived\\derived\\apphear3\\features_streaming_recorded_local\\recorded.npz",
+      "exists": true,
+      "inspection": "NPY headers and scalar schema only; no feature/test payload loaded",
+      "bytes": 16371378,
+      "members": {
+        "X.npy": {
+          "descr": "<f4",
+          "fortran_order": false,
+          "shape": [
+            1076,
+            96,
+            258
+          ]
+        },
+        "frame_mask.npy": {
+          "descr": "|b1",
+          "fortran_order": false,
+          "shape": [
+            1076,
+            96
+          ]
+        },
+        "lengths.npy": {
+          "descr": "<i4",
+          "fortran_order": false,
+          "shape": [
+            1076
+          ]
+        },
+        "y.npy": {
+          "descr": "<i4",
+          "fortran_order": false,
+          "shape": [
+            1076
+          ]
+        },
+        "participant_ids.npy": {
+          "descr": "<U11",
+          "fortran_order": false,
+          "shape": [
+            1076
+          ]
+        },
+        "schema_version.npy": {
+          "descr": "<U3",
+          "fortran_order": false,
+          "shape": [],
+          "scalar_value": "3.0"
+        },
+        "t_max.npy": {
+          "descr": "<i8",
+          "fortran_order": false,
+          "shape": []
+        }
+      }
+    }
+  ],
+  "supplementary_manifest": "D:\\classmate_supplementary_dataset_package\\reports\\audit_manifest.csv",
+  "manifest_sha256": "9671504d53192ee415df22ac94fde65fa96d5f9e4365820d859e46b027a6ec4f",
+  "supplementary_rows": 4035,
+  "referenced_video_paths_existing": 4035,
+  "supplementary_schema_counts": {
+    "recorder_video_primary": 2769,
+    "baked_258_json_use_video_only": 1266
+  },
+  "supplementary_findings": "Clip-level ASL labels and signer IDs; not natural sequence gloss/boundary annotations. Presence does not establish consent for new streaming evaluation.",
+  "scope": "Current repository, duplicate transfer copy, D:/derived and existing supplementary package. Unrelated recordings only directory/filename inventoried; no media read or assumed consent. No exhaustive disk-wide absence claim."
+}

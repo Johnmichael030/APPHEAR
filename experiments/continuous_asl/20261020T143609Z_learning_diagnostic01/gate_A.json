@@ -1,0 +1,14 @@
+{
+  "status": "PASS",
+  "source_checkpoint_strict_load": true,
+  "feature_records_checked": 1580,
+  "blank_id": 0,
+  "unknown_id": 1,
+  "CUDA_forward_backward_optimizer_step": true,
+  "loss": 3.532957077026367,
+  "gradient_norm": 7.631564617156982,
+  "peak_allocated_bytes": 81739776,
+  "tail_group_count": 1,
+  "source_checkpoint_unchanged": true,
+  "preflight_seconds": 14.076721000019461
+}

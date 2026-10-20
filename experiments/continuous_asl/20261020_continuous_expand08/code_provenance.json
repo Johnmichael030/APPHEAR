@@ -1,0 +1,7 @@
+{
+  "source": "D:\\apphearv3claude\\AppHear-claude-s2-r3-eval-suite\\AppHear-claude-s2-r3-eval-suite\\experiments\\continuous_asl\\20261020_continuous_expand05\\tools\\train_expanded.py",
+  "source_sha256": "6cf2cdbb4c6d272e2e5e0e207f67ca37b1cc1a2a00b2de8de4a03be5f507a2fd",
+  "new_trainer_sha256": "bda4cd1f466a36ce75187bbcc4ae50884733f3f01dfc9cb7a597a346558a5fe8",
+  "changes": "New verified cache paths, one48-channel model plus smoke, actual consumed counts; unchanged fitting/model/CTC/greedy decoder. New bounded protocol and manifest.",
+  "model_decoder_sha256": "d434d2341348ab89558a82dfc9f952800e533246d4b6baf0294ee10fc013aa63"
+}

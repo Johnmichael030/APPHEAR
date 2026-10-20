@@ -1,0 +1,51 @@
+{
+  "status": "PASS",
+  "splits": [
+    {
+      "split": "train",
+      "rows": 13236,
+      "signers": 35,
+      "classes": 236,
+      "class_count_min": 32,
+      "class_count_max": 80,
+      "source": "D:\\classmate_e1_matched_rtx3050_package\\classmate_e1_matched_rtx3050_package\\data\\train\\train.npz",
+      "source_sha256": "e3fffa4b665ef7f5350fdf9d72bceb9775865deba1b4d3f5f06fe4f8e2144f99",
+      "prepared_X_sha256": "2bf0a9397092b6b4ed69b40cc352cead8ef30f10207f7c2ffb3f0009eb4fea6a",
+      "prepared_X_bytes": 1311317120,
+      "label_type": "ISOLATED_ASL_GLOSS",
+      "schema_version": "3.0",
+      "feature_shape": [
+        96,
+        258
+      ],
+      "provenance": "ASL Citizen-derived canonical 236-sign bundle; no local recorder data used",
+      "license": "Microsoft Research License; private noncommercial nonrevenue research; no redistribution",
+      "feature_lineage_limitation": "legacy normalized258, not current Candidate01/RecognitionV2 raw350"
+    },
+    {
+      "split": "val",
+      "rows": 3264,
+      "signers": 5,
+      "classes": 236,
+      "class_count_min": 4,
+      "class_count_max": 24,
+      "source": "D:\\classmate_e1_matched_rtx3050_package\\classmate_e1_matched_rtx3050_package\\data\\train\\val.npz",
+      "source_sha256": "b5668c0e17f53a0db8d55cdcf8f5263bcc57fb929702f0a85484a916b4965c98",
+      "prepared_X_sha256": "a5811bf90f3df44cee71d0183e564d301e02b2333bfa0e9070d18fd4122e7b0a",
+      "prepared_X_bytes": 323371136,
+      "label_type": "ISOLATED_ASL_GLOSS",
+      "schema_version": "3.0",
+      "feature_shape": [
+        96,
+        258
+      ],
+      "provenance": "ASL Citizen-derived canonical 236-sign bundle; no local recorder data used",
+      "license": "Microsoft Research License; private noncommercial nonrevenue research; no redistribution",
+      "feature_lineage_limitation": "legacy normalized258, not current Candidate01/RecognitionV2 raw350"
+    }
+  ],
+  "signer_overlap": 0,
+  "test_payload_opened": false,
+  "permissions_review": "local use.txt and official project checked; research only",
+  "augmentation": "none in first bounded run"
+}

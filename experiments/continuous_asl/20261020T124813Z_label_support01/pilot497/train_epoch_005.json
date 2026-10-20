@@ -1,0 +1,9186 @@
+{
+  "loss": 4.8416638772492435,
+  "gloss_wer": 0.9452157598499062,
+  "substitutions": 454,
+  "deletions": 2065,
+  "insertions": 0,
+  "reference_tokens": 2665,
+  "predictions": [
+    {
+      "sample_id": "asllrp3_013cf20f34d13a56",
+      "reference": [
+        "IX-1p",
+        "(L)LIVE",
+        "HOUSE",
+        "IX-loc:i",
+        "WITH",
+        "MOTHER+FATHER",
+        "TWO",
+        "BROTHER"
+      ],
+      "hypothesis": [
+        "IX-1p"
+      ],
+      "substitutions": 0,
+      "deletions": 7,
+      "insertions": 0,
+      "reference_tokens": 8
+    },
+    {
+      "sample_id": "asllrp3_3ac54cbe46704471",
+      "reference": [
+        "UP-TO-NOW",
+        "(L)LIVE",
+        "IX-loc:i",
+        "AROUND",
+        "ALMOST",
+        "THREE",
+        "YEAR"
+      ],
+      "hypothesis": [
+        "IX-3p:i"
+      ],
+      "substitutions": 1,
+      "deletions": 6,
+      "insertions": 0,
+      "reference_tokens": 7
+    },
+    {
+      "sample_id": "asllrp3_3429ff5aff4e6fe7",
+      "reference": [
+        "MEAN",
+        "IX-1p+",
+        "FINISH",
+        "GRADUATE",
+        "PAST+"
+      ],
+      "hypothesis": [
+        "IX-3p:i",
+        "IX-1p"
+      ],
+      "substitutions": 2,
+      "deletions": 3,
+      "insertions": 0,
+      "reference_tokens": 5
+    },
+    {
+      "sample_id": "asllrp3_e263157b3ad6cf33",
+      "reference": [
+        "KNOW",
+        "IX-3p:i",
+        "DURING/WHILE",
+        "DEAF",
+        "NOT"
+      ],
+      "hypothesis": [
+        "IX-1p"
+      ],
+      "substitutions": 1,
+      "deletions": 4,
+      "insertions": 0,
+      "reference_tokens": 5
+    },
+    {
+      "sample_id": "asllrp3_ee2bfab62b712278",
+      "reference": [
+        "(1h)NOW",
+        "RECENT-PAST",
+        "ARRIVE",
+        "NOW"
+      ],
+      "hypothesis": [
+        "NOT"
+      ],
+      "substitutions": 1,
+      "deletions": 3,
+      "insertions": 0,
+      "reference_tokens": 4
+    },
+    {
+      "sample_id": "asllrp3_c820ca6bf469097c",
+      "reference": [
+        "NEXT-WEEK",
+        "HOPE",
+        "ns-fs-JOHN",
+        "ARRIVE",
+        "ON",
+        "TIME",
+        "part:indef"
+      ],
+      "hypothesis": [
+        "IX-3p:i",
+        "SNOW"
+      ],
+      "substitutions": 2,
+      "deletions": 5,
+      "insertions": 0,
+      "reference_tokens": 7
+    },
+    {
+      "sample_id": "asllrp3_adb22b0ae8cb894c",
+      "reference": [
+        "NEXT-WEEK",
+        "IX-1p",
+        "HOPE",
+        "IX-1p",
+        "PASS",
+        "TEST"
+      ],
+      "hypothesis": [
+        "NOT"
+      ],
+      "substitutions": 1,
+      "deletions": 5,
+      "insertions": 0,
+      "reference_tokens": 6
+    },
+    {
+      "sample_id": "asllrp3_4d329f5d34988526",
+      "reference": [
+        "IX-1p",
+        "DEPART",
+        "(2h)LOOK",
+        "MOVIE",
+        "FINISH",
+        "(1h)part:indef"
+      ],
+      "hypothesis": [
+        "IX-3p:i",
+        "SNOW"
+      ],
+      "substitutions": 2,
+      "deletions": 4,
+      "insertions": 0,
+      "reference_tokens": 6
+    },
+    {
+      "sample_id": "asllrp3_d78533714ba65d1a",
+      "reference": [
+        "NEXT-WEEK",
+        "IX-1p",
+        "GO",
+        "AGAIN",
+        "MOVIE"
+      ],
+      "hypothesis": [
+        "IX-loc:i"
+      ],
+      "substitutions": 1,
+      "deletions": 4,
+      "insertions": 0,
+      "reference_tokens": 5
+    },
+    {
+      "sample_id": "asllrp3_f53dbfa5c07fb591",
+      "reference": [
+        "IX-3p-pl-2:i/j",
+        "ns-fs-MARY",
+        "ns-fs-JOHN",
+        "FUTURE",
+        "DEPART",
+        "TOMORROW"
+      ],
+      "hypothesis": [
+        "IX-1p"
+      ],
+      "substitutions": 1,
+      "deletions": 5,
+      "insertions": 0,
+      "reference_tokens": 6
+    },
+    {
+      "sample_id": "asllrp3_35284858338db8f7",
+      "reference": [
+        "IX-1p",
+        "KNOW+",
+        "IX-3p:i",
+        "READ",
+        "MANY",
+        "BOOK"
+      ],
+      "hypothesis": [
+        "IX-1p",
+        "IX-loc:i"
+      ],
+      "substitutions": 1,
+      "deletions": 4,
+      "insertions": 0,
+      "reference_tokens": 6
+    },
+    {
+      "sample_id": "asllrp3_5da2b9ed01b4a3c9",
+      "reference": [
+        "IX-3p:i",
+        "ns-fs-MARY",
+        "MAYBE",
+        "BORN",
+        "FUTURE",
+        "WIDE",
+        "BABY",
+        "MAYBE"
+      ],
+      "hypothesis": [
+        "IX-3p:i"
+      ],
+      "substitutions": 0,
+      "deletions": 7,
+      "insertions": 0,
+      "reference_tokens": 8
+    },
+    {
+      "sample_id": "asllrp3_ee82a5315fb2d32c",
+      "reference": [
+        "MAYBE",
+        "TOMORROW",
+        "RAIN",
+        "FINISH",
+        "STOP"
+      ],
+      "hypothesis": [
+        "IX-1p"
+      ],
+      "substitutions": 1,
+      "deletions": 4,
+      "insertions": 0,
+      "reference_tokens": 5
+    },
+    {
+      "sample_id": "asllrp3_d8efd03ab52b8da4",
+      "reference": [
+        "IF",
+        "TOMORROW",
+        "RAIN",
+        "STOP",
+        "IX-1p",
+        "DEPART"
+      ],
+      "hypothesis": [
+        "IX-3p:i",
+        "IX-1p"
+      ],
+      "substitutions": 1,
+      "deletions": 4,
+      "insertions": 0,
+      "reference_tokens": 6
+    },
+    {
+      "sample_id": "asllrp3_393aa142bad460ac",
+      "reference": [
+        "IX-1p",
+        "KNOW+",
+        "IX-3p:i",
+        "FINISH",
+        "READ",
+        "BOOK"
+      ],
+      "hypothesis": [
+        "IX-3p:i"
+      ],
+      "substitutions": 0,
+      "deletions": 5,
+      "insertions": 0,
+      "reference_tokens": 6
+    },
+    {
+      "sample_id": "asllrp3_1c787271cb80fda4",
+      "reference": [
+        "IX-1p",
+        "NOT",
+        "WANT_2",
+        "READ+",
+        "IX-1p",
+        "WANT",
+        "DEPART"
+      ],
+      "hypothesis": [
+        "IX-1p",
+        "NOT"
+      ],
+      "substitutions": 0,
+      "deletions": 5,
+      "insertions": 0,
+      "reference_tokens": 7
+    },
+    {
+      "sample_id": "asllrp3_951e994a7bee6608",
+      "reference": [
+        "IX-3p:i",
+        "KNOW",
+        "MANY",
+        "DIFFERENT-arc",
+        "(5)MAN"
+      ],
+      "hypothesis": [
+        "IX-3p:i"
+      ],
+      "substitutions": 0,
+      "deletions": 4,
+      "insertions": 0,
+      "reference_tokens": 5
+    },
+    {
+      "sample_id": "asllrp3_5969eee0186dcd38",
+      "reference": [
+        "IX-3p:i",
+        "FINISH",
+        "DECIDE",
+        "DO-DO+"
+      ],
+      "hypothesis": [
+        "IX-3p:i"
+      ],
+      "substitutions": 0,
+      "deletions": 3,
+      "insertions": 0,
+      "reference_tokens": 4
+    },
+    {
+      "sample_id": "asllrp3_72acd27644ecc346",
+      "reference": [
+        "MAYBE",
+        "POSS-3p:i",
+        "CAR",
+        "HERE"
+      ],
+      "hypothesis": [],
+      "substitutions": 0,
+      "deletions": 4,
+      "insertions": 0,
+      "reference_tokens": 4
+    },
+    {
+      "sample_id": "asllrp3_7eb03f7e82d67f05",
+      "reference": [
+        "LONG-AGO+",
+        "POSS-3p:i",
+        "ns-fs-MARY",
+        "NAME",
+        "DO-DO+"
+      ],
+      "hypothesis": [
+        "IX-1p",
+        "IX-loc:i"
+      ],
+      "substitutions": 2,
+      "deletions": 3,
+      "insertions": 0,
+      "reference_tokens": 5
+    },
+    {
+      "sample_id": "asllrp3_61724878bdf0560c",
+      "reference": [
+        "IX-3p:i",
+        "ns-fs-MARY",
+        "KNOW",
+        "MANY",
+        "DIFFERENT-arc",
+        "LANGUAGE"
+      ],
+      "hypothesis": [
+        "IX-1p",
+        "SNOW",
+        "IX-1p"
+      ],
+      "substitutions": 3,
+      "deletions": 3,
+      "insertions": 0,
+      "reference_tokens": 6
+    },
+    {
+      "sample_id": "asllrp3_982ec0ba59323430",
+      "reference": [
+        "ns-fs-MARY",
+        "LONG-AGO+",
+        "(L)LIVE",
+        "ns-BOSTON"
+      ],
+      "hypothesis": [
+        "IX-3p:i",
+        "SNOW"
+      ],
+      "substitutions": 2,
+      "deletions": 2,
+      "insertions": 0,
+      "reference_tokens": 4
+    },
+    {
+      "sample_id": "asllrp3_659c3053beaaec98",
+      "reference": [
+        "IX-3p:i",
+        "(5)MAN",
+        "BORN",
+        "WHERE",
+        "ns-CHICAGO"
+      ],
+      "hypothesis": [
+        "IX-3p:i",
+        "SNOW",
+        "DECIDE"
+      ],
+      "substitutions": 2,
+      "deletions": 2,
+      "insertions": 0,
+      "reference_tokens": 5
+    },
+    {
+      "sample_id": "asllrp3_17b01f5251d1003a",
+      "reference": [
+        "POSS-3p:i",
+        "FATHER",
+        "GO-OUT",
+        "5\\perplexed\\\"\""
+      ],
+      "hypothesis": [
+        "NOT"
+      ],
+      "substitutions": 1,
+      "deletions": 3,
+      "insertions": 0,
+      "reference_tokens": 4
+    },
+    {
+      "sample_id": "asllrp3_1cb026a006162a79",
+      "reference": [
+        "POSS-1p",
+        "CAR",
+        "DIFFERENT",
+        "NOW",
+        "NOT",
+        "BIG",
+        "(1h)NOW",
+        "SMALL"
+      ],
+      "hypothesis": [
+        "ns-fs-MARY",
+        "IX-1p"
+      ],
+      "substitutions": 2,
+      "deletions": 6,
+      "insertions": 0,
+      "reference_tokens": 8
+    },
+    {
+      "sample_id": "asllrp3_4f9e5dc9019bbf2d",
+      "reference": [
+        "IX-3p:i",
+        "(5)MAN",
+        "DECIDE",
+        "WANT+NEG",
+        "BIG",
+        "CAR",
+        "FAVORITE/PREFER",
+        "SMALL",
+        "CAR"
+      ],
+      "hypothesis": [
+        "IX-1p"
+      ],
+      "substitutions": 1,
+      "deletions": 8,
+      "insertions": 0,
+      "reference_tokens": 9
+    },
+    {
+      "sample_id": "asllrp3_9a1c6b466c0d6f5d",
+      "reference": [
+        "IX-3p:i",
+        "(5)MAN",
+        "FINISH",
+        "DECIDE",
+        "READ",
+        "BOOK",
+        "TOMORROW"
+      ],
+      "hypothesis": [
+        "NOT",
+        "DECIDE"
+      ],
+      "substitutions": 1,
+      "deletions": 5,
+      "insertions": 0,
+      "reference_tokens": 7
+    },
+    {
+      "sample_id": "asllrp3_ff2c5106efe8031c",
+      "reference": [
+        "MAYBE",
+        "IX-3p-pl-2:i/j",
+        "ns-fs-JOHN",
+        "ns-fs-MARY",
+        "DECIDE",
+        "WORK",
+        "WITH",
+        "NOW",
+        "part:indef"
+      ],
+      "hypothesis": [
+        "IX-1p"
+      ],
+      "substitutions": 1,
+      "deletions": 8,
+      "insertions": 0,
+      "reference_tokens": 9
+    },
+    {
+      "sample_id": "asllrp3_e1590e6af3e7560b",
+      "reference": [
+        "(Y)YESTERDAY",
+        "RAIN+",
+        "ALL-DAY"
+      ],
+      "hypothesis": [
+        "IX-1p"
+      ],
+      "substitutions": 1,
+      "deletions": 2,
+      "insertions": 0,
+      "reference_tokens": 3
+    },
+    {
+      "sample_id": "asllrp3_71e4d9f6d71d40a5",
+      "reference": [
+        "RAIN",
+        "IX-2p",
+        "FAVORITE/PREFER",
+        "DRIVE"
+      ],
+      "hypothesis": [
+        "ns-fs-MARY",
+        "IX-1p"
+      ],
+      "substitutions": 2,
+      "deletions": 2,
+      "insertions": 0,
+      "reference_tokens": 4
+    },
+    {
+      "sample_id": "asllrp3_b4e6f9b173c4b2ad",
+      "reference": [
+        "IX-2p",
+        "KNOW+",
+        "PRESIDENT",
+        "ARRIVE",
+        "(Y)YESTERDAY"
+      ],
+      "hypothesis": [
+        "IX-3p:i",
+        "NOT"
+      ],
+      "substitutions": 2,
+      "deletions": 3,
+      "insertions": 0,
+      "reference_tokens": 5
+    },
+    {
+      "sample_id": "asllrp3_b8b332526e5361da",
+      "reference": [
+        "IX-1p",
+        "BORN",
+        "ns-BOSTON",
+        "GROW-UP",
+        "NOW",
+        "IX-1p",
+        "LIVE",
+        "HERE",
+        "MANY",
+        "YEAR"
+      ],
+      "hypothesis": [],
+      "substitutions": 0,
+      "deletions": 10,
+      "insertions": 0,
+      "reference_tokens": 10
+    },
+    {
+      "sample_id": "asllrp3_dac36cbddc1c5409",
+      "reference": [
+        "IX-1p",
+        "NOT",
+        "WANT",
+        "GO-OUT",
+        "RAIN+",
+        "NOW",
+        "part:indef"
+      ],
+      "hypothesis": [
+        "IX-1p"
+      ],
+      "substitutions": 0,
+      "deletions": 6,
+      "insertions": 0,
+      "reference_tokens": 7
+    },
+    {
+      "sample_id": "asllrp3_a85733fd765c39ad",
+      "reference": [
+        "ns-fs-JOHN",
+        "ARRIVE",
+        "(Y)YESTERDAY"
+      ],
+      "hypothesis": [
+        "ns-fs-JOHN"
+      ],
+      "substitutions": 0,
+      "deletions": 2,
+      "insertions": 0,
+      "reference_tokens": 3
+    },
+    {
+      "sample_id": "asllrp3_09bf85196934962b",
+      "reference": [
+        "ns-fs-MARY",
+        "ACCEPT",
+        "MANY",
+        "DIFFERENT+",
+        "CAR"
+      ],
+      "hypothesis": [
+        "CAR"
+      ],
+      "substitutions": 0,
+      "deletions": 4,
+      "insertions": 0,
+      "reference_tokens": 5
+    },
+    {
+      "sample_id": "asllrp3_d07ae4a18cc66093",
+      "reference": [
+        "ns-fs-MARY",
+        "IX-loc:i",
+        "KNOW+",
+        "RAIN+",
+        "HERE",
+        "(Y)YESTERDAY"
+      ],
+      "hypothesis": [
+        "IX-3p:i",
+        "NOT"
+      ],
+      "substitutions": 2,
+      "deletions": 4,
+      "insertions": 0,
+      "reference_tokens": 6
+    },
+    {
+      "sample_id": "asllrp3_c858509ef73f63a2",
+      "reference": [
+        "ns-fs-MARY",
+        "IX-loc:i",
+        "(1h)PAY/BUY",
+        "CAR",
+        "(Y)YESTERDAY"
+      ],
+      "hypothesis": [
+        "IX-1p",
+        "IX-loc:i"
+      ],
+      "substitutions": 1,
+      "deletions": 3,
+      "insertions": 0,
+      "reference_tokens": 5
+    },
+    {
+      "sample_id": "asllrp3_086eb559c9e909a1",
+      "reference": [
+        "IX-3p:i",
+        "ns-fs-MARY",
+        "BORN",
+        "BIG_2",
+        "BABY",
+        "(1h)WOW/AWFUL"
+      ],
+      "hypothesis": [
+        "IX-3p:i"
+      ],
+      "substitutions": 0,
+      "deletions": 5,
+      "insertions": 0,
+      "reference_tokens": 6
+    },
+    {
+      "sample_id": "asllrp3_60926b1cb36dac72",
+      "reference": [
+        "POSS-1p+",
+        "CAR",
+        "HERE"
+      ],
+      "hypothesis": [
+        "IX-3p:i",
+        "IX-1p"
+      ],
+      "substitutions": 2,
+      "deletions": 1,
+      "insertions": 0,
+      "reference_tokens": 3
+    },
+    {
+      "sample_id": "asllrp3_0b4efabf526e5ea0",
+      "reference": [
+        "IX-3p:i",
+        "ns-fs-MARY",
+        "ACCEPT",
+        "MANY",
+        "DO-DO+",
+        "part:indef"
+      ],
+      "hypothesis": [
+        "IX-1p"
+      ],
+      "substitutions": 1,
+      "deletions": 5,
+      "insertions": 0,
+      "reference_tokens": 6
+    },
+    {
+      "sample_id": "asllrp3_0a66b09f16ef3e3a",
+      "reference": [
+        "ns-fs-JOHN",
+        "READ+",
+        "MANY",
+        "BOOK+"
+      ],
+      "hypothesis": [
+        "IX-3p:i"
+      ],
+      "substitutions": 1,
+      "deletions": 3,
+      "insertions": 0,
+      "reference_tokens": 4
+    },
+    {
+      "sample_id": "asllrp3_3f4a23b8e27c980f",
+      "reference": [
+        "IX-3p:i",
+        "ns-fs-JOHN",
+        "(1h)HAVE",
+        "DIFFERENT",
+        "CAR+"
+      ],
+      "hypothesis": [],
+      "substitutions": 0,
+      "deletions": 5,
+      "insertions": 0,
+      "reference_tokens": 5
+    },
+    {
+      "sample_id": "asllrp3_a5466d81bd4900a1",
+      "reference": [
+        "IX-3p:i",
+        "ns-fs-MARY",
+        "(1h)HAVE",
+        "DIFFERENT",
+        "BICYCLE"
+      ],
+      "hypothesis": [
+        "IX-3p:i"
+      ],
+      "substitutions": 0,
+      "deletions": 4,
+      "insertions": 0,
+      "reference_tokens": 5
+    },
+    {
+      "sample_id": "asllrp3_42771e7b1a5dcdce",
+      "reference": [
+        "MAYBE",
+        "ns-fs-MARY",
+        "FUTURE",
+        "(1h)PAY/BUY",
+        "CAR"
+      ],
+      "hypothesis": [
+        "CAR"
+      ],
+      "substitutions": 0,
+      "deletions": 4,
+      "insertions": 0,
+      "reference_tokens": 5
+    },
+    {
+      "sample_id": "asllrp3_1e458742a29e665a",
+      "reference": [
+        "IX-3p:i",
+        "(Y)YESTERDAY",
+        "ns-fs-JOHN",
+        "DECIDE",
+        "DO-DO+",
+        "part:indef"
+      ],
+      "hypothesis": [
+        "IX-3p:i"
+      ],
+      "substitutions": 0,
+      "deletions": 5,
+      "insertions": 0,
+      "reference_tokens": 6
+    },
+    {
+      "sample_id": "asllrp3_91cf89fed7a133db",
+      "reference": [
+        "ns-fs-JOHN",
+        "DECIDE",
+        "DO-DO",
+        "(Y)YESTERDAY",
+        "part:indef"
+      ],
+      "hypothesis": [
+        "IX-loc:i"
+      ],
+      "substitutions": 1,
+      "deletions": 4,
+      "insertions": 0,
+      "reference_tokens": 5
+    },
+    {
+      "sample_id": "asllrp3_4019d8621080e327",
+      "reference": [
+        "ns-fs-MARY",
+        "IX-loc:i",
+        "DECIDE",
+        "(1h)PAY/BUY",
+        "NEW",
+        "CAR"
+      ],
+      "hypothesis": [
+        "IX-loc:i",
+        "DECIDE"
+      ],
+      "substitutions": 0,
+      "deletions": 4,
+      "insertions": 0,
+      "reference_tokens": 6
+    },
+    {
+      "sample_id": "asllrp3_e246ee9429fcfa93",
+      "reference": [
+        "ns-fs-JOHN",
+        "MAYBE",
+        "FUTURE",
+        "LIVE",
+        "HERE"
+      ],
+      "hypothesis": [
+        "IX-1p"
+      ],
+      "substitutions": 1,
+      "deletions": 4,
+      "insertions": 0,
+      "reference_tokens": 5
+    },
+    {
+      "sample_id": "asllrp3_494f2a5f6d3a10a9",
+      "reference": [
+        "IX-3p:i",
+        "ns-fs-MARY",
+        "NOT",
+        "HERE",
+        "IX-3p:i",
+        "DEPART",
+        "RECENT-PAST"
+      ],
+      "hypothesis": [
+        "NOT"
+      ],
+      "substitutions": 0,
+      "deletions": 6,
+      "insertions": 0,
+      "reference_tokens": 7
+    },
+    {
+      "sample_id": "asllrp3_cfc6fca988fcb269",
+      "reference": [
+        "ns-fs-MARY",
+        "LOVE",
+        "MANY",
+        "(5)MAN",
+        "part:indef"
+      ],
+      "hypothesis": [
+        "ns-fs-MARY",
+        "IX-1p"
+      ],
+      "substitutions": 1,
+      "deletions": 3,
+      "insertions": 0,
+      "reference_tokens": 5
+    },
+    {
+      "sample_id": "asllrp3_7365226957b6e38f",
+      "reference": [
+        "ns-fs-MARY",
+        "NOW",
+        "(1h)HAVE",
+        "(1h)GOOD/THANK-YOU",
+        "CAR"
+      ],
+      "hypothesis": [
+        "NOT"
+      ],
+      "substitutions": 1,
+      "deletions": 4,
+      "insertions": 0,
+      "reference_tokens": 5
+    },
+    {
+      "sample_id": "asllrp3_1e27cfa63cce8991",
+      "reference": [
+        "IX-2p",
+        "WRONG",
+        "IX-3p:i",
+        "NOT",
+        "PINEAPPLE",
+        "fs-CREAM",
+        "CHEESE",
+        "IX-1p",
+        "FAVORITE/PREFER",
+        "fs-LOX"
+      ],
+      "hypothesis": [
+        "IX-1p"
+      ],
+      "substitutions": 0,
+      "deletions": 9,
+      "insertions": 0,
+      "reference_tokens": 10
+    },
+    {
+      "sample_id": "asllrp3_1154932b4f4440a4",
+      "reference": [
+        "#NO",
+        "IX-1p",
+        "NOT",
+        "LIKE",
+        "PINEAPPLE",
+        "fs-CREAM",
+        "CHEESE",
+        "IX-1p",
+        "FAVORITE/PREFER+",
+        "fs-LOX"
+      ],
+      "hypothesis": [
+        "IX-1p"
+      ],
+      "substitutions": 0,
+      "deletions": 9,
+      "insertions": 0,
+      "reference_tokens": 10
+    },
+    {
+      "sample_id": "asllrp3_cef0fe582517e4d0",
+      "reference": [
+        "IX-1p",
+        "REALLY",
+        "HAVE",
+        "PINEAPPLE",
+        "fs-CREAM",
+        "CHEESE"
+      ],
+      "hypothesis": [
+        "IX-3p:i"
+      ],
+      "substitutions": 1,
+      "deletions": 5,
+      "insertions": 0,
+      "reference_tokens": 6
+    },
+    {
+      "sample_id": "asllrp3_72536395864e1698",
+      "reference": [
+        "IX-1p",
+        "NOT",
+        "THRILL/WHAT'S-UP",
+        "#IF",
+        "HAVE",
+        "PINEAPPLE",
+        "fs-CREAM",
+        "CHEESE",
+        "part:indef"
+      ],
+      "hypothesis": [
+        "IX-1p"
+      ],
+      "substitutions": 0,
+      "deletions": 8,
+      "insertions": 0,
+      "reference_tokens": 9
+    },
+    {
+      "sample_id": "asllrp3_f0426c29075acf9f",
+      "reference": [
+        "IX-1p",
+        "SEE",
+        "FRIEND",
+        "TOMORROW",
+        "IX-1p",
+        "THRILL/WHAT'S-UP"
+      ],
+      "hypothesis": [
+        "NOT"
+      ],
+      "substitutions": 1,
+      "deletions": 5,
+      "insertions": 0,
+      "reference_tokens": 6
+    },
+    {
+      "sample_id": "asllrp3_4b72f63ced642ae2",
+      "reference": [
+        "#NO",
+        "IX-1p",
+        "NOT",
+        "HAVE",
+        "CAR"
+      ],
+      "hypothesis": [
+        "IX-1p"
+      ],
+      "substitutions": 0,
+      "deletions": 4,
+      "insertions": 0,
+      "reference_tokens": 5
+    },
+    {
+      "sample_id": "asllrp3_3969b08ae9d56785",
+      "reference": [
+        "NONE/NOTHING",
+        "CAR",
+        "IX-1p",
+        "part:indef"
+      ],
+      "hypothesis": [
+        "IX-1p",
+        "IX-loc:i",
+        "IX-1p"
+      ],
+      "substitutions": 2,
+      "deletions": 1,
+      "insertions": 0,
+      "reference_tokens": 4
+    },
+    {
+      "sample_id": "asllrp3_a89eb1b9ffde7c36",
+      "reference": [
+        "5\\wave no\\\"\"",
+        "IX-1p",
+        "NONE/NOTHING",
+        "CAR"
+      ],
+      "hypothesis": [
+        "ns-fs-MARY",
+        "SNOW"
+      ],
+      "substitutions": 2,
+      "deletions": 2,
+      "insertions": 0,
+      "reference_tokens": 4
+    },
+    {
+      "sample_id": "asllrp3_52b7bfda87820c61",
+      "reference": [
+        "GO-OUT+",
+        "SNOW",
+        "SCHOOL",
+        "CANCEL/CRITICIZE"
+      ],
+      "hypothesis": [
+        "IX-1p"
+      ],
+      "substitutions": 1,
+      "deletions": 3,
+      "insertions": 0,
+      "reference_tokens": 4
+    },
+    {
+      "sample_id": "asllrp3_f3cab6ef55838e2c",
+      "reference": [
+        "GO-OUT",
+        "NOT",
+        "SNOW",
+        "SCHOOL",
+        "NORMAL",
+        "NOT",
+        "CANCEL/CRITICIZE"
+      ],
+      "hypothesis": [
+        "NOT"
+      ],
+      "substitutions": 0,
+      "deletions": 6,
+      "insertions": 0,
+      "reference_tokens": 7
+    },
+    {
+      "sample_id": "asllrp3_8341e9adb1b63d3c",
+      "reference": [
+        "IX-loc:i",
+        "RAIN",
+        "HAPPEN",
+        "WHO",
+        "GO-OUT",
+        "part:indef"
+      ],
+      "hypothesis": [
+        "IX-1p"
+      ],
+      "substitutions": 1,
+      "deletions": 5,
+      "insertions": 0,
+      "reference_tokens": 6
+    },
+    {
+      "sample_id": "asllrp3_f17c329c3d944fb8",
+      "reference": [
+        "TEACH+AGENT",
+        "IX-3p:i",
+        "REQUIRE",
+        "IX-3p:j",
+        "ns-fs-JOHN",
+        "MUST",
+        "READ+",
+        "BOOK"
+      ],
+      "hypothesis": [
+        "IX-1p"
+      ],
+      "substitutions": 1,
+      "deletions": 7,
+      "insertions": 0,
+      "reference_tokens": 8
+    },
+    {
+      "sample_id": "asllrp3_b2219728e35db81f",
+      "reference": [
+        "TEACH+AGENT",
+        "REQUIRE",
+        "ns-fs-JOHN",
+        "IX-3p:i",
+        "FUTURE",
+        "READ",
+        "BOOK+"
+      ],
+      "hypothesis": [
+        "IX-loc:i"
+      ],
+      "substitutions": 1,
+      "deletions": 6,
+      "insertions": 0,
+      "reference_tokens": 7
+    },
+    {
+      "sample_id": "asllrp3_73bd5ebcf53fc833",
+      "reference": [
+        "ns-fs-MARY",
+        "NOT",
+        "STOP",
+        "ROWING",
+        "#NO+"
+      ],
+      "hypothesis": [
+        "IX-1p"
+      ],
+      "substitutions": 1,
+      "deletions": 4,
+      "insertions": 0,
+      "reference_tokens": 5
+    },
+    {
+      "sample_id": "asllrp3_6163e8163e0a7aaa",
+      "reference": [
+        "ns-fs-MARY",
+        "NEVER",
+        "START",
+        "ROWING",
+        "part:indef"
+      ],
+      "hypothesis": [
+        "ns-fs-JOHN"
+      ],
+      "substitutions": 1,
+      "deletions": 4,
+      "insertions": 0,
+      "reference_tokens": 5
+    },
+    {
+      "sample_id": "asllrp3_24ac8d090476770a",
+      "reference": [
+        "POSS-3p:i",
+        "ns-FRANCE",
+        "POSS-3p:i",
+        "KING",
+        "BALD"
+      ],
+      "hypothesis": [
+        "IX-1p"
+      ],
+      "substitutions": 1,
+      "deletions": 4,
+      "insertions": 0,
+      "reference_tokens": 5
+    },
+    {
+      "sample_id": "asllrp3_77f01b96ad87f033",
+      "reference": [
+        "ns-FRANCE",
+        "POSS-3p:i",
+        "KING",
+        "BALD",
+        "#NO+",
+        "REALLY",
+        "NONE/NOTHING",
+        "part:indef"
+      ],
+      "hypothesis": [
+        "IX-1p"
+      ],
+      "substitutions": 1,
+      "deletions": 7,
+      "insertions": 0,
+      "reference_tokens": 8
+    },
+    {
+      "sample_id": "asllrp3_8f0e562240ecc720",
+      "reference": [
+        "NOW+",
+        "ns-FRANCE",
+        "(1h)HAVE",
+        "KING",
+        "QMwg"
+      ],
+      "hypothesis": [
+        "ns-fs-MARY",
+        "SNOW"
+      ],
+      "substitutions": 2,
+      "deletions": 3,
+      "insertions": 0,
+      "reference_tokens": 5
+    },
+    {
+      "sample_id": "asllrp3_f3c36d24a51316ce",
+      "reference": [
+        "NOW",
+        "ns-FRANCE",
+        "KING",
+        "BALD",
+        "(1h)5\\perplexed\\\"\"",
+        "NONE/NOTHING",
+        "(1h)5\\perplexed\\\"\""
+      ],
+      "hypothesis": [
+        "IX-1p"
+      ],
+      "substitutions": 1,
+      "deletions": 6,
+      "insertions": 0,
+      "reference_tokens": 7
+    },
+    {
+      "sample_id": "asllrp3_ec3255952332e9eb",
+      "reference": [
+        "ns-FRANCE",
+        "POSS-3p:i",
+        "KING",
+        "BALD",
+        "NOT",
+        "#NO",
+        "IX-3p:i",
+        "NONE/NOTHING",
+        "KING",
+        "NOW",
+        "part:indef"
+      ],
+      "hypothesis": [
+        "IX-1p"
+      ],
+      "substitutions": 1,
+      "deletions": 10,
+      "insertions": 0,
+      "reference_tokens": 11
+    },
+    {
+      "sample_id": "asllrp3_30b5a8b53dfddad6",
+      "reference": [
+        "NOW",
+        "ns-FRANCE",
+        "KING",
+        "BALD",
+        "(1h)part:indef"
+      ],
+      "hypothesis": [
+        "ns-fs-JOHN",
+        "IX-1p"
+      ],
+      "substitutions": 2,
+      "deletions": 3,
+      "insertions": 0,
+      "reference_tokens": 5
+    },
+    {
+      "sample_id": "asllrp3_4e6186f2b2ed3a31",
+      "reference": [
+        "IX-3p:i",
+        "TALK",
+        "A-LOT",
+        "IX-3p:i"
+      ],
+      "hypothesis": [
+        "IX-3p:i",
+        "SNOW"
+      ],
+      "substitutions": 1,
+      "deletions": 2,
+      "insertions": 0,
+      "reference_tokens": 4
+    },
+    {
+      "sample_id": "asllrp3_06d2e0165f944883",
+      "reference": [
+        "#NO++",
+        "NOT",
+        "RAIN+",
+        "(1h)5\\perplexed\\\"\""
+      ],
+      "hypothesis": [
+        "IX-3p:i",
+        "SNOW"
+      ],
+      "substitutions": 2,
+      "deletions": 2,
+      "insertions": 0,
+      "reference_tokens": 4
+    },
+    {
+      "sample_id": "asllrp3_98df3a2db70b629b",
+      "reference": [
+        "IF+",
+        "SNOW",
+        "NONE/NOTHING",
+        "IX-1p",
+        "TRIP",
+        "CANCEL/CRITICIZE"
+      ],
+      "hypothesis": [
+        "SNOW"
+      ],
+      "substitutions": 0,
+      "deletions": 5,
+      "insertions": 0,
+      "reference_tokens": 6
+    },
+    {
+      "sample_id": "asllrp3_01b8e3d1ababb26a",
+      "reference": [
+        "WHEN",
+        "SNOW",
+        "SCHOOL",
+        "CANCEL/CRITICIZE"
+      ],
+      "hypothesis": [
+        "IX-1p"
+      ],
+      "substitutions": 1,
+      "deletions": 3,
+      "insertions": 0,
+      "reference_tokens": 4
+    },
+    {
+      "sample_id": "asllrp3_410d32855db113e9",
+      "reference": [
+        "#WHEN",
+        "SNOW",
+        "SCHOOL",
+        "CANCEL/CRITICIZE"
+      ],
+      "hypothesis": [
+        "IX-3p:i",
+        "SNOW"
+      ],
+      "substitutions": 1,
+      "deletions": 2,
+      "insertions": 0,
+      "reference_tokens": 4
+    },
+    {
+      "sample_id": "asllrp3_d6573e9aaf690351",
+      "reference": [
+        "HAPPEN",
+        "SNOW",
+        "SCHOOL",
+        "CANCEL/CRITICIZE"
+      ],
+      "hypothesis": [
+        "IX-3p:i",
+        "SNOW"
+      ],
+      "substitutions": 1,
+      "deletions": 2,
+      "insertions": 0,
+      "reference_tokens": 4
+    },
+    {
+      "sample_id": "asllrp3_1ded803f4a36e28b",
+      "reference": [
+        "IF+",
+        "SNOW",
+        "SCHOOL",
+        "CANCEL/CRITICIZE"
+      ],
+      "hypothesis": [
+        "IX-1p",
+        "NOT"
+      ],
+      "substitutions": 2,
+      "deletions": 2,
+      "insertions": 0,
+      "reference_tokens": 4
+    },
+    {
+      "sample_id": "asllrp3_6a9631d0e130ca83",
+      "reference": [
+        "#IF",
+        "SNOW",
+        "SCHOOL",
+        "CANCEL/CRITICIZE"
+      ],
+      "hypothesis": [
+        "NOT"
+      ],
+      "substitutions": 1,
+      "deletions": 3,
+      "insertions": 0,
+      "reference_tokens": 4
+    },
+    {
+      "sample_id": "asllrp3_3dbbe6814c31ed9a",
+      "reference": [
+        "SNOW",
+        "SCHOOL",
+        "CANCEL/CRITICIZE"
+      ],
+      "hypothesis": [
+        "IX-3p:i",
+        "SNOW"
+      ],
+      "substitutions": 2,
+      "deletions": 1,
+      "insertions": 0,
+      "reference_tokens": 3
+    },
+    {
+      "sample_id": "asllrp3_395aff067aadbe91",
+      "reference": [
+        "WHEN",
+        "SNOW",
+        "SCHOOL",
+        "NOT",
+        "CANCEL/CRITICIZE"
+      ],
+      "hypothesis": [
+        "IX-1p"
+      ],
+      "substitutions": 1,
+      "deletions": 4,
+      "insertions": 0,
+      "reference_tokens": 5
+    },
+    {
+      "sample_id": "asllrp3_c847f37c6336f2e5",
+      "reference": [
+        "#WHEN",
+        "SNOW",
+        "SCHOOL",
+        "NOT",
+        "CANCEL/CRITICIZE"
+      ],
+      "hypothesis": [
+        "IX-1p",
+        "NOT"
+      ],
+      "substitutions": 1,
+      "deletions": 3,
+      "insertions": 0,
+      "reference_tokens": 5
+    },
+    {
+      "sample_id": "asllrp3_7f6bbd7cfe615727",
+      "reference": [
+        "SNOW",
+        "SCHOOL",
+        "NOT",
+        "CANCEL/CRITICIZE"
+      ],
+      "hypothesis": [
+        "NOT"
+      ],
+      "substitutions": 0,
+      "deletions": 3,
+      "insertions": 0,
+      "reference_tokens": 4
+    },
+    {
+      "sample_id": "asllrp3_135ec57447786809",
+      "reference": [
+        "HAPPEN",
+        "SNOW",
+        "SCHOOL",
+        "NOT",
+        "CANCEL/CRITICIZE",
+        "5\\out of my control\\\"\""
+      ],
+      "hypothesis": [
+        "IX-1p"
+      ],
+      "substitutions": 1,
+      "deletions": 5,
+      "insertions": 0,
+      "reference_tokens": 6
+    },
+    {
+      "sample_id": "asllrp3_e1560b98fab40ad9",
+      "reference": [
+        "IF+",
+        "SNOW",
+        "SCHOOL",
+        "STILL",
+        "NOT",
+        "CANCEL/CRITICIZE"
+      ],
+      "hypothesis": [
+        "IX-3p:i",
+        "SNOW"
+      ],
+      "substitutions": 1,
+      "deletions": 4,
+      "insertions": 0,
+      "reference_tokens": 6
+    },
+    {
+      "sample_id": "asllrp3_e975e26cd23184a8",
+      "reference": [
+        "#IF",
+        "SNOW",
+        "SCHOOL",
+        "CANCEL/CRITICIZE",
+        "NOT"
+      ],
+      "hypothesis": [
+        "IX-1p",
+        "NOT"
+      ],
+      "substitutions": 1,
+      "deletions": 3,
+      "insertions": 0,
+      "reference_tokens": 5
+    },
+    {
+      "sample_id": "asllrp3_12d2ee3f0d104161",
+      "reference": [
+        "SNOW",
+        "SCHOOL",
+        "CANCEL/CRITICIZE",
+        "CONTINUE"
+      ],
+      "hypothesis": [
+        "IX-3p:i",
+        "SNOW"
+      ],
+      "substitutions": 2,
+      "deletions": 2,
+      "insertions": 0,
+      "reference_tokens": 4
+    },
+    {
+      "sample_id": "asllrp3_6352c7c41fef6f2b",
+      "reference": [
+        "#WHEN",
+        "SNOW",
+        "NONE/NOTHING",
+        "SCHOOL",
+        "CONTINUE"
+      ],
+      "hypothesis": [
+        "IX-3p:i",
+        "SNOW"
+      ],
+      "substitutions": 1,
+      "deletions": 3,
+      "insertions": 0,
+      "reference_tokens": 5
+    },
+    {
+      "sample_id": "asllrp3_bbe96ea4b488baa7",
+      "reference": [
+        "HAPPEN",
+        "NONE/NOTHING",
+        "SNOW",
+        "SCHOOL",
+        "STILL",
+        "(1h)part:indef"
+      ],
+      "hypothesis": [
+        "IX-1p",
+        "NOT"
+      ],
+      "substitutions": 2,
+      "deletions": 4,
+      "insertions": 0,
+      "reference_tokens": 6
+    },
+    {
+      "sample_id": "asllrp3_60ff87872df6f412",
+      "reference": [
+        "IF+",
+        "SNOW",
+        "NONE/NOTHING",
+        "part:indef",
+        "SCHOOL",
+        "CONTINUE"
+      ],
+      "hypothesis": [
+        "IX-3p:i",
+        "SNOW"
+      ],
+      "substitutions": 1,
+      "deletions": 4,
+      "insertions": 0,
+      "reference_tokens": 6
+    },
+    {
+      "sample_id": "asllrp3_9cbba47cbc07ecff",
+      "reference": [
+        "#IF",
+        "SNOW",
+        "NONE/NOTHING",
+        "part:indef",
+        "SCHOOL",
+        "CONTINUE",
+        "(1h)part:indef"
+      ],
+      "hypothesis": [
+        "IX-1p",
+        "NOT"
+      ],
+      "substitutions": 2,
+      "deletions": 5,
+      "insertions": 0,
+      "reference_tokens": 7
+    },
+    {
+      "sample_id": "asllrp3_ed456fd3dcd0e3d3",
+      "reference": [
+        "WHEN",
+        "RAIN+",
+        "IX-1p",
+        "STAY_2",
+        "HOME"
+      ],
+      "hypothesis": [
+        "NOT"
+      ],
+      "substitutions": 1,
+      "deletions": 4,
+      "insertions": 0,
+      "reference_tokens": 5
+    },
+    {
+      "sample_id": "asllrp3_bd0ef89bd88643f4",
+      "reference": [
+        "#WHEN",
+        "RAIN+",
+        "IX-1p",
+        "STAY_2",
+        "HOME",
+        "(1h)part:indef"
+      ],
+      "hypothesis": [
+        "IX-3p:i",
+        "IX-1p"
+      ],
+      "substitutions": 1,
+      "deletions": 4,
+      "insertions": 0,
+      "reference_tokens": 6
+    },
+    {
+      "sample_id": "asllrp3_9404a0127b28e842",
+      "reference": [
+        "HAPPEN",
+        "RAIN+",
+        "IX-1p",
+        "STAY_2",
+        "HOME"
+      ],
+      "hypothesis": [],
+      "substitutions": 0,
+      "deletions": 5,
+      "insertions": 0,
+      "reference_tokens": 5
+    },
+    {
+      "sample_id": "asllrp3_60f17585a497fbf7",
+      "reference": [
+        "RAIN+",
+        "IX-1p",
+        "STAY_2",
+        "HOME"
+      ],
+      "hypothesis": [
+        "CAR"
+      ],
+      "substitutions": 1,
+      "deletions": 3,
+      "insertions": 0,
+      "reference_tokens": 4
+    },
+    {
+      "sample_id": "asllrp3_d72761840f2d7c63",
+      "reference": [
+        "#IF",
+        "RAIN+",
+        "IX-1p",
+        "STAY_2",
+        "HOME"
+      ],
+      "hypothesis": [
+        "IX-1p",
+        "NOT"
+      ],
+      "substitutions": 1,
+      "deletions": 3,
+      "insertions": 0,
+      "reference_tokens": 5
+    },
+    {
+      "sample_id": "asllrp3_c5f2136cd98271bc",
+      "reference": [
+        "IF+",
+        "RAIN+",
+        "IX-1p",
+        "STAY_2",
+        "HOME",
+        "(1h)part:indef"
+      ],
+      "hypothesis": [
+        "IX-loc:i"
+      ],
+      "substitutions": 1,
+      "deletions": 5,
+      "insertions": 0,
+      "reference_tokens": 6
+    },
+    {
+      "sample_id": "asllrp3_cf01d5fd3e352ae0",
+      "reference": [
+        "WHEN",
+        "RAIN",
+        "IX-1p",
+        "NOT",
+        "STAY_2",
+        "HOME",
+        "IX-1p",
+        "DEPART"
+      ],
+      "hypothesis": [
+        "ns-fs-MARY",
+        "SNOW"
+      ],
+      "substitutions": 2,
+      "deletions": 6,
+      "insertions": 0,
+      "reference_tokens": 8
+    },
+    {
+      "sample_id": "asllrp3_1219503586aff765",
+      "reference": [
+        "#WHEN",
+        "RAIN+",
+        "IX-1p",
+        "NOT",
+        "STAY_2",
+        "HOME",
+        "DEPART"
+      ],
+      "hypothesis": [
+        "CAR"
+      ],
+      "substitutions": 1,
+      "deletions": 6,
+      "insertions": 0,
+      "reference_tokens": 7
+    },
+    {
+      "sample_id": "asllrp3_964bf5ef7643afae",
+      "reference": [
+        "HAPPEN",
+        "RAIN+",
+        "IX-1p",
+        "STILL",
+        "DEPART"
+      ],
+      "hypothesis": [
+        "IX-1p"
+      ],
+      "substitutions": 0,
+      "deletions": 4,
+      "insertions": 0,
+      "reference_tokens": 5
+    },
+    {
+      "sample_id": "asllrp3_860394285d51ea15",
+      "reference": [
+        "IF+",
+        "RAIN+",
+        "IX-1p",
+        "STILL",
+        "GO-OUT"
+      ],
+      "hypothesis": [
+        "IX-1p",
+        "NOT"
+      ],
+      "substitutions": 1,
+      "deletions": 3,
+      "insertions": 0,
+      "reference_tokens": 5
+    },
+    {
+      "sample_id": "asllrp3_fe27a6692953ebb6",
+      "reference": [
+        "#IF",
+        "RAIN+",
+        "IX-1p",
+        "DEPART",
+        "(1h)part:indef"
+      ],
+      "hypothesis": [
+        "NOT",
+        "IX-1p"
+      ],
+      "substitutions": 1,
+      "deletions": 3,
+      "insertions": 0,
+      "reference_tokens": 5
+    },
+    {
+      "sample_id": "asllrp3_7947c6d79642a93b",
+      "reference": [
+        "IX-1p",
+        "(1h)HAPPY+"
+      ],
+      "hypothesis": [
+        "ns-fs-MARY"
+      ],
+      "substitutions": 1,
+      "deletions": 1,
+      "insertions": 0,
+      "reference_tokens": 2
+    },
+    {
+      "sample_id": "asllrp3_92a836635fc8d6a1",
+      "reference": [
+        "IX-2p",
+        "WANT+NEG",
+        "SOMETHING/ONE",
+        "(1h)part:indef"
+      ],
+      "hypothesis": [
+        "IX-1p"
+      ],
+      "substitutions": 1,
+      "deletions": 3,
+      "insertions": 0,
+      "reference_tokens": 4
+    },
+    {
+      "sample_id": "asllrp3_a762a2c9d6eeeabb",
+      "reference": [
+        "IX-2p",
+        "WANT",
+        "NONE/NOTHING",
+        "(1h)part:indef"
+      ],
+      "hypothesis": [
+        "IX-1p",
+        "NOT"
+      ],
+      "substitutions": 2,
+      "deletions": 2,
+      "insertions": 0,
+      "reference_tokens": 4
+    },
+    {
+      "sample_id": "asllrp3_4ef67400c5a13d08",
+      "reference": [
+        "IX-2p",
+        "WANT+NEG",
+        "IX-2p"
+      ],
+      "hypothesis": [
+        "ns-fs-MARY"
+      ],
+      "substitutions": 1,
+      "deletions": 2,
+      "insertions": 0,
+      "reference_tokens": 3
+    },
+    {
+      "sample_id": "asllrp3_2a5c52b6034defde",
+      "reference": [
+        "IX-1p",
+        "CANNOT",
+        "BELIEVE",
+        "RAIN",
+        "NONE/NOTHING",
+        "IX-1p",
+        "SURPRISE",
+        "part:indef"
+      ],
+      "hypothesis": [
+        "IX-3p:i",
+        "NOT"
+      ],
+      "substitutions": 2,
+      "deletions": 6,
+      "insertions": 0,
+      "reference_tokens": 8
+    },
+    {
+      "sample_id": "asllrp3_e2bc68f8c5eaf59d",
+      "reference": [
+        "IX-1p",
+        "THINK",
+        "ns-fs-OBAMA",
+        "FUTURE",
+        "WIN",
+        "AGAIN",
+        "part:indef"
+      ],
+      "hypothesis": [
+        "IX-1p",
+        "NOT"
+      ],
+      "substitutions": 1,
+      "deletions": 5,
+      "insertions": 0,
+      "reference_tokens": 7
+    },
+    {
+      "sample_id": "asllrp3_f5ffb3f978dfea8c",
+      "reference": [
+        "RAIN",
+        "NONE/NOTHING",
+        "NOW",
+        "GO-OUT+",
+        "NONE/NOTHING",
+        "5\\perplexed\\\"\""
+      ],
+      "hypothesis": [
+        "NOT"
+      ],
+      "substitutions": 1,
+      "deletions": 5,
+      "insertions": 0,
+      "reference_tokens": 6
+    },
+    {
+      "sample_id": "asllrp3_bb32a0fed3ed662e",
+      "reference": [
+        "RECENT-PAST",
+        "RAIN",
+        "NONE/NOTHING"
+      ],
+      "hypothesis": [
+        "IX-1p",
+        "NOT"
+      ],
+      "substitutions": 2,
+      "deletions": 1,
+      "insertions": 0,
+      "reference_tokens": 3
+    },
+    {
+      "sample_id": "asllrp3_2debd9737dec3941",
+      "reference": [
+        "RAIN++",
+        "(1h)WOW/AWFUL"
+      ],
+      "hypothesis": [
+        "IX-1p",
+        "SNOW"
+      ],
+      "substitutions": 2,
+      "deletions": 0,
+      "insertions": 0,
+      "reference_tokens": 2
+    },
+    {
+      "sample_id": "asllrp3_0dd67cfd825e1caf",
+      "reference": [
+        "#NO+",
+        "IX-1p",
+        "NOT",
+        "GO-OUT"
+      ],
+      "hypothesis": [
+        "IX-1p",
+        "NOT"
+      ],
+      "substitutions": 0,
+      "deletions": 2,
+      "insertions": 0,
+      "reference_tokens": 4
+    },
+    {
+      "sample_id": "asllrp3_712f94a4f5bc7c8b",
+      "reference": [
+        "BOY+",
+        "ARRIVE",
+        "HOME"
+      ],
+      "hypothesis": [
+        "IX-1p",
+        "NOT"
+      ],
+      "substitutions": 2,
+      "deletions": 1,
+      "insertions": 0,
+      "reference_tokens": 3
+    },
+    {
+      "sample_id": "asllrp3_b605fd820eeec1c4",
+      "reference": [
+        "IX-1p",
+        "NOT",
+        "(1h)HAPPY+",
+        "(1h)part:indef"
+      ],
+      "hypothesis": [
+        "IX-1p",
+        "NOT"
+      ],
+      "substitutions": 0,
+      "deletions": 2,
+      "insertions": 0,
+      "reference_tokens": 4
+    },
+    {
+      "sample_id": "asllrp3_b3d12b7db96cfc0e",
+      "reference": [
+        "IX-1p",
+        "WANT+NEG",
+        "SOMETHING/ONE",
+        "IX-1p",
+        "(1h)5\\wave no\\\"\""
+      ],
+      "hypothesis": [
+        "IX-1p",
+        "NOT"
+      ],
+      "substitutions": 1,
+      "deletions": 3,
+      "insertions": 0,
+      "reference_tokens": 5
+    },
+    {
+      "sample_id": "asllrp3_d8e375c51d6161fc",
+      "reference": [
+        "IX-3p:i",
+        "WANT+NEG",
+        "NONE/NOTHING",
+        "(1h)part:indef"
+      ],
+      "hypothesis": [
+        "IX-3p:i",
+        "NOT"
+      ],
+      "substitutions": 1,
+      "deletions": 2,
+      "insertions": 0,
+      "reference_tokens": 4
+    },
+    {
+      "sample_id": "asllrp3_55bf1f46cba49390",
+      "reference": [
+        "BOY+",
+        "NEVER",
+        "GO-OUT",
+        "HOME",
+        "(1h)part:indef"
+      ],
+      "hypothesis": [
+        "IX-3p:i",
+        "SNOW"
+      ],
+      "substitutions": 2,
+      "deletions": 3,
+      "insertions": 0,
+      "reference_tokens": 5
+    },
+    {
+      "sample_id": "asllrp3_34c98ee319f03efb",
+      "reference": [
+        "GO-OUT",
+        "GO-OUT",
+        "GO-OUT",
+        "HOME"
+      ],
+      "hypothesis": [
+        "IX-1p",
+        "NOT"
+      ],
+      "substitutions": 2,
+      "deletions": 2,
+      "insertions": 0,
+      "reference_tokens": 4
+    },
+    {
+      "sample_id": "asllrp3_ce692798a5d62ec7",
+      "reference": [
+        "BOX/ROOM",
+        "SMALL",
+        "NOT"
+      ],
+      "hypothesis": [
+        "CAR"
+      ],
+      "substitutions": 1,
+      "deletions": 2,
+      "insertions": 0,
+      "reference_tokens": 3
+    },
+    {
+      "sample_id": "asllrp3_d0eb53aa605aa87c",
+      "reference": [
+        "BOX/ROOM",
+        "SMALL",
+        "(1h)5\\wave no\\\"\"",
+        "REALLY",
+        "SMALL"
+      ],
+      "hypothesis": [
+        "IX-1p"
+      ],
+      "substitutions": 1,
+      "deletions": 4,
+      "insertions": 0,
+      "reference_tokens": 5
+    },
+    {
+      "sample_id": "asllrp3_285d77378cfb93b6",
+      "reference": [
+        "BOX/ROOM",
+        "BIG_2",
+        "(1h)5\\wave no\\\"\"",
+        "NOT",
+        "SMALL",
+        "(1h)5\\wave no\\\"\""
+      ],
+      "hypothesis": [
+        "IX-1p"
+      ],
+      "substitutions": 1,
+      "deletions": 5,
+      "insertions": 0,
+      "reference_tokens": 6
+    },
+    {
+      "sample_id": "asllrp3_7e093be9e942be48",
+      "reference": [
+        "IX-1p",
+        "WARM",
+        "(1h)5\\wave no\\\"\"",
+        "IX-1p",
+        "HOT"
+      ],
+      "hypothesis": [
+        "CAR"
+      ],
+      "substitutions": 1,
+      "deletions": 4,
+      "insertions": 0,
+      "reference_tokens": 5
+    },
+    {
+      "sample_id": "asllrp3_37d3d46d21cb6be5",
+      "reference": [
+        "(1h)HAPPY+",
+        "NOT",
+        "(1h)HAPPY+",
+        "#NO+"
+      ],
+      "hypothesis": [
+        "IX-1p",
+        "NOT"
+      ],
+      "substitutions": 1,
+      "deletions": 2,
+      "insertions": 0,
+      "reference_tokens": 4
+    },
+    {
+      "sample_id": "asllrp3_ef0bc484c29ba9cd",
+      "reference": [
+        "NOT",
+        "ns-fs-JOHN",
+        "(1h)5\\perplexed\\\"\"",
+        "REALLY",
+        "WOW/AWFUL",
+        "(1h)part:indef"
+      ],
+      "hypothesis": [
+        "IX-1p",
+        "NOT"
+      ],
+      "substitutions": 2,
+      "deletions": 4,
+      "insertions": 0,
+      "reference_tokens": 6
+    },
+    {
+      "sample_id": "asllrp3_aa3259f927542589",
+      "reference": [
+        "#NO+",
+        "NOT",
+        "STOP",
+        "5\\perplexed\\\"\""
+      ],
+      "hypothesis": [
+        "NOT"
+      ],
+      "substitutions": 0,
+      "deletions": 3,
+      "insertions": 0,
+      "reference_tokens": 4
+    },
+    {
+      "sample_id": "asllrp3_ed66a6a79651e26e",
+      "reference": [
+        "IX-3p:i",
+        "ns-fs-MARY",
+        "STOP",
+        "ROWING",
+        "(1h)5\\wave no\\\"\"",
+        "IX-3p:i",
+        "NEVER",
+        "ROWING",
+        "UP-TO-NOW",
+        "NOW"
+      ],
+      "hypothesis": [
+        "IX-1p"
+      ],
+      "substitutions": 1,
+      "deletions": 9,
+      "insertions": 0,
+      "reference_tokens": 10
+    },
+    {
+      "sample_id": "asllrp3_def1ed2a46805c67",
+      "reference": [
+        "ns-fs-JOHN",
+        "READ",
+        "BOOK",
+        "(1h)5\\wave no\\\"\"",
+        "IX-3p:i",
+        "ns-fs-JOHN",
+        "NEVER",
+        "START",
+        "BOOK"
+      ],
+      "hypothesis": [
+        "ns-fs-MARY",
+        "SNOW"
+      ],
+      "substitutions": 2,
+      "deletions": 7,
+      "insertions": 0,
+      "reference_tokens": 9
+    },
+    {
+      "sample_id": "asllrp3_12d2bed54ba41215",
+      "reference": [
+        "IX-1p",
+        "NOT"
+      ],
+      "hypothesis": [
+        "IX-1p"
+      ],
+      "substitutions": 0,
+      "deletions": 1,
+      "insertions": 0,
+      "reference_tokens": 2
+    },
+    {
+      "sample_id": "asllrp3_42d6fdab0f04fefd",
+      "reference": [
+        "ns-fs-JOHN",
+        "IX-loc:i",
+        "NOT",
+        "SEE",
+        "IX-1p",
+        "NONE/NOTHING"
+      ],
+      "hypothesis": [
+        "SNOW"
+      ],
+      "substitutions": 1,
+      "deletions": 5,
+      "insertions": 0,
+      "reference_tokens": 6
+    },
+    {
+      "sample_id": "asllrp3_93a5a6dea5b41993",
+      "reference": [
+        "IX-1p",
+        "NOT",
+        "STUDY",
+        "FUTURE",
+        "FAIL"
+      ],
+      "hypothesis": [
+        "IX-3p:i"
+      ],
+      "substitutions": 1,
+      "deletions": 4,
+      "insertions": 0,
+      "reference_tokens": 5
+    },
+    {
+      "sample_id": "asllrp3_c5d3dda8e2264920",
+      "reference": [
+        "IF",
+        "IX-1p",
+        "STUDY",
+        "FUTURE",
+        "FAIL"
+      ],
+      "hypothesis": [
+        "IX-3p:i"
+      ],
+      "substitutions": 1,
+      "deletions": 4,
+      "insertions": 0,
+      "reference_tokens": 5
+    },
+    {
+      "sample_id": "asllrp3_38b01799105e1a01",
+      "reference": [
+        "#IF",
+        "IX-1p",
+        "STUDY",
+        "FUTURE",
+        "FAIL"
+      ],
+      "hypothesis": [
+        "IX-3p:i",
+        "SNOW"
+      ],
+      "substitutions": 2,
+      "deletions": 3,
+      "insertions": 0,
+      "reference_tokens": 5
+    },
+    {
+      "sample_id": "asllrp3_62d8d19920404e92",
+      "reference": [
+        "BUY",
+        "FLOWER",
+        "WHO",
+        "(1h)part:indef"
+      ],
+      "hypothesis": [
+        "IX-1p",
+        "NOT"
+      ],
+      "substitutions": 2,
+      "deletions": 2,
+      "insertions": 0,
+      "reference_tokens": 4
+    },
+    {
+      "sample_id": "asllrp3_ea78586380a49883",
+      "reference": [
+        "WHO",
+        "BUY",
+        "FLOWER",
+        "(1h)part:indef"
+      ],
+      "hypothesis": [
+        "IX-1p"
+      ],
+      "substitutions": 1,
+      "deletions": 3,
+      "insertions": 0,
+      "reference_tokens": 4
+    },
+    {
+      "sample_id": "asllrp3_eba27932ab1f3a76",
+      "reference": [
+        "LIKE",
+        "WORK",
+        "IX-2p"
+      ],
+      "hypothesis": [
+        "IX-2p"
+      ],
+      "substitutions": 0,
+      "deletions": 2,
+      "insertions": 0,
+      "reference_tokens": 3
+    },
+    {
+      "sample_id": "asllrp3_44655e4baf80f0da",
+      "reference": [
+        "LIKE",
+        "CLASS_2"
+      ],
+      "hypothesis": [
+        "IX-3p:i"
+      ],
+      "substitutions": 1,
+      "deletions": 1,
+      "insertions": 0,
+      "reference_tokens": 2
+    },
+    {
+      "sample_id": "asllrp3_b559d58067fbf4bd",
+      "reference": [
+        "IX-2p",
+        "GO",
+        "SCHOOL",
+        "TOMORROW"
+      ],
+      "hypothesis": [
+        "IX-3p:i",
+        "IX-loc:i"
+      ],
+      "substitutions": 2,
+      "deletions": 2,
+      "insertions": 0,
+      "reference_tokens": 4
+    },
+    {
+      "sample_id": "asllrp3_006251a5a43d4450",
+      "reference": [
+        "HAVE",
+        "CLASS_2",
+        "TOMORROW"
+      ],
+      "hypothesis": [
+        "IX-3p:i"
+      ],
+      "substitutions": 1,
+      "deletions": 2,
+      "insertions": 0,
+      "reference_tokens": 3
+    },
+    {
+      "sample_id": "asllrp3_c392cb53a3ad56e5",
+      "reference": [
+        "HOT",
+        "IX-2p",
+        "COLD",
+        "IX-2p"
+      ],
+      "hypothesis": [
+        "IX-1p"
+      ],
+      "substitutions": 1,
+      "deletions": 3,
+      "insertions": 0,
+      "reference_tokens": 4
+    },
+    {
+      "sample_id": "asllrp3_8aaceb618440922e",
+      "reference": [
+        "WHO",
+        "IX-3p:i",
+        "LIKE",
+        "IX-3p:j"
+      ],
+      "hypothesis": [
+        "LIKE",
+        "ns-fs-JOHN"
+      ],
+      "substitutions": 1,
+      "deletions": 2,
+      "insertions": 0,
+      "reference_tokens": 4
+    },
+    {
+      "sample_id": "asllrp3_0257e7a69ba01246",
+      "reference": [
+        "IX-3p:i",
+        "ns-fs-JOHN",
+        "NOT",
+        "HAVE",
+        "SPECIAL/EXCEPT",
+        "BICYCLE",
+        "SHOE+",
+        "part:indef"
+      ],
+      "hypothesis": [
+        "IX-1p",
+        "IX-loc:i"
+      ],
+      "substitutions": 2,
+      "deletions": 6,
+      "insertions": 0,
+      "reference_tokens": 8
+    },
+    {
+      "sample_id": "asllrp3_c21b47aead3a65b7",
+      "reference": [
+        "IF",
+        "INTERPRET",
+        "ARRIVE",
+        "STRANGE",
+        "SITUATION"
+      ],
+      "hypothesis": [
+        "IX-3p:i"
+      ],
+      "substitutions": 1,
+      "deletions": 4,
+      "insertions": 0,
+      "reference_tokens": 5
+    },
+    {
+      "sample_id": "asllrp3_d757be6afdab68ed",
+      "reference": [
+        "TOMORROW",
+        "IX-2p",
+        "GO-OUT",
+        "LIBRARY",
+        "INTERPRET",
+        "QMwg"
+      ],
+      "hypothesis": [
+        "IX-3p:i"
+      ],
+      "substitutions": 1,
+      "deletions": 5,
+      "insertions": 0,
+      "reference_tokens": 6
+    },
+    {
+      "sample_id": "asllrp3_acb294bda16f9594",
+      "reference": [
+        "COLD",
+        "POSS-1p",
+        "MOTHER",
+        "NOT",
+        "GO-OUT",
+        "(1h)5\\wave no\\\"\""
+      ],
+      "hypothesis": [
+        "IX-1p"
+      ],
+      "substitutions": 1,
+      "deletions": 5,
+      "insertions": 0,
+      "reference_tokens": 6
+    },
+    {
+      "sample_id": "asllrp3_cfdfd917c62678dc",
+      "reference": [
+        "NOW",
+        "COLD",
+        "IX-1p",
+        "MUST",
+        "BETTER",
+        "SHOE+"
+      ],
+      "hypothesis": [
+        "IX-1p",
+        "LIKE"
+      ],
+      "substitutions": 1,
+      "deletions": 4,
+      "insertions": 0,
+      "reference_tokens": 6
+    },
+    {
+      "sample_id": "asllrp3_46c4e2c1e32722a9",
+      "reference": [
+        "IX-2p",
+        "WANT",
+        "GO-OUT",
+        "BUY",
+        "SHOE+",
+        "IX-2p"
+      ],
+      "hypothesis": [
+        "CAR"
+      ],
+      "substitutions": 1,
+      "deletions": 5,
+      "insertions": 0,
+      "reference_tokens": 6
+    },
+    {
+      "sample_id": "asllrp3_cacd44b07cf12abc",
+      "reference": [
+        "IX-3p:i",
+        "ns-fs-JOHN",
+        "WORK",
+        "LIBRARY"
+      ],
+      "hypothesis": [
+        "IX-3p:i"
+      ],
+      "substitutions": 0,
+      "deletions": 3,
+      "insertions": 0,
+      "reference_tokens": 4
+    },
+    {
+      "sample_id": "asllrp3_b04cd047a422d5d8",
+      "reference": [
+        "LIBRARY",
+        "(1h)HAVE",
+        "MANY",
+        "MAGAZINE"
+      ],
+      "hypothesis": [
+        "IX-1p"
+      ],
+      "substitutions": 1,
+      "deletions": 3,
+      "insertions": 0,
+      "reference_tokens": 4
+    },
+    {
+      "sample_id": "asllrp3_708dda5dec265049",
+      "reference": [
+        "ns-fs-BOB",
+        "IX-loc:i",
+        "WORK",
+        "BICYCLE",
+        "SELL+",
+        "IX-3p:i"
+      ],
+      "hypothesis": [
+        "CAR"
+      ],
+      "substitutions": 1,
+      "deletions": 5,
+      "insertions": 0,
+      "reference_tokens": 6
+    },
+    {
+      "sample_id": "asllrp3_ee8504b335e1322f",
+      "reference": [
+        "IF",
+        "IX-2p",
+        "INTERPRET",
+        "IX-2p",
+        "MUST",
+        "USE_2",
+        "BLACK",
+        "DRESS/CLOTHES"
+      ],
+      "hypothesis": [
+        "IX-3p:i",
+        "IX-1p"
+      ],
+      "substitutions": 2,
+      "deletions": 6,
+      "insertions": 0,
+      "reference_tokens": 8
+    },
+    {
+      "sample_id": "asllrp3_63887e27eb8a246e",
+      "reference": [
+        "IX-1p",
+        "LIKE",
+        "IX-3p:i",
+        "BOY",
+        "IX-3p:i",
+        "FUNNY",
+        "IX-3p:i"
+      ],
+      "hypothesis": [
+        "CAR"
+      ],
+      "substitutions": 1,
+      "deletions": 6,
+      "insertions": 0,
+      "reference_tokens": 7
+    },
+    {
+      "sample_id": "asllrp3_20ccd21df5623909",
+      "reference": [
+        "IX-3p:i",
+        "CAR",
+        "BREAK",
+        "part:indef"
+      ],
+      "hypothesis": [
+        "IX-1p"
+      ],
+      "substitutions": 1,
+      "deletions": 3,
+      "insertions": 0,
+      "reference_tokens": 4
+    },
+    {
+      "sample_id": "asllrp3_b873382844337c29",
+      "reference": [
+        "IX-3p:i",
+        "CAR",
+        "NOT",
+        "BREAK-DOWN",
+        "#NO+"
+      ],
+      "hypothesis": [
+        "ns-fs-JOHN"
+      ],
+      "substitutions": 1,
+      "deletions": 4,
+      "insertions": 0,
+      "reference_tokens": 5
+    },
+    {
+      "sample_id": "asllrp3_884f0cd57f22b09e",
+      "reference": [
+        "CAR",
+        "BREAK-DOWN",
+        "YES+"
+      ],
+      "hypothesis": [
+        "CAR"
+      ],
+      "substitutions": 0,
+      "deletions": 2,
+      "insertions": 0,
+      "reference_tokens": 3
+    },
+    {
+      "sample_id": "asllrp3_a1653acfbad12211",
+      "reference": [
+        "IX-3p:i",
+        "CAR",
+        "NOT",
+        "BREAK-DOWN",
+        "5\\wave no\\\"\"",
+        "IX-3p:j",
+        "fs-TRUCK",
+        "BREAK-DOWN"
+      ],
+      "hypothesis": [
+        "IX-3p:i"
+      ],
+      "substitutions": 0,
+      "deletions": 7,
+      "insertions": 0,
+      "reference_tokens": 8
+    },
+    {
+      "sample_id": "asllrp3_5913fd57e1815cc7",
+      "reference": [
+        "(1h)5\\wave no\\\"\"",
+        "NOT",
+        "ns-fs-JOHN",
+        "IX-loc:i",
+        "IX-3p:j",
+        "ns-fs-MARY",
+        "IX-loc:j",
+        "BREAK-DOWN",
+        "CAR"
+      ],
+      "hypothesis": [
+        "IX-1p"
+      ],
+      "substitutions": 1,
+      "deletions": 8,
+      "insertions": 0,
+      "reference_tokens": 9
+    },
+    {
+      "sample_id": "asllrp3_ebd3a964d5e7037e",
+      "reference": [
+        "IX-3p:i",
+        "CAR",
+        "IX-loc:i",
+        "BREAK-DOWN",
+        "NOT",
+        "#NO"
+      ],
+      "hypothesis": [
+        "CAR"
+      ],
+      "substitutions": 0,
+      "deletions": 5,
+      "insertions": 0,
+      "reference_tokens": 6
+    },
+    {
+      "sample_id": "asllrp3_4ef3130206f28dab",
+      "reference": [
+        "CAR",
+        "IX-loc:i",
+        "BREAK-DOWN"
+      ],
+      "hypothesis": [
+        "CAR"
+      ],
+      "substitutions": 0,
+      "deletions": 2,
+      "insertions": 0,
+      "reference_tokens": 3
+    },
+    {
+      "sample_id": "asllrp3_0d1616adef98451a",
+      "reference": [
+        "CAR",
+        "BREAK-DOWN"
+      ],
+      "hypothesis": [
+        "CAR"
+      ],
+      "substitutions": 0,
+      "deletions": 1,
+      "insertions": 0,
+      "reference_tokens": 2
+    },
+    {
+      "sample_id": "asllrp3_bceb2ffa7b826dfd",
+      "reference": [
+        "CAR",
+        "BREAK-DOWN",
+        "NOT"
+      ],
+      "hypothesis": [
+        "CAR"
+      ],
+      "substitutions": 0,
+      "deletions": 2,
+      "insertions": 0,
+      "reference_tokens": 3
+    },
+    {
+      "sample_id": "asllrp3_87f15c369f4192ea",
+      "reference": [
+        "CAR",
+        "BREAK-DOWN",
+        "(1h)5\\wave no\\\"\""
+      ],
+      "hypothesis": [
+        "IX-1p"
+      ],
+      "substitutions": 1,
+      "deletions": 2,
+      "insertions": 0,
+      "reference_tokens": 3
+    },
+    {
+      "sample_id": "asllrp3_3f560c3ba34572ba",
+      "reference": [
+        "IX-3p:i",
+        "ns-fs-MARY",
+        "CAR",
+        "BREAK-DOWN",
+        "FINE+",
+        "IX-3p:j",
+        "ns-fs-JOHN",
+        "DRIVE",
+        "IX-3p:i",
+        "TO/UNTIL",
+        "WORK"
+      ],
+      "hypothesis": [
+        "ns-fs-JOHN"
+      ],
+      "substitutions": 0,
+      "deletions": 10,
+      "insertions": 0,
+      "reference_tokens": 11
+    },
+    {
+      "sample_id": "asllrp3_9a5ed2a390a3d542",
+      "reference": [
+        "HAPPEN",
+        "IX-3p:i",
+        "ns-fs-MARY",
+        "CAR",
+        "BREAK-DOWN",
+        "TEND",
+        "IX-3p:j",
+        "ns-fs-JOHN",
+        "DRIVE",
+        "TO/UNTIL",
+        "WORK"
+      ],
+      "hypothesis": [
+        "CAR"
+      ],
+      "substitutions": 0,
+      "deletions": 10,
+      "insertions": 0,
+      "reference_tokens": 11
+    },
+    {
+      "sample_id": "asllrp3_53bc7c31d7c3893d",
+      "reference": [
+        "ns-fs-JOHN",
+        "DRIVE",
+        "ns-fs-MARY",
+        "WORK"
+      ],
+      "hypothesis": [
+        "IX-1p"
+      ],
+      "substitutions": 1,
+      "deletions": 3,
+      "insertions": 0,
+      "reference_tokens": 4
+    },
+    {
+      "sample_id": "asllrp3_dc88050cd329950e",
+      "reference": [
+        "ns-fs-JOHN",
+        "IX-loc:i",
+        "FUTURE",
+        "DRIVE",
+        "IX-3p:j",
+        "ns-fs-MARY",
+        "WORK"
+      ],
+      "hypothesis": [
+        "IX-1p",
+        "NOT"
+      ],
+      "substitutions": 2,
+      "deletions": 5,
+      "insertions": 0,
+      "reference_tokens": 7
+    },
+    {
+      "sample_id": "asllrp3_67235f2d2abd20d4",
+      "reference": [
+        "NOT",
+        "RAIN",
+        "NONE/NOTHING"
+      ],
+      "hypothesis": [
+        "IX-1p"
+      ],
+      "substitutions": 1,
+      "deletions": 2,
+      "insertions": 0,
+      "reference_tokens": 3
+    },
+    {
+      "sample_id": "asllrp3_d27223bb39f07600",
+      "reference": [
+        "NOW",
+        "HOMEWORK",
+        "NONE/NOTHING"
+      ],
+      "hypothesis": [
+        "IX-1p",
+        "IX-loc:i"
+      ],
+      "substitutions": 2,
+      "deletions": 1,
+      "insertions": 0,
+      "reference_tokens": 3
+    },
+    {
+      "sample_id": "asllrp3_f6c7eb98699433aa",
+      "reference": [
+        "MOTHER+",
+        "IX-3p:i",
+        "LIKE",
+        "SURPRISE"
+      ],
+      "hypothesis": [
+        "IX-3p:i"
+      ],
+      "substitutions": 0,
+      "deletions": 3,
+      "insertions": 0,
+      "reference_tokens": 4
+    },
+    {
+      "sample_id": "asllrp3_9a1d860245f0ad89",
+      "reference": [
+        "WEATHER",
+        "NOW",
+        "BEAUTIFUL"
+      ],
+      "hypothesis": [
+        "IX-3p:i"
+      ],
+      "substitutions": 1,
+      "deletions": 2,
+      "insertions": 0,
+      "reference_tokens": 3
+    },
+    {
+      "sample_id": "asllrp3_7db7437d8ada500f",
+      "reference": [
+        "ns-fs-MARY",
+        "IX-3p:i",
+        "NOT",
+        "VEGETABLE",
+        "#NO+"
+      ],
+      "hypothesis": [
+        "IX-3p:i"
+      ],
+      "substitutions": 0,
+      "deletions": 4,
+      "insertions": 0,
+      "reference_tokens": 5
+    },
+    {
+      "sample_id": "asllrp3_7b76233744b08742",
+      "reference": [
+        "WEATHER",
+        "NOT",
+        "LOUSY",
+        "NOW",
+        "FINE+"
+      ],
+      "hypothesis": [
+        "IX-1p",
+        "NOT"
+      ],
+      "substitutions": 1,
+      "deletions": 3,
+      "insertions": 0,
+      "reference_tokens": 5
+    },
+    {
+      "sample_id": "asllrp3_c28cf0f136f7c5f2",
+      "reference": [
+        "MOTHER",
+        "NOT",
+        "LIKE",
+        "SURPRISE"
+      ],
+      "hypothesis": [
+        "WHO",
+        "NOT"
+      ],
+      "substitutions": 1,
+      "deletions": 2,
+      "insertions": 0,
+      "reference_tokens": 4
+    },
+    {
+      "sample_id": "asllrp3_0d26a296533db9c1",
+      "reference": [
+        "WEATHER",
+        "NOT",
+        "BEAUTIFUL",
+        "NOW"
+      ],
+      "hypothesis": [
+        "WHO",
+        "NOT"
+      ],
+      "substitutions": 1,
+      "deletions": 2,
+      "insertions": 0,
+      "reference_tokens": 4
+    },
+    {
+      "sample_id": "asllrp3_aa0305b1095f021c",
+      "reference": [
+        "LIKE",
+        "PINEAPPLE",
+        "fs-CREAM",
+        "CHEESE"
+      ],
+      "hypothesis": [
+        "LIKE"
+      ],
+      "substitutions": 0,
+      "deletions": 3,
+      "insertions": 0,
+      "reference_tokens": 4
+    },
+    {
+      "sample_id": "asllrp3_8835e15d5568cf3c",
+      "reference": [
+        "(25)WHY",
+        "IX-loc:i",
+        "PINEAPPLE",
+        "CHEESE",
+        "NONE/NOTHING",
+        "part:indef"
+      ],
+      "hypothesis": [],
+      "substitutions": 0,
+      "deletions": 6,
+      "insertions": 0,
+      "reference_tokens": 6
+    },
+    {
+      "sample_id": "asllrp3_3ab579b711d9a013",
+      "reference": [
+        "POSS-2p",
+        "SISTER",
+        "NOT",
+        "LIKE",
+        "PINEAPPLE",
+        "fs-CREAM",
+        "CHEESE",
+        "#NO"
+      ],
+      "hypothesis": [
+        "IX-1p"
+      ],
+      "substitutions": 1,
+      "deletions": 7,
+      "insertions": 0,
+      "reference_tokens": 8
+    },
+    {
+      "sample_id": "asllrp3_1f7ca48563dec93c",
+      "reference": [
+        "#NO",
+        "IX-1p",
+        "NOT",
+        "LIKE",
+        "PINEAPPLE",
+        "fs-CREAM",
+        "CHEESE",
+        "#NO"
+      ],
+      "hypothesis": [
+        "NOT"
+      ],
+      "substitutions": 0,
+      "deletions": 7,
+      "insertions": 0,
+      "reference_tokens": 8
+    },
+    {
+      "sample_id": "asllrp3_fdbc1d03a8eb1084",
+      "reference": [
+        "IX-1p",
+        "FAVORITE/PREFER+",
+        "IX-3p:i",
+        "fs-LOX",
+        "fs-CREAM",
+        "CHEESE"
+      ],
+      "hypothesis": [
+        "IX-1p",
+        "NOT"
+      ],
+      "substitutions": 1,
+      "deletions": 4,
+      "insertions": 0,
+      "reference_tokens": 6
+    },
+    {
+      "sample_id": "asllrp3_0541021d00521482",
+      "reference": [
+        "IX-1p",
+        "LIKE",
+        "IX-3p:i",
+        "CHOCOLATE",
+        "fs-CEREAL",
+        "BUT",
+        "NONE/NOTHING",
+        "(25)WHY",
+        "part:indef"
+      ],
+      "hypothesis": [
+        "IX-1p"
+      ],
+      "substitutions": 0,
+      "deletions": 8,
+      "insertions": 0,
+      "reference_tokens": 9
+    },
+    {
+      "sample_id": "asllrp3_d30525b5f5873a32",
+      "reference": [
+        "IX-3p:i",
+        "SISTER",
+        "NOT",
+        "LIKE",
+        "CHOCOLATE",
+        "fs-CEREAL"
+      ],
+      "hypothesis": [
+        "CAR"
+      ],
+      "substitutions": 1,
+      "deletions": 5,
+      "insertions": 0,
+      "reference_tokens": 6
+    },
+    {
+      "sample_id": "asllrp3_4626cde33c54f641",
+      "reference": [
+        "IX-1p",
+        "NOT",
+        "LIKE",
+        "CHOCOLATE",
+        "fs-CEREAL",
+        "#NO++"
+      ],
+      "hypothesis": [
+        "IX-1p",
+        "NOT"
+      ],
+      "substitutions": 0,
+      "deletions": 4,
+      "insertions": 0,
+      "reference_tokens": 6
+    },
+    {
+      "sample_id": "asllrp3_39b8fbc6aac5c253",
+      "reference": [
+        "SOMETHING/ONE",
+        "BUY",
+        "CAR",
+        "WHO",
+        "part:indef"
+      ],
+      "hypothesis": [
+        "ns-fs-JOHN"
+      ],
+      "substitutions": 1,
+      "deletions": 4,
+      "insertions": 0,
+      "reference_tokens": 5
+    },
+    {
+      "sample_id": "asllrp3_1174e8911d44d3b3",
+      "reference": [
+        "WHO",
+        "BUY",
+        "CAR",
+        "part:indef"
+      ],
+      "hypothesis": [
+        "IX-1p",
+        "NOT"
+      ],
+      "substitutions": 2,
+      "deletions": 2,
+      "insertions": 0,
+      "reference_tokens": 4
+    },
+    {
+      "sample_id": "asllrp3_22c24f9f0bde6e0e",
+      "reference": [
+        "WHICH",
+        "COLLEGE",
+        "ns-fs-MARY",
+        "GO-OUT",
+        "WHICH",
+        "(1h)part:indef"
+      ],
+      "hypothesis": [
+        "IX-1p",
+        "NOT"
+      ],
+      "substitutions": 2,
+      "deletions": 4,
+      "insertions": 0,
+      "reference_tokens": 6
+    },
+    {
+      "sample_id": "asllrp3_44a397cdb9e01dd0",
+      "reference": [
+        "WHO",
+        "LOVE",
+        "ns-fs-BILL",
+        "(1h)part:indef"
+      ],
+      "hypothesis": [
+        "IX-1p",
+        "NOT"
+      ],
+      "substitutions": 2,
+      "deletions": 2,
+      "insertions": 0,
+      "reference_tokens": 4
+    },
+    {
+      "sample_id": "asllrp3_e32d80091040f70a",
+      "reference": [
+        "IX-2p",
+        "LIKE",
+        "ns-BOSTON",
+        "QMwg"
+      ],
+      "hypothesis": [
+        "IX-3p:i",
+        "NOT"
+      ],
+      "substitutions": 2,
+      "deletions": 2,
+      "insertions": 0,
+      "reference_tokens": 4
+    },
+    {
+      "sample_id": "asllrp3_28b15bf4d45cbcad",
+      "reference": [
+        "ns-fs-SUE",
+        "MOVE",
+        "WHERE"
+      ],
+      "hypothesis": [
+        "IX-1p",
+        "NOT"
+      ],
+      "substitutions": 2,
+      "deletions": 1,
+      "insertions": 0,
+      "reference_tokens": 3
+    },
+    {
+      "sample_id": "asllrp3_6ea7edc4fa75af38",
+      "reference": [
+        "IX-3p-pl-2:i/j",
+        "ns-fs-JACK",
+        "ns-fs-SUE",
+        "MEET",
+        "PAST+",
+        "FINISH",
+        "QMwg"
+      ],
+      "hypothesis": [
+        "IX-1p"
+      ],
+      "substitutions": 1,
+      "deletions": 6,
+      "insertions": 0,
+      "reference_tokens": 7
+    },
+    {
+      "sample_id": "asllrp3_14af4959f05ddedb",
+      "reference": [
+        "IX-3p:i",
+        "ns-fs-JACK",
+        "GO-OUT",
+        "IX-3p:i",
+        "SEE",
+        "SOMETHING/ONE",
+        "STRANGE",
+        "QMwg",
+        "(1h)part:indef"
+      ],
+      "hypothesis": [
+        "IX-1p",
+        "NOT"
+      ],
+      "substitutions": 2,
+      "deletions": 7,
+      "insertions": 0,
+      "reference_tokens": 9
+    },
+    {
+      "sample_id": "asllrp3_5d4de11c10b82971",
+      "reference": [
+        "fs-LOTTERY",
+        "IX-loc:i",
+        "SOMETHING/ONE",
+        "WIN",
+        "QMwg"
+      ],
+      "hypothesis": [
+        "IX-1p",
+        "NOT"
+      ],
+      "substitutions": 2,
+      "deletions": 3,
+      "insertions": 0,
+      "reference_tokens": 5
+    },
+    {
+      "sample_id": "asllrp3_8385bc6456b2ade2",
+      "reference": [
+        "GAME",
+        "FINISH",
+        "BEFORE_2",
+        "SIX",
+        "QMwg",
+        "(1h)part:indef"
+      ],
+      "hypothesis": [
+        "IX-1p",
+        "NOT"
+      ],
+      "substitutions": 2,
+      "deletions": 4,
+      "insertions": 0,
+      "reference_tokens": 6
+    },
+    {
+      "sample_id": "asllrp3_1399c3f7e54b60cf",
+      "reference": [
+        "IX-3p:i",
+        "BOOK",
+        "READ+",
+        "REALLY",
+        "(1h)GOOD/THANK-YOU",
+        "#NO",
+        "LOUSY",
+        "(1h)5\\wave no\\\"\"",
+        "IX-1p",
+        "NOT",
+        "LIKE"
+      ],
+      "hypothesis": [
+        "IX-1p",
+        "NOT"
+      ],
+      "substitutions": 0,
+      "deletions": 9,
+      "insertions": 0,
+      "reference_tokens": 11
+    },
+    {
+      "sample_id": "asllrp3_99c3003b2b716ffb",
+      "reference": [
+        "IX-1p",
+        "LOOK",
+        "MOVIE",
+        "PAST+NIGHT",
+        "IX-1p",
+        "AFRAID",
+        "(1h)WOW/AWFUL"
+      ],
+      "hypothesis": [
+        "IX-3p:i",
+        "SNOW"
+      ],
+      "substitutions": 2,
+      "deletions": 5,
+      "insertions": 0,
+      "reference_tokens": 7
+    },
+    {
+      "sample_id": "asllrp3_c29f483f94b9fac9",
+      "reference": [
+        "POSS-1p",
+        "MOTHER+",
+        "IX-3p:i",
+        "BECOME",
+        "OLD",
+        "(1h)part:indef"
+      ],
+      "hypothesis": [
+        "IX-1p",
+        "NOT"
+      ],
+      "substitutions": 2,
+      "deletions": 4,
+      "insertions": 0,
+      "reference_tokens": 6
+    },
+    {
+      "sample_id": "asllrp3_36ac991e9949fbc8",
+      "reference": [
+        "REALLY",
+        "SELF-3p+:i",
+        "OLD",
+        "NOT",
+        "IMPORTANT",
+        "(1h)part:indef"
+      ],
+      "hypothesis": [
+        "IX-3p:i",
+        "SNOW"
+      ],
+      "substitutions": 2,
+      "deletions": 4,
+      "insertions": 0,
+      "reference_tokens": 6
+    },
+    {
+      "sample_id": "asllrp3_65890cb6c098ad04",
+      "reference": [
+        "IX-1p",
+        "ALMOST",
+        "FINISH",
+        "HOMEWORK"
+      ],
+      "hypothesis": [
+        "IX-1p",
+        "NOT"
+      ],
+      "substitutions": 1,
+      "deletions": 2,
+      "insertions": 0,
+      "reference_tokens": 4
+    },
+    {
+      "sample_id": "asllrp3_2409cb789bb3df57",
+      "reference": [
+        "POSS-1p+",
+        "OTHER",
+        "FRIEND",
+        "IX-3p-pl-arc",
+        "JOIN",
+        "IX-1p",
+        "PAST+NIGHT"
+      ],
+      "hypothesis": [
+        "IX-3p:i"
+      ],
+      "substitutions": 1,
+      "deletions": 6,
+      "insertions": 0,
+      "reference_tokens": 7
+    },
+    {
+      "sample_id": "asllrp3_1275fa40adfbf3d6",
+      "reference": [
+        "IF",
+        "STUDENT",
+        "IX-3p:i",
+        "HEAR/LISTEN",
+        "TEACH+AGENT",
+        "FUTURE",
+        "LEARN",
+        "SOMETHING/ONE"
+      ],
+      "hypothesis": [
+        "IX-loc:i"
+      ],
+      "substitutions": 1,
+      "deletions": 7,
+      "insertions": 0,
+      "reference_tokens": 8
+    },
+    {
+      "sample_id": "asllrp3_629597246fd5e93e",
+      "reference": [
+        "ns-fs-BOB",
+        "IX-loc:i",
+        "NOT-YET",
+        "SEND",
+        "LETTER/MAIL"
+      ],
+      "hypothesis": [
+        "FRIEND",
+        "IX-loc:i"
+      ],
+      "substitutions": 1,
+      "deletions": 3,
+      "insertions": 0,
+      "reference_tokens": 5
+    },
+    {
+      "sample_id": "asllrp3_f2ae43a646749693",
+      "reference": [
+        "STUDENT",
+        "IX-loc:i",
+        "REFUSE",
+        "HEAR/LISTEN",
+        "TEACH+AGENT",
+        "IX-3p:i"
+      ],
+      "hypothesis": [
+        "IX-loc:i"
+      ],
+      "substitutions": 0,
+      "deletions": 5,
+      "insertions": 0,
+      "reference_tokens": 6
+    },
+    {
+      "sample_id": "asllrp3_06623d1b579b97a6",
+      "reference": [
+        "ns-fs-BOB",
+        "IX-loc:i",
+        "(1h)VOMIT/HATE",
+        "READ",
+        "BOOK+"
+      ],
+      "hypothesis": [
+        "IX-loc:i"
+      ],
+      "substitutions": 0,
+      "deletions": 4,
+      "insertions": 0,
+      "reference_tokens": 5
+    },
+    {
+      "sample_id": "asllrp3_8a0af73e2d4285e9",
+      "reference": [
+        "MOTHER",
+        "IX-3p:i",
+        "SICK",
+        "NOW",
+        "NOT"
+      ],
+      "hypothesis": [
+        "IX-loc:i"
+      ],
+      "substitutions": 1,
+      "deletions": 4,
+      "insertions": 0,
+      "reference_tokens": 5
+    },
+    {
+      "sample_id": "asllrp3_379e6b4fdd614d59",
+      "reference": [
+        "ns-fs-BOB",
+        "IX-3p:i",
+        "HAVE",
+        "BIG",
+        "#DOG_2",
+        "IX-3p:i",
+        "ONLY",
+        "(1h)HAVE",
+        "SMALL",
+        "#DOG_2"
+      ],
+      "hypothesis": [
+        "IX-2p",
+        "IX-loc:i"
+      ],
+      "substitutions": 2,
+      "deletions": 8,
+      "insertions": 0,
+      "reference_tokens": 10
+    },
+    {
+      "sample_id": "asllrp3_1e5e2ebf26fbe90a",
+      "reference": [
+        "ns-fs-BOB",
+        "IX-loc:i",
+        "NOT-YET",
+        "GO",
+        "#PO",
+        "IX-3p:i"
+      ],
+      "hypothesis": [
+        "FRIEND"
+      ],
+      "substitutions": 1,
+      "deletions": 5,
+      "insertions": 0,
+      "reference_tokens": 6
+    },
+    {
+      "sample_id": "asllrp3_7449e3074b92e7e2",
+      "reference": [
+        "DRESS/CLOTHES",
+        "IX-loc:i",
+        "#SALE",
+        "NOT",
+        "IX-3p:i"
+      ],
+      "hypothesis": [
+        "IX-1p"
+      ],
+      "substitutions": 1,
+      "deletions": 4,
+      "insertions": 0,
+      "reference_tokens": 5
+    },
+    {
+      "sample_id": "asllrp3_bdd0c468f269f54d",
+      "reference": [
+        "IX-1p",
+        "(1h)VOMIT/HATE",
+        "COMMUTE",
+        "WORK",
+        "BICYCLE"
+      ],
+      "hypothesis": [
+        "WHO"
+      ],
+      "substitutions": 1,
+      "deletions": 4,
+      "insertions": 0,
+      "reference_tokens": 5
+    },
+    {
+      "sample_id": "asllrp3_2514da891b7c73b0",
+      "reference": [
+        "FRIEND",
+        "IX-loc:i",
+        "WANT+NEG",
+        "BUY",
+        "PLAID",
+        "(2h)SHIRT",
+        "WANT+NEG"
+      ],
+      "hypothesis": [],
+      "substitutions": 0,
+      "deletions": 7,
+      "insertions": 0,
+      "reference_tokens": 7
+    },
+    {
+      "sample_id": "asllrp3_bc900a782e202af6",
+      "reference": [
+        "POSS-1p",
+        "SISTER",
+        "IX-loc:i",
+        "WANT+NEG",
+        "HEADBAND",
+        "FOR",
+        "POSS-3p:i",
+        "BIRTHDAY_3"
+      ],
+      "hypothesis": [
+        "IX-loc:i"
+      ],
+      "substitutions": 0,
+      "deletions": 7,
+      "insertions": 0,
+      "reference_tokens": 8
+    },
+    {
+      "sample_id": "asllrp3_0267da1646621e8d",
+      "reference": [
+        "IX-1p",
+        "CHAT",
+        "WITH",
+        "IX-3p-pl-2:i/j",
+        "ENJOY",
+        "IX-1p",
+        "NOT",
+        "IX-1p"
+      ],
+      "hypothesis": [
+        "FRIEND"
+      ],
+      "substitutions": 1,
+      "deletions": 7,
+      "insertions": 0,
+      "reference_tokens": 8
+    },
+    {
+      "sample_id": "asllrp3_feee3a260051486c",
+      "reference": [
+        "IX-2p",
+        "NOT",
+        "INTERCOURSE+fs-UP",
+        "IX-2p"
+      ],
+      "hypothesis": [],
+      "substitutions": 0,
+      "deletions": 4,
+      "insertions": 0,
+      "reference_tokens": 4
+    },
+    {
+      "sample_id": "asllrp3_fddff0e50b6d379f",
+      "reference": [
+        "IX-2p",
+        "NOT",
+        "LIE-DOWN",
+        "DRUNK",
+        "IX-2p"
+      ],
+      "hypothesis": [
+        "IX-loc:i"
+      ],
+      "substitutions": 1,
+      "deletions": 4,
+      "insertions": 0,
+      "reference_tokens": 5
+    },
+    {
+      "sample_id": "asllrp3_39671c266007d4f4",
+      "reference": [
+        "SEND",
+        "LETTER/MAIL",
+        "WHO"
+      ],
+      "hypothesis": [
+        "FRIEND"
+      ],
+      "substitutions": 1,
+      "deletions": 2,
+      "insertions": 0,
+      "reference_tokens": 3
+    },
+    {
+      "sample_id": "asllrp3_ba12cd534bbf5379",
+      "reference": [
+        "WHO",
+        "SEND",
+        "LETTER/MAIL"
+      ],
+      "hypothesis": [
+        "IX-1p"
+      ],
+      "substitutions": 1,
+      "deletions": 2,
+      "insertions": 0,
+      "reference_tokens": 3
+    },
+    {
+      "sample_id": "asllrp3_a7590dcd3bbececd",
+      "reference": [
+        "HEAR/LISTEN",
+        "TEACH+AGENT",
+        "WHO"
+      ],
+      "hypothesis": [
+        "WHO"
+      ],
+      "substitutions": 0,
+      "deletions": 2,
+      "insertions": 0,
+      "reference_tokens": 3
+    },
+    {
+      "sample_id": "asllrp3_6ad069d51591440e",
+      "reference": [
+        "WHO",
+        "HEAR/LISTEN",
+        "TEACH+AGENT"
+      ],
+      "hypothesis": [
+        "WHO"
+      ],
+      "substitutions": 0,
+      "deletions": 2,
+      "insertions": 0,
+      "reference_tokens": 3
+    },
+    {
+      "sample_id": "asllrp3_1bc3b9d361a50040",
+      "reference": [
+        "ns-fs-BOB",
+        "IX-loc:i",
+        "READ",
+        "\\WHAT\\\"\""
+      ],
+      "hypothesis": [
+        "IX-loc:i"
+      ],
+      "substitutions": 0,
+      "deletions": 3,
+      "insertions": 0,
+      "reference_tokens": 4
+    },
+    {
+      "sample_id": "asllrp3_ea7546a8e21cd183",
+      "reference": [
+        "MOTHER",
+        "SICK",
+        "HOW",
+        "part:indef"
+      ],
+      "hypothesis": [
+        "IX-loc:i"
+      ],
+      "substitutions": 1,
+      "deletions": 3,
+      "insertions": 0,
+      "reference_tokens": 4
+    },
+    {
+      "sample_id": "asllrp3_39cb0764c9510407",
+      "reference": [
+        "SICK",
+        "WHO"
+      ],
+      "hypothesis": [
+        "IX-loc:i"
+      ],
+      "substitutions": 1,
+      "deletions": 1,
+      "insertions": 0,
+      "reference_tokens": 2
+    },
+    {
+      "sample_id": "asllrp3_2b3ab9f2a742d338",
+      "reference": [
+        "WHO",
+        "SICK"
+      ],
+      "hypothesis": [
+        "IX-loc:i"
+      ],
+      "substitutions": 1,
+      "deletions": 1,
+      "insertions": 0,
+      "reference_tokens": 2
+    },
+    {
+      "sample_id": "asllrp3_bc3923bc2a16c8d9",
+      "reference": [
+        "AUNT",
+        "IX-3p:i",
+        "EXPERT",
+        "MAKE",
+        "\\WHAT\\\"\""
+      ],
+      "hypothesis": [
+        "IX-loc:i"
+      ],
+      "substitutions": 1,
+      "deletions": 4,
+      "insertions": 0,
+      "reference_tokens": 5
+    },
+    {
+      "sample_id": "asllrp3_0a2315362771b738",
+      "reference": [
+        "WIDE",
+        "#DOG_2",
+        "IX-loc:i",
+        "ACCEPT",
+        "WHO"
+      ],
+      "hypothesis": [
+        "IX-loc:i"
+      ],
+      "substitutions": 0,
+      "deletions": 4,
+      "insertions": 0,
+      "reference_tokens": 5
+    },
+    {
+      "sample_id": "asllrp3_b1b1ace216ac017a",
+      "reference": [
+        "WHO",
+        "ACCEPT",
+        "IX-3p:i",
+        "BIG_2",
+        "#DOG_2",
+        "IX-loc:i"
+      ],
+      "hypothesis": [
+        "IX-loc:i"
+      ],
+      "substitutions": 0,
+      "deletions": 5,
+      "insertions": 0,
+      "reference_tokens": 6
+    },
+    {
+      "sample_id": "asllrp3_cbdee97902f4b4b6",
+      "reference": [
+        "FUTURE",
+        "GO",
+        "#PO",
+        "WHO"
+      ],
+      "hypothesis": [
+        "IX-loc:i"
+      ],
+      "substitutions": 1,
+      "deletions": 3,
+      "insertions": 0,
+      "reference_tokens": 4
+    },
+    {
+      "sample_id": "asllrp3_13c09d231c23432d",
+      "reference": [
+        "WHO",
+        "FUTURE",
+        "GO",
+        "#PO"
+      ],
+      "hypothesis": [
+        "IX-loc:i"
+      ],
+      "substitutions": 1,
+      "deletions": 3,
+      "insertions": 0,
+      "reference_tokens": 4
+    },
+    {
+      "sample_id": "asllrp3_d62e75eca16b1dbf",
+      "reference": [
+        "DRESS/CLOTHES",
+        "IX-3p:i",
+        "#SALE",
+        "WHERE"
+      ],
+      "hypothesis": [
+        "IX-loc:i"
+      ],
+      "substitutions": 1,
+      "deletions": 3,
+      "insertions": 0,
+      "reference_tokens": 4
+    },
+    {
+      "sample_id": "asllrp3_5a9d4e1cd446120b",
+      "reference": [
+        "WHO",
+        "IX-3p:i"
+      ],
+      "hypothesis": [
+        "IX-loc:i"
+      ],
+      "substitutions": 1,
+      "deletions": 1,
+      "insertions": 0,
+      "reference_tokens": 2
+    },
+    {
+      "sample_id": "asllrp3_9a5d6ba6b672f51b",
+      "reference": [
+        "ASK",
+        "DIRECT/EXPLAIN",
+        "part:indef",
+        "WHO",
+        "part:indef"
+      ],
+      "hypothesis": [
+        "IX-loc:i"
+      ],
+      "substitutions": 1,
+      "deletions": 4,
+      "insertions": 0,
+      "reference_tokens": 5
+    },
+    {
+      "sample_id": "asllrp3_e54a34538f5cb2d7",
+      "reference": [
+        "WHO",
+        "ASK",
+        "FOR",
+        "DIRECT/EXPLAIN",
+        "part:indef"
+      ],
+      "hypothesis": [
+        "NOT"
+      ],
+      "substitutions": 1,
+      "deletions": 4,
+      "insertions": 0,
+      "reference_tokens": 5
+    },
+    {
+      "sample_id": "asllrp3_88626689c180f665",
+      "reference": [
+        "(1h)TEND",
+        "COMMUTE",
+        "WORK",
+        "BICYCLE",
+        "WHO"
+      ],
+      "hypothesis": [
+        "IX-loc:i"
+      ],
+      "substitutions": 1,
+      "deletions": 4,
+      "insertions": 0,
+      "reference_tokens": 5
+    },
+    {
+      "sample_id": "asllrp3_00faa9e33bf43cc5",
+      "reference": [
+        "WHO",
+        "(1h)TEND",
+        "COMMUTE",
+        "WORK",
+        "BICYCLE",
+        "part:indef"
+      ],
+      "hypothesis": [
+        "IX-loc:i"
+      ],
+      "substitutions": 1,
+      "deletions": 5,
+      "insertions": 0,
+      "reference_tokens": 6
+    },
+    {
+      "sample_id": "asllrp3_a93ce7109d7c008c",
+      "reference": [
+        "WHO",
+        "WANT_2",
+        "PLAY",
+        "FRISBEE",
+        "part:indef"
+      ],
+      "hypothesis": [
+        "IX-loc:i"
+      ],
+      "substitutions": 1,
+      "deletions": 4,
+      "insertions": 0,
+      "reference_tokens": 5
+    },
+    {
+      "sample_id": "asllrp3_6cd5300f1e69523c",
+      "reference": [
+        "WANT_2",
+        "FRISBEE",
+        "PLAY",
+        "WHO",
+        "part:indef"
+      ],
+      "hypothesis": [
+        "IX-loc:i"
+      ],
+      "substitutions": 1,
+      "deletions": 4,
+      "insertions": 0,
+      "reference_tokens": 5
+    },
+    {
+      "sample_id": "asllrp3_51a983cc99daf23e",
+      "reference": [
+        "IX-2p",
+        "WANT",
+        "#BBQ",
+        "GROUP/TOGETHER",
+        "\\WHAT\\\"\"",
+        "IX-2p"
+      ],
+      "hypothesis": [
+        "FRIEND"
+      ],
+      "substitutions": 1,
+      "deletions": 5,
+      "insertions": 0,
+      "reference_tokens": 6
+    },
+    {
+      "sample_id": "asllrp3_fdbf123199810eb2",
+      "reference": [
+        "FRIEND",
+        "WANT_2",
+        "BUY",
+        "PLAID",
+        "(2h)SHIRT"
+      ],
+      "hypothesis": [
+        "FRIEND"
+      ],
+      "substitutions": 0,
+      "deletions": 4,
+      "insertions": 0,
+      "reference_tokens": 5
+    },
+    {
+      "sample_id": "asllrp3_f2a8fc9beaccd6c8",
+      "reference": [
+        "SHOULD",
+        "BUY",
+        "\\WHAT\\\"\"",
+        "IX-2p"
+      ],
+      "hypothesis": [
+        "IX-1p"
+      ],
+      "substitutions": 1,
+      "deletions": 3,
+      "insertions": 0,
+      "reference_tokens": 4
+    },
+    {
+      "sample_id": "asllrp3_53baf667ac43b038",
+      "reference": [
+        "POSS-1p+",
+        "SISTER",
+        "WANT",
+        "POSS-2p",
+        "BIRTHDAY_3",
+        "\\WHAT\\\"\""
+      ],
+      "hypothesis": [
+        "IX-loc:i"
+      ],
+      "substitutions": 1,
+      "deletions": 5,
+      "insertions": 0,
+      "reference_tokens": 6
+    },
+    {
+      "sample_id": "asllrp3_6a53376e6ce3a23a",
+      "reference": [
+        "IX-2p",
+        "(1h)TEND",
+        "CHAT",
+        "WITH",
+        "IX-3p-pl-2:i/j",
+        "WHY",
+        "(1h)part:indef"
+      ],
+      "hypothesis": [
+        "IX-loc:i"
+      ],
+      "substitutions": 1,
+      "deletions": 6,
+      "insertions": 0,
+      "reference_tokens": 7
+    },
+    {
+      "sample_id": "asllrp3_a30c38fdaf9773eb",
+      "reference": [
+        "MUST",
+        "MOVE-AWAY",
+        "ns-#SD",
+        "WHY",
+        "(1h)part:indef"
+      ],
+      "hypothesis": [],
+      "substitutions": 0,
+      "deletions": 5,
+      "insertions": 0,
+      "reference_tokens": 5
+    },
+    {
+      "sample_id": "asllrp3_724a5269745913bc",
+      "reference": [
+        "IX-2p",
+        "LIE-DOWN",
+        "PAST+NIGHT",
+        "WHY",
+        "(1h)part:indef"
+      ],
+      "hypothesis": [
+        "IX-loc:i"
+      ],
+      "substitutions": 1,
+      "deletions": 4,
+      "insertions": 0,
+      "reference_tokens": 5
+    },
+    {
+      "sample_id": "asllrp3_ff8a943c9abff5e8",
+      "reference": [
+        "TIME+",
+        "FRIEND",
+        "(5)CRASH",
+        "(P)PARTY",
+        "part:indef",
+        "TIME",
+        "(1h)part:indef"
+      ],
+      "hypothesis": [
+        "NOT"
+      ],
+      "substitutions": 1,
+      "deletions": 6,
+      "insertions": 0,
+      "reference_tokens": 7
+    },
+    {
+      "sample_id": "asllrp3_2b7c58e5153e17d1",
+      "reference": [
+        "IX-2p",
+        "FINISH",
+        "BUY",
+        "BOOK",
+        "IX-2p"
+      ],
+      "hypothesis": [
+        "IX-loc:i"
+      ],
+      "substitutions": 1,
+      "deletions": 4,
+      "insertions": 0,
+      "reference_tokens": 5
+    },
+    {
+      "sample_id": "asllrp3_a17611f0b604876b",
+      "reference": [
+        "GO-OUT+",
+        "RAIN++"
+      ],
+      "hypothesis": [
+        "IX-loc:i"
+      ],
+      "substitutions": 1,
+      "deletions": 1,
+      "insertions": 0,
+      "reference_tokens": 2
+    },
+    {
+      "sample_id": "asllrp3_66b12e458dca748a",
+      "reference": [
+        "WATER",
+        "COLD"
+      ],
+      "hypothesis": [
+        "FRIEND"
+      ],
+      "substitutions": 1,
+      "deletions": 1,
+      "insertions": 0,
+      "reference_tokens": 2
+    },
+    {
+      "sample_id": "asllrp3_aaf48f69108e7d78",
+      "reference": [
+        "MOVIE_2",
+        "(1h)GOOD/THANK-YOU"
+      ],
+      "hypothesis": [
+        "WHO"
+      ],
+      "substitutions": 1,
+      "deletions": 1,
+      "insertions": 0,
+      "reference_tokens": 2
+    },
+    {
+      "sample_id": "asllrp3_6b9c314662f15d2f",
+      "reference": [
+        "MOVIE_2",
+        "(1h)GOOD/THANK-YOU",
+        "YES+",
+        "WONDERFUL"
+      ],
+      "hypothesis": [
+        "FRIEND"
+      ],
+      "substitutions": 1,
+      "deletions": 3,
+      "insertions": 0,
+      "reference_tokens": 4
+    },
+    {
+      "sample_id": "asllrp3_8729b7027c52d7b9",
+      "reference": [
+        "GO-OUT",
+        "RAIN",
+        "GO-OUT",
+        "(Y)WOW",
+        "BEAUTIFUL",
+        "AND",
+        "WARM"
+      ],
+      "hypothesis": [
+        "IX-2p"
+      ],
+      "substitutions": 1,
+      "deletions": 6,
+      "insertions": 0,
+      "reference_tokens": 7
+    },
+    {
+      "sample_id": "asllrp3_60c1ede5aca3501a",
+      "reference": [
+        "IX-1p",
+        "FINISH",
+        "BUY",
+        "BOOK",
+        "NOT-YET",
+        "FUTURE",
+        "BUY",
+        "TOMORROW"
+      ],
+      "hypothesis": [
+        "IX-2p"
+      ],
+      "substitutions": 1,
+      "deletions": 7,
+      "insertions": 0,
+      "reference_tokens": 8
+    },
+    {
+      "sample_id": "asllrp3_9f0564c059a0af56",
+      "reference": [
+        "ns-fs-BOB",
+        "IX-loc:i",
+        "SEND",
+        "LETTER/MAIL"
+      ],
+      "hypothesis": [
+        "IX-loc:i"
+      ],
+      "substitutions": 0,
+      "deletions": 3,
+      "insertions": 0,
+      "reference_tokens": 4
+    },
+    {
+      "sample_id": "asllrp3_5a05b255c394ee45",
+      "reference": [
+        "STUDENT",
+        "HEAR/LISTEN",
+        "TEACH+AGENT"
+      ],
+      "hypothesis": [
+        "IX-loc:i"
+      ],
+      "substitutions": 1,
+      "deletions": 2,
+      "insertions": 0,
+      "reference_tokens": 3
+    },
+    {
+      "sample_id": "asllrp3_ad6b0c1e7e437d76",
+      "reference": [
+        "ns-fs-BOB",
+        "IX-loc:i",
+        "READ",
+        "BOOK"
+      ],
+      "hypothesis": [
+        "IX-loc:i"
+      ],
+      "substitutions": 0,
+      "deletions": 3,
+      "insertions": 0,
+      "reference_tokens": 4
+    },
+    {
+      "sample_id": "asllrp3_72e1cf183ba606d2",
+      "reference": [
+        "TEACH+AGENT",
+        "NICE/CLEAN+",
+        "CLASS_2+BOX/ROOM"
+      ],
+      "hypothesis": [
+        "IX-loc:i"
+      ],
+      "substitutions": 1,
+      "deletions": 2,
+      "insertions": 0,
+      "reference_tokens": 3
+    },
+    {
+      "sample_id": "asllrp3_0b1da81d75d5c901",
+      "reference": [
+        "MOTHER+",
+        "SICK"
+      ],
+      "hypothesis": [
+        "IX-1p"
+      ],
+      "substitutions": 1,
+      "deletions": 1,
+      "insertions": 0,
+      "reference_tokens": 2
+    },
+    {
+      "sample_id": "asllrp3_5dff0eb2180e11eb",
+      "reference": [
+        "BAD",
+        "(5)WEATHER",
+        "SOON",
+        "GO",
+        "ns-BOSTON"
+      ],
+      "hypothesis": [
+        "IX-loc:i"
+      ],
+      "substitutions": 1,
+      "deletions": 4,
+      "insertions": 0,
+      "reference_tokens": 5
+    },
+    {
+      "sample_id": "asllrp3_b0f44bb40795be6f",
+      "reference": [
+        "ns-fs-BOB",
+        "IX-loc:i",
+        "HAVE",
+        "WIDE",
+        "DOG"
+      ],
+      "hypothesis": [
+        "IX-1p",
+        "IX-loc:i"
+      ],
+      "substitutions": 1,
+      "deletions": 3,
+      "insertions": 0,
+      "reference_tokens": 5
+    },
+    {
+      "sample_id": "asllrp3_77ff813ae887e8be",
+      "reference": [
+        "ns-fs-BOB",
+        "IX-loc:i",
+        "GO",
+        "#PO"
+      ],
+      "hypothesis": [
+        "IX-loc:i"
+      ],
+      "substitutions": 0,
+      "deletions": 3,
+      "insertions": 0,
+      "reference_tokens": 4
+    },
+    {
+      "sample_id": "asllrp3_e28e4e1d27c1cf62",
+      "reference": [
+        "IX-1p+",
+        "COMMUTE",
+        "BICYCLE",
+        "WORK+"
+      ],
+      "hypothesis": [
+        "FRIEND"
+      ],
+      "substitutions": 1,
+      "deletions": 3,
+      "insertions": 0,
+      "reference_tokens": 4
+    },
+    {
+      "sample_id": "asllrp3_63e216b6d31b3480",
+      "reference": [
+        "FRIEND",
+        "PLAY",
+        "FRISBEE"
+      ],
+      "hypothesis": [
+        "FRIEND"
+      ],
+      "substitutions": 0,
+      "deletions": 2,
+      "insertions": 0,
+      "reference_tokens": 3
+    },
+    {
+      "sample_id": "asllrp3_445bdac3e27bc86e",
+      "reference": [
+        "FRIEND",
+        "IX-loc:i",
+        "WANT_2",
+        "BUY",
+        "PLAID",
+        "(2h)SHIRT"
+      ],
+      "hypothesis": [
+        "IX-loc:i"
+      ],
+      "substitutions": 0,
+      "deletions": 5,
+      "insertions": 0,
+      "reference_tokens": 6
+    },
+    {
+      "sample_id": "asllrp3_7d2a8905963ae44f",
+      "reference": [
+        "IX-1p",
+        "ns-#SD",
+        "IX-1p",
+        "MOVE-AWAY"
+      ],
+      "hypothesis": [
+        "IX-loc:i"
+      ],
+      "substitutions": 1,
+      "deletions": 3,
+      "insertions": 0,
+      "reference_tokens": 4
+    },
+    {
+      "sample_id": "asllrp3_371247de22e13210",
+      "reference": [
+        "POSS-2p",
+        "FRIEND",
+        "IX-3p:i",
+        "INTERCOURSE+fs-UP",
+        "IX-3p:i",
+        "FACE",
+        "(1h)WOW/AWFUL",
+        "IX-3p:i"
+      ],
+      "hypothesis": [
+        "FRIEND"
+      ],
+      "substitutions": 0,
+      "deletions": 7,
+      "insertions": 0,
+      "reference_tokens": 8
+    },
+    {
+      "sample_id": "asllrp3_f6c16dd6fdfc2924",
+      "reference": [
+        "PAST+NIGHT",
+        "IX-1p",
+        "LIE-DOWN",
+        "DRUNK",
+        "IX-1p"
+      ],
+      "hypothesis": [
+        "IX-1p"
+      ],
+      "substitutions": 0,
+      "deletions": 4,
+      "insertions": 0,
+      "reference_tokens": 5
+    },
+    {
+      "sample_id": "asllrp3_99f9df65147c981b",
+      "reference": [
+        "FRIEND",
+        "IX-loc:i",
+        "(5)CRASH",
+        "(P)PARTY"
+      ],
+      "hypothesis": [
+        "WHO"
+      ],
+      "substitutions": 1,
+      "deletions": 3,
+      "insertions": 0,
+      "reference_tokens": 4
+    },
+    {
+      "sample_id": "asllrp3_bb0b0e07d99a2c62",
+      "reference": [
+        "FRIEND",
+        "IX-3p:i",
+        "TAKE-UP",
+        "PIZZA_4",
+        "EAT+NIGHT+"
+      ],
+      "hypothesis": [
+        "IX-loc:i"
+      ],
+      "substitutions": 1,
+      "deletions": 4,
+      "insertions": 0,
+      "reference_tokens": 5
+    },
+    {
+      "sample_id": "asllrp3_8ad18edba6a287e1",
+      "reference": [
+        "STUDENT",
+        "REALLY+WORK",
+        "HEAR/LISTEN",
+        "TEACH+AGENT"
+      ],
+      "hypothesis": [],
+      "substitutions": 0,
+      "deletions": 4,
+      "insertions": 0,
+      "reference_tokens": 4
+    },
+    {
+      "sample_id": "asllrp3_48698f34571147f3",
+      "reference": [
+        "TEACH+AGENT",
+        "FINISH",
+        "NICE/CLEAN",
+        "CLASS_2+BOX/ROOM"
+      ],
+      "hypothesis": [
+        "IX-2p"
+      ],
+      "substitutions": 1,
+      "deletions": 3,
+      "insertions": 0,
+      "reference_tokens": 4
+    },
+    {
+      "sample_id": "asllrp3_9e5d1e9bc8aca49e",
+      "reference": [
+        "ns-fs-BOB",
+        "IX-loc:i",
+        "(1h)HAVE",
+        "WIDE",
+        "DOG"
+      ],
+      "hypothesis": [
+        "IX-1p"
+      ],
+      "substitutions": 1,
+      "deletions": 4,
+      "insertions": 0,
+      "reference_tokens": 5
+    },
+    {
+      "sample_id": "asllrp3_55b825a7ba96f1e1",
+      "reference": [
+        "ns-fs-BOB",
+        "FINISH",
+        "ARRIVE",
+        "#PO"
+      ],
+      "hypothesis": [
+        "IX-loc:i"
+      ],
+      "substitutions": 1,
+      "deletions": 3,
+      "insertions": 0,
+      "reference_tokens": 4
+    },
+    {
+      "sample_id": "asllrp3_3feaf2210e1566c0",
+      "reference": [
+        "DRESS/CLOTHES",
+        "IX-loc:i",
+        "#SALE"
+      ],
+      "hypothesis": [
+        "IX-loc:i"
+      ],
+      "substitutions": 0,
+      "deletions": 2,
+      "insertions": 0,
+      "reference_tokens": 3
+    },
+    {
+      "sample_id": "asllrp3_62e034ceae589150",
+      "reference": [
+        "FRIEND",
+        "GROUP/TOGETHER",
+        "DCL:crvd-5\\group go together\\\"\"",
+        "FINISH",
+        "ARRIVE",
+        "MOVIE_2",
+        "ACT"
+      ],
+      "hypothesis": [
+        "FRIEND"
+      ],
+      "substitutions": 0,
+      "deletions": 6,
+      "insertions": 0,
+      "reference_tokens": 7
+    },
+    {
+      "sample_id": "asllrp3_b184291348f153e1",
+      "reference": [
+        "IX-2p",
+        "FINISH",
+        "MEET",
+        "POSS-1p",
+        "NEW",
+        "FRIEND",
+        "IX-3p:i"
+      ],
+      "hypothesis": [],
+      "substitutions": 0,
+      "deletions": 7,
+      "insertions": 0,
+      "reference_tokens": 7
+    },
+    {
+      "sample_id": "asllrp3_8980f7c8de710c2f",
+      "reference": [
+        "IX-2p",
+        "(1h)TEND",
+        "COMMUTE",
+        "WORK",
+        "BICYCLE"
+      ],
+      "hypothesis": [
+        "WHO"
+      ],
+      "substitutions": 1,
+      "deletions": 4,
+      "insertions": 0,
+      "reference_tokens": 5
+    },
+    {
+      "sample_id": "asllrp3_7e9d41a922a5cbb5",
+      "reference": [
+        "IX-1p+",
+        "PROCEED",
+        "TAKE-UP",
+        "#BBQ",
+        "GROUP/TOGETHER"
+      ],
+      "hypothesis": [
+        "WHO"
+      ],
+      "substitutions": 1,
+      "deletions": 4,
+      "insertions": 0,
+      "reference_tokens": 5
+    },
+    {
+      "sample_id": "asllrp3_21ceba1ceea8d514",
+      "reference": [
+        "PLAID",
+        "(2h)SHIRT",
+        "FACE",
+        "(1h)GOOD/THANK-YOU",
+        "IX-1p"
+      ],
+      "hypothesis": [
+        "IX-loc:i"
+      ],
+      "substitutions": 1,
+      "deletions": 4,
+      "insertions": 0,
+      "reference_tokens": 5
+    },
+    {
+      "sample_id": "asllrp3_94c791e3be25bddb",
+      "reference": [
+        "QMwg",
+        "IX-1p",
+        "SISTER",
+        "IX-loc:i",
+        "WANT_2",
+        "HEADBAND",
+        "POSS-3p:i",
+        "BIRTHDAY_3",
+        "IX-3p:i"
+      ],
+      "hypothesis": [
+        "IX-loc:i"
+      ],
+      "substitutions": 0,
+      "deletions": 8,
+      "insertions": 0,
+      "reference_tokens": 9
+    },
+    {
+      "sample_id": "asllrp3_71a3bef01213a12a",
+      "reference": [
+        "IX-2p",
+        "(1h)TEND",
+        "CHAT",
+        "WITH",
+        "IX-pl-2:i/j"
+      ],
+      "hypothesis": [
+        "IX-loc:i"
+      ],
+      "substitutions": 1,
+      "deletions": 4,
+      "insertions": 0,
+      "reference_tokens": 5
+    },
+    {
+      "sample_id": "asllrp3_7a12e95a58afea22",
+      "reference": [
+        "FINISH",
+        "MOVE-AWAY",
+        "ns-#SD",
+        "IX-2p"
+      ],
+      "hypothesis": [
+        "IX-loc:i"
+      ],
+      "substitutions": 1,
+      "deletions": 3,
+      "insertions": 0,
+      "reference_tokens": 4
+    },
+    {
+      "sample_id": "asllrp3_202b27d44502c64b",
+      "reference": [
+        "POSS-2p",
+        "FRIEND",
+        "THINK",
+        "INTERCOURSE+fs-UP"
+      ],
+      "hypothesis": [
+        "IX-loc:i"
+      ],
+      "substitutions": 1,
+      "deletions": 3,
+      "insertions": 0,
+      "reference_tokens": 4
+    },
+    {
+      "sample_id": "asllrp3_cf9f97d2b6d54e0c",
+      "reference": [
+        "IX-1p",
+        "LIE-DOWN",
+        "DRUNK",
+        "PAST+NIGHT"
+      ],
+      "hypothesis": [
+        "FRIEND"
+      ],
+      "substitutions": 1,
+      "deletions": 3,
+      "insertions": 0,
+      "reference_tokens": 4
+    },
+    {
+      "sample_id": "asllrp3_798cf7b6f711cd61",
+      "reference": [
+        "FUTURE",
+        "TAKE-UP",
+        "PIZZA_4",
+        "EAT+NIGHT+"
+      ],
+      "hypothesis": [
+        "IX-loc:i"
+      ],
+      "substitutions": 1,
+      "deletions": 3,
+      "insertions": 0,
+      "reference_tokens": 4
+    },
+    {
+      "sample_id": "asllrp3_995f8d353ade574f",
+      "reference": [
+        "FRIEND",
+        "PROCEED",
+        "(5)CRASH",
+        "(P)PARTY"
+      ],
+      "hypothesis": [
+        "IX-loc:i"
+      ],
+      "substitutions": 1,
+      "deletions": 3,
+      "insertions": 0,
+      "reference_tokens": 4
+    },
+    {
+      "sample_id": "asllrp3_efac818b016c117e",
+      "reference": [
+        "STUDENT",
+        "IX-loc-pl-arc",
+        "MUST",
+        "LEARN",
+        "HEAR/LISTEN",
+        "TEACH+AGENT",
+        "WHY",
+        "IX-3p:i",
+        "MANAGE/CONTROL"
+      ],
+      "hypothesis": [
+        "IX-loc:i"
+      ],
+      "substitutions": 1,
+      "deletions": 8,
+      "insertions": 0,
+      "reference_tokens": 9
+    },
+    {
+      "sample_id": "asllrp3_2dc22f8196cdd3d0",
+      "reference": [
+        "ns-fs-BOB",
+        "IX-loc:i",
+        "KISS-FIST",
+        "READ",
+        "BOOK",
+        "WHY",
+        "CAN",
+        "VISUALIZE"
+      ],
+      "hypothesis": [],
+      "substitutions": 0,
+      "deletions": 8,
+      "insertions": 0,
+      "reference_tokens": 8
+    },
+    {
+      "sample_id": "asllrp3_234da97bf5d78f6a",
+      "reference": [
+        "TEACH+AGENT",
+        "IX-loc:i",
+        "MUST",
+        "NICE/CLEAN",
+        "CLASS_2+BOX/ROOM",
+        "EVERYDAY",
+        "WHY",
+        "STUDENT",
+        "GO",
+        "CLASS_2",
+        "IX-3p-pl-arc",
+        "NICE/CLEAN"
+      ],
+      "hypothesis": [
+        "IX-1p"
+      ],
+      "substitutions": 1,
+      "deletions": 11,
+      "insertions": 0,
+      "reference_tokens": 12
+    },
+    {
+      "sample_id": "asllrp3_9b4d03f54528f13e",
+      "reference": [
+        "IX-1p+",
+        "NOT",
+        "STUDY",
+        "IX-1p",
+        "GUARANTEE",
+        "FAIL",
+        "IX-1p"
+      ],
+      "hypothesis": [
+        "IX-loc:i"
+      ],
+      "substitutions": 1,
+      "deletions": 6,
+      "insertions": 0,
+      "reference_tokens": 7
+    },
+    {
+      "sample_id": "asllrp3_3bf5052cfd7a3864",
+      "reference": [
+        "BUY",
+        "FLOWER",
+        "WHO"
+      ],
+      "hypothesis": [
+        "IX-loc:i"
+      ],
+      "substitutions": 1,
+      "deletions": 2,
+      "insertions": 0,
+      "reference_tokens": 3
+    },
+    {
+      "sample_id": "asllrp3_9fa96074d7674557",
+      "reference": [
+        "WHO",
+        "BUY",
+        "FLOWER",
+        "(1h)part:indef"
+      ],
+      "hypothesis": [
+        "IX-loc:i"
+      ],
+      "substitutions": 1,
+      "deletions": 3,
+      "insertions": 0,
+      "reference_tokens": 4
+    },
+    {
+      "sample_id": "asllrp3_a97b9069c1f14e1d",
+      "reference": [
+        "#IF+",
+        "IX-1p",
+        "NONE/NOTHING",
+        "BOOK",
+        "READ",
+        "IX-1p",
+        "NONE/NOTHING",
+        "IX-1p",
+        "BORE",
+        "IX-1p",
+        "part:indef"
+      ],
+      "hypothesis": [
+        "IX-loc:i"
+      ],
+      "substitutions": 1,
+      "deletions": 10,
+      "insertions": 0,
+      "reference_tokens": 11
+    },
+    {
+      "sample_id": "asllrp3_acae4789167f08b6",
+      "reference": [
+        "NOW",
+        "(5)WEATHER",
+        "LOUSY"
+      ],
+      "hypothesis": [
+        "FRIEND"
+      ],
+      "substitutions": 1,
+      "deletions": 2,
+      "insertions": 0,
+      "reference_tokens": 3
+    },
+    {
+      "sample_id": "asllrp3_94aaf664c611443d",
+      "reference": [
+        "MOTHER+",
+        "IX-3p:i",
+        "LIKE",
+        "SURPRISE",
+        "IX-3p:i"
+      ],
+      "hypothesis": [
+        "IX-loc:i"
+      ],
+      "substitutions": 1,
+      "deletions": 4,
+      "insertions": 0,
+      "reference_tokens": 5
+    },
+    {
+      "sample_id": "asllrp3_0834f3a8c0236d70",
+      "reference": [
+        "NOW+",
+        "(5)WEATHER",
+        "BEAUTIFUL"
+      ],
+      "hypothesis": [
+        "IX-loc:i"
+      ],
+      "substitutions": 1,
+      "deletions": 2,
+      "insertions": 0,
+      "reference_tokens": 3
+    },
+    {
+      "sample_id": "asllrp3_b4151fc5ca0b25c6",
+      "reference": [
+        "NOW",
+        "(5)WEATHER",
+        "NOT",
+        "LOUSY"
+      ],
+      "hypothesis": [
+        "IX-loc:i"
+      ],
+      "substitutions": 1,
+      "deletions": 3,
+      "insertions": 0,
+      "reference_tokens": 4
+    },
+    {
+      "sample_id": "asllrp3_2b56e81a2167eb08",
+      "reference": [
+        "MOTHER+",
+        "IX-loc:i",
+        "(1h)VOMIT/HATE",
+        "SURPRISE",
+        "IX-3p:i"
+      ],
+      "hypothesis": [
+        "IX-loc:i"
+      ],
+      "substitutions": 0,
+      "deletions": 4,
+      "insertions": 0,
+      "reference_tokens": 5
+    },
+    {
+      "sample_id": "asllrp3_d8ce9e55455535f0",
+      "reference": [
+        "LIKE",
+        "PINEAPPLE",
+        "fs-CREAM+CHEESE",
+        "IX-1p",
+        "(1h)part:indef"
+      ],
+      "hypothesis": [
+        "IX-loc:i"
+      ],
+      "substitutions": 1,
+      "deletions": 4,
+      "insertions": 0,
+      "reference_tokens": 5
+    },
+    {
+      "sample_id": "asllrp3_2185fbfb1ca9595f",
+      "reference": [
+        "IX-1p+",
+        "NOT",
+        "LIKE",
+        "PINEAPPLE",
+        "fs-CREAM+CHEESE",
+        "IX-1p"
+      ],
+      "hypothesis": [
+        "IX-loc:i"
+      ],
+      "substitutions": 1,
+      "deletions": 5,
+      "insertions": 0,
+      "reference_tokens": 6
+    },
+    {
+      "sample_id": "asllrp3_b291d55523a4618e",
+      "reference": [
+        "IX-1p+",
+        "KISS-FIST",
+        "fs-LOX",
+        "fs-CREAM+CHEESE",
+        "IX-1p"
+      ],
+      "hypothesis": [
+        "IX-loc:i"
+      ],
+      "substitutions": 1,
+      "deletions": 4,
+      "insertions": 0,
+      "reference_tokens": 5
+    },
+    {
+      "sample_id": "asllrp3_8e09ab1139c2a737",
+      "reference": [
+        "IX-1p+",
+        "LIKE",
+        "CHOCOLATE",
+        "DRY-CEREAL",
+        "(1h)part:indef"
+      ],
+      "hypothesis": [
+        "IX-loc:i"
+      ],
+      "substitutions": 1,
+      "deletions": 4,
+      "insertions": 0,
+      "reference_tokens": 5
+    },
+    {
+      "sample_id": "asllrp3_0d172a081ea8b5c0",
+      "reference": [
+        "WHY++",
+        "CHOCOLATE",
+        "DRY-CEREAL",
+        "NONE/NOTHING",
+        "part:indef"
+      ],
+      "hypothesis": [
+        "NOT"
+      ],
+      "substitutions": 1,
+      "deletions": 4,
+      "insertions": 0,
+      "reference_tokens": 5
+    },
+    {
+      "sample_id": "asllrp3_d6231595d2a069b3",
+      "reference": [
+        "SISTER",
+        "IX-loc:i",
+        "NOT",
+        "LIKE",
+        "CHOCOLATE",
+        "DRY-CEREAL",
+        "(1h)part:indef"
+      ],
+      "hypothesis": [
+        "IX-loc:i"
+      ],
+      "substitutions": 0,
+      "deletions": 6,
+      "insertions": 0,
+      "reference_tokens": 7
+    },
+    {
+      "sample_id": "asllrp3_2995ac71357e5da1",
+      "reference": [
+        "part:indef",
+        "IX-1p+",
+        "LIKE",
+        "CHOCOLATE",
+        "DRY-CEREAL",
+        "IX-1p",
+        "(1h)part:indef"
+      ],
+      "hypothesis": [
+        "IX-loc:i"
+      ],
+      "substitutions": 1,
+      "deletions": 6,
+      "insertions": 0,
+      "reference_tokens": 7
+    },
+    {
+      "sample_id": "asllrp3_31f218b2833f5517",
+      "reference": [
+        "5\\wave no\\\"\"",
+        "IX-1p",
+        "VOMIT/HATE",
+        "CHOCOLATE",
+        "DRY-CEREAL",
+        "IX-1p"
+      ],
+      "hypothesis": [
+        "FRIEND"
+      ],
+      "substitutions": 1,
+      "deletions": 5,
+      "insertions": 0,
+      "reference_tokens": 6
+    },
+    {
+      "sample_id": "asllrp3_d3d11d44eee0dafe",
+      "reference": [
+        "(1h)5\\wave no\\\"\"",
+        "IX-1p",
+        "NOT",
+        "LIKE",
+        "CHOCOLATE",
+        "DRY-CEREAL",
+        "IX-1p"
+      ],
+      "hypothesis": [
+        "FRIEND",
+        "IX-loc:i"
+      ],
+      "substitutions": 2,
+      "deletions": 5,
+      "insertions": 0,
+      "reference_tokens": 7
+    },
+    {
+      "sample_id": "asllrp3_630b32a086fc8ab9",
+      "reference": [
+        "CAR+",
+        "part:indef",
+        "BREAK",
+        "part:indef"
+      ],
+      "hypothesis": [
+        "IX-loc:i"
+      ],
+      "substitutions": 1,
+      "deletions": 3,
+      "insertions": 0,
+      "reference_tokens": 4
+    },
+    {
+      "sample_id": "asllrp3_cdc44ea887326b37",
+      "reference": [
+        "#NO+",
+        "CAR",
+        "NOT",
+        "BREAK"
+      ],
+      "hypothesis": [
+        "IX-loc:i"
+      ],
+      "substitutions": 1,
+      "deletions": 3,
+      "insertions": 0,
+      "reference_tokens": 4
+    },
+    {
+      "sample_id": "asllrp3_bf4f558416991dc7",
+      "reference": [
+        "(1h)5\\wave no\\\"\"",
+        "CAR+",
+        "IX-loc:i",
+        "NOT",
+        "BREAK",
+        "IX-3p:i",
+        "IX-3p:j",
+        "fs-TRUCK",
+        "IX-loc:j",
+        "BREAK",
+        "IX-3p:j"
+      ],
+      "hypothesis": [
+        "IX-loc:i"
+      ],
+      "substitutions": 0,
+      "deletions": 10,
+      "insertions": 0,
+      "reference_tokens": 11
+    },
+    {
+      "sample_id": "asllrp3_478ff3042fa9453a",
+      "reference": [
+        "(1h)5\\wave no\\\"\"",
+        "NOT",
+        "ns-fs-JOHN",
+        "IX-3p:i",
+        "ns-fs-MARY",
+        "BREAK",
+        "fs-TRUCK",
+        "IX-3p:j"
+      ],
+      "hypothesis": [
+        "IX-loc:i"
+      ],
+      "substitutions": 1,
+      "deletions": 7,
+      "insertions": 0,
+      "reference_tokens": 8
+    },
+    {
+      "sample_id": "asllrp3_b1afebd69d76a24b",
+      "reference": [
+        "CAR+",
+        "IX-loc:i",
+        "REALLY+WORK",
+        "BREAK",
+        "part:indef"
+      ],
+      "hypothesis": [
+        "IX-loc:i"
+      ],
+      "substitutions": 0,
+      "deletions": 4,
+      "insertions": 0,
+      "reference_tokens": 5
+    },
+    {
+      "sample_id": "asllrp3_e4c0aa6846797e71",
+      "reference": [
+        "CAR+",
+        "BREAK-DOWN",
+        "NOT"
+      ],
+      "hypothesis": [
+        "FRIEND"
+      ],
+      "substitutions": 1,
+      "deletions": 2,
+      "insertions": 0,
+      "reference_tokens": 3
+    },
+    {
+      "sample_id": "asllrp3_b4151768235b2fec",
+      "reference": [
+        "CAR+",
+        "BREAK-DOWN"
+      ],
+      "hypothesis": [
+        "IX-loc:i"
+      ],
+      "substitutions": 1,
+      "deletions": 1,
+      "insertions": 0,
+      "reference_tokens": 2
+    },
+    {
+      "sample_id": "asllrp3_66403bb6cfc7f9e4",
+      "reference": [
+        "CAR+",
+        "BREAK-DOWN"
+      ],
+      "hypothesis": [
+        "IX-loc:i"
+      ],
+      "substitutions": 1,
+      "deletions": 1,
+      "insertions": 0,
+      "reference_tokens": 2
+    },
+    {
+      "sample_id": "asllrp3_1b0a44d0ab999f62",
+      "reference": [
+        "CAR+",
+        "BREAK-DOWN",
+        "NOT"
+      ],
+      "hypothesis": [
+        "IX-loc:i"
+      ],
+      "substitutions": 1,
+      "deletions": 2,
+      "insertions": 0,
+      "reference_tokens": 3
+    },
+    {
+      "sample_id": "asllrp3_63ae1b69061f3aa9",
+      "reference": [
+        "IF+",
+        "ns-fs-MARY",
+        "POSS-3p:i",
+        "CAR+",
+        "BREAK-DOWN",
+        "ns-fs-JOHN",
+        "MUST",
+        "TAKE",
+        "WORK+"
+      ],
+      "hypothesis": [
+        "IX-loc:i"
+      ],
+      "substitutions": 1,
+      "deletions": 8,
+      "insertions": 0,
+      "reference_tokens": 9
+    },
+    {
+      "sample_id": "asllrp3_228b8f70fb4d3867",
+      "reference": [
+        "ns-fs-JOHN",
+        "TAKE",
+        "ns-fs-MARY",
+        "DRIVE",
+        "WORK+"
+      ],
+      "hypothesis": [
+        "IX-loc:i"
+      ],
+      "substitutions": 1,
+      "deletions": 4,
+      "insertions": 0,
+      "reference_tokens": 5
+    },
+    {
+      "sample_id": "asllrp3_a1738ab129a062a0",
+      "reference": [
+        "NOT",
+        "RAIN+",
+        "part:indef"
+      ],
+      "hypothesis": [],
+      "substitutions": 0,
+      "deletions": 3,
+      "insertions": 0,
+      "reference_tokens": 3
+    },
+    {
+      "sample_id": "asllrp3_3122c07bb6d542fd",
+      "reference": [
+        "RAIN+",
+        "NONE/NOTHING",
+        "part:indef"
+      ],
+      "hypothesis": [
+        "FRIEND"
+      ],
+      "substitutions": 1,
+      "deletions": 2,
+      "insertions": 0,
+      "reference_tokens": 3
+    },
+    {
+      "sample_id": "asllrp3_f78fe22a8c3a2aa1",
+      "reference": [
+        "(1h)WOW/AWFUL",
+        "NOT",
+        "RAIN+",
+        "NONE/NOTHING",
+        "part:indef"
+      ],
+      "hypothesis": [
+        "FRIEND"
+      ],
+      "substitutions": 1,
+      "deletions": 4,
+      "insertions": 0,
+      "reference_tokens": 5
+    },
+    {
+      "sample_id": "asllrp3_f77df483330af9d6",
+      "reference": [
+        "#NO++",
+        "CLASS_2",
+        "NEXT-WEEK",
+        "HAVE"
+      ],
+      "hypothesis": [
+        "IX-1p"
+      ],
+      "substitutions": 1,
+      "deletions": 3,
+      "insertions": 0,
+      "reference_tokens": 4
+    },
+    {
+      "sample_id": "asllrp3_803dc822c7eb6fbf",
+      "reference": [
+        "IX-1p",
+        "THINK",
+        "(Y)WOW",
+        "BORE",
+        "IX-1p"
+      ],
+      "hypothesis": [
+        "IX-loc:i"
+      ],
+      "substitutions": 1,
+      "deletions": 4,
+      "insertions": 0,
+      "reference_tokens": 5
+    },
+    {
+      "sample_id": "asllrp3_60b0abc7fe31f268",
+      "reference": [
+        "#NO++",
+        "IX-1p",
+        "RECENT-PAST",
+        "FINISH",
+        "HOMEWORK",
+        "IX-1p"
+      ],
+      "hypothesis": [
+        "IX-2p"
+      ],
+      "substitutions": 1,
+      "deletions": 5,
+      "insertions": 0,
+      "reference_tokens": 6
+    },
+    {
+      "sample_id": "asllrp3_08a81b8867243ff9",
+      "reference": [
+        "#NO",
+        "IX-1p",
+        "NOT",
+        "AFRAID",
+        "fs-OF",
+        "HIGH",
+        "part:indef",
+        "DO-DO",
+        "MAKE",
+        "IX-2p",
+        "THINK",
+        "THAT",
+        "(1h)part:indef"
+      ],
+      "hypothesis": [
+        "IX-loc:i"
+      ],
+      "substitutions": 1,
+      "deletions": 12,
+      "insertions": 0,
+      "reference_tokens": 13
+    },
+    {
+      "sample_id": "asllrp3_d623d70b66666def",
+      "reference": [
+        "SOMETHING/ONE",
+        "IX-3p-pl-arc",
+        "FIND/FIND-OUT",
+        "POSS-1p",
+        "KEY",
+        "WHICH",
+        "WHO",
+        "IX-3p-pl-arc"
+      ],
+      "hypothesis": [
+        "IX-loc:i"
+      ],
+      "substitutions": 1,
+      "deletions": 7,
+      "insertions": 0,
+      "reference_tokens": 8
+    },
+    {
+      "sample_id": "asllrp3_be8588e8105bdfb4",
+      "reference": [
+        "BUY",
+        "CAR",
+        "WHO",
+        "part:indef"
+      ],
+      "hypothesis": [],
+      "substitutions": 0,
+      "deletions": 4,
+      "insertions": 0,
+      "reference_tokens": 4
+    },
+    {
+      "sample_id": "asllrp3_e6957989071cc74c",
+      "reference": [
+        "WHO",
+        "IX-3p-pl-arc",
+        "FIND/FIND-OUT",
+        "IX-1p",
+        "KEY",
+        "(1h)part:indef"
+      ],
+      "hypothesis": [
+        "IX-2p"
+      ],
+      "substitutions": 1,
+      "deletions": 5,
+      "insertions": 0,
+      "reference_tokens": 6
+    },
+    {
+      "sample_id": "asllrp3_f287924af5fb30f8",
+      "reference": [
+        "IX-3p:i",
+        "BUY",
+        "CAR",
+        "\\WHAT\\\"\"",
+        "KIND"
+      ],
+      "hypothesis": [],
+      "substitutions": 0,
+      "deletions": 5,
+      "insertions": 0,
+      "reference_tokens": 5
+    },
+    {
+      "sample_id": "asllrp3_f3b92e3d21de4c98",
+      "reference": [
+        "ARRIVE",
+        "fs-LATE",
+        "WHO"
+      ],
+      "hypothesis": [
+        "CAR"
+      ],
+      "substitutions": 1,
+      "deletions": 2,
+      "insertions": 0,
+      "reference_tokens": 3
+    },
+    {
+      "sample_id": "asllrp3_1b1b5ff1ef149675",
+      "reference": [
+        "ns-fs-BILL",
+        "IX-loc:i",
+        "MOVE",
+        "ns-NEW-YORK",
+        "FUTURE"
+      ],
+      "hypothesis": [
+        "IX-2p"
+      ],
+      "substitutions": 1,
+      "deletions": 4,
+      "insertions": 0,
+      "reference_tokens": 5
+    },
+    {
+      "sample_id": "asllrp3_928b49472375d161",
+      "reference": [
+        "FATHER+",
+        "UPSET",
+        "WHY",
+        "(1h)part:indef"
+      ],
+      "hypothesis": [
+        "IX-2p"
+      ],
+      "substitutions": 1,
+      "deletions": 3,
+      "insertions": 0,
+      "reference_tokens": 4
+    },
+    {
+      "sample_id": "asllrp3_5d30f463b0b45eaa",
+      "reference": [
+        "ns-fs-JACK",
+        "ns-fs-SUE",
+        "MEET",
+        "FINISH"
+      ],
+      "hypothesis": [],
+      "substitutions": 0,
+      "deletions": 4,
+      "insertions": 0,
+      "reference_tokens": 4
+    },
+    {
+      "sample_id": "asllrp3_8059696659b1a558",
+      "reference": [
+        "GAME",
+        "FINISH",
+        "BEFORE_2",
+        "TIME",
+        "SIX",
+        "part:indef",
+        "WHICH"
+      ],
+      "hypothesis": [
+        "IX-2p"
+      ],
+      "substitutions": 1,
+      "deletions": 6,
+      "insertions": 0,
+      "reference_tokens": 7
+    },
+    {
+      "sample_id": "asllrp3_503b131e09abc929",
+      "reference": [
+        "RECENT-PAST",
+        "IX-2p",
+        "BUY",
+        "GIFT",
+        "FOR",
+        "POSS-2p",
+        "MOTHER",
+        "IX-3p:i",
+        "FUTURE",
+        "KISS-FIST"
+      ],
+      "hypothesis": [
+        "IX-2p"
+      ],
+      "substitutions": 0,
+      "deletions": 9,
+      "insertions": 0,
+      "reference_tokens": 10
+    },
+    {
+      "sample_id": "asllrp3_9a39d26d10afdbca",
+      "reference": [
+        "THAT",
+        "STUDENT",
+        "ON",
+        "#QUIZ",
+        "ACT",
+        "IX-3p:i",
+        "THAT",
+        "IX-loc:i",
+        "NOT",
+        "WIN",
+        "IX-3p:i",
+        "(1h)part:indef"
+      ],
+      "hypothesis": [
+        "WHO"
+      ],
+      "substitutions": 1,
+      "deletions": 11,
+      "insertions": 0,
+      "reference_tokens": 12
+    },
+    {
+      "sample_id": "asllrp3_eac087186f063e57",
+      "reference": [
+        "IF",
+        "ns-fs-JOHN",
+        "STAY",
+        "HOME",
+        "part:indef",
+        "MEAN",
+        "MAYBE",
+        "SICK",
+        "IX-3p:i"
+      ],
+      "hypothesis": [
+        "IX-loc:i"
+      ],
+      "substitutions": 1,
+      "deletions": 8,
+      "insertions": 0,
+      "reference_tokens": 9
+    },
+    {
+      "sample_id": "asllrp3_626b3862c50f2e36",
+      "reference": [
+        "ns-fs-MARY",
+        "IX-loc:i",
+        "ARRIVE",
+        "HOME",
+        "fs-LATE",
+        "ns-fs-JOHN",
+        "MAYBE",
+        "UPSET",
+        "IX-3p:k"
+      ],
+      "hypothesis": [
+        "IX-loc:i"
+      ],
+      "substitutions": 0,
+      "deletions": 8,
+      "insertions": 0,
+      "reference_tokens": 9
+    },
+    {
+      "sample_id": "asllrp3_f044f9015af1c098",
+      "reference": [
+        "IF+",
+        "RAIN",
+        "TOMORROW",
+        "IX-1p",
+        "ARRIVE",
+        "UNCLE",
+        "HOUSE",
+        "STAY",
+        "IN+"
+      ],
+      "hypothesis": [
+        "IX-loc:i"
+      ],
+      "substitutions": 1,
+      "deletions": 8,
+      "insertions": 0,
+      "reference_tokens": 9
+    },
+    {
+      "sample_id": "asllrp3_1133d61580f550fa",
+      "reference": [
+        "TOMORROW",
+        "RAIN++",
+        "MEAN",
+        "ARRIVE",
+        "UNCLE",
+        "HOUSE",
+        "STAY",
+        "IN+"
+      ],
+      "hypothesis": [
+        "IX-loc:i"
+      ],
+      "substitutions": 1,
+      "deletions": 7,
+      "insertions": 0,
+      "reference_tokens": 8
+    },
+    {
+      "sample_id": "asllrp3_593189b338020024",
+      "reference": [
+        "KNOW+",
+        "FUTURE",
+        "RAIN",
+        "TOMORROW"
+      ],
+      "hypothesis": [],
+      "substitutions": 0,
+      "deletions": 4,
+      "insertions": 0,
+      "reference_tokens": 4
+    },
+    {
+      "sample_id": "asllrp3_678bc149c74643bb",
+      "reference": [
+        "#IF+",
+        "IX-1p",
+        "GO-OUT",
+        "EAT",
+        "WHO",
+        "(P)PAY",
+        "part:indef"
+      ],
+      "hypothesis": [
+        "IX-loc:i"
+      ],
+      "substitutions": 1,
+      "deletions": 6,
+      "insertions": 0,
+      "reference_tokens": 7
+    },
+    {
+      "sample_id": "asllrp3_552418b64afbaa3d",
+      "reference": [
+        "(5)MAN",
+        "IX-loc:i",
+        "(1h)HAVE",
+        "WIFE",
+        "MEAN",
+        "IX-3p:i",
+        "LOVE",
+        "IX-3p:j"
+      ],
+      "hypothesis": [
+        "IX-loc:i"
+      ],
+      "substitutions": 0,
+      "deletions": 7,
+      "insertions": 0,
+      "reference_tokens": 8
+    },
+    {
+      "sample_id": "asllrp3_ce2d9ec263768488",
+      "reference": [
+        "IF",
+        "(5)MAN",
+        "HAVE",
+        "WIFE",
+        "IX-3p:i",
+        "LOVE",
+        "IX-3p:j"
+      ],
+      "hypothesis": [
+        "IX-loc:i"
+      ],
+      "substitutions": 1,
+      "deletions": 6,
+      "insertions": 0,
+      "reference_tokens": 7
+    },
+    {
+      "sample_id": "asllrp3_56e04631a91c8c7f",
+      "reference": [
+        "IF+",
+        "ns-fs-JACK",
+        "HAVE",
+        "WIFE",
+        "IX-3p:i",
+        "LOVE",
+        "IX-3p:j"
+      ],
+      "hypothesis": [
+        "IX-loc:i"
+      ],
+      "substitutions": 1,
+      "deletions": 6,
+      "insertions": 0,
+      "reference_tokens": 7
+    },
+    {
+      "sample_id": "asllrp3_26e789f1bbeebee8",
+      "reference": [
+        "IX-1p",
+        "NOW",
+        "READ+",
+        "BOOK"
+      ],
+      "hypothesis": [
+        "IX-loc:i"
+      ],
+      "substitutions": 1,
+      "deletions": 3,
+      "insertions": 0,
+      "reference_tokens": 4
+    },
+    {
+      "sample_id": "asllrp3_af4305baffc2f6a7",
+      "reference": [
+        "IX-1p",
+        "RECENT-PAST",
+        "READ+",
+        "BOOK",
+        "IX-1p"
+      ],
+      "hypothesis": [
+        "IX-loc:i"
+      ],
+      "substitutions": 1,
+      "deletions": 4,
+      "insertions": 0,
+      "reference_tokens": 5
+    },
+    {
+      "sample_id": "asllrp3_4073c2e59c7b371c",
+      "reference": [
+        "IX-1p",
+        "FINISH",
+        "READ",
+        "BOOK"
+      ],
+      "hypothesis": [
+        "IX-loc:i"
+      ],
+      "substitutions": 1,
+      "deletions": 3,
+      "insertions": 0,
+      "reference_tokens": 4
+    },
+    {
+      "sample_id": "asllrp3_217efbe95c2dbc63",
+      "reference": [
+        "#IF",
+        "IX-3p:i",
+        "NOT",
+        "BORE",
+        "IX-1p",
+        "FUTURE",
+        "READ",
+        "IX-1p",
+        "part:indef"
+      ],
+      "hypothesis": [
+        "IX-loc:i"
+      ],
+      "substitutions": 1,
+      "deletions": 8,
+      "insertions": 0,
+      "reference_tokens": 9
+    },
+    {
+      "sample_id": "asllrp3_c524942ec67137e3",
+      "reference": [
+        "IF+",
+        "IX-3p:i",
+        "BORE",
+        "NOT",
+        "IX-3p:i",
+        "IX-1p",
+        "FUTURE",
+        "READ",
+        "IX-1p",
+        "part:indef"
+      ],
+      "hypothesis": [
+        "IX-1p"
+      ],
+      "substitutions": 0,
+      "deletions": 9,
+      "insertions": 0,
+      "reference_tokens": 10
+    },
+    {
+      "sample_id": "asllrp3_c8ede0f42ed0be45",
+      "reference": [
+        "IX-3p:i",
+        "FUTURE",
+        "READ",
+        "BOOK",
+        "#IF+",
+        "(1h)HAVE",
+        "TIME",
+        "IX-3p:i"
+      ],
+      "hypothesis": [
+        "IX-1p"
+      ],
+      "substitutions": 1,
+      "deletions": 7,
+      "insertions": 0,
+      "reference_tokens": 8
+    },
+    {
+      "sample_id": "asllrp3_970d09c62f91bdf4",
+      "reference": [
+        "IF+",
+        "SCHOOL",
+        "NOT",
+        "CANCEL/CRITICIZE",
+        "IX-3p:i",
+        "FUTURE",
+        "GO",
+        "SCHOOL"
+      ],
+      "hypothesis": [
+        "IX-loc:i"
+      ],
+      "substitutions": 1,
+      "deletions": 7,
+      "insertions": 0,
+      "reference_tokens": 8
+    },
+    {
+      "sample_id": "asllrp3_e69348677e45a4cf",
+      "reference": [
+        "#IF",
+        "RAIN++",
+        "IX-1p",
+        "GO-OUT",
+        "HOME"
+      ],
+      "hypothesis": [
+        "IX-loc:i"
+      ],
+      "substitutions": 1,
+      "deletions": 4,
+      "insertions": 0,
+      "reference_tokens": 5
+    },
+    {
+      "sample_id": "asllrp3_44e1b9de84194f04",
+      "reference": [
+        "#IF",
+        "IX-2p",
+        "(1h)HAVE",
+        "BOOK",
+        "IX-2p",
+        "IX-1p",
+        "MAYBE",
+        "READ",
+        "IX-1p"
+      ],
+      "hypothesis": [
+        "IX-loc:i"
+      ],
+      "substitutions": 1,
+      "deletions": 8,
+      "insertions": 0,
+      "reference_tokens": 9
+    },
+    {
+      "sample_id": "asllrp3_a9d509c75715f0c7",
+      "reference": [
+        "IF+",
+        "(5)WEATHER",
+        "WARM",
+        "IX-1p-pl-arc",
+        "GO",
+        "fs-BEACH"
+      ],
+      "hypothesis": [
+        "FRIEND"
+      ],
+      "substitutions": 1,
+      "deletions": 5,
+      "insertions": 0,
+      "reference_tokens": 6
+    },
+    {
+      "sample_id": "asllrp3_d5cb678c63b95e0f",
+      "reference": [
+        "IX-2p",
+        "WANT_2",
+        "IX-1p",
+        "CAN",
+        "WORK",
+        "WITH"
+      ],
+      "hypothesis": [
+        "IX-1p",
+        "IX-loc:i"
+      ],
+      "substitutions": 1,
+      "deletions": 4,
+      "insertions": 0,
+      "reference_tokens": 6
+    },
+    {
+      "sample_id": "asllrp3_68eebe4b8317fd5f",
+      "reference": [
+        "WHEN",
+        "RAIN++",
+        "IX-1p",
+        "MUST",
+        "LEAVE"
+      ],
+      "hypothesis": [
+        "ns-fs-MARY",
+        "IX-1p"
+      ],
+      "substitutions": 1,
+      "deletions": 3,
+      "insertions": 0,
+      "reference_tokens": 5
+    },
+    {
+      "sample_id": "asllrp3_d49f7c174b7b2f85",
+      "reference": [
+        "IX-2p",
+        "GRADUATE",
+        "#HS",
+        "#WHEN",
+        "IX-2p",
+        "FUTURE",
+        "GO",
+        "COLLEGE",
+        "IX-2p"
+      ],
+      "hypothesis": [
+        "IX-loc:i"
+      ],
+      "substitutions": 1,
+      "deletions": 8,
+      "insertions": 0,
+      "reference_tokens": 9
+    },
+    {
+      "sample_id": "asllrp3_8bda7ccac1856710",
+      "reference": [
+        "IX-2p",
+        "LIKE",
+        "(nd-1)MOVIE",
+        "IX-2p"
+      ],
+      "hypothesis": [
+        "IX-loc:i"
+      ],
+      "substitutions": 1,
+      "deletions": 3,
+      "insertions": 0,
+      "reference_tokens": 4
+    },
+    {
+      "sample_id": "asllrp3_b2434ffb1782d310",
+      "reference": [
+        "IX-2p",
+        "GO",
+        "(P)PARTY",
+        "NEXT-WEEK",
+        "IX-2p"
+      ],
+      "hypothesis": [],
+      "substitutions": 0,
+      "deletions": 5,
+      "insertions": 0,
+      "reference_tokens": 5
+    },
+    {
+      "sample_id": "asllrp3_0ca6b35d5540fc15",
+      "reference": [
+        "IX-3p:i",
+        "ns-fs-JOHN",
+        "BUY",
+        "(Y)YESTERDAY",
+        "\\WHAT\\\"\""
+      ],
+      "hypothesis": [
+        "IX-loc:i"
+      ],
+      "substitutions": 1,
+      "deletions": 4,
+      "insertions": 0,
+      "reference_tokens": 5
+    },
+    {
+      "sample_id": "asllrp3_2784e3456049337a",
+      "reference": [
+        "WHO",
+        "LOVE",
+        "ns-fs-MARY"
+      ],
+      "hypothesis": [
+        "IX-loc:i"
+      ],
+      "substitutions": 1,
+      "deletions": 2,
+      "insertions": 0,
+      "reference_tokens": 3
+    },
+    {
+      "sample_id": "asllrp3_bf03206dae898a9e",
+      "reference": [
+        "VEGETABLE",
+        "IX-loc-pl-arc",
+        "WHICH",
+        "KID",
+        "KISS-FIST",
+        "WHICH"
+      ],
+      "hypothesis": [
+        "IX-loc:i"
+      ],
+      "substitutions": 1,
+      "deletions": 5,
+      "insertions": 0,
+      "reference_tokens": 6
+    },
+    {
+      "sample_id": "asllrp3_5e8c232c421b973c",
+      "reference": [
+        "CAR",
+        "IX-loc:i",
+        "ns-fs-MARY",
+        "BUY",
+        "WHEN",
+        "part:indef"
+      ],
+      "hypothesis": [
+        "IX-loc:i"
+      ],
+      "substitutions": 0,
+      "deletions": 5,
+      "insertions": 0,
+      "reference_tokens": 6
+    },
+    {
+      "sample_id": "asllrp3_70cac25f7e753051",
+      "reference": [
+        "TOMORROW",
+        "FAMILY",
+        "GO",
+        "WHERE"
+      ],
+      "hypothesis": [
+        "IX-loc:i"
+      ],
+      "substitutions": 1,
+      "deletions": 3,
+      "insertions": 0,
+      "reference_tokens": 4
+    },
+    {
+      "sample_id": "asllrp3_fd7c49b2add32f27",
+      "reference": [
+        "TEACH+AGENT",
+        "UPSET",
+        "WHY++",
+        "(1h)part:indef"
+      ],
+      "hypothesis": [
+        "IX-loc:i"
+      ],
+      "substitutions": 1,
+      "deletions": 3,
+      "insertions": 0,
+      "reference_tokens": 4
+    },
+    {
+      "sample_id": "asllrp3_178880956fc34df7",
+      "reference": [
+        "HOMEWORK",
+        "IX-1p",
+        "FINISH",
+        "PAST+NIGHT",
+        "IX-1p"
+      ],
+      "hypothesis": [
+        "IX-loc:i"
+      ],
+      "substitutions": 1,
+      "deletions": 4,
+      "insertions": 0,
+      "reference_tokens": 5
+    },
+    {
+      "sample_id": "asllrp3_e4cf33dd6c1ddcfc",
+      "reference": [
+        "POSS-1p",
+        "FRIEND",
+        "(Y)WOW",
+        "THRILL/WHAT'S-UP",
+        "part:indef",
+        "WIN",
+        "fs-LOTTERY",
+        "IX-3p:i"
+      ],
+      "hypothesis": [
+        "FRIEND"
+      ],
+      "substitutions": 0,
+      "deletions": 7,
+      "insertions": 0,
+      "reference_tokens": 8
+    },
+    {
+      "sample_id": "asllrp3_0fc86a26a2da96e5",
+      "reference": [
+        "POSS-1p",
+        "FATHER+",
+        "MOVE",
+        "WHERE",
+        "ns-CHICAGO"
+      ],
+      "hypothesis": [
+        "IX-loc:i"
+      ],
+      "substitutions": 1,
+      "deletions": 4,
+      "insertions": 0,
+      "reference_tokens": 5
+    },
+    {
+      "sample_id": "asllrp3_4d7116fc1fd6b103",
+      "reference": [
+        "MOVIE_2",
+        "START",
+        "TIME+",
+        "SEVEN"
+      ],
+      "hypothesis": [
+        "IX-loc:i"
+      ],
+      "substitutions": 1,
+      "deletions": 3,
+      "insertions": 0,
+      "reference_tokens": 4
+    },
+    {
+      "sample_id": "asllrp3_355ddb09c3733046",
+      "reference": [
+        "IX-1p",
+        "MUST",
+        "FIND/FIND-OUT",
+        "(1h)\\WHAT\\\"\"",
+        "GIFT",
+        "FOR",
+        "MOTHER+",
+        "(1h)part:indef"
+      ],
+      "hypothesis": [
+        "IX-loc:i"
+      ],
+      "substitutions": 1,
+      "deletions": 7,
+      "insertions": 0,
+      "reference_tokens": 8
+    },
+    {
+      "sample_id": "asllrp3_6857624a0ce1fc03",
+      "reference": [
+        "NONE/NOTHING",
+        "VOICE",
+        "5\\I don't know\\\"\"",
+        "(2h)KNOW+NEG",
+        "IDENTIFY",
+        "(2h)alt.LOOK-OVER"
+      ],
+      "hypothesis": [
+        "IX-1p",
+        "NOT"
+      ],
+      "substitutions": 2,
+      "deletions": 4,
+      "insertions": 0,
+      "reference_tokens": 6
+    },
+    {
+      "sample_id": "asllrp3_f684732182246c2d",
+      "reference": [
+        "HOW",
+        "VARY"
+      ],
+      "hypothesis": [
+        "IX-3p:i",
+        "NOT"
+      ],
+      "substitutions": 2,
+      "deletions": 0,
+      "insertions": 0,
+      "reference_tokens": 2
+    },
+    {
+      "sample_id": "asllrp3_94a334a08069b812",
+      "reference": [
+        "HOW",
+        "KNOW",
+        "5\\umm\\\"\""
+      ],
+      "hypothesis": [
+        "IX-3p:i",
+        "SNOW"
+      ],
+      "substitutions": 2,
+      "deletions": 1,
+      "insertions": 0,
+      "reference_tokens": 3
+    },
+    {
+      "sample_id": "asllrp3_41ae92328f19a70a",
+      "reference": [
+        "THROUGH",
+        "DIFFERENT++",
+        "EXPERIENCE",
+        "WARN"
+      ],
+      "hypothesis": [
+        "IX-1p",
+        "NOT"
+      ],
+      "substitutions": 2,
+      "deletions": 2,
+      "insertions": 0,
+      "reference_tokens": 4
+    },
+    {
+      "sample_id": "asllrp3_43ee04f8283d685f",
+      "reference": [
+        "#SO",
+        "VARY",
+        "KIND",
+        "fs-OF",
+        "(2h)THING"
+      ],
+      "hypothesis": [
+        "IX-3p:i",
+        "NOT"
+      ],
+      "substitutions": 2,
+      "deletions": 3,
+      "insertions": 0,
+      "reference_tokens": 5
+    },
+    {
+      "sample_id": "asllrp3_69c658a3c3e837d4",
+      "reference": [
+        "WHICH",
+        "(1h)part:indef",
+        "MAKE",
+        "NOISE",
+        "WHICH",
+        "NOT",
+        "5\\umm\\\"\"",
+        "VARY"
+      ],
+      "hypothesis": [
+        "IX-1p",
+        "NOT"
+      ],
+      "substitutions": 1,
+      "deletions": 6,
+      "insertions": 0,
+      "reference_tokens": 8
+    },
+    {
+      "sample_id": "asllrp3_4b00076917cee1f0",
+      "reference": [
+        "FRIEND",
+        "IX-3p-pl-arc",
+        "INTERPRET",
+        "fs-OF",
+        "NOISE",
+        "IX-3p:j",
+        "MAKE"
+      ],
+      "hypothesis": [
+        "IX-1p",
+        "NOT"
+      ],
+      "substitutions": 2,
+      "deletions": 5,
+      "insertions": 0,
+      "reference_tokens": 7
+    },
+    {
+      "sample_id": "asllrp3_fa008ba2c9697272",
+      "reference": [
+        "SOMETIMES",
+        "INTERPRET",
+        "NOISE",
+        "MAKE",
+        "THINK",
+        "MAYBE",
+        "ANGRY"
+      ],
+      "hypothesis": [
+        "IX-3p:i",
+        "SNOW"
+      ],
+      "substitutions": 2,
+      "deletions": 5,
+      "insertions": 0,
+      "reference_tokens": 7
+    },
+    {
+      "sample_id": "asllrp3_a43875801a6de413",
+      "reference": [
+        "OFTEN",
+        "NOT",
+        "REASON",
+        "A-LOT",
+        "NOISE",
+        "IX-3p:j",
+        "MAKE",
+        "#SO",
+        "NOT",
+        "ALSO",
+        "QUIET",
+        "ALSO",
+        "IX-3p-pl-arc",
+        "THINK"
+      ],
+      "hypothesis": [
+        "IX-1p",
+        "NOT"
+      ],
+      "substitutions": 1,
+      "deletions": 12,
+      "insertions": 0,
+      "reference_tokens": 14
+    },
+    {
+      "sample_id": "asllrp3_a78d4ff4cc30399f",
+      "reference": [
+        "FOR",
+        "SHOW",
+        "ns-NEW-YORK",
+        "FAST_3",
+        "(2h)TALKwg"
+      ],
+      "hypothesis": [
+        "IX-3p:i",
+        "NOT"
+      ],
+      "substitutions": 2,
+      "deletions": 3,
+      "insertions": 0,
+      "reference_tokens": 5
+    },
+    {
+      "sample_id": "asllrp3_bc5bbabe2260a17c",
+      "reference": [
+        "PEOPLE",
+        "IX-3p-pl-arc",
+        "WHO",
+        "USE_2",
+        "OFTEN",
+        "STORY",
+        "EXPERIENCE",
+        "fs-OF",
+        "VISUALIZE",
+        "(1h)PERSON"
+      ],
+      "hypothesis": [
+        "IX-1p",
+        "NOT"
+      ],
+      "substitutions": 2,
+      "deletions": 8,
+      "insertions": 0,
+      "reference_tokens": 10
+    },
+    {
+      "sample_id": "asllrp3_9cf918d669fca6c3",
+      "reference": [
+        "SPECIAL/EXCEPT",
+        "WHEN",
+        "DEAF",
+        "PERSON",
+        "IX-3p:i"
+      ],
+      "hypothesis": [
+        "IX-3p:i",
+        "NOT"
+      ],
+      "substitutions": 2,
+      "deletions": 3,
+      "insertions": 0,
+      "reference_tokens": 5
+    },
+    {
+      "sample_id": "asllrp3_519dabef8d2b26e1",
+      "reference": [
+        "fs-SO",
+        "CONCEPT",
+        "fs-OF",
+        "EXPERIENCE+",
+        "HOW",
+        "PEOPLE",
+        "IDENTIFY+",
+        "WHO",
+        "IX-3p:i",
+        "IX-3p:j",
+        "IX-3p:k"
+      ],
+      "hypothesis": [
+        "IX-1p",
+        "NOT"
+      ],
+      "substitutions": 2,
+      "deletions": 9,
+      "insertions": 0,
+      "reference_tokens": 11
+    },
+    {
+      "sample_id": "asllrp3_eff2599f30bdfec0",
+      "reference": [
+        "GIFT",
+        "THAT",
+        "IDENTIFY",
+        "TO/UNTIL",
+        "IX-3p:i",
+        "DEAF",
+        "PERSON"
+      ],
+      "hypothesis": [
+        "NOT"
+      ],
+      "substitutions": 1,
+      "deletions": 6,
+      "insertions": 0,
+      "reference_tokens": 7
+    },
+    {
+      "sample_id": "asllrp3_8fc1955fec97613d",
+      "reference": [
+        "THAT",
+        "HEAR",
+        "MATCH",
+        "(1h)NOW"
+      ],
+      "hypothesis": [
+        "IX-3p:i"
+      ],
+      "substitutions": 1,
+      "deletions": 3,
+      "insertions": 0,
+      "reference_tokens": 4
+    },
+    {
+      "sample_id": "asllrp3_7937747f49edb327",
+      "reference": [
+        "WHO",
+        "IX-honorific:i",
+        "part:indef"
+      ],
+      "hypothesis": [
+        "IX-1p",
+        "NOT"
+      ],
+      "substitutions": 2,
+      "deletions": 1,
+      "insertions": 0,
+      "reference_tokens": 3
+    },
+    {
+      "sample_id": "asllrp3_f56a254b0974f942",
+      "reference": [
+        "fs-SO",
+        "EXPERIENCE+",
+        "REALLY",
+        "MISMATCH",
+        "DIFFERENT",
+        "fs-ORIENTATION",
+        "part:indef"
+      ],
+      "hypothesis": [
+        "IX-1p",
+        "NOT"
+      ],
+      "substitutions": 2,
+      "deletions": 5,
+      "insertions": 0,
+      "reference_tokens": 7
+    },
+    {
+      "sample_id": "asllrp3_fbdd7dab8ad6758c",
+      "reference": [
+        "(2h)5\\wow\\\"\"",
+        "DIFFERENT+",
+        "AMONG_2"
+      ],
+      "hypothesis": [
+        "IX-1p"
+      ],
+      "substitutions": 1,
+      "deletions": 2,
+      "insertions": 0,
+      "reference_tokens": 3
+    },
+    {
+      "sample_id": "asllrp3_89f54b6f4f4699cc",
+      "reference": [
+        "WHEN",
+        "MEET",
+        "PERSON",
+        "WHO",
+        "NOT",
+        "USE_2",
+        "VOICE",
+        "(2h)alt.LOOK-OVER",
+        "CANNOT",
+        "SET-UP",
+        "UNDERSTAND",
+        "WHO",
+        "IX-honorific:i",
+        "IDENTIFY",
+        "IF",
+        "part:indef"
+      ],
+      "hypothesis": [
+        "IX-1p",
+        "NOT"
+      ],
+      "substitutions": 1,
+      "deletions": 14,
+      "insertions": 0,
+      "reference_tokens": 16
+    },
+    {
+      "sample_id": "asllrp3_d334b416da6304aa",
+      "reference": [
+        "MANY",
+        "IX-3p-pl-arc",
+        "HEARING",
+        "WHO",
+        "FAST",
+        "ALL-NIGHT",
+        "BECOME",
+        "DEAF",
+        "IX-3p:i"
+      ],
+      "hypothesis": [
+        "IX-1p",
+        "NOT"
+      ],
+      "substitutions": 2,
+      "deletions": 7,
+      "insertions": 0,
+      "reference_tokens": 9
+    },
+    {
+      "sample_id": "asllrp3_348380b79708082b",
+      "reference": [
+        "\\WHAT\\\"\"",
+        "fs-DISORDER",
+        "\\WHAT\\\"\"",
+        "QUALITY",
+        "5\\hesitation\\\"\""
+      ],
+      "hypothesis": [
+        "IX-1p",
+        "NOT"
+      ],
+      "substitutions": 2,
+      "deletions": 3,
+      "insertions": 0,
+      "reference_tokens": 5
+    },
+    {
+      "sample_id": "asllrp3_f0a2517a6b1d2b61",
+      "reference": [
+        "STUDY",
+        "ON",
+        "SPEECH/ORAL",
+        "fs-DISORDER",
+        "A-LOT"
+      ],
+      "hypothesis": [
+        "IX-3p:i",
+        "SNOW"
+      ],
+      "substitutions": 2,
+      "deletions": 3,
+      "insertions": 0,
+      "reference_tokens": 5
+    },
+    {
+      "sample_id": "asllrp3_192a025d17af092d",
+      "reference": [
+        "IN",
+        "GROUP/TOGETHER",
+        "TALK",
+        "fs-DISORDER",
+        "(1h)HAVE",
+        "GROUP/TOGETHER",
+        "NAME",
+        "DEAF",
+        "fs-SPEECH"
+      ],
+      "hypothesis": [
+        "IX-1p"
+      ],
+      "substitutions": 1,
+      "deletions": 8,
+      "insertions": 0,
+      "reference_tokens": 9
+    },
+    {
+      "sample_id": "asllrp3_4013634a2b699f6f",
+      "reference": [
+        "\\WHAT\\\"\"",
+        "DEAF",
+        "fs-SPEECH",
+        "part:indef"
+      ],
+      "hypothesis": [
+        "IX-3p:i",
+        "SNOW"
+      ],
+      "substitutions": 2,
+      "deletions": 2,
+      "insertions": 0,
+      "reference_tokens": 4
+    },
+    {
+      "sample_id": "asllrp3_1573bb2386488e00",
+      "reference": [
+        "IX-1p",
+        "BETWEEN/SHARE",
+        "EXPERIENCE",
+        "IX-1p",
+        "HAVE",
+        "(A)SELF-1p",
+        "GROW-UP"
+      ],
+      "hypothesis": [
+        "IX-3p:i",
+        "SNOW"
+      ],
+      "substitutions": 2,
+      "deletions": 5,
+      "insertions": 0,
+      "reference_tokens": 7
+    },
+    {
+      "sample_id": "asllrp3_66a7edf21619af7c",
+      "reference": [
+        "SELF-3p+:i",
+        "GROUP/TOGETHER",
+        "IX-3p:i",
+        "IN",
+        "THAT",
+        "GROUP/TOGETHER",
+        "IX-1p",
+        "(1h)GOOD/THANK-YOU"
+      ],
+      "hypothesis": [
+        "IX-1p",
+        "NOT"
+      ],
+      "substitutions": 1,
+      "deletions": 6,
+      "insertions": 0,
+      "reference_tokens": 8
+    },
+    {
+      "sample_id": "asllrp3_1e7a43c38b84bbc6",
+      "reference": [
+        "(1h)HAVE",
+        "GROUP/TOGETHER",
+        "DIRECT/EXPLAIN",
+        "DEAF",
+        "fs-SPEECH",
+        "TEND"
+      ],
+      "hypothesis": [
+        "NOT"
+      ],
+      "substitutions": 1,
+      "deletions": 5,
+      "insertions": 0,
+      "reference_tokens": 6
+    },
+    {
+      "sample_id": "asllrp3_3a3dee8665af816f",
+      "reference": [
+        "\\WHAT\\\"\"",
+        "MEAN",
+        "DEAF",
+        "fs-SPEECH"
+      ],
+      "hypothesis": [
+        "IX-3p:i",
+        "SNOW"
+      ],
+      "substitutions": 2,
+      "deletions": 2,
+      "insertions": 0,
+      "reference_tokens": 4
+    },
+    {
+      "sample_id": "asllrp3_489f16a2b3432d32",
+      "reference": [
+        "SOMETIMES",
+        "IX-1p",
+        "MEET",
+        "HEARING",
+        "PERSON"
+      ],
+      "hypothesis": [
+        "IX-3p:i"
+      ],
+      "substitutions": 1,
+      "deletions": 4,
+      "insertions": 0,
+      "reference_tokens": 5
+    },
+    {
+      "sample_id": "asllrp3_05abbca68db07ed2",
+      "reference": [
+        "OTHER",
+        "EXPERIENCE",
+        "WITH",
+        "(F)BELONG",
+        "WITH",
+        "POSS-1p",
+        "(F)BELONG",
+        "WITH",
+        "VOICE"
+      ],
+      "hypothesis": [
+        "IX-3p:i",
+        "SNOW"
+      ],
+      "substitutions": 2,
+      "deletions": 7,
+      "insertions": 0,
+      "reference_tokens": 9
+    },
+    {
+      "sample_id": "asllrp3_93cd336742a43cfa",
+      "reference": [
+        "(1h)HAVE",
+        "VISUALIZE",
+        "MEAN",
+        "part:indef",
+        "LONG-LIST"
+      ],
+      "hypothesis": [
+        "IX-1p",
+        "NOT"
+      ],
+      "substitutions": 2,
+      "deletions": 3,
+      "insertions": 0,
+      "reference_tokens": 5
+    },
+    {
+      "sample_id": "asllrp3_36d3ef57002dd1b5",
+      "reference": [
+        "#SO",
+        "5\\wow\\\"\"",
+        "IF",
+        "fs-GRUNT",
+        "SELF-3p:i",
+        "(1h)NOW",
+        "IF",
+        "(F)BELONG",
+        "WITH",
+        "VOICE+",
+        "fs-EXCESS"
+      ],
+      "hypothesis": [
+        "IX-1p",
+        "NOT"
+      ],
+      "substitutions": 2,
+      "deletions": 9,
+      "insertions": 0,
+      "reference_tokens": 11
+    },
+    {
+      "sample_id": "asllrp3_5e57bdc8e1b4af32",
+      "reference": [
+        "MOTHER",
+        "IX-3p:i",
+        "SCL:bent-U-L\\person walking\\\"\"",
+        "SELL+"
+      ],
+      "hypothesis": [
+        "IX-loc:i"
+      ],
+      "substitutions": 1,
+      "deletions": 3,
+      "insertions": 0,
+      "reference_tokens": 4
+    },
+    {
+      "sample_id": "asllrp3_4c792d55f377a65e",
+      "reference": [
+        "FRIEND",
+        "GO-OUT",
+        "TOGETHER/GO-STEADY_2"
+      ],
+      "hypothesis": [
+        "IX-loc:i"
+      ],
+      "substitutions": 1,
+      "deletions": 2,
+      "insertions": 0,
+      "reference_tokens": 3
+    },
+    {
+      "sample_id": "asllrp3_35aab4b02e7e148c",
+      "reference": [
+        "FATHER+",
+        "ARRIVE",
+        "HOME",
+        "fs-LATE",
+        "NIGHT+"
+      ],
+      "hypothesis": [
+        "IX-loc:i"
+      ],
+      "substitutions": 1,
+      "deletions": 4,
+      "insertions": 0,
+      "reference_tokens": 5
+    },
+    {
+      "sample_id": "asllrp3_0d248cecf1b19240",
+      "reference": [
+        "KID",
+        "PLAY-continuative",
+        "IX-loc:i",
+        "fs-PARK"
+      ],
+      "hypothesis": [
+        "IX-loc:i"
+      ],
+      "substitutions": 0,
+      "deletions": 3,
+      "insertions": 0,
+      "reference_tokens": 4
+    },
+    {
+      "sample_id": "asllrp3_3a1129cc3e09764a",
+      "reference": [
+        "FRIEND",
+        "DYE",
+        "HAIR",
+        "DCL:5\\hair dyed all over\\\"\"",
+        "TOGETHER/GO-STEADY_2"
+      ],
+      "hypothesis": [
+        "IX-loc:i"
+      ],
+      "substitutions": 1,
+      "deletions": 4,
+      "insertions": 0,
+      "reference_tokens": 5
+    },
+    {
+      "sample_id": "asllrp3_5f13e1bedf0da6cc",
+      "reference": [
+        "MOTHER",
+        "NICE/CLEAN+",
+        "(K)KITCHEN"
+      ],
+      "hypothesis": [
+        "FRIEND"
+      ],
+      "substitutions": 1,
+      "deletions": 2,
+      "insertions": 0,
+      "reference_tokens": 3
+    },
+    {
+      "sample_id": "asllrp3_450a7432ee9efdcd",
+      "reference": [
+        "FRIEND",
+        "IX-loc:i",
+        "DEPART",
+        "CAMP+"
+      ],
+      "hypothesis": [
+        "FRIEND"
+      ],
+      "substitutions": 0,
+      "deletions": 3,
+      "insertions": 0,
+      "reference_tokens": 4
+    },
+    {
+      "sample_id": "asllrp3_319b954fbeb29b40",
+      "reference": [
+        "FAMILY",
+        "TAKE-UP",
+        "DOG",
+        "DCL:crvd-B\\small puppies\\\"\""
+      ],
+      "hypothesis": [
+        "IX-loc:i"
+      ],
+      "substitutions": 1,
+      "deletions": 3,
+      "insertions": 0,
+      "reference_tokens": 4
+    },
+    {
+      "sample_id": "asllrp3_2c40c94c951ce0ab",
+      "reference": [
+        "FRIEND",
+        "GO-OUT",
+        "TOGETHER/GO-STEADY_2",
+        "QMwg"
+      ],
+      "hypothesis": [
+        "IX-loc:i"
+      ],
+      "substitutions": 1,
+      "deletions": 3,
+      "insertions": 0,
+      "reference_tokens": 4
+    },
+    {
+      "sample_id": "asllrp3_bc3ea81de8127917",
+      "reference": [
+        "FATHER+",
+        "ARRIVE",
+        "HOME",
+        "fs-LATE",
+        "NIGHT+"
+      ],
+      "hypothesis": [],
+      "substitutions": 0,
+      "deletions": 5,
+      "insertions": 0,
+      "reference_tokens": 5
+    },
+    {
+      "sample_id": "asllrp3_7043da298d5f18cf",
+      "reference": [
+        "KID",
+        "IX-loc:i",
+        "PLAY-continuative",
+        "fs-PARK"
+      ],
+      "hypothesis": [
+        "IX-loc:i"
+      ],
+      "substitutions": 0,
+      "deletions": 3,
+      "insertions": 0,
+      "reference_tokens": 4
+    },
+    {
+      "sample_id": "asllrp3_b197de3bedc89ad2",
+      "reference": [
+        "ns-fs-OBAMA",
+        "IX-3p:i",
+        "SWIM",
+        "fs-BEACH",
+        "IX-3p:i"
+      ],
+      "hypothesis": [
+        "FRIEND"
+      ],
+      "substitutions": 1,
+      "deletions": 4,
+      "insertions": 0,
+      "reference_tokens": 5
+    },
+    {
+      "sample_id": "asllrp3_661e8d152ce1893d",
+      "reference": [
+        "FRIEND",
+        "IX-loc:i",
+        "DYE",
+        "HAIR",
+        "DCL:5\\hair dyed all over\\\"\"",
+        "TOGETHER/GO-STEADY_2"
+      ],
+      "hypothesis": [
+        "IX-loc:i"
+      ],
+      "substitutions": 0,
+      "deletions": 5,
+      "insertions": 0,
+      "reference_tokens": 6
+    },
+    {
+      "sample_id": "asllrp3_8d7b2beccea1d8c6",
+      "reference": [
+        "MOTHER",
+        "NICE/CLEAN+",
+        "(K)KITCHEN"
+      ],
+      "hypothesis": [
+        "IX-loc:i"
+      ],
+      "substitutions": 1,
+      "deletions": 2,
+      "insertions": 0,
+      "reference_tokens": 3
+    },
+    {
+      "sample_id": "asllrp3_473d3af1d069372a",
+      "reference": [
+        "FRIEND",
+        "DEPART",
+        "CAMP+"
+      ],
+      "hypothesis": [
+        "IX-loc:i"
+      ],
+      "substitutions": 1,
+      "deletions": 2,
+      "insertions": 0,
+      "reference_tokens": 3
+    },
+    {
+      "sample_id": "asllrp3_2123d442c353b639",
+      "reference": [
+        "FATHER+",
+        "IX-loc:i",
+        "ARRIVE",
+        "HOME",
+        "fs-LATE",
+        "NIGHT+"
+      ],
+      "hypothesis": [
+        "IX-loc:i"
+      ],
+      "substitutions": 0,
+      "deletions": 5,
+      "insertions": 0,
+      "reference_tokens": 6
+    },
+    {
+      "sample_id": "asllrp3_240fbbf061cf1539",
+      "reference": [
+        "KID",
+        "IX-loc:i",
+        "PLAY-continuative",
+        "fs-PARK"
+      ],
+      "hypothesis": [
+        "FRIEND"
+      ],
+      "substitutions": 1,
+      "deletions": 3,
+      "insertions": 0,
+      "reference_tokens": 4
+    },
+    {
+      "sample_id": "asllrp3_d799c7bdbd54d2f8",
+      "reference": [
+        "ns-fs-OBAMA",
+        "IX-loc:i",
+        "SWIM",
+        "fs-BEACH"
+      ],
+      "hypothesis": [
+        "IX-1p",
+        "IX-loc:i"
+      ],
+      "substitutions": 1,
+      "deletions": 2,
+      "insertions": 0,
+      "reference_tokens": 4
+    },
+    {
+      "sample_id": "asllrp3_4e232bbef380cb58",
+      "reference": [
+        "FRIEND",
+        "IX-loc:i",
+        "DYE",
+        "HAIR",
+        "DCL:5\\hair dyed all over\\\"\"",
+        "TOGETHER/GO-STEADY_2"
+      ],
+      "hypothesis": [
+        "IX-loc:i"
+      ],
+      "substitutions": 0,
+      "deletions": 5,
+      "insertions": 0,
+      "reference_tokens": 6
+    },
+    {
+      "sample_id": "asllrp3_8194c4d50bd5306e",
+      "reference": [
+        "MOTHER",
+        "IX-loc:i",
+        "NICE/CLEAN+",
+        "(K)KITCHEN"
+      ],
+      "hypothesis": [
+        "IX-2p",
+        "IX-loc:i"
+      ],
+      "substitutions": 1,
+      "deletions": 2,
+      "insertions": 0,
+      "reference_tokens": 4
+    },
+    {
+      "sample_id": "asllrp3_726eed7087aa5f5f",
+      "reference": [
+        "FRIEND",
+        "IX-loc:i",
+        "DEPART",
+        "CAMP+"
+      ],
+      "hypothesis": [
+        "IX-loc:i"
+      ],
+      "substitutions": 0,
+      "deletions": 3,
+      "insertions": 0,
+      "reference_tokens": 4
+    },
+    {
+      "sample_id": "asllrp3_77395f277c5ed243",
+      "reference": [
+        "DCL:crvd-B\\small puppies\\\"\"",
+        "DOG",
+        "SMALL",
+        "IX-loc:i",
+        "FAMILY",
+        "IX-loc:j",
+        "TAKE-UP"
+      ],
+      "hypothesis": [
+        "IX-loc:i"
+      ],
+      "substitutions": 0,
+      "deletions": 6,
+      "insertions": 0,
+      "reference_tokens": 7
+    },
+    {
+      "sample_id": "asllrp3_9b94da183f7022af",
+      "reference": [
+        "MOTHER",
+        "SCL:bent-U-L\\person walking\\\"\"",
+        "WHERE"
+      ],
+      "hypothesis": [
+        "FRIEND"
+      ],
+      "substitutions": 1,
+      "deletions": 2,
+      "insertions": 0,
+      "reference_tokens": 3
+    },
+    {
+      "sample_id": "asllrp3_d7a8de93c72196c0",
+      "reference": [
+        "MOTHER",
+        "SCL:bent-U-L\\person walking\\\"\"",
+        "WHERE"
+      ],
+      "hypothesis": [
+        "IX-loc:i"
+      ],
+      "substitutions": 1,
+      "deletions": 2,
+      "insertions": 0,
+      "reference_tokens": 3
+    },
+    {
+      "sample_id": "asllrp3_3a9f780a8b380e3c",
+      "reference": [
+        "MOTHER",
+        "SCL:bent-U-L\\person walking\\\"\"",
+        "WHERE"
+      ],
+      "hypothesis": [
+        "IX-loc:i"
+      ],
+      "substitutions": 1,
+      "deletions": 2,
+      "insertions": 0,
+      "reference_tokens": 3
+    },
+    {
+      "sample_id": "asllrp3_87d6b04a559c3ba9",
+      "reference": [
+        "MOTHER",
+        "SCL:bent-U-L\\person walking\\\"\"",
+        "WHERE"
+      ],
+      "hypothesis": [
+        "IX-2p",
+        "IX-loc:i"
+      ],
+      "substitutions": 2,
+      "deletions": 1,
+      "insertions": 0,
+      "reference_tokens": 3
+    },
+    {
+      "sample_id": "asllrp3_6b9385bdf669f54e",
+      "reference": [
+        "SCL:bent-U-L\\person walking\\\"\"",
+        "SELL+",
+        "WHO"
+      ],
+      "hypothesis": [
+        "FRIEND"
+      ],
+      "substitutions": 1,
+      "deletions": 2,
+      "insertions": 0,
+      "reference_tokens": 3
+    },
+    {
+      "sample_id": "asllrp3_cf6fad058e12e39f",
+      "reference": [
+        "SCL:bent-U-L\\person walking\\\"\"",
+        "SELL+",
+        "WHO"
+      ],
+      "hypothesis": [],
+      "substitutions": 0,
+      "deletions": 3,
+      "insertions": 0,
+      "reference_tokens": 3
+    },
+    {
+      "sample_id": "asllrp3_0b9e964ba2f233cd",
+      "reference": [
+        "FRIEND",
+        "IX-loc:i",
+        "DO-DO+",
+        "IX-3p:i"
+      ],
+      "hypothesis": [
+        "FRIEND"
+      ],
+      "substitutions": 0,
+      "deletions": 3,
+      "insertions": 0,
+      "reference_tokens": 4
+    },
+    {
+      "sample_id": "asllrp3_24bb26f137f06be2",
+      "reference": [
+        "DEPART",
+        "WHO"
+      ],
+      "hypothesis": [
+        "IX-loc:i"
+      ],
+      "substitutions": 1,
+      "deletions": 1,
+      "insertions": 0,
+      "reference_tokens": 2
+    },
+    {
+      "sample_id": "asllrp3_0a6366ebe74189d9",
+      "reference": [
+        "DEPART",
+        "WHO"
+      ],
+      "hypothesis": [
+        "IX-loc:i"
+      ],
+      "substitutions": 1,
+      "deletions": 1,
+      "insertions": 0,
+      "reference_tokens": 2
+    },
+    {
+      "sample_id": "asllrp3_2c9400ef2b3be857",
+      "reference": [
+        "ARRIVE",
+        "HOME",
+        "fs-LATE",
+        "NIGHT+",
+        "WHO"
+      ],
+      "hypothesis": [
+        "IX-loc:i"
+      ],
+      "substitutions": 1,
+      "deletions": 4,
+      "insertions": 0,
+      "reference_tokens": 5
+    },
+    {
+      "sample_id": "asllrp3_d31faf242e847164",
+      "reference": [
+        "ARRIVE",
+        "HOME",
+        "fs-LATE",
+        "NIGHT+",
+        "WHO"
+      ],
+      "hypothesis": [
+        "IX-loc:i"
+      ],
+      "substitutions": 1,
+      "deletions": 4,
+      "insertions": 0,
+      "reference_tokens": 5
+    },
+    {
+      "sample_id": "asllrp3_e73514bac9688145",
+      "reference": [
+        "FATHER+",
+        "ARRIVE",
+        "HOME",
+        "WHEN"
+      ],
+      "hypothesis": [
+        "FRIEND",
+        "IX-loc:i"
+      ],
+      "substitutions": 2,
+      "deletions": 2,
+      "insertions": 0,
+      "reference_tokens": 4
+    },
+    {
+      "sample_id": "asllrp3_df27beef0841f3ac",
+      "reference": [
+        "FATHER+",
+        "ARRIVE",
+        "HOME",
+        "WHEN"
+      ],
+      "hypothesis": [
+        "IX-loc:i"
+      ],
+      "substitutions": 1,
+      "deletions": 3,
+      "insertions": 0,
+      "reference_tokens": 4
+    },
+    {
+      "sample_id": "asllrp3_5c539cd98f590386",
+      "reference": [
+        "FATHER+",
+        "ARRIVE",
+        "HOME",
+        "WHEN"
+      ],
+      "hypothesis": [
+        "FRIEND"
+      ],
+      "substitutions": 1,
+      "deletions": 3,
+      "insertions": 0,
+      "reference_tokens": 4
+    },
+    {
+      "sample_id": "asllrp3_6e17d25781575be5",
+      "reference": [
+        "KID",
+        "PLAY-continuative",
+        "WHERE"
+      ],
+      "hypothesis": [],
+      "substitutions": 0,
+      "deletions": 3,
+      "insertions": 0,
+      "reference_tokens": 3
+    },
+    {
+      "sample_id": "asllrp3_b38e4f947c9d00bf",
+      "reference": [
+        "PLAY-continuative",
+        "fs-PARK",
+        "IX-3p:i",
+        "WHO",
+        "IX-3p:i"
+      ],
+      "hypothesis": [],
+      "substitutions": 0,
+      "deletions": 5,
+      "insertions": 0,
+      "reference_tokens": 5
+    },
+    {
+      "sample_id": "asllrp3_ed626c5f82522b3b",
+      "reference": [
+        "SWIM",
+        "fs-BEACH",
+        "IX-3p:i",
+        "WHO",
+        "IX-3p:i"
+      ],
+      "hypothesis": [
+        "IX-loc:i"
+      ],
+      "substitutions": 1,
+      "deletions": 4,
+      "insertions": 0,
+      "reference_tokens": 5
+    },
+    {
+      "sample_id": "asllrp3_0d96c98be9435690",
+      "reference": [
+        "CHILDREN",
+        "SWIM",
+        "WHERE"
+      ],
+      "hypothesis": [
+        "FRIEND"
+      ],
+      "substitutions": 1,
+      "deletions": 2,
+      "insertions": 0,
+      "reference_tokens": 3
+    },
+    {
+      "sample_id": "asllrp3_dc4ebb34afe9a6bc",
+      "reference": [
+        "FRIEND",
+        "DYE",
+        "HAIR",
+        "DCL:5\\hair dyed all over\\\"\"",
+        "TOGETHER/GO-STEADY_2",
+        "WHY"
+      ],
+      "hypothesis": [
+        "FRIEND"
+      ],
+      "substitutions": 0,
+      "deletions": 5,
+      "insertions": 0,
+      "reference_tokens": 6
+    },
+    {
+      "sample_id": "asllrp3_593b19966f99ef8e",
+      "reference": [
+        "MOTHER",
+        "NICE/CLEAN+",
+        "(K)KITCHEN",
+        "#WHEN"
+      ],
+      "hypothesis": [
+        "FRIEND"
+      ],
+      "substitutions": 1,
+      "deletions": 3,
+      "insertions": 0,
+      "reference_tokens": 4
+    },
+    {
+      "sample_id": "asllrp3_fff88e9d1100d33f",
+      "reference": [
+        "MOTHER",
+        "IX-loc:i",
+        "NICE/CLEAN+",
+        "(1h)\\WHAT\\\"\"",
+        "IX-3p:i"
+      ],
+      "hypothesis": [
+        "IX-2p"
+      ],
+      "substitutions": 1,
+      "deletions": 4,
+      "insertions": 0,
+      "reference_tokens": 5
+    },
+    {
+      "sample_id": "asllrp3_9d53f003118c75e5",
+      "reference": [
+        "NICE/CLEAN+",
+        "(K)KITCHEN",
+        "WHO"
+      ],
+      "hypothesis": [
+        "IX-loc:i"
+      ],
+      "substitutions": 1,
+      "deletions": 2,
+      "insertions": 0,
+      "reference_tokens": 3
+    },
+    {
+      "sample_id": "asllrp3_5bf735f24aa40413",
+      "reference": [
+        "DEPART",
+        "CAMP+",
+        "WHO"
+      ],
+      "hypothesis": [
+        "IX-loc:i"
+      ],
+      "substitutions": 1,
+      "deletions": 2,
+      "insertions": 0,
+      "reference_tokens": 3
+    },
+    {
+      "sample_id": "asllrp3_7bc8a4b3e3572f21",
+      "reference": [
+        "FRIEND",
+        "DEPART",
+        "CAMP+",
+        "#WHEN"
+      ],
+      "hypothesis": [
+        "FRIEND"
+      ],
+      "substitutions": 0,
+      "deletions": 3,
+      "insertions": 0,
+      "reference_tokens": 4
+    },
+    {
+      "sample_id": "asllrp3_19fd2c9cae412ce2",
+      "reference": [
+        "FRIEND",
+        "DEPART",
+        "CAMP+",
+        "WHERE"
+      ],
+      "hypothesis": [
+        "FRIEND"
+      ],
+      "substitutions": 0,
+      "deletions": 3,
+      "insertions": 0,
+      "reference_tokens": 4
+    },
+    {
+      "sample_id": "asllrp3_0dc452f3ba3e81e1",
+      "reference": [
+        "TAKE-UP",
+        "DCL:crvd-B\\small puppies\\\"\"",
+        "DOG",
+        "WHO"
+      ],
+      "hypothesis": [
+        "FRIEND"
+      ],
+      "substitutions": 1,
+      "deletions": 3,
+      "insertions": 0,
+      "reference_tokens": 4
+    },
+    {
+      "sample_id": "asllrp3_57783f55188e48ff",
+      "reference": [
+        "FRIEND",
+        "GROUP/TOGETHER",
+        "DEPART",
+        "IX-1p",
+        "JOIN"
+      ],
+      "hypothesis": [
+        "FRIEND",
+        "IX-loc:i"
+      ],
+      "substitutions": 1,
+      "deletions": 3,
+      "insertions": 0,
+      "reference_tokens": 5
+    },
+    {
+      "sample_id": "asllrp3_d8ea4b067f145801",
+      "reference": [
+        "#IF",
+        "SWIM",
+        "IX-1p",
+        "WANT+NEG",
+        "FUTURE",
+        "DO-DO",
+        "SCL:bent-U-L\\person walking\\\"\""
+      ],
+      "hypothesis": [
+        "IX-loc:i"
+      ],
+      "substitutions": 1,
+      "deletions": 6,
+      "insertions": 0,
+      "reference_tokens": 7
+    },
+    {
+      "sample_id": "asllrp3_666829bed89abc66",
+      "reference": [
+        "#IF+",
+        "FRIEND",
+        "GROUP/TOGETHER",
+        "DCL:crvd-5\\group go together\\\"\"",
+        "CAMP+",
+        "IX-1p+",
+        "JOIN"
+      ],
+      "hypothesis": [
+        "IX-2p"
+      ],
+      "substitutions": 1,
+      "deletions": 6,
+      "insertions": 0,
+      "reference_tokens": 7
+    },
+    {
+      "sample_id": "asllrp3_0d0619cc55ea2d3b",
+      "reference": [
+        "#IF",
+        "IX-3p:i",
+        "FAMILY",
+        "IX-loc:i",
+        "NOT",
+        "TAKE-UP",
+        "IX-3p-pl-arc",
+        "DCL:crvd-B\\small puppies\\\"\"",
+        "DOG",
+        "part:indef",
+        "POSS-1p",
+        "FRIEND",
+        "FUTURE"
+      ],
+      "hypothesis": [
+        "IX-2p"
+      ],
+      "substitutions": 1,
+      "deletions": 12,
+      "insertions": 0,
+      "reference_tokens": 13
+    },
+    {
+      "sample_id": "asllrp3_f9f2fdf43446c0eb",
+      "reference": [
+        "FRIEND",
+        "GO-OUT",
+        "NOW+",
+        "WHY+",
+        "IX-3p:i",
+        "BORE"
+      ],
+      "hypothesis": [
+        "FRIEND"
+      ],
+      "substitutions": 0,
+      "deletions": 5,
+      "insertions": 0,
+      "reference_tokens": 6
+    },
+    {
+      "sample_id": "asllrp3_fece29b5ee3556e9",
+      "reference": [
+        "FRIEND",
+        "GO-OUT",
+        "WHERE",
+        "(P)PARTY"
+      ],
+      "hypothesis": [
+        "IX-1p"
+      ],
+      "substitutions": 1,
+      "deletions": 3,
+      "insertions": 0,
+      "reference_tokens": 4
+    },
+    {
+      "sample_id": "asllrp3_3e29360900eee990",
+      "reference": [
+        "FATHER+",
+        "ARRIVE",
+        "HOME",
+        "fs-LATE",
+        "NIGHT+",
+        "WHY",
+        "IX-3p:i",
+        "RECENT-PAST",
+        "FINISH",
+        "POSS-3p:i",
+        "WORK+"
+      ],
+      "hypothesis": [
+        "IX-loc:i"
+      ],
+      "substitutions": 1,
+      "deletions": 10,
+      "insertions": 0,
+      "reference_tokens": 11
+    },
+    {
+      "sample_id": "asllrp3_00808136f6af5bbc",
+      "reference": [
+        "FRIEND",
+        "IX-3p:i",
+        "DRIVE"
+      ],
+      "hypothesis": [
+        "IX-loc:i"
+      ],
+      "substitutions": 1,
+      "deletions": 2,
+      "insertions": 0,
+      "reference_tokens": 3
+    },
+    {
+      "sample_id": "asllrp3_8b5efd1ea085c01b",
+      "reference": [
+        "IX-1p",
+        "WORK+"
+      ],
+      "hypothesis": [
+        "IX-loc:i"
+      ],
+      "substitutions": 1,
+      "deletions": 1,
+      "insertions": 0,
+      "reference_tokens": 2
+    },
+    {
+      "sample_id": "asllrp3_735c3c48c5d7ee0e",
+      "reference": [
+        "FRIEND",
+        "PLAN",
+        "SURPRISE",
+        "THRILL/WHAT'S-UP"
+      ],
+      "hypothesis": [
+        "FRIEND"
+      ],
+      "substitutions": 0,
+      "deletions": 3,
+      "insertions": 0,
+      "reference_tokens": 4
+    },
+    {
+      "sample_id": "asllrp3_baa04229581960e9",
+      "reference": [
+        "FRIEND",
+        "GROUP/TOGETHER",
+        "GO-OUT",
+        "TRIP"
+      ],
+      "hypothesis": [
+        "IX-loc:i"
+      ],
+      "substitutions": 1,
+      "deletions": 3,
+      "insertions": 0,
+      "reference_tokens": 4
+    },
+    {
+      "sample_id": "asllrp3_b037f19738ed4924",
+      "reference": [
+        "FRIEND",
+        "GROUP/TOGETHER",
+        "PLAY",
+        "VIDEO-GAME"
+      ],
+      "hypothesis": [
+        "IX-loc:i"
+      ],
+      "substitutions": 1,
+      "deletions": 3,
+      "insertions": 0,
+      "reference_tokens": 4
+    },
+    {
+      "sample_id": "asllrp3_21885ad27c20b0c6",
+      "reference": [
+        "FRIEND",
+        "IX-3p-pl-arc",
+        "(1h)TEND",
+        "TYPE",
+        "LAPTOP",
+        "INTERNET"
+      ],
+      "hypothesis": [
+        "FRIEND"
+      ],
+      "substitutions": 0,
+      "deletions": 5,
+      "insertions": 0,
+      "reference_tokens": 6
+    },
+    {
+      "sample_id": "asllrp3_2f6b36bce30be5dc",
+      "reference": [
+        "FRIEND",
+        "FINISH",
+        "DRIVE"
+      ],
+      "hypothesis": [
+        "FRIEND"
+      ],
+      "substitutions": 0,
+      "deletions": 2,
+      "insertions": 0,
+      "reference_tokens": 3
+    },
+    {
+      "sample_id": "asllrp3_7211dc490c022365",
+      "reference": [
+        "MUST",
+        "WORK",
+        "ALL-NIGHT"
+      ],
+      "hypothesis": [
+        "IX-1p"
+      ],
+      "substitutions": 1,
+      "deletions": 2,
+      "insertions": 0,
+      "reference_tokens": 3
+    },
+    {
+      "sample_id": "asllrp3_ebec92689e250962",
+      "reference": [
+        "ns-fs-BOB",
+        "IX-loc:i",
+        "FUTURE",
+        "SURPRISE",
+        "FROM",
+        "THAT",
+        "SURPRISE",
+        "THRILL/WHAT'S-UP",
+        "QMwg"
+      ],
+      "hypothesis": [
+        "IX-loc:i"
+      ],
+      "substitutions": 0,
+      "deletions": 8,
+      "insertions": 0,
+      "reference_tokens": 9
+    },
+    {
+      "sample_id": "asllrp3_e7fb6faf464c0211",
+      "reference": [
+        "FINISH",
+        "GRADUATE",
+        "#HS",
+        "IX-2p"
+      ],
+      "hypothesis": [
+        "FRIEND"
+      ],
+      "substitutions": 1,
+      "deletions": 3,
+      "insertions": 0,
+      "reference_tokens": 4
+    },
+    {
+      "sample_id": "asllrp3_bb8eeceb7e0258a9",
+      "reference": [
+        "FRIEND",
+        "IX-3p-pl-arc",
+        "FINISH",
+        "EXPERIENCE+",
+        "TRIP"
+      ],
+      "hypothesis": [
+        "FRIEND"
+      ],
+      "substitutions": 0,
+      "deletions": 4,
+      "insertions": 0,
+      "reference_tokens": 5
+    },
+    {
+      "sample_id": "asllrp3_d8d93b3dc199ba92",
+      "reference": [
+        "FRIEND",
+        "IX-loc:i",
+        "KISS-FIST",
+        "LAPTOP",
+        "TYPE",
+        "INTERNET"
+      ],
+      "hypothesis": [
+        "FRIEND"
+      ],
+      "substitutions": 0,
+      "deletions": 5,
+      "insertions": 0,
+      "reference_tokens": 6
+    },
+    {
+      "sample_id": "asllrp3_f59879572ce2c299",
+      "reference": [
+        "DRIVE",
+        "WHO"
+      ],
+      "hypothesis": [],
+      "substitutions": 0,
+      "deletions": 2,
+      "insertions": 0,
+      "reference_tokens": 2
+    },
+    {
+      "sample_id": "asllrp3_95a7b5f193c49a6d",
+      "reference": [
+        "FRIEND",
+        "GROUP/TOGETHER",
+        "DRIVE",
+        "WHERE"
+      ],
+      "hypothesis": [
+        "FRIEND"
+      ],
+      "substitutions": 0,
+      "deletions": 3,
+      "insertions": 0,
+      "reference_tokens": 4
+    },
+    {
+      "sample_id": "asllrp3_93bcc2c333e46b67",
+      "reference": [
+        "FRIEND",
+        "GROUP/TOGETHER",
+        "START",
+        "DRIVE",
+        "WHEN"
+      ],
+      "hypothesis": [
+        "FRIEND"
+      ],
+      "substitutions": 0,
+      "deletions": 4,
+      "insertions": 0,
+      "reference_tokens": 5
+    },
+    {
+      "sample_id": "asllrp3_6be93f01cd23af9f",
+      "reference": [
+        "KIND",
+        "(P)PARTY",
+        "part:indef"
+      ],
+      "hypothesis": [],
+      "substitutions": 0,
+      "deletions": 3,
+      "insertions": 0,
+      "reference_tokens": 3
+    },
+    {
+      "sample_id": "asllrp3_6e9d4d5a8bcb1118",
+      "reference": [
+        "IX-2p",
+        "WORK",
+        "START",
+        "#WHEN"
+      ],
+      "hypothesis": [
+        "FRIEND"
+      ],
+      "substitutions": 1,
+      "deletions": 3,
+      "insertions": 0,
+      "reference_tokens": 4
+    },
+    {
+      "sample_id": "asllrp3_f039baf844d2a28f",
+      "reference": [
+        "WHY",
+        "IX-2p",
+        "WORK",
+        "ALL-NIGHT",
+        "WHY",
+        "part:indef"
+      ],
+      "hypothesis": [
+        "IX-1p"
+      ],
+      "substitutions": 1,
+      "deletions": 5,
+      "insertions": 0,
+      "reference_tokens": 6
+    },
+    {
+      "sample_id": "asllrp3_760434a1c0f10b45",
+      "reference": [
+        "IX-2p",
+        "WORK",
+        "WHERE"
+      ],
+      "hypothesis": [
+        "FRIEND"
+      ],
+      "substitutions": 1,
+      "deletions": 2,
+      "insertions": 0,
+      "reference_tokens": 3
+    },
+    {
+      "sample_id": "asllrp3_44f30bd6ac4bf173",
+      "reference": [
+        "PLAN",
+        "SURPRISE",
+        "ns-fs-BOB",
+        "WHO"
+      ],
+      "hypothesis": [
+        "IX-loc:i"
+      ],
+      "substitutions": 1,
+      "deletions": 3,
+      "insertions": 0,
+      "reference_tokens": 4
+    },
+    {
+      "sample_id": "asllrp3_f313d8937d9a038a",
+      "reference": [
+        "SURPRISE",
+        "(P)PARTY",
+        "TIME",
+        "START",
+        "#WHEN",
+        "part:indef"
+      ],
+      "hypothesis": [
+        "FRIEND"
+      ],
+      "substitutions": 1,
+      "deletions": 5,
+      "insertions": 0,
+      "reference_tokens": 6
+    },
+    {
+      "sample_id": "asllrp3_8d5a61cddec5c2d6",
+      "reference": [
+        "#HS",
+        "IX-2p",
+        "GO",
+        "WHERE"
+      ],
+      "hypothesis": [
+        "IX-loc:i"
+      ],
+      "substitutions": 1,
+      "deletions": 3,
+      "insertions": 0,
+      "reference_tokens": 4
+    },
+    {
+      "sample_id": "asllrp3_be0fba9297749b75",
+      "reference": [
+        "IX-2p",
+        "GRADUATE",
+        "#HS",
+        "WHEN"
+      ],
+      "hypothesis": [
+        "IX-loc:i"
+      ],
+      "substitutions": 1,
+      "deletions": 3,
+      "insertions": 0,
+      "reference_tokens": 4
+    },
+    {
+      "sample_id": "asllrp3_6322defaccbe4639",
+      "reference": [
+        "IX-2p",
+        "(1h)VOMIT/HATE",
+        "VIDEO-GAME",
+        "IX-loc:i",
+        "(25)WHY",
+        "IX-loc:i"
+      ],
+      "hypothesis": [
+        "IX-loc:i"
+      ],
+      "substitutions": 0,
+      "deletions": 5,
+      "insertions": 0,
+      "reference_tokens": 6
+    },
+    {
+      "sample_id": "asllrp3_55a819814c35a39e",
+      "reference": [
+        "POSS-2p",
+        "FRIEND",
+        "GROUP/TOGETHER",
+        "TRIP",
+        "WHY++",
+        "(1h)part:indef"
+      ],
+      "hypothesis": [
+        "FRIEND"
+      ],
+      "substitutions": 0,
+      "deletions": 5,
+      "insertions": 0,
+      "reference_tokens": 6
+    },
+    {
+      "sample_id": "asllrp3_8b290a9f62e85858",
+      "reference": [
+        "IX-2p",
+        "START",
+        "TRIP",
+        "#WHEN",
+        "(1h)part:indef"
+      ],
+      "hypothesis": [
+        "IX-loc:i"
+      ],
+      "substitutions": 1,
+      "deletions": 4,
+      "insertions": 0,
+      "reference_tokens": 5
+    },
+    {
+      "sample_id": "asllrp3_1ddc9b9bac3f8ecc",
+      "reference": [
+        "IX-2p",
+        "PLAN",
+        "TRIP",
+        "WHERE"
+      ],
+      "hypothesis": [
+        "IX-loc:i"
+      ],
+      "substitutions": 1,
+      "deletions": 3,
+      "insertions": 0,
+      "reference_tokens": 4
+    },
+    {
+      "sample_id": "asllrp3_6510b40d54efd4e1",
+      "reference": [
+        "WANT",
+        "#VP",
+        "WHERE"
+      ],
+      "hypothesis": [
+        "FRIEND"
+      ],
+      "substitutions": 1,
+      "deletions": 2,
+      "insertions": 0,
+      "reference_tokens": 3
+    },
+    {
+      "sample_id": "asllrp3_be21f3a65e6f4c41",
+      "reference": [
+        "INTERNET",
+        "IX-2p",
+        "LAPTOP",
+        "TYPE",
+        "(1h)\\WHAT\\\"\"",
+        "IX-2p"
+      ],
+      "hypothesis": [],
+      "substitutions": 0,
+      "deletions": 6,
+      "insertions": 0,
+      "reference_tokens": 6
+    },
+    {
+      "sample_id": "asllrp3_c6dc550295b3fd5d",
+      "reference": [
+        "#IF+",
+        "FRIEND",
+        "GROUP/TOGETHER",
+        "TRIP",
+        "IX-1p",
+        "MUST",
+        "JOIN",
+        "IX-1p"
+      ],
+      "hypothesis": [
+        "FRIEND"
+      ],
+      "substitutions": 0,
+      "deletions": 7,
+      "insertions": 0,
+      "reference_tokens": 8
+    },
+    {
+      "sample_id": "asllrp3_54c7e71e39515e76",
+      "reference": [
+        "FRIEND",
+        "GROUP/TOGETHER",
+        "GO-OUT",
+        "WHY",
+        "IX-3p:i",
+        "HAVE",
+        "(P)PARTY",
+        "IX-loc:j"
+      ],
+      "hypothesis": [
+        "IX-loc:i"
+      ],
+      "substitutions": 1,
+      "deletions": 7,
+      "insertions": 0,
+      "reference_tokens": 8
+    },
+    {
+      "sample_id": "asllrp3_2ca2e1a38917b354",
+      "reference": [
+        "FINISH",
+        "BUY",
+        "CAR+",
+        "WHO"
+      ],
+      "hypothesis": [
+        "IX-loc:i"
+      ],
+      "substitutions": 1,
+      "deletions": 3,
+      "insertions": 0,
+      "reference_tokens": 4
+    },
+    {
+      "sample_id": "asllrp3_3ff962b6863de789",
+      "reference": [
+        "IX-2p",
+        "BUY",
+        "CAR",
+        "WHERE"
+      ],
+      "hypothesis": [
+        "IX-loc:i"
+      ],
+      "substitutions": 1,
+      "deletions": 3,
+      "insertions": 0,
+      "reference_tokens": 4
+    },
+    {
+      "sample_id": "asllrp3_70501337dc5fb60e",
+      "reference": [
+        "IX-2p",
+        "GO",
+        "WHERE",
+        "(1h)part:indef"
+      ],
+      "hypothesis": [
+        "IX-loc:i"
+      ],
+      "substitutions": 1,
+      "deletions": 3,
+      "insertions": 0,
+      "reference_tokens": 4
+    },
+    {
+      "sample_id": "asllrp3_d9ce504cd319712c",
+      "reference": [
+        "IX-2p",
+        "FINISH",
+        "WORK",
+        "WHEN",
+        "IX-2p"
+      ],
+      "hypothesis": [
+        "IX-loc:i"
+      ],
+      "substitutions": 1,
+      "deletions": 4,
+      "insertions": 0,
+      "reference_tokens": 5
+    },
+    {
+      "sample_id": "asllrp3_38713d364fe89600",
+      "reference": [
+        "IX-2p",
+        "WORK",
+        "\\WHAT\\\"\""
+      ],
+      "hypothesis": [],
+      "substitutions": 0,
+      "deletions": 3,
+      "insertions": 0,
+      "reference_tokens": 3
+    },
+    {
+      "sample_id": "asllrp3_89b116f9e5fed023",
+      "reference": [
+        "IX-3p:i",
+        "LOVE",
+        "ns-fs-BILL",
+        "IX-3p:j",
+        "WHO",
+        "IX-3p:i"
+      ],
+      "hypothesis": [
+        "IX-1p",
+        "SNOW"
+      ],
+      "substitutions": 2,
+      "deletions": 4,
+      "insertions": 0,
+      "reference_tokens": 6
+    },
+    {
+      "sample_id": "asllrp3_3d61ccac20282141",
+      "reference": [
+        "ns-fs-BILL",
+        "MOVE",
+        "ns-NEW-YORK",
+        "QMwg"
+      ],
+      "hypothesis": [
+        "IX-1p"
+      ],
+      "substitutions": 1,
+      "deletions": 3,
+      "insertions": 0,
+      "reference_tokens": 4
+    },
+    {
+      "sample_id": "asllrp3_63277274438d7dd1",
+      "reference": [
+        "ns-fs-JACK",
+        "IX-3p:i",
+        "(1h)HAVE",
+        "(1h)PAY/BUY",
+        "QMwg"
+      ],
+      "hypothesis": [
+        "IX-3p:i",
+        "NOT"
+      ],
+      "substitutions": 1,
+      "deletions": 3,
+      "insertions": 0,
+      "reference_tokens": 5
+    },
+    {
+      "sample_id": "asllrp3_364b4f0501df9946",
+      "reference": [
+        "GAME",
+        "FINISH",
+        "SIX",
+        "QMwg"
+      ],
+      "hypothesis": [
+        "IX-1p"
+      ],
+      "substitutions": 1,
+      "deletions": 3,
+      "insertions": 0,
+      "reference_tokens": 4
+    },
+    {
+      "sample_id": "asllrp3_b506add34c9244ec",
+      "reference": [
+        "PEOPLE",
+        "DIFFERENT-arc",
+        "CULTURE",
+        "NOT",
+        "ONLY",
+        "(2h)TALKwg",
+        "DIFFERENT",
+        "LANGUAGE"
+      ],
+      "hypothesis": [
+        "IX-3p:i",
+        "NOT"
+      ],
+      "substitutions": 1,
+      "deletions": 6,
+      "insertions": 0,
+      "reference_tokens": 8
+    },
+    {
+      "sample_id": "asllrp3_fd09adb06f1af370",
+      "reference": [
+        "BUT",
+        "MAYBE",
+        "MORE",
+        "IMPORTANT",
+        "LIVE",
+        "IN",
+        "DIFFERENT",
+        "fs-SENSORY",
+        "WORLD"
+      ],
+      "hypothesis": [
+        "IX-1p",
+        "NOT"
+      ],
+      "substitutions": 2,
+      "deletions": 7,
+      "insertions": 0,
+      "reference_tokens": 9
+    },
+    {
+      "sample_id": "asllrp3_43f08c385e3032ea",
+      "reference": [
+        "AND",
+        "MORE",
+        "COOPERATE/UNITE",
+        "HOW",
+        "DEAF",
+        "PEOPLE",
+        "POSS-3p-pl-arc",
+        "EXPERIENCE",
+        "IN",
+        "THAT",
+        "WORLD"
+      ],
+      "hypothesis": [
+        "IX-3p:i",
+        "SNOW"
+      ],
+      "substitutions": 2,
+      "deletions": 9,
+      "insertions": 0,
+      "reference_tokens": 11
+    },
+    {
+      "sample_id": "asllrp3_ffd0c9e7f1bd1833",
+      "reference": [
+        "DIFFERENT",
+        "EXPERIENCE",
+        "(F)BELONG",
+        "WITH",
+        "MEAN"
+      ],
+      "hypothesis": [],
+      "substitutions": 0,
+      "deletions": 5,
+      "insertions": 0,
+      "reference_tokens": 5
+    }
+  ],
+  "scope": "RESEARCH_ONLY; publisher-signers verified; no streaming/product claim",
+  "out_of_vocabulary_tokens": 0,
+  "blank_argmax_fraction": 0.9626179678882216,
+  "blank_mean_probability": 0.8307556288983691,
+  "total_timesteps": 16318,
+  "unique_predicted_tokens": 13,
+  "prediction_tokens": 600,
+  "empty_hypotheses": 26,
+  "hypothesis_length_histogram": {
+    "1": 345,
+    "2": 123,
+    "0": 26,
+    "3": 3
+  },
+  "hypothesis_token_counts": {
+    "IX-1p": 135,
+    "IX-3p:i": 66,
+    "NOT": 82,
+    "SNOW": 34,
+    "IX-loc:i": 165,
+    "DECIDE": 3,
+    "ns-fs-MARY": 10,
+    "ns-fs-JOHN": 7,
+    "CAR": 17,
+    "IX-2p": 16,
+    "LIKE": 3,
+    "WHO": 10,
+    "FRIEND": 52
+  },
+  "reference_token_counts": {
+    "IX-1p": 121,
+    "(L)LIVE": 3,
+    "HOUSE": 3,
+    "IX-loc:i": 62,
+    "WITH": 11,
+    "MOTHER+FATHER": 1,
+    "TWO": 1,
+    "BROTHER": 1,
+    "UP-TO-NOW": 2,
+    "AROUND": 1,
+    "ALMOST": 2,
+    "THREE": 1,
+    "YEAR": 2,
+    "MEAN": 7,
+    "IX-1p+": 9,
+    "FINISH": 28,
+    "GRADUATE": 4,
+    "PAST+": 2,
+    "KNOW": 4,
+    "IX-3p:i": 111,
+    "DURING/WHILE": 1,
+    "DEAF": 9,
+    "NOT": 78,
+    "(1h)NOW": 4,
+    "RECENT-PAST": 7,
+    "ARRIVE": 21,
+    "NOW": 20,
+    "NEXT-WEEK": 5,
+    "HOPE": 2,
+    "ns-fs-JOHN": 28,
+    "ON": 3,
+    "TIME": 5,
+    "part:indef": 58,
+    "PASS": 1,
+    "TEST": 1,
+    "DEPART": 18,
+    "(2h)LOOK": 1,
+    "MOVIE": 3,
+    "(1h)part:indef": 40,
+    "GO": 15,
+    "AGAIN": 2,
+    "IX-3p-pl-2:i/j": 5,
+    "ns-fs-MARY": 33,
+    "FUTURE": 26,
+    "TOMORROW": 13,
+    "KNOW+": 5,
+    "READ": 15,
+    "MANY": 10,
+    "BOOK": 17,
+    "MAYBE": 12,
+    "BORN": 4,
+    "WIDE": 4,
+    "BABY": 2,
+    "RAIN": 12,
+    "STOP": 5,
+    "IF": 10,
+    "WANT_2": 7,
+    "READ+": 6,
+    "WANT": 7,
+    "DIFFERENT-arc": 3,
+    "(5)MAN": 7,
+    "DECIDE": 7,
+    "DO-DO+": 5,
+    "POSS-3p:i": 11,
+    "CAR": 32,
+    "HERE": 6,
+    "LONG-AGO+": 2,
+    "NAME": 2,
+    "LANGUAGE": 2,
+    "ns-BOSTON": 4,
+    "WHERE": 20,
+    "ns-CHICAGO": 2,
+    "FATHER": 1,
+    "GO-OUT": 25,
+    "5\\perplexed\\\"\"": 3,
+    "POSS-1p": 10,
+    "DIFFERENT": 7,
+    "BIG": 3,
+    "SMALL": 8,
+    "WANT+NEG": 9,
+    "FAVORITE/PREFER": 3,
+    "WORK": 19,
+    "(Y)YESTERDAY": 8,
+    "RAIN+": 17,
+    "ALL-DAY": 1,
+    "IX-2p": 60,
+    "DRIVE": 11,
+    "PRESIDENT": 1,
+    "GROW-UP": 2,
+    "LIVE": 3,
+    "ACCEPT": 4,
+    "DIFFERENT+": 2,
+    "(1h)PAY/BUY": 4,
+    "BIG_2": 3,
+    "(1h)WOW/AWFUL": 5,
+    "POSS-1p+": 3,
+    "BOOK+": 3,
+    "(1h)HAVE": 14,
+    "CAR+": 10,
+    "BICYCLE": 8,
+    "DO-DO": 3,
+    "NEW": 2,
+    "LOVE": 7,
+    "(1h)GOOD/THANK-YOU": 6,
+    "WRONG": 1,
+    "PINEAPPLE": 10,
+    "fs-CREAM": 8,
+    "CHEESE": 9,
+    "fs-LOX": 4,
+    "#NO": 9,
+    "LIKE": 23,
+    "FAVORITE/PREFER+": 2,
+    "REALLY": 7,
+    "HAVE": 12,
+    "THRILL/WHAT'S-UP": 5,
+    "#IF": 12,
+    "SEE": 3,
+    "FRIEND": 46,
+    "NONE/NOTHING": 27,
+    "5\\wave no\\\"\"": 3,
+    "GO-OUT+": 3,
+    "SNOW": 20,
+    "SCHOOL": 22,
+    "CANCEL/CRITICIZE": 17,
+    "NORMAL": 1,
+    "HAPPEN": 7,
+    "WHO": 53,
+    "TEACH+AGENT": 13,
+    "REQUIRE": 2,
+    "IX-3p:j": 17,
+    "MUST": 11,
+    "ROWING": 4,
+    "#NO+": 8,
+    "NEVER": 4,
+    "START": 7,
+    "ns-FRANCE": 6,
+    "KING": 7,
+    "BALD": 5,
+    "NOW+": 3,
+    "QMwg": 13,
+    "(1h)5\\perplexed\\\"\"": 4,
+    "TALK": 2,
+    "A-LOT": 3,
+    "#NO++": 4,
+    "IF+": 12,
+    "TRIP": 7,
+    "WHEN": 14,
+    "#WHEN": 11,
+    "5\\out of my control\\\"\"": 1,
+    "STILL": 4,
+    "CONTINUE": 4,
+    "STAY_2": 8,
+    "HOME": 23,
+    "(1h)HAPPY+": 4,
+    "SOMETHING/ONE": 7,
+    "CANNOT": 2,
+    "BELIEVE": 1,
+    "SURPRISE": 10,
+    "THINK": 6,
+    "ns-fs-OBAMA": 3,
+    "WIN": 4,
+    "RAIN++": 5,
+    "BOY+": 2,
+    "(1h)5\\wave no\\\"\"": 14,
+    "BOX/ROOM": 3,
+    "WARM": 3,
+    "HOT": 2,
+    "WOW/AWFUL": 1,
+    "STUDY": 5,
+    "FAIL": 4,
+    "BUY": 21,
+    "FLOWER": 4,
+    "CLASS_2": 4,
+    "COLD": 4,
+    "SPECIAL/EXCEPT": 2,
+    "SHOE+": 3,
+    "INTERPRET": 5,
+    "STRANGE": 2,
+    "SITUATION": 1,
+    "LIBRARY": 3,
+    "MOTHER": 15,
+    "BETTER": 1,
+    "MAGAZINE": 1,
+    "ns-fs-BOB": 15,
+    "SELL+": 4,
+    "USE_2": 3,
+    "BLACK": 1,
+    "DRESS/CLOTHES": 4,
+    "BOY": 1,
+    "FUNNY": 1,
+    "BREAK": 7,
+    "BREAK-DOWN": 17,
+    "YES+": 2,
+    "fs-TRUCK": 3,
+    "IX-loc:j": 4,
+    "FINE+": 2,
+    "TO/UNTIL": 3,
+    "TEND": 2,
+    "HOMEWORK": 4,
+    "MOTHER+": 6,
+    "WEATHER": 3,
+    "BEAUTIFUL": 4,
+    "VEGETABLE": 2,
+    "LOUSY": 4,
+    "(25)WHY": 3,
+    "POSS-2p": 6,
+    "SISTER": 6,
+    "CHOCOLATE": 9,
+    "fs-CEREAL": 3,
+    "BUT": 2,
+    "WHICH": 8,
+    "COLLEGE": 2,
+    "ns-fs-BILL": 4,
+    "ns-fs-SUE": 3,
+    "MOVE": 4,
+    "ns-fs-JACK": 5,
+    "MEET": 5,
+    "fs-LOTTERY": 2,
+    "GAME": 3,
+    "BEFORE_2": 2,
+    "SIX": 3,
+    "LOOK": 1,
+    "PAST+NIGHT": 6,
+    "AFRAID": 2,
+    "BECOME": 2,
+    "OLD": 2,
+    "SELF-3p+:i": 2,
+    "IMPORTANT": 2,
+    "OTHER": 2,
+    "IX-3p-pl-arc": 12,
+    "JOIN": 4,
+    "STUDENT": 7,
+    "HEAR/LISTEN": 7,
+    "LEARN": 2,
+    "NOT-YET": 3,
+    "SEND": 4,
+    "LETTER/MAIL": 4,
+    "REFUSE": 1,
+    "(1h)VOMIT/HATE": 4,
+    "SICK": 6,
+    "#DOG_2": 4,
+    "ONLY": 2,
+    "#PO": 5,
+    "#SALE": 3,
+    "COMMUTE": 5,
+    "PLAID": 4,
+    "(2h)SHIRT": 4,
+    "HEADBAND": 2,
+    "FOR": 5,
+    "BIRTHDAY_3": 3,
+    "CHAT": 3,
+    "ENJOY": 1,
+    "INTERCOURSE+fs-UP": 3,
+    "LIE-DOWN": 4,
+    "DRUNK": 3,
+    "\\WHAT\\\"\"": 12,
+    "HOW": 5,
+    "AUNT": 1,
+    "EXPERT": 1,
+    "MAKE": 6,
+    "ASK": 2,
+    "DIRECT/EXPLAIN": 3,
+    "(1h)TEND": 6,
+    "PLAY": 4,
+    "FRISBEE": 3,
+    "#BBQ": 2,
+    "GROUP/TOGETHER": 17,
+    "SHOULD": 1,
+    "WHY": 12,
+    "MOVE-AWAY": 3,
+    "ns-#SD": 3,
+    "TIME+": 2,
+    "(5)CRASH": 3,
+    "(P)PARTY": 8,
+    "WATER": 1,
+    "MOVIE_2": 4,
+    "WONDERFUL": 1,
+    "(Y)WOW": 3,
+    "AND": 2,
+    "NICE/CLEAN+": 7,
+    "CLASS_2+BOX/ROOM": 3,
+    "BAD": 1,
+    "(5)WEATHER": 5,
+    "SOON": 1,
+    "DOG": 6,
+    "WORK+": 5,
+    "FACE": 2,
+    "TAKE-UP": 7,
+    "PIZZA_4": 2,
+    "EAT+NIGHT+": 2,
+    "REALLY+WORK": 2,
+    "NICE/CLEAN": 3,
+    "DCL:crvd-5\\group go together\\\"\"": 2,
+    "ACT": 2,
+    "PROCEED": 2,
+    "IX-pl-2:i/j": 1,
+    "IX-loc-pl-arc": 2,
+    "MANAGE/CONTROL": 1,
+    "KISS-FIST": 5,
+    "CAN": 2,
+    "VISUALIZE": 3,
+    "EVERYDAY": 1,
+    "GUARANTEE": 1,
+    "#IF+": 5,
+    "BORE": 5,
+    "fs-CREAM+CHEESE": 3,
+    "DRY-CEREAL": 6,
+    "WHY++": 3,
+    "VOMIT/HATE": 1,
+    "TAKE": 2,
+    "fs-OF": 5,
+    "HIGH": 1,
+    "THAT": 8,
+    "FIND/FIND-OUT": 3,
+    "KEY": 2,
+    "KIND": 3,
+    "fs-LATE": 8,
+    "ns-NEW-YORK": 3,
+    "FATHER+": 9,
+    "UPSET": 3,
+    "GIFT": 3,
+    "#QUIZ": 1,
+    "STAY": 3,
+    "IX-3p:k": 2,
+    "UNCLE": 2,
+    "IN+": 2,
+    "EAT": 1,
+    "(P)PAY": 1,
+    "WIFE": 3,
+    "IX-1p-pl-arc": 1,
+    "fs-BEACH": 4,
+    "LEAVE": 1,
+    "#HS": 4,
+    "(nd-1)MOVIE": 1,
+    "KID": 5,
+    "FAMILY": 4,
+    "SEVEN": 1,
+    "(1h)\\WHAT\\\"\"": 3,
+    "VOICE": 3,
+    "5\\I don't know\\\"\"": 1,
+    "(2h)KNOW+NEG": 1,
+    "IDENTIFY": 3,
+    "(2h)alt.LOOK-OVER": 2,
+    "VARY": 3,
+    "5\\umm\\\"\"": 2,
+    "THROUGH": 1,
+    "DIFFERENT++": 1,
+    "EXPERIENCE": 6,
+    "WARN": 1,
+    "#SO": 3,
+    "(2h)THING": 1,
+    "NOISE": 4,
+    "SOMETIMES": 2,
+    "ANGRY": 1,
+    "OFTEN": 2,
+    "REASON": 1,
+    "ALSO": 2,
+    "QUIET": 1,
+    "SHOW": 1,
+    "FAST_3": 1,
+    "(2h)TALKwg": 2,
+    "PEOPLE": 4,
+    "STORY": 1,
+    "(1h)PERSON": 1,
+    "PERSON": 4,
+    "fs-SO": 2,
+    "CONCEPT": 1,
+    "EXPERIENCE+": 3,
+    "IDENTIFY+": 1,
+    "HEAR": 1,
+    "MATCH": 1,
+    "IX-honorific:i": 2,
+    "MISMATCH": 1,
+    "fs-ORIENTATION": 1,
+    "(2h)5\\wow\\\"\"": 1,
+    "AMONG_2": 1,
+    "SET-UP": 1,
+    "UNDERSTAND": 1,
+    "HEARING": 2,
+    "FAST": 1,
+    "ALL-NIGHT": 3,
+    "fs-DISORDER": 3,
+    "QUALITY": 1,
+    "5\\hesitation\\\"\"": 1,
+    "SPEECH/ORAL": 1,
+    "IN": 4,
+    "fs-SPEECH": 4,
+    "BETWEEN/SHARE": 1,
+    "(A)SELF-1p": 1,
+    "(F)BELONG": 4,
+    "LONG-LIST": 1,
+    "5\\wow\\\"\"": 1,
+    "fs-GRUNT": 1,
+    "SELF-3p:i": 1,
+    "VOICE+": 1,
+    "fs-EXCESS": 1,
+    "SCL:bent-U-L\\person walking\\\"\"": 8,
+    "TOGETHER/GO-STEADY_2": 6,
+    "NIGHT+": 6,
+    "PLAY-continuative": 5,
+    "fs-PARK": 4,
+    "DYE": 4,
+    "HAIR": 4,
+    "DCL:5\\hair dyed all over\\\"\"": 4,
+    "(K)KITCHEN": 5,
+    "CAMP+": 7,
+    "DCL:crvd-B\\small puppies\\\"\"": 4,
+    "SWIM": 5,
+    "CHILDREN": 1,
+    "WHY+": 1,
+    "PLAN": 3,
+    "VIDEO-GAME": 2,
+    "TYPE": 3,
+    "LAPTOP": 3,
+    "INTERNET": 3,
+    "FROM": 1,
+    "#VP": 1,
+    "CULTURE": 1,
+    "MORE": 2,
+    "fs-SENSORY": 1,
+    "WORLD": 2,
+    "COOPERATE/UNITE": 1,
+    "POSS-3p-pl-arc": 1
+  },
+  "frame_argmax_counts": {
+    "<BLANK>": 15708,
+    "IX-1p": 140,
+    "IX-3p:i": 67,
+    "NOT": 82,
+    "SNOW": 34,
+    "IX-loc:i": 169,
+    "DECIDE": 3,
+    "ns-fs-MARY": 10,
+    "ns-fs-JOHN": 7,
+    "CAR": 17,
+    "IX-2p": 16,
+    "LIKE": 3,
+    "WHO": 10,
+    "FRIEND": 52
+  }
+}

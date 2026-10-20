@@ -1,0 +1,93 @@
+{
+  "unique_glosses": 2287,
+  "tokens": 12423,
+  "singleton_distinct_utterance_labels": 1182,
+  "support_lt5_labels": 1808,
+  "top20_reference_tokens": [
+    [
+      "IX-1p",
+      533
+    ],
+    [
+      "IX-3p:i",
+      460
+    ],
+    [
+      "NOT",
+      242
+    ],
+    [
+      "IX-loc:i",
+      233
+    ],
+    [
+      "part:indef",
+      213
+    ],
+    [
+      "IX-2p",
+      148
+    ],
+    [
+      "(1h)part:indef",
+      132
+    ],
+    [
+      "FRIEND",
+      123
+    ],
+    [
+      "FUTURE",
+      110
+    ],
+    [
+      "WHO",
+      103
+    ],
+    [
+      "IX-3p:j",
+      88
+    ],
+    [
+      "THAT",
+      87
+    ],
+    [
+      "#IF",
+      80
+    ],
+    [
+      "POSS-1p",
+      71
+    ],
+    [
+      "DEAF",
+      70
+    ],
+    [
+      "ns-fs-JOHN",
+      70
+    ],
+    [
+      "NONE/NOTHING",
+      68
+    ],
+    [
+      "POSS-3p:i",
+      68
+    ],
+    [
+      "FINISH",
+      64
+    ],
+    [
+      "REALLY",
+      63
+    ]
+  ],
+  "special_tokens": [
+    "<BLANK>",
+    "<UNK>"
+  ],
+  "whitespace_or_NUL_labels": []
+}

@@ -1,0 +1,13 @@
+# Dataset quality and leakage
+
+COMPLETED: all 37 videos readable, finite features, valid chronological nonempty sequences, no acquisition failures, no exact container SHA duplicates, no decoded-pixel duplicates and no heuristic visual duplicate candidates. The visual check hashes all decoded pixels and compares five chronological dHashes with a conservative threshold; absence of candidates does not prove no near-duplicates.
+
+Split was frozen by collection hash with seed 20261019 before training: 30 TRAIN / 7 validation clips; held-out collections ncslgr10e.xml and ncslgr10m.xml. No shared collection, source URL or exact video content was found. Official train/validation/test partitions are not supplied in this public index. TEST payload was not acquired. Signer identity is unknown: **signer leakage is UNVERIFIABLE**, and this is not a cross-signer product benchmark. No frames from a clip are split independently.
+
+40 observed lexical token types across 148 reference tokens. TRAIN vocabulary contains 37 lexical tokens plus BLANK=0 / UNK=1, fitted only to TRAIN. Validation has 25 tokens, of which 4 are outside the training vocabulary. Those references remain authentic and count as errors; validation labels do not expand the trained vocabulary. Sequence token lengths: 2–7; observations: 15–38. No invalid CTC lengths.
+
+Weighted observed-hand fractions (extractor side order): 0.337, 0.326; body available fraction 0.996. These are model evidence flags, not manual occlusion truth. Low hand coverage and low-resolution historical footage are material limitations. No feature block was dropped to improve speed. Joint support and missingness remain explicit. The small simple-lexical subset omits fingerspelling, complex classifier annotation and broader nonmanual ASL information.
+
+How2Sign inspection: TRAIN 31,165 rows / 2,192 source videos; validation 1,741 / 115; no duplicate sentence IDs, invalid timestamps, empty translations or shared source-video IDs. Annotation-to-RGB pairing was not verified because RGB was not acquired. Its English labels are not gloss-CTC eligible. BU index: 5,219 rows / 2,612 unique URLs / 38 collections; 37 strict eligible utterances. Detailed exclusion counts: metadata_quality.json. The old SSDB archive is retained but safe extraction rejected Windows-unsafe trailing-space members; it was not executed or used for training.
+
+Missing truth: individual sign boundaries, signer identity, true non-sign footage and source timing validation. User confirmed no additional authorized local data. These gates remain blocked. No unlabeled motion was relabeled as a sign or as a negative.

@@ -1,0 +1,19 @@
+{
+  "scope": "TRAIN-only identity/fold design. Existing frozen DEV predictions may be summarized afterward, never used for fold assignment. No TEST features, labels or predictions.",
+  "source_levels": [
+    "publisher dataset",
+    "parent recording",
+    "utterance media file"
+  ],
+  "crossing_rule": "Need observed shared signers across sources AND multi-signer sources within a compatible label pool; no inference from names/images.",
+  "source_holdout_rule": "Per known ASLLRP TRAIN signer, one complete recording with>=20utterances, smallest SHA256(recording ID). No score or label-coverage optimization.",
+  "folds": [
+    "pooled same-signers source holdout",
+    "within-signer source holdout3",
+    "leave-one-signer-out3 (joint source+signer effect)",
+    "crossed only if actual incidence supports it"
+  ],
+  "label_controls": "Full internal evaluation plus whole utterances with all labels seen in foldTRAIN; additional >=5foldTRAIN-utterance-support view. Report every dropped ID/reason. Never remove target tokens.",
+  "recommendation_screen": "Pooled source pilot only if>=1000TRAIN,>=100internalEval,all3signers retained,>=3held-outrecordings,>=30compatibleEval and>=80%fullEvaltoken coverage; exploratory, not power analysis.",
+  "training_authorized": false
+}

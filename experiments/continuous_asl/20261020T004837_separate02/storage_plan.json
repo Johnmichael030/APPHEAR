@@ -1,0 +1,15 @@
+{
+  "drive": "D:",
+  "archive_cap_bytes": 2147483648,
+  "extracted_pilot_cap_bytes": 67108864,
+  "run_budget_bytes": 8589934592,
+  "free_bytes": 177352806400,
+  "official_source": "https://how2sign.github.io/",
+  "checkpoints_logs_budget_bytes": 268435456,
+  "A_staged_features_bytes": 1634688256,
+  "safety_margin_bytes": 3221225472,
+  "official_archive_estimate": "1.7G",
+  "validation_only_no_training_on_How2Sign": true,
+  "temporary_extraction_bytes": 0,
+  "raw_retention": "retain archive/partials; no deletion"
+}

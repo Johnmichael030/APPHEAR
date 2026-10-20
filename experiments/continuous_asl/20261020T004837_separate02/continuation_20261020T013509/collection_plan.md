@@ -1,0 +1,21 @@
+# Smallest practical next collection — evaluation only
+
+No verified new training experiment is recommended. First make a small compatible evaluation corpus rather than acquiring another large isolated-sign dataset or repeating How2Sign validation downloads.
+
+Start with **one consenting qualified ASL signer** and one session: record explicit research-evaluation permission, pseudonymous identity, relationship to all known training/validation/test signers, session/device/camera metadata, and a few natural phrases plus ordinary hands-visible/non-sign intervals. Preserve full RGB and monotonic source timestamps. Obtain independent qualified gloss/boundary review, and check the join to the unchanged350/378 pipeline before expanding. Consent to being filmed is not automatically consent to model training, public redistribution or production deployment; record each authorized scope and retention policy. Do not upload recordings or identity documents to the public repository.
+
+Then add a **second verified disjoint qualified signer**. For a small evaluation-only pilot, target each signer at least15minutes of reviewed negative exposure plus10 short natural phrases (3–5 authentic gloss tokens each), including repeated signs, hands-up rearm and sign-then-hold. Balance negative conditions across no-visible-hands, visible idle hands, face-adjacent motion and accidental movements; record OOV signing and incomplete/transition behavior as separate annotated blocks. Record negative time honestly; a one-frame or one-window label does not certify an entire interval. Thirty combined minutes is only the zero-event Poisson planning minimum for0.1/min, not a generalization or product-readiness guarantee.
+
+Keep both signers evaluation-only for this frozen comparison; do not tune on their results. Do not reuse the frozen2,620 isolated rows as streaming references. This pilot can reveal schema, annotation and logging failures. It does not supply training data or enough signer diversity for the qualification gates. If it passes data readiness, design a separate training/calibration/final collection with signer-disjoint roles and a prospective precision/power calculation; do not automatically retrain.
+
+An optional smaller metadata-recovery step is to obtain permission and the original synchronized phone/P1 evidence bundle from its existing authorized owner. The stage2 manifest lists a43,375,481-byte finalized capture on the old F: machine. Recover it only with the original file manifest, consent/use scope and role history; verify hashes before replay. It is nonexpert, development-exposed engineering evidence and cannot replace new independent ASL signers or become a fresh test set. No download URL or owner access is presently verified, so there is no valid acquisition command to invent.
+
+Required intake fields are in `collection_manifest.template.csv` and `interval_labels.template.csv`. They are **empty schemas, not data**. A human must supply rights, signer identities and annotations; no command can generate valid consent or authentic ASL labels. Store consent documents in restricted local storage and reference them rather than publishing them. Before any replay, verify:
+
+- Every raw file exists and matches its recorded SHA-256; timestamps are monotonic with source clock semantics and declared image orientation.
+- Consent/use references cover the planned action; qualified reviewers attest authentic ASL glosses and timing, with unresolved labels excluded explicitly rather than relabeled.
+- Identity and raw-hash overlap are checked against historical and frozen partitions; random new pseudonyms alone do not prove different people.
+- Feature schemas, actual cadence, observed/missing flags, vocabulary/OOV handling and producer hashes match the chosen current baseline.
+- Reviewed negative exposure minutes, reference sign counts, boundaries and normal-app delivery clocks exist before their respective metrics are reported.
+
+Safe commands now are in `reproduction_commands.ps1`: `-Phase Verify` checks new artifacts; `-Phase Matrix` displays readiness; `-Phase CollectionPlan` prints this plan. Collection and expert review are the next human steps. A next training command is deliberately absent because data and evaluation prerequisites have not passed.

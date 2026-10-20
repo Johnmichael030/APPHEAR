@@ -1,0 +1,13 @@
+{
+  "thresholds": [
+    5,
+    10
+  ],
+  "support_unit": "distinct TRAIN utterances, full original TRAIN universe",
+  "retention": "One pass: retain complete utterance iff every literal gloss meets original TRAIN support threshold; no target deletion or remapping.",
+  "additional_check": "Recompute retained-set support; report recursive fixed-point failure, not silently claim threshold holds after filtering.",
+  "candidate_rule": "Prefer5 over10 by predeclared coverage principle if >=200TRAIN, all3TRAINsigners,>=20sourcegroups,>=50compatibleDEV and>=4DEVsourcegroups. No WER used to choose threshold.",
+  "evaluation": "Unchanged original413DEV plus all whole sequences compatible with actual retained TRAIN vocabulary. RestrictedDEV selects local diagnostic checkpoint; originalDEV reported separately.",
+  "test_accessed": false,
+  "fit_authorization": "Exactly one bounded research pilot only if candidate gates pass."
+}

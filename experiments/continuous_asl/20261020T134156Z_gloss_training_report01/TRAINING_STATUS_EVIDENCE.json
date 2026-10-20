@@ -1,0 +1,768 @@
+[
+  {
+    "path": "D:\\apphearv3claude\\AppHear-claude-s2-r3-eval-suite\\AppHear-claude-s2-r3-eval-suite\\experiments\\continuous_asl\\20261019T155428Z_cslr01\\logs\\training_status.json",
+    "sha256": "57bc15dbe5b8bafd19f040fa43bcb9ab8f1063dd7fee5635f4bd9acf571b6beb",
+    "saved_training_status": {
+      "status": "EARLY_STOP",
+      "epochs_completed": 14,
+      "training_used_gpu": true,
+      "device": "cuda:0",
+      "gpu_name": "NVIDIA GeForce RTX 3050 Laptop GPU",
+      "best_validation_score": [
+        0.88,
+        4.949556486947196
+      ],
+      "parameter_count": 76551,
+      "manifest_sha256": "d72ac6e4a9ce1fa1ce690c0654ecd97b0e92f7b7972973c5892dfc89bd35f6ab",
+      "config_sha256": "4ef9b33fb648eb5f06ab0d8c675a8fc9d36b81d9b77857bcbf27954ddc519309",
+      "training_script_sha256": "d434d2341348ab89558a82dfc9f952800e533246d4b6baf0294ee10fc013aa63",
+      "scope": "PRIVATE_RESEARCH_DIAGNOSTIC_ONLY",
+      "nonsign_and_boundary_heads": "NOT_TRAINED_NO_VALID_LABELS",
+      "mixed_precision": false,
+      "determinism": "fixed seeds; deterministic algorithms warn_only, CUDA CTC may remain nondeterministic"
+    }
+  },
+  {
+    "path": "D:\\apphearv3claude\\AppHear-claude-s2-r3-eval-suite\\AppHear-claude-s2-r3-eval-suite\\experiments\\continuous_asl\\20261020_continuous_expand03\\models\\compact24\\training_status.json",
+    "sha256": "904e50f9fb0c66a75b3fdea6a74266fc567e5174b0529bf0cb7615e9afcd819e",
+    "saved_training_status": {
+      "status": "EARLY_STOP",
+      "completed_epochs": 22,
+      "used_cuda": true,
+      "gpu_name": "NVIDIA GeForce RTX 3050 Laptop GPU",
+      "seconds": 7.980726400011918,
+      "best_dev_score": [
+        0.9649122807017544,
+        5.350591606563992
+      ],
+      "best_checkpoint": {
+        "path": "checkpoints\\epoch_012.pt",
+        "sha256": "845e72314bcfbf5dd70dc5fa8fa59b324d72c5a5f3a68bda2cd988ef1f32823a",
+        "epoch": 12
+      },
+      "checkpoint_reload_predictions_match": true,
+      "vocabulary_size": 117,
+      "parameter_count": 26421,
+      "worker_memory": {
+        "actual_pid": 24536,
+        "working_set_bytes": 1147965440,
+        "peak_working_set_bytes": 1149263872,
+        "private_commit_bytes": 2323832832,
+        "peak_pagefile_bytes": 2325733376
+      },
+      "manifest_sha256": "1835f9c30234add2a951793ab9fa2776a75ef295d2842f6d6f7d96f83ea510a9",
+      "script_sha256": "da5c24ca659652350b788325ae00437a7d1145ce36902ec823df7517efcfb140",
+      "peak_allocated_vram_bytes": 70012928,
+      "peak_reserved_vram_bytes": 71303168,
+      "device": "cuda:0",
+      "test_accessed": false
+    }
+  },
+  {
+    "path": "D:\\apphearv3claude\\AppHear-claude-s2-r3-eval-suite\\AppHear-claude-s2-r3-eval-suite\\experiments\\continuous_asl\\20261020_continuous_expand03\\models\\reference48\\training_status.json",
+    "sha256": "57f09adb86447c7ad8110dcd8fd3c846e9741bd4bc63ab2d044bc432a98d6dab",
+    "saved_training_status": {
+      "status": "EARLY_STOP",
+      "completed_epochs": 14,
+      "used_cuda": true,
+      "gpu_name": "NVIDIA GeForce RTX 3050 Laptop GPU",
+      "seconds": 5.773206899990328,
+      "best_dev_score": [
+        0.8596491228070176,
+        4.757568703757392
+      ],
+      "best_checkpoint": {
+        "path": "checkpoints\\epoch_004.pt",
+        "sha256": "489ec5883ca440364ab10690ee5cfb9d0b0b0e6942df8f477509ea4ba6faf99c",
+        "epoch": 4
+      },
+      "checkpoint_reload_predictions_match": true,
+      "vocabulary_size": 117,
+      "parameter_count": 80373,
+      "worker_memory": {
+        "actual_pid": 26932,
+        "working_set_bytes": 1153110016,
+        "peak_working_set_bytes": 1155100672,
+        "private_commit_bytes": 2339807232,
+        "peak_pagefile_bytes": 2341949440
+      },
+      "manifest_sha256": "1835f9c30234add2a951793ab9fa2776a75ef295d2842f6d6f7d96f83ea510a9",
+      "script_sha256": "da5c24ca659652350b788325ae00437a7d1145ce36902ec823df7517efcfb140",
+      "peak_allocated_vram_bytes": 71389696,
+      "peak_reserved_vram_bytes": 73400320,
+      "device": "cuda:0",
+      "test_accessed": false
+    }
+  },
+  {
+    "path": "D:\\apphearv3claude\\AppHear-claude-s2-r3-eval-suite\\AppHear-claude-s2-r3-eval-suite\\experiments\\continuous_asl\\20261020_continuous_expand03\\models\\smoke\\training_status.json",
+    "sha256": "54cef0fc8c11abe4b75dd53fd7d947d257f9f999e094ace90b15a667cd09b145",
+    "saved_training_status": {
+      "status": "MAX_EPOCHS",
+      "completed_epochs": 1,
+      "used_cuda": true,
+      "gpu_name": "NVIDIA GeForce RTX 3050 Laptop GPU",
+      "seconds": 0.45863290000124834,
+      "best_dev_score": [
+        1.8571428571428572,
+        30.108769416809082
+      ],
+      "best_checkpoint": {
+        "path": "checkpoints\\epoch_001.pt",
+        "sha256": "144f4b553c7d98eb35bcaea74a44e7c48ef27fadc29c1229e0c22bbe779fd2fa",
+        "epoch": 1
+      },
+      "checkpoint_reload_predictions_match": true,
+      "vocabulary_size": 117,
+      "parameter_count": 26421,
+      "worker_memory": {
+        "actual_pid": 11308,
+        "working_set_bytes": 1138393088,
+        "peak_working_set_bytes": 1139359744,
+        "private_commit_bytes": 2316861440,
+        "peak_pagefile_bytes": 2316861440
+      },
+      "manifest_sha256": "1835f9c30234add2a951793ab9fa2776a75ef295d2842f6d6f7d96f83ea510a9",
+      "script_sha256": "da5c24ca659652350b788325ae00437a7d1145ce36902ec823df7517efcfb140",
+      "peak_allocated_vram_bytes": 69322240,
+      "peak_reserved_vram_bytes": 71303168,
+      "device": "cuda:0",
+      "test_accessed": false
+    }
+  },
+  {
+    "path": "D:\\apphearv3claude\\AppHear-claude-s2-r3-eval-suite\\AppHear-claude-s2-r3-eval-suite\\experiments\\continuous_asl\\20261020_continuous_expand04\\models\\compact24\\training_status.json",
+    "sha256": "b423d49d67145063b966053d2f829a01ba9504766f75c2c68030d6ff12b9c7f6",
+    "saved_training_status": {
+      "status": "EARLY_STOP",
+      "completed_epochs": 27,
+      "used_cuda": true,
+      "gpu_name": "NVIDIA GeForce RTX 3050 Laptop GPU",
+      "seconds": 17.82522020000033,
+      "best_dev_score": [
+        0.8771929824561403,
+        5.253113561206394
+      ],
+      "best_checkpoint": {
+        "path": "checkpoints\\epoch_017.pt",
+        "sha256": "74b59a944557b247131df5825398bfa51e8e1c965dc9c877c8a755aa40998c16",
+        "epoch": 17
+      },
+      "checkpoint_reload_predictions_match": true,
+      "vocabulary_size": 143,
+      "parameter_count": 27071,
+      "worker_memory": {
+        "actual_pid": 5432,
+        "working_set_bytes": 1156222976,
+        "peak_working_set_bytes": 1157533696,
+        "private_commit_bytes": 2329862144,
+        "peak_pagefile_bytes": 2331701248
+      },
+      "manifest_sha256": "4ea4a144faa157f749755afba57befb193085a6bcedcd11f9d71f1b03677161e",
+      "script_sha256": "85e053587d1f4f266b440adbd8b16db3ceb4e2207a435b9d140b283a0d392849",
+      "peak_allocated_vram_bytes": 70070784,
+      "peak_reserved_vram_bytes": 71303168,
+      "device": "cuda:0",
+      "test_accessed": false
+    }
+  },
+  {
+    "path": "D:\\apphearv3claude\\AppHear-claude-s2-r3-eval-suite\\AppHear-claude-s2-r3-eval-suite\\experiments\\continuous_asl\\20261020_continuous_expand04\\models\\reference48\\training_status.json",
+    "sha256": "9cf44ab15dadbd8ddebf7886038b59398ec32c96f7e91da6bfd8dea1b80e9f2b",
+    "saved_training_status": {
+      "status": "EARLY_STOP",
+      "completed_epochs": 16,
+      "used_cuda": true,
+      "gpu_name": "NVIDIA GeForce RTX 3050 Laptop GPU",
+      "seconds": 13.120596300024772,
+      "best_dev_score": [
+        0.9473684210526315,
+        4.756972153981526
+      ],
+      "best_checkpoint": {
+        "path": "checkpoints\\epoch_006.pt",
+        "sha256": "69cc26576ababf2648510715714220c3340139451b2b7f11aea847a7aed54290",
+        "epoch": 6
+      },
+      "checkpoint_reload_predictions_match": true,
+      "vocabulary_size": 143,
+      "parameter_count": 81647,
+      "worker_memory": {
+        "actual_pid": 25628,
+        "working_set_bytes": 1162702848,
+        "peak_working_set_bytes": 1164709888,
+        "private_commit_bytes": 2346909696,
+        "peak_pagefile_bytes": 2349080576
+      },
+      "manifest_sha256": "4ea4a144faa157f749755afba57befb193085a6bcedcd11f9d71f1b03677161e",
+      "script_sha256": "85e053587d1f4f266b440adbd8b16db3ceb4e2207a435b9d140b283a0d392849",
+      "peak_allocated_vram_bytes": 71461376,
+      "peak_reserved_vram_bytes": 73400320,
+      "device": "cuda:0",
+      "test_accessed": false
+    }
+  },
+  {
+    "path": "D:\\apphearv3claude\\AppHear-claude-s2-r3-eval-suite\\AppHear-claude-s2-r3-eval-suite\\experiments\\continuous_asl\\20261020_continuous_expand04\\models\\smoke\\training_status.json",
+    "sha256": "aa44888f6aa51be1a92e9f006100ab0d97b1053160f9c57b5c89e6d81fd86094",
+    "saved_training_status": {
+      "status": "MAX_EPOCHS",
+      "completed_epochs": 1,
+      "used_cuda": true,
+      "gpu_name": "NVIDIA GeForce RTX 3050 Laptop GPU",
+      "seconds": 0.4593548999982886,
+      "best_dev_score": [
+        2.7857142857142856,
+        28.10202121734619
+      ],
+      "best_checkpoint": {
+        "path": "checkpoints\\epoch_001.pt",
+        "sha256": "2ad7d9d28bb71f74d33b145c91125bab328970d392ac26797c0891f767741ef3",
+        "epoch": 1
+      },
+      "checkpoint_reload_predictions_match": true,
+      "vocabulary_size": 143,
+      "parameter_count": 27071,
+      "worker_memory": {
+        "actual_pid": 27384,
+        "working_set_bytes": 1144455168,
+        "peak_working_set_bytes": 1145585664,
+        "private_commit_bytes": 2319405056,
+        "peak_pagefile_bytes": 2320764928
+      },
+      "manifest_sha256": "4ea4a144faa157f749755afba57befb193085a6bcedcd11f9d71f1b03677161e",
+      "script_sha256": "85e053587d1f4f266b440adbd8b16db3ceb4e2207a435b9d140b283a0d392849",
+      "peak_allocated_vram_bytes": 69432320,
+      "peak_reserved_vram_bytes": 71303168,
+      "device": "cuda:0",
+      "test_accessed": false
+    }
+  },
+  {
+    "path": "D:\\apphearv3claude\\AppHear-claude-s2-r3-eval-suite\\AppHear-claude-s2-r3-eval-suite\\experiments\\continuous_asl\\20261020_continuous_expand05\\models\\compact24\\training_status.json",
+    "sha256": "24f17555640868cf338266da82995365b651ed62c97f9334665b45b4615d76e6",
+    "saved_training_status": {
+      "status": "EARLY_STOP",
+      "completed_epochs": 12,
+      "used_cuda": true,
+      "gpu_name": "NVIDIA GeForce RTX 3050 Laptop GPU",
+      "seconds": 17.80005920000258,
+      "best_dev_score": [
+        1.0,
+        5.623407469855414
+      ],
+      "best_checkpoint": {
+        "path": "checkpoints\\epoch_002.pt",
+        "sha256": "05009e30275b469497590900d934b271f9ccfaf0e93d83e3dbd6c7da93f42dbb",
+        "epoch": 2
+      },
+      "checkpoint_reload_predictions_match": true,
+      "vocabulary_size": 288,
+      "parameter_count": 30696,
+      "worker_memory": {
+        "actual_pid": 19068,
+        "working_set_bytes": 1187860480,
+        "peak_working_set_bytes": 1189224448,
+        "private_commit_bytes": 2371969024,
+        "peak_pagefile_bytes": 2373844992
+      },
+      "manifest_sha256": "8a3118c0a53a44eae4dfedba86e89cc7652cb763a3e9802014af9f1beb44a5a2",
+      "script_sha256": "6cf2cdbb4c6d272e2e5e0e207f67ca37b1cc1a2a00b2de8de4a03be5f507a2fd",
+      "peak_allocated_vram_bytes": 71284224,
+      "peak_reserved_vram_bytes": 73400320,
+      "device": "cuda:0",
+      "test_accessed": false
+    }
+  },
+  {
+    "path": "D:\\apphearv3claude\\AppHear-claude-s2-r3-eval-suite\\AppHear-claude-s2-r3-eval-suite\\experiments\\continuous_asl\\20261020_continuous_expand05\\models\\reference48\\training_status.json",
+    "sha256": "4802cf158090352bd6d215b647667878d97ab3617b666e945f927e42c0749901",
+    "saved_training_status": {
+      "status": "EARLY_STOP",
+      "completed_epochs": 20,
+      "used_cuda": true,
+      "gpu_name": "NVIDIA GeForce RTX 3050 Laptop GPU",
+      "seconds": 38.26771159999771,
+      "best_dev_score": [
+        0.9824561403508771,
+        6.170776949988471
+      ],
+      "best_checkpoint": {
+        "path": "checkpoints\\epoch_010.pt",
+        "sha256": "d29924e51b7ed07776c35e0ec914fe83dc19419d82bd5ae46259ac28cf9f0d69",
+        "epoch": 10
+      },
+      "checkpoint_reload_predictions_match": true,
+      "vocabulary_size": 288,
+      "parameter_count": 88752,
+      "worker_memory": {
+        "actual_pid": 25304,
+        "working_set_bytes": 1180479488,
+        "peak_working_set_bytes": 1182334976,
+        "private_commit_bytes": 2365112320,
+        "peak_pagefile_bytes": 2367287296
+      },
+      "manifest_sha256": "8a3118c0a53a44eae4dfedba86e89cc7652cb763a3e9802014af9f1beb44a5a2",
+      "script_sha256": "6cf2cdbb4c6d272e2e5e0e207f67ca37b1cc1a2a00b2de8de4a03be5f507a2fd",
+      "peak_allocated_vram_bytes": 72986112,
+      "peak_reserved_vram_bytes": 75497472,
+      "device": "cuda:0",
+      "test_accessed": false
+    }
+  },
+  {
+    "path": "D:\\apphearv3claude\\AppHear-claude-s2-r3-eval-suite\\AppHear-claude-s2-r3-eval-suite\\experiments\\continuous_asl\\20261020_continuous_expand05\\models\\smoke\\training_status.json",
+    "sha256": "2ec53b77026c27fdaa84933ed24f169f5d8470c9814d85a33481972669eb53c1",
+    "saved_training_status": {
+      "status": "MAX_EPOCHS",
+      "completed_epochs": 1,
+      "used_cuda": true,
+      "gpu_name": "NVIDIA GeForce RTX 3050 Laptop GPU",
+      "seconds": 0.2358566999901086,
+      "best_dev_score": [
+        4.142857142857143,
+        31.86802577972412
+      ],
+      "best_checkpoint": {
+        "path": "checkpoints\\epoch_001.pt",
+        "sha256": "66172c70527bf146a765beaac92555b424b9e05dcabcf6e5af97fdec912b52a4",
+        "epoch": 1
+      },
+      "checkpoint_reload_predictions_match": true,
+      "vocabulary_size": 288,
+      "parameter_count": 30696,
+      "worker_memory": {
+        "actual_pid": 27752,
+        "working_set_bytes": 1156599808,
+        "peak_working_set_bytes": 1157816320,
+        "private_commit_bytes": 2334285824,
+        "peak_pagefile_bytes": 2335731712
+      },
+      "manifest_sha256": "8a3118c0a53a44eae4dfedba86e89cc7652cb763a3e9802014af9f1beb44a5a2",
+      "script_sha256": "6cf2cdbb4c6d272e2e5e0e207f67ca37b1cc1a2a00b2de8de4a03be5f507a2fd",
+      "peak_allocated_vram_bytes": 69556224,
+      "peak_reserved_vram_bytes": 71303168,
+      "device": "cuda:0",
+      "test_accessed": false
+    }
+  },
+  {
+    "path": "D:\\apphearv3claude\\AppHear-claude-s2-r3-eval-suite\\AppHear-claude-s2-r3-eval-suite\\experiments\\continuous_asl\\20261020_continuous_expand08\\models\\reference48\\training_status.json",
+    "sha256": "a99c051485f2581f3f8772dcb0271ff53749e01b1a4abafd2ee9754d7fdc2013",
+    "saved_training_status": {
+      "status": "EARLY_STOP",
+      "completed_epochs": 17,
+      "used_cuda": true,
+      "gpu_name": "NVIDIA GeForce RTX 3050 Laptop GPU",
+      "seconds": 147.02513789999648,
+      "best_dev_score": [
+        1.0,
+        6.363733874426948
+      ],
+      "best_checkpoint": {
+        "path": "checkpoints\\epoch_002.pt",
+        "sha256": "f7a2b8bff5638671747352e2808f44fc2c60487a78d31a74cc49e978a46e7364",
+        "epoch": 2
+      },
+      "checkpoint_reload_predictions_match": true,
+      "vocabulary_size": 2741,
+      "parameter_count": 208949,
+      "worker_memory": {
+        "actual_pid": 10300,
+        "working_set_bytes": 1509912576,
+        "peak_working_set_bytes": 1511919616,
+        "private_commit_bytes": 4011937792,
+        "peak_pagefile_bytes": 4014100480
+      },
+      "unique_train_utterances_consumed": 2119,
+      "train_utterance_presentations": 36023,
+      "train_observations_per_complete_epoch": 98198,
+      "manifest_sha256": "adebeb9e2f20179eb59b7f79805ea9226ad6c9c0594e6cba193c771947cdaf40",
+      "script_sha256": "bda4cd1f466a36ce75187bbcc4ae50884733f3f01dfc9cb7a597a346558a5fe8",
+      "peak_allocated_vram_bytes": 1305323008,
+      "peak_reserved_vram_bytes": 1369440256,
+      "device": "cuda:0",
+      "test_accessed": false
+    }
+  },
+  {
+    "path": "D:\\apphearv3claude\\AppHear-claude-s2-r3-eval-suite\\AppHear-claude-s2-r3-eval-suite\\experiments\\continuous_asl\\20261020_continuous_expand08\\models\\smoke\\training_status.json",
+    "sha256": "cbbf965f06e946a5b5ec7c377667669eecb8122b9a2c767e13f245e576ec1bbe",
+    "saved_training_status": {
+      "status": "MAX_EPOCHS",
+      "completed_epochs": 1,
+      "used_cuda": true,
+      "gpu_name": "NVIDIA GeForce RTX 3050 Laptop GPU",
+      "seconds": 0.29410569998435676,
+      "best_dev_score": [
+        5.142857142857143,
+        44.45605659484863
+      ],
+      "best_checkpoint": {
+        "path": "checkpoints\\epoch_001.pt",
+        "sha256": "75cd3777c86e357036901f27beed4d34916db007e6b549deea008899b4e5e274",
+        "epoch": 1
+      },
+      "checkpoint_reload_predictions_match": true,
+      "vocabulary_size": 2741,
+      "parameter_count": 208949,
+      "worker_memory": {
+        "actual_pid": 30620,
+        "working_set_bytes": 1447641088,
+        "peak_working_set_bytes": 1449377792,
+        "private_commit_bytes": 2665889792,
+        "peak_pagefile_bytes": 2665889792
+      },
+      "unique_train_utterances_consumed": 4,
+      "train_utterance_presentations": 4,
+      "train_observations_per_complete_epoch": 194,
+      "manifest_sha256": "adebeb9e2f20179eb59b7f79805ea9226ad6c9c0594e6cba193c771947cdaf40",
+      "script_sha256": "bda4cd1f466a36ce75187bbcc4ae50884733f3f01dfc9cb7a597a346558a5fe8",
+      "peak_allocated_vram_bytes": 77909504,
+      "peak_reserved_vram_bytes": 96468992,
+      "device": "cuda:0",
+      "test_accessed": false
+    }
+  },
+  {
+    "path": "D:\\apphearv3claude\\AppHear-claude-s2-r3-eval-suite\\AppHear-claude-s2-r3-eval-suite\\experiments\\continuous_asl\\20261020_continuous_expand09\\models\\reference48\\training_status.json",
+    "sha256": "0a1d02f2fee0c139cb11be48eefe1d3876798de6e42ceaeea779315444c42118",
+    "saved_training_status": {
+      "status": "WALL_BUDGET",
+      "completed_epochs": 20,
+      "used_cuda": true,
+      "gpu_name": "NVIDIA GeForce RTX 3050 Laptop GPU",
+      "seconds": 140.52901660001953,
+      "best_dev_score": [
+        0.9649122807017544,
+        6.536171277364095
+      ],
+      "best_checkpoint": {
+        "path": "checkpoints\\epoch_013.pt",
+        "sha256": "5cb69c89ee91210debca4afcc6f45ec9b9b91fb147730e667f8fd18461c13ebd",
+        "epoch": 13
+      },
+      "checkpoint_reload_predictions_match": true,
+      "vocabulary_size": 922,
+      "parameter_count": 119818,
+      "worker_memory": {
+        "actual_pid": 24444,
+        "working_set_bytes": 1222119424,
+        "peak_working_set_bytes": 1223880704,
+        "private_commit_bytes": 2433626112,
+        "peak_pagefile_bytes": 2435780608
+      },
+      "unique_train_utterances_consumed": 906,
+      "train_utterance_presentations": 18120,
+      "train_observations_per_complete_epoch": 27451,
+      "manifest_sha256": "efcb25826cab6d6ac5361ad80f12f65d722fdf483369d755c62f9791515cece6",
+      "script_sha256": "1ad917550de6e9a11e487258fd48fe3e3da0f00e52d302c195906a7690a99333",
+      "peak_allocated_vram_bytes": 78284288,
+      "peak_reserved_vram_bytes": 98566144,
+      "device": "cuda:0",
+      "test_accessed": false
+    }
+  },
+  {
+    "path": "D:\\apphearv3claude\\AppHear-claude-s2-r3-eval-suite\\AppHear-claude-s2-r3-eval-suite\\experiments\\continuous_asl\\20261020_continuous_expand09\\models\\smoke_v2\\training_status.json",
+    "sha256": "0488e7f8d47a50905e626016ecf7d417365887d80857109b65bac2e89eb07b58",
+    "saved_training_status": {
+      "status": "MAX_EPOCHS",
+      "completed_epochs": 1,
+      "used_cuda": true,
+      "gpu_name": "NVIDIA GeForce RTX 3050 Laptop GPU",
+      "seconds": 0.5012016999826301,
+      "best_dev_score": [
+        3.0714285714285716,
+        35.01553535461426
+      ],
+      "best_checkpoint": {
+        "path": "checkpoints\\epoch_001.pt",
+        "sha256": "40d251604238a448761527b656f4f883e6204a12bad1947f9bfa0eac28941d52",
+        "epoch": 1
+      },
+      "checkpoint_reload_predictions_match": true,
+      "vocabulary_size": 922,
+      "parameter_count": 119818,
+      "worker_memory": {
+        "actual_pid": 21144,
+        "working_set_bytes": 1187479552,
+        "peak_working_set_bytes": 1189224448,
+        "private_commit_bytes": 2373758976,
+        "peak_pagefile_bytes": 2375589888
+      },
+      "unique_train_utterances_consumed": 4,
+      "train_utterance_presentations": 4,
+      "train_observations_per_complete_epoch": 122,
+      "manifest_sha256": "efcb25826cab6d6ac5361ad80f12f65d722fdf483369d755c62f9791515cece6",
+      "script_sha256": "1ad917550de6e9a11e487258fd48fe3e3da0f00e52d302c195906a7690a99333",
+      "peak_allocated_vram_bytes": 72223744,
+      "peak_reserved_vram_bytes": 73400320,
+      "device": "cuda:0",
+      "test_accessed": false
+    }
+  },
+  {
+    "path": "D:\\apphearv3claude\\AppHear-claude-s2-r3-eval-suite\\AppHear-claude-s2-r3-eval-suite\\experiments\\continuous_asl\\20261020T004837_separate02\\experiment_A\\training_status.json",
+    "sha256": "fba3d44e85dda3bcac79c899a9f0b3792e8f7235e2b8d8f90d7db8c03738e430",
+    "saved_training_status": {
+      "status": "MAX_EPOCHS",
+      "completed_epochs": 5,
+      "used_cuda": true,
+      "best_score": [
+        0.15487897514977284,
+        0.19454656862745098
+      ],
+      "seconds": 202.66228409999167,
+      "actual_worker_memory": {
+        "actual_pid": 31396,
+        "working_set_bytes": 2164412416,
+        "peak_working_set_bytes": 2170195968,
+        "private_commit_bytes": 2393862144,
+        "peak_pagefile_bytes": 2426097664
+      },
+      "script_sha256": "533fca949b5bdb123a8278bf37799ae946e5fc3a9468909a22e10035b474a31c"
+    }
+  },
+  {
+    "path": "D:\\apphearv3claude\\AppHear-claude-s2-r3-eval-suite\\AppHear-claude-s2-r3-eval-suite\\experiments\\continuous_asl\\20261020T004837_separate02\\experiment_A\\warmstart\\training_status.json",
+    "sha256": "ab50d6a3acaa19d404eaefa5497c827ef4e0aa7396d1c3f4c98d2a0dae7d5491",
+    "saved_training_status": {
+      "status": "MAX_EPOCHS",
+      "completed_epochs": 5,
+      "used_cuda": true,
+      "best_score": [
+        0.665724989734123,
+        0.6709558823529411
+      ],
+      "seconds": 209.8943174999731,
+      "memory": {
+        "actual_pid": 34732,
+        "working_set_bytes": 2212765696,
+        "peak_working_set_bytes": 2221531136,
+        "private_commit_bytes": 2450522112,
+        "peak_pagefile_bytes": 2458714112
+      }
+    }
+  },
+  {
+    "path": "D:\\apphearv3claude\\AppHear-claude-s2-r3-eval-suite\\AppHear-claude-s2-r3-eval-suite\\experiments\\continuous_asl\\20261020T004837_separate02\\experiment_A\\warmstart_repeat\\training_status.json",
+    "sha256": "4004f99133585d47fca90c7dbe03f0af883f8b15f634c2b42d27e0a9dd9b910a",
+    "saved_training_status": {
+      "status": "MAX_EPOCHS",
+      "completed_epochs": 5,
+      "used_cuda": true,
+      "best_score": [
+        0.6577941895764976,
+        0.6654411764705882
+      ],
+      "seconds": 176.0761455000029,
+      "memory": {
+        "actual_pid": 35836,
+        "working_set_bytes": 2218135552,
+        "peak_working_set_bytes": 2224467968,
+        "private_commit_bytes": 2449883136,
+        "peak_pagefile_bytes": 2455945216
+      }
+    }
+  },
+  {
+    "path": "D:\\apphearv3claude\\AppHear-claude-s2-r3-eval-suite\\AppHear-claude-s2-r3-eval-suite\\experiments\\continuous_asl\\20261020T004837_separate02\\experiment_B\\training_status.json",
+    "sha256": "be74f6d6f5a5eb0edfd6c656a2148444cab321faeb01d734e65ab79df2c42518",
+    "saved_training_status": {
+      "status": "EARLY_STOP",
+      "completed_epochs": 11,
+      "used_cuda": true,
+      "best_score": [
+        0.92,
+        4.133095332554409
+      ],
+      "seconds": 2.3235810000041965,
+      "worker_memory": {
+        "actual_pid": 7372,
+        "working_set_bytes": 1164500992,
+        "peak_working_set_bytes": 1166536704,
+        "private_commit_bytes": 2301992960,
+        "peak_pagefile_bytes": 2304069632
+      },
+      "schema_version": "apphear.continuous_asl.candidate01_causal378_native.v1",
+      "manifest_sha256": "c173d02e2a64856329d380b6212eac35dd5a306131e57eed466eadf3614b08b3",
+      "script_sha256": "28727ad8d03552c9af2ff3c29b456e569be9708502e04c81dc11e90ac591ecbb",
+      "signer_independence": "UNVERIFIED",
+      "non_sign_boundaries": "BLOCKED_NO_LABELS"
+    }
+  },
+  {
+    "path": "D:\\apphearv3claude\\AppHear-claude-s2-r3-eval-suite\\AppHear-claude-s2-r3-eval-suite\\experiments\\continuous_asl\\20261020T102748Z_continuation_pilot01\\training_status.json",
+    "sha256": "f20e2698d0006e1395ad46b773c9c367e89183806623eea8d00d42f38fd44fb8",
+    "saved_training_status": {
+      "status": "NO_CREDIBLE_DEV_GAIN_INITIAL_WINDOW",
+      "used_cuda": true,
+      "gpu": "NVIDIA GeForce RTX 3050 Laptop GPU",
+      "completed_additional_epochs": 3,
+      "parent_epoch": 17,
+      "last_epoch": 20,
+      "best_checkpoint": {
+        "path": "checkpoints\\epoch_018.pt",
+        "sha256": "a0673a7cf56b147445f0123884bc1cda0261c2c34602b5ac33f2b26b0715953b",
+        "epoch": 18
+      },
+      "best_new_dev_wer": 1.0,
+      "best_new_train_wer": 0.7017131725204836,
+      "last_train_wer": 0.6522660860597032,
+      "initial_dev_wer": 1.0,
+      "initial_train_full_wer_from_frozen_evidence": 0.7195324586031054,
+      "epoch_loop_seconds": 26.464425900019705,
+      "fit_reload_full_train_diagnostics_seconds": 46.695898699981626,
+      "peak_allocated_vram_bytes": 1305171456,
+      "peak_reserved_vram_bytes": 1361051648,
+      "checkpoint_reload_predictions_match": true,
+      "manifest_sha256": "adebeb9e2f20179eb59b7f79805ea9226ad6c9c0594e6cba193c771947cdaf40",
+      "unique_train_consumed": 2119,
+      "utterance_presentations": 6357,
+      "training_script_sha256": "9483831d4d2ffb28dde7bda4110026d52281886fc19cc4aabd4125e9fc2c534c",
+      "production_promoted": false,
+      "test_accessed": false,
+      "frozen_baseline_dev_wer": 0.8596491228070176,
+      "beats_parent_last_dev": false,
+      "beats_frozen_baseline": false
+    }
+  },
+  {
+    "path": "D:\\apphearv3claude\\AppHear-claude-s2-r3-eval-suite\\AppHear-claude-s2-r3-eval-suite\\experiments\\continuous_asl\\20261020T104054Z_expand_eval01\\pilot_fresh48_v2\\training_status.json",
+    "sha256": "cf0b2e665e597b918c6da3246225fcd497f6de7726461ca324c9fa25a4fb7494",
+    "saved_training_status": {
+      "status": "TRAIN_BLANK_OR_NO_LEARNABILITY_GATE",
+      "used_cuda": true,
+      "gpu": "NVIDIA GeForce RTX 3050 Laptop GPU",
+      "completed_epochs": 5,
+      "best_checkpoint": {
+        "path": "checkpoints\\epoch_004.pt",
+        "sha256": "3d66372e84f94bc42b0bdaa61702013601d3b7b1ac160f76a1e5a9bf147c25de",
+        "epoch": 4
+      },
+      "checkpoint_reload_predictions_match": true,
+      "train": 1706,
+      "dev": 413,
+      "unique_train_consumed": 1706,
+      "utterance_presentations": 8530,
+      "best_train_wer": 0.9760146303720898,
+      "best_dev_wer": 0.9799134734239803,
+      "best_dev_prediction_tokens": 283,
+      "best_dev_blank_fraction": 0.9839557087170216,
+      "epoch_loop_seconds": 58.49982250004541,
+      "fit_reload_full_train_diagnostics_seconds": 80.8409968999913,
+      "peak_allocated_vram_bytes": 1303643648,
+      "peak_reserved_vram_bytes": 1361051648,
+      "manifest_sha256": "04fb7c6c26bc934d6618902ceeaa2ee69e19d0c12e5bfe922e5743c8518c0ebe",
+      "script_sha256": "2da43ed0fca5542cf3e4259aac97718d70e0e2854a13ebdb9e382cd78f030d62",
+      "normalization_fit": "NewTRAIN only",
+      "vocab_fit": "NewTRAIN only",
+      "random_initialization": true,
+      "old_recognition_weights_read": false,
+      "test_accessed": false,
+      "production_promoted": false,
+      "comparison": "Newsame-pool signer-disjoint DEV; no numerical comparison to frozen old9DEV85.96%."
+    }
+  },
+  {
+    "path": "D:\\apphearv3claude\\AppHear-claude-s2-r3-eval-suite\\AppHear-claude-s2-r3-eval-suite\\experiments\\continuous_asl\\20261020T123237Z_collapse_diagnosis01\\pilot64\\training_status.json",
+    "sha256": "6a8afa742b800f408cb26c6620b618ca2f7a65e4cea9a92036dc507c700891c3",
+    "saved_training_status": {
+      "status": "NO_MEANINGFUL_DEV_GAIN_GATE40",
+      "completed_epochs": 40,
+      "optimizer_updates": 320,
+      "best_checkpoint": {
+        "path": "checkpoints\\epoch_040.pt",
+        "sha256": "89170961d30b2c413a439bfd9288139d99b9a14b506dd06a738f0c09fad6ca36",
+        "epoch": 40
+      },
+      "manifest_sha256": "74316382a1198b7815154d06829c39e06fcba9742dfaa16548450f08f6724c54",
+      "TRAIN_WER": 0.12218649517684887,
+      "DEV_WER": 0.9746600741656366,
+      "TRAIN_CTC": 0.35751624236581847,
+      "DEV_CTC": 11.804399565403456,
+      "TRAIN_unique": 343,
+      "DEV_unique": 85,
+      "fit_loop_seconds": 33.11946509999689,
+      "with_reload_seconds": 37.04803239996545,
+      "peak_allocated_vram_bytes": 1305027072,
+      "peak_reserved_vram_bytes": 1361051648,
+      "used_cuda": true,
+      "gpu": "NVIDIA GeForce RTX 3050 Laptop GPU",
+      "checkpoint_reload_predictions_match": true,
+      "TEST_used": false,
+      "promoted": false
+    }
+  },
+  {
+    "path": "D:\\apphearv3claude\\AppHear-claude-s2-r3-eval-suite\\AppHear-claude-s2-r3-eval-suite\\experiments\\continuous_asl\\20261020T124813Z_label_support01\\pilot497\\training_status.json",
+    "sha256": "1f7ca645bd6632c7adee6df211519f62ab2028cfb713984b656baf26ee0033a9",
+    "saved_training_status": {
+      "status": "NO_MEANINGFUL_LEARNING_GATE20",
+      "completed_epochs": 20,
+      "optimizer_updates": 1260,
+      "best_checkpoint": {
+        "path": "checkpoints\\epoch_020.pt",
+        "sha256": "2e5e6606a1942c800217a5c1ae419c1232291e6242576ce130effc9a7deb7ed6",
+        "epoch": 20
+      },
+      "manifest_sha256": "a735d19f84338a36146c11aeba7923cda6204c41153f617251ace9c1a5daafdf",
+      "TRAIN_WER": 0.4367729831144465,
+      "compatible_DEV_WER": 0.9839034205231388,
+      "original_DEV_WER": 0.98053152039555,
+      "fit_loop_seconds": 77.55897259997437,
+      "with_reload_seconds": 85.7848084999714,
+      "peak_allocated_vram_bytes": 74494976,
+      "peak_reserved_vram_bytes": 77594624,
+      "used_cuda": true,
+      "gpu": "NVIDIA GeForce RTX 3050 Laptop GPU",
+      "checkpoint_reload_predictions_match": true,
+      "TEST_used": false,
+      "promoted": false
+    }
+  },
+  {
+    "path": "D:\\apphearv3claude\\AppHear-claude-s2-r3-eval-suite\\AppHear-claude-s2-r3-eval-suite\\experiments\\continuous_asl\\20261020T133148Z_source_transfer_pilot01\\training_status.json",
+    "sha256": "fdbcc7fd082e610e5f5821d3cc8808c0cf7edd0c65a05dfd372f24156ffc8caa",
+    "saved_training_status": {
+      "status": "NO_CREDIBLE_PRIMARY_GAIN",
+      "completed_epochs": 14,
+      "optimizer_updates": 2632,
+      "utterance_presentations": 21000,
+      "selected_checkpoint": {
+        "path": "checkpoints\\epoch_012.pt",
+        "sha256": "e2a6e0046bca4a3f97f33f023dc7346dd9d6226e19e9bd855357a00c8f1579bf",
+        "epoch": 12
+      },
+      "initialization_checkpoint": {
+        "path": "checkpoints\\initialization.pt",
+        "sha256": "2f0202eb7c24ef5cde79e6d8d4d9f5dc34831fac6091aeb42aa6dc4dc59b6ef2",
+        "epoch": 0
+      },
+      "TRAIN_WER": 0.8708041535860903,
+      "primary80_WER": 0.9690721649484536,
+      "strong27_WER": 0.9662162162162162,
+      "full206_WER": 0.9788182831661093,
+      "TRAIN_learning_screen_pass": false,
+      "primary_transfer_screen_pass": false,
+      "source_transfer_interpretable": false,
+      "further_training_justified": false,
+      "epoch_loop_seconds": 88.5016718999832,
+      "with_reload_full_TRAIN_validation_seconds": 96.48690060002264,
+      "peak_allocated_VRAM_bytes": 1303238656,
+      "peak_reserved_VRAM_bytes": 1340080128,
+      "GPU": "NVIDIA GeForce RTX 3050 Laptop GPU",
+      "used_cuda": true,
+      "checkpoint_reload_predictions_match": true,
+      "fold_manifest_sha256": "87442a6f1241860e369a5c8f0768d583b3a4058f5a9ad03dcc135532c419c72f",
+      "vocabulary_sha256": "365b44d435c9def2bba6e0f347155c72bf2ca001bd365d5b10f55dbe91174715",
+      "config_sha256": "75ea1f17e277894195a4f3a1370343e5d579ffd31ffcc40e9f52d3b459aa08ed",
+      "normalization_sha256": "394a3862286b01b884d30952f767f8620969ea21c0384715254e4bddb2d41489",
+      "training_script_sha256": "a372ab7970a4d4f64332f906499d84661a6f89ddac374c9c8989c1598f0d0b58",
+      "TEST_used": false,
+      "production_promoted": false,
+      "interpretation": "Known signers; unseen conservative recording families. No causal signer or unseen-signer claim."
+    }
+  }
+]

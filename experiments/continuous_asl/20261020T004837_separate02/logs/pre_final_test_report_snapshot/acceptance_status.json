@@ -1,0 +1,17 @@
+{
+  "GPU environment and training execution": "PASS",
+  "How2Sign inventory and download verification": "PASS_BOUNDED_PILOT; two annotation/video gaps documented",
+  "How2Sign gloss annotation availability": "NOT AVAILABLE_IN_INSPECTED_PUBLIC_RELEASE",
+  "Dataset eligibility and permissions": "PARTIAL_PRIVATE_RESEARCH_ONLY",
+  "Isolated-sign experiment": "PARTIAL_REPEATED_VALIDATION_GAIN; new fingerspelling blocked",
+  "Continuous-sign experiment": "PARTIAL_TRAINED_NO_GAIN",
+  "Accuracy improvement against matched legacy validation baseline": "PASS",
+  "Accuracy improvement against current production live path": "NOT MEASURED",
+  "False-activation improvement": "NOT MEASURED",
+  "Long-sequence and boundary behavior": "PARTIAL_ENGINEERING_CHECKS; natural boundary evaluation BLOCKED",
+  "Speed and memory": "PARTIAL_LAPTOP_MEASURED_NO_ANDROID",
+  "Export parity": "PASS_PRIMARY_NEW_EXPORT",
+  "Regression suite": "FAIL_ENVIRONMENT_FIXTURE_AND_UNCLASSIFIED_SNAPSHOT_FAILURES",
+  "Production-asset preservation": "PASS",
+  "Production integration": "NOT INTEGRATED"
+}

@@ -1,0 +1,28 @@
+{
+  "status": "PASS_ORDERED_DOMINANT_GLOSS_CANDIDATES",
+  "csv_rows": 3056,
+  "distinct_source_utterances": 280,
+  "ordered_candidate_utterances": 278,
+  "candidate_media_files": 278,
+  "hidden_events_retained": 194,
+  "rejected": [
+    {
+      "collection": "RIT-P03_s01",
+      "utterance_id": "60",
+      "reason": "EVENT_OUTSIDE_UTTERANCE"
+    },
+    {
+      "collection": "RIT-P03_s01",
+      "utterance_id": "107",
+      "reason": "NOT_MULTI_EVENT_CONTINUOUS"
+    }
+  ],
+  "label_type": "AUTHENTIC_DOMINANT_HAND_OCCURRENCE_GLOSSES_NOT_ENGLISH_TRANSLATIONS",
+  "publisher_source": "https://www.bu.edu/asllrp/ASL-SignBank-and-other-Resources.html",
+  "download_directory": "https://dai.cs.rutgers.edu/asllvd/signbank/asllrp_videos/",
+  "official_archive_url": "https://dai.cs.rutgers.edu/asllvd/signbank/rit3/batch_utterance_video_v1_1.zip",
+  "hand_scope": "Dominant-realized signs (1h and2h), all hidden rows retained; not an exhaustive two-hand parallel annotation task.",
+  "usable_until_download_decode_ctc_checks": 0,
+  "training_source_only": true,
+  "script_sha256": "530a770eab17949853e60483da604fe8d3e7fea940ab3a2a55287bae29aa697e"
+}

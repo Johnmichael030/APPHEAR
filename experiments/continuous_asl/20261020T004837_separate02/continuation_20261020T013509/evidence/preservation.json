@@ -1,0 +1,15 @@
+{
+  "status": "PASS",
+  "checked_protected_records": 3338,
+  "original_inventory_files": 2932,
+  "frozen_artifacts_checked": 336,
+  "hash_mismatches": [],
+  "mtime_changes": [],
+  "historical_mtime_changes": [],
+  "frozen_artifact_mismatches": [],
+  "original_manifest_sha256": "1081281f0a6d28426d4804d202300381549d4374d25a7bb204050671f8a2d8b4",
+  "new_deliverables_location": "D:\\apphearv3claude\\AppHear-claude-s2-r3-eval-suite\\AppHear-claude-s2-r3-eval-suite\\experiments\\continuous_asl\\20261020T004837_separate02\\continuation_20261020T013509",
+  "test_payload_reopened_for_evaluation": false,
+  "training_started": false,
+  "production_android_changed": false
+}

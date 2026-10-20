@@ -1,0 +1,149 @@
+{
+  "ASLLRP3_support5": {
+    "threshold_in_parent_TRAIN": 5,
+    "parent_labels_allowed": 547,
+    "retained_TRAIN_utterances": 497,
+    "actual_TRAIN_vocabulary_labels": 423,
+    "retained_tokens": 2665,
+    "excluded_TRAIN_utterances": 1209,
+    "original_DEV_tokens_covered_pct": 72.96044499381954,
+    "compatible_DEV_utterances": 92,
+    "original_DEV_whole_utterance_coverage_pct": 22.276029055690074,
+    "retained_support_min": 1,
+    "retained_labels_below_parent_threshold": 279,
+    "retained_support_bins": {
+      "20+": 24,
+      "2-4": 189,
+      "1": 90,
+      "5-9": 86,
+      "10-19": 34
+    },
+    "TRAIN_signers": [
+      "asllrp_dai_participant_2",
+      "asllrp_dai_participant_3",
+      "asllrp_dai_participant_5"
+    ],
+    "TRAIN_sources": 37,
+    "compatible_DEV_sources": 8,
+    "recursive_counts": [
+      497,
+      176,
+      76,
+      43,
+      26,
+      12,
+      3,
+      0,
+      0
+    ],
+    "recursive_final_TRAIN": 0
+  },
+  "ASLLRP3_support10": {
+    "threshold_in_parent_TRAIN": 10,
+    "parent_labels_allowed": 266,
+    "retained_TRAIN_utterances": 199,
+    "actual_TRAIN_vocabulary_labels": 175,
+    "retained_tokens": 971,
+    "excluded_TRAIN_utterances": 1507,
+    "original_DEV_tokens_covered_pct": 57.354758961681085,
+    "compatible_DEV_utterances": 31,
+    "original_DEV_whole_utterance_coverage_pct": 7.506053268765133,
+    "retained_support_min": 1,
+    "retained_labels_below_parent_threshold": 145,
+    "retained_support_bins": {
+      "1": 45,
+      "20+": 6,
+      "2-4": 68,
+      "10-19": 24,
+      "5-9": 32
+    },
+    "TRAIN_signers": [
+      "asllrp_dai_participant_2",
+      "asllrp_dai_participant_3",
+      "asllrp_dai_participant_5"
+    ],
+    "TRAIN_sources": 30,
+    "compatible_DEV_sources": 7,
+    "recursive_counts": [
+      199,
+      18,
+      0,
+      0
+    ],
+    "recursive_final_TRAIN": 0
+  },
+  "NCSLGR2_support5": {
+    "threshold_in_parent_TRAIN": 5,
+    "parent_labels_allowed": 180,
+    "retained_TRAIN_utterances": 398,
+    "actual_TRAIN_vocabulary_labels": 145,
+    "retained_tokens": 2040,
+    "excluded_TRAIN_utterances": 604,
+    "original_DEV_tokens_covered_pct": 89.47368421052632,
+    "compatible_DEV_utterances": 5,
+    "original_DEV_whole_utterance_coverage_pct": 55.55555555555556,
+    "retained_support_min": 1,
+    "retained_labels_below_parent_threshold": 69,
+    "retained_support_bins": {
+      "10-19": 19,
+      "20+": 31,
+      "5-9": 26,
+      "2-4": 42,
+      "1": 27
+    },
+    "TRAIN_signers": [
+      "ncslgr_participant_439e92da28e72cc2",
+      "ncslgr_participant_d3676eea1633876b"
+    ],
+    "TRAIN_sources": 388,
+    "compatible_DEV_sources": 5,
+    "recursive_counts": [
+      398,
+      303,
+      277,
+      266,
+      262,
+      258,
+      258
+    ],
+    "recursive_final_TRAIN": 258
+  },
+  "NCSLGR2_support10": {
+    "threshold_in_parent_TRAIN": 10,
+    "parent_labels_allowed": 90,
+    "retained_TRAIN_utterances": 263,
+    "actual_TRAIN_vocabulary_labels": 73,
+    "retained_tokens": 1325,
+    "excluded_TRAIN_utterances": 739,
+    "original_DEV_tokens_covered_pct": 78.94736842105263,
+    "compatible_DEV_utterances": 3,
+    "original_DEV_whole_utterance_coverage_pct": 33.333333333333336,
+    "retained_support_min": 1,
+    "retained_labels_below_parent_threshold": 30,
+    "retained_support_bins": {
+      "5-9": 12,
+      "20+": 24,
+      "10-19": 19,
+      "2-4": 12,
+      "1": 6
+    },
+    "TRAIN_signers": [
+      "ncslgr_participant_439e92da28e72cc2",
+      "ncslgr_participant_d3676eea1633876b"
+    ],
+    "TRAIN_sources": 262,
+    "compatible_DEV_sources": 3,
+    "recursive_counts": [
+      263,
+      171,
+      112,
+      66,
+      35,
+      13,
+      8,
+      0,
+      0
+    ],
+    "recursive_final_TRAIN": 0
+  }
+}

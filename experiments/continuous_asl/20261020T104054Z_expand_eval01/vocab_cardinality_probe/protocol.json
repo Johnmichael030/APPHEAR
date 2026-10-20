@@ -1,0 +1,13 @@
+{
+  "scope": "8eligible newTRAIN only; no DEV/TEST used or scored. Not model generalization or new dataset examples.",
+  "variable": "Output vocabulary cardinality only. Same exact target strings, features, TRAIN-fitted normalization, backbone initialization and common output rows. Large output adds labels not present in these8targets.",
+  "full_classes": 2519,
+  "restricted_classes": 62,
+  "max_optimizer_updates": 100,
+  "stop_train_wer": 0.05,
+  "stop_loss_ratio": 0.05,
+  "wall_cap_seconds_per_trial": 30,
+  "optimizer": "AdamW lr.001,wd.0001,clip5,FP32,batch8",
+  "common_initial_logit_max_error": 0.0,
+  "trained_recognition_weights_reused": false
+}

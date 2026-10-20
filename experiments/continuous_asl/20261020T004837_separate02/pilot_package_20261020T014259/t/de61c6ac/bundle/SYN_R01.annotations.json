@@ -1,0 +1,42 @@
+{
+  "schema": "apphear.streaming_pilot.annotations.v1",
+  "recording_id": "SYN_R01",
+  "signer_id": "SYN_S01",
+  "provenance": {
+    "kind": "SYNTHETIC",
+    "reviewer_ids": [
+      "SYN_REVIEW_1",
+      "SYN_REVIEW_2"
+    ],
+    "prediction_blinded": true,
+    "adjudication": "COMPLETE",
+    "reference": "SYNTHETIC_NOT_GROUND_TRUTH"
+  },
+  "intervals": [
+    {
+      "interval_id": "SYN_R01_A",
+      "type": "SIGN",
+      "sequence_id": "SYN_SEQ01",
+      "start_ms": 0.0,
+      "end_ms": 80.0,
+      "gloss": "SYN_TOKEN_A"
+    },
+    {
+      "interval_id": "SYN_R01_B",
+      "type": "SIGN",
+      "sequence_id": "SYN_SEQ01",
+      "start_ms": 80.0,
+      "end_ms": 200.0,
+      "gloss": "SYN_TOKEN_B"
+    },
+    {
+      "interval_id": "SYN_R01_N",
+      "type": "NO_SIGN",
+      "sequence_id": null,
+      "start_ms": 200.0,
+      "end_ms": 400.0,
+      "gloss": null,
+      "negative_subtype": "VISIBLE_IDLE"
+    }
+  ]
+}

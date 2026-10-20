@@ -1,0 +1,92 @@
+{
+  "loss": 35.01553535461426,
+  "gloss_wer": 3.0714285714285716,
+  "substitutions": 13,
+  "deletions": 0,
+  "insertions": 30,
+  "reference_tokens": 14,
+  "predictions": [
+    {
+      "sample_id": "ncslgr_6b627c2a6d44a0fc",
+      "reference": [
+        "IX-3p:i",
+        "LEARN+AGENT",
+        "MOTHERwg",
+        "CAR",
+        "BUY",
+        "FINISH",
+        "IX-3p:i"
+      ],
+      "hypothesis": [
+        "PITY:i",
+        "RIGHT-HERE",
+        "(2h)alt.BCL\"pulling people from the water\"++",
+        "(1h)SICK+",
+        "(2h)alt.BCL\"pulling people from the water\"++",
+        "neu:(1h)GIFT-pl-arc",
+        "FINISH",
+        "(2h)alt.BCL\"pulling people from the water\"++",
+        "FINISH",
+        "(2h)alt.BCL\"pulling people from the water\"++",
+        "FINISH",
+        "GRASS:k",
+        "FINISH",
+        "RIGHT-HERE",
+        "FINISH",
+        "(2h)alt.BCL\"pulling people from the water\"++",
+        "FINISH",
+        "(2h)alt.BCL\"pulling people from the water\"++"
+      ],
+      "substitutions": 6,
+      "deletions": 0,
+      "insertions": 11,
+      "reference_tokens": 7
+    },
+    {
+      "sample_id": "ncslgr_480b611253531cc0",
+      "reference": [
+        "LEARN+AGENT",
+        "IX-loc:i",
+        "HOLD",
+        "MOTHER",
+        "FUTURE",
+        "BUY",
+        "CAR"
+      ],
+      "hypothesis": [
+        "PITY:i",
+        "NIGHT+",
+        "TEACH+AGENT",
+        "(2h)alt.BCL\"pulling people from the water\"++",
+        "SCL:crvd-V\"sitting on\"++",
+        "FINISH",
+        "(2h)alt.BCL\"pulling people from the water\"++",
+        "RECENT-PAST",
+        "RUN",
+        "FINISH",
+        "HOUSE",
+        "FINISH",
+        "(2h)alt.BCL\"pulling people from the water\"++",
+        "RIGHT-HERE",
+        "FINISH",
+        "(2h)alt.BCL\"pulling people from the water\"++",
+        "FINISH",
+        "FROM-NOW-ON",
+        "WHEEL",
+        "FINISH",
+        "(2h)DCL:5\"getting bigger\":l",
+        "FINISH",
+        "SELF-3p+:i",
+        "FINISH",
+        "FROM-NOW-ON",
+        "FINISH"
+      ],
+      "substitutions": 7,
+      "deletions": 0,
+      "insertions": 19,
+      "reference_tokens": 7
+    }
+  ],
+  "scope": "COLLECTION-DISJOINT DIAGNOSTIC, SIGNER UNVERIFIED; NOT PRODUCT ACCURACY",
+  "out_of_vocabulary_tokens": 0
+}

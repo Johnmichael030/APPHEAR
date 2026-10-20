@@ -1,0 +1,179 @@
+{
+  "loss": 20.744071006774902,
+  "gloss_wer": 2.6,
+  "substitutions": 25,
+  "deletions": 0,
+  "insertions": 40,
+  "reference_tokens": 25,
+  "predictions": [
+    {
+      "sample_id": "ncslgr_41a940ff8bcad76e",
+      "reference": [
+        "WHO",
+        "ARRIVE",
+        "HOLD"
+      ],
+      "hypothesis": [
+        "EAT",
+        "NOT",
+        "READ+",
+        "NOT",
+        "READ+",
+        "NOT",
+        "READ+",
+        "NOT",
+        "READ+",
+        "NOT",
+        "READ+",
+        "NOT"
+      ],
+      "substitutions": 3,
+      "deletions": 0,
+      "insertions": 9,
+      "reference_tokens": 3
+    },
+    {
+      "sample_id": "ncslgr_5217c2322e5f74f1",
+      "reference": [
+        "ARRIVE",
+        "WHO",
+        "HOLD"
+      ],
+      "hypothesis": [
+        "EAT",
+        "NOT",
+        "EAT",
+        "READ+",
+        "NOT",
+        "READ+",
+        "NOT",
+        "READ+",
+        "NOT",
+        "READ+",
+        "NOT"
+      ],
+      "substitutions": 3,
+      "deletions": 0,
+      "insertions": 8,
+      "reference_tokens": 3
+    },
+    {
+      "sample_id": "ncslgr_7ce3508959b6daf0",
+      "reference": [
+        "BOOK+",
+        "MOTHER",
+        "BUY",
+        "YESTERDAY",
+        "FINISH",
+        "HOLD"
+      ],
+      "hypothesis": [
+        "EAT",
+        "NOT",
+        "READ+",
+        "NOT",
+        "READ+",
+        "TWO-WEEK",
+        "READ+",
+        "TWO-WEEK",
+        "READ+",
+        "NOT",
+        "WHO",
+        "READ+",
+        "NOT"
+      ],
+      "substitutions": 6,
+      "deletions": 0,
+      "insertions": 7,
+      "reference_tokens": 6
+    },
+    {
+      "sample_id": "ncslgr_aa797382ef0f84b9",
+      "reference": [
+        "YESTERDAY",
+        "MOTHER",
+        "BUY",
+        "BOOK",
+        "FINISH"
+      ],
+      "hypothesis": [
+        "FROM-NOW-ON",
+        "NOT",
+        "READ+",
+        "NOT",
+        "READ+",
+        "NOT",
+        "READ+",
+        "NOT",
+        "READ+",
+        "WHO",
+        "READ+"
+      ],
+      "substitutions": 5,
+      "deletions": 0,
+      "insertions": 6,
+      "reference_tokens": 5
+    },
+    {
+      "sample_id": "ncslgr_b4b6b3a8dd2384d4",
+      "reference": [
+        "NAME",
+        "HOLD"
+      ],
+      "hypothesis": [
+        "EAT",
+        "NOT",
+        "READ+",
+        "NOT",
+        "READ+"
+      ],
+      "substitutions": 2,
+      "deletions": 0,
+      "insertions": 3,
+      "reference_tokens": 2
+    },
+    {
+      "sample_id": "ncslgr_d7df63242e304194",
+      "reference": [
+        "WOMAN",
+        "ARRIVE",
+        "HERE"
+      ],
+      "hypothesis": [
+        "WHEN",
+        "NOT",
+        "READ+",
+        "NOT",
+        "READ+",
+        "NOT",
+        "READ+",
+        "NOT"
+      ],
+      "substitutions": 3,
+      "deletions": 0,
+      "insertions": 5,
+      "reference_tokens": 3
+    },
+    {
+      "sample_id": "ncslgr_ea3072063dcce434",
+      "reference": [
+        "ARRIVE",
+        "WHO",
+        "HOLD"
+      ],
+      "hypothesis": [
+        "WHEN",
+        "FROM-NOW-ON",
+        "NOT",
+        "READ+",
+        "NOT"
+      ],
+      "substitutions": 3,
+      "deletions": 0,
+      "insertions": 2,
+      "reference_tokens": 3
+    }
+  ],
+  "scope": "COLLECTION-DISJOINT DIAGNOSTIC, SIGNER UNVERIFIED; NOT PRODUCT ACCURACY",
+  "out_of_vocabulary_tokens": 4
+}

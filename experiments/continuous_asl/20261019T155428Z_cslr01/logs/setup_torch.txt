@@ -1,0 +1,19 @@
+Using Python 3.11.11 environment at: experiments\continuous_asl\20261019T155428Z_cslr01\runtime\venv
+Resolved 9 packages in 2.06s
+Downloading networkx (2.0MiB)
+Downloading sympy (6.0MiB)
+Downloading torch (3.2GiB)
+ Downloaded networkx
+ Downloaded sympy
+ Downloaded torch
+Prepared 9 packages in 3m 28s
+Installed 9 packages in 4.48s
+ + filelock==3.32.3
+ + fsspec==2026.7.0
+ + jinja2==3.1.6
+ + markupsafe==3.0.3
+ + mpmath==1.3.0
+ + networkx==3.6.1
+ + sympy==1.14.0
+ + torch==2.8.0+cu128
+ + typing-extensions==4.16.0

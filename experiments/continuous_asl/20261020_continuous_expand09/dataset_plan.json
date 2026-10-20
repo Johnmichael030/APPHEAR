@@ -1,0 +1,12 @@
+{
+  "fit_counts": {
+    "train": 906,
+    "dev": 9
+  },
+  "manifest_sha256": "efcb25826cab6d6ac5361ad80f12f65d722fdf483369d755c62f9791515cece6",
+  "reused_train": 455,
+  "new_timed_train": 451,
+  "reserved_test": 17,
+  "test_accessed": false,
+  "signer_independent": false
+}

@@ -1,0 +1,19 @@
+{
+  "status": "EARLY_STOP",
+  "epochs_completed": 14,
+  "training_used_gpu": true,
+  "device": "cuda:0",
+  "gpu_name": "NVIDIA GeForce RTX 3050 Laptop GPU",
+  "best_validation_score": [
+    0.88,
+    4.949556486947196
+  ],
+  "parameter_count": 76551,
+  "manifest_sha256": "d72ac6e4a9ce1fa1ce690c0654ecd97b0e92f7b7972973c5892dfc89bd35f6ab",
+  "config_sha256": "4ef9b33fb648eb5f06ab0d8c675a8fc9d36b81d9b77857bcbf27954ddc519309",
+  "training_script_sha256": "d434d2341348ab89558a82dfc9f952800e533246d4b6baf0294ee10fc013aa63",
+  "scope": "PRIVATE_RESEARCH_DIAGNOSTIC_ONLY",
+  "nonsign_and_boundary_heads": "NOT_TRAINED_NO_VALID_LABELS",
+  "mixed_precision": false,
+  "determinism": "fixed seeds; deterministic algorithms warn_only, CUDA CTC may remain nondeterministic"
+}

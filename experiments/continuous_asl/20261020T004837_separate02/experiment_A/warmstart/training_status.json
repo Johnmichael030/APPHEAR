@@ -1,0 +1,17 @@
+{
+  "status": "MAX_EPOCHS",
+  "completed_epochs": 5,
+  "used_cuda": true,
+  "best_score": [
+    0.665724989734123,
+    0.6709558823529411
+  ],
+  "seconds": 209.8943174999731,
+  "memory": {
+    "actual_pid": 34732,
+    "working_set_bytes": 2212765696,
+    "peak_working_set_bytes": 2221531136,
+    "private_commit_bytes": 2450522112,
+    "peak_pagefile_bytes": 2458714112
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "missing_signer_records": 988,
+  "missing_source_group_records": 0,
+  "multi_source_raw_or_pixel_aliases": [],
+  "source_key_multiple_urls": [],
+  "source_key_multiple_collections": [],
+  "unscoped_group_name_collisions": [],
+  "source_status_counts": {
+    "VERIFIED_PUBLISHER_PARENT_RECORDING": 1706,
+    "INDEX_MEDIA_ID; UNDERLYING_RECORDING_GRANULARITY_UNCERTAIN": 455,
+    "EXACT_EAF_FULL_SOURCE_MEDIA": 547
+  },
+  "repeated_views": "No identity inferred from camera filenames or faces. Exact hashes and parent source/collection groups checked; unresolved NCS parent/view links prohibit NCS crossed folds.",
+  "limits": "One raw hash reused for nonoverlapping utterances in the same full recording is expected, not a duplicate example. Exact hashes cannot detect every re-encoding or unpublished alternate view."
+}

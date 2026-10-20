@@ -1,0 +1,8 @@
+{
+  "reason": "Publisher master filenames are source IDs, not proof of independent capture lineage. Numbered Ben introduction-to-conclusion series may share a parent; no authoritative independence map is present.",
+  "guard": "Keep all masters with same known signer and date-shaped master prefix together; keep all undated masters for a signer together. This is conservative overgrouping, not a claim of acquisition dates or shared physical recording.",
+  "assignment": "Same source-ID SHA256 rule at family level; only signers with>=2families and family>=20utterances eligible.",
+  "rejected_shortcut": "Do not split adjacent/unknown-parent series merely because filenames differ. Preliminary filename folds retained as evidence, not fit-ready.",
+  "no_WER_used_for_assignment": true,
+  "training_authorized": false
+}

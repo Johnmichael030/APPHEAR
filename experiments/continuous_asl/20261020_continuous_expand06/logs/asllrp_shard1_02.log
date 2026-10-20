@@ -1,0 +1,18 @@
+D:\apphearv3claude\AppHear-claude-s2-r3-eval-suite\AppHear-claude-s2-r3-eval-suite\experiments\continuous_asl\20261019T155428Z_cslr01\runtime\venv\Lib\site-packages\tensorflow\lite\python\interpreter.py:457: UserWarning:     Warning: tf.lite.Interpreter is deprecated and is scheduled for deletion in
+    TF 2.20. Please use the LiteRT interpreter from the ai_edge_litert package.
+    See the [migration guide](https://ai.google.dev/edge/litert/migration)
+    for details.
+    
+  warnings.warn(_INTERPRETER_DELETION_WARNING)
+INFO: Created TensorFlow Lite XNNPACK delegate for CPU.
+{"shard": 1, "valid": 25, "failed": 0, "last_sample": "asllrp3_6c3722327cc9b064"}
+{"shard": 1, "valid": 50, "failed": 0, "last_sample": "asllrp3_6395fbb4459bc1d4"}
+{"shard": 1, "valid": 75, "failed": 0, "last_sample": "asllrp3_e552937dea2d51f9"}
+{"shard": 1, "valid": 100, "failed": 0, "last_sample": "asllrp3_494f2a5f6d3a10a9"}
+{"shard": 1, "valid": 125, "failed": 0, "last_sample": "asllrp3_c212477a6afe2724"}
+{"shard": 1, "valid": 150, "failed": 0, "last_sample": "asllrp3_b3ce095104fec4ce"}
+{"shard": 1, "valid": 175, "failed": 0, "last_sample": "asllrp3_d0eb53aa605aa87c"}
+{"shard": 1, "valid": 200, "failed": 0, "last_sample": "asllrp3_6e2cc2ae4a0e0525"}
+{"shard": 1, "valid": 225, "failed": 0, "last_sample": "asllrp3_1ebb2ed9cd94dc24"}
+{"shard": 1, "valid": 250, "failed": 0, "last_sample": "asllrp3_87f15c369f4192ea"}
+{"shard": 1, "valid": 275, "failed": 0, "last_sample": "asllrp3_2a8b9d69eedfae20"}

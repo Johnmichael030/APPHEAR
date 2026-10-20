@@ -1,0 +1,353 @@
+{
+  "schema": "apphear.continuous_asl.artifacts.v1",
+  "created_utc": "2026-10-20T04:59:03.848672+00:00",
+  "files": [
+    {
+      "path": "diagnostic_protocol.v2.json",
+      "bytes": 1220,
+      "sha256": "c4869942bf8b908b55302b70ec4129bfa14da5b460c2bd1d40d90b494bb166f8"
+    },
+    {
+      "path": "diagnostic_summary.final.json",
+      "bytes": 15691,
+      "sha256": "f13f26f592bf5c386bf83dc628aa75d2c7b710cdbdf5b669ef84a7c3319a42ce"
+    },
+    {
+      "path": "logs/overfit_20261020T115022_814.log",
+      "bytes": 4134,
+      "sha256": "43ac79a663aa81492bdfe4e60f65aedc764569efcbf35505aa4edc35ade0a82f"
+    },
+    {
+      "path": "logs/overfit_gpu_20261020T115022_814.csv",
+      "bytes": 7221,
+      "sha256": "4d23b5ecb1ab9ba398e32c271c4db45a04fea75969d23a4828fb25c25eb2b862"
+    },
+    {
+      "path": "logs/overfit_gpu_20261020T115022_814.stderr.log",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "logs/overfit_v2_20261020T115512_727.log",
+      "bytes": 4240,
+      "sha256": "46608b21cc9a76db5fcbe05a8d4a51018a3b467ddb952709ef91a6d7c9db164a"
+    },
+    {
+      "path": "logs/overfit_v2_gpu_20261020T115512_727.csv",
+      "bytes": 8938,
+      "sha256": "03a37921c0a7194f088237cfb2d8e5ae2af44af08e969830a8d4f816b9deec32"
+    },
+    {
+      "path": "logs/overfit_v2_gpu_20261020T115512_727.stderr.log",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "logs/overfit_v2_wall_20261020T115512_727.json",
+      "bytes": 257,
+      "sha256": "901b0a1a5e773fa6e48463e610daf611dc49eba6bf63def961b9ffdfca9c6c14"
+    },
+    {
+      "path": "logs/overfit_wall_20261020T115022_814.json",
+      "bytes": 254,
+      "sha256": "b84178e7c13b6657857ed119f1b4bd2087f03dac6424fd91c4ac878aa8f94954"
+    },
+    {
+      "path": "overfit_diagnostic/config.json",
+      "bytes": 2276,
+      "sha256": "7c1240e104a618b33536a9a56d8fcd4699bce077902abdb5cfe7be477921cde7"
+    },
+    {
+      "path": "overfit_diagnostic/epoch_log.csv",
+      "bytes": 5516,
+      "sha256": "0b7cacc1a52413d97cf0857a5be236644368c29ec2ce051d043458d3b34eb8e5"
+    },
+    {
+      "path": "overfit_diagnostic/initial_train.json",
+      "bytes": 7559,
+      "sha256": "fc4bed873640997454623fbe30dc5970934ccd763be5afdb66e86e5594916ca9"
+    },
+    {
+      "path": "overfit_diagnostic/manifest.json",
+      "bytes": 40194,
+      "sha256": "25134fb3af5d58dd3845716b80a6c1f3d8aaff4da8bc50f3eef94fe09741c86d"
+    },
+    {
+      "path": "overfit_diagnostic/models/epoch_001.pt",
+      "bytes": 990987,
+      "sha256": "e54911a81342eb4ac5679907cb13662663f851d6d0ccdfe454017eeac69bd438"
+    },
+    {
+      "path": "overfit_diagnostic/models/epoch_005.pt",
+      "bytes": 989963,
+      "sha256": "6fee0bf7a519064f27e692690d8acefc01a8deafe36bca9eabf9256e6b7bc9ba"
+    },
+    {
+      "path": "overfit_diagnostic/models/epoch_010.pt",
+      "bytes": 989963,
+      "sha256": "43b481847d1e1980a1e67dc4efce2b7c4b1bf29799e7a0fdc25dde1cb2351abc"
+    },
+    {
+      "path": "overfit_diagnostic/models/epoch_015.pt",
+      "bytes": 989963,
+      "sha256": "0659016b5b0249ee72c2102a35caa8ee0c9e3202b4b5fdabae768b97336e8955"
+    },
+    {
+      "path": "overfit_diagnostic/models/epoch_020.pt",
+      "bytes": 990027,
+      "sha256": "16d9c0b9b85736ff56c8c2d20dd234cdb872d27fea8707385e419e8397740b85"
+    },
+    {
+      "path": "overfit_diagnostic/models/epoch_025.pt",
+      "bytes": 990027,
+      "sha256": "df24f3ec491220f40435fc082e22b1e2c2b0ff6459002a36bd5872e36e7a1cd9"
+    },
+    {
+      "path": "overfit_diagnostic/models/epoch_030.pt",
+      "bytes": 990091,
+      "sha256": "a8c4cec96c6f3a81ececb7cabf5eef39b70ac38be3f8d0c07527fae118da259e"
+    },
+    {
+      "path": "overfit_diagnostic/models/epoch_035.pt",
+      "bytes": 990091,
+      "sha256": "d126af5bafce123a49ac9f1f1d2b04c64479cce7c2253666479a0aef8cef4966"
+    },
+    {
+      "path": "overfit_diagnostic/models/epoch_040.pt",
+      "bytes": 990155,
+      "sha256": "19bd3463896b101073543984d9d654da7465b6e00861c87de4441fd9b3a6ea49"
+    },
+    {
+      "path": "overfit_diagnostic/models/epoch_045.pt",
+      "bytes": 990155,
+      "sha256": "ab471ffc50d7b03bd93c2a09de73d7c14589d721adf4de56220e0ec85fde7e4c"
+    },
+    {
+      "path": "overfit_diagnostic/models/epoch_050.pt",
+      "bytes": 990219,
+      "sha256": "0184e53f21038e357e2ae8e7d31b807fc289801e5ae7b72c7f3ac7bb8cb57fd6"
+    },
+    {
+      "path": "overfit_diagnostic/models/epoch_055.pt",
+      "bytes": 990219,
+      "sha256": "490730a76de58b695e3413426931e8da852a4e5788a2575b5325179fd8b5ac59"
+    },
+    {
+      "path": "overfit_diagnostic/models/epoch_060.pt",
+      "bytes": 990283,
+      "sha256": "ff7c69673e819c307aec0a529d29bf82bcddec68abce7c1fb573c32f2681bfbf"
+    },
+    {
+      "path": "overfit_diagnostic/models/epoch_065.pt",
+      "bytes": 990347,
+      "sha256": "eb56deb20950caa4460b870d83df8d6855d84e67d36a41eb9fb38116fed0ec15"
+    },
+    {
+      "path": "overfit_diagnostic/models/epoch_070.pt",
+      "bytes": 990347,
+      "sha256": "59810ce59bf34df2fdb11f57d85da4d7b97fcb8fbe765c06755109f7102f4a02"
+    },
+    {
+      "path": "overfit_diagnostic/models/latest.json",
+      "bytes": 115,
+      "sha256": "dba3fe8f4103938b207c9769c3c934c24c81ebf8a8d827ec57910e0f2ae3152e"
+    },
+    {
+      "path": "overfit_diagnostic/result.json",
+      "bytes": 14927,
+      "sha256": "0f4eb9444b1f15e097653309e67254184e1902b7b3bb002ee482f826762dc634"
+    },
+    {
+      "path": "overfit_diagnostic/selection_provenance.json",
+      "bytes": 502,
+      "sha256": "1dbcc23c6643473ba76763532d3ef6346c5baec4011ca8c49af4e991d855fe42"
+    },
+    {
+      "path": "overfit_diagnostic_v2/config.json",
+      "bytes": 2240,
+      "sha256": "4ee46f06d5c5e5bd5ebd59a074b309eb0bbc1f7ae42ee19b93fb7b041e05baeb"
+    },
+    {
+      "path": "overfit_diagnostic_v2/epoch_log.csv",
+      "bytes": 5876,
+      "sha256": "d20e1747f2954775d5bd5c2691a8b829e85dc6a552780c8ef28e29d6b84c3a55"
+    },
+    {
+      "path": "overfit_diagnostic_v2/initial_train.json",
+      "bytes": 6385,
+      "sha256": "07c7695798c4c18d2386ddc7560e6ed0cfe42727d4d6b2f26e282e29fa392195"
+    },
+    {
+      "path": "overfit_diagnostic_v2/manifest.json",
+      "bytes": 39884,
+      "sha256": "56510ec4ad4e2d571e30663ef04274665a8b8619bea6f7bb2099716e1648db78"
+    },
+    {
+      "path": "overfit_diagnostic_v2/models/epoch_001.pt",
+      "bytes": 989451,
+      "sha256": "e99282e755a85b8866264731dc895281093cc0731a53b7b700028a4f9ca95fd7"
+    },
+    {
+      "path": "overfit_diagnostic_v2/models/epoch_005.pt",
+      "bytes": 988619,
+      "sha256": "c66f8c774214ee89182d13f4f05654414de822fa68e2378c80ca60dfe000b44f"
+    },
+    {
+      "path": "overfit_diagnostic_v2/models/epoch_010.pt",
+      "bytes": 988619,
+      "sha256": "137b565b0dd3f7d8cdf167db3b7ca46db7d767aebbc3503430698c1889296d0a"
+    },
+    {
+      "path": "overfit_diagnostic_v2/models/epoch_015.pt",
+      "bytes": 988683,
+      "sha256": "95af63c9d8e2b28b0a7bd5dae848c7fa4ef0dde4f0238bce8ad3f6f17a6cc438"
+    },
+    {
+      "path": "overfit_diagnostic_v2/models/epoch_020.pt",
+      "bytes": 988683,
+      "sha256": "e36bcf2088424c68cb97e680ac2bd36ccbe865a771fbe2e87c04f5e8d3a2b693"
+    },
+    {
+      "path": "overfit_diagnostic_v2/models/epoch_025.pt",
+      "bytes": 988683,
+      "sha256": "9fca67b6c4f80482e8dd495b451799efd3e88aabdf6d7d4bca0a6ac1d9c56c54"
+    },
+    {
+      "path": "overfit_diagnostic_v2/models/epoch_030.pt",
+      "bytes": 988683,
+      "sha256": "64b3ff937ce0ed17775bca60b8c14ec38fcec8df7df78c8cfe8e69aea81830a6"
+    },
+    {
+      "path": "overfit_diagnostic_v2/models/epoch_035.pt",
+      "bytes": 988683,
+      "sha256": "207ce379f62c4a96accca45bed5c9088c699529ab6917ed789ef2ca87543221c"
+    },
+    {
+      "path": "overfit_diagnostic_v2/models/epoch_040.pt",
+      "bytes": 988747,
+      "sha256": "b8b5aeb29f4e5941d472f600328d4f0b76e26389d94791856126412d35c18ef4"
+    },
+    {
+      "path": "overfit_diagnostic_v2/models/epoch_045.pt",
+      "bytes": 988747,
+      "sha256": "19c2a2b95a3396cc2bbd168b003299e1a942e6296a6f87b5651636bd61967dea"
+    },
+    {
+      "path": "overfit_diagnostic_v2/models/epoch_050.pt",
+      "bytes": 988811,
+      "sha256": "adc06dd84c78a7469ef4608a1d3f8b8d1d49883dd0c3f43e991ff3d5096e7c50"
+    },
+    {
+      "path": "overfit_diagnostic_v2/models/epoch_055.pt",
+      "bytes": 988811,
+      "sha256": "e4920c04eb427398fd6d92ce329bde3235f8d5081e09a41d34013f3dd6d114f6"
+    },
+    {
+      "path": "overfit_diagnostic_v2/models/epoch_060.pt",
+      "bytes": 988875,
+      "sha256": "c48181d50c451d49e49c6418835756ac6f0fbb66088b64f85dfa7aed7d79ea22"
+    },
+    {
+      "path": "overfit_diagnostic_v2/models/epoch_065.pt",
+      "bytes": 988939,
+      "sha256": "e7b454aaf8e85521d1d3cf2d89f23fb0dc2ad177905a3485dd14e05344433192"
+    },
+    {
+      "path": "overfit_diagnostic_v2/models/epoch_070.pt",
+      "bytes": 988939,
+      "sha256": "dc2b3f8cc815225b268476ea82262d02b2258bb122e84e502d89e87327ddf28f"
+    },
+    {
+      "path": "overfit_diagnostic_v2/models/epoch_075.pt",
+      "bytes": 988939,
+      "sha256": "5b310fea2db332f0920ae75c22b93f80c37bf59e7ef58f5497443a184b9f1199"
+    },
+    {
+      "path": "overfit_diagnostic_v2/models/latest.json",
+      "bytes": 115,
+      "sha256": "69cfe77a6cdaf88148a6efd785aa82e1da0c38b05c16c7e95f08d68a0192701d"
+    },
+    {
+      "path": "overfit_diagnostic_v2/result.json",
+      "bytes": 13620,
+      "sha256": "eeea86df29cddcb38506d00d4188f2c22c36799a80d66d5dd403bc53ca2eeb03"
+    },
+    {
+      "path": "overfit_diagnostic_v2/selection_provenance.json",
+      "bytes": 539,
+      "sha256": "211a5b7dcc1626ecb0659e9f3ddc0847eb721ec755187b9231b5bdadb9edbc91"
+    },
+    {
+      "path": "overfit_gate_adjudication.v2.json",
+      "bytes": 787,
+      "sha256": "653a33a81a070c987d2ad8cc166629743d8969c8524f19d788b3b6b7ecd2e627"
+    },
+    {
+      "path": "research_protocol.md",
+      "bytes": 2100,
+      "sha256": "e92a9df7b49e71fd7b393f826b3f9496faea9de84d8f0bdaa427c9246e946811"
+    },
+    {
+      "path": "Run-Bounded.ps1",
+      "bytes": 2355,
+      "sha256": "8bdd6c8197158bcd3c35d76300d3b9efe86ff3057e84a81e59f6320ec846ead7"
+    },
+    {
+      "path": "Run-Overfit.ps1",
+      "bytes": 1422,
+      "sha256": "7c3ab7a2b7696030e8b709f14008400dd3eb74920bc84951213dc10e67165664"
+    },
+    {
+      "path": "Run-OverfitV2.ps1",
+      "bytes": 1496,
+      "sha256": "0676cd6b8ff77f691d70a19d941e372a85cf1fe778ab79b359982e9143e81c9f"
+    },
+    {
+      "path": "tools/build_overfit_v2.py",
+      "bytes": 2484,
+      "sha256": "1bef568aab035c07fc87dcf445acff05633b3a477ac68c1077b17a6e63507774"
+    },
+    {
+      "path": "tools/core.py",
+      "bytes": 1208,
+      "sha256": "ef7330dbf13228042cf11f7b7d9e3fa310025b671dc144769e22106b46989efc"
+    },
+    {
+      "path": "tools/freeze_compare_warm.py",
+      "bytes": 4699,
+      "sha256": "99cfffff2e54af8f84ca0f236a30466ee0532a32b315ee09f4e434f5b0fac8e5"
+    },
+    {
+      "path": "tools/initialize.py",
+      "bytes": 8167,
+      "sha256": "904552b1122e33276c683878e271a928668e811ed3734b69a156be401835acd9"
+    },
+    {
+      "path": "tools/overfit.py",
+      "bytes": 10225,
+      "sha256": "0ebe43888194f0e574b3d7f44c271faf2a7c5e67d7aeb94f83911909dd4f24a3"
+    },
+    {
+      "path": "tools/overfit_v2.py",
+      "bytes": 10872,
+      "sha256": "07816f8bbfaea2c434651ae6710a930c905fb770e500327e7c04bc3411d38d20"
+    },
+    {
+      "path": "tools/test_warm_contract.py",
+      "bytes": 1669,
+      "sha256": "3ced1ce91afd8ed390c998556d6e1a43d44853ed085b68f21fae42400b01ce6e"
+    },
+    {
+      "path": "tools/warm_start.py",
+      "bytes": 2919,
+      "sha256": "32e8abc0242e2bfce17d0b25f9292157ec21fd7088c8fb9d7c30e5cdfed069f1"
+    }
+  ],
+  "excludes": [
+    "self",
+    "cache/**",
+    "**/__pycache__/**",
+    "**/.pytest_cache/**"
+  ],
+  "production_enabled": false
+}

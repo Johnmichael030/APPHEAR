@@ -1,0 +1,14 @@
+test_budget_rejected_before_extract (__main__.ArchiveSafetyTests.test_budget_rejected_before_extract) ... ok
+test_case_insensitive_duplicates_are_rejected (__main__.ArchiveSafetyTests.test_case_insensitive_duplicates_are_rejected) ... ok
+test_output_must_stay_inside_root (__main__.ArchiveSafetyTests.test_output_must_stay_inside_root) ... ok
+test_parent_traversal_is_rejected (__main__.ArchiveSafetyTests.test_parent_traversal_is_rejected) ... ok
+test_source_output_nested_or_identical_rejected (__main__.ArchiveSafetyTests.test_source_output_nested_or_identical_rejected) ... ok
+test_tar_hardlink_rejected (__main__.ArchiveSafetyTests.test_tar_hardlink_rejected) ... ok
+test_valid_zip_checks_and_extracts_without_deleting_source (__main__.ArchiveSafetyTests.test_valid_zip_checks_and_extracts_without_deleting_source) ... ok
+test_windows_absolute_ads_and_device_paths_are_rejected (__main__.ArchiveSafetyTests.test_windows_absolute_ads_and_device_paths_are_rejected) ... ok
+test_zip_symlink_rejected (__main__.ArchiveSafetyTests.test_zip_symlink_rejected) ... ok
+
+----------------------------------------------------------------------
+Ran 9 tests in 0.039s
+
+OK

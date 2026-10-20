@@ -1,0 +1,1 @@
+{"status": "PASS_RESEARCH_DEV_PROTOCOL", "fit_counts": {"train": 1706, "dev": 413}, "train_labels": 2517, "dev_reference_tokens": 3236, "dev_oov_tokens": 357, "manifest_sha256": "04fb7c6c26bc934d6618902ceeaa2ee69e19d0c12e5bfe922e5743c8518c0ebe"}

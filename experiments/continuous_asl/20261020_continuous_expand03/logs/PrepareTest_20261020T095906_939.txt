@@ -1,0 +1,22 @@
+D:\apphearv3claude\AppHear-claude-s2-r3-eval-suite\AppHear-claude-s2-r3-eval-suite\experiments\continuous_asl\20261019T155428Z_cslr01\runtime\venv\Lib\site-packages\tensorflow\lite\python\interpreter.py:457: UserWarning:     Warning: tf.lite.Interpreter is deprecated and is scheduled for deletion in
+    TF 2.20. Please use the LiteRT interpreter from the ai_edge_litert package.
+    See the [migration guide](https://ai.google.dev/edge/litert/migration)
+    for details.
+    
+  warnings.warn(_INTERPRETER_DELETION_WARNING)
+INFO: Created TensorFlow Lite XNNPACK delegate for CPU.
+{"sample_id": "ncslgr_cf8616785179b9b0", "split": "test", "observations": 34, "reused": false}
+{"sample_id": "ncslgr_9c83cfa6598e2ded", "split": "test", "observations": 48, "reused": false}
+{"sample_id": "ncslgr_5ddda1732430d5ba", "split": "test", "observations": 43, "reused": false}
+{"sample_id": "ncslgr_88b2a99eef6a9e50", "split": "test", "observations": 60, "reused": false}
+{"sample_id": "ncslgr_e069cfc6e7c70c62", "split": "test", "observations": 47, "reused": false}
+{"sample_id": "ncslgr_bc5969d393f73639", "split": "test", "observations": 51, "reused": false}
+{"sample_id": "ncslgr_513c3cc024cc660b", "split": "test", "observations": 48, "reused": false}
+{"sample_id": "ncslgr_3b52bd5c591bc2cf", "split": "test", "observations": 44, "reused": false}
+{"sample_id": "ncslgr_c2d2eb8e18cbc071", "split": "test", "observations": 32, "reused": false}
+{"sample_id": "ncslgr_6822d6b4dbb0b004", "split": "test", "observations": 34, "reused": false}
+{"sample_id": "ncslgr_017f157660e1ccf5", "split": "test", "observations": 34, "reused": false}
+{"sample_id": "ncslgr_69a923d1dc519f2c", "split": "test", "observations": 31, "reused": false}
+{"sample_id": "ncslgr_3e17c8dfe3510896", "split": "test", "observations": 50, "reused": false}
+{"sample_id": "ncslgr_ce7ffa412fd10ae5", "split": "test", "observations": 45, "reused": false}
+{"status": "PASS", "requested": 14, "processed": 14, "elapsed_seconds": 56.197298799990676, "extraction_ms_p50": 54.92570000933483, "extraction_ms_p95": 65.95289998222142, "failures": []}

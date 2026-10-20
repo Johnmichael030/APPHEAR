@@ -1,0 +1,24 @@
+[
+  {
+    "model": "smoke",
+    "seconds": 16.5517439,
+    "exit_code": 0,
+    "arguments": [
+      "-B",
+      "D:\\apphearv3claude\\AppHear-claude-s2-r3-eval-suite\\AppHear-claude-s2-r3-eval-suite\\experiments\\continuous_asl\\20261020_continuous_expand08\\tools\\train_main.py",
+      "--name",
+      "smoke"
+    ]
+  },
+  {
+    "model": "reference48",
+    "seconds": 163.0819997,
+    "exit_code": 0,
+    "arguments": [
+      "-B",
+      "D:\\apphearv3claude\\AppHear-claude-s2-r3-eval-suite\\AppHear-claude-s2-r3-eval-suite\\experiments\\continuous_asl\\20261020_continuous_expand08\\tools\\train_main.py",
+      "--name",
+      "reference48"
+    ]
+  }
+]

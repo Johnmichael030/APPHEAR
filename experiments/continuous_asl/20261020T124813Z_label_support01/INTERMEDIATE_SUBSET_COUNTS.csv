@@ -1,0 +1,5 @@
+﻿candidate,threshold_in_parent_TRAIN,parent_labels_allowed,retained_TRAIN_utterances,actual_TRAIN_vocabulary_labels,retained_tokens,excluded_TRAIN_utterances,original_DEV_tokens_covered_pct,compatible_DEV_utterances,original_DEV_whole_utterance_coverage_pct,retained_support_min,retained_labels_below_parent_threshold,TRAIN_sources,compatible_DEV_sources,recursive_final_TRAIN,status
+ASLLRP3_support5,5,547,497,423,2665,1209,72.96044499381954,92,22.276029055690074,1,279,37,8,0,AUDITED_NOT_PROMOTED
+ASLLRP3_support10,10,266,199,175,971,1507,57.354758961681085,31,7.506053268765133,1,145,30,7,0,AUDITED_NOT_PROMOTED
+NCSLGR2_support5,5,180,398,145,2040,604,89.47368421052632,5,55.55555555555556,1,69,388,5,258,AUDITED_NOT_PROMOTED
+NCSLGR2_support10,10,90,263,73,1325,739,78.94736842105263,3,33.333333333333336,1,30,262,3,0,AUDITED_NOT_PROMOTED

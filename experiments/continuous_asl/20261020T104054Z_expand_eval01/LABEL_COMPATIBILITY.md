@@ -1,0 +1,16 @@
+# Label and temporal compatibility
+
+| Pool | Status | Labels | Features / timing | Split limitations |
+|---|---|---|---|---|
+| NCSLGR2 literal main gloss | PASS for its existing utterance-recognition tasks; PARTIAL for universal boundary evaluation | Authentic publisher main gloss sequences; no English-to-gloss conversion | 378-dimensional causal schema. Legacy original records retain uncalibrated timing limitations; newer EAF/ms records use exact source bounds, 10 Hz native observations and reset causal deltas | 1,002 eligible; no independently verified cross-corpus signer identity map |
+| ASLLRP3 literal dominant realized occurrence | PASS for scoped same-pool research WER | Literal occurrence labels, including hand, spatial, classifier, repetition and fingerspelling distinctions | Same 378-dimensional causal feature schema; exact publisher/native frame alignment from existing verified clips | 2,119 eligible; publisher participant metadata joined for all; new 1,706/413 signer/source-disjoint partition |
+| RIT November 2025 CSV | BLOCKED for training admission | Authentic publisher event annotations; two invalid utterance-level cases and two overlapping cases excluded | 278 media joins and CRC-valid archive; 60 fps and two extra decoded frames per clip. No guessed origin, trimming, resampling or label edits | P02/P03 and four collections available; temporal adapter must be established before any fit |
+| How2Sign existing package | BLOCKED for gloss recognition | English translations are not authentic ASL gloss labels | Prior acquisition evidence reused; no new acquisition | No gloss labels invented; not merged |
+
+Sharing a feature dimension does not make NCSLGR main-gloss and ASLLRP realized-occurrence target ontologies interchangeable. A vocabulary union would preserve spelling but would not resolve annotation semantics or legacy boundary uncertainty. They remain separate pools; current fit uses ASLLRP3 only. No alias mapping was guessed.
+
+New NCSLGR recovery used the unique basename in the authentic EAF MEDIA_DESCRIPTOR to select the matching member of each already published semicolon-separated URL field. HTTP was upgraded to HTTPS on the same official host. Original annotations, times and existing feature adapter were unchanged. Both newly found overlapping intervals were rejected. The previous entire-source overlap exclusion, six ASLLRP overlap exclusions and 100-vs-99 frame-count rejection remain excluded.
+
+The RIT blocker needs publisher confirmation of master frame units, exact encoded clip origin and distribution of the two extra frames. Archive availability alone is insufficient. No data has been silently repaired to meet the count target.
+
+Public research provenance and applicable noncommercial restrictions are retained in source receipts and the saved documents: https://www.bu.edu/asllrp/ASL-SignBank-and-other-Resources.html , https://dai.cs.rutgers.edu/asllvd/signbank/ , https://www.bu.edu/asllrp/dai-terms.html , https://www.bu.edu/asllrp/signbank-terms.pdf and https://www.bu.edu/asllrp/about-datasets.pdf . Public publisher participant queries establish signer IDs; no facial identity inference or account/login bypass was used. No participant recording, upload or redistribution was performed.

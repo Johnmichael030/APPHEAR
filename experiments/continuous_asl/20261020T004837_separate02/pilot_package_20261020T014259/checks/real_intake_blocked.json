@@ -1,0 +1,8 @@
+{
+  "status": "BLOCKED_OR_REJECTED",
+  "reason": "PERMISSION_NOT_ESTABLISHED",
+  "synthetic": false,
+  "training_allowed": false,
+  "model_evaluation_evidence": false,
+  "real_first_signer_validated": false
+}

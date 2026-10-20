@@ -1,0 +1,10 @@
+...F..                                                                   [100%]
+================================== FAILURES ===================================
+______________________ test_actual_receptive_field_is121 ______________________
+experiments\continuous_asl\20261020_continuous_expand03\tools\test_expansion.py:34: in test_actual_receptive_field_is121
+    assert 1+sum(2*block.pad for block in model.blocks)==121
+E   assert (1 + 60) == 121
+E    +  where 60 = sum(<generator object test_actual_receptive_field_is121.<locals>.<genexpr> at 0x000001EA29D39150>)
+- generated xml file: D:\apphearv3claude\AppHear-claude-s2-r3-eval-suite\AppHear-claude-s2-r3-eval-suite\experiments\continuous_asl\20261020_continuous_expand03\logs\focused_tests.xml -
+=========================== short test summary info ===========================
+FAILED experiments/continuous_asl/20261020_continuous_expand03/tools/test_expansion.py::test_actual_receptive_field_is121

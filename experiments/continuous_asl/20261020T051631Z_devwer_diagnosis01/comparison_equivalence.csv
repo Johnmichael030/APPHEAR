@@ -1,0 +1,19 @@
+﻿status,run,dimension,evidence
+PASS,baseline,DEV_ID_reference_feature_order,"Exactly identical original nine IDs, literal labels and feature SHA256s."
+PARTIAL,baseline,split_policy,Collection-disjoint custom research split; no verified signer-independent split.
+PASS,baseline,decoder_and_metric,Same imported greedyCTC blank0 decoder and literal-token micro WER; checkpoint predictions independently reproduced.
+PARTIAL,baseline,vocabulary,"TRAIN-fitted 117 tokens; literal label identities are compared, numeric IDs are model-specific; OOV=9/57."
+PARTIAL,baseline,normalization,"Same formula, each different TRAIN pool has different fitted buffers; exact recomputation passes."
+PARTIAL,baseline,training_data_and_budget,"100 TRAIN, 14 epochs, selected4; data/budget differ, so this is not an architecture-only controlled comparison."
+PASS,pilot906,DEV_ID_reference_feature_order,"Exactly identical original nine IDs, literal labels and feature SHA256s."
+PARTIAL,pilot906,split_policy,Collection-disjoint custom research split; no verified signer-independent split.
+PASS,pilot906,decoder_and_metric,Same imported greedyCTC blank0 decoder and literal-token micro WER; checkpoint predictions independently reproduced.
+PARTIAL,pilot906,vocabulary,"TRAIN-fitted 922 tokens; literal label identities are compared, numeric IDs are model-specific; OOV=1/57."
+PARTIAL,pilot906,normalization,"Same formula, each different TRAIN pool has different fitted buffers; exact recomputation passes."
+PARTIAL,pilot906,training_data_and_budget,"906 TRAIN, 20 epochs, selected13; data/budget differ, so this is not an architecture-only controlled comparison."
+PASS,main2119,DEV_ID_reference_feature_order,"Exactly identical original nine IDs, literal labels and feature SHA256s."
+PARTIAL,main2119,split_policy,Collection-disjoint custom research split; no verified signer-independent split.
+PASS,main2119,decoder_and_metric,Same imported greedyCTC blank0 decoder and literal-token micro WER; checkpoint predictions independently reproduced.
+PARTIAL,main2119,vocabulary,"TRAIN-fitted 2741 tokens; literal label identities are compared, numeric IDs are model-specific; OOV=6/57."
+PARTIAL,main2119,normalization,"Same formula, each different TRAIN pool has different fitted buffers; exact recomputation passes."
+PARTIAL,main2119,training_data_and_budget,"2119 TRAIN, 17 epochs, selected2; data/budget differ, so this is not an architecture-only controlled comparison."

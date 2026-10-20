@@ -1,0 +1,71 @@
+{
+  "active_goal": {
+    "active_data_target": 2000,
+    "verified_eligible": 3121,
+    "active_target_shortfall": 0,
+    "target_met": true,
+    "historical_stretch_target": 5000,
+    "stretch_target_active": false,
+    "user_instruction": "2,000 is enough for now as goal",
+    "acquisition_action": "STOP_FURTHER_EXPANSION; preserve all completed acquisition/processing artifacts",
+    "recognition_status": "PARTIAL; fresh pilot stopped by its predeclared learning gate"
+  },
+  "eligible_by_label_pool": {
+    "NCSLGR2_LITERAL_MAIN_GLOSS": 1002,
+    "ASLLRP3_LITERAL_DOMINANT_REALIZED_OCCURRENCE": 2119
+  },
+  "training": {
+    "status": "TRAIN_BLANK_OR_NO_LEARNABILITY_GATE",
+    "used_cuda": true,
+    "gpu": "NVIDIA GeForce RTX 3050 Laptop GPU",
+    "completed_epochs": 5,
+    "best_checkpoint": {
+      "path": "checkpoints\\epoch_004.pt",
+      "sha256": "3d66372e84f94bc42b0bdaa61702013601d3b7b1ac160f76a1e5a9bf147c25de",
+      "epoch": 4
+    },
+    "checkpoint_reload_predictions_match": true,
+    "train": 1706,
+    "dev": 413,
+    "unique_train_consumed": 1706,
+    "utterance_presentations": 8530,
+    "best_train_wer": 0.9760146303720898,
+    "best_dev_wer": 0.9799134734239803,
+    "best_dev_prediction_tokens": 283,
+    "best_dev_blank_fraction": 0.9839557087170216,
+    "epoch_loop_seconds": 58.49982250004541,
+    "fit_reload_full_train_diagnostics_seconds": 80.8409968999913,
+    "peak_allocated_vram_bytes": 1303643648,
+    "peak_reserved_vram_bytes": 1361051648,
+    "manifest_sha256": "04fb7c6c26bc934d6618902ceeaa2ee69e19d0c12e5bfe922e5743c8518c0ebe",
+    "script_sha256": "2da43ed0fca5542cf3e4259aac97718d70e0e2854a13ebdb9e382cd78f030d62",
+    "normalization_fit": "NewTRAIN only",
+    "vocab_fit": "NewTRAIN only",
+    "random_initialization": true,
+    "old_recognition_weights_read": false,
+    "test_accessed": false,
+    "production_promoted": false,
+    "comparison": "Newsame-pool signer-disjoint DEV; no numerical comparison to frozen old9DEV85.96%."
+  },
+  "selected_dev_errors": {
+    "loss": 6.801272752498599,
+    "substitutions": 218,
+    "deletions": 2953,
+    "insertions": 0,
+    "reference_tokens": 3236,
+    "empty_hypotheses": 131
+  },
+  "hypothesis_token_counts": {
+    "IX-1p": 280,
+    "CAR": 1,
+    "ns-fs-JOHN": 2
+  },
+  "acquisition_bytes_this_phase": 503666520,
+  "acquisition_bytes_total_including_recorded_prior": 4556263744,
+  "cap_bytes": 107374182400,
+  "free_disk_bytes_at_close": 166384971776,
+  "sampled_device_peak_MiB": 1447,
+  "sampled_device_limitations": "200ms nvidia-smi samples; whole device usage, not a continuous peak; unknown utilization values retained in original CSV.",
+  "readiness": "DATA_GOAL_PASS_RECOGNITION_PARTIAL_NO_PROMOTION",
+  "further_acquisition_authorized_by_this_script": false
+}

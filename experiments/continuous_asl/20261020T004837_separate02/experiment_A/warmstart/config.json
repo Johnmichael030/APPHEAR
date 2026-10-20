@@ -1,0 +1,16 @@
+{
+  "seed": 20261020,
+  "max_epochs": 5,
+  "batch": 4,
+  "accumulation": 8,
+  "learning_rate": 0.0001,
+  "loss": "NLL of mean real-frame probability, matching clip decision",
+  "architecture": "exact legacy Keras port, parity-gated",
+  "source_model_sha256": "6fa2875ee665e78a53e356b0acc2b48a2423cda8c61fac5bed8ffb36ccdfa186",
+  "train_rows": 13236,
+  "val_rows": 3264,
+  "hypothesis": "aggregation-aligned clip objective may improve the frozen per-frame-supervised model",
+  "augmentation": "none",
+  "production_enabled": false,
+  "wall_budget_seconds": 600
+}

@@ -1,0 +1,22 @@
+{
+  "gpu_sampler_pid": 32312,
+  "gpu_log": "D:\\apphearv3claude\\AppHear-claude-s2-r3-eval-suite\\AppHear-claude-s2-r3-eval-suite\\experiments\\continuous_asl\\20261020_continuous_expand05\\logs\\gpu_samples_20261020T111007_739.csv",
+  "interval_ms": 200,
+  "commands": [
+    {
+      "command": "& 'D:\\apphearv3claude\\AppHear-claude-s2-r3-eval-suite\\AppHear-claude-s2-r3-eval-suite\\experiments\\continuous_asl\\20261020_continuous_expand05/Invoke-Research.ps1' -Phase Smoke",
+      "measured_command_wall_seconds": 13.1547976,
+      "status": "EXIT_ZERO"
+    },
+    {
+      "command": "& 'D:\\apphearv3claude\\AppHear-claude-s2-r3-eval-suite\\AppHear-claude-s2-r3-eval-suite\\experiments\\continuous_asl\\20261020_continuous_expand05/Invoke-Research.ps1' -Phase Reference",
+      "measured_command_wall_seconds": 50.4994068,
+      "status": "EXIT_ZERO"
+    },
+    {
+      "command": "& 'D:\\apphearv3claude\\AppHear-claude-s2-r3-eval-suite\\AppHear-claude-s2-r3-eval-suite\\experiments\\continuous_asl\\20261020_continuous_expand05/Invoke-Research.ps1' -Phase Candidate",
+      "measured_command_wall_seconds": 29.7665734,
+      "status": "EXIT_ZERO"
+    }
+  ]
+}

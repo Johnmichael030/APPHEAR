@@ -1,0 +1,77 @@
+{
+  "schema": "apphear.continuation.artifacts.v1",
+  "status": "PARTIAL",
+  "excludes": "this manifest itself; prior frozen manifest unchanged",
+  "files": [
+    {
+      "path": "acceptance_protocol.md",
+      "bytes": 6809,
+      "sha256": "a80aed2c34a166b98519c6552f795f8615b6a44b3af9d3f785dc02b62941ce28"
+    },
+    {
+      "path": "audit.py",
+      "bytes": 14437,
+      "sha256": "3db67cfae277a561ed28129658d6cf788ba8cff1ad8669695537fb968a32de55"
+    },
+    {
+      "path": "collection_manifest.template.csv",
+      "bytes": 290,
+      "sha256": "5e29b96827991457bcf17f4e98f84b467c8ed7e37d2899bd6f7b0ac6df1c7675"
+    },
+    {
+      "path": "collection_plan.md",
+      "bytes": 4296,
+      "sha256": "06e2d7fbff93581ff429c631bd56302c6e884529d3185762f7f7e960a1045537"
+    },
+    {
+      "path": "continuation_report.md",
+      "bytes": 14207,
+      "sha256": "de9003626bb952e94ef3cf15647838860ed2d60e2e873fe50f2c2e3672d9aa6b"
+    },
+    {
+      "path": "data_readiness_matrix.csv",
+      "bytes": 1965,
+      "sha256": "c9ab14ca2e219f269800c98d18a6c8deb955c328c0f49192c032387b3d57d9f0"
+    },
+    {
+      "path": "evidence/data_inventory.json",
+      "bytes": 8122,
+      "sha256": "6b796872f30b6002975b7fe62fcec5d7d5e2f53f03666458ae653499122bd6c5"
+    },
+    {
+      "path": "evidence/how2sign_verification.json",
+      "bytes": 2864,
+      "sha256": "d409eba2b817499513422275660c53fd955f9222c9e70f5d53f7f39c2bf443b8"
+    },
+    {
+      "path": "evidence/preservation.json",
+      "bytes": 671,
+      "sha256": "9eb972d0128b983fe58d25a9efc3322f6dbc455569eff543f20bf18604af1695"
+    },
+    {
+      "path": "evidence/regression_classification.json",
+      "bytes": 262162,
+      "sha256": "50862301061296bb1863dc890b1802ff3c52138719f1716588f2a3a4d1e3c7a4"
+    },
+    {
+      "path": "evidence/regression_triage.json",
+      "bytes": 273837,
+      "sha256": "0722b92c295d3b2da7144747d0e64dc65b571dc7764bf610886f9e7829128300"
+    },
+    {
+      "path": "evidence/workspace.json",
+      "bytes": 2038,
+      "sha256": "323dd8b89b19efe0ab4bccfd4131e528db3733fc64c82bf4a4d3cfd5fbe6e7a5"
+    },
+    {
+      "path": "interval_labels.template.csv",
+      "bytes": 190,
+      "sha256": "76582d012ab1593cdfdbcb5a082a7d6eddd8375db42e500df2b91201121447f3"
+    },
+    {
+      "path": "reproduction_commands.ps1",
+      "bytes": 1549,
+      "sha256": "c70b1b206a49affa81cbe297776b36d7b87c69205815f8d51fb3e82f658fed83"
+    }
+  ]
+}

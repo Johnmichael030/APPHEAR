@@ -1,0 +1,7 @@
+Traceback (most recent call last):
+  File "D:\apphearv3claude\AppHear-claude-s2-r3-eval-suite\AppHear-claude-s2-r3-eval-suite\experiments\continuous_asl\20261020T104054Z_expand_eval01\prepare_rit.py", line 128, in <module>
+    a=p.parse_args();main(a.shard,a.shards,a.pilot)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\apphearv3claude\AppHear-claude-s2-r3-eval-suite\AppHear-claude-s2-r3-eval-suite\experiments\continuous_asl\20261020T104054Z_expand_eval01\prepare_rit.py", line 39, in main
+    from prepare_features import make_raw
+ModuleNotFoundError: No module named 'prepare_features'

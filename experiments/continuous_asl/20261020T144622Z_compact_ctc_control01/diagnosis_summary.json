@@ -1,0 +1,715 @@
+{
+  "status": "PASS_NUMERICAL_VALIDITY_PARTIAL_CAUSAL_EXPLANATION",
+  "pipeline_valid_for_compact_control": true,
+  "posterior_saved": false,
+  "posterior_probability_status": "UNKNOWN: full posteriors/logits were not saved; blank numbers are framewise argmax rates only",
+  "alignment": "Exact-token Levenshtein, deterministic diagonal(match/substitute), deletion, insertion traceback; recall/confusions alignment-dependent",
+  "vocabulary": {
+    "labels": 2287,
+    "classes": 2289,
+    "blank_id": 0,
+    "UNK_id": 1,
+    "all_dev_labels_seen_in_train": true,
+    "support_distribution": {
+      "20+": 109,
+      "5-9": 246,
+      "2-4": 626,
+      "10-19": 124,
+      "1": 1182
+    }
+  },
+  "scope_metrics": {
+    "TRAIN": {
+      "utterances": 1500,
+      "reference_tokens": 12423,
+      "hypothesis_tokens": 2991,
+      "prediction_reference_length_ratio": 0.24076310070031393,
+      "argmax_blank_fraction": 0.955894023138931,
+      "output_frames": 71827,
+      "blank_frames": 68659,
+      "nonblank_frames": 3168,
+      "unique_reference_labels": 2287,
+      "unique_predicted_labels": 450,
+      "reference_labels_never_predicted": 1837,
+      "empty_outputs": 236,
+      "top_reference_tokens": [
+        [
+          "IX-1p",
+          533
+        ],
+        [
+          "IX-3p:i",
+          460
+        ],
+        [
+          "NOT",
+          242
+        ],
+        [
+          "IX-loc:i",
+          233
+        ],
+        [
+          "part:indef",
+          213
+        ],
+        [
+          "IX-2p",
+          148
+        ],
+        [
+          "(1h)part:indef",
+          132
+        ],
+        [
+          "FRIEND",
+          123
+        ],
+        [
+          "FUTURE",
+          110
+        ],
+        [
+          "WHO",
+          103
+        ],
+        [
+          "IX-3p:j",
+          88
+        ],
+        [
+          "THAT",
+          87
+        ],
+        [
+          "#IF",
+          80
+        ],
+        [
+          "POSS-1p",
+          71
+        ],
+        [
+          "DEAF",
+          70
+        ]
+      ],
+      "top_hypothesis_tokens": [
+        [
+          "IX-1p",
+          406
+        ],
+        [
+          "FRIEND",
+          125
+        ],
+        [
+          "WHO",
+          118
+        ],
+        [
+          "part:indef",
+          112
+        ],
+        [
+          "(1h)part:indef",
+          107
+        ],
+        [
+          "IX-3p:i",
+          88
+        ],
+        [
+          "NONE/NOTHING",
+          62
+        ],
+        [
+          "IX-loc:i",
+          56
+        ],
+        [
+          "ns-fs-MARY",
+          51
+        ],
+        [
+          "LIKE",
+          45
+        ],
+        [
+          "QMwg",
+          43
+        ],
+        [
+          "IX-2p",
+          42
+        ],
+        [
+          "FUTURE",
+          41
+        ],
+        [
+          "HOW",
+          41
+        ],
+        [
+          "DEPART",
+          41
+        ]
+      ],
+      "signers": [
+        "asllrp_dai_participant_2",
+        "asllrp_dai_participant_3",
+        "asllrp_dai_participant_5"
+      ],
+      "masters": 34,
+      "families": [
+        "asllrp_dai_participant_2::2013-06-27",
+        "asllrp_dai_participant_3::2011-12-01",
+        "asllrp_dai_participant_3::2011-12-08",
+        "asllrp_dai_participant_3::2012-01-27",
+        "asllrp_dai_participant_3::2012-02-09",
+        "asllrp_dai_participant_5::UNRESOLVED_ALL_UNDATED_MASTERS"
+      ],
+      "source_counts": {
+        "2012-01-27_0056-cam1-for-ss3.mp4": 13,
+        "2013-06-27_CB_0113-cam1-for-ss3.mp4": 90,
+        "6-Control-of-sound-intro.mov": 17,
+        "2013-06-27_CB_0115-cam1-for-ss3.mp4": 112,
+        "9-Sensory-Politics.mov": 12,
+        "8-Control-of-sound-places.mov": 59,
+        "2012-02-09_0060-cam1-for-ss3.mp4": 55,
+        "4-Deaf-Speech.mov": 62,
+        "7-Social-Msg.mov": 35,
+        "2012-01-27_0055-cam1-for-ss3.mp4": 27,
+        "2013-06-27_CB_0107-cam1-for-ss3.mp4": 96,
+        "2012-02-09_0058-cam1-for-ss3.mp4": 53,
+        "2013-06-27_CB_0114-cam1-for-ss3.mp4": 112,
+        "2012-02-09_0059-cam1-for-ss3.mp4": 26,
+        "2013-06-27_CB_0108-cam1-for-ss3.mp4": 67,
+        "2012-01-27_0050-cam1-for-ss3.mp4": 23,
+        "2011-12-08_0046-cam1-for-ss3.mp4": 26,
+        "2013-06-27_CB_0112-cam1-for-ss3.mp4": 98,
+        "5-Deaf-Grunts.mov": 35,
+        "2011-12-08_0044-cam1-for-ss3.mp4": 24,
+        "2013-06-27_CB_0109-cam1-for-ss3.mp4": 70,
+        "2012-01-27_0052-cam1-for-ss3.mp4": 19,
+        "2013-06-27_CB_0110-cam1-for-ss3.mp4": 55,
+        "3-Voice-Life.mov": 25,
+        "1-Introduction-SD.mov": 25,
+        "2-Voice-Identity.mov": 53,
+        "2011-12-01_0043-cam1-for-ss3.mp4": 35,
+        "2013-06-27_CB_0111-cam1-for-ss3.mp4": 22,
+        "10-Conclusion.mov": 12,
+        "2012-01-27_0051-cam1-for-ss3.mp4": 31,
+        "2012-02-09_0061-cam1-for-ss3.mp4": 36,
+        "2011-12-08_0045-cam1-for-ss3.mp4": 30,
+        "2012-02-09_0057-cam1-for-ss3.mp4": 23,
+        "2012-01-27_0053-cam1-for-ss3.mp4": 22
+      },
+      "signer_counts": {
+        "asllrp_dai_participant_3": 443,
+        "asllrp_dai_participant_2": 722,
+        "asllrp_dai_participant_5": 335
+      },
+      "WER": 0.8840054737181036,
+      "CTC_loss": 3.9025375899473826,
+      "substitutions": 1526,
+      "deletions": 9444,
+      "insertions": 12
+    },
+    "HELDOUT80": {
+      "utterances": 80,
+      "reference_tokens": 485,
+      "hypothesis_tokens": 157,
+      "prediction_reference_length_ratio": 0.3237113402061856,
+      "argmax_blank_fraction": 0.9313599313599313,
+      "output_frames": 2331,
+      "blank_frames": 2171,
+      "nonblank_frames": 160,
+      "unique_reference_labels": 176,
+      "unique_predicted_labels": 49,
+      "reference_labels_never_predicted": 159,
+      "empty_outputs": 5,
+      "top_reference_tokens": [
+        [
+          "IX-3p:i",
+          31
+        ],
+        [
+          "IX-1p",
+          27
+        ],
+        [
+          "ns-fs-MARY",
+          22
+        ],
+        [
+          "CAR",
+          12
+        ],
+        [
+          "ns-fs-JOHN",
+          12
+        ],
+        [
+          "FINISH",
+          12
+        ],
+        [
+          "part:indef",
+          11
+        ],
+        [
+          "NOW",
+          11
+        ],
+        [
+          "FUTURE",
+          10
+        ],
+        [
+          "DECIDE",
+          10
+        ],
+        [
+          "MANY",
+          9
+        ],
+        [
+          "BORN",
+          7
+        ],
+        [
+          "DEPART",
+          7
+        ],
+        [
+          "NOT",
+          7
+        ],
+        [
+          "(Y)YESTERDAY",
+          7
+        ]
+      ],
+      "top_hypothesis_tokens": [
+        [
+          "IX-1p",
+          51
+        ],
+        [
+          "NONE/NOTHING",
+          13
+        ],
+        [
+          "IX-2p",
+          12
+        ],
+        [
+          "IX-3p:i",
+          7
+        ],
+        [
+          "part:indef",
+          7
+        ],
+        [
+          "NOT",
+          6
+        ],
+        [
+          "SMALL",
+          4
+        ],
+        [
+          "ns-FRANCE",
+          3
+        ],
+        [
+          "FINISH",
+          2
+        ],
+        [
+          "BREAK-DOWN",
+          2
+        ],
+        [
+          "5\\wave no\\\"\"",
+          2
+        ],
+        [
+          "SCHOOL",
+          2
+        ],
+        [
+          "POSS-1p",
+          2
+        ],
+        [
+          "GO-OUT",
+          2
+        ],
+        [
+          "PAST+NIGHT",
+          2
+        ]
+      ],
+      "signers": [
+        "asllrp_dai_participant_2",
+        "asllrp_dai_participant_3"
+      ],
+      "masters": 5,
+      "families": [
+        "asllrp_dai_participant_2::2013-06-25",
+        "asllrp_dai_participant_3::2012-02-14"
+      ],
+      "source_counts": {
+        "2013-06-25_CB_0106-cam1-for-ss3.mp4": 6,
+        "2012-02-14_0062-cam1-for-ss3.mp4": 24,
+        "2012-02-14_0063-cam1-for-ss3.mp4": 37,
+        "2012-02-14_0066-cam1-for-ss3.mp4": 7,
+        "2012-02-14_0065-cam1-for-ss3.mp4": 6
+      },
+      "signer_counts": {
+        "asllrp_dai_participant_2": 6,
+        "asllrp_dai_participant_3": 74
+      },
+      "WER": 0.9567010309278351,
+      "CTC_loss": 7.606348329782486,
+      "substitutions": 136,
+      "deletions": 328,
+      "insertions": 0
+    }
+  },
+  "support_strata": {
+    "TRAIN": {
+      "20+": {
+        "reference_tokens": 6051,
+        "matches": 949,
+        "substitutions": 670,
+        "deletions": 4432,
+        "recall": 0.1568335812262436
+      },
+      "5-9": {
+        "reference_tokens": 1676,
+        "matches": 134,
+        "substitutions": 221,
+        "deletions": 1321,
+        "recall": 0.07995226730310262
+      },
+      "10-19": {
+        "reference_tokens": 1724,
+        "matches": 146,
+        "substitutions": 189,
+        "deletions": 1389,
+        "recall": 0.08468677494199536
+      },
+      "1": {
+        "reference_tokens": 1234,
+        "matches": 119,
+        "substitutions": 164,
+        "deletions": 951,
+        "recall": 0.09643435980551053
+      },
+      "2-4": {
+        "reference_tokens": 1738,
+        "matches": 105,
+        "substitutions": 282,
+        "deletions": 1351,
+        "recall": 0.06041426927502877
+      }
+    },
+    "HELDOUT80": {
+      "20+": {
+        "reference_tokens": 251,
+        "matches": 21,
+        "substitutions": 55,
+        "deletions": 175,
+        "recall": 0.08366533864541832
+      },
+      "2-4": {
+        "reference_tokens": 77,
+        "matches": 0,
+        "substitutions": 26,
+        "deletions": 51,
+        "recall": 0.0
+      },
+      "10-19": {
+        "reference_tokens": 67,
+        "matches": 0,
+        "substitutions": 23,
+        "deletions": 44,
+        "recall": 0.0
+      },
+      "5-9": {
+        "reference_tokens": 71,
+        "matches": 0,
+        "substitutions": 25,
+        "deletions": 46,
+        "recall": 0.0
+      },
+      "1": {
+        "reference_tokens": 19,
+        "matches": 0,
+        "substitutions": 7,
+        "deletions": 12,
+        "recall": 0.0
+      }
+    }
+  },
+  "observability_associations": {
+    "TRAIN": {
+      "neither_event_flag": {
+        "utterances": 539,
+        "errors": 2381,
+        "reference_tokens": 3008,
+        "hypothesis_tokens": 1114,
+        "WER": 0.7915558510638298
+      },
+      "event_missing_frame_or_no_hand": {
+        "utterances": 961,
+        "errors": 8601,
+        "reference_tokens": 9415,
+        "hypothesis_tokens": 1877,
+        "WER": 0.9135422198619224
+      }
+    },
+    "HELDOUT80": {
+      "event_missing_frame_or_no_hand": {
+        "utterances": 55,
+        "errors": 338,
+        "reference_tokens": 356,
+        "hypothesis_tokens": 112,
+        "WER": 0.949438202247191
+      },
+      "neither_event_flag": {
+        "utterances": 25,
+        "errors": 126,
+        "reference_tokens": 129,
+        "hypothesis_tokens": 45,
+        "WER": 0.9767441860465116
+      }
+    }
+  },
+  "CTC": {
+    "all_feasible": true,
+    "input_frames": {
+      "min": 8,
+      "p25": 30,
+      "median": 39.0,
+      "p75": 55,
+      "max": 246
+    },
+    "target_lengths": {
+      "min": 2,
+      "p25": 5,
+      "median": 7.0,
+      "p75": 10,
+      "max": 42
+    },
+    "slack": {
+      "min": 5,
+      "p25": 25,
+      "median": 33.0,
+      "p75": 46,
+      "max": 211
+    },
+    "utterances_with_adjacent_repeats": 17,
+    "raw_feature_validation": "Reused prior exact cached reconstruction/source-join evidence; no raw array reconstruction now"
+  },
+  "trajectory": [
+    {
+      "epoch": 1,
+      "TRAIN_WER": 1.0,
+      "TRAIN_CTC_loss": 6.591037723223368,
+      "TRAIN_blank_fraction": 1.0,
+      "TRAIN_deletions": 12423,
+      "TRAIN_empty_outputs": 1500,
+      "TRAIN_token_diversity": 0,
+      "TRAIN_prediction_reference_length_ratio": 0.0,
+      "HELDOUT80_prediction_reference_length_ratio": 0.0,
+      "HELDOUT80_WER": 1.0,
+      "HELDOUT80_CTC_loss": 6.627052217721939,
+      "HELDOUT80_blank_fraction": 1.0,
+      "HELDOUT80_deletions": 485,
+      "HELDOUT80_token_diversity": 0
+    },
+    {
+      "epoch": 2,
+      "TRAIN_WER": 0.9996780165821461,
+      "TRAIN_CTC_loss": 6.294616565863292,
+      "TRAIN_blank_fraction": 0.9997633201999249,
+      "TRAIN_deletions": 12406,
+      "TRAIN_empty_outputs": 1483,
+      "TRAIN_token_diversity": 3,
+      "TRAIN_prediction_reference_length_ratio": 0.0013684295258794173,
+      "HELDOUT80_prediction_reference_length_ratio": 0.004123711340206186,
+      "HELDOUT80_WER": 1.0,
+      "HELDOUT80_CTC_loss": 6.556113088130951,
+      "HELDOUT80_blank_fraction": 0.9991419991419992,
+      "HELDOUT80_deletions": 483,
+      "HELDOUT80_token_diversity": 2
+    },
+    {
+      "epoch": 3,
+      "TRAIN_WER": 0.9917894228447235,
+      "TRAIN_CTC_loss": 5.960395593643188,
+      "TRAIN_blank_fraction": 0.9939716262686733,
+      "TRAIN_deletions": 11990,
+      "TRAIN_empty_outputs": 1083,
+      "TRAIN_token_diversity": 10,
+      "TRAIN_prediction_reference_length_ratio": 0.03485470498269339
+    },
+    {
+      "epoch": 4,
+      "TRAIN_WER": 0.9849472752153264,
+      "TRAIN_CTC_loss": 5.71693768119812,
+      "TRAIN_blank_fraction": 0.9906163420440781,
+      "TRAIN_deletions": 11751,
+      "TRAIN_empty_outputs": 855,
+      "TRAIN_token_diversity": 11,
+      "TRAIN_prediction_reference_length_ratio": 0.05409321419946873,
+      "HELDOUT80_prediction_reference_length_ratio": 0.05360824742268041,
+      "HELDOUT80_WER": 0.9835051546391752,
+      "HELDOUT80_CTC_loss": 6.62358136177063,
+      "HELDOUT80_blank_fraction": 0.9888459888459888,
+      "HELDOUT80_deletions": 459,
+      "HELDOUT80_token_diversity": 3
+    },
+    {
+      "epoch": 5,
+      "TRAIN_WER": 0.9812444659100056,
+      "TRAIN_CTC_loss": 5.490854372104009,
+      "TRAIN_blank_fraction": 0.9891962632436271,
+      "TRAIN_deletions": 11651,
+      "TRAIN_empty_outputs": 780,
+      "TRAIN_token_diversity": 17,
+      "TRAIN_prediction_reference_length_ratio": 0.06214279964581824
+    },
+    {
+      "epoch": 6,
+      "TRAIN_WER": 0.9791515736939548,
+      "TRAIN_CTC_loss": 5.301905522743861,
+      "TRAIN_blank_fraction": 0.9890291951494563,
+      "TRAIN_deletions": 11641,
+      "TRAIN_empty_outputs": 795,
+      "TRAIN_token_diversity": 28,
+      "TRAIN_prediction_reference_length_ratio": 0.06294775819045319,
+      "HELDOUT80_prediction_reference_length_ratio": 0.09072164948453608,
+      "HELDOUT80_WER": 0.977319587628866,
+      "HELDOUT80_CTC_loss": 6.94779782295227,
+      "HELDOUT80_blank_fraction": 0.9811239811239811,
+      "HELDOUT80_deletions": 441,
+      "HELDOUT80_token_diversity": 8
+    },
+    {
+      "epoch": 7,
+      "TRAIN_WER": 0.9706190131208243,
+      "TRAIN_CTC_loss": 5.076696440935135,
+      "TRAIN_blank_fraction": 0.9892519526083506,
+      "TRAIN_deletions": 11681,
+      "TRAIN_empty_outputs": 944,
+      "TRAIN_token_diversity": 43,
+      "TRAIN_prediction_reference_length_ratio": 0.05980841986637688
+    },
+    {
+      "epoch": 8,
+      "TRAIN_WER": 0.9621669484021573,
+      "TRAIN_CTC_loss": 4.839590797583262,
+      "TRAIN_blank_fraction": 0.9854511534659668,
+      "TRAIN_deletions": 11426,
+      "TRAIN_empty_outputs": 779,
+      "TRAIN_token_diversity": 78,
+      "TRAIN_prediction_reference_length_ratio": 0.08033486275456814,
+      "HELDOUT80_prediction_reference_length_ratio": 0.16288659793814433,
+      "HELDOUT80_WER": 0.9731958762886598,
+      "HELDOUT80_CTC_loss": 7.210218894481659,
+      "HELDOUT80_blank_fraction": 0.9661089661089661,
+      "HELDOUT80_deletions": 406,
+      "HELDOUT80_token_diversity": 14
+    },
+    {
+      "epoch": 9,
+      "TRAIN_WER": 0.9443773645657249,
+      "TRAIN_CTC_loss": 4.617217979272207,
+      "TRAIN_blank_fraction": 0.9785456722402439,
+      "TRAIN_deletions": 10954,
+      "TRAIN_empty_outputs": 604,
+      "TRAIN_token_diversity": 132,
+      "TRAIN_prediction_reference_length_ratio": 0.11840940191580134
+    },
+    {
+      "epoch": 10,
+      "TRAIN_WER": 0.9475167028898012,
+      "TRAIN_CTC_loss": 4.436798455794652,
+      "TRAIN_blank_fraction": 0.9807314798056441,
+      "TRAIN_deletions": 11094,
+      "TRAIN_empty_outputs": 611,
+      "TRAIN_token_diversity": 161,
+      "TRAIN_prediction_reference_length_ratio": 0.10705948643644853,
+      "HELDOUT80_prediction_reference_length_ratio": 0.16907216494845362,
+      "HELDOUT80_WER": 0.9711340206185567,
+      "HELDOUT80_CTC_loss": 7.25598446726799,
+      "HELDOUT80_blank_fraction": 0.9648219648219648,
+      "HELDOUT80_deletions": 403,
+      "HELDOUT80_token_diversity": 27
+    },
+    {
+      "epoch": 11,
+      "TRAIN_WER": 0.908959188601787,
+      "TRAIN_CTC_loss": 4.144043975671132,
+      "TRAIN_blank_fraction": 0.9638993693179445,
+      "TRAIN_deletions": 9963,
+      "TRAIN_empty_outputs": 302,
+      "TRAIN_token_diversity": 275,
+      "TRAIN_prediction_reference_length_ratio": 0.1985832729614425
+    },
+    {
+      "epoch": 12,
+      "TRAIN_WER": 0.8840054737181036,
+      "TRAIN_CTC_loss": 3.9025375899473826,
+      "TRAIN_blank_fraction": 0.955894023138931,
+      "TRAIN_deletions": 9444,
+      "TRAIN_empty_outputs": 236,
+      "TRAIN_token_diversity": 450,
+      "TRAIN_prediction_reference_length_ratio": 0.24076310070031393,
+      "HELDOUT80_prediction_reference_length_ratio": 0.3237113402061856,
+      "HELDOUT80_WER": 0.9567010309278351,
+      "HELDOUT80_CTC_loss": 7.606348329782486,
+      "HELDOUT80_blank_fraction": 0.9313599313599313,
+      "HELDOUT80_deletions": 328,
+      "HELDOUT80_token_diversity": 49
+    },
+    {
+      "epoch": 13,
+      "TRAIN_WER": 0.8460919262657973,
+      "TRAIN_CTC_loss": 3.7277414553165436,
+      "TRAIN_blank_fraction": 0.9410528074400991,
+      "TRAIN_deletions": 8469,
+      "TRAIN_empty_outputs": 117,
+      "TRAIN_token_diversity": 616,
+      "TRAIN_prediction_reference_length_ratio": 0.31989052563792963
+    }
+  ],
+  "verified_against_old_artifact_index": [
+    "MISSION_REPORT.md",
+    "CONTROL_REVIEW.md",
+    "run.log",
+    "run_mission.py",
+    "config.json",
+    "decision.json",
+    "fold_manifest.json",
+    "vocabulary.json",
+    "normalization.npz",
+    "resolved_manifest.json",
+    "selected_train1500.json",
+    "selected_primary80.json",
+    "training_metrics.csv",
+    "prediction_examples.csv"
+  ],
+  "causal_status": "UNKNOWN: sparse labels, limited representation and optimization/capacity remain competing or interacting explanations; these observational strata cannot identify cause",
+  "no_TEST_access": true,
+  "no_model_inference": true,
+  "no_training": true,
+  "runtime_seconds": 0.6357624999945983
+}

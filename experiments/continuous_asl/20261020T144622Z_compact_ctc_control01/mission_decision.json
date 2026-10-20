@@ -1,0 +1,11 @@
+{
+  "status": "PARTIAL",
+  "numerical_pipeline": "PASS",
+  "compact_learning": "PASS",
+  "full_task_cause": "PARTIAL_NOT_CAUSALLY_IDENTIFIED",
+  "compact_control_decision_path": "decision.json",
+  "next_single_variable": "TRAIN-set size only:96 to nested192; no automatic execution",
+  "full_training_started": false,
+  "promote": false,
+  "TEST_used": false
+}

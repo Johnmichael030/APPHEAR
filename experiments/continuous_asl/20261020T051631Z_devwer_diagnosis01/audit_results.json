@@ -1,0 +1,503 @@
+{
+  "created_utc": "2026-10-20T05:21:19.161462+00:00",
+  "runs": {
+    "baseline": {
+      "train": 100,
+      "dev": {
+        "loss": 4.75759055879381,
+        "gloss_wer": 0.8596491228070176,
+        "substitutions": 10,
+        "deletions": 39,
+        "insertions": 0,
+        "reference_tokens": 57,
+        "scope": "COLLECTION-DISJOINT DIAGNOSTIC, SIGNER UNVERIFIED; NOT PRODUCT ACCURACY",
+        "out_of_vocabulary_tokens": 9
+      },
+      "selected_epoch": 4,
+      "completed_epochs": 14,
+      "blank_argmax_fraction": 0.9558139534883721,
+      "empty_hypotheses": 0,
+      "timesteps": 430,
+      "beam10_top16_wer": 0.8596491228070176,
+      "checkpoint_sha256": "489ec5883ca440364ab10690ee5cfb9d0b0b0e6942df8f477509ea4ba6faf99c",
+      "vocab_size": 117,
+      "unique_train_labels": 115,
+      "singleton_labels": 55,
+      "target_tokens": 494,
+      "oov_counts": {
+        "MOTHERwg": 4,
+        "IX-loc-arc": 1,
+        "READ++": 2,
+        "LATERwg": 1,
+        "IX-3p:j": 1
+      },
+      "known_dev_signers": [],
+      "dev_collections": [
+        "ncslgr10p.xml"
+      ],
+      "dev_source_groups": [
+        "986",
+        "987",
+        "988",
+        "989",
+        "990",
+        "992",
+        "993",
+        "994",
+        "996"
+      ],
+      "config": {
+        "schema": "apphear.continuous_asl.candidate01_causal378.v1",
+        "seed": 20261020,
+        "task": "source-main-gloss-token CTC diagnostic",
+        "batch": 4,
+        "gradient_accumulation": 2,
+        "lr": 0.001,
+        "weight_decay": 0.0001,
+        "gradient_clip": 5.0,
+        "patience": 10,
+        "mixed_precision": false,
+        "max_vram_allocated_bytes": 2684354560,
+        "minimum_free_vram_bytes": 268435456,
+        "effective_receptive_field_observations": 61,
+        "prior_metadata_correction": "Original RF61 metadata is correct: 1+2 convolutions*2 kernel offset*(1+2+4+8)=61. New draft RF121 was an arithmetic error caught before fitting.",
+        "selection": "DEV WER then DEV loss; fixed greedy CTC decoder; TEST used only after checkpoint freeze",
+        "baseline": "New matched reference48 trained first and frozen; additionally preserve legacy48 unchanged as historical reference",
+        "normalization": "TRAIN mean/std only, same arrays for both model sizes",
+        "production_enabled": false,
+        "channels": 48,
+        "max_epochs": 30,
+        "wall_seconds": 180,
+        "name": "reference48"
+      },
+      "shared_function_ast_sha256": {
+        "CausalBlock": "10c811045c75ac40d3a13fc7ce3e8258d57103e86cc480c0d716925f1b8f8e23",
+        "CausalCTC": "90b1e825a12cb40e09bc8a4076e36825b5747256b1bd1cc375125ce85f86a92f",
+        "edit_counts": "cf7844b9cf656b51f8c6b420bf715fe0d868f6589913dda2bc54466629ff5fce",
+        "decode": "1365f0a227fcf523555901698740bdee251826a3e01a2b851b09372e158024f6",
+        "batch": "56e11822795687fb89142e642f43c0dbb0533a405f756b9cf6ab535331cb855b",
+        "evaluate": "731833162e2df7916f3eac156068b15a089ea4bf553afd76490b77d5b989b154"
+      },
+      "leakage": {
+        "sample_id": [],
+        "collection": [],
+        "source_group": [],
+        "feature_sha256": [],
+        "raw_sha256": [],
+        "same_literal_gloss_sequences": []
+      }
+    },
+    "pilot906": {
+      "train": 906,
+      "dev": {
+        "loss": 6.53623088200887,
+        "gloss_wer": 0.9649122807017544,
+        "substitutions": 16,
+        "deletions": 39,
+        "insertions": 0,
+        "reference_tokens": 57,
+        "scope": "COLLECTION-DISJOINT DIAGNOSTIC, SIGNER UNVERIFIED; NOT PRODUCT ACCURACY",
+        "out_of_vocabulary_tokens": 1
+      },
+      "selected_epoch": 13,
+      "completed_epochs": 20,
+      "blank_argmax_fraction": 0.958139534883721,
+      "empty_hypotheses": 0,
+      "timesteps": 430,
+      "beam10_top16_wer": 0.9649122807017544,
+      "checkpoint_sha256": "5cb69c89ee91210debca4afcc6f45ec9b9b91fb147730e667f8fd18461c13ebd",
+      "vocab_size": 922,
+      "unique_train_labels": 920,
+      "singleton_labels": 493,
+      "target_tokens": 5133,
+      "oov_counts": {
+        "LATERwg": 1
+      },
+      "known_dev_signers": [],
+      "dev_collections": [
+        "ncslgr10p.xml"
+      ],
+      "dev_source_groups": [
+        "986",
+        "987",
+        "988",
+        "989",
+        "990",
+        "992",
+        "993",
+        "994",
+        "996"
+      ],
+      "config": {
+        "schema": "apphear.continuous_asl.candidate01_causal378.v1",
+        "seed": 20261020,
+        "task": "Literal authentic NCSLGR2 main-gloss events on906 verified TRAIN utterances",
+        "batch": 4,
+        "gradient_accumulation": 2,
+        "lr": 0.001,
+        "weight_decay": 0.0001,
+        "gradient_clip": 5.0,
+        "patience": 10,
+        "mixed_precision": false,
+        "max_vram_allocated_bytes": 2684354560,
+        "minimum_free_vram_bytes": 268435456,
+        "effective_receptive_field_observations": 61,
+        "selection": "Exact original9DEV WER then loss; max30epochs/120seconds/patience10",
+        "baseline": "Immutable expand03 reference48, same9DEV and decoder; expanded training data and TRAIN-only vocabulary/normalization change. No architecture-only comparison.",
+        "normalization": "This frozen906TRAIN only",
+        "production_enabled": false,
+        "train_monitor_ids": [
+          "ncslgr_ccdc29f341ca967f",
+          "ncslgr_cd0c9c22957af0d4",
+          "ncslgr_f8affadb7393d964",
+          "ncslgr_f918b0d6c885931f",
+          "ncslgr_f97b46fe61abd5ab",
+          "ncslgr_42e8b262b491ff76",
+          "ncslgr_d6dd0eaca3203f4c",
+          "ncslgr_e6fb51e05f491f36",
+          "ncslgr_bc5c2aca8fdbea2e",
+          "ncslgr_ba4fd14e5a18ebfb",
+          "ncslgr_0936c2c74e706a28",
+          "ncslgr_945b423654e50340",
+          "ncslgr_9073b4c20f5c8d50",
+          "ncslgr_ef88f58b27d4f6b6",
+          "ncslgr_ff96060bf36c5651",
+          "ncslgr_20e4eb598863e554",
+          "ncslgr_a80626ec3049ceee",
+          "ncslgr_f810a90db0a85f02",
+          "ncslgr_e936047b7c4c6e41",
+          "ncslgr_e8ef42457bc83bf5",
+          "ncslgr_621a09c0f8c3537f",
+          "ncslgr_4fa91cc6da67b45a",
+          "ncslgr_5b2885a13d66a228",
+          "ncslgr_41e7396ffede3abd",
+          "ncslgr_f9a4ce8238980733",
+          "ncslgr_9c47c147c336ca81",
+          "ncslgr_9ecbf5eef8c4036f",
+          "ncslgr_d992f004b205c035",
+          "ncslgr_0d9bba57ebd9dcc6",
+          "ncslgr_d368e6060adbefe8",
+          "ncslgr_bed1e57ae345641c",
+          "ncslgr_73255bd0a401210f",
+          "ncslgr_40c7bb60571d5821",
+          "ncslgr_da575eb1cc77060e",
+          "ncslgr_c75755ad1c1de3db",
+          "ncslgr_353b5e79782d2148",
+          "ncslgr_e505d7c2593cb938",
+          "ncslgr_f971f0b550218d4e",
+          "ncslgr_cc717cf9c577ec2a",
+          "ncslgr_e28a42d945687014",
+          "ncslgr_afd0623bc4914d4b",
+          "ncslgr_8c36fec01ac4f1a9",
+          "ncslgr_24692014b6e2ded6",
+          "ncslgr_10263082d12c650f",
+          "ncslgr_012cff1af527c209",
+          "ncslgr_12392e6eae5ec2be",
+          "ncslgr_9fcd25cef1d6d3f3",
+          "ncslgr_88024b507c85d0ee",
+          "ncslgr_30dc88f87322bf58",
+          "ncslgr_3a72bddf4e899dc2",
+          "ncslgr_5ebe678119cee7c7",
+          "ncslgr_37a4b4870ee3ec2a",
+          "ncslgr_b1882018fd8bc160",
+          "ncslgr_afb2d6ffe529364a",
+          "ncslgr_a4d247322988b6cc",
+          "ncslgr_4d26aa40f4717218",
+          "ncslgr_51b1df2c42ec9674",
+          "ncslgr_f651f5d86fe9db09",
+          "ncslgr_14f510f278297ff7",
+          "ncslgr_e538266dd80846ab",
+          "ncslgr_a885cbf1bc84405e",
+          "ncslgr_444faf4be6cd2040",
+          "ncslgr_dcbfffaa1509e125",
+          "ncslgr_d44b2bfe9c89cf2c"
+        ],
+        "overfit_gate_sha256": "eeea86df29cddcb38506d00d4188f2c22c36799a80d66d5dd403bc53ca2eeb03",
+        "protocol_sha256": "f44bf62a5d1e5c4d0362718d6443ffe8f7382fff539aea0a79e7ae473ad092cc",
+        "channels": 48,
+        "max_epochs": 30,
+        "wall_seconds": 120,
+        "name": "reference48"
+      },
+      "shared_function_ast_sha256": {
+        "CausalBlock": "10c811045c75ac40d3a13fc7ce3e8258d57103e86cc480c0d716925f1b8f8e23",
+        "CausalCTC": "90b1e825a12cb40e09bc8a4076e36825b5747256b1bd1cc375125ce85f86a92f",
+        "edit_counts": "cf7844b9cf656b51f8c6b420bf715fe0d868f6589913dda2bc54466629ff5fce",
+        "decode": "1365f0a227fcf523555901698740bdee251826a3e01a2b851b09372e158024f6",
+        "batch": "56e11822795687fb89142e642f43c0dbb0533a405f756b9cf6ab535331cb855b",
+        "evaluate": "731833162e2df7916f3eac156068b15a089ea4bf553afd76490b77d5b989b154"
+      },
+      "leakage": {
+        "sample_id": [],
+        "collection": [],
+        "source_group": [],
+        "feature_sha256": [],
+        "raw_sha256": [],
+        "same_literal_gloss_sequences": []
+      }
+    },
+    "main2119": {
+      "train": 2119,
+      "dev": {
+        "loss": 6.36371013853285,
+        "gloss_wer": 1.0,
+        "substitutions": 0,
+        "deletions": 57,
+        "insertions": 0,
+        "reference_tokens": 57,
+        "scope": "COLLECTION-DISJOINT DIAGNOSTIC, SIGNER UNVERIFIED; NOT PRODUCT ACCURACY",
+        "out_of_vocabulary_tokens": 6
+      },
+      "selected_epoch": 2,
+      "completed_epochs": 17,
+      "blank_argmax_fraction": 1.0,
+      "empty_hypotheses": 9,
+      "timesteps": 430,
+      "beam10_top16_wer": 1.0,
+      "checkpoint_sha256": "f7a2b8bff5638671747352e2808f44fc2c60487a78d31a74cc49e978a46e7364",
+      "vocab_size": 2741,
+      "unique_train_labels": 2739,
+      "singleton_labels": 1331,
+      "target_tokens": 17453,
+      "oov_counts": {
+        "HOLD": 2,
+        "IX-loc-arc": 1,
+        "READ++": 2,
+        "LATERwg": 1
+      },
+      "known_dev_signers": [],
+      "dev_collections": [
+        "ncslgr10p.xml"
+      ],
+      "dev_source_groups": [
+        "986",
+        "987",
+        "988",
+        "989",
+        "990",
+        "992",
+        "993",
+        "994",
+        "996"
+      ],
+      "config": {
+        "schema": "apphear.continuous_asl.candidate01_causal378.v1",
+        "seed": 20261020,
+        "task": "Literal authentic occurrence-gloss CTC in the largest verified single publisher label pool",
+        "batch": 4,
+        "gradient_accumulation": 2,
+        "lr": 0.001,
+        "weight_decay": 0.0001,
+        "gradient_clip": 5.0,
+        "patience": 15,
+        "mixed_precision": false,
+        "max_vram_allocated_bytes": 2684354560,
+        "minimum_free_vram_bytes": 268435456,
+        "effective_receptive_field_observations": 61,
+        "selection": "Exact original9DEV WER then loss; max60epochs/600seconds,patience15; no TEST reads",
+        "baseline": "Frozen expand03 reference48, same9DEV labels/features/decoder. Different training corpus/vocabulary/normalization; diagnostic cross-corpus contrast, not architecture-only.",
+        "normalization": "This frozen TRAIN pool only; no DEV/test fitting",
+        "production_enabled": false,
+        "label_pool": "ASLLRP3_LITERAL_DOMINANT_REALIZED_OCCURRENCE",
+        "overfit_gate_sha256": "eeea86df29cddcb38506d00d4188f2c22c36799a80d66d5dd403bc53ca2eeb03",
+        "protocol_sha256": "8c436598b192dbedc60757bab0ed903ebd72888156e0fb387f1139554f6657e1",
+        "channels": 48,
+        "max_epochs": 60,
+        "wall_seconds": 600,
+        "name": "reference48"
+      },
+      "shared_function_ast_sha256": {
+        "CausalBlock": "10c811045c75ac40d3a13fc7ce3e8258d57103e86cc480c0d716925f1b8f8e23",
+        "CausalCTC": "90b1e825a12cb40e09bc8a4076e36825b5747256b1bd1cc375125ce85f86a92f",
+        "edit_counts": "cf7844b9cf656b51f8c6b420bf715fe0d868f6589913dda2bc54466629ff5fce",
+        "decode": "1365f0a227fcf523555901698740bdee251826a3e01a2b851b09372e158024f6",
+        "batch": "56e11822795687fb89142e642f43c0dbb0533a405f756b9cf6ab535331cb855b",
+        "evaluate": "731833162e2df7916f3eac156068b15a089ea4bf553afd76490b77d5b989b154"
+      },
+      "leakage": {
+        "sample_id": [],
+        "collection": [],
+        "source_group": [],
+        "feature_sha256": [],
+        "raw_sha256": [],
+        "same_literal_gloss_sequences": []
+      }
+    }
+  },
+  "normalization_and_feature_distributions": {
+    "baseline": {
+      "train": {
+        "observations": 3059,
+        "observed_left_right_body": [
+          0.35109512912716573,
+          0.4128800261523374,
+          0.9928081072245832
+        ],
+        "clipped_feature_fraction": 0.00018334310586680643
+      },
+      "dev": {
+        "observations": 430,
+        "observed_left_right_body": [
+          0.25813953488372093,
+          0.39767441860465114,
+          1.0
+        ],
+        "clipped_feature_fraction": 3.6913990402362495e-05
+      }
+    },
+    "pilot906": {
+      "train": {
+        "observations": 27451,
+        "observed_left_right_body": [
+          0.44406396852573676,
+          0.5295617645987396,
+          0.9939164329168336
+        ],
+        "clipped_feature_fraction": 0.00015756791466237387
+      },
+      "dev": {
+        "observations": 430,
+        "observed_left_right_body": [
+          0.25813953488372093,
+          0.39767441860465114,
+          1.0
+        ],
+        "clipped_feature_fraction": 0.0
+      }
+    },
+    "main2119": {
+      "train": {
+        "observations": 98198,
+        "observed_left_right_body": [
+          0.4776064685635145,
+          0.48866575694005987,
+          0.9936556752683354
+        ],
+        "clipped_feature_fraction": 0.0002990933661619419
+      },
+      "dev": {
+        "observations": 430,
+        "observed_left_right_body": [
+          0.25813953488372093,
+          0.39767441860465114,
+          1.0
+        ],
+        "clipped_feature_fraction": 0.00012919896640826872
+      }
+    }
+  },
+  "main_train_reproduction": {
+    "last_epoch": {
+      "epoch": 17,
+      "seconds": 7.960073800000828,
+      "scores": {
+        "loss": 2.886040484493158,
+        "gloss_wer": 0.7195324586031054,
+        "substitutions": 3529,
+        "deletions": 8967,
+        "insertions": 62,
+        "reference_tokens": 17453,
+        "scope": "COLLECTION-DISJOINT DIAGNOSTIC, SIGNER UNVERIFIED; NOT PRODUCT ACCURACY",
+        "out_of_vocabulary_tokens": 0
+      }
+    },
+    "selected_epoch": {
+      "epoch": 2,
+      "seconds": 7.746736500004772,
+      "scores": {
+        "loss": 6.210835559123977,
+        "gloss_wer": 0.9999427032601845,
+        "substitutions": 1,
+        "deletions": 17451,
+        "insertions": 0,
+        "reference_tokens": 17453,
+        "scope": "COLLECTION-DISJOINT DIAGNOSTIC, SIGNER UNVERIFIED; NOT PRODUCT ACCURACY",
+        "out_of_vocabulary_tokens": 0
+      }
+    }
+  },
+  "shared_function_ast_sha256": {
+    "CausalBlock": "10c811045c75ac40d3a13fc7ce3e8258d57103e86cc480c0d716925f1b8f8e23",
+    "CausalCTC": "90b1e825a12cb40e09bc8a4076e36825b5747256b1bd1cc375125ce85f86a92f",
+    "edit_counts": "cf7844b9cf656b51f8c6b420bf715fe0d868f6589913dda2bc54466629ff5fce",
+    "decode": "1365f0a227fcf523555901698740bdee251826a3e01a2b851b09372e158024f6",
+    "batch": "56e11822795687fb89142e642f43c0dbb0533a405f756b9cf6ab535331cb855b",
+    "evaluate": "731833162e2df7916f3eac156068b15a089ea4bf553afd76490b77d5b989b154"
+  },
+  "pool_summary": {
+    "ASLLRP3_LITERAL_DOMINANT_REALIZED_OCCURRENCE": {
+      "utterances": 2119,
+      "unique_labels": 2739,
+      "target_tokens": 17453,
+      "singleton_labels": 1331,
+      "source_recordings": 47,
+      "known_signer_ids": [],
+      "annotation_types": {
+        "AUTHENTIC_PUBLISHED_DOMINANT_HAND_OCCURRENCE_EVENTS": 2119
+      },
+      "schema": "apphear.continuous_asl.candidate01_causal378.v1",
+      "ctc_invalid": [],
+      "annotation_errors": [],
+      "publisher_bound_checks": 2119,
+      "direct_csv_event_joins": 17453,
+      "unweighted_mean_left_right_hand_and_body_available": [
+        0.48961334667727174,
+        0.5037458180869635,
+        0.9927733686522754
+      ],
+      "observations_p5_p50_p95": [
+        23.0,
+        39.0,
+        93.0
+      ],
+      "target_tokens_p5_p50_p95": [
+        3.0,
+        7.0,
+        18.0
+      ],
+      "spatial_representation": "Camera-normalized XY and ROI, not signer/root/handedness invariant; full378 current/missingness/backward delta blocks."
+    },
+    "NCSLGR2_LITERAL_MAIN_GLOSS": {
+      "utterances": 906,
+      "unique_labels": 920,
+      "target_tokens": 5133,
+      "singleton_labels": 493,
+      "source_recordings": 686,
+      "known_signer_ids": [
+        "ncslgr_participant_439e92da28e72cc2",
+        "ncslgr_participant_d3676eea1633876b"
+      ],
+      "annotation_types": {
+        "AUTHENTIC_STRUCTURED_MAIN_GLOSS_EVENTS_MATCHING_OFFICIAL_INDEX": 14,
+        "AUTHENTIC_INDEX_MAIN_GLOSS_TOKEN_SEQUENCE_INCLUDING_FS_WORDS": 260,
+        "AUTHENTIC_INDEX_MAIN_GLOSS_TOKEN_SEQUENCE": 181,
+        "AUTHENTIC_ELAN_MAIN_GLOSS_EVENTS_EXACTLY_MATCHED_TO_OFFICIAL_INDEX": 451
+      },
+      "schema": "apphear.continuous_asl.candidate01_causal378.v1",
+      "ctc_invalid": [],
+      "annotation_errors": [],
+      "publisher_bound_checks": 451,
+      "direct_csv_event_joins": 0,
+      "unweighted_mean_left_right_hand_and_body_available": [
+        0.44776236579422457,
+        0.5246329769290671,
+        0.9943020647066845
+      ],
+      "observations_p5_p50_p95": [
+        18.0,
+        29.0,
+        47.0
+      ],
+      "target_tokens_p5_p50_p95": [
+        3.0,
+        5.0,
+        9.75
+      ],
+      "spatial_representation": "Camera-normalized XY and ROI, not signer/root/handedness invariant; full378 current/missingness/backward delta blocks."
+    }
+  },
+  "elapsed_seconds": 38.73221129999729,
+  "training_performed": false,
+  "test_used": false,
+  "status": "PASS_DIAGNOSTIC_EXECUTION"
+}

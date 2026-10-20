@@ -1,0 +1,7 @@
+{
+  "source": "D:\\apphearv3claude\\AppHear-claude-s2-r3-eval-suite\\AppHear-claude-s2-r3-eval-suite\\experiments\\continuous_asl\\20261020_continuous_expand04\\tools\\train_expanded.py",
+  "source_sha256": "85e053587d1f4f266b440adbd8b16db3ceb4e2207a435b9d140b283a0d392849",
+  "new_trainer_sha256": "6cf2cdbb4c6d272e2e5e0e207f67ca37b1cc1a2a00b2de8de4a03be5f507a2fd",
+  "change": "Allow verified acquisition04 feature paths; unchanged fitting/model/decoding implementation and bounded hyperparameters.",
+  "model_and_decoder_sha256": "d434d2341348ab89558a82dfc9f952800e533246d4b6baf0294ee10fc013aa63"
+}

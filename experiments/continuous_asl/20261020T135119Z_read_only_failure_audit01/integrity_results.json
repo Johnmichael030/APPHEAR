@@ -1,0 +1,16 @@
+{
+  "pilot_before_files": 76,
+  "pilot_after_files": 76,
+  "original_pilot_artifact_index_verified": 75,
+  "pilot_changed": [],
+  "pilot_added": [],
+  "pilot_removed": [],
+  "referenced_nonTEST_inputs_hashed": 5198,
+  "referenced_input_bytes": 1451409089,
+  "referenced_inputs_changed": [],
+  "whole_workspace_hashed": false,
+  "scope_limit": "Every file in target pilot and all explicit feature/raw/video/source-label/signer-provenance/code inputs checked before/after. Unrelated workspace and reserved TEST contents intentionally not opened.",
+  "training_or_inference_executed": false,
+  "packages_installed": false,
+  "external_services_used": false
+}

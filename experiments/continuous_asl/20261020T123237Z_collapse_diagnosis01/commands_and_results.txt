@@ -1,0 +1,22 @@
+Requested initial read-only command:
+& 'D:\apphearv3claude\AppHear-claude-s2-r3-eval-suite\AppHear-claude-s2-r3-eval-suite\experiments\continuous_asl\20261020T104054Z_expand_eval01\Verify-Continuation.ps1'
+PASS:1061newartifacts;20745protectedmetadata;3121eligible;5priorCUDAepochs;TEST_scored=false.
+
+Exact bounded audit command:
+& 'D:\apphearv3claude\AppHear-claude-s2-r3-eval-suite\AppHear-claude-s2-r3-eval-suite\experiments\continuous_asl\20261019T155428Z_cslr01\runtime\venv\Scripts\python.exe' -B 'D:\apphearv3claude\AppHear-claude-s2-r3-eval-suite\AppHear-claude-s2-r3-eval-suite\experiments\continuous_asl\20261020T123237Z_collapse_diagnosis01\audit.py'
+Output audit_console.txt. PASS: 26.253s;3121features;exact2119predictionreplay;nohardCTC/vocab/normalizationbugfound.
+
+Exact bounded pilot command:
+& 'D:\apphearv3claude\AppHear-claude-s2-r3-eval-suite\AppHear-claude-s2-r3-eval-suite\experiments\continuous_asl\20261019T155428Z_cslr01\runtime\venv\Scripts\python.exe' -B 'D:\apphearv3claude\AppHear-claude-s2-r3-eval-suite\AppHear-claude-s2-r3-eval-suite\experiments\continuous_asl\20261020T123237Z_collapse_diagnosis01\pilot.py'
+Output pilot_console.txt; pilot_wall.json exit0. 40epochs, 320updates, NO_MEANINGFUL_DEV_GAIN_GATE40.
+Frozenmanifest:D:\apphearv3claude\AppHear-claude-s2-r3-eval-suite\AppHear-claude-s2-r3-eval-suite\experiments\continuous_asl\20261020T123237Z_collapse_diagnosis01\pilot64\manifest.json
+SHA:74316382a1198b7815154d06829c39e06fcba9742dfaa16548450f08f6724c54
+Savedprotocol:pilot64/protocol.json; seed20261020; channels48; full2519vocab; TRAIN64/DEV413; batch4accum2; AdamW.001wd.0001; FP32clip5.
+Noacquisition,noTESTrecognition,noproductionassetwrites. Outputexclusive; scriptsrefuseoverwrite. No repeatedoldfits or50numericchecks. CUDACTCwarn_onlynondeterminismretained.
+
+Exact close command:
+& 'D:\apphearv3claude\AppHear-claude-s2-r3-eval-suite\AppHear-claude-s2-r3-eval-suite\experiments\continuous_asl\20261019T155428Z_cslr01\runtime\venv\Scripts\python.exe' -B 'D:\apphearv3claude\AppHear-claude-s2-r3-eval-suite\AppHear-claude-s2-r3-eval-suite\experiments\continuous_asl\20261020T123237Z_collapse_diagnosis01\close.py'
+
+NEXT READ-ONLY COMMAND:
+& 'D:\apphearv3claude\AppHear-claude-s2-r3-eval-suite\AppHear-claude-s2-r3-eval-suite\experiments\continuous_asl\20261019T155428Z_cslr01\runtime\venv\Scripts\python.exe' -B 'D:\apphearv3claude\AppHear-claude-s2-r3-eval-suite\AppHear-claude-s2-r3-eval-suite\experiments\continuous_asl\20261020T123237Z_collapse_diagnosis01\verify.py'
+This verifies hashes and calls the existing parentvalidator's underlyingPythonchecker; no training or acquisition. Do not rerun completedpilot.py.

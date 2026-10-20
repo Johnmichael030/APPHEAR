@@ -1,0 +1,24 @@
+{
+  "scope": "Official How2Sign validation frontal sentence archive for inspection only; no TEST or gloss training",
+  "allowed_hosts": [
+    "drive.google.com",
+    "drive.usercontent.google.com",
+    "docs.google.com"
+  ],
+  "items": [
+    {
+      "authorization": "RESEARCH_METADATA_OR_INITIAL_SAMPLE",
+      "url": "https://drive.google.com/uc?export=download&id=1oVZyTWhHShyqshC2kUrfWnBF8apIR7Z1",
+      "max_bytes": 2147483648,
+      "filename": "how2sign/val_rgb_front_clips.zip",
+      "split": "val",
+      "id": "how2sign_val_frontal_pilot_archive",
+      "sha256": null,
+      "max_expanded_bytes": 3221225472,
+      "kind": "zip",
+      "annotation_type": "VIDEO_ONLY",
+      "expected_bytes": null
+    }
+  ],
+  "schema": "apphear.continuous_asl.download_plan.v1"
+}

@@ -1,0 +1,1 @@
+{"status": "SYNTHETIC_FIXTURE_ONLY", "output": "D:\\apphearv3claude\\AppHear-claude-s2-r3-eval-suite\\AppHear-claude-s2-r3-eval-suite\\experiments\\continuous_asl\\20261020T004837_separate02\\pilot_package_20261020T014259\\runs\\synthetic_20261020T015314_685\\first", "real_consent_or_labels": false}

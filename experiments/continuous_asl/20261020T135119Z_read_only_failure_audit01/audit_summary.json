@@ -1,0 +1,29 @@
+{
+  "status": "BOUNDED_READ_ONLY_CHECKS_PASS",
+  "feature_sequences": 1706,
+  "TRAIN_feature_transcript_mappings_verified": 1500,
+  "cached_landmark_feature_recomputations": 1706,
+  "prediction_examples_independently_checked": 5469,
+  "files_with_scores_checked": 37,
+  "normalization_TRAIN_recompute_exact": true,
+  "input_files_hashed_before": 5198,
+  "input_bytes_hashed_before": 1451409089,
+  "selected_epoch": 12,
+  "stop_epoch": 14,
+  "tail_accumulation_issue": {
+    "microbatches_per_epoch": 375,
+    "optimizer_steps_per_epoch": 188,
+    "last_microbatch_examples": 4,
+    "actual_last_scale": 0.5,
+    "intended_last_scale_if_averaging_available_microbatches": 1.0,
+    "updates_with_half_scaled_tail_pct": 0.5319148936170213,
+    "effective_gradient_weight_shortfall_pct": 0.13333333333333333,
+    "primary_cause_proven": false
+  },
+  "elapsed_seconds": 26.297007100016344,
+  "model_forward_calls": 0,
+  "backward_calls": 0,
+  "optimizer_steps_executed": 0,
+  "GPU_calls": 0,
+  "TEST_data_opened": false
+}

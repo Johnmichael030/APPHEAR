@@ -1,0 +1,12 @@
+{
+  "TRAIN": 446,
+  "internal_eval": 51,
+  "compatible_eval": 24,
+  "support5_eval": 2,
+  "compatible_by_signer": {
+    "asllrp_dai_participant_2": 1,
+    "asllrp_dai_participant_3": 23
+  },
+  "status": "PARTIAL_TOO_SMALL_FOR_MULTI_SIGNER_TRANSFER_SCREEN",
+  "note": "Only24compatible records,23fromone signer; prefer the fullTRAIN guarded design for an exploratory pilot."
+}

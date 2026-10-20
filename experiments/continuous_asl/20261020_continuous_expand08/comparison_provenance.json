@@ -1,0 +1,18 @@
+{
+  "scope": "Post-fit comparison provenance clarification; no frozen evidence or model selection changed.",
+  "completed_comparison_path": "D:\\apphearv3claude\\AppHear-claude-s2-r3-eval-suite\\AppHear-claude-s2-r3-eval-suite\\experiments\\continuous_asl\\20261020_continuous_expand08\\comparison_dev.json",
+  "completed_comparison_sha256": "0a5db4d08392af37fda17d2c1a9bb15db29abff8ada7c9c1a2a70dccf26de692",
+  "current_comparator_path": "D:\\apphearv3claude\\AppHear-claude-s2-r3-eval-suite\\AppHear-claude-s2-r3-eval-suite\\experiments\\continuous_asl\\20261020_continuous_expand08\\tools\\compare_main.py",
+  "current_comparator_sha256": "f3b24b8e99824ad32a26e9274068fa570a2e1b0810b5f56c2ff515696735af8b",
+  "executed_comparator_hash_captured_at_start": false,
+  "clarification": "An additive final-epoch TRAIN diagnostic block and two summary fields were edited into compare_main.py after the completed process had loaded its earlier code. Those additions were not executed by that process. The completed comparison JSON remains unchanged; a rerun is guarded. The exact earlier source hash was not captured, so the current comparator hash must not be represented as its executed hash.",
+  "separate_final_train_diagnostic": {
+    "script": "tools/final_epoch_train_only.py",
+    "script_sha256": "d9186c247461257d199483054595c6661c238f205c9e6e8bfc11e9bfbb47cb6f",
+    "output": "last_checkpoint_train_diagnostic.json",
+    "output_sha256": "3a68350d30063dcb1ad005c5426dd17938eff67d30232a167476764911374b07",
+    "training_performed": false,
+    "dev_or_test_scored": false
+  },
+  "fitting_trainer_hash_unchanged": "bda4cd1f466a36ce75187bbcc4ae50884733f3f01dfc9cb7a597a346558a5fe8"
+}

@@ -1,0 +1,134 @@
+{
+  "schema": "apphear.continuous_asl.download_plan.v1",
+  "created_utc": "2026-10-19T16:02:57.608Z",
+  "scope": "Initial public documentation, annotations and index only; no TEST, no bulk RGB",
+  "allowed_hosts": [
+    "raw.githubusercontent.com",
+    "how2sign.github.io",
+    "www.bu.edu",
+    "bu.edu",
+    "drive.google.com",
+    "drive.usercontent.google.com",
+    "docs.google.com"
+  ],
+  "items": [
+    {
+      "id": "how2sign_script",
+      "url": "https://raw.githubusercontent.com/how2sign/how2sign-data/main/download_how2sign.sh",
+      "filename": "how2sign/download_how2sign.sh",
+      "kind": "text",
+      "split": "metadata",
+      "max_bytes": 65536,
+      "max_expanded_bytes": 0,
+      "annotation_type": "documentation",
+      "expected_bytes": null,
+      "sha256": null,
+      "authorization": "RESEARCH_METADATA_OR_INITIAL_SAMPLE"
+    },
+    {
+      "id": "how2sign_page",
+      "url": "https://how2sign.github.io/",
+      "filename": "how2sign/project.html",
+      "kind": "html",
+      "split": "metadata",
+      "max_bytes": 524288,
+      "max_expanded_bytes": 0,
+      "annotation_type": "documentation",
+      "expected_bytes": null,
+      "sha256": null,
+      "authorization": "RESEARCH_METADATA_OR_INITIAL_SAMPLE"
+    },
+    {
+      "id": "how2sign_train_translation",
+      "url": "https://drive.google.com/uc?export=download&id=1BWt2ASmOIUM8tWnCuRtl9AdQsp4zsjPN",
+      "filename": "how2sign/how2sign_realigned_train.csv",
+      "kind": "csv",
+      "split": "train",
+      "max_bytes": 8388608,
+      "max_expanded_bytes": 0,
+      "annotation_type": "english_translation",
+      "expected_bytes": null,
+      "sha256": null,
+      "authorization": "RESEARCH_METADATA_OR_INITIAL_SAMPLE"
+    },
+    {
+      "id": "how2sign_val_translation",
+      "url": "https://drive.google.com/uc?export=download&id=1hcPqXfHIHHGHUQYfT3eFARTIgi0M1C9_",
+      "filename": "how2sign/how2sign_realigned_val.csv",
+      "kind": "csv",
+      "split": "val",
+      "max_bytes": 1048576,
+      "max_expanded_bytes": 0,
+      "annotation_type": "english_translation",
+      "expected_bytes": null,
+      "sha256": null,
+      "authorization": "RESEARCH_METADATA_OR_INITIAL_SAMPLE"
+    },
+    {
+      "id": "ncslgr_documentation",
+      "url": "https://www.bu.edu/asllrp/ncslgr-for-download/download-info.html",
+      "filename": "ncslgr/download-info.html",
+      "kind": "html",
+      "split": "metadata",
+      "max_bytes": 524288,
+      "max_expanded_bytes": 0,
+      "annotation_type": "documentation",
+      "expected_bytes": null,
+      "sha256": null,
+      "authorization": "RESEARCH_METADATA_OR_INITIAL_SAMPLE"
+    },
+    {
+      "id": "ncslgr_terms",
+      "url": "https://www.bu.edu/asllrp/dai-terms.html",
+      "filename": "ncslgr/terms.html",
+      "kind": "html",
+      "split": "metadata",
+      "max_bytes": 262144,
+      "max_expanded_bytes": 0,
+      "annotation_type": "terms",
+      "expected_bytes": null,
+      "sha256": null,
+      "authorization": "RESEARCH_METADATA_OR_INITIAL_SAMPLE"
+    },
+    {
+      "id": "ncslgr_video_index",
+      "url": "https://www.bu.edu/asllrp/ncslgr-for-download/video_index-20120129.zip",
+      "filename": "ncslgr/video_index-20120129.zip",
+      "kind": "zip",
+      "split": "metadata",
+      "max_bytes": 4194304,
+      "max_expanded_bytes": 67108864,
+      "annotation_type": "video_index",
+      "expected_bytes": null,
+      "sha256": null,
+      "authorization": "RESEARCH_METADATA_OR_INITIAL_SAMPLE"
+    },
+    {
+      "id": "ncslgr_dtd",
+      "url": "https://www.bu.edu/asllrp/ncslgr-for-download/old-dtd.xml",
+      "filename": "ncslgr/old-dtd.xml",
+      "kind": "xml",
+      "split": "metadata",
+      "max_bytes": 262144,
+      "max_expanded_bytes": 0,
+      "annotation_type": "annotation_schema",
+      "expected_bytes": null,
+      "sha256": null,
+      "authorization": "RESEARCH_METADATA_OR_INITIAL_SAMPLE"
+    },
+    {
+      "id": "ncslgr_signstream_archive",
+      "url": "https://www.bu.edu/asllrp/ncslgr-for-download/Archive-ssdb-2-2-12.zip",
+      "filename": "ncslgr/Archive-ssdb-2-2-12.zip",
+      "kind": "zip",
+      "split": "metadata",
+      "max_bytes": 16777216,
+      "max_expanded_bytes": 67108864,
+      "annotation_type": "signstream_annotation_archive",
+      "expected_bytes": null,
+      "sha256": null,
+      "authorization": "RESEARCH_METADATA_OR_INITIAL_SAMPLE"
+    }
+  ]
+}
+

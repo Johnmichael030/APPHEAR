@@ -1,0 +1,65 @@
+{
+  "production_current_RecognitionV2": {
+    "status": "BLOCKED",
+    "reason": "new available data are legacy258, current WORD expects350 plus mask; no compatible current-path held-out benchmark"
+  },
+  "isolated_legacy_INT8": {
+    "top1": 0.6427696078431373,
+    "macro_f1": 0.6300688939975758,
+    "rows": 3264,
+    "model_path": "D:\\derived\\derived\\apphear3\\runs\\tcn_streaming_conversational_fps_v30\\streaming.tflite",
+    "model_sha256": "2763ce1de129af46e966dcdc6582beca6fbd0dba8252c5ad24314869a6cdcc5d",
+    "latency_p50_ms": 1.2992499978281558,
+    "latency_p95_ms": 1.9728999890503465
+  },
+  "isolated_legacy_FP32": {
+    "top1": 0.6513480392156863,
+    "macro_f1": 0.6412252510871352,
+    "rows": 3264,
+    "per_signer": {
+      "P12": {
+        "rows": 276,
+        "top1": 0.5144927536231884
+      },
+      "P21": {
+        "rows": 968,
+        "top1": 0.65599173553719
+      },
+      "P26": {
+        "rows": 932,
+        "top1": 0.6663090128755365
+      },
+      "P39": {
+        "rows": 976,
+        "top1": 0.7090163934426229
+      },
+      "P5": {
+        "rows": 112,
+        "top1": 0.32142857142857145
+      }
+    }
+  },
+  "continuous_prior_reproduced": {
+    "gloss_wer": 0.88,
+    "substitutions": 6,
+    "deletions": 16,
+    "insertions": 0,
+    "reference_tokens": 25,
+    "hypothesis_tokens": 9,
+    "checkpoint": {
+      "path": "checkpoints\\epoch_008.pt",
+      "sha256": "278f616ab5b6f9abe8584c124c542c221ff8e5ac641126eeddbff195cbc78180",
+      "epoch": 8
+    }
+  },
+  "frozen_CTC_on_native_cadence": {
+    "gloss_wer": 0.92,
+    "substitutions": 7,
+    "deletions": 16,
+    "insertions": 0,
+    "reference_tokens": 25,
+    "hypothesis_tokens": 9
+  },
+  "test_data_used": false,
+  "software_environment": "D:\\apphearv3claude\\AppHear-claude-s2-r3-eval-suite\\AppHear-claude-s2-r3-eval-suite\\experiments\\continuous_asl\\20261019T155428Z_cslr01\\requirements.observed.txt"
+}

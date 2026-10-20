@@ -1,0 +1,37 @@
+{
+  "status": "PASS",
+  "reason": "PREDECLARED_LEARNING_GATE_PASS",
+  "compact_control_learned": true,
+  "complete_epochs": 30,
+  "last_periodic_evaluated_epoch": 30,
+  "optimizer_steps": 360,
+  "initial_WER": 4.138888888888889,
+  "final_WER": 0.12037037037037036,
+  "initial_CTC": 42.03894211848577,
+  "final_CTC": 0.5678139443043619,
+  "final_blank_fraction": 0.8225255972696246,
+  "final_prediction_reference_length_ratio": 0.9378306878306878,
+  "final_token_diversity": 373,
+  "family_WER": {
+    "asllrp_dai_participant_2::2013-06-27": 0.14893617021276595,
+    "asllrp_dai_participant_3::2011-12-01": 0.12745098039215685,
+    "asllrp_dai_participant_3::2011-12-08": 0.11176470588235295,
+    "asllrp_dai_participant_3::2012-01-27": 0.06153846153846154,
+    "asllrp_dai_participant_3::2012-02-09": 0.06306306306306306,
+    "asllrp_dai_participant_5::UNRESOLVED_ALL_UNDATED_MASTERS": 0.20134228187919462
+  },
+  "rare_bearing_WER": 0.1388888888888889,
+  "upper_input_quartile_WER": 0.17721518987341772,
+  "elapsed_including_initial_and_final_scoring_seconds": 15.724792800028808,
+  "peak_allocated_bytes": 92356608,
+  "peak_reserved_bytes": 117440512,
+  "checkpoint": {
+    "path": "checkpoints\\epoch_030.pt",
+    "sha256": "2ff4b2aa7231c4d3d5cf90dded03dcff224e8c311b5dc91893aecf991f5c4db7",
+    "epoch": 30,
+    "optimizer_steps": 360
+  },
+  "full_training_started": false,
+  "TEST_used": false,
+  "promote": false
+}

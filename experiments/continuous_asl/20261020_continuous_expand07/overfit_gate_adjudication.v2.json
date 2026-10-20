@@ -1,0 +1,12 @@
+{
+  "v1_status": "NUMERICAL_LEARNABILITY_PASSED_BUT_INVALID_FOR_ELIGIBILITY_GATE",
+  "reason": "Global inclusive-master-frame audit found overlap in one selected pilot utterance. No labels or boundaries edited.",
+  "excluded_diagnostic_ids": [
+    "asllrp3_d79c8f0fe46bdd48"
+  ],
+  "original_result_sha256": "0f4eb9444b1f15e097653309e67254184e1902b7b3bb002ee482f826762dc634",
+  "authoritative_main_gate": "overfit_diagnostic_v2/result.json must PASS",
+  "v2_code_sha256": "07816f8bbfaea2c434651ae6710a930c905fb770e500327e7c04bc3411d38d20",
+  "source_code_sha256": "0ebe43888194f0e574b3d7f44c271faf2a7c5e67d7aeb94f83911909dd4f24a3",
+  "changes": "New output directory and eligible source-diverse ASLLRP replacement; identical model/normalization/optimizer/bounds/criteria."
+}

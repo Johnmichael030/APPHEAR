@@ -1,0 +1,52 @@
+{
+  "schema": "apphear.continuous_asl.metadata_quality.v1",
+  "how2sign": {
+    "splits": {
+      "train": {
+        "status": "METADATA_VALIDATED",
+        "rows": 31165,
+        "source_videos": 2192,
+        "duplicate_sentence_names": 0,
+        "invalid_timestamps": 0,
+        "empty_translations": 0,
+        "annotated_seconds": 213590.64999999976,
+        "sha256": "67a8f4fb6dc066f38006b89ac84c27a4b05d7fa07d5e6952f997042724d7a847",
+        "annotation_type": "ENGLISH_TRANSLATION_NOT_GLOSS",
+        "video_pairing_verified": false,
+        "gloss_ctc_eligible": false
+      },
+      "val": {
+        "status": "METADATA_VALIDATED",
+        "rows": 1741,
+        "source_videos": 115,
+        "duplicate_sentence_names": 0,
+        "invalid_timestamps": 0,
+        "empty_translations": 0,
+        "annotated_seconds": 12039.790000000023,
+        "sha256": "1bf5d57ce90d61571776d06a179335d99648d8c94fc22b327d2abb328d26137c",
+        "annotation_type": "ENGLISH_TRANSLATION_NOT_GLOSS",
+        "video_pairing_verified": false,
+        "gloss_ctc_eligible": false
+      }
+    },
+    "train_val_source_video_overlap": 0,
+    "payload_test_accessed": false,
+    "authentic_gloss_download_found": false
+  },
+  "ncslgr": {
+    "rows": 5219,
+    "collections": 38,
+    "unique_video_urls": 2612,
+    "eligible_lexical_utterances": 37,
+    "rejection_rows": {
+      "video_reused_across_utterances": 1046,
+      "other_camera": 3337,
+      "complex_or_fingerspelled_gloss": 799
+    },
+    "index_sha256": "8b1dfa8f58da82272c475263f65f30f9d41be03bf523fc70d6e5820d17e7cc63",
+    "signer_independent_split_possible_from_index_alone": false,
+    "xml_download_requires_free_dai_account": true,
+    "old_signstream_archive_safe_extraction": "BLOCKED_WINDOWS_TRAILING_SPACE_NAMES",
+    "restrictions": "PRIVATE_NONCOMMERCIAL_RESEARCH; NO REDISTRIBUTION OR MODEL_DISTRIBUTION_RIGHTS_ASSERTED"
+  }
+}

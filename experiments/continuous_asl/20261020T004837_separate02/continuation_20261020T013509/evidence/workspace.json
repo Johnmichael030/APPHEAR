@@ -1,0 +1,39 @@
+{
+  "utc": "2026-10-19T17:37:18.799571+00:00",
+  "repository": "D:\\apphearv3claude\\AppHear-claude-s2-r3-eval-suite\\AppHear-claude-s2-r3-eval-suite",
+  "run": "D:\\apphearv3claude\\AppHear-claude-s2-r3-eval-suite\\AppHear-claude-s2-r3-eval-suite\\experiments\\continuous_asl\\20261020T004837_separate02",
+  "git": {
+    "command": [
+      "git",
+      "status",
+      "--short"
+    ],
+    "returncode": 128,
+    "stdout": "",
+    "stderr": "fatal: not a git repository (or any of the parent directories): .git"
+  },
+  "gpu": {
+    "command": [
+      "nvidia-smi",
+      "--query-gpu=name,memory.total,memory.used,utilization.gpu",
+      "--format=csv,noheader"
+    ],
+    "returncode": 0,
+    "stdout": "NVIDIA GeForce RTX 3050 Laptop GPU, 4096 MiB, 0 MiB, 0 %",
+    "stderr": ""
+  },
+  "processes": {
+    "command": [
+      "powershell",
+      "-NoProfile",
+      "-Command",
+      "Get-Process | Where-Object {$_.ProcessName -match 'python|ffmpeg|curl|wget'} | Select-Object Id,ProcessName,CPU,Path | ConvertTo-Json"
+    ],
+    "returncode": 0,
+    "stdout": "[\n    {\n        \"Id\":  2592,\n        \"ProcessName\":  \"python\",\n        \"CPU\":  0.34375,\n        \"Path\":  \"D:\\\\apphearv3claude\\\\AppHear-claude-s2-r3-eval-suite\\\\AppHear-claude-s2-r3-eval-suite\\\\experiments\\\\continuous_asl\\\\20261019T155428Z_cslr01\\\\runtime\\\\python\\\\cpython-3.11.11-windows-x86_64-none\\\\python.exe\"\n    },\n    {\n        \"Id\":  34768,\n        \"ProcessName\":  \"python\",\n        \"CPU\":  0,\n        \"Path\":  \"D:\\\\apphearv3claude\\\\AppHear-claude-s2-r3-eval-suite\\\\AppHear-claude-s2-r3-eval-suite\\\\experiments\\\\continuous_asl\\\\20261019T155428Z_cslr01\\\\runtime\\\\venv\\\\Scripts\\\\python.exe\"\n    }\n]",
+    "stderr": ""
+  },
+  "disk_free_bytes": 173593829376,
+  "cim_initial_attempt": "Get-CimInstance Win32_Process: Access to a CIM resource was not available to the client; Get-Process fallback used",
+  "actions": "No training, download, test-set evaluation, production or Android action."
+}

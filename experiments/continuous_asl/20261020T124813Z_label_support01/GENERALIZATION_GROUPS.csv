@@ -1,0 +1,5 @@
+﻿support_universe,group,substitutions,deletions,insertions,reference_tokens,WER,utterances
+64_effective_TRAIN,all_labels_seen,53,24,1,77,1.0129870129870129,19
+64_effective_TRAIN,has_unseen_label,948,2127,1,3159,0.9737258626147515,394
+1706_parent_TRAIN,all_labels_seen,463,748,2,1245,0.97429718875502,194
+1706_parent_TRAIN,has_unseen_label,538,1403,0,1991,0.9748869914615771,219

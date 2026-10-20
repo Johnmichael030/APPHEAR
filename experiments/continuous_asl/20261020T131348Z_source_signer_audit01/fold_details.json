@@ -1,0 +1,381 @@
+{
+  "A_pooled_recording_holdout": {
+    "train_signers": [
+      "asllrp_dai_participant_2",
+      "asllrp_dai_participant_3",
+      "asllrp_dai_participant_5"
+    ],
+    "eval_signers": [
+      "asllrp_dai_participant_2",
+      "asllrp_dai_participant_3",
+      "asllrp_dai_participant_5"
+    ],
+    "train_sources": [
+      "1-Introduction-SD.mov",
+      "10-Conclusion.mov",
+      "2-Voice-Identity.mov",
+      "2011-12-01_0043-cam1-for-ss3.mp4",
+      "2011-12-08_0044-cam1-for-ss3.mp4",
+      "2011-12-08_0046-cam1-for-ss3.mp4",
+      "2012-01-27_0050-cam1-for-ss3.mp4",
+      "2012-01-27_0051-cam1-for-ss3.mp4",
+      "2012-01-27_0052-cam1-for-ss3.mp4",
+      "2012-01-27_0053-cam1-for-ss3.mp4",
+      "2012-01-27_0055-cam1-for-ss3.mp4",
+      "2012-01-27_0056-cam1-for-ss3.mp4",
+      "2012-02-09_0057-cam1-for-ss3.mp4",
+      "2012-02-09_0058-cam1-for-ss3.mp4",
+      "2012-02-09_0059-cam1-for-ss3.mp4",
+      "2012-02-09_0060-cam1-for-ss3.mp4",
+      "2012-02-09_0061-cam1-for-ss3.mp4",
+      "2012-02-14_0062-cam1-for-ss3.mp4",
+      "2012-02-14_0063-cam1-for-ss3.mp4",
+      "2012-02-14_0065-cam1-for-ss3.mp4",
+      "2012-02-14_0066-cam1-for-ss3.mp4",
+      "2013-06-25_CB_0106-cam1-for-ss3.mp4",
+      "2013-06-27_CB_0107-cam1-for-ss3.mp4",
+      "2013-06-27_CB_0108-cam1-for-ss3.mp4",
+      "2013-06-27_CB_0110-cam1-for-ss3.mp4",
+      "2013-06-27_CB_0111-cam1-for-ss3.mp4",
+      "2013-06-27_CB_0112-cam1-for-ss3.mp4",
+      "2013-06-27_CB_0113-cam1-for-ss3.mp4",
+      "2013-06-27_CB_0114-cam1-for-ss3.mp4",
+      "2013-06-27_CB_0115-cam1-for-ss3.mp4",
+      "3-Voice-Life.mov",
+      "4-Deaf-Speech.mov",
+      "5-Deaf-Grunts.mov",
+      "6-Control-of-sound-intro.mov",
+      "8-Control-of-sound-places.mov",
+      "9-Sensory-Politics.mov"
+    ],
+    "eval_sources": [
+      "2011-12-08_0045-cam1-for-ss3.mp4",
+      "2013-06-27_CB_0109-cam1-for-ss3.mp4",
+      "7-Social-Msg.mov"
+    ],
+    "overlap": {
+      "sample_id": [],
+      "source_group": [],
+      "collection": [],
+      "raw_sha256": [],
+      "decoded_pixel_sha256": []
+    },
+    "compatible_eval_by_signer": {
+      "asllrp_dai_participant_3": 16,
+      "asllrp_dai_participant_2": 31,
+      "asllrp_dai_participant_5": 9
+    },
+    "support5_eval_by_signer": {
+      "asllrp_dai_participant_3": 4,
+      "asllrp_dai_participant_2": 9,
+      "asllrp_dai_participant_5": 1
+    }
+  },
+  "A_within_signer_2": {
+    "train_signers": [
+      "asllrp_dai_participant_2"
+    ],
+    "eval_signers": [
+      "asllrp_dai_participant_2"
+    ],
+    "train_sources": [
+      "2013-06-25_CB_0106-cam1-for-ss3.mp4",
+      "2013-06-27_CB_0107-cam1-for-ss3.mp4",
+      "2013-06-27_CB_0108-cam1-for-ss3.mp4",
+      "2013-06-27_CB_0110-cam1-for-ss3.mp4",
+      "2013-06-27_CB_0111-cam1-for-ss3.mp4",
+      "2013-06-27_CB_0112-cam1-for-ss3.mp4",
+      "2013-06-27_CB_0113-cam1-for-ss3.mp4",
+      "2013-06-27_CB_0114-cam1-for-ss3.mp4",
+      "2013-06-27_CB_0115-cam1-for-ss3.mp4"
+    ],
+    "eval_sources": [
+      "2013-06-27_CB_0109-cam1-for-ss3.mp4"
+    ],
+    "overlap": {
+      "sample_id": [],
+      "source_group": [],
+      "collection": [],
+      "raw_sha256": [],
+      "decoded_pixel_sha256": []
+    },
+    "compatible_eval_by_signer": {
+      "asllrp_dai_participant_2": 13
+    },
+    "support5_eval_by_signer": {
+      "asllrp_dai_participant_2": 2
+    }
+  },
+  "B_signer_2": {
+    "train_signers": [
+      "asllrp_dai_participant_3",
+      "asllrp_dai_participant_5"
+    ],
+    "eval_signers": [
+      "asllrp_dai_participant_2"
+    ],
+    "train_sources": [
+      "1-Introduction-SD.mov",
+      "10-Conclusion.mov",
+      "2-Voice-Identity.mov",
+      "2011-12-01_0043-cam1-for-ss3.mp4",
+      "2011-12-08_0044-cam1-for-ss3.mp4",
+      "2011-12-08_0045-cam1-for-ss3.mp4",
+      "2011-12-08_0046-cam1-for-ss3.mp4",
+      "2012-01-27_0050-cam1-for-ss3.mp4",
+      "2012-01-27_0051-cam1-for-ss3.mp4",
+      "2012-01-27_0052-cam1-for-ss3.mp4",
+      "2012-01-27_0053-cam1-for-ss3.mp4",
+      "2012-01-27_0055-cam1-for-ss3.mp4",
+      "2012-01-27_0056-cam1-for-ss3.mp4",
+      "2012-02-09_0057-cam1-for-ss3.mp4",
+      "2012-02-09_0058-cam1-for-ss3.mp4",
+      "2012-02-09_0059-cam1-for-ss3.mp4",
+      "2012-02-09_0060-cam1-for-ss3.mp4",
+      "2012-02-09_0061-cam1-for-ss3.mp4",
+      "2012-02-14_0062-cam1-for-ss3.mp4",
+      "2012-02-14_0063-cam1-for-ss3.mp4",
+      "2012-02-14_0065-cam1-for-ss3.mp4",
+      "2012-02-14_0066-cam1-for-ss3.mp4",
+      "3-Voice-Life.mov",
+      "4-Deaf-Speech.mov",
+      "5-Deaf-Grunts.mov",
+      "6-Control-of-sound-intro.mov",
+      "7-Social-Msg.mov",
+      "8-Control-of-sound-places.mov",
+      "9-Sensory-Politics.mov"
+    ],
+    "eval_sources": [
+      "2013-06-25_CB_0106-cam1-for-ss3.mp4",
+      "2013-06-27_CB_0107-cam1-for-ss3.mp4",
+      "2013-06-27_CB_0108-cam1-for-ss3.mp4",
+      "2013-06-27_CB_0109-cam1-for-ss3.mp4",
+      "2013-06-27_CB_0110-cam1-for-ss3.mp4",
+      "2013-06-27_CB_0111-cam1-for-ss3.mp4",
+      "2013-06-27_CB_0112-cam1-for-ss3.mp4",
+      "2013-06-27_CB_0113-cam1-for-ss3.mp4",
+      "2013-06-27_CB_0114-cam1-for-ss3.mp4",
+      "2013-06-27_CB_0115-cam1-for-ss3.mp4"
+    ],
+    "overlap": {
+      "sample_id": [],
+      "source_group": [],
+      "collection": [],
+      "raw_sha256": [],
+      "decoded_pixel_sha256": []
+    },
+    "compatible_eval_by_signer": {
+      "asllrp_dai_participant_2": 156
+    },
+    "support5_eval_by_signer": {
+      "asllrp_dai_participant_2": 38
+    }
+  },
+  "A_within_signer_3": {
+    "train_signers": [
+      "asllrp_dai_participant_3"
+    ],
+    "eval_signers": [
+      "asllrp_dai_participant_3"
+    ],
+    "train_sources": [
+      "2011-12-01_0043-cam1-for-ss3.mp4",
+      "2011-12-08_0044-cam1-for-ss3.mp4",
+      "2011-12-08_0046-cam1-for-ss3.mp4",
+      "2012-01-27_0050-cam1-for-ss3.mp4",
+      "2012-01-27_0051-cam1-for-ss3.mp4",
+      "2012-01-27_0052-cam1-for-ss3.mp4",
+      "2012-01-27_0053-cam1-for-ss3.mp4",
+      "2012-01-27_0055-cam1-for-ss3.mp4",
+      "2012-01-27_0056-cam1-for-ss3.mp4",
+      "2012-02-09_0057-cam1-for-ss3.mp4",
+      "2012-02-09_0058-cam1-for-ss3.mp4",
+      "2012-02-09_0059-cam1-for-ss3.mp4",
+      "2012-02-09_0060-cam1-for-ss3.mp4",
+      "2012-02-09_0061-cam1-for-ss3.mp4",
+      "2012-02-14_0062-cam1-for-ss3.mp4",
+      "2012-02-14_0063-cam1-for-ss3.mp4",
+      "2012-02-14_0065-cam1-for-ss3.mp4",
+      "2012-02-14_0066-cam1-for-ss3.mp4"
+    ],
+    "eval_sources": [
+      "2011-12-08_0045-cam1-for-ss3.mp4"
+    ],
+    "overlap": {
+      "sample_id": [],
+      "source_group": [],
+      "collection": [],
+      "raw_sha256": [],
+      "decoded_pixel_sha256": []
+    },
+    "compatible_eval_by_signer": {
+      "asllrp_dai_participant_3": 14
+    },
+    "support5_eval_by_signer": {
+      "asllrp_dai_participant_3": 3
+    }
+  },
+  "B_signer_3": {
+    "train_signers": [
+      "asllrp_dai_participant_2",
+      "asllrp_dai_participant_5"
+    ],
+    "eval_signers": [
+      "asllrp_dai_participant_3"
+    ],
+    "train_sources": [
+      "1-Introduction-SD.mov",
+      "10-Conclusion.mov",
+      "2-Voice-Identity.mov",
+      "2013-06-25_CB_0106-cam1-for-ss3.mp4",
+      "2013-06-27_CB_0107-cam1-for-ss3.mp4",
+      "2013-06-27_CB_0108-cam1-for-ss3.mp4",
+      "2013-06-27_CB_0109-cam1-for-ss3.mp4",
+      "2013-06-27_CB_0110-cam1-for-ss3.mp4",
+      "2013-06-27_CB_0111-cam1-for-ss3.mp4",
+      "2013-06-27_CB_0112-cam1-for-ss3.mp4",
+      "2013-06-27_CB_0113-cam1-for-ss3.mp4",
+      "2013-06-27_CB_0114-cam1-for-ss3.mp4",
+      "2013-06-27_CB_0115-cam1-for-ss3.mp4",
+      "3-Voice-Life.mov",
+      "4-Deaf-Speech.mov",
+      "5-Deaf-Grunts.mov",
+      "6-Control-of-sound-intro.mov",
+      "7-Social-Msg.mov",
+      "8-Control-of-sound-places.mov",
+      "9-Sensory-Politics.mov"
+    ],
+    "eval_sources": [
+      "2011-12-01_0043-cam1-for-ss3.mp4",
+      "2011-12-08_0044-cam1-for-ss3.mp4",
+      "2011-12-08_0045-cam1-for-ss3.mp4",
+      "2011-12-08_0046-cam1-for-ss3.mp4",
+      "2012-01-27_0050-cam1-for-ss3.mp4",
+      "2012-01-27_0051-cam1-for-ss3.mp4",
+      "2012-01-27_0052-cam1-for-ss3.mp4",
+      "2012-01-27_0053-cam1-for-ss3.mp4",
+      "2012-01-27_0055-cam1-for-ss3.mp4",
+      "2012-01-27_0056-cam1-for-ss3.mp4",
+      "2012-02-09_0057-cam1-for-ss3.mp4",
+      "2012-02-09_0058-cam1-for-ss3.mp4",
+      "2012-02-09_0059-cam1-for-ss3.mp4",
+      "2012-02-09_0060-cam1-for-ss3.mp4",
+      "2012-02-09_0061-cam1-for-ss3.mp4",
+      "2012-02-14_0062-cam1-for-ss3.mp4",
+      "2012-02-14_0063-cam1-for-ss3.mp4",
+      "2012-02-14_0065-cam1-for-ss3.mp4",
+      "2012-02-14_0066-cam1-for-ss3.mp4"
+    ],
+    "overlap": {
+      "sample_id": [],
+      "source_group": [],
+      "collection": [],
+      "raw_sha256": [],
+      "decoded_pixel_sha256": []
+    },
+    "compatible_eval_by_signer": {
+      "asllrp_dai_participant_3": 213
+    },
+    "support5_eval_by_signer": {
+      "asllrp_dai_participant_3": 66
+    }
+  },
+  "A_within_signer_5": {
+    "train_signers": [
+      "asllrp_dai_participant_5"
+    ],
+    "eval_signers": [
+      "asllrp_dai_participant_5"
+    ],
+    "train_sources": [
+      "1-Introduction-SD.mov",
+      "10-Conclusion.mov",
+      "2-Voice-Identity.mov",
+      "3-Voice-Life.mov",
+      "4-Deaf-Speech.mov",
+      "5-Deaf-Grunts.mov",
+      "6-Control-of-sound-intro.mov",
+      "8-Control-of-sound-places.mov",
+      "9-Sensory-Politics.mov"
+    ],
+    "eval_sources": [
+      "7-Social-Msg.mov"
+    ],
+    "overlap": {
+      "sample_id": [],
+      "source_group": [],
+      "collection": [],
+      "raw_sha256": [],
+      "decoded_pixel_sha256": []
+    },
+    "compatible_eval_by_signer": {
+      "asllrp_dai_participant_5": 6
+    },
+    "support5_eval_by_signer": {}
+  },
+  "B_signer_5": {
+    "train_signers": [
+      "asllrp_dai_participant_2",
+      "asllrp_dai_participant_3"
+    ],
+    "eval_signers": [
+      "asllrp_dai_participant_5"
+    ],
+    "train_sources": [
+      "2011-12-01_0043-cam1-for-ss3.mp4",
+      "2011-12-08_0044-cam1-for-ss3.mp4",
+      "2011-12-08_0045-cam1-for-ss3.mp4",
+      "2011-12-08_0046-cam1-for-ss3.mp4",
+      "2012-01-27_0050-cam1-for-ss3.mp4",
+      "2012-01-27_0051-cam1-for-ss3.mp4",
+      "2012-01-27_0052-cam1-for-ss3.mp4",
+      "2012-01-27_0053-cam1-for-ss3.mp4",
+      "2012-01-27_0055-cam1-for-ss3.mp4",
+      "2012-01-27_0056-cam1-for-ss3.mp4",
+      "2012-02-09_0057-cam1-for-ss3.mp4",
+      "2012-02-09_0058-cam1-for-ss3.mp4",
+      "2012-02-09_0059-cam1-for-ss3.mp4",
+      "2012-02-09_0060-cam1-for-ss3.mp4",
+      "2012-02-09_0061-cam1-for-ss3.mp4",
+      "2012-02-14_0062-cam1-for-ss3.mp4",
+      "2012-02-14_0063-cam1-for-ss3.mp4",
+      "2012-02-14_0065-cam1-for-ss3.mp4",
+      "2012-02-14_0066-cam1-for-ss3.mp4",
+      "2013-06-25_CB_0106-cam1-for-ss3.mp4",
+      "2013-06-27_CB_0107-cam1-for-ss3.mp4",
+      "2013-06-27_CB_0108-cam1-for-ss3.mp4",
+      "2013-06-27_CB_0109-cam1-for-ss3.mp4",
+      "2013-06-27_CB_0110-cam1-for-ss3.mp4",
+      "2013-06-27_CB_0111-cam1-for-ss3.mp4",
+      "2013-06-27_CB_0112-cam1-for-ss3.mp4",
+      "2013-06-27_CB_0113-cam1-for-ss3.mp4",
+      "2013-06-27_CB_0114-cam1-for-ss3.mp4",
+      "2013-06-27_CB_0115-cam1-for-ss3.mp4"
+    ],
+    "eval_sources": [
+      "1-Introduction-SD.mov",
+      "10-Conclusion.mov",
+      "2-Voice-Identity.mov",
+      "3-Voice-Life.mov",
+      "4-Deaf-Speech.mov",
+      "5-Deaf-Grunts.mov",
+      "6-Control-of-sound-intro.mov",
+      "7-Social-Msg.mov",
+      "8-Control-of-sound-places.mov",
+      "9-Sensory-Politics.mov"
+    ],
+    "overlap": {
+      "sample_id": [],
+      "source_group": [],
+      "collection": [],
+      "raw_sha256": [],
+      "decoded_pixel_sha256": []
+    },
+    "compatible_eval_by_signer": {
+      "asllrp_dai_participant_5": 13
+    },
+    "support5_eval_by_signer": {
+      "asllrp_dai_participant_5": 1
+    }
+  }
+}

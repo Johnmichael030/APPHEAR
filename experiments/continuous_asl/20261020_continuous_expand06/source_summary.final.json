@@ -1,0 +1,91 @@
+{
+  "canonical": {
+    "status": "PASS_VERIFIED_CANONICAL_REFERENCE_MANIFEST",
+    "created_utc": "2026-10-20T04:49:12.352661+00:00",
+    "unique_records": 3122,
+    "eligible_train_by_label_pool": {
+      "NCSLGR2_LITERAL_MAIN_GLOSS": 906,
+      "ASLLRP3_LITERAL_DOMINANT_REALIZED_OCCURRENCE": 2119
+    },
+    "eligible_train_total_across_separate_pools": 3025,
+    "canonical_role_counts": {
+      "eligible_train": 3025,
+      "reserved_test": 17,
+      "quarantine": 71,
+      "fixed_dev": 9
+    },
+    "stage_counts": {
+      "prior_verified_utterances": 552,
+      "new_ncslgr_annotation_candidates": 627,
+      "new_ncslgr_downloaded_media_files": 232,
+      "new_ncslgr_verified_feature_ready_utterances": 451,
+      "ASLLRP_annotation_candidates": 2126,
+      "ASLLRP_downloaded_unique_media_files": 2126,
+      "ASLLRP_verified_annotation_media_joins": 2126,
+      "ASLLRP_decoded_with_saved_full_decode_evidence": 2121,
+      "ASLLRP_feature_and_CTC_ready_before_global_exclusions": 2121,
+      "ASLLRP_training_eligible_after_all_checks": 2119,
+      "new_ncslgr_media_fully_decoded_with_saved_evidence": 232,
+      "unique_TRAIN_consumed_in_main": 2119,
+      "unique_TRAIN_consumed_in_906pilot": 906,
+      "unique_eligible_TRAIN_consumed_union_in_906pilot_and_main": 3025,
+      "invalid_v1_diagnostic_only_consumed_not_counted": [
+        "asllrp3_d79c8f0fe46bdd48"
+      ]
+    },
+    "rejection_counts": {
+      "PUBLISHER_MASTER_FRAME_UTTERANCE_OVERLAP": 6,
+      "PUBLISHER_INCLUSIVE_FRAME_SPAN_MISMATCH:expected=100:actual=99": 1
+    },
+    "manifest_sha256": "b101dc42fd9cb61db8a377d66f07064dd141c6bae732e44958b60b50361c778a",
+    "script_sha256": "2c1bd90086e4ced6bf614fc48a4e97372195978678bac062f34d95f10bfa49ed",
+    "minimum_target": 2000,
+    "stretch_target": 5000,
+    "largest_single_label_pool": 2119,
+    "single_pool_minimum_shortfall": 0,
+    "single_pool_stretch_shortfall": 2881,
+    "label_scope": "Distinct literal publisher annotation conventions and dominant-hand scopes stay separate; no English-as-gloss or isolated-sign relabeling.",
+    "duplicate_methods": [
+      "stable dataset/collection/utterance identity",
+      "exact raw SHA256",
+      "full decoded BGR pixel SHA256 for distinct movies",
+      "same-source annotation-aware nonoverlapping utterance coordinates",
+      "selected-frame content hashes for timed slices"
+    ],
+    "duplicate_limitations": "No exhaustive perceptual re-encoding or ASL-semantic duplicate detector; no alternate views counted. Different source recordings with the same gloss sentence remain distinct real performances.",
+    "signer_independent": false,
+    "original9dev_preserved": true,
+    "reserved17test_untouched": true,
+    "production_changed": false
+  },
+  "stage_counts": {
+    "prior_verified_utterances": 552,
+    "new_ncslgr_annotation_candidates": 627,
+    "new_ncslgr_downloaded_media_files": 232,
+    "new_ncslgr_verified_feature_ready_utterances": 451,
+    "ASLLRP_annotation_candidates": 2126,
+    "ASLLRP_downloaded_unique_media_files": 2126,
+    "ASLLRP_verified_annotation_media_joins": 2126,
+    "ASLLRP_decoded_with_saved_full_decode_evidence": 2121,
+    "ASLLRP_feature_and_CTC_ready_before_global_exclusions": 2121,
+    "ASLLRP_training_eligible_after_all_checks": 2119,
+    "new_ncslgr_media_fully_decoded_with_saved_evidence": 232,
+    "unique_TRAIN_consumed_in_main": 2119,
+    "unique_TRAIN_consumed_in_906pilot": 906,
+    "unique_eligible_TRAIN_consumed_union_in_906pilot_and_main": 3025,
+    "invalid_v1_diagnostic_only_consumed_not_counted": [
+      "asllrp3_d79c8f0fe46bdd48"
+    ]
+  },
+  "budget": {
+    "measured_local_acquired_payload_bytes_including_prior_How2Sign": 4052597224,
+    "authorized_cap_bytes": 107374182400,
+    "remaining_cap_bytes": 103321585176,
+    "expand06_unique_download_urls": 235,
+    "expand06_download_bytes": 1958271126,
+    "extraction_not_recounted_as_network_download": true,
+    "free_disk_bytes": 167456550912,
+    "scope": "Downloaded payloads/receipts; excludes request headers, network overhead and local derived/extracted copies."
+  },
+  "all_sources_local_no_redistribution": true
+}

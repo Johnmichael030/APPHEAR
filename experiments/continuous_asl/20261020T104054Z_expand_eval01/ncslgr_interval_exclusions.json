@@ -1,0 +1,24 @@
+{
+  "overlap_pairs": [
+    {
+      "source_url": "https://csr.bu.edu/asl/private/downloads/2001_9_19/master/ben_story_441_small_0.mov",
+      "left_id": "ncslgr_317b2308951bb8c9",
+      "right_id": "ncslgr_c05657ce9786e073",
+      "left_ms": [
+        26900,
+        29033
+      ],
+      "right_ms": [
+        29000,
+        31933
+      ],
+      "reason": "REJECT_BOTH_OVERLAPPING_UTTERANCES_NO_TRIMMING"
+    }
+  ],
+  "excluded_ids": [
+    "ncslgr_317b2308951bb8c9",
+    "ncslgr_c05657ce9786e073"
+  ],
+  "prior_445_exclusion_preserved": true,
+  "frames_or_labels_edited": false
+}

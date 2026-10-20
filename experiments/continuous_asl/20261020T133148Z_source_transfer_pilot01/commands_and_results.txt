@@ -1,0 +1,24 @@
+Initial existing integrity verification (executed before preparation):
+& 'D:\apphearv3claude\AppHear-claude-s2-r3-eval-suite\AppHear-claude-s2-r3-eval-suite\experiments\continuous_asl\20261019T155428Z_cslr01\runtime\venv\Scripts\python.exe' -B 'D:\apphearv3claude\AppHear-claude-s2-r3-eval-suite\AppHear-claude-s2-r3-eval-suite\experiments\continuous_asl\20261020T131348Z_source_signer_audit01\verify.py'
+PASS46source-design artifacts;65label-support artifacts;46prior diagnosis artifacts;1061continuation artifacts;20745protectedmetadata;3121eligible preserved.
+
+Exactly one authorized training command:
+& 'D:\apphearv3claude\AppHear-claude-s2-r3-eval-suite\AppHear-claude-s2-r3-eval-suite\experiments\continuous_asl\20261019T155428Z_cslr01\runtime\venv\Scripts\python.exe' -B 'D:\apphearv3claude\AppHear-claude-s2-r3-eval-suite\AppHear-claude-s2-r3-eval-suite\experiments\continuous_asl\20261020T133148Z_source_transfer_pilot01\train.py'
+Output training_console.txt; exit0; wrapper114.268149s; 14completeepochs; NO_CREDIBLE_PRIMARY_GAIN.
+Config:config.json; exact sourcecopy:fold_manifest.json; resolvedmanifest:resolved_manifest.json; vocab:vocabulary.json; init:initialization.json/checkpoints/initialization.pt.
+No pretrained recognition checkpoint was read for fitting. Only this run's selected checkpoint was reloaded for validation. No extra seeds/fits/acquisition/TESTinference.
+FoldSHA:87442a6f1241860e369a5c8f0768d583b3a4058f5a9ad03dcc135532c419c72f
+VocabSHA:365b44d435c9def2bba6e0f347155c72bf2ca001bd365d5b10f55dbe91174715
+ConfigSHA:75ea1f17e277894195a4f3a1370343e5d579ffd31ffcc40e9f52d3b459aa08ed
+InitializationSHA:2f0202eb7c24ef5cde79e6d8d4d9f5dc34831fac6091aeb42aa6dc4dc59b6ef2
+SelectedcheckpointSHA:e2a6e0046bca4a3f97f33f023dc7346dd9d6226e19e9bd855357a00c8f1579bf
+
+Finalize:
+& 'D:\apphearv3claude\AppHear-claude-s2-r3-eval-suite\AppHear-claude-s2-r3-eval-suite\experiments\continuous_asl\20261019T155428Z_cslr01\runtime\venv\Scripts\python.exe' -B 'D:\apphearv3claude\AppHear-claude-s2-r3-eval-suite\AppHear-claude-s2-r3-eval-suite\experiments\continuous_asl\20261020T133148Z_source_transfer_pilot01\finish.py'
+
+POST-RUN READ-ONLY CHECK (executed after closure):
+& 'D:\apphearv3claude\AppHear-claude-s2-r3-eval-suite\AppHear-claude-s2-r3-eval-suite\experiments\continuous_asl\20261019T155428Z_cslr01\runtime\venv\Scripts\python.exe' -B 'D:\apphearv3claude\AppHear-claude-s2-r3-eval-suite\AppHear-claude-s2-r3-eval-suite\experiments\continuous_asl\20261020T133148Z_source_transfer_pilot01\verify.py'
+It verifies new control/checkpoint/artifact hashes and runs the existing design verification chain; no training, model inference or TESTscoring.
+
+Next action: Further training is not justified by this pilot. The TRAIN-learning screen failed, so poor held-out WER is inconclusive as a source-transfer diagnosis. Do not attribute the failure to recording or signer effects. Review existing feature/label alignment and the optimization/representation limitation before another fit; no automatic continuation is scheduled.
+Do not rerun train.py: it rejects existingconfig. Any further fit needs a new directory and authorization. All frozen assets, manifests, checkpoints, exclusions and test results remain protected. No APK or production integration changes.

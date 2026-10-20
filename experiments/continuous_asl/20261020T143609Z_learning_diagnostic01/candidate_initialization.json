@@ -1,0 +1,7 @@
+{
+  "path": "candidate_initialization.pt",
+  "sha256": "eeae3bf08f9ae3e90e22d6114e8c75a4b128e8740f3f934163072b5ebb5cc78b",
+  "epoch": 0,
+  "fresh": true,
+  "trained_weights_reused": false
+}

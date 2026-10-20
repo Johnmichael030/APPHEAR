@@ -1,0 +1,11 @@
+# Pilot package plan
+
+Scope: additive offline intake/validation tooling alongside the frozen research run. This prepares S0 capture, raw observation, S4/F feature compatibility and annotation joins; it does not implement a model, capture participants or alter Android/runtime behavior. The user's six requested deliverables authorize this package.
+
+Definitions: a prompt is an elicitation instruction, not a reference gloss; consent means a human-established permission record, not a generated checkbox; a sequence has reviewed source-time boundaries; signer independence requires a human identity/exposure audit, not different pseudonyms. Synthetic PASS concerns software checks only.
+
+Decisions: pin existing raw.v1, recognition.v2 width350/max96 and segmentation_features.v1 width378; reuse RawSequence validation and existing feature derivation/temporal selection. Validate permission metadata before any participant artifact read. Real storage must be outside this repository. Both pilot roles are evaluation-only. Reject duplicate JSON keys/timestamps, inconsistent source indices, missing joins, out-of-range/overlapping intervals, schema/hash mismatches and signer overlap. Do not sort, interpolate, relabel, pad incompatible data or repair files. Existing temporal_view_v2's specified96-row padding is a checked contract, not an invalid-input repair.
+
+Deferred: actual consent, participant qualification, identity audit, capture, expert gloss/timing review, current-phone capture/log availability, Android parity and live latency. None may be fabricated; real readiness stays blocked until evidence exists. No new feature-vector schema or model/decoder threshold is introduced. The pilot envelope/NPZ packaging has its own version; numerical feature recipes remain existing repository code. Registry notes live in this additive package because the user requires original context and frozen artifacts preserved.
+
+Build: document protocol/rights/schema; implement strict intake validator; generate synthetic fixtures using the existing recognition-v2 unit fixture; test rejection mutations and permission-before-read; produce synthetic acceptance evidence and a real-data BLOCKED report; hash new artifacts and verify protected source/report metadata unchanged. No broad-suite, archive, training or frozen-test rerun.

@@ -1,0 +1,458 @@
+[
+  {
+    "path": "D:\\apphearv3claude\\AppHear-claude-s2-r3-eval-suite\\AppHear-claude-s2-r3-eval-suite\\experiments\\continuous_asl\\20261020T133148Z_source_transfer_pilot01\\artifact_hashes.sha256",
+    "bytes": 7058,
+    "last_write_utc": "2026-10-20T13:38:27.4367004Z",
+    "sha256": "619035f3c021bdc02b188cd0340f1236d5566baf90926facadd5110d93d91e9b"
+  },
+  {
+    "path": "D:\\apphearv3claude\\AppHear-claude-s2-r3-eval-suite\\AppHear-claude-s2-r3-eval-suite\\experiments\\continuous_asl\\20261020T133148Z_source_transfer_pilot01\\checkpoints\\epoch_001.pt",
+    "bytes": 2351435,
+    "last_write_utc": "2026-10-20T13:35:32.0377842Z",
+    "sha256": "6bef183c26fe5bd17fc3d96a4ebd983099efbc921aa04c047dc4ad8d902a2741"
+  },
+  {
+    "path": "D:\\apphearv3claude\\AppHear-claude-s2-r3-eval-suite\\AppHear-claude-s2-r3-eval-suite\\experiments\\continuous_asl\\20261020T133148Z_source_transfer_pilot01\\checkpoints\\epoch_002.pt",
+    "bytes": 2351499,
+    "last_write_utc": "2026-10-20T13:35:38.7626635Z",
+    "sha256": "3315c463e6b7043663a562314c8d2f88305f56f7fbda40faefc185073fe1923c"
+  },
+  {
+    "path": "D:\\apphearv3claude\\AppHear-claude-s2-r3-eval-suite\\AppHear-claude-s2-r3-eval-suite\\experiments\\continuous_asl\\20261020T133148Z_source_transfer_pilot01\\checkpoints\\epoch_004.pt",
+    "bytes": 2351435,
+    "last_write_utc": "2026-10-20T13:35:51.2099744Z",
+    "sha256": "a76762a5f24fac502919aaa378d31711f58f6f24b959120e2fdef70b6b6e498d"
+  },
+  {
+    "path": "D:\\apphearv3claude\\AppHear-claude-s2-r3-eval-suite\\AppHear-claude-s2-r3-eval-suite\\experiments\\continuous_asl\\20261020T133148Z_source_transfer_pilot01\\checkpoints\\epoch_006.pt",
+    "bytes": 2351435,
+    "last_write_utc": "2026-10-20T13:36:03.3920038Z",
+    "sha256": "aca25ff839105921e3bcf4fc915e84f576a402e7f48850083f1632494c09d4e3"
+  },
+  {
+    "path": "D:\\apphearv3claude\\AppHear-claude-s2-r3-eval-suite\\AppHear-claude-s2-r3-eval-suite\\experiments\\continuous_asl\\20261020T133148Z_source_transfer_pilot01\\checkpoints\\epoch_008.pt",
+    "bytes": 2351435,
+    "last_write_utc": "2026-10-20T13:36:15.7821769Z",
+    "sha256": "7544cd0a6b1d4270522d14f8a5f28ee7902bfa5b9a33aabd46ebf1372b7dd199"
+  },
+  {
+    "path": "D:\\apphearv3claude\\AppHear-claude-s2-r3-eval-suite\\AppHear-claude-s2-r3-eval-suite\\experiments\\continuous_asl\\20261020T133148Z_source_transfer_pilot01\\checkpoints\\epoch_010.pt",
+    "bytes": 2351499,
+    "last_write_utc": "2026-10-20T13:36:28.0184079Z",
+    "sha256": "24286c199d3608238d963f98b782e473e2f560f5407e9d27872714b74f3939f0"
+  },
+  {
+    "path": "D:\\apphearv3claude\\AppHear-claude-s2-r3-eval-suite\\AppHear-claude-s2-r3-eval-suite\\experiments\\continuous_asl\\20261020T133148Z_source_transfer_pilot01\\checkpoints\\epoch_012.pt",
+    "bytes": 2351435,
+    "last_write_utc": "2026-10-20T13:36:40.0377397Z",
+    "sha256": "e2a6e0046bca4a3f97f33f023dc7346dd9d6226e19e9bd855357a00c8f1579bf"
+  },
+  {
+    "path": "D:\\apphearv3claude\\AppHear-claude-s2-r3-eval-suite\\AppHear-claude-s2-r3-eval-suite\\experiments\\continuous_asl\\20261020T133148Z_source_transfer_pilot01\\checkpoints\\epoch_014.pt",
+    "bytes": 2351499,
+    "last_write_utc": "2026-10-20T13:36:52.0654418Z",
+    "sha256": "4cadc0d54ba7757a7110855f9699bd2460317d07a30c5bb1ce8b908faee3af8e"
+  },
+  {
+    "path": "D:\\apphearv3claude\\AppHear-claude-s2-r3-eval-suite\\AppHear-claude-s2-r3-eval-suite\\experiments\\continuous_asl\\20261020T133148Z_source_transfer_pilot01\\checkpoints\\initialization.pt",
+    "bytes": 827117,
+    "last_write_utc": "2026-10-20T13:35:21.7140737Z",
+    "sha256": "2f0202eb7c24ef5cde79e6d8d4d9f5dc34831fac6091aeb42aa6dc4dc59b6ef2"
+  },
+  {
+    "path": "D:\\apphearv3claude\\AppHear-claude-s2-r3-eval-suite\\AppHear-claude-s2-r3-eval-suite\\experiments\\continuous_asl\\20261020T133148Z_source_transfer_pilot01\\command_result.json",
+    "bytes": 163,
+    "last_write_utc": "2026-10-20T13:37:00.9504345Z",
+    "sha256": "a6b74ad75b0002bf739d848683efbd1632cf3f7a7ce81307243f957fdfa0a20c"
+  },
+  {
+    "path": "D:\\apphearv3claude\\AppHear-claude-s2-r3-eval-suite\\AppHear-claude-s2-r3-eval-suite\\experiments\\continuous_asl\\20261020T133148Z_source_transfer_pilot01\\commands_and_results.txt",
+    "bytes": 3296,
+    "last_write_utc": "2026-10-20T13:38:27.3345388Z",
+    "sha256": "be801c7384cc283f0663e884622d65cff7e7d7a27ddae8adf52a21312f7407a6"
+  },
+  {
+    "path": "D:\\apphearv3claude\\AppHear-claude-s2-r3-eval-suite\\AppHear-claude-s2-r3-eval-suite\\experiments\\continuous_asl\\20261020T133148Z_source_transfer_pilot01\\common.py",
+    "bytes": 2166,
+    "last_write_utc": "2026-10-20T13:34:32.0030012Z",
+    "sha256": "bd015bf7595b5c425f98eca7bf1e31e4dc5ea825d4025a9544b300af6445bea9"
+  },
+  {
+    "path": "D:\\apphearv3claude\\AppHear-claude-s2-r3-eval-suite\\AppHear-claude-s2-r3-eval-suite\\experiments\\continuous_asl\\20261020T133148Z_source_transfer_pilot01\\comparison_equivalence.csv",
+    "bytes": 560,
+    "last_write_utc": "2026-10-20T13:38:27.3110023Z",
+    "sha256": "b3eead0d5b735c8a9318064d8390bd2a6162613bd7c962844c10e4222f3cfd6e"
+  },
+  {
+    "path": "D:\\apphearv3claude\\AppHear-claude-s2-r3-eval-suite\\AppHear-claude-s2-r3-eval-suite\\experiments\\continuous_asl\\20261020T133148Z_source_transfer_pilot01\\config.json",
+    "bytes": 2447,
+    "last_write_utc": "2026-10-20T13:35:16.4951323Z",
+    "sha256": "75ea1f17e277894195a4f3a1370343e5d579ffd31ffcc40e9f52d3b459aa08ed"
+  },
+  {
+    "path": "D:\\apphearv3claude\\AppHear-claude-s2-r3-eval-suite\\AppHear-claude-s2-r3-eval-suite\\experiments\\continuous_asl\\20261020T133148Z_source_transfer_pilot01\\cuda_smoke.json",
+    "bytes": 202,
+    "last_write_utc": "2026-10-20T13:35:22.1383198Z",
+    "sha256": "dbad79a0641217119057e66e279d051617f187ba488954d721363782553f4971"
+  },
+  {
+    "path": "D:\\apphearv3claude\\AppHear-claude-s2-r3-eval-suite\\AppHear-claude-s2-r3-eval-suite\\experiments\\continuous_asl\\20261020T133148Z_source_transfer_pilot01\\evaluation_views.json",
+    "bytes": 10443,
+    "last_write_utc": "2026-10-20T13:35:12.3589347Z",
+    "sha256": "f8fe84d4926199020a2d1f3b1d3bb6b483d2d98c5d27d901a237e1c3c88d9b09"
+  },
+  {
+    "path": "D:\\apphearv3claude\\AppHear-claude-s2-r3-eval-suite\\AppHear-claude-s2-r3-eval-suite\\experiments\\continuous_asl\\20261020T133148Z_source_transfer_pilot01\\finish.py",
+    "bytes": 14854,
+    "last_write_utc": "2026-10-20T13:37:56.4010689Z",
+    "sha256": "10ac9bd569cc1bd7479ec435e384938be3631bc4bf3b54cdea33ab04614aebca"
+  },
+  {
+    "path": "D:\\apphearv3claude\\AppHear-claude-s2-r3-eval-suite\\AppHear-claude-s2-r3-eval-suite\\experiments\\continuous_asl\\20261020T133148Z_source_transfer_pilot01\\fold_manifest.json",
+    "bytes": 60909,
+    "last_write_utc": "2026-10-20T13:35:11.6406550Z",
+    "sha256": "87442a6f1241860e369a5c8f0768d583b3a4058f5a9ad03dcc135532c419c72f"
+  },
+  {
+    "path": "D:\\apphearv3claude\\AppHear-claude-s2-r3-eval-suite\\AppHear-claude-s2-r3-eval-suite\\experiments\\continuous_asl\\20261020T133148Z_source_transfer_pilot01\\GROUP_RESULTS.csv",
+    "bytes": 2465,
+    "last_write_utc": "2026-10-20T13:38:27.3099994Z",
+    "sha256": "bcf0e9bba7dd73fd924304671cca52b54af56eb66636afa624990dd3be8684a8"
+  },
+  {
+    "path": "D:\\apphearv3claude\\AppHear-claude-s2-r3-eval-suite\\AppHear-claude-s2-r3-eval-suite\\experiments\\continuous_asl\\20261020T133148Z_source_transfer_pilot01\\initialization.json",
+    "bytes": 213,
+    "last_write_utc": "2026-10-20T13:35:21.7160737Z",
+    "sha256": "6642eef46dfe8e43b2c208bd09a03611eedaa9222bb033e6cb9e8effa79905d3"
+  },
+  {
+    "path": "D:\\apphearv3claude\\AppHear-claude-s2-r3-eval-suite\\AppHear-claude-s2-r3-eval-suite\\experiments\\continuous_asl\\20261020T133148Z_source_transfer_pilot01\\input_hashes.json",
+    "bytes": 745,
+    "last_write_utc": "2026-10-20T13:38:27.3139944Z",
+    "sha256": "b5471afc053ad37d5728fc3484c80f1b704604ceb8a9866f68190bbfd0947d0c"
+  },
+  {
+    "path": "D:\\apphearv3claude\\AppHear-claude-s2-r3-eval-suite\\AppHear-claude-s2-r3-eval-suite\\experiments\\continuous_asl\\20261020T133148Z_source_transfer_pilot01\\manifest_hashes.sha256",
+    "bytes": 704,
+    "last_write_utc": "2026-10-20T13:38:27.3325417Z",
+    "sha256": "d18a97cdc1f96da526613a1a1a96e458a6d51611883906eb47dad31b96113894"
+  },
+  {
+    "path": "D:\\apphearv3claude\\AppHear-claude-s2-r3-eval-suite\\AppHear-claude-s2-r3-eval-suite\\experiments\\continuous_asl\\20261020T133148Z_source_transfer_pilot01\\METRICS.csv",
+    "bytes": 4059,
+    "last_write_utc": "2026-10-20T13:36:52.0694430Z",
+    "sha256": "df57e5bf7874fc1c4fde5b774cc482ab95cede8aba6360ff47c7fedba80a8889"
+  },
+  {
+    "path": "D:\\apphearv3claude\\AppHear-claude-s2-r3-eval-suite\\AppHear-claude-s2-r3-eval-suite\\experiments\\continuous_asl\\20261020T133148Z_source_transfer_pilot01\\normalization.npz",
+    "bytes": 3972,
+    "last_write_utc": "2026-10-20T13:35:16.4322605Z",
+    "sha256": "394a3862286b01b884d30952f767f8620969ea21c0384715254e4bddb2d41489"
+  },
+  {
+    "path": "D:\\apphearv3claude\\AppHear-claude-s2-r3-eval-suite\\AppHear-claude-s2-r3-eval-suite\\experiments\\continuous_asl\\20261020T133148Z_source_transfer_pilot01\\PILOT_REPORT.md",
+    "bytes": 8554,
+    "last_write_utc": "2026-10-20T13:38:27.3335386Z",
+    "sha256": "42305eef9493dd20782f4ea339599104497cd9d2b9ec5bcf01cd8376511a11bd"
+  },
+  {
+    "path": "D:\\apphearv3claude\\AppHear-claude-s2-r3-eval-suite\\AppHear-claude-s2-r3-eval-suite\\experiments\\continuous_asl\\20261020T133148Z_source_transfer_pilot01\\PREDICTION_EXAMPLES.csv",
+    "bytes": 554496,
+    "last_write_utc": "2026-10-20T13:38:27.2984706Z",
+    "sha256": "e668ec264a7123762189bd0459aac0d6fe32e671c72fc970caa44c034c1550e5"
+  },
+  {
+    "path": "D:\\apphearv3claude\\AppHear-claude-s2-r3-eval-suite\\AppHear-claude-s2-r3-eval-suite\\experiments\\continuous_asl\\20261020T133148Z_source_transfer_pilot01\\predictions\\full206_epoch_001.json",
+    "bytes": 136406,
+    "last_write_utc": "2026-10-20T13:35:32.0207516Z",
+    "sha256": "248c9239dcd50e2fb57f802eaa0a794d0791b9451b5d8ae83836b565f1e4a1b9"
+  },
+  {
+    "path": "D:\\apphearv3claude\\AppHear-claude-s2-r3-eval-suite\\AppHear-claude-s2-r3-eval-suite\\experiments\\continuous_asl\\20261020T133148Z_source_transfer_pilot01\\predictions\\full206_epoch_002.json",
+    "bytes": 136648,
+    "last_write_utc": "2026-10-20T13:35:38.7459295Z",
+    "sha256": "0b5f5bbd93b9d3af356090637578c10cf6e08ad3840f0d5406c8ce8bf4431552"
+  },
+  {
+    "path": "D:\\apphearv3claude\\AppHear-claude-s2-r3-eval-suite\\AppHear-claude-s2-r3-eval-suite\\experiments\\continuous_asl\\20261020T133148Z_source_transfer_pilot01\\predictions\\full206_epoch_004.json",
+    "bytes": 137961,
+    "last_write_utc": "2026-10-20T13:35:51.1931265Z",
+    "sha256": "dcc1cb263c2133c2810fc1ed47d911d013e8044988f09b3201002a8b0d7b37d6"
+  },
+  {
+    "path": "D:\\apphearv3claude\\AppHear-claude-s2-r3-eval-suite\\AppHear-claude-s2-r3-eval-suite\\experiments\\continuous_asl\\20261020T133148Z_source_transfer_pilot01\\predictions\\full206_epoch_006.json",
+    "bytes": 140377,
+    "last_write_utc": "2026-10-20T13:36:03.3709845Z",
+    "sha256": "471727b58af79942fe8046235e9136e06e8ebb23fd6384a3f194fd2bcc7aebfe"
+  },
+  {
+    "path": "D:\\apphearv3claude\\AppHear-claude-s2-r3-eval-suite\\AppHear-claude-s2-r3-eval-suite\\experiments\\continuous_asl\\20261020T133148Z_source_transfer_pilot01\\predictions\\full206_epoch_008.json",
+    "bytes": 141902,
+    "last_write_utc": "2026-10-20T13:36:15.7651766Z",
+    "sha256": "d2190f6900afa36fcc02b924274858da8f054981d10cbe727af794da29e9cb87"
+  },
+  {
+    "path": "D:\\apphearv3claude\\AppHear-claude-s2-r3-eval-suite\\AppHear-claude-s2-r3-eval-suite\\experiments\\continuous_asl\\20261020T133148Z_source_transfer_pilot01\\predictions\\full206_epoch_010.json",
+    "bytes": 142991,
+    "last_write_utc": "2026-10-20T13:36:27.9989254Z",
+    "sha256": "be5592aea891eca394d77510e02d1f2840c7691caceecbd52fd1b8cbadc7dc77"
+  },
+  {
+    "path": "D:\\apphearv3claude\\AppHear-claude-s2-r3-eval-suite\\AppHear-claude-s2-r3-eval-suite\\experiments\\continuous_asl\\20261020T133148Z_source_transfer_pilot01\\predictions\\full206_epoch_012.json",
+    "bytes": 151214,
+    "last_write_utc": "2026-10-20T13:36:40.0172530Z",
+    "sha256": "49e83da066079cd925c000238948b64614fea11e62d1b3f3bddd6a9e0c63dc25"
+  },
+  {
+    "path": "D:\\apphearv3claude\\AppHear-claude-s2-r3-eval-suite\\AppHear-claude-s2-r3-eval-suite\\experiments\\continuous_asl\\20261020T133148Z_source_transfer_pilot01\\predictions\\full206_epoch_014.json",
+    "bytes": 150269,
+    "last_write_utc": "2026-10-20T13:36:52.0488744Z",
+    "sha256": "a7e510b85a10fc4efce26037f6b52b178f6ec49e893ee9a2d07b84e8f5ef865d"
+  },
+  {
+    "path": "D:\\apphearv3claude\\AppHear-claude-s2-r3-eval-suite\\AppHear-claude-s2-r3-eval-suite\\experiments\\continuous_asl\\20261020T133148Z_source_transfer_pilot01\\predictions\\monitor_epoch_001.json",
+    "bytes": 86669,
+    "last_write_utc": "2026-10-20T13:35:32.0082060Z",
+    "sha256": "a61a1629f9daeff984e1895c172c9f39bbe88a67a62d1c480d77cd8924a8c0dd"
+  },
+  {
+    "path": "D:\\apphearv3claude\\AppHear-claude-s2-r3-eval-suite\\AppHear-claude-s2-r3-eval-suite\\experiments\\continuous_asl\\20261020T133148Z_source_transfer_pilot01\\predictions\\monitor_epoch_002.json",
+    "bytes": 86865,
+    "last_write_utc": "2026-10-20T13:35:38.7274862Z",
+    "sha256": "f0b2356fe1fe02b285dca1ca06afdd00da0e573e46ea10048b294676f2463ce8"
+  },
+  {
+    "path": "D:\\apphearv3claude\\AppHear-claude-s2-r3-eval-suite\\AppHear-claude-s2-r3-eval-suite\\experiments\\continuous_asl\\20261020T133148Z_source_transfer_pilot01\\predictions\\monitor_epoch_004.json",
+    "bytes": 87846,
+    "last_write_utc": "2026-10-20T13:35:51.1791011Z",
+    "sha256": "a68b1b6abd298ea87d365c972f911731909ad57a50a4926fec7a91b6aa08aa04"
+  },
+  {
+    "path": "D:\\apphearv3claude\\AppHear-claude-s2-r3-eval-suite\\AppHear-claude-s2-r3-eval-suite\\experiments\\continuous_asl\\20261020T133148Z_source_transfer_pilot01\\predictions\\monitor_epoch_006.json",
+    "bytes": 88236,
+    "last_write_utc": "2026-10-20T13:36:03.3564572Z",
+    "sha256": "df10ae2e460cc03574e8baa25803eabf89bb4966615bac8710afaab0881d8f41"
+  },
+  {
+    "path": "D:\\apphearv3claude\\AppHear-claude-s2-r3-eval-suite\\AppHear-claude-s2-r3-eval-suite\\experiments\\continuous_asl\\20261020T133148Z_source_transfer_pilot01\\predictions\\monitor_epoch_008.json",
+    "bytes": 89531,
+    "last_write_utc": "2026-10-20T13:36:15.7516407Z",
+    "sha256": "3a528873a4df338ea912d007e35a9045565156578a9a70cd7d7bb515a4bcf705"
+  },
+  {
+    "path": "D:\\apphearv3claude\\AppHear-claude-s2-r3-eval-suite\\AppHear-claude-s2-r3-eval-suite\\experiments\\continuous_asl\\20261020T133148Z_source_transfer_pilot01\\predictions\\monitor_epoch_010.json",
+    "bytes": 90459,
+    "last_write_utc": "2026-10-20T13:36:27.9877164Z",
+    "sha256": "d3207a72e6767987c42737d0fd4cbd9b0fd1ab682ecd51ed4eda4ae965ed7271"
+  },
+  {
+    "path": "D:\\apphearv3claude\\AppHear-claude-s2-r3-eval-suite\\AppHear-claude-s2-r3-eval-suite\\experiments\\continuous_asl\\20261020T133148Z_source_transfer_pilot01\\predictions\\monitor_epoch_012.json",
+    "bytes": 95664,
+    "last_write_utc": "2026-10-20T13:36:40.0070816Z",
+    "sha256": "947a2eb748707a9352bd403565b394569ab2beefc561fefff8a57606568a0962"
+  },
+  {
+    "path": "D:\\apphearv3claude\\AppHear-claude-s2-r3-eval-suite\\AppHear-claude-s2-r3-eval-suite\\experiments\\continuous_asl\\20261020T133148Z_source_transfer_pilot01\\predictions\\monitor_epoch_014.json",
+    "bytes": 96954,
+    "last_write_utc": "2026-10-20T13:36:52.0343593Z",
+    "sha256": "bb0c1b7605ab8790ae47f40553c56d1f9a8af19f1315915cf1fde4c53e66c53e"
+  },
+  {
+    "path": "D:\\apphearv3claude\\AppHear-claude-s2-r3-eval-suite\\AppHear-claude-s2-r3-eval-suite\\experiments\\continuous_asl\\20261020T133148Z_source_transfer_pilot01\\predictions\\primary80_epoch_001.json",
+    "bytes": 49030,
+    "last_write_utc": "2026-10-20T13:35:32.0112100Z",
+    "sha256": "882bfdeca844729d4639f9c108b7086158c51012bc23f209f4f11ad80777171a"
+  },
+  {
+    "path": "D:\\apphearv3claude\\AppHear-claude-s2-r3-eval-suite\\AppHear-claude-s2-r3-eval-suite\\experiments\\continuous_asl\\20261020T133148Z_source_transfer_pilot01\\predictions\\primary80_epoch_002.json",
+    "bytes": 49134,
+    "last_write_utc": "2026-10-20T13:35:38.7361537Z",
+    "sha256": "42333796277cc53c95b591a5dcc0cc6478774eef5fd9d6bb7359fb563b9ccbc2"
+  },
+  {
+    "path": "D:\\apphearv3claude\\AppHear-claude-s2-r3-eval-suite\\AppHear-claude-s2-r3-eval-suite\\experiments\\continuous_asl\\20261020T133148Z_source_transfer_pilot01\\predictions\\primary80_epoch_004.json",
+    "bytes": 49462,
+    "last_write_utc": "2026-10-20T13:35:51.1831054Z",
+    "sha256": "668bf2d40ed9125a713ed5ae55e6cc8ebd90eb58e5e942a0c00304cfcb0fb592"
+  },
+  {
+    "path": "D:\\apphearv3claude\\AppHear-claude-s2-r3-eval-suite\\AppHear-claude-s2-r3-eval-suite\\experiments\\continuous_asl\\20261020T133148Z_source_transfer_pilot01\\predictions\\primary80_epoch_006.json",
+    "bytes": 50724,
+    "last_write_utc": "2026-10-20T13:36:03.3609843Z",
+    "sha256": "8963980238f687e50c6cebe57fb33067a9a54d457826715784b561e89c615821"
+  },
+  {
+    "path": "D:\\apphearv3claude\\AppHear-claude-s2-r3-eval-suite\\AppHear-claude-s2-r3-eval-suite\\experiments\\continuous_asl\\20261020T133148Z_source_transfer_pilot01\\predictions\\primary80_epoch_008.json",
+    "bytes": 51318,
+    "last_write_utc": "2026-10-20T13:36:15.7556398Z",
+    "sha256": "0ca3bb7ddd15aa56f78ea5bbb722685ab7e9b13b9ee74d787799c4a27d456a17"
+  },
+  {
+    "path": "D:\\apphearv3claude\\AppHear-claude-s2-r3-eval-suite\\AppHear-claude-s2-r3-eval-suite\\experiments\\continuous_asl\\20261020T133148Z_source_transfer_pilot01\\predictions\\primary80_epoch_010.json",
+    "bytes": 51585,
+    "last_write_utc": "2026-10-20T13:36:27.9877164Z",
+    "sha256": "a326fc19481ec3ebd67834804908acac3b8b382cd4993b98a3c2dd76dde3cd17"
+  },
+  {
+    "path": "D:\\apphearv3claude\\AppHear-claude-s2-r3-eval-suite\\AppHear-claude-s2-r3-eval-suite\\experiments\\continuous_asl\\20261020T133148Z_source_transfer_pilot01\\predictions\\primary80_epoch_012.json",
+    "bytes": 54251,
+    "last_write_utc": "2026-10-20T13:36:40.0070816Z",
+    "sha256": "fb8bc5d0fab5bff7f8888fce03cf89a9b50874a29d5022bd212662cc2df868a4"
+  },
+  {
+    "path": "D:\\apphearv3claude\\AppHear-claude-s2-r3-eval-suite\\AppHear-claude-s2-r3-eval-suite\\experiments\\continuous_asl\\20261020T133148Z_source_transfer_pilot01\\predictions\\primary80_epoch_014.json",
+    "bytes": 53661,
+    "last_write_utc": "2026-10-20T13:36:52.0383489Z",
+    "sha256": "cbad16ae50cb6df3f6ea7724aab7d3291abc43346fee7a15f6e13a6a6c7612f2"
+  },
+  {
+    "path": "D:\\apphearv3claude\\AppHear-claude-s2-r3-eval-suite\\AppHear-claude-s2-r3-eval-suite\\experiments\\continuous_asl\\20261020T133148Z_source_transfer_pilot01\\predictions\\strong27_epoch_001.json",
+    "bytes": 16621,
+    "last_write_utc": "2026-10-20T13:35:32.0142024Z",
+    "sha256": "9b81372925d99b1c9d8899f3fbc84db4c248d026931a4198642bc94b21a846c0"
+  },
+  {
+    "path": "D:\\apphearv3claude\\AppHear-claude-s2-r3-eval-suite\\AppHear-claude-s2-r3-eval-suite\\experiments\\continuous_asl\\20261020T133148Z_source_transfer_pilot01\\predictions\\strong27_epoch_002.json",
+    "bytes": 16624,
+    "last_write_utc": "2026-10-20T13:35:38.7378946Z",
+    "sha256": "3f13a5528f689dcad9797cc05c7a8dad810e8a056b535d88f862b8b4c241b57b"
+  },
+  {
+    "path": "D:\\apphearv3claude\\AppHear-claude-s2-r3-eval-suite\\AppHear-claude-s2-r3-eval-suite\\experiments\\continuous_asl\\20261020T133148Z_source_transfer_pilot01\\predictions\\strong27_epoch_004.json",
+    "bytes": 16769,
+    "last_write_utc": "2026-10-20T13:35:51.1861256Z",
+    "sha256": "ee71cea0f535860870fddc0100b8d73696629ee7ed9f406e63c90c4379ee4d0c"
+  },
+  {
+    "path": "D:\\apphearv3claude\\AppHear-claude-s2-r3-eval-suite\\AppHear-claude-s2-r3-eval-suite\\experiments\\continuous_asl\\20261020T133148Z_source_transfer_pilot01\\predictions\\strong27_epoch_006.json",
+    "bytes": 17243,
+    "last_write_utc": "2026-10-20T13:36:03.3629845Z",
+    "sha256": "3eec7a9c34f7dda04b2b93d4a088e22e970bf59563187e738707fa79fee10446"
+  },
+  {
+    "path": "D:\\apphearv3claude\\AppHear-claude-s2-r3-eval-suite\\AppHear-claude-s2-r3-eval-suite\\experiments\\continuous_asl\\20261020T133148Z_source_transfer_pilot01\\predictions\\strong27_epoch_008.json",
+    "bytes": 17647,
+    "last_write_utc": "2026-10-20T13:36:15.7576409Z",
+    "sha256": "e0add75c3bd748146d40f90adb4eef1b8188fc5629f2d2ab0410578db032ce2d"
+  },
+  {
+    "path": "D:\\apphearv3claude\\AppHear-claude-s2-r3-eval-suite\\AppHear-claude-s2-r3-eval-suite\\experiments\\continuous_asl\\20261020T133148Z_source_transfer_pilot01\\predictions\\strong27_epoch_010.json",
+    "bytes": 17811,
+    "last_write_utc": "2026-10-20T13:36:27.9877164Z",
+    "sha256": "b4bee2090d016f0e50d9b42f57a595dd57df777b97ddde68462696fccb72799f"
+  },
+  {
+    "path": "D:\\apphearv3claude\\AppHear-claude-s2-r3-eval-suite\\AppHear-claude-s2-r3-eval-suite\\experiments\\continuous_asl\\20261020T133148Z_source_transfer_pilot01\\predictions\\strong27_epoch_012.json",
+    "bytes": 18504,
+    "last_write_utc": "2026-10-20T13:36:40.0070816Z",
+    "sha256": "f83651ed4acd6d5d9d119aa6f00cc3663c03df8b4847d629f64123a35c763940"
+  },
+  {
+    "path": "D:\\apphearv3claude\\AppHear-claude-s2-r3-eval-suite\\AppHear-claude-s2-r3-eval-suite\\experiments\\continuous_asl\\20261020T133148Z_source_transfer_pilot01\\predictions\\strong27_epoch_014.json",
+    "bytes": 18546,
+    "last_write_utc": "2026-10-20T13:36:52.0413481Z",
+    "sha256": "a4003155e996c5d46c5f73724799dc63903572dc17749d73c5820e4b050e3636"
+  },
+  {
+    "path": "D:\\apphearv3claude\\AppHear-claude-s2-r3-eval-suite\\AppHear-claude-s2-r3-eval-suite\\experiments\\continuous_asl\\20261020T133148Z_source_transfer_pilot01\\preflight.json",
+    "bytes": 1377,
+    "last_write_utc": "2026-10-20T13:35:21.7196025Z",
+    "sha256": "37771b1261ee51f92c94959eece92bd94657969e90a399aa4c33e320884b598d"
+  },
+  {
+    "path": "D:\\apphearv3claude\\AppHear-claude-s2-r3-eval-suite\\AppHear-claude-s2-r3-eval-suite\\experiments\\continuous_asl\\20261020T133148Z_source_transfer_pilot01\\resolved_manifest.json",
+    "bytes": 12539554,
+    "last_write_utc": "2026-10-20T13:35:12.3559323Z",
+    "sha256": "a3926dd4e8deb448b09632439feb2a336d195e495c8d3bf602ab38a015a651f4"
+  },
+  {
+    "path": "D:\\apphearv3claude\\AppHear-claude-s2-r3-eval-suite\\AppHear-claude-s2-r3-eval-suite\\experiments\\continuous_asl\\20261020T133148Z_source_transfer_pilot01\\selected_full206.json",
+    "bytes": 151214,
+    "last_write_utc": "2026-10-20T13:37:00.0546108Z",
+    "sha256": "49e83da066079cd925c000238948b64614fea11e62d1b3f3bddd6a9e0c63dc25"
+  },
+  {
+    "path": "D:\\apphearv3claude\\AppHear-claude-s2-r3-eval-suite\\AppHear-claude-s2-r3-eval-suite\\experiments\\continuous_asl\\20261020T133148Z_source_transfer_pilot01\\selected_monitor.json",
+    "bytes": 95664,
+    "last_write_utc": "2026-10-20T13:37:00.0390912Z",
+    "sha256": "947a2eb748707a9352bd403565b394569ab2beefc561fefff8a57606568a0962"
+  },
+  {
+    "path": "D:\\apphearv3claude\\AppHear-claude-s2-r3-eval-suite\\AppHear-claude-s2-r3-eval-suite\\experiments\\continuous_asl\\20261020T133148Z_source_transfer_pilot01\\selected_primary80.json",
+    "bytes": 54251,
+    "last_write_utc": "2026-10-20T13:37:00.0430856Z",
+    "sha256": "fb8bc5d0fab5bff7f8888fce03cf89a9b50874a29d5022bd212662cc2df868a4"
+  },
+  {
+    "path": "D:\\apphearv3claude\\AppHear-claude-s2-r3-eval-suite\\AppHear-claude-s2-r3-eval-suite\\experiments\\continuous_asl\\20261020T133148Z_source_transfer_pilot01\\selected_strong27.json",
+    "bytes": 18504,
+    "last_write_utc": "2026-10-20T13:37:00.0460898Z",
+    "sha256": "f83651ed4acd6d5d9d119aa6f00cc3663c03df8b4847d629f64123a35c763940"
+  },
+  {
+    "path": "D:\\apphearv3claude\\AppHear-claude-s2-r3-eval-suite\\AppHear-claude-s2-r3-eval-suite\\experiments\\continuous_asl\\20261020T133148Z_source_transfer_pilot01\\selected_train1500.json",
+    "bytes": 1080714,
+    "last_write_utc": "2026-10-20T13:37:00.0330873Z",
+    "sha256": "01127fb694d5c31b1377bd32ec73018e282e6a18481599c0d1e69054cc9aedce"
+  },
+  {
+    "path": "D:\\apphearv3claude\\AppHear-claude-s2-r3-eval-suite\\AppHear-claude-s2-r3-eval-suite\\experiments\\continuous_asl\\20261020T133148Z_source_transfer_pilot01\\SESSION_HANDOFF.md",
+    "bytes": 456,
+    "last_write_utc": "2026-10-20T13:38:27.3345388Z",
+    "sha256": "50fe79000b8a35faa604a7ea4270cf8ed7d2cc71f0b5b1e8a8ae66eb54e4beea"
+  },
+  {
+    "path": "D:\\apphearv3claude\\AppHear-claude-s2-r3-eval-suite\\AppHear-claude-s2-r3-eval-suite\\experiments\\continuous_asl\\20261020T133148Z_source_transfer_pilot01\\train_monitor_manifest.json",
+    "bytes": 955111,
+    "last_write_utc": "2026-10-20T13:35:16.4770914Z",
+    "sha256": "0da5b827f00a0582f6c6c6edfa79cbef907c5553f16d5bda5b07c4d7aaa35ff6"
+  },
+  {
+    "path": "D:\\apphearv3claude\\AppHear-claude-s2-r3-eval-suite\\AppHear-claude-s2-r3-eval-suite\\experiments\\continuous_asl\\20261020T133148Z_source_transfer_pilot01\\train.py",
+    "bytes": 17118,
+    "last_write_utc": "2026-10-20T13:34:32.3568824Z",
+    "sha256": "a372ab7970a4d4f64332f906499d84661a6f89ddac374c9c8989c1598f0d0b58"
+  },
+  {
+    "path": "D:\\apphearv3claude\\AppHear-claude-s2-r3-eval-suite\\AppHear-claude-s2-r3-eval-suite\\experiments\\continuous_asl\\20261020T133148Z_source_transfer_pilot01\\training_console.txt",
+    "bytes": 9455,
+    "last_write_utc": "2026-10-20T13:37:00.0596199Z",
+    "sha256": "d63c3f33dfcfa18070ffa026c1d5b56d38b2701691bb6bb8f36688c2b13ba3b4"
+  },
+  {
+    "path": "D:\\apphearv3claude\\AppHear-claude-s2-r3-eval-suite\\AppHear-claude-s2-r3-eval-suite\\experiments\\continuous_asl\\20261020T133148Z_source_transfer_pilot01\\training_status.json",
+    "bytes": 1778,
+    "last_write_utc": "2026-10-20T13:37:00.0586147Z",
+    "sha256": "fdbcc7fd082e610e5f5821d3cc8808c0cf7edd0c65a05dfd372f24156ffc8caa"
+  },
+  {
+    "path": "D:\\apphearv3claude\\AppHear-claude-s2-r3-eval-suite\\AppHear-claude-s2-r3-eval-suite\\experiments\\continuous_asl\\20261020T133148Z_source_transfer_pilot01\\untrained_full206.json",
+    "bytes": 268778,
+    "last_write_utc": "2026-10-20T13:35:23.5487861Z",
+    "sha256": "9428fa7ae4d8382bcd6852fe01f3bcdf49ce8c5acade897ac2b477e305ce1c4f"
+  },
+  {
+    "path": "D:\\apphearv3claude\\AppHear-claude-s2-r3-eval-suite\\AppHear-claude-s2-r3-eval-suite\\experiments\\continuous_asl\\20261020T133148Z_source_transfer_pilot01\\untrained_primary80.json",
+    "bytes": 85890,
+    "last_write_utc": "2026-10-20T13:35:23.5589535Z",
+    "sha256": "f7ce55989447ebde9cde8b1ff86465bfd9f541200aaabfea5154312ce9b0aa72"
+  },
+  {
+    "path": "D:\\apphearv3claude\\AppHear-claude-s2-r3-eval-suite\\AppHear-claude-s2-r3-eval-suite\\experiments\\continuous_asl\\20261020T133148Z_source_transfer_pilot01\\untrained_strong27.json",
+    "bytes": 30119,
+    "last_write_utc": "2026-10-20T13:35:23.5589535Z",
+    "sha256": "3cf65df6b8c90012ecf676acd2badb21ac2166d355e7b1c60ac9a4ae2cf590db"
+  },
+  {
+    "path": "D:\\apphearv3claude\\AppHear-claude-s2-r3-eval-suite\\AppHear-claude-s2-r3-eval-suite\\experiments\\continuous_asl\\20261020T133148Z_source_transfer_pilot01\\verify.py",
+    "bytes": 2499,
+    "last_write_utc": "2026-10-20T13:37:56.7598673Z",
+    "sha256": "b9e38d1001e25b0c5b6afcc6b5917b843b56f76b966c0625c6392c2b2e667bf0"
+  },
+  {
+    "path": "D:\\apphearv3claude\\AppHear-claude-s2-r3-eval-suite\\AppHear-claude-s2-r3-eval-suite\\experiments\\continuous_asl\\20261020T133148Z_source_transfer_pilot01\\vocabulary.json",
+    "bytes": 46030,
+    "last_write_utc": "2026-10-20T13:35:12.3619272Z",
+    "sha256": "365b44d435c9def2bba6e0f347155c72bf2ca001bd365d5b10f55dbe91174715"
+  }
+]

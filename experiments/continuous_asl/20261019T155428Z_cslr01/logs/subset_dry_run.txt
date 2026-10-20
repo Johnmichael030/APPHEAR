@@ -1,0 +1,299 @@
+[
+  {
+    "id": "ncslgr_189fd7d52377b3a8",
+    "kind": "video",
+    "split": "unsplit",
+    "max_bytes": 2097152,
+    "max_expanded_bytes": 0,
+    "target": "D:\\apphearv3claude\\AppHear-claude-s2-r3-eval-suite\\AppHear-claude-s2-r3-eval-suite\\experiments\\continuous_asl\\20261019T155428Z_cslr01\\data\\raw\\ncslgr\\videos\\ncslgr_189fd7d52377b3a8.mov"
+  },
+  {
+    "id": "ncslgr_1e2c1b5b4aaadceb",
+    "kind": "video",
+    "split": "unsplit",
+    "max_bytes": 2097152,
+    "max_expanded_bytes": 0,
+    "target": "D:\\apphearv3claude\\AppHear-claude-s2-r3-eval-suite\\AppHear-claude-s2-r3-eval-suite\\experiments\\continuous_asl\\20261019T155428Z_cslr01\\data\\raw\\ncslgr\\videos\\ncslgr_1e2c1b5b4aaadceb.mov"
+  },
+  {
+    "id": "ncslgr_1fdea7c25c7c94f9",
+    "kind": "video",
+    "split": "unsplit",
+    "max_bytes": 2097152,
+    "max_expanded_bytes": 0,
+    "target": "D:\\apphearv3claude\\AppHear-claude-s2-r3-eval-suite\\AppHear-claude-s2-r3-eval-suite\\experiments\\continuous_asl\\20261019T155428Z_cslr01\\data\\raw\\ncslgr\\videos\\ncslgr_1fdea7c25c7c94f9.mov"
+  },
+  {
+    "id": "ncslgr_29025ebac908ca34",
+    "kind": "video",
+    "split": "unsplit",
+    "max_bytes": 2097152,
+    "max_expanded_bytes": 0,
+    "target": "D:\\apphearv3claude\\AppHear-claude-s2-r3-eval-suite\\AppHear-claude-s2-r3-eval-suite\\experiments\\continuous_asl\\20261019T155428Z_cslr01\\data\\raw\\ncslgr\\videos\\ncslgr_29025ebac908ca34.mov"
+  },
+  {
+    "id": "ncslgr_3a72bddf4e899dc2",
+    "kind": "video",
+    "split": "unsplit",
+    "max_bytes": 2097152,
+    "max_expanded_bytes": 0,
+    "target": "D:\\apphearv3claude\\AppHear-claude-s2-r3-eval-suite\\AppHear-claude-s2-r3-eval-suite\\experiments\\continuous_asl\\20261019T155428Z_cslr01\\data\\raw\\ncslgr\\videos\\ncslgr_3a72bddf4e899dc2.mov"
+  },
+  {
+    "id": "ncslgr_41a940ff8bcad76e",
+    "kind": "video",
+    "split": "unsplit",
+    "max_bytes": 2097152,
+    "max_expanded_bytes": 0,
+    "target": "D:\\apphearv3claude\\AppHear-claude-s2-r3-eval-suite\\AppHear-claude-s2-r3-eval-suite\\experiments\\continuous_asl\\20261019T155428Z_cslr01\\data\\raw\\ncslgr\\videos\\ncslgr_41a940ff8bcad76e.mov"
+  },
+  {
+    "id": "ncslgr_42e8b262b491ff76",
+    "kind": "video",
+    "split": "unsplit",
+    "max_bytes": 2097152,
+    "max_expanded_bytes": 0,
+    "target": "D:\\apphearv3claude\\AppHear-claude-s2-r3-eval-suite\\AppHear-claude-s2-r3-eval-suite\\experiments\\continuous_asl\\20261019T155428Z_cslr01\\data\\raw\\ncslgr\\videos\\ncslgr_42e8b262b491ff76.mov"
+  },
+  {
+    "id": "ncslgr_5217c2322e5f74f1",
+    "kind": "video",
+    "split": "unsplit",
+    "max_bytes": 2097152,
+    "max_expanded_bytes": 0,
+    "target": "D:\\apphearv3claude\\AppHear-claude-s2-r3-eval-suite\\AppHear-claude-s2-r3-eval-suite\\experiments\\continuous_asl\\20261019T155428Z_cslr01\\data\\raw\\ncslgr\\videos\\ncslgr_5217c2322e5f74f1.mov"
+  },
+  {
+    "id": "ncslgr_6d36b1f27e4d56af",
+    "kind": "video",
+    "split": "unsplit",
+    "max_bytes": 2097152,
+    "max_expanded_bytes": 0,
+    "target": "D:\\apphearv3claude\\AppHear-claude-s2-r3-eval-suite\\AppHear-claude-s2-r3-eval-suite\\experiments\\continuous_asl\\20261019T155428Z_cslr01\\data\\raw\\ncslgr\\videos\\ncslgr_6d36b1f27e4d56af.mov"
+  },
+  {
+    "id": "ncslgr_70c974c405d9d22f",
+    "kind": "video",
+    "split": "unsplit",
+    "max_bytes": 2097152,
+    "max_expanded_bytes": 0,
+    "target": "D:\\apphearv3claude\\AppHear-claude-s2-r3-eval-suite\\AppHear-claude-s2-r3-eval-suite\\experiments\\continuous_asl\\20261019T155428Z_cslr01\\data\\raw\\ncslgr\\videos\\ncslgr_70c974c405d9d22f.mov"
+  },
+  {
+    "id": "ncslgr_72c804adf365509c",
+    "kind": "video",
+    "split": "unsplit",
+    "max_bytes": 2097152,
+    "max_expanded_bytes": 0,
+    "target": "D:\\apphearv3claude\\AppHear-claude-s2-r3-eval-suite\\AppHear-claude-s2-r3-eval-suite\\experiments\\continuous_asl\\20261019T155428Z_cslr01\\data\\raw\\ncslgr\\videos\\ncslgr_72c804adf365509c.mov"
+  },
+  {
+    "id": "ncslgr_7ce3508959b6daf0",
+    "kind": "video",
+    "split": "unsplit",
+    "max_bytes": 2097152,
+    "max_expanded_bytes": 0,
+    "target": "D:\\apphearv3claude\\AppHear-claude-s2-r3-eval-suite\\AppHear-claude-s2-r3-eval-suite\\experiments\\continuous_asl\\20261019T155428Z_cslr01\\data\\raw\\ncslgr\\videos\\ncslgr_7ce3508959b6daf0.mov"
+  },
+  {
+    "id": "ncslgr_80c4176c179c9190",
+    "kind": "video",
+    "split": "unsplit",
+    "max_bytes": 2097152,
+    "max_expanded_bytes": 0,
+    "target": "D:\\apphearv3claude\\AppHear-claude-s2-r3-eval-suite\\AppHear-claude-s2-r3-eval-suite\\experiments\\continuous_asl\\20261019T155428Z_cslr01\\data\\raw\\ncslgr\\videos\\ncslgr_80c4176c179c9190.mov"
+  },
+  {
+    "id": "ncslgr_848668784c16c828",
+    "kind": "video",
+    "split": "unsplit",
+    "max_bytes": 2097152,
+    "max_expanded_bytes": 0,
+    "target": "D:\\apphearv3claude\\AppHear-claude-s2-r3-eval-suite\\AppHear-claude-s2-r3-eval-suite\\experiments\\continuous_asl\\20261019T155428Z_cslr01\\data\\raw\\ncslgr\\videos\\ncslgr_848668784c16c828.mov"
+  },
+  {
+    "id": "ncslgr_87f13ef225243f47",
+    "kind": "video",
+    "split": "unsplit",
+    "max_bytes": 2097152,
+    "max_expanded_bytes": 0,
+    "target": "D:\\apphearv3claude\\AppHear-claude-s2-r3-eval-suite\\AppHear-claude-s2-r3-eval-suite\\experiments\\continuous_asl\\20261019T155428Z_cslr01\\data\\raw\\ncslgr\\videos\\ncslgr_87f13ef225243f47.mov"
+  },
+  {
+    "id": "ncslgr_96d4fba7d1c2598c",
+    "kind": "video",
+    "split": "unsplit",
+    "max_bytes": 2097152,
+    "max_expanded_bytes": 0,
+    "target": "D:\\apphearv3claude\\AppHear-claude-s2-r3-eval-suite\\AppHear-claude-s2-r3-eval-suite\\experiments\\continuous_asl\\20261019T155428Z_cslr01\\data\\raw\\ncslgr\\videos\\ncslgr_96d4fba7d1c2598c.mov"
+  },
+  {
+    "id": "ncslgr_9ab04c8d83836bbd",
+    "kind": "video",
+    "split": "unsplit",
+    "max_bytes": 2097152,
+    "max_expanded_bytes": 0,
+    "target": "D:\\apphearv3claude\\AppHear-claude-s2-r3-eval-suite\\AppHear-claude-s2-r3-eval-suite\\experiments\\continuous_asl\\20261019T155428Z_cslr01\\data\\raw\\ncslgr\\videos\\ncslgr_9ab04c8d83836bbd.mov"
+  },
+  {
+    "id": "ncslgr_aa797382ef0f84b9",
+    "kind": "video",
+    "split": "unsplit",
+    "max_bytes": 2097152,
+    "max_expanded_bytes": 0,
+    "target": "D:\\apphearv3claude\\AppHear-claude-s2-r3-eval-suite\\AppHear-claude-s2-r3-eval-suite\\experiments\\continuous_asl\\20261019T155428Z_cslr01\\data\\raw\\ncslgr\\videos\\ncslgr_aa797382ef0f84b9.mov"
+  },
+  {
+    "id": "ncslgr_b4b6b3a8dd2384d4",
+    "kind": "video",
+    "split": "unsplit",
+    "max_bytes": 2097152,
+    "max_expanded_bytes": 0,
+    "target": "D:\\apphearv3claude\\AppHear-claude-s2-r3-eval-suite\\AppHear-claude-s2-r3-eval-suite\\experiments\\continuous_asl\\20261019T155428Z_cslr01\\data\\raw\\ncslgr\\videos\\ncslgr_b4b6b3a8dd2384d4.mov"
+  },
+  {
+    "id": "ncslgr_b79906da14d728f6",
+    "kind": "video",
+    "split": "unsplit",
+    "max_bytes": 2097152,
+    "max_expanded_bytes": 0,
+    "target": "D:\\apphearv3claude\\AppHear-claude-s2-r3-eval-suite\\AppHear-claude-s2-r3-eval-suite\\experiments\\continuous_asl\\20261019T155428Z_cslr01\\data\\raw\\ncslgr\\videos\\ncslgr_b79906da14d728f6.mov"
+  },
+  {
+    "id": "ncslgr_c9b58a7e5186fbcc",
+    "kind": "video",
+    "split": "unsplit",
+    "max_bytes": 2097152,
+    "max_expanded_bytes": 0,
+    "target": "D:\\apphearv3claude\\AppHear-claude-s2-r3-eval-suite\\AppHear-claude-s2-r3-eval-suite\\experiments\\continuous_asl\\20261019T155428Z_cslr01\\data\\raw\\ncslgr\\videos\\ncslgr_c9b58a7e5186fbcc.mov"
+  },
+  {
+    "id": "ncslgr_d00de0e555560ccf",
+    "kind": "video",
+    "split": "unsplit",
+    "max_bytes": 2097152,
+    "max_expanded_bytes": 0,
+    "target": "D:\\apphearv3claude\\AppHear-claude-s2-r3-eval-suite\\AppHear-claude-s2-r3-eval-suite\\experiments\\continuous_asl\\20261019T155428Z_cslr01\\data\\raw\\ncslgr\\videos\\ncslgr_d00de0e555560ccf.mov"
+  },
+  {
+    "id": "ncslgr_d58fc6ae63332323",
+    "kind": "video",
+    "split": "unsplit",
+    "max_bytes": 2097152,
+    "max_expanded_bytes": 0,
+    "target": "D:\\apphearv3claude\\AppHear-claude-s2-r3-eval-suite\\AppHear-claude-s2-r3-eval-suite\\experiments\\continuous_asl\\20261019T155428Z_cslr01\\data\\raw\\ncslgr\\videos\\ncslgr_d58fc6ae63332323.mov"
+  },
+  {
+    "id": "ncslgr_d79fcf66fb5f83a0",
+    "kind": "video",
+    "split": "unsplit",
+    "max_bytes": 2097152,
+    "max_expanded_bytes": 0,
+    "target": "D:\\apphearv3claude\\AppHear-claude-s2-r3-eval-suite\\AppHear-claude-s2-r3-eval-suite\\experiments\\continuous_asl\\20261019T155428Z_cslr01\\data\\raw\\ncslgr\\videos\\ncslgr_d79fcf66fb5f83a0.mov"
+  },
+  {
+    "id": "ncslgr_d7df63242e304194",
+    "kind": "video",
+    "split": "unsplit",
+    "max_bytes": 2097152,
+    "max_expanded_bytes": 0,
+    "target": "D:\\apphearv3claude\\AppHear-claude-s2-r3-eval-suite\\AppHear-claude-s2-r3-eval-suite\\experiments\\continuous_asl\\20261019T155428Z_cslr01\\data\\raw\\ncslgr\\videos\\ncslgr_d7df63242e304194.mov"
+  },
+  {
+    "id": "ncslgr_db431890eb66b9b8",
+    "kind": "video",
+    "split": "unsplit",
+    "max_bytes": 2097152,
+    "max_expanded_bytes": 0,
+    "target": "D:\\apphearv3claude\\AppHear-claude-s2-r3-eval-suite\\AppHear-claude-s2-r3-eval-suite\\experiments\\continuous_asl\\20261019T155428Z_cslr01\\data\\raw\\ncslgr\\videos\\ncslgr_db431890eb66b9b8.mov"
+  },
+  {
+    "id": "ncslgr_ea3072063dcce434",
+    "kind": "video",
+    "split": "unsplit",
+    "max_bytes": 2097152,
+    "max_expanded_bytes": 0,
+    "target": "D:\\apphearv3claude\\AppHear-claude-s2-r3-eval-suite\\AppHear-claude-s2-r3-eval-suite\\experiments\\continuous_asl\\20261019T155428Z_cslr01\\data\\raw\\ncslgr\\videos\\ncslgr_ea3072063dcce434.mov"
+  },
+  {
+    "id": "ncslgr_ff4ccab6214e02e3",
+    "kind": "video",
+    "split": "unsplit",
+    "max_bytes": 2097152,
+    "max_expanded_bytes": 0,
+    "target": "D:\\apphearv3claude\\AppHear-claude-s2-r3-eval-suite\\AppHear-claude-s2-r3-eval-suite\\experiments\\continuous_asl\\20261019T155428Z_cslr01\\data\\raw\\ncslgr\\videos\\ncslgr_ff4ccab6214e02e3.mov"
+  },
+  {
+    "id": "ncslgr_15ce3b0df9a36e45",
+    "kind": "video",
+    "split": "unsplit",
+    "max_bytes": 2097152,
+    "max_expanded_bytes": 0,
+    "target": "D:\\apphearv3claude\\AppHear-claude-s2-r3-eval-suite\\AppHear-claude-s2-r3-eval-suite\\experiments\\continuous_asl\\20261019T155428Z_cslr01\\data\\raw\\ncslgr\\videos\\ncslgr_15ce3b0df9a36e45.mov"
+  },
+  {
+    "id": "ncslgr_506eb32518c31cf0",
+    "kind": "video",
+    "split": "unsplit",
+    "max_bytes": 2097152,
+    "max_expanded_bytes": 0,
+    "target": "D:\\apphearv3claude\\AppHear-claude-s2-r3-eval-suite\\AppHear-claude-s2-r3-eval-suite\\experiments\\continuous_asl\\20261019T155428Z_cslr01\\data\\raw\\ncslgr\\videos\\ncslgr_506eb32518c31cf0.mov"
+  },
+  {
+    "id": "ncslgr_5ebe678119cee7c7",
+    "kind": "video",
+    "split": "unsplit",
+    "max_bytes": 2097152,
+    "max_expanded_bytes": 0,
+    "target": "D:\\apphearv3claude\\AppHear-claude-s2-r3-eval-suite\\AppHear-claude-s2-r3-eval-suite\\experiments\\continuous_asl\\20261019T155428Z_cslr01\\data\\raw\\ncslgr\\videos\\ncslgr_5ebe678119cee7c7.mov"
+  },
+  {
+    "id": "ncslgr_6388dfd0f663edff",
+    "kind": "video",
+    "split": "unsplit",
+    "max_bytes": 2097152,
+    "max_expanded_bytes": 0,
+    "target": "D:\\apphearv3claude\\AppHear-claude-s2-r3-eval-suite\\AppHear-claude-s2-r3-eval-suite\\experiments\\continuous_asl\\20261019T155428Z_cslr01\\data\\raw\\ncslgr\\videos\\ncslgr_6388dfd0f663edff.mov"
+  },
+  {
+    "id": "ncslgr_6a4af42a32509d57",
+    "kind": "video",
+    "split": "unsplit",
+    "max_bytes": 2097152,
+    "max_expanded_bytes": 0,
+    "target": "D:\\apphearv3claude\\AppHear-claude-s2-r3-eval-suite\\AppHear-claude-s2-r3-eval-suite\\experiments\\continuous_asl\\20261019T155428Z_cslr01\\data\\raw\\ncslgr\\videos\\ncslgr_6a4af42a32509d57.mov"
+  },
+  {
+    "id": "ncslgr_6ffe901b165408f0",
+    "kind": "video",
+    "split": "unsplit",
+    "max_bytes": 2097152,
+    "max_expanded_bytes": 0,
+    "target": "D:\\apphearv3claude\\AppHear-claude-s2-r3-eval-suite\\AppHear-claude-s2-r3-eval-suite\\experiments\\continuous_asl\\20261019T155428Z_cslr01\\data\\raw\\ncslgr\\videos\\ncslgr_6ffe901b165408f0.mov"
+  },
+  {
+    "id": "ncslgr_8df5a103f3008daa",
+    "kind": "video",
+    "split": "unsplit",
+    "max_bytes": 2097152,
+    "max_expanded_bytes": 0,
+    "target": "D:\\apphearv3claude\\AppHear-claude-s2-r3-eval-suite\\AppHear-claude-s2-r3-eval-suite\\experiments\\continuous_asl\\20261019T155428Z_cslr01\\data\\raw\\ncslgr\\videos\\ncslgr_8df5a103f3008daa.mov"
+  },
+  {
+    "id": "ncslgr_a1f5b0418a1d8936",
+    "kind": "video",
+    "split": "unsplit",
+    "max_bytes": 2097152,
+    "max_expanded_bytes": 0,
+    "target": "D:\\apphearv3claude\\AppHear-claude-s2-r3-eval-suite\\AppHear-claude-s2-r3-eval-suite\\experiments\\continuous_asl\\20261019T155428Z_cslr01\\data\\raw\\ncslgr\\videos\\ncslgr_a1f5b0418a1d8936.mov"
+  },
+  {
+    "id": "ncslgr_b5a0f500c50c90a5",
+    "kind": "video",
+    "split": "unsplit",
+    "max_bytes": 2097152,
+    "max_expanded_bytes": 0,
+    "target": "D:\\apphearv3claude\\AppHear-claude-s2-r3-eval-suite\\AppHear-claude-s2-r3-eval-suite\\experiments\\continuous_asl\\20261019T155428Z_cslr01\\data\\raw\\ncslgr\\videos\\ncslgr_b5a0f500c50c90a5.mov"
+  }
+]
+Dry run only; maximum download bytes=77594624; no network or filesystem mutations.

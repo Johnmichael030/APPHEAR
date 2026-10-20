@@ -1,0 +1,229 @@
+{
+  "schema": "apphear.streaming_pilot.manifest.v1",
+  "mode": "SYNTHETIC",
+  "purpose": "EVALUATION_ONLY",
+  "training_allowed": false,
+  "fixture_origin": {
+    "path": "tests\\test_perception_vnext_recognition_schema_v2.py",
+    "sha256": "ffc83b31ae2300920d0740745f6f42e370f4568507c6cb9db933ff06357f1f72",
+    "scope": "Existing synthetic unit-test geometry, not human landmarks"
+  },
+  "contract_hashes": {
+    "pipeline/perception_vnext/recognition_schema.py": "21c863cce6748ad87e3ef083bedba19a5f6d2020823df3d89a3e58e4bff55fe9",
+    "pipeline/perception_vnext/recognition_schema_v2.py": "97d3f23b3c77495bd97ff51e532eb6e06f6e4a876bd30a71637b30add276f48c",
+    "pipeline/perception_vnext/segmentation/learned_features.py": "dfb5e9c2877881ab676d7c463739455b797e95679dfbe1e25866b26e8908f5f9"
+  },
+  "permission_review": {
+    "status": "SYNTHETIC_NOT_CONSENT",
+    "reviewer_id": "SYNTHETIC_OPERATOR",
+    "reference": "NO_REAL_PERMISSION_ASSERTED"
+  },
+  "signer_history": {
+    "status": "SYNTHETIC_NOT_CONSENT",
+    "reference": "SYNTHETIC_REGISTRY",
+    "reviewer_id": "SYNTHETIC_OPERATOR",
+    "covered_sources": [
+      "current_segmentation_training",
+      "current_word_training",
+      "legacy_isolated_frozen",
+      "prior_phone_design"
+    ],
+    "registry": [
+      {
+        "signer_id": "SYN_HISTORICAL",
+        "identity_key": "SYN_OLD_KEY",
+        "role": "TRAIN"
+      }
+    ]
+  },
+  "participants": [
+    {
+      "signer_id": "SYN_S01",
+      "identity_key": "SYN_KEY01",
+      "role": "PILOT_1_EVAL",
+      "qualification": {
+        "status": "SYNTHETIC_NOT_CONSENT",
+        "reference": "NO_REAL_SIGNER",
+        "reviewer_id": "SYNTHETIC_OPERATOR"
+      },
+      "consent": {
+        "status": "SYNTHETIC_NOT_CONSENT",
+        "withdrawn": false,
+        "reference": "NOT_CONSENT",
+        "reviewer_id": "SYNTHETIC_OPERATOR",
+        "allowed_actions": [
+          "ANNOTATE",
+          "EVALUATE",
+          "LOCAL_PROCESS",
+          "RECORD"
+        ]
+      }
+    },
+    {
+      "signer_id": "SYN_S02",
+      "identity_key": "SYN_KEY02",
+      "role": "PILOT_2_EVAL",
+      "qualification": {
+        "status": "SYNTHETIC_NOT_CONSENT",
+        "reference": "NO_REAL_SIGNER",
+        "reviewer_id": "SYNTHETIC_OPERATOR"
+      },
+      "consent": {
+        "status": "SYNTHETIC_NOT_CONSENT",
+        "withdrawn": false,
+        "reference": "NOT_CONSENT",
+        "reviewer_id": "SYNTHETIC_OPERATOR",
+        "allowed_actions": [
+          "ANNOTATE",
+          "EVALUATE",
+          "LOCAL_PROCESS",
+          "RECORD"
+        ]
+      }
+    }
+  ],
+  "recordings": [
+    {
+      "recording_id": "SYN_R01",
+      "session_id": "SYN_SESSION01",
+      "signer_id": "SYN_S01",
+      "prompt_id": "SYNTHETIC_ONLY",
+      "start_ms": 0.0,
+      "end_ms": 400.0,
+      "source_clock": "SOURCE_MONOTONIC_MS",
+      "image_semantics": "UPRIGHT_UNMIRRORED_SOURCE_RGB",
+      "device_id": "NO_DEVICE_SYNTHETIC",
+      "nominal_fps": 30.0,
+      "producer_reference": "SYNTHETIC_UNIT_FIXTURE_NOT_A_CAPTURE",
+      "media": {
+        "path": "SYN_R01.synthetic.bin",
+        "sha256": "8aac23416cb3a1f4b367ef8a8326ef7aabd6ec579bf193c945b6688ab69e80a2"
+      },
+      "capture_index": {
+        "path": "SYN_R01.capture.json",
+        "sha256": "3bf17d0b477572d799739939494577c8f1ee210f957c188bffdadc7006de0d64"
+      },
+      "raw_observations": {
+        "path": "SYN_R01.raw.npz",
+        "sha256": "a9d117c074cee6b5d79bccc4c5824277c097166e4a52b4b57b146a0d0def7d3f"
+      },
+      "segmentation_features": {
+        "path": "SYN_R01.seg378.npz",
+        "sha256": "2ad3c2d22d2c9cd1b5b0f8d53a9c34268b2989218c56d251b882ad86891b9048"
+      },
+      "annotations": {
+        "path": "SYN_R01.annotations.json",
+        "sha256": "560b608c6223ce137f720a730caa8e1c6c3900f901bc7722f541204d9c8b42cc"
+      },
+      "recognition_windows": [
+        {
+          "interval_id": "SYN_R01_A",
+          "basis": "REFERENCE_DIAGNOSTIC_ONLY",
+          "start_ms": 0.0,
+          "end_ms": 80.0,
+          "features": {
+            "path": "SYN_R01_A.350.npz",
+            "sha256": "80a6932fac58a43647836b5babcc9af3c7019c47862a591ba5b01e4338100a46"
+          }
+        },
+        {
+          "interval_id": "SYN_R01_B",
+          "basis": "REFERENCE_DIAGNOSTIC_ONLY",
+          "start_ms": 80.0,
+          "end_ms": 200.0,
+          "features": {
+            "path": "SYN_R01_B.350.npz",
+            "sha256": "61ba7dcdb1cf17b670f39df0dacdbb072b90960a948dbb51c5b1e6a763345281"
+          }
+        }
+      ],
+      "sequences": [
+        {
+          "sequence_id": "SYN_SEQ01",
+          "start_ms": 0.0,
+          "end_ms": 200.0,
+          "label_type": "SYNTHETIC_TOKENS",
+          "glosses": [
+            "SYN_TOKEN_A",
+            "SYN_TOKEN_B"
+          ],
+          "interval_ids": [
+            "SYN_R01_A",
+            "SYN_R01_B"
+          ]
+        }
+      ]
+    },
+    {
+      "recording_id": "SYN_R02",
+      "session_id": "SYN_SESSION02",
+      "signer_id": "SYN_S02",
+      "prompt_id": "SYNTHETIC_ONLY",
+      "start_ms": 0.0,
+      "end_ms": 400.0,
+      "source_clock": "SOURCE_MONOTONIC_MS",
+      "image_semantics": "UPRIGHT_UNMIRRORED_SOURCE_RGB",
+      "device_id": "NO_DEVICE_SYNTHETIC",
+      "nominal_fps": 30.0,
+      "producer_reference": "SYNTHETIC_UNIT_FIXTURE_NOT_A_CAPTURE",
+      "media": {
+        "path": "SYN_R02.synthetic.bin",
+        "sha256": "e57c7ee4810cb44de340bfe0a10a7f30d8547574d96c50a60a44c0881f597873"
+      },
+      "capture_index": {
+        "path": "SYN_R02.capture.json",
+        "sha256": "b9ec851dab9f3d220510501c996dbb16361481bf0607a18b1d4cd0a5da1c0860"
+      },
+      "raw_observations": {
+        "path": "SYN_R02.raw.npz",
+        "sha256": "8c483aa78e01454cf371fedf68913259279eb6689bde0bb98459cf5cdc112908"
+      },
+      "segmentation_features": {
+        "path": "SYN_R02.seg378.npz",
+        "sha256": "2ad3c2d22d2c9cd1b5b0f8d53a9c34268b2989218c56d251b882ad86891b9048"
+      },
+      "annotations": {
+        "path": "SYN_R02.annotations.json",
+        "sha256": "e3982676baa4e43c3f219c51eef8b487e19c72722893aa2c73d6ca806f303c43"
+      },
+      "recognition_windows": [
+        {
+          "interval_id": "SYN_R02_A",
+          "basis": "REFERENCE_DIAGNOSTIC_ONLY",
+          "start_ms": 0.0,
+          "end_ms": 80.0,
+          "features": {
+            "path": "SYN_R02_A.350.npz",
+            "sha256": "80a6932fac58a43647836b5babcc9af3c7019c47862a591ba5b01e4338100a46"
+          }
+        },
+        {
+          "interval_id": "SYN_R02_B",
+          "basis": "REFERENCE_DIAGNOSTIC_ONLY",
+          "start_ms": 80.0,
+          "end_ms": 200.0,
+          "features": {
+            "path": "SYN_R02_B.350.npz",
+            "sha256": "61ba7dcdb1cf17b670f39df0dacdbb072b90960a948dbb51c5b1e6a763345281"
+          }
+        }
+      ],
+      "sequences": [
+        {
+          "sequence_id": "SYN_SEQ02",
+          "start_ms": 0.0,
+          "end_ms": 200.0,
+          "label_type": "SYNTHETIC_TOKENS",
+          "glosses": [
+            "SYN_TOKEN_A",
+            "SYN_TOKEN_B"
+          ],
+          "interval_ids": [
+            "SYN_R02_A",
+            "SYN_R02_B"
+          ]
+        }
+      ]
+    }
+  ]
+}

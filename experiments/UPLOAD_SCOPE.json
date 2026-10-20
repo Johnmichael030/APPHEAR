@@ -1,0 +1,14 @@
+{
+  "status": "PASS",
+  "included_files": 2023,
+  "included_bytes": 122792879,
+  "excluded_files": 114501,
+  "excluded_reasons": {
+    "binary_payload_in_encrypted_release": 1879,
+    "dataset_dependency_cache_or_git_directory": 112596,
+    "protected_or_sensitive_metadata_name": 22,
+    "large_diagnostic_payload_in_encrypted_release": 4
+  },
+  "source_modified": false,
+  "full_backup": "https://github.com/Johnmichael030/APPHEAR/releases/tag/experiments-backup-20261020T153137Z"
+}

@@ -1,0 +1,6 @@
+{
+  "exit_code": 1,
+  "seconds": 31.213312500010943,
+  "scope": "full tests directory in fresh copied repository; no external writes/processes/network, max20 failures",
+  "original_repository_modified": false
+}

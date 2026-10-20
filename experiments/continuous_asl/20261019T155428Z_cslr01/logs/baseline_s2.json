@@ -1,0 +1,26 @@
+{
+  "status": "PASS",
+  "model_sha256": "820023d15c98dab2fb8f21914906ccd637d32bce7b825cbd1d89a58c80cd4ed7",
+  "scope": "Windows S2-only replay, not full Android recognition baseline",
+  "threads": 4,
+  "provider": "TFLite XNNPACK CPU",
+  "cold_interpreter_construction_ms": 1.8625999800860882,
+  "fixture_observations": 131,
+  "fixture_max_abs_probability_error": 0.0,
+  "fixture_mean_abs_probability_error": 0.0,
+  "fixture_argmax_mismatches": 0,
+  "fixture_timing_ms_p50": 0.4306999908294529,
+  "fixture_timing_ms_p95": 0.6729000160703436,
+  "research_clip_observations": 944,
+  "research_s2_ms_p50": 0.39900001138448715,
+  "research_s2_ms_p95": 0.6427100088330915,
+  "research_s2_ms_sum": 408.8869994156994,
+  "predicted_state_counts_not_ground_truth": {
+    "0": 148,
+    "1": 561,
+    "2": 235
+  },
+  "word_accuracy": "BLOCKED_NO_COMPATIBLE_HELD_OUT_BENCHMARK",
+  "boundary_metrics": "BLOCKED_NO_TIMED_BOUNDARY_GROUND_TRUTH",
+  "nonsign_metrics": "BLOCKED_NO_LABELED_NONSIGN_FOOTAGE"
+}

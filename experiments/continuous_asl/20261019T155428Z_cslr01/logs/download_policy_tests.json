@@ -1,0 +1,67 @@
+{
+  "network_used": false,
+  "results": [
+    {
+      "case": "HTML_is_not_ZIP",
+      "passed": true
+    },
+    {
+      "case": "Drive_quota_not_bypassed",
+      "passed": true
+    },
+    {
+      "case": "Drive_ID_change",
+      "passed": true
+    },
+    {
+      "case": "valid_complete_resume",
+      "passed": true
+    },
+    {
+      "case": "ignored_range",
+      "passed": true
+    },
+    {
+      "case": "changed_validator",
+      "passed": true
+    },
+    {
+      "case": "missing_validator",
+      "passed": true
+    },
+    {
+      "case": "short_range",
+      "passed": true
+    },
+    {
+      "case": "range_over_budget",
+      "passed": true
+    },
+    {
+      "case": "unrequested_partial",
+      "passed": true
+    },
+    {
+      "case": "manifest_test",
+      "passed": true
+    },
+    {
+      "case": "manifest_http",
+      "passed": true
+    },
+    {
+      "case": "manifest_host",
+      "passed": true
+    },
+    {
+      "case": "manifest_escape",
+      "passed": true
+    },
+    {
+      "case": "manifest_budget",
+      "passed": true
+    }
+  ],
+  "passed": true,
+  "tests": 15
+}

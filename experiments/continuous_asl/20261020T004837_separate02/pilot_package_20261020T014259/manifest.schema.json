@@ -1,0 +1,25 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "urn:apphear:streaming-pilot:manifest:v1",
+  "title": "Pilot structural envelope; semantic admission requires validate_pilot.py",
+  "type": "object",
+  "required": ["schema", "mode", "purpose", "training_allowed", "permission_review", "signer_history", "participants", "recordings", "contract_hashes"],
+  "properties": {
+    "schema": {"const": "apphear.streaming_pilot.manifest.v1"},
+    "mode": {"enum": ["REAL", "SYNTHETIC"]},
+    "purpose": {"const": "EVALUATION_ONLY"},
+    "training_allowed": {"const": false},
+    "permission_review": {"$ref": "#/$defs/attestation"},
+    "contract_hashes": {"type": "object", "minProperties": 3, "additionalProperties": {"type": "string", "pattern": "^[0-9a-f]{64}$"}},
+    "signer_history": {"type": "object", "required": ["status", "reference", "reviewer_id", "covered_sources", "registry"], "properties": {"status": {"enum": ["HUMAN_VERIFIED", "SYNTHETIC_NOT_CONSENT"]}, "reference": {"type": "string", "minLength": 1}, "reviewer_id": {"type": "string", "minLength": 1}, "covered_sources": {"type": "array", "minItems": 4, "uniqueItems": true, "items": {"type": "string"}}, "registry": {"type": "array", "minItems": 1, "items": {"type": "object", "required": ["identity_key", "signer_id", "role"]}}}},
+    "participants": {"type": "array", "minItems": 1, "maxItems": 2, "items": {"type": "object", "required": ["signer_id", "identity_key", "role", "qualification", "consent"], "properties": {"signer_id": {"$ref": "#/$defs/id"}, "identity_key": {"$ref": "#/$defs/id"}, "role": {"enum": ["PILOT_1_EVAL", "PILOT_2_EVAL"]}, "qualification": {"$ref": "#/$defs/attestation"}, "consent": {"allOf": [{"$ref": "#/$defs/attestation"}, {"type": "object", "required": ["withdrawn", "allowed_actions"], "properties": {"withdrawn": {"const": false}, "allowed_actions": {"type": "array", "minItems": 4, "uniqueItems": true, "items": {"enum": ["RECORD", "LOCAL_PROCESS", "ANNOTATE", "EVALUATE"]}}}}]}}}},
+    "recordings": {"type": "array", "minItems": 1, "items": {"$ref": "#/$defs/recording"}}
+  },
+  "$defs": {
+    "id": {"type": "string", "pattern": "^[A-Za-z0-9_-]{1,80}$"},
+    "attestation": {"type": "object", "required": ["status", "reference", "reviewer_id"], "properties": {"status": {"enum": ["HUMAN_VERIFIED", "SYNTHETIC_NOT_CONSENT"]}, "reference": {"type": "string", "minLength": 1}, "reviewer_id": {"type": "string", "minLength": 1}}},
+    "artifact": {"type": "object", "required": ["path", "sha256"], "properties": {"path": {"type": "string", "minLength": 1}, "sha256": {"type": "string", "pattern": "^[0-9a-f]{64}$"}}, "additionalProperties": false},
+    "sequence": {"type": "object", "required": ["sequence_id", "start_ms", "end_ms", "label_type", "glosses", "interval_ids"], "properties": {"sequence_id": {"$ref": "#/$defs/id"}, "start_ms": {"type": "number"}, "end_ms": {"type": "number"}, "label_type": {"enum": ["AUTHENTIC_ASL_GLOSS_SEQUENCE", "SYNTHETIC_TOKENS"]}, "glosses": {"type": "array", "minItems": 1, "items": {"type": "string", "minLength": 1}}, "interval_ids": {"type": "array", "minItems": 1, "uniqueItems": true, "items": {"$ref": "#/$defs/id"}}}},
+    "recording": {"type": "object", "required": ["recording_id", "session_id", "signer_id", "prompt_id", "start_ms", "end_ms", "source_clock", "image_semantics", "device_id", "nominal_fps", "producer_reference", "media", "capture_index", "raw_observations", "segmentation_features", "annotations", "sequences", "recognition_windows"], "properties": {"recording_id": {"$ref": "#/$defs/id"}, "session_id": {"$ref": "#/$defs/id"}, "signer_id": {"$ref": "#/$defs/id"}, "start_ms": {"type": "number"}, "end_ms": {"type": "number"}, "source_clock": {"const": "SOURCE_MONOTONIC_MS"}, "image_semantics": {"const": "UPRIGHT_UNMIRRORED_SOURCE_RGB"}, "media": {"$ref": "#/$defs/artifact"}, "capture_index": {"$ref": "#/$defs/artifact"}, "raw_observations": {"$ref": "#/$defs/artifact"}, "segmentation_features": {"$ref": "#/$defs/artifact"}, "annotations": {"$ref": "#/$defs/artifact"}, "sequences": {"type": "array", "items": {"$ref": "#/$defs/sequence"}}, "recognition_windows": {"type": "array", "items": {"type": "object", "required": ["interval_id", "basis", "start_ms", "end_ms", "features"], "properties": {"interval_id": {"$ref": "#/$defs/id"}, "basis": {"const": "REFERENCE_DIAGNOSTIC_ONLY"}, "start_ms": {"type": "number"}, "end_ms": {"type": "number"}, "features": {"$ref": "#/$defs/artifact"}}}}}}
+  }
+}

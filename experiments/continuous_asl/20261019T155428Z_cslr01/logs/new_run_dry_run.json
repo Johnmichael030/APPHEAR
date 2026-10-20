@@ -1,0 +1,7 @@
+{
+  "writes": false,
+  "network": false,
+  "new_environment_requires_free_bytes": 17179869184,
+  "protected_file_count": 2959,
+  "destination": "D:\\apphearv3claude\\AppHear-claude-s2-r3-eval-suite\\AppHear-claude-s2-r3-eval-suite\\experiments\\continuous_asl\\dry_run_probe_only"
+}

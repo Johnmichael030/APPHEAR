@@ -1,0 +1,180 @@
+{
+  "loss": 10.722453435262045,
+  "gloss_wer": 1.0,
+  "substitutions": 13,
+  "deletions": 44,
+  "insertions": 0,
+  "reference_tokens": 57,
+  "predictions": [
+    {
+      "sample_id": "ncslgr_6b627c2a6d44a0fc",
+      "reference": [
+        "IX-3p:i",
+        "LEARN+AGENT",
+        "MOTHERwg",
+        "CAR",
+        "BUY",
+        "FINISH",
+        "IX-3p:i"
+      ],
+      "hypothesis": [
+        "TEACH+AGENT",
+        "LAPTOP"
+      ],
+      "substitutions": 2,
+      "deletions": 5,
+      "insertions": 0,
+      "reference_tokens": 7
+    },
+    {
+      "sample_id": "ncslgr_480b611253531cc0",
+      "reference": [
+        "LEARN+AGENT",
+        "IX-loc:i",
+        "HOLD",
+        "MOTHER",
+        "FUTURE",
+        "BUY",
+        "CAR"
+      ],
+      "hypothesis": [
+        "PLAY"
+      ],
+      "substitutions": 1,
+      "deletions": 6,
+      "insertions": 0,
+      "reference_tokens": 7
+    },
+    {
+      "sample_id": "ncslgr_cecf49697b9aae80",
+      "reference": [
+        "IX-3p:i",
+        "LEARN+AGENT",
+        "POSS-3p:i",
+        "FATHERwg",
+        "HOUSE",
+        "WHICH",
+        "BUY",
+        "IX-loc-arc"
+      ],
+      "hypothesis": [
+        "TYPE",
+        "GO"
+      ],
+      "substitutions": 2,
+      "deletions": 6,
+      "insertions": 0,
+      "reference_tokens": 8
+    },
+    {
+      "sample_id": "ncslgr_510cf79b19adb2d4",
+      "reference": [
+        "IX-3p:i",
+        "MOTHERwg",
+        "BOOK",
+        "READ++"
+      ],
+      "hypothesis": [],
+      "substitutions": 0,
+      "deletions": 4,
+      "insertions": 0,
+      "reference_tokens": 4
+    },
+    {
+      "sample_id": "ncslgr_63612b0124839c79",
+      "reference": [
+        "IX-3p:i",
+        "MOTHERwg",
+        "PLAN",
+        "READ++",
+        "BOOK",
+        "LATERwg"
+      ],
+      "hypothesis": [
+        "MEAN",
+        "ACT"
+      ],
+      "substitutions": 2,
+      "deletions": 4,
+      "insertions": 0,
+      "reference_tokens": 6
+    },
+    {
+      "sample_id": "ncslgr_1418dc0eb004ad3b",
+      "reference": [
+        "IX-3p:i",
+        "MOTHER+",
+        "READ+",
+        "BOOK",
+        "IX-3p:i"
+      ],
+      "hypothesis": [
+        "ALL-NIGHT"
+      ],
+      "substitutions": 1,
+      "deletions": 4,
+      "insertions": 0,
+      "reference_tokens": 5
+    },
+    {
+      "sample_id": "ncslgr_417afd4735362b64",
+      "reference": [
+        "IX-3p:i",
+        "MOTHER",
+        "IX-3p:i",
+        "CAR",
+        "BUY",
+        "IX-3p:j"
+      ],
+      "hypothesis": [
+        "MAKE",
+        "EVERY-YEAR"
+      ],
+      "substitutions": 2,
+      "deletions": 4,
+      "insertions": 0,
+      "reference_tokens": 6
+    },
+    {
+      "sample_id": "ncslgr_f9d66524fb30b3c5",
+      "reference": [
+        "IX-3p:i",
+        "FATHER",
+        "IX-loc:i",
+        "HOLD",
+        "BUY",
+        "BOOK",
+        "IX-3p:i"
+      ],
+      "hypothesis": [
+        "TYPE",
+        "PIE"
+      ],
+      "substitutions": 2,
+      "deletions": 5,
+      "insertions": 0,
+      "reference_tokens": 7
+    },
+    {
+      "sample_id": "ncslgr_43f1ecb8adfc4359",
+      "reference": [
+        "IX-3p:i",
+        "MOTHERwg",
+        "IX-3p:i",
+        "CAR",
+        "BUY",
+        "SHOULD",
+        "NOT"
+      ],
+      "hypothesis": [
+        "WITH"
+      ],
+      "substitutions": 1,
+      "deletions": 6,
+      "insertions": 0,
+      "reference_tokens": 7
+    }
+  ],
+  "scope": "COLLECTION-DISJOINT DIAGNOSTIC, SIGNER UNVERIFIED; NOT PRODUCT ACCURACY",
+  "out_of_vocabulary_tokens": 6
+}

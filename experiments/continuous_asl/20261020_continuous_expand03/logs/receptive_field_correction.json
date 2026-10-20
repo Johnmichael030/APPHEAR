@@ -1,0 +1,8 @@
+{
+  "incorrect_draft": 121,
+  "verified": 61,
+  "formula": "1+2*2*(1+2+4+8)",
+  "phase": "before_any_training",
+  "failed_test_xml": "logs/focused_tests.xml",
+  "authoritative_plan": "training_plan.v2.json"
+}

@@ -1,0 +1,83 @@
+Using Python 3.11.11 environment at: experiments\continuous_asl\20261019T155428Z_cslr01\runtime\venv
+Checked 1 package in 9ms
+Using Python 3.11.11 environment at: experiments\continuous_asl\20261019T155428Z_cslr01\runtime\venv
+Resolved 8 packages in 378ms
+Downloading scipy (44.1MiB)
+Downloading numpy (15.1MiB)
+ Downloaded numpy
+ Downloaded scipy
+Prepared 8 packages in 2.30s
+Installed 8 packages in 526ms
+ + colorama==0.4.6
+ + iniconfig==2.3.1
+ + numpy==1.26.4
+ + packaging==26.3
+ + pluggy==1.7.0
+ + pytest==8.3.5
+ + pyyaml==6.0.2
+ + scipy==1.13.1
+Using Python 3.11.11 environment at: experiments\continuous_asl\20261019T155428Z_cslr01\runtime\venv
+Resolved 45 packages in 720ms
+Downloading tensorflow (316.5MiB)
+Downloading pygments (1.2MiB)
+Downloading tensorboard (5.3MiB)
+Downloading libclang (25.2MiB)
+Downloading h5py (3.0MiB)
+Downloading opencv-python (37.7MiB)
+Downloading pillow (6.9MiB)
+Downloading grpcio (5.0MiB)
+Downloading keras (1.6MiB)
+Downloading onnxruntime (12.1MiB)
+ Downloaded h5py
+ Downloaded pygments
+ Downloaded grpcio
+ Downloaded keras
+ Downloaded pillow
+ Downloaded tensorboard
+ Downloaded libclang
+ Downloaded onnxruntime
+ Downloaded opencv-python
+ Downloaded tensorflow
+Prepared 39 packages in 23.64s
+Installed 39 packages in 5.06s
+ + absl-py==2.5.1
+ + astunparse==1.6.3
+ + certifi==2026.10.18
+ + charset-normalizer==3.5.2
+ + coloredlogs==15.0.1
+ + flatbuffers==25.12.19
+ + gast==0.7.0
+ + google-pasta==0.2.0
+ + grpcio==1.84.0
+ + h5py==3.16.0
+ + humanfriendly==10.0
+ + idna==3.20
+ + keras==3.15.0
+ + libclang==18.1.1
+ + markdown==3.11.1
+ + markdown-it-py==4.2.0
+ + mdurl==0.1.2
+ + ml-dtypes==0.5.4
+ + namex==0.1.0
+ + onnxruntime==1.22.0
+ + opencv-python==4.11.0.86
+ + opt-einsum==3.4.0
+ + optree==0.20.0
+ + pillow==13.0.0
+ + protobuf==7.36.2
+ + pygments==2.21.0
+ + pyreadline3==3.5.6
+ + requests==2.34.2
+ + rich==15.0.0
+ + setuptools==84.0.0
+ + six==1.17.0
+ + tensorboard==2.20.0
+ + tensorboard-data-server==0.7.2
+ + tensorflow==2.20.0
+ + termcolor==3.3.0
+ + urllib3==2.8.0
+ + werkzeug==3.1.9
+ + wheel==0.48.0
+ + wrapt==2.5.1
+Using Python 3.11.11 environment at: experiments\continuous_asl\20261019T155428Z_cslr01\runtime\venv
+Isolated interpreter: D:\apphearv3claude\AppHear-claude-s2-r3-eval-suite\AppHear-claude-s2-r3-eval-suite\experiments\continuous_asl\20261019T155428Z_cslr01\runtime\venv\Scripts\python.exe

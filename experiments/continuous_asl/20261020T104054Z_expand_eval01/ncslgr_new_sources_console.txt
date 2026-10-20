@@ -1,0 +1,8 @@
+Traceback (most recent call last):
+  File "D:\apphearv3claude\AppHear-claude-s2-r3-eval-suite\AppHear-claude-s2-r3-eval-suite\experiments\continuous_asl\20261020T104054Z_expand_eval01\resolve_ncslgr_urls.py", line 36, in <module>
+    if __name__=='__main__':main()
+                            ^^^^^^
+  File "D:\apphearv3claude\AppHear-claude-s2-r3-eval-suite\AppHear-claude-s2-r3-eval-suite\experiments\continuous_asl\20261020T104054Z_expand_eval01\resolve_ncslgr_urls.py", line 23, in main
+    if any(a['end_ms']>b['start_ms'] for a,b in zip(ordered,ordered[1:])):raise ValueError('OVERLAPPING_SOURCE_UTTERANCE_SPANS')
+                                                                          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: OVERLAPPING_SOURCE_UTTERANCE_SPANS

@@ -1,0 +1,17 @@
+{
+  "selection": "Exact original9DEV WER then loss; no final TEST accessed",
+  "manifest_sha256": "adebeb9e2f20179eb59b7f79805ea9226ad6c9c0594e6cba193c771947cdaf40",
+  "trainer_sha256": "bda4cd1f466a36ce75187bbcc4ae50884733f3f01dfc9cb7a597a346558a5fe8",
+  "training_plan_sha256": "a7073bee1ba79c2edb018e0fa25450eadb811160eb050d87e1b49950583ce60c",
+  "models": {
+    "reference48": {
+      "pointer": {
+        "path": "checkpoints\\epoch_002.pt",
+        "sha256": "f7a2b8bff5638671747352e2808f44fc2c60487a78d31a74cc49e978a46e7364",
+        "epoch": 2
+      },
+      "status_sha256": "a99c051485f2581f3f8772dcb0271ff53749e01b1a4abafd2ee9754d7fdc2013",
+      "config_sha256": "068d6ea87535e17b673ced2abf12e61577919bd6ffb26bc551816223dcaf99e5"
+    }
+  }
+}

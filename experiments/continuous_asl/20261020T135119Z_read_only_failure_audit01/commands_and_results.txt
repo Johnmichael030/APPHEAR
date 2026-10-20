@@ -1,0 +1,37 @@
+Strict read-only audit; all new writes confined to D:\apphearv3claude\AppHear-claude-s2-r3-eval-suite\AppHear-claude-s2-r3-eval-suite\experiments\continuous_asl\20261020T135119Z_read_only_failure_audit01
+Working directory: D:\apphearv3claude\AppHear-claude-s2-r3-eval-suite\AppHear-claude-s2-r3-eval-suite
+
+Initial PowerShell snapshot (executed before inspecting pilot content):
+$auditPilot='D:\apphearv3claude\AppHear-claude-s2-r3-eval-suite\AppHear-claude-s2-r3-eval-suite\experiments\continuous_asl\20261020T133148Z_source_transfer_pilot01'
+$auditRun='D:\apphearv3claude\AppHear-claude-s2-r3-eval-suite\AppHear-claude-s2-r3-eval-suite\experiments\continuous_asl\20261020T135119Z_read_only_failure_audit01'
+$auditBefore=@(Get-ChildItem -LiteralPath $auditPilot -Recurse -File | Sort-Object FullName | ForEach-Object { [PSCustomObject]@{path=$_.FullName;bytes=$_.Length;last_write_utc=$_.LastWriteTimeUtc.ToString('o');sha256=(Get-FileHash -LiteralPath $_.FullName -Algorithm SHA256).Hash.ToLowerInvariant()} })
+ConvertTo-Json -InputObject $auditBefore -Depth 5 | Set-Content -LiteralPath (Join-Path $auditRun 'pilot_files_before.json') -Encoding utf8
+Result:76files,38083529bytes.
+
+PowerShell inspections (read-only):
+Get-Content -LiteralPath 'D:\apphearv3claude\AppHear-claude-s2-r3-eval-suite\AppHear-claude-s2-r3-eval-suite\experiments\continuous_asl\20261020T133148Z_source_transfer_pilot01\PILOT_REPORT.md'
+Get-Content -LiteralPath 'D:\apphearv3claude\AppHear-claude-s2-r3-eval-suite\AppHear-claude-s2-r3-eval-suite\experiments\continuous_asl\20261020T133148Z_source_transfer_pilot01\common.py'
+Get-Content -LiteralPath 'D:\apphearv3claude\AppHear-claude-s2-r3-eval-suite\AppHear-claude-s2-r3-eval-suite\experiments\continuous_asl\20261020T133148Z_source_transfer_pilot01\train.py'
+Get-Content -LiteralPath 'D:\apphearv3claude\AppHear-claude-s2-r3-eval-suite\AppHear-claude-s2-r3-eval-suite\experiments\continuous_asl\20261020T133148Z_source_transfer_pilot01\finish.py'
+Get-Content -LiteralPath 'D:\apphearv3claude\AppHear-claude-s2-r3-eval-suite\AppHear-claude-s2-r3-eval-suite\experiments\continuous_asl\20261020T133148Z_source_transfer_pilot01\verify.py'
+Get-Content -LiteralPath 'D:\apphearv3claude\AppHear-claude-s2-r3-eval-suite\AppHear-claude-s2-r3-eval-suite\experiments\continuous_asl\20261020T133148Z_source_transfer_pilot01\config.json'
+Get-Content -LiteralPath 'D:\apphearv3claude\AppHear-claude-s2-r3-eval-suite\AppHear-claude-s2-r3-eval-suite\tools\continuous_asl\ctc_experiment.py'
+Get-Content -LiteralPath 'D:\apphearv3claude\AppHear-claude-s2-r3-eval-suite\AppHear-claude-s2-r3-eval-suite\pipeline\perception_vnext\segmentation\learned_features.py'
+Get-Content -LiteralPath 'D:\apphearv3claude\AppHear-claude-s2-r3-eval-suite\AppHear-claude-s2-r3-eval-suite\pipeline\perception_vnext\recognition_schema.py'
+Get-Content -LiteralPath 'D:\apphearv3claude\AppHear-claude-s2-r3-eval-suite\AppHear-claude-s2-r3-eval-suite\experiments\continuous_asl\20261020_continuous_expand06\tools\prepare_asllrp.py'
+Get-Content -LiteralPath 'D:\apphearv3claude\AppHear-claude-s2-r3-eval-suite\AppHear-claude-s2-r3-eval-suite\experiments\continuous_asl\20261020_continuous_expand06\tools\asllrp_catalog.py'
+Additional rg keyword searches located schema/frame/timestamp/save logic and source line references. Source reads were line-numbered using Get-Content | ForEach-Object; no file was edited.
+
+Exact isolated analysis:
+& 'D:\apphearv3claude\AppHear-claude-s2-r3-eval-suite\AppHear-claude-s2-r3-eval-suite\experiments\continuous_asl\20261019T155428Z_cslr01\runtime\venv\Scripts\python.exe' -B 'D:\apphearv3claude\AppHear-claude-s2-r3-eval-suite\AppHear-claude-s2-r3-eval-suite\experiments\continuous_asl\20261020T135119Z_read_only_failure_audit01\analyze_read_only.py'
+Result:26.298s;1706cached-landmark feature recomputations,1500TRAINpublisherjoins,5469saved prediction checks;5198explicit nonTESTinputs hashed before. CPUcheckpoint metadata only; zero model forwards/backwards/optimizer/GPUcalls. analysis_console.txt is the captured output.
+
+After-snapshot command (same PowerShell enumeration/hash expression, saved to pilot_files_after.json):
+$auditAfter=@(Get-ChildItem -LiteralPath $auditPilot -Recurse -File | Sort-Object FullName | ForEach-Object { [PSCustomObject]@{path=$_.FullName;bytes=$_.Length;last_write_utc=$_.LastWriteTimeUtc.ToString('o');sha256=(Get-FileHash -LiteralPath $_.FullName -Algorithm SHA256).Hash.ToLowerInvariant()} })
+ConvertTo-Json -InputObject $auditAfter -Depth 5 | Set-Content -LiteralPath (Join-Path $auditRun 'pilot_files_after.json') -Encoding utf8
+
+Report/integrity finalization (new files only):
+& 'D:\apphearv3claude\AppHear-claude-s2-r3-eval-suite\AppHear-claude-s2-r3-eval-suite\experiments\continuous_asl\20261019T155428Z_cslr01\runtime\venv\Scripts\python.exe' -B 'D:\apphearv3claude\AppHear-claude-s2-r3-eval-suite\AppHear-claude-s2-r3-eval-suite\experiments\continuous_asl\20261020T135119Z_read_only_failure_audit01\finish_report.py'
+Checks5198nonTESTinput hashes again and both76filepilot snapshots; zerochanges. No existing train.py, finish.py or verifier chain executed.
+
+No training, fine-tuning, resumption, model inference, package install, download, external service, GPU/system change, Git mutation, existing-file edit/delete/rename or reservedTESTdata access.

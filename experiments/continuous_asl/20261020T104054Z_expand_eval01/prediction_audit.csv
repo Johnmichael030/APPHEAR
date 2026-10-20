@@ -1,0 +1,414 @@
+﻿status,sample_id,split,reference,hypothesis,substitutions,deletions,insertions,reference_tokens
+MEASURED_RESEARCH_DEV,asllrp3_2cf7b65be141761c,dev,"[""IX-1p"", ""(2h)NOT-YET"", ""(P)PAY"", ""fs-RENT""]","[""IX-1p""]",0,3,0,4
+MEASURED_RESEARCH_DEV,asllrp3_b63ce006168d3721,dev,"[""(1h)GOOD/THANK-YOU"", ""WEATHER"", ""IX-loc:i"", ""ARRIVE"", ""ns-BOSTON"", ""(2h)NOT-YET"", ""HURRY"", ""part:indef""]","[""IX-1p""]",1,7,0,8
+MEASURED_RESEARCH_DEV,asllrp3_47786393c384a039,dev,"[""POSS-1p"", ""FAMILY"", ""IX-3p:i"", ""EVERY-YEAR"", ""VACATION+"", ""part:indef"", ""(2h)#NO+MORE"", ""(1h)part:indef""]","[""IX-1p""]",1,7,0,8
+MEASURED_RESEARCH_DEV,asllrp3_91bcefffdcfcd1e9,dev,"[""ns-fs-BOB"", ""IX-loc:i"", ""HAVE"", ""BIG"", ""#DOG_2"", ""#NO"", ""IX-3p:i"", ""(1h)HAVE"", ""SMALL""]","[""IX-1p""]",1,8,0,9
+MEASURED_RESEARCH_DEV,asllrp3_8e3dc299ba22f98a,dev,"[""ns-fs-BOB"", ""IX-loc:i"", ""(2h)NOT-YET"", ""GO-OUT"", ""#PO"", ""(1h)part:indef""]","[""IX-1p""]",1,5,0,6
+MEASURED_RESEARCH_DEV,asllrp3_4ff45ebbb9c63b38,dev,"[""FARM"", ""SCL:bent-B\\flat land\\\""\"""", ""(2h)HORSE"", ""SCL:crvd-V\\horse galloping\\\""\"""", ""(1h)VOMIT/HATE"", ""IN"", ""RAIN""]","[""IX-1p""]",1,6,0,7
+MEASURED_RESEARCH_DEV,asllrp3_4e767a54dfd73c26,dev,"[""FARM"", ""IX-loc:i"", ""PLAY"", ""SCL:crvd-V\\horse galloping\\\""\"""", ""(2h)HORSE"", ""IX-loc:j"", ""(1h)part:indef"", ""DURING/WHILE"", ""RAIN"", ""(1h)VOMIT/HATE""]","[""IX-1p""]",1,9,0,10
+MEASURED_RESEARCH_DEV,asllrp3_efdd3f97599a2a2c,dev,"[""DRESS/CLOTHES"", ""IX-loc:i"", ""ON"", ""#SALE"", ""IX-loc:i"", ""NOT"", ""#NO""]","[""IX-1p""]",1,6,0,7
+MEASURED_RESEARCH_DEV,asllrp3_3d8b0e0f69d049e6,dev,"[""FRIEND"", ""SCL:crvd-5\\group go together\\\""\"""", ""GO-OUT"", ""(nd-1)MOVIE"", ""ACT"", ""IX-loc:i"", ""(2h)NOT-YET"", ""(25)WHY"", ""TRAFFIC_2""]","[""IX-1p""]",1,8,0,9
+MEASURED_RESEARCH_DEV,asllrp3_0a79762a18838aba,dev,"[""IX-1p"", ""(1h)part:indef"", ""NOT"", ""EXPERT"", ""MEMORIZE"", ""PEOPLE"", ""NAME"", ""MEET-3p-pl-arc"", ""MEMORIZE"", ""NAME"", ""(1h)DO-DO"", ""IX-1p"", ""NOT"", ""IX-1p""]","[""IX-1p""]",0,13,0,14
+MEASURED_RESEARCH_DEV,asllrp3_a68c2af7693276d3,dev,"[""IX-1p"", ""1p-MEET-3p-pl-arc"", ""NEW"", ""PEOPLE"", ""IX-1p"", ""LOUSY"", ""MEMORIZE"", ""POSS-3p-pl-arc"", ""NAME"", ""IX-1p""]","[""IX-1p""]",0,9,0,10
+MEASURED_RESEARCH_DEV,asllrp3_5065bd7beefdfe41,dev,"[""IX-1p"", ""NOT"", ""LIKE"", ""TALKwg"", ""ASK"", ""FOR"", ""DIRECT"", ""IX-3p:i"", ""5\\I don't know\\\""\"""", ""IX-1p"", ""NOT"", ""LIKE"", ""IX-1p""]","[""IX-1p""]",0,12,0,13
+MEASURED_RESEARCH_DEV,asllrp3_e5f32274f71637cf,dev,"[""HONEST"", ""IX-1p"", ""VOMIT/HATE"", ""GO-OUT"", ""WORK"", ""COMMUTE"", ""BICYCLE"", ""IX-1p"", ""(1h)VOMIT/HATE"", ""IX-1p""]","[""IX-1p""]",0,9,0,10
+MEASURED_RESEARCH_DEV,asllrp3_e05b1f25141208c6,dev,"[""NOTICE"", ""OH-I-SEE"", ""IX-3p:i"", ""BABY"", ""(1h)VOMIT/HATE"", ""FIREWORKS"", ""CRY++""]","[""IX-1p""]",1,6,0,7
+MEASURED_RESEARCH_DEV,asllrp3_d75fc7e2b57e87d8,dev,"[""FRIEND"", ""SCL:crvd-5\\group go together\\\""\"""", ""GO-OUT"", ""fs-BEACH"", ""(2h)NOT-YET""]","[""IX-1p""]",1,4,0,5
+MEASURED_RESEARCH_DEV,asllrp3_c90799813698aef2,dev,"[""FRIEND"", ""PLAY"", ""FRISBEE"", ""(2h)NOT-YET""]","[""IX-1p""]",1,3,0,4
+MEASURED_RESEARCH_DEV,asllrp3_673ffedb9743aa8f,dev,"[""IX-1p"", ""FINISH"", ""DECIDE"", ""ns-fs-MARY"", ""NOT"", ""INVITE/HIRE"", ""GO-OUT"", ""#BQQ"", ""(P)PARTY"", ""(25)WHY"", ""IX-3p:i"", ""NOT"", ""HAPPEN"", ""(5)SOCIAL/INTERACT""]","[""IX-1p""]",0,13,0,14
+MEASURED_RESEARCH_DEV,asllrp3_599407b4e4a5d703,dev,"[""POSS-1p"", ""SISTER"", ""HATE"", ""WATER"", ""SKI"", ""(25)WHY"", ""HARD"", ""DCL:X\\skiing back and forth\\\""\"""", ""BALANCE"", ""HARD""]","[""IX-1p""]",1,9,0,10
+MEASURED_RESEARCH_DEV,asllrp3_ef05548bd671c9b7,dev,"[""POSS-1p"", ""FRIEND"", ""WANT+NEG"", ""BUY"", ""PLAID"", ""(2h)SHIRT"", ""WANT+NEG""]","[""IX-1p""]",1,6,0,7
+MEASURED_RESEARCH_DEV,asllrp3_0c154fcfc68b6eff,dev,"[""IX-1p"", ""WANT+NEG"", ""BUY"", ""SHORTS"", ""IX-1p""]","[""IX-1p""]",0,4,0,5
+MEASURED_RESEARCH_DEV,asllrp3_580c9236bdc35839,dev,"[""POSS-1p"", ""GIRL+CORRECT"", ""IX-3p:i"", ""WANT+NEG"", ""HEADBAND_2"", ""FOR"", ""BIRTHDAY"", ""(1h)WANT+NEG""]","[""IX-1p""]",1,7,0,8
+MEASURED_RESEARCH_DEV,asllrp3_83f56896ed775541,dev,"[""fs-BRIDE"", ""AND"", ""fs-GROOM"", ""IX-3p-pl-2:i/j"", ""IX-loc:i"", ""DANCE"", ""LAST"", ""WEDDING"", ""NOT"", ""(1h)part:indef""]","[""IX-1p""]",1,9,0,10
+MEASURED_RESEARCH_DEV,asllrp3_f3fb3c6507a19bf1,dev,"[""IX-1p"", ""ENJOY"", ""CHAT"", ""WITH"", ""ns-fs-DONNA"", ""AND"", ""SECOND-IN-LIST_4"", ""ns-fs-JESSICA"", ""QMwg"", ""#NO"", ""NOT"", ""SO-SO""]","[""IX-1p""]",0,11,0,12
+MEASURED_RESEARCH_DEV,asllrp3_d03d52f4d2c82c87,dev,"[""IX-1p"", ""#FUCK"", ""(1h)5\\not a big deal\\\""\"""", ""IX-1p"", ""NOT"", ""MOVE-AWAY"", ""ns-#SD"", ""(25)WHY"", ""IX-1p"", ""NOT"", ""READY"", ""part:indef""]","[""IX-1p""]",0,11,0,12
+MEASURED_RESEARCH_DEV,asllrp3_13f20c16cabedd04,dev,"[""IX-2p"", ""NOT"", ""PASS-OUT_2"", ""IX-2p"", ""DRUNK"", ""NOT"", ""IX-2p""]","[""IX-1p""]",1,6,0,7
+MEASURED_RESEARCH_DEV,asllrp3_de5de5d2f1d9f32a,dev,"[""IX-2p"", ""NOT"", ""SCL\\person passed out\\\""\"""", ""NOT"", ""IX-2p""]","[""IX-1p""]",1,4,0,5
+MEASURED_RESEARCH_DEV,asllrp3_a2f28a4218f71347,dev,"[""FRIEND"", ""DELIBERATE"", ""DECIDE"", ""NOT"", ""(5)CRASH"", ""(P)PARTY""]","[""IX-1p""]",1,5,0,6
+MEASURED_RESEARCH_DEV,asllrp3_7b434c7842f07cdd,dev,"[""FRIEND"", ""GROUP/TOGETHER"", ""DELIBERATE"", ""(2h)REASON"", ""WANT+NEG"", ""PIZZA_4"", ""(P)PARTY"", ""(25)WHY"", ""(1h)part:indef"", ""UP-TO-NOW"", ""SAME-OLD""]","[""IX-1p""]",1,10,0,11
+MEASURED_RESEARCH_DEV,asllrp3_890e1a958b81f5e9,dev,"[""IX-2p"", ""(1)SEND"", ""LETTER/MAIL_2"", ""WHO""]","[""IX-1p""]",1,3,0,4
+MEASURED_RESEARCH_DEV,asllrp3_9b8328f2a99a03b3,dev,"[""WHO"", ""(1)SEND"", ""LETTER/MAIL_2"", ""(1h)part:indef""]","[""IX-1p""]",1,3,0,4
+MEASURED_RESEARCH_DEV,asllrp3_c061590467f3a38b,dev,"[""TEACH+AGENT"", ""IX-loc:i"", ""IX-3p-pl-arc"", ""HEAR/LISTEN"", ""IX-3p:i"", ""WHO""]","[""IX-1p""]",1,5,0,6
+MEASURED_RESEARCH_DEV,asllrp3_afd4cc461b74c605,dev,"[""WHO"", ""HEAR/LISTEN"", ""IX-3p:i"", ""(1h)TEACH+(1h)AGENT"", ""(1h)part:indef""]","[""IX-1p""]",1,4,0,5
+MEASURED_RESEARCH_DEV,asllrp3_93d22ca9cdc19725,dev,"[""ns-fs-BOB"", ""IX-loc:i"", ""i:GIVE-indef"", ""GIRL+FRIEND"", ""IX-loc:j"", ""(1h)DO-DO"", ""(1h)part:indef""]","[""IX-1p""]",1,6,0,7
+MEASURED_RESEARCH_DEV,asllrp3_6ef1b6c35a81de2d,dev,"[""ns-fs-BOB"", ""IX-loc:i"", ""READ+"", ""(1h)DO-DO""]","[""IX-1p""]",1,3,0,4
+MEASURED_RESEARCH_DEV,asllrp3_99ce19a46f4b03a1,dev,"[""TEACH+AGENT"", ""IX-loc:i"", ""START"", ""NICE/CLEAN"", ""TIME+""]","[""IX-1p""]",1,4,0,5
+MEASURED_RESEARCH_DEV,asllrp3_a4c90a286bc87eaf,dev,"[""MOTHER"", ""IX-loc:i"", ""SICK"", ""QMwg"", ""HOW""]","[""IX-1p""]",1,4,0,5
+MEASURED_RESEARCH_DEV,asllrp3_468f4ccad97ae83c,dev,"[""SICK"", ""WHO""]","[""IX-1p""]",1,1,0,2
+MEASURED_RESEARCH_DEV,asllrp3_b4af6c11ffa7fed4,dev,"[""WHO"", ""SICK"", ""WHO""]","[""IX-1p""]",1,2,0,3
+MEASURED_RESEARCH_DEV,asllrp3_816300748e7f25bf,dev,"[""AUNT"", ""EXPERT"", ""MAKE"", ""(1h)DO-DO""]","[""IX-1p""]",1,3,0,4
+MEASURED_RESEARCH_DEV,asllrp3_1fcbff9f67b55f03,dev,"[""WHO"", ""MUST"", ""(P)PAY"", ""fs-RENT""]","[""IX-1p""]",1,3,0,4
+MEASURED_RESEARCH_DEV,asllrp3_8432c6f4107fdc8c,dev,"[""WHO"", ""(1h)(flat-O)PAY/SPEND"", ""fs-RENT"", ""WHO""]","[""IX-1p""]",1,3,0,4
+MEASURED_RESEARCH_DEV,asllrp3_c3002cba9d7c0008,dev,"[""MUST"", ""(P)PAY"", ""fs-RENT"", ""WHO""]","[""IX-1p""]",1,3,0,4
+MEASURED_RESEARCH_DEV,asllrp3_37fde03c9a2a8075,dev,"[""BAD"", ""WEATHER"", ""START"", ""IN"", ""ns-BOSTON"", ""#WHEN""]","[""IX-1p""]",1,5,0,6
+MEASURED_RESEARCH_DEV,asllrp3_3a12f46182715c1f,dev,"[""POSS-2p"", ""FAMILY"", ""(1h)TEND"", ""VACATION"", ""EVERY-YEAR"", ""WHERE""]","[""IX-1p""]",1,5,0,6
+MEASURED_RESEARCH_DEV,asllrp3_75d779ec1ef46daa,dev,"[""BIG"", ""#DOG_2"", ""IX-loc:i"", ""(1h)ACCEPT"", ""WHO""]","[""IX-1p""]",1,4,0,5
+MEASURED_RESEARCH_DEV,asllrp3_f87576c6e1743cbd,dev,"[""WHO"", ""(1h)ACCEPT"", ""IX-3p:i"", ""BIG"", ""#DOG_2""]","[""IX-1p""]",1,4,0,5
+MEASURED_RESEARCH_DEV,asllrp3_a04ddebb62c6899b,dev,"[""FUTURE"", ""GO-OUT"", ""#PO"", ""(1h)part:indef"", ""WHO"", ""(1h)part:indef""]","[""IX-1p""]",1,5,0,6
+MEASURED_RESEARCH_DEV,asllrp3_afece69332d1c0e6,dev,"[""WHO"", ""GO-OUT"", ""#PO"", ""(1h)part:indef""]","[""IX-1p""]",1,3,0,4
+MEASURED_RESEARCH_DEV,asllrp3_5d170b7b0178c849,dev,"[""(2h)HORSE"", ""(1h)TEND"", ""PLAY-continuative"", ""WHERE""]","[""IX-1p""]",1,3,0,4
+MEASURED_RESEARCH_DEV,asllrp3_39999cdcae7efb19,dev,"[""DRESS/CLOTHES"", ""ON"", ""#SALE"", ""WHERE""]","[""IX-1p""]",1,3,0,4
+MEASURED_RESEARCH_DEV,asllrp3_32f2f9bf51af5280,dev,"[""FRIEND"", ""IX-loc:i"", ""SCL:crvd-5\\group go together\\\""\"""", ""GO-OUT"", ""LOOK"", ""(nd-1)MOVIE"", ""WHO"", ""JOIN""]","[""IX-1p""]",1,7,0,8
+MEASURED_RESEARCH_DEV,asllrp3_9b98a00b683f730c,dev,"[""PERSON"", ""IX-loc:i"", ""(1h)part:indef"", ""WHO"", ""IX-3p:i"", ""(1h)part:indef""]","[""IX-1p""]",1,5,0,6
+MEASURED_RESEARCH_DEV,asllrp3_ca056cea2096b0bd,dev,"[""ASK"", ""FOR"", ""DIRECT"", ""part:indef"", ""WHO""]","[""IX-1p""]",1,4,0,5
+MEASURED_RESEARCH_DEV,asllrp3_2bc7352726ca62f9,dev,"[""WHO"", ""ASK"", ""FOR"", ""DIRECT""]","[""IX-1p""]",1,3,0,4
+MEASURED_RESEARCH_DEV,asllrp3_8a271c449c0b147a,dev,"[""(1h)TEND"", ""COMMUTE"", ""BICYCLE"", ""(1h)part:indef"", ""WHO""]","[""IX-1p""]",1,4,0,5
+MEASURED_RESEARCH_DEV,asllrp3_6e0c1acef37685f8,dev,"[""WHO"", ""(1h)TEND"", ""COMMUTE"", ""BICYCLE"", ""WHO""]","[""IX-1p""]",1,4,0,5
+MEASURED_RESEARCH_DEV,asllrp3_d8518602065ae883,dev,"[""KISS-FIST"", ""LOOK"", ""FIREWORKS"", ""WHO""]","[""IX-1p""]",1,3,0,4
+MEASURED_RESEARCH_DEV,asllrp3_4c14e9263b271725,dev,"[""KNOW"", ""WHO"", ""KISS-FIST"", ""LOOK"", ""FIREWORKS"", ""QMwg""]","[""IX-1p""]",1,5,0,6
+MEASURED_RESEARCH_DEV,asllrp3_78190ad1f21e521b,dev,"[""WHO"", ""KISS-FIST"", ""LOOK"", ""FIREWORKS""]","[""IX-1p""]",1,3,0,4
+MEASURED_RESEARCH_DEV,asllrp3_5459b4f6cec425b6,dev,"[""FRIEND"", ""SCL:crvd-5\\group go together\\\""\"""", ""fs-BEACH"", ""FOR-FOR"", ""(1h)part:indef""]","[""IX-1p""]",1,4,0,5
+MEASURED_RESEARCH_DEV,asllrp3_83f2baf20de91ef3,dev,"[""WANT_2"", ""PLAY"", ""FRISBEE"", ""WHO"", ""(1h)part:indef""]","[""IX-1p""]",1,4,0,5
+MEASURED_RESEARCH_DEV,asllrp3_e0d7b01849e7e8f6,dev,"[""WHO"", ""WANT"", ""PLAY"", ""FRISBEE""]","[""IX-1p""]",1,3,0,4
+MEASURED_RESEARCH_DEV,asllrp3_22b719fad2667bf3,dev,"[""WANT"", ""#BQQ"", ""(P)PARTY"", ""(1h)part:indef"", ""#WHEN"", ""(1h)part:indef""]","[""IX-1p""]",1,5,0,6
+MEASURED_RESEARCH_DEV,asllrp3_4d447b923726d4f6,dev,"[""WANT_2"", ""#BQQ"", ""(P)PARTY"", ""FOR"", ""(1h)part:indef""]","[""IX-1p""]",1,4,0,5
+MEASURED_RESEARCH_DEV,asllrp3_9dd17b9e804f204e,dev,"[""GO-OUT"", ""WATER"", ""DCL\\round flat\\\""\"""", ""(1h)part:indef"", ""TIME+""]","[""IX-1p""]",1,4,0,5
+MEASURED_RESEARCH_DEV,asllrp3_eb365fa40cdc85ed,dev,"[""FRIEND"", ""WANT_2"", ""BUY"", ""PLAID"", ""(2h)SHIRT""]","[""IX-1p""]",1,4,0,5
+MEASURED_RESEARCH_DEV,asllrp3_3431b421b980ff00,dev,"[""MUST"", ""(1h)(flat-O)PAY/SPEND"", ""(1h)DO-DO"", ""IX-2p""]","[""IX-1p""]",1,3,0,4
+MEASURED_RESEARCH_DEV,asllrp3_c6f604142f0ed1e2,dev,"[""POSS-1p"", ""SISTER"", ""WANT"", ""FOR"", ""POSS-3p:i"", ""BIRTHDAY"", ""(1h)DO-DO"", ""(1h)part:indef""]","[""IX-1p""]",1,7,0,8
+MEASURED_RESEARCH_DEV,asllrp3_fd5160efca3d217e,dev,"[""fs-BRIDE"", ""AND"", ""fs-GROOM"", ""END"", ""WEDDING"", ""(25)WHY"", ""(1h)part:indef""]","[""IX-1p""]",1,6,0,7
+MEASURED_RESEARCH_DEV,asllrp3_14133f42121be7a9,dev,"[""IX-2p"", ""(1h)TEND"", ""CHAT"", ""WITH"", ""ns-fs-JESSICA"", ""AND"", ""ns-fs-DONNA"", ""(1h)DO-DO"", ""(25)WHY""]","[""IX-1p""]",1,8,0,9
+MEASURED_RESEARCH_DEV,asllrp3_ffac821210356176,dev,"[""IX-2p"", ""MUST"", ""MOVE-AWAY"", ""ns-#SD"", ""(25)WHY"", ""(1h)part:indef""]","[""IX-1p""]",1,5,0,6
+MEASURED_RESEARCH_DEV,asllrp3_78830bc85ae4d1d2,dev,"[""FRIEND"", ""IX-loc:i"", ""FACE+SAME"", ""PASS-OUT_2"", ""(25)WHY""]","[""IX-1p""]",1,4,0,5
+MEASURED_RESEARCH_DEV,asllrp3_b6569742908abd9c,dev,"[""SCL:3\\person passed out\\\""\"""", ""(2h)DRUNK"", ""PAST+NIGHT"", ""(25)WHY"", ""(1h)part:indef""]","[""IX-1p""]",1,4,0,5
+MEASURED_RESEARCH_DEV,asllrp3_2026d6f6079a4d8d,dev,"[""TIME+"", ""FRIEND"", ""IX-3p:i"", ""(5)CRASH"", ""(P)PARTY"", ""TIME+"", ""(1h)part:indef""]","[""IX-1p""]",1,6,0,7
+MEASURED_RESEARCH_DEV,asllrp3_b9e431ff1843028b,dev,"[""FRIEND"", ""TAKE-UP"", ""DINNER"", ""PIZZA_4"", ""(P)PARTY"", ""(1h)part:indef"", ""#WHEN"", ""(1h)part:indef""]","[""IX-1p""]",1,7,0,8
+MEASURED_RESEARCH_DEV,asllrp3_eb345638fbe55bec,dev,"[""IX-1p"", ""MUST"", ""REQUEST"", ""DIRECT/EXPLAIN"", ""(25)WHY"", ""IX-1p"", ""KNOW-NOTHING"", ""WHERE"", ""GO-OUT"", ""IX-1p""]","[""IX-1p""]",0,9,0,10
+MEASURED_RESEARCH_DEV,asllrp3_0e9bda81aef82d43,dev,"[""IX-1p"", ""(1h)TEND"", ""COMMUTE"", ""BICYCLE"", ""GO-OUT"", ""WORK"", ""(25)WHY"", ""IX-1p"", ""CANNOT"", ""BILL/OWE"", ""#CAR"", ""IX-1p""]","[""IX-1p""]",0,11,0,12
+MEASURED_RESEARCH_DEV,asllrp3_e4bef236cdf1478e,dev,"[""IX-1p"", ""LOVE"", ""FIREWORKS_2"", ""(25)WHY"", ""FIREWORKS_2"", ""BEAUTIFUL"", ""LOUD""]",[],0,7,0,7
+MEASURED_RESEARCH_DEV,asllrp3_b1ad7bfca6662131,dev,"[""FRIEND"", ""GROUP/TOGETHER-pl"", ""fs-BEACH"", ""SUNBATHE"", ""DCL:4\\people tanning\\\""\"""", ""SUNBATHE"", ""(25)WHY"", ""(1h)part:indef"", ""IX-loc:i"", ""fs-PALE""]","[""IX-1p""]",1,9,0,10
+MEASURED_RESEARCH_DEV,asllrp3_eeca99a840a7d30a,dev,"[""FRIEND"", ""PLAY"", ""FRISBEE"", ""WHERE"", ""IX-loc:i"", ""fs-PARK"", ""(1h)TEND"", ""PLAY"", ""FRISBEE""]","[""IX-1p""]",1,8,0,9
+MEASURED_RESEARCH_DEV,asllrp3_707e560206930333,dev,"[""IX-1p"", ""INVITE/HIRE"", ""FRIEND"", ""GO-OUT"", ""#BQQ"", ""(P)PARTY"", ""(25)WHY"", ""(1h)part:indef"", ""FOURTH"", ""#JULY"", ""SOON""]",[],0,11,0,11
+MEASURED_RESEARCH_DEV,asllrp3_0651e8d6eed37a3f,dev,"[""POSS-1p"", ""GIRL+CORRECT"", ""IX-3p:i"", ""FAVORITE/PREFER"", ""WATER+TUBING"", ""IX-loc:i"", ""THAN"", ""SKI"", ""(25)WHY"", ""(1h)part:indef"", ""TUBING"", ""EASY+(1h)MOST""]","[""IX-1p""]",1,11,0,12
+MEASURED_RESEARCH_DEV,asllrp3_12ce3ad17ada5b3e,dev,"[""POSS-1p"", ""FRIEND"", ""WANT"", ""PLAID"", ""(2h)SHIRT"", ""(25)WHY"", ""IX-3p:i"", ""FUTURE"", ""(1h)HAVE"", ""DRESS/CLOTHES"", ""(P)PARTY"", ""GROUP/TOGETHER"", ""DEPART""]","[""IX-1p""]",1,12,0,13
+MEASURED_RESEARCH_DEV,asllrp3_2575c295ddaf1c4c,dev,"[""IX-1p"", ""SHOULD"", ""BUY"", ""SHORTS"", ""(25)WHY"", ""IX-loc:i"", ""WOW"", ""(1h)OUT+"", ""HOT""]","[""IX-1p""]",0,8,0,9
+MEASURED_RESEARCH_DEV,asllrp3_41a2d8d54caa864a,dev,"[""POSS-1p"", ""GIRL+CORRECT"", ""(1h)WANT"", ""HEADBAND_2"", ""FOR"", ""POSS-2p"", ""BIRTHDAY"", ""(25)WHY"", ""(1h)part:indef"", ""HAIR"", ""DCL:B-L\\long hair\\\""\"""", ""WOW""]","[""IX-1p""]",1,11,0,12
+MEASURED_RESEARCH_DEV,asllrp3_c5a9aec701062af5,dev,"[""fs-BRIDE"", ""AND"", ""fs-GROOM"", ""IX-3p-pl-2:i/j"", ""DANCE"", ""LAST"", ""POSS-1p"", ""WEDDING"", ""CLOSE-DOOR"", ""HOW"", ""(1h)part:indef"", ""PICK/CHOOSE"", ""POSS-1p"", ""fs-OWN"", ""MUSIC""]","[""IX-1p""]",1,14,0,15
+MEASURED_RESEARCH_DEV,asllrp3_ebfbc925c2ad870d,dev,"[""IX-1p"", ""ENJOY"", ""CHAT"", ""WITH"", ""FIRST-IN-LIST"", ""ns-fs-JESSICA"", ""AND"", ""SECOND-IN-LIST"", ""ns-fs-DONNA"", ""IX-3p-pl-2:i/j"", ""ENJOY"", ""(25)WHY"", ""IX-1p"", ""ENJOY"", ""CHAT"", ""#ASL""]","[""IX-1p""]",0,15,0,16
+MEASURED_RESEARCH_DEV,asllrp3_e0caea9db2a9b1af,dev,"[""IX-1p"", ""MOVE-AWAY"", ""ns-#SD"", ""(25)WHY"", ""(1h)part:indef"", ""NEW"", ""WORK"", ""(2h)IX-honorific:i""]",[],0,8,0,8
+MEASURED_RESEARCH_DEV,asllrp3_ee6c6c2c51ad64f5,dev,"[""POSS-1p"", ""FRIEND"", ""PAST+NIGHT"", ""WOW"", ""(2h)DRUNK"", ""(2h)PASS-OUT_2"", ""(25)WHY"", ""(2h)(Y)DRINK"", ""A-LOT"", ""IX-3p:i""]",[],0,10,0,10
+MEASURED_RESEARCH_DEV,asllrp3_aae622d73bbbd908,dev,"[""POSS-1p"", ""FRIEND"", ""IX-3p:i"", ""SCL:3\\person passed out\\\""\"""", ""PAST+NIGHT"", ""(25)WHY"", ""(2h)(Y)DRINK"", ""PARTY-HARD"", ""IX-3p:i""]","[""IX-1p""]",1,8,0,9
+MEASURED_RESEARCH_DEV,asllrp3_760ff921e9dd735b,dev,"[""POSS-1p"", ""FRIEND"", ""IX-3p:i"", ""SCL:3\\person passed out\\\""\"""", ""PAST+NIGHT"", ""PARTY-HARD"", ""WOW"", ""(25)WHY"", ""POSS-3p:i"", ""BIRTHDAY""]",[],0,10,0,10
+MEASURED_RESEARCH_DEV,asllrp3_9af67247a66a8d7b,dev,"[""POSS-1p"", ""FRIEND"", ""PROCEED"", ""CROWDED"", ""(5)CRASH"", ""(P)PARTY"", ""(25)WHY"", ""RECENT-PAST"", ""FINISH"", ""LAST"", ""fs-EXAM""]",[],0,11,0,11
+MEASURED_RESEARCH_DEV,asllrp3_b9777a3b0ccfdbc6,dev,"[""FRIEND"", ""PROCEED"", ""TAKE-UP"", ""PIZZA_4"", ""DINNER"", ""(25)WHY"", ""IX-3p:i"", ""KISS-FIST"", ""PIZZA_4""]",[],0,9,0,9
+MEASURED_RESEARCH_DEV,asllrp3_abf3ae90c434a8fd,dev,"[""#IF"", ""IX-3p:i"", ""ns-fs-BOB"", ""(1)SEND"", ""POSS-3p:i"", ""RESUME"", ""FUTURE"", ""GET"", ""WORK""]",[],0,9,0,9
+MEASURED_RESEARCH_DEV,asllrp3_ea3462508bd46d2b,dev,"[""#IF"", ""5\\hesitation\\\""\"""", ""IX-3p:i"", ""STUDENT"", ""PROCEED"", ""HEAR/LISTEN"", ""TEACH+AGENT"", ""LOOK-UP"", ""FUTURE"", ""LEARN"", ""SOMETHING/ONE""]",[],0,11,0,11
+MEASURED_RESEARCH_DEV,asllrp3_7f2e3dc921a6f578,dev,"[""#IF"", ""GIRL+FRIEND"", ""IX-3p:i"", ""ns-fs-BOB"", ""j:GIVE:i"", ""(R)FLOWER"", ""IX-3p:i"", ""FUTURE"", ""(1h)HAPPY""]","[""IX-1p""]",1,8,0,9
+MEASURED_RESEARCH_DEV,asllrp3_85cf6ca08f37416e,dev,"[""ATTENTION-WAVE"", ""#IF"", ""ATTENTION-WAVE"", ""ns-fs-BOB"", ""IX-3p:i"", ""STUDY"", ""fs-LIT"", ""BOOK"", ""IX-3p:i"", ""FUTURE"", ""PASS"", ""LAST"", ""fs-EXAM""]","[""IX-1p""]",1,12,0,13
+MEASURED_RESEARCH_DEV,asllrp3_2756eb61242becbf,dev,"[""#WHEN"", ""TEACH+AGENT"", ""IX-3p:i"", ""FINISH"", ""NICE/CLEAN"", ""CLASS_2+BOX/ROOM"", ""(1h)TEND"", ""IX-3p:i"", ""LOCK"", ""(nd-1)GATE""]",[],0,10,0,10
+MEASURED_RESEARCH_DEV,asllrp3_fcc1a99f7fdf1969,dev,"[""#IF"", ""MOTHER"", ""IX-loc:i"", ""SICK"", ""IX-3p:i"", ""IX-1p"", ""MUST"", ""CARE:i""]",[],0,8,0,8
+MEASURED_RESEARCH_DEV,asllrp3_24e3663e1aa870b7,dev,"[""FINEwg"", ""#IF"", ""IX-1p"", ""MOW"", ""MOTHER"", ""FUTURE"", ""i:GIVE-1p"", ""TWENTY"", ""DOLLAR_2""]","[""IX-1p""]",0,8,0,9
+MEASURED_RESEARCH_DEV,asllrp3_811835517426e078,dev,"[""#IF"", ""REALLY+WORK"", ""AUNT"", ""MAKE"", ""BLUE+fs-BERRY"", ""PIE"", ""FINISH"", ""ZOOM"", ""HOME"", ""GOBBLE-UP""]","[""IX-1p""]",1,9,0,10
+MEASURED_RESEARCH_DEV,asllrp3_b4d6235869d7260b,dev,"[""#IF"", ""REALLY+WORK"", ""IX-1p"", ""MUST"", ""(P)PAY"", ""fs-RENT"", ""NOW"", ""FINE"", ""CANCEL/CRITICIZE"", ""POSS-1p"", ""VACATION"", ""(1h)PROCEED+""]",[],0,12,0,12
+MEASURED_RESEARCH_DEV,asllrp3_cd2557a2d02a4ced,dev,"[""#WHEN"", ""BAD"", ""fs-STORM"", ""COME"", ""ns-BOSTON"", ""FINE"", ""(1h)STAY"", ""HOME""]","[""IX-1p""]",1,7,0,8
+MEASURED_RESEARCH_DEV,asllrp3_7759730ff624bcbf,dev,"[""#IF"", ""IX-3p:i"", ""FAMILY"", ""DECIDE"", ""VACATION"", ""EVERY-YEAR"", ""IX-3p:i"", ""FUTURE"", ""EVERY-YEAR"", ""DEPART+"", ""ns-PUERTO-RICO""]","[""IX-1p""]",1,10,0,11
+MEASURED_RESEARCH_DEV,asllrp3_246c2fede1de8129,dev,"[""#IF"", ""ns-fs-BOB"", ""IX-loc:i"", ""TAKE-UP"", ""BIG"", ""#DOG_2"", ""MUST"", ""ACCEPT"", ""FUTURE"", ""(flat-O)PAY/SPEND"", ""WOW+""]","[""IX-1p""]",1,10,0,11
+MEASURED_RESEARCH_DEV,asllrp3_094711ab54691855,dev,"[""#IF"", ""ns-fs-BOB"", ""IX-loc:i"", ""GO-OUT"", ""#PO"", ""IX-1p"", ""FUTURE"", ""1p-GIVE-indef"", ""ALL"", ""POSS-1p"", ""LETTER/MAIL_2"", ""(25)WHY"", ""IX-3p:i"", ""CAN"", ""(1h)DROP"", ""#OFF""]","[""IX-1p""]",0,15,0,16
+MEASURED_RESEARCH_DEV,asllrp3_ab1c9926db886447,dev,"[""#IF"", ""(2h)HORSE"", ""IX-loc:i"", ""PLAY+"", ""ALL-DAY"", ""SCL:V/2\\horse galloping\\\""\"""", ""ON"", ""FARM"", ""GUARANTEE"", ""NIGHT"", ""TIME+"", ""EXHAUST""]","[""IX-1p""]",1,11,0,12
+MEASURED_RESEARCH_DEV,asllrp3_31f3365a5165eb9b,dev,"[""#IF"", ""DRESS/CLOTHES"", ""ON"", ""#SALE"", ""GUARANTEE"", ""FRIEND"", ""IX-1p-pl-arc"", ""DCL:crvd-5\\group go together\\\""\"""", ""GO-OUT"", ""fs-MALL""]",[],0,10,0,10
+MEASURED_RESEARCH_DEV,asllrp3_e440129c87e029c3,dev,"[""FRIEND"", ""SCL:crvd-5\\group go together\\\""\"""", ""WATCH-TV"", ""BUT"", ""(nd-1)MOVIE"", ""(25)WHY"", ""IX-3p:i"", ""FAVORITE/PREFER"", ""SOMETHING/ONE"", ""DIFFERENT"", ""(1h)part:indef""]",[],0,11,0,11
+MEASURED_RESEARCH_DEV,asllrp3_c0d6ba01e9626dee,dev,"[""FRIEND"", ""LOOK:i"", ""(1h)FORGET-IT"", ""BUT"", ""(nd-1)MOVIE"", ""(25)WHY"", ""IX-3p:i"", ""FAVORITE/PREFER"", ""ACTION"", ""fs-ACTION"", ""AND"", ""MONSTER"", ""fs-HORROR""]","[""IX-1p""]",1,12,0,13
+MEASURED_RESEARCH_DEV,asllrp3_c724a0b39041d1ea,dev,"[""IX-1p"", ""#WHEN"", ""IX-1p"", ""INTRODUCE"", ""FRIEND"", ""FUTURE"", ""TEST"", ""IX-2p"", ""REMEMBER"", ""POSS-3p:i"", ""NAME"", ""LATER_2""]",[],0,12,0,12
+MEASURED_RESEARCH_DEV,asllrp3_1287d5da7aa091e9,dev,"[""#IF"", ""POSS-1p"", ""FRIEND"", ""PROCEED"", ""BRAVE/RECOVER"", ""ASK"", ""DIRECT/EXPLAIN"", ""WHERE"", ""IX-1p"", ""MUST"", ""ACCEPT"", ""DRIVE"", ""IX-1p""]",[],0,13,0,13
+MEASURED_RESEARCH_DEV,asllrp3_ad96c684e0549a4c,dev,"[""#IF"", ""REALLY+WORK"", ""IX-1p"", ""COMMUTE"", ""WORK"", ""BICYCLE"", ""IX-1p"", ""MUST"", ""GET-UP"", ""EMPTY/EARLY+(1h)MOST"", ""(nd-1)BEFORE""]","[""IX-1p""]",0,10,0,11
+MEASURED_RESEARCH_DEV,asllrp3_197aad714a098eba,dev,"[""#IF"", ""(S)BASEBALL"", ""GAME"", ""REALLY+WORK"", ""HAVE"", ""FIREWORKS"", ""IX-loc:i"", ""GUARANTEE"", ""IX-1p"", ""GO"", ""WATCH-TV"", ""IX-1p""]","[""IX-1p""]",0,11,0,12
+MEASURED_RESEARCH_DEV,asllrp3_3650c9a18e16b416,dev,"[""#WHEN"", ""POSS-1p"", ""FRIEND"", ""SCL:crvd-5\\group go together\\\""\"""", ""fs-SUN"", ""IX-loc:i"", ""SCL:V/2\\person rolling around\\\""\"""", ""fs-BEACH"", ""IX-1p"", ""MUST"", ""BRING"", ""(L)LOTION"", ""(bent-1)POSS-1p"", ""BPCL:B-L\\rub on lotion\\\""\""""]",[],0,14,0,14
+MEASURED_RESEARCH_DEV,asllrp3_3db6c1661df21c34,dev,"[""#IF"", ""FRIEND"", ""PLAY"", ""FRISBEE"", ""IX-1p"", ""FUTURE"", ""JOIN"", ""PLAY"", ""IX-1p""]",[],0,9,0,9
+MEASURED_RESEARCH_DEV,asllrp3_02a6174d1704e924,dev,"[""#WHEN"", ""IX-1p"", ""MAKE"", ""LIST"", ""FOR"", ""#BQQ"", ""(P)PARTY"", ""IX-1p"", ""MUST"", ""MAKE"", ""REALLY"", ""IX-1p"", ""(2h)alt.INVITE/HIRE"", ""ALL"", ""POSS-1p"", ""FRIEND""]","[""IX-1p""]",0,15,0,16
+MEASURED_RESEARCH_DEV,asllrp3_4904ba4663335582,dev,"[""#WHEN"", ""POSS-1p"", ""SISTER"", ""IX-3p:i"", ""WATER+TUBING"", ""IX-loc:i"", ""IX-1p-pl-arc"", ""MUST"", ""MAKE"", ""REALLY"", ""(2h)LOOK-FORWARD"", ""NOT"", ""SCL:V/2\\person sliding off tube\\\""\""""]","[""IX-1p""]",1,12,0,13
+MEASURED_RESEARCH_DEV,asllrp3_660f2105a09d3d20,dev,"[""#IF"", ""POSS-1p"", ""FRIEND"", ""IX-3p:i"", ""(1h)(flat-O)PAY/SPEND"", ""PLAID"", ""(2h)SHIRT"", ""IX-1p"", ""MUST"", ""MAKE"", ""REALLY"", ""OPPOSITE"", ""IX-1p"", ""(4)STRIPES""]",[],0,14,0,14
+MEASURED_RESEARCH_DEV,asllrp3_5eb072b08b386008,dev,"[""#IF"", ""IX-1p"", ""BUY"", ""SHORTS+"", ""IX-1p"", ""MUST"", ""(5)THROW"", ""SHOE+""]",[],0,8,0,8
+MEASURED_RESEARCH_DEV,asllrp3_8b3d9a470a40b976,dev,"[""#IF"", ""POSS-1p"", ""SISTER"", ""IX-loc:i"", ""GET"", ""HEADBAND_2"", ""FOR"", ""POSS-3p:i"", ""BIRTHDAY"", ""IX-3p:i"", ""SISTER"", ""GUARANTEE"", ""FUTURE"", ""DECORATE"", ""WITH"", ""fs-GLITTER"", ""BAKING-SPRINKLES""]",[],0,17,0,17
+MEASURED_RESEARCH_DEV,asllrp3_27ba3adf5dd04cdd,dev,"[""#IF"", ""IX-3p-pl-2:i/j"", ""fs-BRIDE"", ""AND"", ""fs-GROOM"", ""IX-3p-pl-2:i/j"", ""DANCE"", ""LAST"", ""WEDDING"", ""PEOPLE"", ""MUST"", ""DCL:4\\people gathering in a circle\\\""\"""", ""QUIET"", ""(2h)LOOK-FORWARD""]","[""IX-1p""]",1,13,0,14
+MEASURED_RESEARCH_DEV,asllrp3_e047d86fc7f67330,dev,"[""DURING/WHILE"", ""IX-1p"", ""ENJOY"", ""CHAT"", ""WITH"", ""ns-fs-DONNA"", ""AND"", ""SECOND-IN-LIST"", ""ns-fs-JESSICA"", ""IX-1p"", ""SAME"", ""ENJOY"", ""CHAT"", ""WITH"", ""EACH+ONE"", ""OTHER"", ""SAME"", ""IX-1p""]",[],0,18,0,18
+MEASURED_RESEARCH_DEV,asllrp3_f4ceb79024970bde,dev,"[""#WHEN"", ""REALLY+WORK"", ""MOVE-AWAY"", ""ns-#SD"", ""IX-1p"", ""MUST"", ""GET"", ""CAR"", ""LICENSE"", ""IX-1p""]","[""IX-1p""]",0,9,0,10
+MEASURED_RESEARCH_DEV,asllrp3_6ddc5d8544baf6f9,dev,"[""#IF"", ""POSS-2p"", ""FRIEND"", ""(2h)PASS-OUT_2"", ""(2h)DRUNK"", ""IX-1p"", ""REFUSE"", ""CARE"", ""REFUSE"", ""IX-1p""]","[""IX-1p""]",0,9,0,10
+MEASURED_RESEARCH_DEV,asllrp3_e089b3e8b1fa7274,dev,"[""(1h)WOW/AWFUL"", ""IX-1p"", ""SCL:3\\person passed out\\\""\"""", ""PAST+NIGHT"", ""EACH+ONE"", ""(2h)alt.CHEER"", ""WOW""]","[""IX-1p""]",0,6,0,7
+MEASURED_RESEARCH_DEV,asllrp3_95db79c8190d3869,dev,"[""#IF"", ""FRIEND"", ""CRASH"", ""POSS-1p"", ""(P)PARTY"", ""IX-1p"", ""FUTURE"", ""KICK-OFF"", ""IX-1p""]","[""IX-1p""]",0,8,0,9
+MEASURED_RESEARCH_DEV,asllrp3_aeda4dffb28d4057,dev,"[""#IF"", ""FRIEND"", ""TAKE-UP"", ""PIZZA_4"", ""DINNER"", ""IX-1p"", ""FUTURE"", ""BRING"", ""fs-SUPREME"", ""DCL\\round flat\\\""\""""]","[""IX-1p""]",0,9,0,10
+MEASURED_RESEARCH_DEV,asllrp3_9eb1f1d136fa17cf,dev,"[""ns-fs-BOB"", ""IX-loc:i"", ""(2h)NOT-YET"", ""(1)SEND"", ""LETTER/MAIL_2""]","[""IX-1p""]",1,4,0,5
+MEASURED_RESEARCH_DEV,asllrp3_2c3cf3bcd0fd9e61,dev,"[""STUDENT"", ""IX-loc:i"", ""REFUSE"", ""HEAR/LISTEN"", ""TO/UNTIL"", ""TEACH+AGENT"", ""(1h)part:indef""]","[""IX-1p""]",1,6,0,7
+MEASURED_RESEARCH_DEV,asllrp3_24b00614d787f4d4,dev,"[""ns-fs-BOB"", ""SCL:1\\one person approaching another\\\""\"""", ""i:GIVE-indef"", ""(R)FLOWER"", ""GIRL+FRIEND"", ""(2h)NOT-YET"", ""part:indef""]","[""IX-1p""]",1,6,0,7
+MEASURED_RESEARCH_DEV,asllrp3_3a338ca188a6572a,dev,"[""ns-fs-BOB"", ""IX-loc:i"", ""(1h)VOMIT/HATE"", ""READ"", ""BOOK+""]","[""IX-1p""]",1,4,0,5
+MEASURED_RESEARCH_DEV,asllrp3_8ced8027116db29a,dev,"[""TEACH+AGENT"", ""IX-loc:i"", ""SICK-OF"", ""NICE/CLEAN+"", ""CLASS_2+BOX/ROOM""]","[""IX-1p""]",1,4,0,5
+MEASURED_RESEARCH_DEV,asllrp3_62610459a050b1e1,dev,"[""TEACH+AGENT"", ""IX-3p:i"", ""SICK-OF"", ""NICE/CLEAN"", ""CLASS_2+BOX/ROOM"", ""IX-3p:i"", ""(1h)FORGET-IT"", ""NOT"", ""NICE/CLEAN"", ""NOW+""]","[""IX-1p""]",1,9,0,10
+MEASURED_RESEARCH_DEV,asllrp3_62c8f903ccb194f4,dev,"[""MOTHERwg"", ""IX-3p:i"", ""NOT"", ""SICK"", ""NOW+"", ""NONE/NOTHING""]","[""IX-1p""]",1,5,0,6
+MEASURED_RESEARCH_DEV,asllrp3_127e6521d25aaa0f,dev,"[""(5)POSS-1p"", ""FATHER"", ""IX-3p:i"", ""LAZY"", ""IX-3p:i"", ""REFUSE"", ""MOW+"", ""REFUSE""]","[""IX-1p""]",1,7,0,8
+MEASURED_RESEARCH_DEV,asllrp3_18da8b287e104b28,dev,"[""AUNT"", ""IX-3p:i"", ""EXPERT"", ""MAKE"", ""APPLE"", ""PIE"", ""NOT""]","[""IX-1p""]",1,6,0,7
+MEASURED_RESEARCH_DEV,asllrp3_4455ac2a53ec8320,dev,"[""#TV"", ""IX-loc:i"", ""RECENT-PAST"", ""(1h)(flat-O)PAY/SPEND"", ""IX-loc:i"", ""HOW-MANY"", ""IX-loc:i""]",[],0,7,0,7
+MEASURED_RESEARCH_DEV,asllrp3_1ed0c6b32fbc07ac,dev,"[""WHO"", ""RECENT-PAST"", ""(1h)(flat-O)PAY/SPEND"", ""CAR"", ""FINISH"", ""WHO""]",[],0,6,0,6
+MEASURED_RESEARCH_DEV,asllrp3_4c752ade0842da60,dev,"[""WHO"", ""SERVICE"", ""DINNER+"", ""(1h)part:indef""]","[""CAR""]",1,3,0,4
+MEASURED_RESEARCH_DEV,asllrp3_2dc5095ccdd80637,dev,"[""BUY"", ""CAR"", ""IX-2p"", ""WHERE""]","[""IX-1p""]",1,3,0,4
+MEASURED_RESEARCH_DEV,asllrp3_98656cd64bbfa175,dev,"[""(2h)EAT"", ""SELL"", ""SCL:1\\describing a narrow road\\\""\"""", ""WHERE""]","[""IX-1p""]",1,3,0,4
+MEASURED_RESEARCH_DEV,asllrp3_78ee865ce7983cf4,dev,"[""IX-2p"", ""GO-OUT"", ""WHERE"", ""(1h)NOW"", ""IX-2p""]","[""IX-1p""]",1,4,0,5
+MEASURED_RESEARCH_DEV,asllrp3_1ffd20f12d278b4a,dev,"[""IX-2p"", ""FINISH"", ""WORK"", ""#WHEN""]",[],0,4,0,4
+MEASURED_RESEARCH_DEV,asllrp3_59e7281558f48234,dev,"[""NOW"", ""IX-2p"", ""WORK"", ""(1h)DO-DO"", ""IX-2p""]",[],0,5,0,5
+MEASURED_RESEARCH_DEV,asllrp3_0f596f362b93b953,dev,"[""IX-2p"", ""PUT"", ""TREE"", ""SET-UP"", ""WHERE""]","[""IX-1p""]",1,4,0,5
+MEASURED_RESEARCH_DEV,asllrp3_c4b55144f9dadbe2,dev,"[""HONEST"", ""IX-1p"", ""KISS-FIST"", ""IX-2p"", ""(25)WHY"", ""(1h)TEND"", ""MAKE"", ""PEOPLE"", ""ROLL-ON-FLOOR-LAUGHING"", ""KISS-FIST"", ""IX-2p"", ""IX-1p""]","[""IX-1p""]",0,11,0,12
+MEASURED_RESEARCH_DEV,asllrp3_0123f601abb0da80,dev,"[""ns-fs-MAC"", ""HONEST"", ""IX-3p:i"", ""WHIP"", ""fs-PC"", ""(25)WHY"", ""ns-fs-MAC"", ""(1h)part:indef"", ""SATISFIED"", ""PEOPLE"", ""(1h)TEND"", ""MATCH"", ""A-OK""]","[""IX-1p""]",1,12,0,13
+MEASURED_RESEARCH_DEV,asllrp3_4e4acafd8c35c033,dev,"[""OLD"", ""MUSIC"", ""DCL:L-X\\disc\\\""\"""", ""#CD"", ""TAPE-RECORDING+"", ""part:indef"", ""(2h)#NO+MORE"", ""(25)WHY"", ""EVERY+ONE"", ""HAVE"", ""fs-IPOD""]",[],0,11,0,11
+MEASURED_RESEARCH_DEV,asllrp3_fd7aece2ef4a23f4,dev,"[""PAST+NIGHT"", ""IX-1p"", ""PLAY"", ""(crvd-5)BASKETBALL"", ""WITH"", ""FRIEND"", ""COMPETITION"", ""HOT"", ""GAME"", ""LAST"", ""(1h)DO-DO"", ""IX-1p"", ""THIRTY_2"", ""TWENTY-EIGHT:i""]","[""IX-1p"", ""ns-fs-JOHN""]",1,12,0,14
+MEASURED_RESEARCH_DEV,asllrp3_d4659fda8d3cb3b5,dev,"[""IX-1p"", ""KISS-FIST"", ""(nd-1)MOVIE+"", ""(1h)DO-DO"", ""KIND"", ""IX-3p:i"", ""MONSTER"", ""fs-HORROR"", ""#OR"", ""FUNNY""]","[""IX-1p""]",0,9,0,10
+MEASURED_RESEARCH_DEV,asllrp3_e1f1b6ecc10085d5,dev,"[""KISS-FIST"", ""(crvd-5)POSS-1p"", ""MOTHER"", ""IX-3p:i"", ""ALWAYS"", ""GLASSES_2+"", ""FACE"", ""(1h)GOOD/THANK-YOU"", ""(25)WHY"", ""THINK"", ""FACE"", ""(1h)GOOD/THANK-YOU"", ""(1h)part:indef""]","[""IX-1p""]",1,12,0,13
+MEASURED_RESEARCH_DEV,asllrp3_ddca90ebc85f3124,dev,"[""(G/Q)POSS-1p"", ""KISS-FIST"", ""IX-3p:i"", ""MOTHER"", ""IX-loc:i"", ""ALWAYS"", ""GLASSES_2+"", ""(25)WHY"", ""THINK"", ""FACE"", ""NEAT""]","[""IX-1p""]",1,10,0,11
+MEASURED_RESEARCH_DEV,asllrp3_1550559274426c51,dev,"[""COLD"", ""IX-1p"", ""(1h)TEND"", ""SICK"", ""(25)WHY"", ""IX-1p"", ""ALWAYS"", ""USE_2"", ""FLIP-FLOP_2"", ""WALK++""]","[""IX-1p""]",0,9,0,10
+MEASURED_RESEARCH_DEV,asllrp3_60378932b1ade934,dev,"[""IX-1p"", ""#HS"", ""ALL-YEARS-HS"", ""MOTHER"", ""ALWAYS"", ""REMIND-2p+"", ""WAKE-UP"", ""(25)WHY"", ""IX-1p"", ""ALWAYS"", ""FAIL"", ""ALARM+"", ""IX-1p"", ""IMPOSSIBLE"", ""GET-UP"", ""part:indef""]","[""IX-1p""]",0,15,0,16
+MEASURED_RESEARCH_DEV,asllrp3_d426c7d647eb099d,dev,"[""3\\um\\\""\"""", ""IX-3p:i"", ""KID"", ""(1h)AREA"", ""VOMIT/HATE"", ""PRINCIPAL"", ""(25)WHY"", ""PRINCIPAL"", ""ALWAYS"", ""BAWL-OUT++"", ""WHO"", ""IX-3p:k"", ""(2h)NOT-YET"", ""FINISH"", ""HOMEWORK"", ""(1h)part:indef""]","[""IX-1p""]",1,15,0,16
+MEASURED_RESEARCH_DEV,asllrp3_16530face5411d26,dev,"[""IX-1p"", ""SHUCKS"", ""IX-1p"", ""MISS/ASSUME"", ""MORNING"", ""CLASS_2"", ""(25)WHY"", ""IX-1p"", ""MISS/ASSUME"", ""ALARM+"", ""IX-1p""]","[""IX-1p""]",0,10,0,11
+MEASURED_RESEARCH_DEV,asllrp3_7b7a8884cbfa7f63,dev,"[""IX-1p"", ""SHUCKS"", ""IX-1p"", ""MISS/ASSUME"", ""POSS-1p"", ""MORNING"", ""CLASS_2"", ""(25)WHY"", ""IX-1p"", ""OVERSLEEP""]","[""IX-1p""]",0,9,0,10
+MEASURED_RESEARCH_DEV,asllrp3_9f4fe45b09a8925e,dev,"[""#IF"", ""RAIN"", ""TOMORROW"", ""IX-1p"", ""(1h)STAY"", ""HOME"", ""IX-1p""]",[],0,7,0,7
+MEASURED_RESEARCH_DEV,asllrp3_4dd26ae5b0bce2ae,dev,"[""#WHEN"", ""IX-1p"", ""FINISH"", ""WORK"", ""IX-1p"", ""DEPART"", ""HOME""]",[],0,7,0,7
+MEASURED_RESEARCH_DEV,asllrp3_6974ff36f8f16926,dev,"[""#IF"", ""POSS-1p"", ""COMPUTER+"", ""BREAK-DOWN"", ""IX-1p"", ""DO-DO"", ""IX-1p"", ""(1h)REMIND:i"", ""ns-CAROL"", ""ns-fs-CAROL""]",[],0,10,0,10
+MEASURED_RESEARCH_DEV,asllrp3_a7393cea19865722,dev,"[""REALLY"", ""HONEST"", ""#IF"", ""IX-1p"", ""FAIL"", ""CLASS_2"", ""GUARANTEE"", ""POSS-1p"", ""MOTHER"", ""THINK"", ""BURST""]","[""IX-1p""]",0,10,0,11
+MEASURED_RESEARCH_DEV,asllrp3_2ca2ccd0e7a1d8b6,dev,"[""FINISH"", ""BUY"", ""BOOK+"", ""IX-2p""]","[""IX-1p""]",1,3,0,4
+MEASURED_RESEARCH_DEV,asllrp3_d2efc92da2efaf3e,dev,"[""LIBRARY"", ""CLOSE-DOOR"", ""QMwg""]","[""IX-1p""]",1,2,0,3
+MEASURED_RESEARCH_DEV,asllrp3_030f428b9a285d67,dev,"[""GO-OUT+"", ""RAIN+""]","[""IX-1p""]",1,1,0,2
+MEASURED_RESEARCH_DEV,asllrp3_d84c2d0d2cebef5a,dev,"[""ns-fs-DONNA"", ""IX-loc:i"", ""FINISH"", ""i:GIVE-indef"", ""MONEY"", ""QMwg""]","[""IX-1p""]",1,5,0,6
+MEASURED_RESEARCH_DEV,asllrp3_97f8d2a75b80927d,dev,"[""WATER"", ""COLD"", ""QMwg""]","[""IX-1p""]",1,2,0,3
+MEASURED_RESEARCH_DEV,asllrp3_37c61faaa8a37278,dev,"[""(nd-1)MOVIE+"", ""(1h)GOOD/THANK-YOU"", ""QMwg""]","[""IX-1p""]",1,2,0,3
+MEASURED_RESEARCH_DEV,asllrp3_d294e1c0a2ad7a40,dev,"[""MOVIE"", ""(1h)GOOD/THANK-YOU"", ""QMwg"", ""5\\oh\\\""\"""", ""WOW"", ""WONDERFUL""]","[""IX-1p""]",1,5,0,6
+MEASURED_RESEARCH_DEV,asllrp3_58f1a979dfe574ff,dev,"[""ASK-1p"", ""GO-OUT"", ""RAIN"", ""QMwg"", ""#NO"", ""GO-OUT"", ""BEAUTIFUL"", ""WOW""]","[""IX-1p""]",1,7,0,8
+MEASURED_RESEARCH_DEV,asllrp3_c47c0c11b50069b9,dev,"[""IX-1p"", ""FINISH"", ""BUY"", ""BOOK"", ""QMwg"", ""(2h)NOT-YET"", ""IX-1p"", ""FUTURE"", ""BUY"", ""TOMORROW"", ""IX-1p""]","[""IX-1p""]",0,10,0,11
+MEASURED_RESEARCH_DEV,asllrp3_2c286722d0c55ec2,dev,"[""MOTHER"", ""FINISH"", ""WORK"", ""#WHEN"", ""TIME-TWO""]","[""IX-1p""]",1,4,0,5
+MEASURED_RESEARCH_DEV,asllrp3_20db224ccd9b2fbf,dev,"[""FUTURE"", ""PUT"", ""TREE"", ""SET-UP"", ""WHERE"", ""IX-loc:i"", ""NEAR"", ""GARAGE/SUBMARINE+""]",[],0,8,0,8
+MEASURED_RESEARCH_DEV,asllrp3_ffbcaa429c80c8f6,dev,"[""FRIEND"", ""IX-3p:i"", ""DRIVE""]","[""IX-1p""]",1,2,0,3
+MEASURED_RESEARCH_DEV,asllrp3_0b94b425cc39c1d1,dev,"[""FRIEND"", ""GO-OUT"", ""(P)PARTY""]","[""IX-1p""]",1,2,0,3
+MEASURED_RESEARCH_DEV,asllrp3_a8a3ace2b25c0952,dev,"[""IX-1p"", ""WORK"", ""IX-1p""]","[""IX-1p""]",0,2,0,3
+MEASURED_RESEARCH_DEV,asllrp3_d1c9378492263a26,dev,"[""FRIEND"", ""GO-OUT"", ""FISHING""]","[""IX-1p""]",1,2,0,3
+MEASURED_RESEARCH_DEV,asllrp3_dfc14784e63bf607,dev,"[""FRIEND"", ""NOW"", ""IX-3p:i"", ""PLAN"", ""SURPRISE"", ""THRILL/WHAT'S-UP""]","[""IX-1p""]",1,5,0,6
+MEASURED_RESEARCH_DEV,asllrp3_9a401693db0707ed,dev,"[""NOW"", ""IX-1p"", ""STUDY"", ""GO-OUT"", ""SCHOOL+""]","[""IX-1p""]",0,4,0,5
+MEASURED_RESEARCH_DEV,asllrp3_eaffab85232e0098,dev,"[""FRIEND"", ""GO-OUT"", ""TRIP""]","[""IX-1p""]",1,2,0,3
+MEASURED_RESEARCH_DEV,asllrp3_2b684be021a62493,dev,"[""FRIEND"", ""NOW"", ""IX-3p:i"", ""PLAY"", ""VIDEO-GAME""]","[""IX-1p""]",1,4,0,5
+MEASURED_RESEARCH_DEV,asllrp3_30eebc1a7ab2c4b2,dev,"[""FRIEND"", ""NOW"", ""IX-3p:i"", ""#VP"", ""HOME"", ""CHAT+++""]","[""IX-1p""]",1,5,0,6
+MEASURED_RESEARCH_DEV,asllrp3_8a985c1e90474289,dev,"[""FRIEND"", ""NOW"", ""SURF-INTERNET"", ""INTERNET""]","[""IX-1p""]",1,3,0,4
+MEASURED_RESEARCH_DEV,asllrp3_071add8780678564,dev,"[""FRIEND"", ""FINISH"", ""CAR"", ""QMwg""]","[""IX-1p""]",1,3,0,4
+MEASURED_RESEARCH_DEV,asllrp3_72d088315f62fc5a,dev,"[""FRIEND"", ""IX-loc:i"", ""(P)PARTY"", ""(1h)GOOD/THANK-YOU"", ""QMwg""]","[""IX-1p""]",1,4,0,5
+MEASURED_RESEARCH_DEV,asllrp3_227cd852f4d9c24b,dev,"[""IX-2p"", ""MUST"", ""WORK"", ""ALL-NIGHT"", ""IX-2p""]","[""IX-1p""]",1,4,0,5
+MEASURED_RESEARCH_DEV,asllrp3_42821f1b35fcf048,dev,"[""FRIEND"", ""DEPART"", ""FISHING"", ""fs-FUN"", ""QMwg""]","[""IX-1p""]",1,4,0,5
+MEASURED_RESEARCH_DEV,asllrp3_8b1dcfe8abc7752e,dev,"[""FUTURE"", ""IX-3p:i"", ""ns-fs-BOB"", ""IX-3p:i"", ""LOOK"", ""SURPRISE"", ""(P)PARTY"", ""QMwg""]","[""IX-1p""]",1,7,0,8
+MEASURED_RESEARCH_DEV,asllrp3_6456f17934c89fe3,dev,"[""FINISH"", ""GRADUATE"", ""#HS""]",[],0,3,0,3
+MEASURED_RESEARCH_DEV,asllrp3_c7828d0ab4838f1c,dev,"[""FRIEND"", ""FINISH"", ""EXPERIENCE+"", ""TRIP"", ""QMwg""]","[""IX-1p""]",1,4,0,5
+MEASURED_RESEARCH_DEV,asllrp3_e6f3fd28bb6cdb36,dev,"[""VIDEO-GAME"", ""IX-loc:i"", ""EASY"", ""BEAT_2"", ""QMwg""]","[""IX-1p""]",1,4,0,5
+MEASURED_RESEARCH_DEV,asllrp3_d593a3dd7926d343,dev,"[""#VP"", ""CLEAR"", ""QMwg""]","[""IX-1p""]",1,2,0,3
+MEASURED_RESEARCH_DEV,asllrp3_e66fd1c18ca4fd9a,dev,"[""FRIEND"", ""LOVE"", ""SURF-INTERNET"", ""REALLY+WORK+"", ""QMwg""]","[""IX-1p""]",1,4,0,5
+MEASURED_RESEARCH_DEV,asllrp3_b9f69713064a9008,dev,"[""FRIEND"", ""LOVE"", ""INTERNET"", ""SURF-INTERNET"", ""REALLY+WORK+"", ""QMwg""]",[],0,6,0,6
+MEASURED_RESEARCH_DEV,asllrp3_2fd309e88c37a621,dev,"[""CAR"", ""WHO"", ""part:indef""]","[""IX-1p""]",1,2,0,3
+MEASURED_RESEARCH_DEV,asllrp3_098e749b1a4a57de,dev,"[""FRIEND"", ""CAR"", ""WHERE"", ""(1h)part:indef""]","[""IX-1p""]",1,3,0,4
+MEASURED_RESEARCH_DEV,asllrp3_3808aef0e5d5289b,dev,"[""FRIEND"", ""IX-loc:i"", ""START"", ""CAR"", ""#WHEN""]","[""IX-1p""]",1,4,0,5
+MEASURED_RESEARCH_DEV,asllrp3_d2b0997df077c6ab,dev,"[""(P)PARTY"", ""START"", ""#WHEN"", ""part:indef""]","[""IX-1p""]",1,3,0,4
+MEASURED_RESEARCH_DEV,asllrp3_6866be8f39456403,dev,"[""(P)PARTY+"", ""(1h)DO-DO"", ""KIND"", ""(1h)DO-DO""]","[""IX-1p""]",1,3,0,4
+MEASURED_RESEARCH_DEV,asllrp3_ff656751e0001d3e,dev,"[""IX-2p"", ""START"", ""WORK"", ""IX-2p"", ""#WHEN""]","[""IX-1p""]",1,4,0,5
+MEASURED_RESEARCH_DEV,asllrp3_dd9c09d7772c2fab,dev,"[""(25)WHY"", ""IX-1p"", ""WORK"", ""ALL-NIGHT"", ""(25)WHY"", ""(1h)part:indef""]","[""IX-1p""]",0,5,0,6
+MEASURED_RESEARCH_DEV,asllrp3_a8f5780a44cc47b7,dev,"[""IX-2p"", ""WORK"", ""WHERE""]","[""IX-1p""]",1,2,0,3
+MEASURED_RESEARCH_DEV,asllrp3_0b52923fd428f7da,dev,"[""IX-3p:i"", ""GO-OUT"", ""FISHING"", ""WHO""]","[""IX-1p""]",1,3,0,4
+MEASURED_RESEARCH_DEV,asllrp3_eec5c404975c5f80,dev,"[""FRIEND"", ""IX-3p:i"", ""DEPART"", ""FISHING"", ""#WHEN""]","[""IX-1p""]",1,4,0,5
+MEASURED_RESEARCH_DEV,asllrp3_37df5faac7073338,dev,"[""PLAN"", ""SURPRISE"", ""ns-fs-BOB"", ""WHO""]","[""IX-1p""]",1,3,0,4
+MEASURED_RESEARCH_DEV,asllrp3_201b5ad389520306,dev,"[""SURPRISE"", ""(P)PARTY+"", ""IX-loc:i"", ""TIME"", ""START"", ""part:indef""]","[""IX-1p""]",1,5,0,6
+MEASURED_RESEARCH_DEV,asllrp3_e72c13a6f8adb23c,dev,"[""#HS"", ""IX-2p"", ""GO-OUT"", ""WHERE"", ""IX-2p""]","[""IX-1p""]",1,4,0,5
+MEASURED_RESEARCH_DEV,asllrp3_0ad1eda386dd6910,dev,"[""IX-2p"", ""GRADUATE"", ""#HS"", ""#WHEN""]","[""IX-1p""]",1,3,0,4
+MEASURED_RESEARCH_DEV,asllrp3_41e2ff6fd53ef28d,dev,"[""THAT"", ""VIDEO-GAME"", ""IX-loc:i"", ""NOT"", ""LIKE"", ""(25)WHY"", ""(1h)part:indef""]","[""IX-1p""]",1,6,0,7
+MEASURED_RESEARCH_DEV,asllrp3_05cee607e5c19448,dev,"[""POSS-2p"", ""FRIEND"", ""LOVE"", ""TRIP"", ""5\\pay attention\\\""\"""", ""(25)WHY"", ""(1h)part:indef""]","[""IX-1p""]",1,6,0,7
+MEASURED_RESEARCH_DEV,asllrp3_6a193c46d2ac9b82,dev,"[""IX-2p"", ""START"", ""TRIP"", ""#WHEN"", ""(1h)part:indef""]","[""IX-1p""]",1,4,0,5
+MEASURED_RESEARCH_DEV,asllrp3_b7ca34751d91397a,dev,"[""IX-2p"", ""PLAN"", ""TRIP"", ""WHERE"", ""(1h)part:indef""]","[""IX-1p""]",1,4,0,5
+MEASURED_RESEARCH_DEV,asllrp3_ae270205219689c4,dev,"[""IX-2p"", ""MUST"", ""#VP"", ""IX-2p"", ""(25)WHY"", ""NOT"", ""TEXTING_3"", ""part:indef""]","[""IX-1p""]",1,7,0,8
+MEASURED_RESEARCH_DEV,asllrp3_f76d40213c41bf89,dev,"[""IX-2p"", ""WANT_2"", ""#VP"", ""WHERE"", ""(1h)part:indef""]","[""IX-1p""]",1,4,0,5
+MEASURED_RESEARCH_DEV,asllrp3_0e43e05042f7c759,dev,"[""POSS-2p"", ""FRIEND"", ""ADDICTED"", ""SURF-INTERNET"", ""INTERNET"", ""(25)WHY"", ""(1h)part:indef""]","[""IX-1p""]",1,6,0,7
+MEASURED_RESEARCH_DEV,asllrp3_a284e8e049b5ed62,dev,"[""INTERNET"", ""IX-2p"", ""SURF-INTERNET"", ""(1h)DO-DO"", ""(1h)part:indef""]","[""IX-1p""]",1,4,0,5
+MEASURED_RESEARCH_DEV,asllrp3_b6438d62f8ebcb1c,dev,"[""#IF"", ""POSS-1p"", ""FRIEND"", ""IX-3p:i"", ""DRIVE"", ""IX-1p"", ""FUTURE"", ""SLEEP"", ""BACK"", ""SIT"", ""SCL:crvd-U\\laying on side\\\""\""""]",[],0,11,0,11
+MEASURED_RESEARCH_DEV,asllrp3_b058288f98c5382c,dev,"[""#WHEN"", ""POSS-1p"", ""FRIEND"", ""FINISH"", ""TIRED"", ""DRIVE"", ""FUTURE"", ""SWITCH""]",[],0,8,0,8
+MEASURED_RESEARCH_DEV,asllrp3_3eb50cca7de4f752,dev,"[""#IF"", ""POSS-1p"", ""FRIEND"", ""DEPART"", ""(P)PARTY"", ""IX-1p"", ""FUTURE"", ""(1h)JOIN"", ""GUARANTEE"", ""YES""]","[""IX-1p""]",0,9,0,10
+MEASURED_RESEARCH_DEV,asllrp3_9498befa8941fee4,dev,"[""#IF"", ""POSS-1p"", ""FRIEND"", ""(P)PARTY+"", ""IX-1p"", ""POSS-1p"", ""ROOMMATE"", ""IX-1p-pl-2:i"", ""(1h)JOIN""]","[""IX-1p""]",0,8,0,9
+MEASURED_RESEARCH_DEV,asllrp3_eddb18a5ccfbbf1b,dev,"[""#IF"", ""IX-1p"", ""ARRIVE"", ""WORK"", ""fs-LATE"", ""WOW+"", ""BOSS"", ""FUTURE"", ""STOP"", ""FIRED"", ""IX-1p"", ""WOW""]","[""IX-1p""]",0,11,0,12
+MEASURED_RESEARCH_DEV,asllrp3_f7567cfedd5c2140,dev,"[""#IF"", ""POSS-1p"", ""BOSS"", ""IX-loc:i"", ""SUMMON"", ""IX-1p"", ""5\\listen up\\\""\"""", ""GUARANTEE"", ""EACH+ONE-pl-arc"", ""DCL:4\\many people look at me\\\""\"""", ""KNOW-THAT"", ""IX-1p"", ""IN"", ""TROUBLE""]","[""IX-1p""]",0,13,0,14
+MEASURED_RESEARCH_DEV,asllrp3_07f61b110a4f7745,dev,"[""#IF"", ""POSS-1p"", ""FRIEND"", ""GO-OUT"", ""FISHING"", ""IX-1p"", ""MUST"", ""(2h)LOOK-FORWARD+"", ""MAKE"", ""REALLY"", ""WEATHER"", ""IX-loc:i"", ""FINE+""]","[""IX-1p""]",0,12,0,13
+MEASURED_RESEARCH_DEV,asllrp3_388f36ea347437e4,dev,"[""#WHEN"", ""POSS-1p"", ""FRIEND"", ""SCL:X\\catch fish\\\""\"""", ""(1h)FISH"", ""IX-1p"", ""MUST"", ""fs-BUCKET"", ""ICL:B-L\\bring over bucket\\\""\"""", ""SCL:1\\throw fish in bucket\\\""\"""", ""FIRST"", ""FAST_3"", ""#FRESH"", ""A-OK"", ""FINE+""]","[""IX-1p""]",0,14,0,15
+MEASURED_RESEARCH_DEV,asllrp3_3f58ae4e8772e8db,dev,"[""#IF"", ""ns-fs-BOB"", ""IX-loc:i"", ""MAKE-IT"", ""SURPRISE"", ""POSS-2p"", ""SURPRISE"", ""(P)PARTY"", ""WOW+"", ""IX-1p"", ""APPLAUSE"", ""POSS-1p"", ""FRIEND"", ""IX-loc:j"", ""(25)WHY"", ""IX-3p:i"", ""ns-fs-BOB"", ""IX-loc:i"", ""HARD"", ""SURPRISE"", ""HARD""]","[""IX-1p""]",0,20,0,21
+MEASURED_RESEARCH_DEV,asllrp3_8bdfdaaee2e415ff,dev,"[""ns-fs-BOB"", ""IX-3p:i"", ""ARRIVE"", ""(P)PARTY"", ""EACH+ONE"", ""MUST"", ""ICL:X\\use spray cans\\\""\"""", ""(flat-O)PAY/SPEND"", ""TORTURE_2"", ""MUST""]",[],0,10,0,10
+MEASURED_RESEARCH_DEV,asllrp3_df7160493d5e4084,dev,"[""#IF"", ""IX-1p"", ""GO-OUT"", ""fs-PUBLIC"", ""SCHOOL+"", ""GUARANTEE"", ""IX-1p"", ""SCL:V/2\\look around and around\\\""\"""", ""(25)WHY"", ""NONE/NOTHING"", ""COMMUNICATE+""]","[""IX-1p""]",0,10,0,11
+MEASURED_RESEARCH_DEV,asllrp3_2d2e2063f7d46165,dev,"[""#WHEN"", ""IX-1p"", ""ARRIVE"", ""SCHOOL+"", ""IX-1p"", ""MUST"", ""TEXTING_3"", ""1p-INFORM:j"", ""MOTHER+"", ""IX-1p"", ""FINISH"", ""ARRIVE"", ""SAFE""]","[""IX-1p""]",0,12,0,13
+MEASURED_RESEARCH_DEV,asllrp3_9fbb3a9f1c3f7602,dev,"[""#IF"", ""IX-3p:i"", ""FRIEND"", ""GO-OUT"", ""TRIP"", ""IX-1p"", ""MUST"", ""JOIN""]","[""IX-1p""]",0,7,0,8
+MEASURED_RESEARCH_DEV,asllrp3_8da8777f1ff158c3,dev,"[""#WHEN"", ""IX-1p-pl-arc"", ""ARRIVE"", ""ns-INDIA"", ""IX-loc:i"", ""MUST"", ""1p-SEND/MAIL:j"", ""FAMILY"", ""PAPER-CHECK/CARD"", ""THANK-YOU+"", ""FOR"", ""SUPPORT+""]",[],0,12,0,12
+MEASURED_RESEARCH_DEV,asllrp3_bb53319fd8787408,dev,"[""POSS-1p"", ""FRIEND"", ""IX-3p:i"", ""START"", ""VIDEO-GAME"", ""FINISH"", ""ALL-NIGHT"", ""VIDEO-GAME"", ""CONTINUE"", ""TO/UNTIL"", ""EYES"", ""BCL:crvd-5\\eyes pop out\\\""\"""", ""WOW""]","[""IX-1p""]",1,12,0,13
+MEASURED_RESEARCH_DEV,asllrp3_2a842f616b26a03e,dev,"[""POSS-1p"", ""FATHER"", ""IX-loc:i"", ""PLAY"", ""VIDEO-GAME"", ""IX-1p"", ""(1h)TEND"", ""(1h)FORGET-IT"", ""IX-1p"", ""GO-OUT"", ""POSS-1p"", ""BOX/ROOM"", ""(25)WHY"", ""POSS-1p"", ""FATHER"", ""FEEL"", ""BORE"", ""KNOW+(1h)NEG"", ""HOW"", ""PLAY"", ""VIDEO-GAME"", ""KNOW+(1h)NEG"", ""IX-loc:i""]","[""IX-1p""]",0,22,0,23
+MEASURED_RESEARCH_DEV,asllrp3_7c715f4f74eab74f,dev,"[""#WHEN"", ""IX-3p:i"", ""FRIEND"", ""CALL-BY-PHONE"", ""IX-1p"", ""IX-loc:i"", ""#VP"", ""(1h)TEND"", ""LIGHT-FLASH++""]","[""IX-1p""]",0,8,0,9
+MEASURED_RESEARCH_DEV,asllrp3_deb1e18b15bdd0fc,dev,"[""POSS-1p"", ""FRIEND"", ""SURF-INTERNET"", ""INTERNET"", ""(1h)TEND"", ""REMIND-2p+"", ""REMEMBER"", ""IX-2p"", ""NOT"", ""FINISH"", ""HOMEWORK""]",[],0,11,0,11
+MEASURED_RESEARCH_DEV,asllrp3_8bffcf9ced046746,dev,"[""#IF"", ""IX-1p"", ""LOOK"", ""FRIEND"", ""IX-loc:i"", ""FINISH"", ""HOMEWORK"", ""EMPTY/EARLY"", ""(1h)TEND"", ""SURF-INTERNET"", ""INTERNET"", ""ALL-NIGHT""]","[""IX-1p""]",0,11,0,12
+MEASURED_RESEARCH_DEV,asllrp3_3ad79d59a6d0d4d1,dev,"[""FRIEND"", ""MUST"", ""DRIVE"", ""(25)WHY"", ""IX-1p"", ""TIRED"", ""IX-1p""]",[],0,7,0,7
+MEASURED_RESEARCH_DEV,asllrp3_b5552e21fc908c3f,dev,"[""FRIEND"", ""GO-OUT"", ""(25)WHY"", ""IX-loc:i"", ""GO-OUT"", ""(P)PARTY+"", ""GROUP/TOGETHER""]","[""IX-1p""]",1,6,0,7
+MEASURED_RESEARCH_DEV,asllrp3_01a00641fafa9c61,dev,"[""IX-1p"", ""WORK"", ""ALL-NIGHT"", ""(25)WHY"", ""IX-1p"", ""WANT_2"", ""SHOULD+"", ""fs-EXTRA"", ""MONEY+""]","[""IX-1p""]",0,8,0,9
+MEASURED_RESEARCH_DEV,asllrp3_d73ad2f5f73c3b33,dev,"[""FRIEND"", ""KISS-FIST"", ""GO-OUT"", ""FISHING"", ""(25)WHY"", ""IX-3p:i"", ""LOVE"", ""EAT"", ""(1h)FISH""]","[""IX-1p""]",1,8,0,9
+MEASURED_RESEARCH_DEV,asllrp3_192ede36e80ec4f9,dev,"[""FRIEND"", ""PLAN+"", ""SURPRISE"", ""ns-fs-BOB"", ""(25)WHY"", ""IX-3p:i"", ""ns-fs-BOB"", ""SOON"", ""AGE-TWENTY-ONE""]","[""IX-1p""]",1,8,0,9
+MEASURED_RESEARCH_DEV,asllrp3_b39669e940ac20c7,dev,"[""IX-1p"", ""ARRIVE"", ""SCHOOL+"", ""fs-LATE"", ""(25)WHY"", ""IX-1p"", ""BICYCLE"", ""(5)ACCIDENT""]","[""IX-1p""]",0,7,0,8
+MEASURED_RESEARCH_DEV,asllrp3_9c19c09d28b9cfb6,dev,"[""POSS-1p"", ""FRIEND"", ""IX-3p:i"", ""LOVE"", ""TRIP"", ""UNDERSTAND+"", ""KISS-FIST"", ""ns-fs-ASIA"", ""ns-ASIA"", ""(25)WHY"", ""IX-loc:i"", ""ns-fs-ASIA"", ""MANY"", ""(2h)THING"", ""DO-DO"", ""DIFFERENT++"", ""VARY"", ""COMPARE"", ""TO/UNTIL"", ""OTHER"", ""COUNTRY+""]","[""IX-1p""]",1,20,0,21
+MEASURED_RESEARCH_DEV,asllrp3_7cbc45d1c94750f6,dev,"[""POSS-1p"", ""FRIEND"", ""(1h)WOW/AWFUL"", ""PLAY"", ""VIDEO-GAME"", ""ALL-DAY"", ""(25)WHY"", ""IX-loc:i"", ""DO-DO"", ""NOTHING""]","[""IX-1p""]",1,9,0,10
+MEASURED_RESEARCH_DEV,asllrp3_14ccccd33e8d3608,dev,"[""POSS-1p"", ""FRIEND"", ""FAVORITE/PREFER"", ""#VP"", ""TEXTING_3"", ""(1h)FORGET-IT"", ""(25)WHY"", ""CAN"", ""USE-SIGN-LANGUAGE"", ""#ASL""]","[""IX-1p""]",1,9,0,10
+MEASURED_RESEARCH_DEV,asllrp3_4ba2b71949b84ad9,dev,"[""POSS-1p"", ""FRIEND"", ""KISS-FIST"", ""SURF-INTERNET"", ""INTERNET"", ""(25)WHY"", ""CLICK"", ""FINEwg"", ""FLOW"", ""DIFFERENT+"", ""fs-SITES"", ""FLOW++""]","[""IX-1p""]",1,11,0,12
+MEASURED_RESEARCH_DEV,asllrp3_d32fcee2066f97a7,dev,"[""MOTHER"", ""IX-loc:i"", ""GO-OUT"", ""SELL"", ""(25)WHY"", ""IX-1p"", ""MUST"", ""EAT"", ""BUY+"", ""IX-1p""]",[],0,10,0,10
+MEASURED_RESEARCH_DEV,asllrp3_7a092bf37fc5a69f,dev,"[""FRIEND"", ""IX-3p:i"", ""GO-OUT"", ""(25)WHY"", ""(1h)part:indef"", ""BORE""]","[""IX-1p""]",1,5,0,6
+MEASURED_RESEARCH_DEV,asllrp3_44dede8dcaf1c254,dev,"[""FRIEND"", ""DEPART"", ""WHERE"", ""(P)PARTY""]",[],0,4,0,4
+MEASURED_RESEARCH_DEV,asllrp3_c9e603612ddd49c4,dev,"[""FRIEND"", ""DEPART"", ""#WHEN"", ""5\\uh\\\""\"""", ""TOMORROW""]","[""IX-1p""]",1,4,0,5
+MEASURED_RESEARCH_DEV,asllrp3_d945f370fcc138c3,dev,"[""FATHER"", ""IX-loc:i"", ""ARRIVE"", ""HOME"", ""fs-LATE"", ""(25)WHY"", ""FINISH"", ""POSS-3p:i"", ""WORK""]",[],0,9,0,9
+MEASURED_RESEARCH_DEV,asllrp3_fd69460525ec0853,dev,"[""fs-PARK"", ""CROWDED"", ""(25)WHY"", ""KID"", ""KISS-FIST"", ""PLAY"", ""IX-loc:i""]","[""IX-1p""]",1,6,0,7
+MEASURED_RESEARCH_DEV,asllrp3_13394b8b99a28dee,dev,"[""IX-1p"", ""COMPARE"", ""fs-LAKE"", ""fs-BEACH"", ""IX-1p"", ""FAVORITE/PREFER"", ""fs-BEACH"", ""(25)WHY"", ""fs-BEACH"", ""(1h)HAVE"", ""fs-WAVES"", ""IX-3p:i"", ""fs-LAKE"", ""NONE/NOTHING""]","[""IX-1p""]",0,13,0,14
+MEASURED_RESEARCH_DEV,asllrp3_248e183e564d176d,dev,"[""POSS-1p"", ""FRESHMAN"", ""YEAR"", ""FRIEND"", ""LOOK"", ""IX-1p"", ""(2h)BALD"", ""(25)WHY"", ""IX-3p:i"", ""TRADITION"", ""ns-GALLAUDET"", ""(1h)TEND""]","[""IX-1p""]",0,11,0,12
+MEASURED_RESEARCH_DEV,asllrp3_11f888cb98e9d044,dev,"[""MOTHER"", ""MUST"", ""NICE/CLEAN+"", ""(K)KITCHEN"", ""SOON"", ""MUST"", ""NICE/CLEAN"", ""(25)WHY"", ""IX-3p:i"", ""(1h)part:indef"", ""FRIEND"", ""FUTURE"", ""GROUP/TOGETHER"", ""NOW"", ""WEEKEND_2""]",[],0,15,0,15
+MEASURED_RESEARCH_DEV,asllrp3_f32f94b770283cc9,dev,"[""FRIEND"", ""IX-loc:i"", ""KISS-FIST"", ""GO-OUT+"", ""(25)WHY"", ""IX-3p:i"", ""(1h)LOVE"", ""CAMP""]",[],0,8,0,8
+MEASURED_RESEARCH_DEV,asllrp3_312ff89590ddd92a,dev,"[""FRIEND"", ""POSS-1p+"", ""IX-loc:i"", ""EXPERT"", ""MAKE"", ""(2h)alt.FIRE"", ""fs-BONFIRE"", ""EXPERT"", ""WOW"", ""(25)WHY"", ""GROW-UP"", ""BOY"", ""fs-SCOUT"", ""BOY+SCOUT""]","[""IX-1p""]",1,13,0,14
+MEASURED_RESEARCH_DEV,asllrp3_47cb4834ef7541ff,dev,"[""POSS-1p+"", ""(nd-1)NEXT-TO"", ""IX-3p:i"", ""RECENT-PAST"", ""TAKE-UP"", ""fs-PUPPIES"", ""(25)WHY"", ""IX-3p:i"", ""(1h)HAVE"", ""CHILDREN""]",[],0,10,0,10
+MEASURED_RESEARCH_DEV,asllrp3_b8473f5e6a8c6f02,dev,"[""#IF"", ""MOTHERwg"", ""GO-OUT"", ""SELL"", ""IX-3p:i"", ""FUTURE"", ""BUY"", ""MILK""]",[],0,8,0,8
+MEASURED_RESEARCH_DEV,asllrp3_ed54f0dc1aa63f29,dev,"[""#IF"", ""MOTHERwg"", ""IX-3p:i"", ""NOT"", ""SCL:3\\person walking\\\""\"""", ""SELL"", ""IX-1p-pl-arc"", ""REFUSE"", ""(1h)HAVE"", ""MILK"", ""part:indef""]",[],0,11,0,11
+MEASURED_RESEARCH_DEV,asllrp3_8e55d3ad835f91ba,dev,"[""#WHEN"", ""MOTHER"", ""IX-loc:i"", ""GO-OUT"", ""SELL"", ""IX-1p"", ""FUTURE"", ""REMIND-2p+"", ""MAKE+REALLY"", ""GET"", ""IX-1p-pl-arc"", ""MILK""]",[],0,12,0,12
+MEASURED_RESEARCH_DEV,asllrp3_193edc92a1200acb,dev,"[""#IF"", ""POSS-1p"", ""FRIEND"", ""GROUP/TOGETHER"", ""GO-OUT"", ""IX-1p"", ""FUTURE"", ""JOIN""]",[],0,8,0,8
+MEASURED_RESEARCH_DEV,asllrp3_1ff49ca72cfa2fc0,dev,"[""#IF"", ""POSS-1p"", ""FRIEND"", ""GROUP/TOGETHER"", ""GO-OUT"", ""WANT+NEG"", ""IX-1p"", ""FUTURE"", ""PROCEED"", ""STAY"", ""HOME"", ""(2h)LOOK"", ""#TV+""]",[],0,13,0,13
+MEASURED_RESEARCH_DEV,asllrp3_863755cb9774dc18,dev,"[""#WHEN"", ""POSS-1p"", ""FRIEND"", ""GO-OUT"", ""IX-1p"", ""PROCEED"", ""FINALLY_2"", ""START"", ""POSS-1p"", ""HOMEWORK""]",[],0,10,0,10
+MEASURED_RESEARCH_DEV,asllrp3_230d3fe9991c7812,dev,"[""#IF"", ""FATHERwg"", ""IX-loc:i"", ""ARRIVE"", ""HOME"", ""fs-LATE"", ""IX-3p:j"", ""REFUSE"", ""REASON"", ""IX-3p:j"", ""NOT"", ""fs-AT"", ""HOME""]",[],0,13,0,13
+MEASURED_RESEARCH_DEV,asllrp3_13b8cfa21447abb5,dev,"[""#IF"", ""FATHER"", ""IX-loc:i"", ""NOT"", ""ARRIVE"", ""HOME"", ""fs-TOO"", ""fs-LATE"", ""IX-3p:i"", ""CAN"", ""HELP"", ""IX-1p-pl"", ""WITH"", ""POSS-1p-pl"", ""HOMEWORK""]",[],0,15,0,15
+MEASURED_RESEARCH_DEV,asllrp3_2bb818bbdfa92ca0,dev,"[""MOTHER"", ""IX-loc:i"", ""(1h)TEND"", ""BAD"", ""fs-MOOD"", ""#IF"", ""FATHER"", ""IX-loc:j"", ""ARRIVE"", ""HOME"", ""fs-LATE""]","[""IX-1p""]",1,10,0,11
+MEASURED_RESEARCH_DEV,asllrp3_6b3ad8c1a811b6e5,dev,"[""#WHEN"", ""FATHER"", ""IX-loc:i"", ""ARRIVE"", ""HOME"", ""fs-LATE"", ""IX-1p-pl-arc"", ""(1h)TEND"", ""EAT"", ""PIZZA_4""]",[],0,10,0,10
+MEASURED_RESEARCH_DEV,asllrp3_b2ad121189b74316,dev,"[""#IF"", ""FATHER"", ""IX-loc:i"", ""ARRIVE"", ""HOME"", ""fs-LATE"", ""IX-3p:j"", ""MOTHERwg"", ""GUARANTEE"", ""BAWL-OUT+"", ""(25)WHY"", ""CHILDREN"", ""WANT_2"", ""SEE"", ""FATHER"", ""IX-3p:i""]",[],0,16,0,16
+MEASURED_RESEARCH_DEV,asllrp3_0eb6e11ccd8b9c31,dev,"[""#WHEN"", ""FATHERwg"", ""IX-loc:i"", ""ARRIVE"", ""HOME"", ""fs-LATE"", ""MOTHER"", ""IX-loc:i"", ""REFUSE"", ""MAKE"", ""DINNER+""]",[],0,11,0,11
+MEASURED_RESEARCH_DEV,asllrp3_bd3ad7e707c0c863,dev,"[""#IF"", ""FATHERwg"", ""IX-loc:i"", ""ARRIVE"", ""HOME"", ""fs-LATE"", ""IX-3p:i"", ""CANNOT"", ""HELP-1p"", ""IX-1p"", ""WITH"", ""POSS-1p-pl"", ""HOMEWORK"", ""(1h)part:indef""]",[],0,14,0,14
+MEASURED_RESEARCH_DEV,asllrp3_fac08d1ef2ed8a18,dev,"[""#IF"", ""KID"", ""IX-loc:i"", ""PLAY-continuative"", ""fs-PARK"", ""IX-loc:i"", ""(1h)part:indef"", ""FUTURE"", ""TIRED"", ""LATER_2"", ""AFTERNOON_3""]",[],0,11,0,11
+MEASURED_RESEARCH_DEV,asllrp3_1b7a7a0be59a4869,dev,"[""IX-1p"", ""GO-OUT"", ""SWIM+"", ""fs-BEACH"", ""IX-1p"", ""GUARANTEE"", ""fs-SUN+#BURN"", ""(25)WHY"", ""IX-1p"", ""BLANK-OUT"", ""POSS-1p"", ""ICL:B-L\\applying suncreen\\\""\"""", ""fs-SUNSCREEN""]",[],0,13,0,13
+MEASURED_RESEARCH_DEV,asllrp3_dd6ce855af175beb,dev,"[""#IF"", ""IX-1p"", ""DECIDE"", ""FORGET-IT"", ""IX-1p"", ""WANT+NEG"", ""SWIM"", ""fs-BEACH"", ""IX-1p"", ""DO-DO"", ""WATER"", ""SCL:crvd-W\\shoreline\\\""\"""", ""IX-1p"", ""FUTURE"", ""SCL:3\\person walking at water's edge\\\""\""""]",[],0,15,0,15
+MEASURED_RESEARCH_DEV,asllrp3_a01136e14da3e7c2,dev,"[""#IF"", ""LOOK"", ""SEE"", ""THAT"", ""fs-BEACH"", ""IX-3p-pl-arc"", ""CROWDED"", ""PEOPLE"", ""IX-1p"", ""(1h)FORGET-IT"", ""IX-1p"", ""WANT+NEG"", ""GO-OUT""]",[],0,13,0,13
+MEASURED_RESEARCH_DEV,asllrp3_0b2390a22fcdc1f2,dev,"[""MOTHER+FATHER"", ""GUARANTEE"", ""FUTURE"", ""MAD"", ""NOT"", ""(1h)HAPPY"", ""#IF"", ""CHILDREN"", ""REALLY+WORK"", ""DYE"", ""HAIR"", ""COLOR"", ""ORANGE""]",[],0,13,0,13
+MEASURED_RESEARCH_DEV,asllrp3_34d5744cad35249f,dev,"[""#WHEN"", ""POSS-1p"", ""FRIEND"", ""START"", ""HAIR_2+DYE"", ""5\\etcetera\\\""\"""", ""GUARANTEE"", ""MANY"", ""PEOPLE"", ""FUTURE"", ""FOLLOW""]",[],0,11,0,11
+MEASURED_RESEARCH_DEV,asllrp3_233efd18f8261de4,dev,"[""#IF"", ""MOTHER"", ""IX-loc:i"", ""NICE/CLEAN+"", ""(K)KITCHEN"", ""IX-1p"", ""CANNOT"", ""BAKE/OVEN"", ""COOKIE""]",[],0,9,0,9
+MEASURED_RESEARCH_DEV,asllrp3_429291e6944d8197,dev,"[""#IF"", ""MOTHER"", ""IX-loc:i"", ""NOT"", ""NICE/CLEAN+"", ""(K)KITCHEN"", ""IX-1p"", ""MUST"", ""#DO-IT"", ""SELF-1p""]",[],0,10,0,10
+MEASURED_RESEARCH_DEV,asllrp3_f2f3e91fffbb62c3,dev,"[""FINEwg"", ""MOTHERwg"", ""FUTURE"", ""i:GIVE-1p"", ""TWENTY"", ""DOLLAR_2"", ""#IF"", ""IX-1p"", ""NICE/CLEAN"", ""(K)KITCHEN""]",[],0,10,0,10
+MEASURED_RESEARCH_DEV,asllrp3_0d2ea88ace49abef,dev,"[""#WHEN"", ""IX-1p"", ""FINISH"", ""NICE/CLEAN+"", ""(K)KITCHEN"", ""MOTHER"", ""FUTURE"", ""TAKE"", ""IX-1p"", ""GO-OUT"", ""FRIEND"", ""HOUSE"", ""IX-1p""]",[],0,13,0,13
+MEASURED_RESEARCH_DEV,asllrp3_5992d8a960aa2f16,dev,"[""#IF"", ""POSS-1p"", ""FRIEND"", ""GO-OUT"", ""CAMP+"", ""IX-1p"", ""FUTURE"", ""GO-OUT"", ""WITH"", ""IX-3p-pl-arc""]",[],0,10,0,10
+MEASURED_RESEARCH_DEV,asllrp3_04319845db0a2b00,dev,"[""#IF"", ""IX-3p:i"", ""ns-fs-BOB"", ""IX-loc:i"", ""SUCCEED"", ""(2h)alt.FIRE+"", ""IX-1p"", ""MUST"", ""STAY"", ""(2h)LOOK"", ""fs-BONFIRE"", ""MAKE+REALLY"", ""CONTINUE"", ""(2h)alt.FIRE++""]",[],0,14,0,14
+MEASURED_RESEARCH_DEV,asllrp3_6b369fddd8038cd3,dev,"[""#WHEN"", ""IX-3p:i"", ""ns-fs-BOB"", ""(2h)alt.FIRE"", ""IX-1p"", ""FUTURE"", ""RAKE"", ""fs-LOGS"", ""FEED+"", ""(2h)alt.FIRE++""]","[""IX-1p""]",0,9,0,10
+MEASURED_RESEARCH_DEV,asllrp3_da6a5417ec651431,dev,"[""#IF"", ""POSS-1p"", ""FAMILY"", ""IX-loc:i"", ""DECIDE"", ""NOT"", ""TAKE-UP"", ""fs-PUPPIES"", ""POSS-1p"", ""FRIEND"", ""IX-3p:j"", ""FUTURE"", ""IX-3p:j"", ""MAYBE""]",[],0,14,0,14
+MEASURED_RESEARCH_DEV,asllrp3_bc4dc535e02ad53f,dev,"[""#WHEN"", ""POSS-1p"", ""FAMILY"", ""REALLY+WORK"", ""TAKE-UP"", ""fs-PUPPIES"", ""IX-1p"", ""FUTURE"", ""ZOOM"", ""PET/SPOILED+"", ""SELL"", ""(25)WHY"", ""IX-1p"", ""BUY"", ""COLLAR"", ""COLOR"", ""fs-COLLARS"", ""DIFFERENT-arc"", ""COLOR""]","[""IX-1p""]",0,18,0,19
+MEASURED_RESEARCH_DEV,asllrp3_b1c55e7e7786b6ab,dev,"[""MOTHERwg"", ""SCL:3\\person walking\\\""\"""", ""DEPART"", ""SELL+""]","[""IX-1p""]",1,3,0,4
+MEASURED_RESEARCH_DEV,asllrp3_cbcc64c9e90b2c8d,dev,"[""FRIEND"", ""GROUP/TOGETHER"", ""DEPART""]","[""IX-1p""]",1,2,0,3
+MEASURED_RESEARCH_DEV,asllrp3_95169b3ccb8948ad,dev,"[""FATHER"", ""IX-loc:i"", ""ARRIVE"", ""HOME"", ""LATE+++""]","[""IX-1p""]",1,4,0,5
+MEASURED_RESEARCH_DEV,asllrp3_65e06d702ef69570,dev,"[""NIGHT+"", ""IX-3p:i"", ""FATHER"", ""ARRIVE"", ""fs-LATE""]","[""IX-1p""]",1,4,0,5
+MEASURED_RESEARCH_DEV,asllrp3_7ddba5ca6e8ec4b0,dev,"[""KID"", ""IX-loc:i"", ""SHORT-HEIGHT"", ""IX-loc:i"", ""PLAY-continuative"", ""IX-3p:j"", ""fs-PARK""]","[""IX-1p""]",1,6,0,7
+MEASURED_RESEARCH_DEV,asllrp3_37f0abbfc5bb4bf4,dev,"[""IX-1p+"", ""GO-OUT"", ""SWIM+"", ""fs-BEACH""]","[""IX-1p""]",1,3,0,4
+MEASURED_RESEARCH_DEV,asllrp3_31f9663e3bb374c6,dev,"[""FRIEND"", ""IX-3p-pl-2:i/j"", ""HAIR+DYE+"", ""TOGETHER/GO-STEADY""]","[""IX-1p""]",1,3,0,4
+MEASURED_RESEARCH_DEV,asllrp3_75dbcb3ded94b0dd,dev,"[""MOTHER+"", ""IX-3p:i"", ""NICE/CLEAN+"", ""(K)KITCHEN""]","[""IX-1p""]",1,3,0,4
+MEASURED_RESEARCH_DEV,asllrp3_42fe974facd0493e,dev,"[""FRIEND"", ""IX-loc:i"", ""GO-OUT"", ""CAMP+""]","[""IX-1p""]",1,3,0,4
+MEASURED_RESEARCH_DEV,asllrp3_5ee37fec6cec3c2a,dev,"[""BOY"", ""IX-loc:i"", ""MAKE+"", ""(2h)alt.FIRE++"", ""fs-BONFIRE""]","[""IX-1p""]",1,4,0,5
+MEASURED_RESEARCH_DEV,asllrp3_d7c2094cc7518756,dev,"[""FAMILY"", ""IX-loc:i"", ""TAKE-UP"", ""#DOG+"", ""fs-PUPPIES""]","[""IX-1p""]",1,4,0,5
+MEASURED_RESEARCH_DEV,asllrp3_157f91f897639366,dev,"[""MOTHER+"", ""GO-OUT"", ""SELL"", ""FINISH"", ""QMwg""]","[""IX-1p""]",1,4,0,5
+MEASURED_RESEARCH_DEV,asllrp3_daf10a6cd624758e,dev,"[""FRIEND"", ""DCL:C\\group go together\\\""\"""", ""GO-OUT"", ""QMwg""]","[""IX-1p""]",1,3,0,4
+MEASURED_RESEARCH_DEV,asllrp3_e0de90bbc619f14c,dev,"[""FATHER"", ""IX-loc:i"", ""ARRIVE"", ""HOME"", ""PAST+NIGHT"", ""fs-LATE"", ""QMwg""]","[""IX-1p""]",1,6,0,7
+MEASURED_RESEARCH_DEV,asllrp3_830e708aa89860f4,dev,"[""KID"", ""IX-loc:i"", ""PLAY-continuative"", ""fs-PARK"", ""QMwg""]","[""IX-1p""]",1,4,0,5
+MEASURED_RESEARCH_DEV,asllrp3_21d809d55dacdcbe,dev,"[""MOTHER"", ""IX-loc:i"", ""SCL:3\\person walking\\\""\"""", ""GO-OUT"", ""SELL++""]",[],0,5,0,5
+MEASURED_RESEARCH_DEV,asllrp3_957063c19e255499,dev,"[""FRIEND"", ""IX-loc:i"", ""GO-OUT"", ""TOGETHER/GO-STEADY""]",[],0,4,0,4
+MEASURED_RESEARCH_DEV,asllrp3_abc5ef6b68316fe8,dev,"[""FATHERwg"", ""IX-loc:i"", ""ARRIVE"", ""HOME"", ""fs-LATE"", ""NIGHT+""]",[],0,6,0,6
+MEASURED_RESEARCH_DEV,asllrp3_e57c03894b4cae20,dev,"[""KID"", ""IX-loc:i"", ""PLAY+"", ""IX-3p:j"", ""fs-PARK""]",[],0,5,0,5
+MEASURED_RESEARCH_DEV,asllrp3_2ed14be3630a4c57,dev,"[""IX-1p+"", ""GO-OUT"", ""SWIM+"", ""fs-BEACH""]",[],0,4,0,4
+MEASURED_RESEARCH_DEV,asllrp3_d785387f7bf9ec09,dev,"[""IX-3p-pl-2:i/j"", ""FRIEND"", ""IX-loc:k"", ""HAIR_2+DYE+"", ""TOGETHER/GO-STEADY"", ""HAIR_2+DYE++""]","[""IX-1p""]",1,5,0,6
+MEASURED_RESEARCH_DEV,asllrp3_7d61e83d019b986d,dev,"[""MOTHER"", ""IX-loc:i"", ""NICE/CLEAN+"", ""(K)KITCHEN""]",[],0,4,0,4
+MEASURED_RESEARCH_DEV,asllrp3_5f26e39e1416bf6e,dev,"[""FRIEND"", ""IX-loc:i"", ""GO-OUT"", ""CAMP+"", ""ENJOY++""]","[""IX-1p""]",1,4,0,5
+MEASURED_RESEARCH_DEV,asllrp3_aae522b93231e504,dev,"[""IX-3p:i"", ""(2h)alt.FIRE"", ""fs-BONFIRE"", ""(2h)alt.FIRE"", ""BOY"", ""IX-loc:j"", ""PACK"", ""(2h)alt.FIRE"", ""LIGHT-MATCH"", ""(2h)alt.FIRE"", ""(1h)FIRE"", ""(2h)alt.FIRE+""]","[""IX-1p""]",1,11,0,12
+MEASURED_RESEARCH_DEV,asllrp3_dbdc3f48ac36ef98,dev,"[""#DOG"", ""fs-PUPPIES"", ""FAMILY"", ""TAKE-UP"", ""DCL:crvd-5\\group go together\\\""\""""]","[""IX-1p""]",1,4,0,5
+MEASURED_RESEARCH_DEV,asllrp3_58e6ea568cc3e96f,dev,"[""MOTHER"", ""IX-loc:i"", ""FINISH"", ""GO-OUT"", ""SELL"", ""SCL:3\\person walking\\\""\"""", ""QMwg""]","[""IX-1p""]",1,6,0,7
+MEASURED_RESEARCH_DEV,asllrp3_98eb3f6674714ad0,dev,"[""FRIEND"", ""IX-3p-pl-2:i/j"", ""FINISH"", ""GO-OUT""]",[],0,4,0,4
+MEASURED_RESEARCH_DEV,asllrp3_c7eed540816863b9,dev,"[""FATHER"", ""ARRIVE"", ""HOME"", ""fs-LATE"", ""NIGHT+"", ""QMwg""]",[],0,6,0,6
+MEASURED_RESEARCH_DEV,asllrp3_3ac51c8730f6fb15,dev,"[""KID"", ""PLAY-continuative"", ""fs-PARK"", ""QMwg""]","[""IX-1p""]",1,3,0,4
+MEASURED_RESEARCH_DEV,asllrp3_6ef4ce5af25d87fb,dev,"[""ns-fs-BARACK-OBAMA"", ""IX-loc:i"", ""SWIM+"", ""fs-BEACH"", ""QMwg""]","[""IX-1p""]",1,4,0,5
+MEASURED_RESEARCH_DEV,asllrp3_574912c8db875769,dev,"[""FRIEND"", ""IX-loc:i"", ""HAIR+DYE+"", ""TOGETHER/GO-STEADY"", ""HAIR_2+DYE++""]","[""IX-1p""]",1,4,0,5
+MEASURED_RESEARCH_DEV,asllrp3_143494201020e77d,dev,"[""MOTHER"", ""IX-loc:i"", ""NICE/CLEAN+"", ""(K)KITCHEN"", ""QMwg""]","[""IX-1p""]",1,4,0,5
+MEASURED_RESEARCH_DEV,asllrp3_3acff3e1ad7fdafd,dev,"[""FRIEND"", ""IX-3p-pl-circle"", ""DEPART"", ""CAMP+"", ""QMwg""]","[""IX-1p""]",1,4,0,5
+MEASURED_RESEARCH_DEV,asllrp3_2489efcf695040c7,dev,"[""BOY"", ""IX-loc:i"", ""MAKE"", ""fs-BONFIRE"", ""(2h)alt.FIRE+"", ""QMwg""]",[],0,6,0,6
+MEASURED_RESEARCH_DEV,asllrp3_5d708fd2c542b9fe,dev,"[""FAMILY"", ""FINISH"", ""TAKE-UP"", ""fs-PUPPIES""]",[],0,4,0,4
+MEASURED_RESEARCH_DEV,asllrp3_2b9ca82fe38a021d,dev,"[""IX-3p:i"", ""MOTHERwg"", ""IX-loc:i"", ""SCL:3\\person walking\\\""\"""", ""GO-OUT"", ""SELL+""]","[""IX-1p""]",1,5,0,6
+MEASURED_RESEARCH_DEV,asllrp3_f9ee68c7d8621b00,dev,"[""IX-3p:i"", ""ROOMMATE"", ""IX-loc:i"", ""DCL:crvd-5\\group go together\\\""\"""", ""DEPART"", ""TOGETHER/GO-STEADY""]",[],0,6,0,6
+MEASURED_RESEARCH_DEV,asllrp3_1c108d3bb8911de5,dev,"[""IX-3p:i"", ""FATHERwg"", ""IX-loc:i"", ""ARRIVE"", ""HOME"", ""fs-LATE"", ""NIGHT+""]","[""IX-1p""]",1,6,0,7
+MEASURED_RESEARCH_DEV,asllrp3_fba561fca10b941e,dev,"[""IX-3p:i"", ""KID"", ""IX-loc:i"", ""PLAY-continuative"", ""fs-PARK"", ""IX-loc:j""]",[],0,6,0,6
+MEASURED_RESEARCH_DEV,asllrp3_e04edcfc612edad2,dev,"[""ns-fs-BARACK-OBAMA"", ""IX-loc:i"", ""SWIM+"", ""fs-BEACH""]",[],0,4,0,4
+MEASURED_RESEARCH_DEV,asllrp3_3f8eab50aa6d7293,dev,"[""ns-fs-BOB"", ""IX-3p:i"", ""(1)SEND/MAIL"", ""LETTER/MAIL_2""]",[],0,4,0,4
+MEASURED_RESEARCH_DEV,asllrp3_428de9b65c8f2a4d,dev,"[""STUDENT"", ""IX-loc:i"", ""KOWTOW"", ""HEAR/LISTEN"", ""TEACH+AGENT""]","[""IX-1p""]",1,4,0,5
+MEASURED_RESEARCH_DEV,asllrp3_f9423c82c94c6db4,dev,"[""GIRL+FRIEND"", ""ns-fs-BOB:j"", ""j:SCL:1\\Bob meets his girlfriend\\\"":i\"""", ""j:GIVE-indef"", ""(R)FLOWER""]","[""IX-1p""]",1,4,0,5
+MEASURED_RESEARCH_DEV,asllrp3_003d73ba17f7d60d,dev,"[""ns-fs-BOB"", ""IX-loc:i"", ""OPEN-BOOK"", ""READ+"", ""BOOK+""]","[""IX-1p""]",1,4,0,5
+MEASURED_RESEARCH_DEV,asllrp3_37132d1f2a71915b,dev,"[""CLASS_2+BOX/ROOM"", ""IX-loc:i"", ""TEACH+AGENT"", ""NICE/CLEAN+""]",[],0,4,0,4
+MEASURED_RESEARCH_DEV,asllrp3_aece8b39658b9d6c,dev,"[""MOTHERwg"", ""NOW"", ""IX-3p:i"", ""SICK""]",[],0,4,0,4
+MEASURED_RESEARCH_DEV,asllrp3_2ce5c791602428f2,dev,"[""FATHER"", ""NOW"", ""IX-3p:i"", ""MOW"", ""GRASS"", ""MOW"", ""(1h)AREA""]",[],0,7,0,7
+MEASURED_RESEARCH_DEV,asllrp3_4d18e3dc56de8176,dev,"[""BLUE+fs-BERRY"", ""PIE"", ""NOW"", ""AUNT"", ""MAKE""]",[],0,5,0,5
+MEASURED_RESEARCH_DEV,asllrp3_94b8e1f9099e0285,dev,"[""SHOULD"", ""(P)PAY"", ""fs-RENT""]",[],0,3,0,3
+MEASURED_RESEARCH_DEV,asllrp3_2837eee8ee4eb9fb,dev,"[""NOW"", ""BAD"", ""WEATHER"", ""IX-loc:i"", ""IN"", ""ns-BOSTON"", ""SWIRLING"", ""5\\wow\\\""\""""]",[],0,8,0,8
+MEASURED_RESEARCH_DEV,asllrp3_e8b3306ae4998f3d,dev,"[""(G/Q)POSS-1p"", ""FAMILY"", ""VACATION+"", ""ALWAYS"", ""EVERY-YEAR""]",[],0,5,0,5
+MEASURED_RESEARCH_DEV,asllrp3_d346852b3652d2f9,dev,"[""ns-fs-BOB"", ""IX-loc:i"", ""WOW"", ""(1h)HAVE"", ""BIG"", ""#DOG_2""]",[],0,6,0,6
+MEASURED_RESEARCH_DEV,asllrp3_0fe737d2013ce863,dev,"[""ns-fs-BOB"", ""IX-loc:i"", ""GO-OUT"", ""#PO""]",[],0,4,0,4
+MEASURED_RESEARCH_DEV,asllrp3_6947f3bf3efa1c4e,dev,"[""FARM"", ""IX-loc:i"", ""DCL\\flat tract of land\\\""\"""", ""COW"", ""PLAY+"", ""DCL:U-L\\cow running\\\""\""""]",[],0,6,0,6
+MEASURED_RESEARCH_DEV,asllrp3_5c621f0fa033213f,dev,"[""FARM"", ""IX-loc:i"", ""DCL\\flat tract of land\\\""\"""", ""(2h)HORSE"", ""PLAY+"", ""DCL:V/2\\horse running\\\""\""""]",[],0,6,0,6
+MEASURED_RESEARCH_DEV,asllrp3_c84f4cbf3e579cd5,dev,"[""DRESS/CLOTHES"", ""IX-loc:i"", ""ON"", ""#SALE""]",[],0,4,0,4
+MEASURED_RESEARCH_DEV,asllrp3_cf3555c285940ccf,dev,"[""FRIEND"", ""NOW"", ""SCL:crvd-5\\group go together\\\""\"""", ""WATCH-TV"", ""(nd-1)MOVIE"", ""ACT""]",[],0,6,0,6
+MEASURED_RESEARCH_DEV,asllrp3_fc9e3469fe50c224,dev,"[""NOW"", ""IX-1p"", ""INTRODUCE"", ""IX-2p"", ""NEW"", ""FRIEND""]",[],0,6,0,6
+MEASURED_RESEARCH_DEV,asllrp3_1ff19efdb8d09ee9,dev,"[""(1h)5\\exasperation\\\""\"""", ""2p-ASK:i"", ""FOR"", ""DIRECT"", ""WHERE"", ""GO-OUT"", ""2p-ASK:i"", ""part:indef""]",[],0,8,0,8
+MEASURED_RESEARCH_DEV,asllrp3_2b994b7aa63e2c9a,dev,"[""IX-1p"", ""(1h)TEND"", ""GO-OUT"", ""WORK"", ""COMMUTE"", ""BICYCLE""]","[""IX-1p""]",0,5,0,6
+MEASURED_RESEARCH_DEV,asllrp3_464b37816f37a887,dev,"[""FIREWORKS_2+"", ""IX-1p"", ""LIKE"", ""IX-1p"", ""KISS-FIST"", ""IX-loc:i"", ""FIREWORKS_2++"", ""FINEwg""]",[],0,8,0,8
+MEASURED_RESEARCH_DEV,asllrp3_520a22cf974188ba,dev,"[""FRIEND"", ""SCL:crvd-5\\group go together\\\""\"""", ""IX-loc:i"", ""SUNBATHE"", ""fs-BEACH"", ""(2h)SUNSHINE_2"", ""TAN"", ""SUNBATHE++""]",[],0,8,0,8
+MEASURED_RESEARCH_DEV,asllrp3_b1a6864ded5877d4,dev,"[""FRIEND"", ""PLAY"", ""FRISBEE""]","[""IX-1p""]",1,2,0,3
+MEASURED_RESEARCH_DEV,asllrp3_522c1e2eb2421ea3,dev,"[""IX-1p"", ""INVITE/HIRE"", ""FRIEND"", ""(25)WHY"", ""IX-loc:i"", ""GO-OUT"", ""#BQQ"", ""(P)PARTY""]","[""ns-fs-JOHN""]",1,7,0,8
+MEASURED_RESEARCH_DEV,asllrp3_64ec53d940dcab61,dev,"[""IX-1p"", ""INVITE/HIRE"", ""FRIEND"", ""GO-OUT"", ""#BQQ"", ""(P)PARTY""]","[""IX-1p""]",0,5,0,6
+MEASURED_RESEARCH_DEV,asllrp3_9b8ea1516c4b12d5,dev,"[""POSS-1p"", ""SISTER"", ""IX-3p:i"", ""GO-OUT"", ""WATER+DCL\\round flat\\\""+\""""]","[""IX-1p""]",1,4,0,5
+MEASURED_RESEARCH_DEV,asllrp3_c56fdcdf5a1d8354,dev,"[""FRIEND"", ""WANT_2"", ""(1h)(flat-O)PAY/SPEND"", ""(2h)SHIRT"", ""PLAID""]",[],0,5,0,5
+MEASURED_RESEARCH_DEV,asllrp3_7e5874153632e6b7,dev,"[""IX-1p"", ""SHOULD+"", ""(1h)(flat-O)PAY/SPEND"", ""SHORTS"", ""IX-1p""]","[""IX-1p""]",0,4,0,5
+MEASURED_RESEARCH_DEV,asllrp3_701eb9032005d3e3,dev,"[""POSS-1p"", ""SISTER"", ""WANT_2"", ""HEADBAND_2"", ""FOR"", ""POSS-3p+:i"", ""BIRTHDAY""]",[],0,7,0,7
+MEASURED_RESEARCH_DEV,asllrp3_b9ee3c85f17132f1,dev,"[""fs-BRIDE"", ""AND"", ""fs-GROOM"", ""DCL:1\\bride and groom meet\\\""\"""", ""DANCE"", ""ALL-NIGHT_3"", ""LAST"", ""FINISH"", ""CLOSE-DOOR"", ""WEDDING""]",[],0,10,0,10
+MEASURED_RESEARCH_DEV,asllrp3_df3a5dcf568c45a9,dev,"[""IX-1p"", ""ENJOY"", ""CHAT"", ""WITH"", ""IX-3p-pl-2:i/j"", ""SCL\\Donna\\\""\"""", ""SCL\\Jessica\\\""\"""", ""(nd-2)FIRST-IN-LIST"", ""ns-fs-DONNA"", ""SECOND-IN-LIST_4"", ""ns-fs-JESSICA"", ""IX-1p"", ""ENJOY"", ""CHAT+""]",[],0,14,0,14
+MEASURED_RESEARCH_DEV,asllrp3_a40308d87d981cbd,dev,"[""SOON"", ""IX-1p"", ""MOVE-AWAY"", ""ns-#SD"", ""ns-CALIFORNIA_2""]","[""IX-1p""]",0,4,0,5
+MEASURED_RESEARCH_DEV,asllrp3_f18a793fb928ff18,dev,"[""POSS-2p"", ""FRIEND"", ""WOW"", ""PASS-OUT_2"", ""WOW""]",[],0,5,0,5
+MEASURED_RESEARCH_DEV,asllrp3_bb5663e4070af71c,dev,"[""IX-1p"", ""SCL:U-L\\person passed out\\\""\"""", ""(2h)DRUNK"", ""PAST+NIGHT"", ""IX-1p""]","[""IX-1p""]",0,4,0,5
+MEASURED_RESEARCH_DEV,asllrp3_d07f01d6dd7efe2f,dev,"[""FRIEND"", ""CRASH"", ""(P)PARTY"", ""PAST+NIGHT""]",[],0,4,0,4
+MEASURED_RESEARCH_DEV,asllrp3_236a80a5626934e8,dev,"[""FRIEND"", ""TAKE-UP"", ""PIZZA_4"", ""DINNER"", ""GROUP/TOGETHER""]","[""IX-1p""]",1,4,0,5
+MEASURED_RESEARCH_DEV,asllrp3_edea177a5a778b5a,dev,"[""ns-fs-BOB"", ""IX-3p:i"", ""FINISH"", ""(1)SEND"", ""LETTER/MAIL"", ""QMwg""]",[],0,6,0,6
+MEASURED_RESEARCH_DEV,asllrp3_e06feef7098978ee,dev,"[""STUDENT"", ""REALLY+WORK+"", ""KOWTOW"", ""HEAR/LISTEN"", ""TEACH+AGENT"", ""QMwg""]",[],0,6,0,6
+MEASURED_RESEARCH_DEV,asllrp3_fad43b8af2f12850,dev,"[""ns-fs-BOB"", ""IX-3p:i"", ""DCL:1\\Bob approaching her\\\""\"""", ""i:GIVE-indef"", ""(R)FLOWER"", ""SCL:1\\person\\\""\"""", ""(1h)FINISH"", ""QMwg""]",[],0,8,0,8
+MEASURED_RESEARCH_DEV,asllrp3_4f8a31b3baecd6b5,dev,"[""ns-fs-BOB"", ""LIKE"", ""READ"", ""BOOK+"", ""QMwg""]",[],0,5,0,5
+MEASURED_RESEARCH_DEV,asllrp3_eb5500b28e33a203,dev,"[""TEACH+AGENT"", ""IX-loc:i"", ""FINISH"", ""NICE/CLEAN+"", ""CLASS_2+BOX/ROOM"", ""QMwg""]","[""IX-1p""]",1,5,0,6
+MEASURED_RESEARCH_DEV,asllrp3_ee49708798064115,dev,"[""MOTHER"", ""SICK"", ""QMwg""]",[],0,3,0,3
+MEASURED_RESEARCH_DEV,asllrp3_b492b6b1a99e9e65,dev,"[""FATHER"", ""IX-loc:i"", ""FINISH"", ""START"", ""MOW+"", ""QMwg""]","[""IX-1p""]",1,5,0,6
+MEASURED_RESEARCH_DEV,asllrp3_c93fbb728bbd1131,dev,"[""AUNT"", ""IX-loc:i"", ""MAKE"", ""BEST"", ""BLUE+fs-BERRY"", ""PIE"", ""CORRECT""]","[""IX-1p""]",1,6,0,7
+MEASURED_RESEARCH_DEV,asllrp3_2bf6abbf31226848,dev,"[""IX-1p"", ""FINISH"", ""(P)PAY"", ""fs-RENT"", ""IX-1p"", ""NOT-YET"", ""(1h)DO-DO""]","[""IX-1p""]",0,6,0,7
+MEASURED_RESEARCH_DEV,asllrp3_5d677866b1f08a32,dev,"[""IX-1p"", ""FINISH"", ""(P)PAY"", ""fs-RENT"", ""IX-1p""]","[""IX-1p""]",0,4,0,5
+MEASURED_RESEARCH_DEV,asllrp3_301dbb32bd9b7a4d,dev,"[""BAD"", ""WEATHER"", ""IX-loc:i"", ""NOW"", ""ns-BOSTON"", ""QMwg""]","[""IX-1p""]",1,5,0,6
+MEASURED_RESEARCH_DEV,asllrp3_19394b3a9e3a041e,dev,"[""POSS-2p"", ""FAMILY"", ""(1h)TEND"", ""EVERY-YEAR"", ""VACATION+"", ""QMwg""]","[""IX-1p""]",1,5,0,6
+MEASURED_RESEARCH_DEV,asllrp3_48c6cbca496b4378,dev,"[""ns-fs-BOB"", ""IX-loc:i"", ""(1h)HAVE"", ""BIG"", ""#DOG_2"", ""QMwg""]","[""IX-1p""]",1,5,0,6
+MEASURED_RESEARCH_DEV,asllrp3_5de6bb44c9ed7e72,dev,"[""ns-fs-BOB"", ""IX-loc:i"", ""FINISH"", ""ARRIVE"", ""#PO"", ""QMwg""]","[""IX-1p""]",1,5,0,6
+MEASURED_RESEARCH_DEV,asllrp3_630efce44ae2aa6f,dev,"[""FARM"", ""DCL\\describing the land\\\""\"""", ""PLAY"", ""(1h)AREA"", ""ONLY"", ""(2h)HORSE"", ""DCL:U-L\\horse running\\\""\"""", ""QMwg""]",[],0,8,0,8
+MEASURED_RESEARCH_DEV,asllrp3_87eef9b0ab6cd352,dev,"[""DRESS/CLOTHES"", ""IX-loc:i"", ""ON"", ""#SALE"", ""REALLY+WORK+"", ""QMwg""]",[],0,6,0,6
+MEASURED_RESEARCH_DEV,asllrp3_065374a1b240e1e2,dev,"[""FRIEND"", ""WATCH-TV"", ""(nd-1)MOVIE"", ""ACT"", ""FINISH"", ""QMwg""]",[],0,6,0,6
+MEASURED_RESEARCH_DEV,asllrp3_299ed5be9e901e1e,dev,"[""2p-MEET:i"", ""POSS-1p"", ""NEW"", ""FRIEND"", ""FINISH"", ""IX-2p""]","[""IX-1p""]",1,5,0,6
+MEASURED_RESEARCH_DEV,asllrp3_862703344962fcee,dev,"[""KNOW"", ""WHERE"", ""GO-OUT"", ""IX-2p""]","[""IX-1p""]",1,3,0,4
+MEASURED_RESEARCH_DEV,asllrp3_20a4bac651e2ac7e,dev,"[""IX-2p"", ""(1h)TEND"", ""COMMUTE"", ""BICYCLE"", ""GO-OUT"", ""WORK"", ""(1h)TEND"", ""ALWAYS"", ""COMMUTE"", ""IX-2p""]","[""IX-1p""]",1,9,0,10
+MEASURED_RESEARCH_DEV,asllrp3_6f06dd6ab7d60caf,dev,"[""LIKE"", ""FIREWORKS_2+"", ""IX-2p""]","[""IX-1p""]",1,2,0,3
+MEASURED_RESEARCH_DEV,asllrp3_454008577474dcc5,dev,"[""IX-2p"", ""SUNBATHE"", ""fs-SUN"", ""(2h)SUNSHINE"", ""SUNBATHE"", ""IX-2p"", ""BRAVE/RECOVER"", ""QMwg""]",[],0,8,0,8
+MEASURED_RESEARCH_DEV,asllrp3_d0efbc1f5aa7c260,dev,"[""IX-loc:i"", ""FRISBEE"", ""PLAY"", ""fs-FUN"", ""QMwg""]",[],0,5,0,5
+MEASURED_RESEARCH_DEV,asllrp3_57d8209642659ea9,dev,"[""IX-1p"", ""PROCEED"", ""TAKE-UP"", ""#BQQ"", ""(1h)(P)PARTY"", ""part:indef""]","[""IX-1p""]",0,5,0,6
+MEASURED_RESEARCH_DEV,asllrp3_0c73acb4634ddd8a,dev,"[""POSS-2p"", ""SISTER"", ""REALLY+WORK"", ""KISS-FIST"", ""TUBING"", ""QMwg""]","[""IX-1p""]",1,5,0,6
+MEASURED_RESEARCH_DEV,asllrp3_18f904cebe610733,dev,"[""IX-1p"", ""(4)STRIPES"", ""(2h)SHIRT"", ""NEAT"", ""FACE"", ""(1h)GOOD/THANK-YOU"", ""(25)WHY"", ""IX-1p"", ""BCL:C\\showing off pectorals\\\""\"""", ""FACE"", ""(1h)GOOD/THANK-YOU""]",[],0,11,0,11
+MEASURED_RESEARCH_DEV,asllrp3_c2812b1155dbf10b,dev,"[""IX-1p"", ""SHOULD+"", ""(1h)(flat-O)PAY/SPEND"", ""SHORTS+"", ""QMwg""]",[],0,5,0,5
+MEASURED_RESEARCH_DEV,asllrp3_c9eaf2d8fbb493cc,dev,"[""QMwg"", ""(crvd-5)POSS-1p"", ""SISTER"", ""WANT"", ""HEADBAND_2"", ""FOR"", ""BIRTHDAY"", ""(1h)part:indef"", ""QMwg"", ""part:indef""]",[],0,10,0,10
+MEASURED_RESEARCH_DEV,asllrp3_b98636efe3e0c9c6,dev,"[""fs-BRIDE"", ""IX-3p:i"", ""fs-GROOM"", ""DCL:1\\two people approaching each other\\\""\"""", ""BOTH"", ""IX-loc:i"", ""LIKE"", ""POSS-3p-pl-arc"", ""WEDDING"", ""QMwg"", ""part:indef""]","[""IX-1p""]",1,10,0,11
+MEASURED_RESEARCH_DEV,asllrp3_5f0ba32c4524efd5,dev,"[""IX-2p"", ""(1h)TEND"", ""CHAT"", ""WITH"", ""ns-fs-DONNA"", ""AND"", ""ns-fs-JESSICA"", ""IX-3p-pl-2:i/j"", ""(1h)TEND"", ""IX-2p""]",[],0,10,0,10
+MEASURED_RESEARCH_DEV,asllrp3_3918a9b2d32e4e89,dev,"[""IX-2p"", ""FINISH"", ""MOVE-AWAY"", ""ns-#SD"", ""IX-2p""]","[""IX-1p""]",1,4,0,5
+MEASURED_RESEARCH_DEV,asllrp3_7de4c85eedfbcbc5,dev,"[""POSS-2p"", ""FRIEND"", ""IX-loc:i"", ""THINK"", ""PASS-OUT_2"", ""IX-2p"", ""QMwg""]","[""IX-1p""]",1,6,0,7
+MEASURED_RESEARCH_DEV,asllrp3_73f4013ba426d1df,dev,"[""IX-1p"", ""SCL:U-L\\person passed out\\\""\"""", ""(2h)DRUNK"", ""PAST+NIGHT"", ""QMwg""]","[""IX-1p""]",0,4,0,5
+MEASURED_RESEARCH_DEV,asllrp3_5de8763196eddc2d,dev,"[""FUTURE"", ""TAKE-UP"", ""DINNER"", ""PIZZA_4"", ""IX-2p""]","[""IX-1p""]",1,4,0,5
+MEASURED_RESEARCH_DEV,asllrp3_803ea049db1d5ba1,dev,"[""POSS-1p"", ""FRIEND"", ""PROCEED"", ""(nd-5)HIT"", ""(P)PARTY"", ""QMwg"", ""part:indef""]",[],0,7,0,7
+MEASURED_RESEARCH_DEV,asllrp3_9ecc1422a8475dca,dev,"[""ns-fs-BOB"", ""IX-3p:i"", ""(1)SEND:j"", ""POSS-3p:i"", ""WIFE"", ""LOVE"", ""LETTER/MAIL"", ""(25)WHY"", ""POSS-3p-pl-arc"", ""CELEBRATE"", ""WEDDING"", ""SOON""]","[""IX-1p""]",1,11,0,12
+MEASURED_RESEARCH_DEV,asllrp3_9a4de103a57c95a9,dev,"[""STUDENT"", ""MUST"", ""KOWTOW"", ""INFORM"", ""TEACH+AGENT"", ""(25)WHY"", ""TEACH+AGENT"", ""IN"", ""MANAGE/CONTROL""]","[""IX-1p""]",1,8,0,9
+MEASURED_RESEARCH_DEV,asllrp3_3232746d696545ab,dev,"[""ns-fs-BOB"", ""j:MEET:i"", ""WIFE"", ""j:GIVE-indef"", ""(R)FLOWER"", ""(25)WHY"", ""IX-3p:i"", ""CELEBRATE"", ""NOW""]","[""IX-1p""]",1,8,0,9
+MEASURED_RESEARCH_DEV,asllrp3_fbd42099f64d1a25,dev,"[""ns-fs-BOB"", ""IX-loc:i"", ""KISS-FIST"", ""READ"", ""BOOK"", ""(25)WHY"", ""IX-3p:i"", ""VISUALIZE"", ""IMAGINE"", ""FINEwg""]",[],0,10,0,10
+MEASURED_RESEARCH_DEV,asllrp3_15ebcf0ceb1283e9,dev,"[""TEACH+AGENT"", ""EVERYDAY"", ""IX-loc:i"", ""NICE/CLEAN+"", ""CLASS_2+BOX/ROOM"", ""(25)WHY"", ""EVERYDAY"", ""IX-loc:i"", ""STUDENT"", ""GO"", ""WANT"", ""NICE/CLEAN"", ""part:indef""]",[],0,13,0,13
+MEASURED_RESEARCH_DEV,asllrp3_4683dc0f625dfbfd,dev,"[""MOTHER"", ""IX-loc:i"", ""SICK"", ""(25)WHY"", ""RECENT-PAST"", ""CARE+"", ""POSS-3p+:i"", ""FRIEND"", ""WHO"", ""SICK""]",[],0,10,0,10
+MEASURED_RESEARCH_DEV,asllrp3_60ad0a8dee278241,dev,"[""FATHER"", ""IX-loc:i"", ""MUST"", ""MOW+"", ""(25)WHY"", ""SOON"", ""FUTURE"", ""TAKE-UP"", ""#BQQ"", ""(P)PARTY""]",[],0,10,0,10
+MEASURED_RESEARCH_DEV,asllrp3_620099965cfb2f71,dev,"[""AUNT"", ""WOW/AWFUL"", ""EXPERT"", ""MAKE"", ""BLUE+fs-BERRY"", ""fs-PIE"", ""PIE"", ""(25)WHY"", ""GROW-UP"", ""MAKE++""]",[],0,10,0,10
+MEASURED_RESEARCH_DEV,asllrp3_56ff496e88e44d55,dev,"[""IX-1p"", ""MUST"", ""(P)PAY"", ""TWICE"", ""fs-RENT"", ""(25)WHY"", ""IX-1p"", ""MISS/ASSUME"", ""PAST"", ""ONE-MONTH"", ""MISS/ASSUME"", ""IX-1p""]","[""IX-1p""]",0,11,0,12
+MEASURED_RESEARCH_DEV,asllrp3_96760113664a2ab5,dev,"[""BAD"", ""WEATHER"", ""DCL\\swirling\\\""\"""", ""IN"", ""ns-BOSTON"", ""(25)WHY"", ""fs-OCEAN"", ""FEW/CLOSE"", ""IX-loc:i"", ""NEAR""]","[""IX-1p""]",1,9,0,10
+MEASURED_RESEARCH_DEV,asllrp3_0c9ca995ae95be29,dev,"[""POSS-1p"", ""FAMILY"", ""IX-3p:i"", ""EVERY-YEAR"", ""GO-OUT"", ""VACATION"", ""WHERE"", ""IX-loc:i"", ""ns-#FLA"", ""(25)WHY"", ""(1h)part:indef"", ""LOVE"", ""fs-SUN"", ""SUNSHINE_2""]",[],0,14,0,14
+MEASURED_RESEARCH_DEV,asllrp3_7c628ed2442e0d0e,dev,"[""ns-fs-BOB"", ""IX-3p:i"", ""HAVE"", ""BIG"", ""#DOG_2"", ""IX-3p:j"", ""LIKE"", ""(25)WHY"", ""IX-3p:i"", ""LOVE"", ""WRESTLE"", ""WITH"", ""BIG"", ""#DOG_2""]",[],0,14,0,14
+MEASURED_RESEARCH_DEV,asllrp3_f3da290fe6395243,dev,"[""ns-fs-BOB"", ""IX-loc:i"", ""SHOULD+"", ""GO-OUT"", ""#PO"", ""(25)WHY"", ""MUST"", ""LETTER/MAIL_2+""]",[],0,8,0,8
+MEASURED_RESEARCH_DEV,asllrp3_491e4c9c88bcba2a,dev,"[""(2h)HORSE"", ""IX-loc:i"", ""PLAY"", ""FARM"", ""IX-loc:i"", ""DCL:U-L\\horse running\\\""\"""", ""(25)WHY"", ""part:indef"", ""fs-TOO"", ""OLD"", ""CANNOT"", ""COMPETITION"", ""(1h)part:indef""]","[""IX-1p""]",1,12,0,13
+MEASURED_RESEARCH_DEV,asllrp3_6b864affb4972d36,dev,"[""DRESS/CLOTHES"", ""ON"", ""#SALE"", ""(25)WHY"", ""(1h)part:indef"", ""fs-TOO"", ""EXPENSIVE"", ""(1h)part:indef""]",[],0,8,0,8
+MEASURED_RESEARCH_DEV,asllrp3_f50cee8d6e0e03bb,dev,"[""FRIEND"", ""SCL:crvd-5\\group go together\\\""\"""", ""(nd-1)MOVIE+"", ""ACT"", ""RECENT-PAST"", ""(25)WHY"", ""ns-fs-HARRY"", ""ns-fs-POTTER"", ""SOME"", ""SEVEN"", ""RECENT-PAST"", ""SPREAD""]","[""IX-1p""]",1,11,0,12
+MEASURED_RESEARCH_DEV,asllrp3_5ea363da9da8b3d5,dev,"[""IX-1p"", ""INTRODUCE"", ""NEW"", ""FRIEND"", ""(25)WHY"", ""SCL:1\\person approaching\\\""\""""]","[""IX-1p""]",0,5,0,6

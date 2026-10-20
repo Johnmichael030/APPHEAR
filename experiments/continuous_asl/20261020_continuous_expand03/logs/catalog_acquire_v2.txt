@@ -1,0 +1,8 @@
+{
+  "requested": 93,
+  "new_bytes": 36346021,
+  "failures": 0,
+  "conservative_total_raw_bytes": 1895291702,
+  "global_cap": 2147483648,
+  "dry_run": false
+}

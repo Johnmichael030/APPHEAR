@@ -1,0 +1,40 @@
+{
+  "status": "PASS",
+  "checks": [
+    {
+      "status": "PASS",
+      "test": "original_DEV_filter_reconstruction",
+      "reconstructed_ids": [
+        "ncslgr_6b627c2a6d44a0fc",
+        "ncslgr_480b611253531cc0",
+        "ncslgr_cecf49697b9aae80",
+        "ncslgr_510cf79b19adb2d4",
+        "ncslgr_63612b0124839c79",
+        "ncslgr_1418dc0eb004ad3b",
+        "ncslgr_417afd4735362b64",
+        "ncslgr_f9d66524fb30b3c5",
+        "ncslgr_43f1ecb8adfc4359"
+      ],
+      "frozen_ids": [
+        "ncslgr_6b627c2a6d44a0fc",
+        "ncslgr_480b611253531cc0",
+        "ncslgr_cecf49697b9aae80",
+        "ncslgr_510cf79b19adb2d4",
+        "ncslgr_63612b0124839c79",
+        "ncslgr_1418dc0eb004ad3b",
+        "ncslgr_417afd4735362b64",
+        "ncslgr_f9d66524fb30b3c5",
+        "ncslgr_43f1ecb8adfc4359"
+      ]
+    },
+    {
+      "status": "PASS",
+      "test": "shared_model_decoder_source_matches_fitting_provenance",
+      "current_sha256": "d434d2341348ab89558a82dfc9f952800e533246d4b6baf0294ee10fc013aa63",
+      "recorded_sha256": "d434d2341348ab89558a82dfc9f952800e533246d4b6baf0294ee10fc013aa63"
+    }
+  ],
+  "DEV_policy": "Collection ncslgr10p.xml; frontal0, unambiguous whole-utterance movie,2..12initial lexical tokens, original exclusions of quoted/complex/classifier/fingerspelled labels. Later TRAIN policy broadened but DEV remained fixed.",
+  "training_performed": false,
+  "test_examples_addressed": false
+}

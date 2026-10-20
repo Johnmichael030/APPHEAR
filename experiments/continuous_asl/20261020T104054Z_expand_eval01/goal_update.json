@@ -1,0 +1,11 @@
+{
+  "active_data_target": 2000,
+  "verified_eligible": 3121,
+  "active_target_shortfall": 0,
+  "target_met": true,
+  "historical_stretch_target": 5000,
+  "stretch_target_active": false,
+  "user_instruction": "2,000 is enough for now as goal",
+  "acquisition_action": "STOP_FURTHER_EXPANSION; preserve all completed acquisition/processing artifacts",
+  "recognition_status": "PARTIAL; fresh pilot stopped by its predeclared learning gate"
+}

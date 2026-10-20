@@ -1,0 +1,13 @@
+{
+  "status": "PASS",
+  "fresh_expand03_content_hashes": 1268,
+  "fresh_guard_hashes_and_mtimes": 4,
+  "protected_metadata_checks": 4606,
+  "failures": [],
+  "scope": "Fresh hashes of expand03 artifact inventory and all its listed files; four prior evidence guard hashes; protected size/mtime checks. Existing full original-content/How2Sign integrity evidence reused without archive rescan.",
+  "fresh_additional_frozen_hashes_and_mtimes": 27,
+  "new_frozen_models_verified": true,
+  "old14_and_isolated2620_unchanged": true,
+  "reserved17_evaluated": false,
+  "production_changed": false
+}

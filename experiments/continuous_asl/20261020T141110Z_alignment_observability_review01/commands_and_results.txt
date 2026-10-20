@@ -1,0 +1,47 @@
+Working directory: D:\apphearv3claude\AppHear-claude-s2-r3-eval-suite\AppHear-claude-s2-r3-eval-suite
+New writes only: D:\apphearv3claude\AppHear-claude-s2-r3-eval-suite\AppHear-claude-s2-r3-eval-suite\experiments\continuous_asl\20261020T141110Z_alignment_observability_review01
+First read previous READ_ONLY_FAILURE_AUDIT.md and commands_and_results.txt with Get-Content -LiteralPath.
+Read both user attachment missions with Get-Content -LiteralPath.
+
+Initial PowerShell:
+$reviewStamp=(Get-Date).ToUniversalTime().ToString('yyyyMMddTHHmmssZ')
+$reviewDir=Join-Path 'experiments\continuous_asl' ($reviewStamp+'_alignment_observability_review01')
+New-Item -ItemType Directory -Path $reviewDir -ErrorAction Stop
+nvidia-smi --query-gpu=name,memory.total,memory.free --format=csv,noheader
+Result: NVIDIA GeForce RTX 3050 Laptop GPU, 4096 MiB, 3962 MiB
+Get-CimInstance Win32_OperatingSystem | Select-Object FreePhysicalMemory,TotalVisibleMemorySize
+Get-CimInstance Win32_ComputerSystem | Select-Object NumberOfLogicalProcessors
+CIM queries: Access to a CIM resource was not available to the client; combined shell exit1.
+Fallback: Python ctypes Windows GlobalMemoryStatusEx; no escalation/config changes.
+
+Read-only source inspections:
+Get-Content -LiteralPath 'experiments\continuous_asl\20261020T135119Z_read_only_failure_audit01\analyze_read_only.py' -TotalCount 130
+Get-Content -LiteralPath 'experiments\continuous_asl\20261020T133148Z_source_transfer_pilot01\resolved_manifest.json' -TotalCount 90
+Get-Content -LiteralPath 'pipeline\perception_vnext\segmentation\learned_features.py' -TotalCount 220
+Get-Content -LiteralPath 'pipeline\perception_vnext\recognition_schema.py' -TotalCount 220
+A short isolated Python -B probe printed prior hash-manifest types, first manifest entry and fold keys; no payload/model execution.
+
+& 'D:\apphearv3claude\AppHear-claude-s2-r3-eval-suite\AppHear-claude-s2-r3-eval-suite\experiments\continuous_asl\20261019T155428Z_cslr01\runtime\venv\Scripts\python.exe' -B 'D:\apphearv3claude\AppHear-claude-s2-r3-eval-suite\AppHear-claude-s2-r3-eval-suite\experiments\continuous_asl\20261020T141110Z_alignment_observability_review01\inspect_hardware.py'
+Exit0; shell7.543s; internal capability5.485882s.
+& 'D:\apphearv3claude\AppHear-claude-s2-r3-eval-suite\AppHear-claude-s2-r3-eval-suite\experiments\continuous_asl\20261019T155428Z_cslr01\runtime\venv\Scripts\python.exe' -B 'D:\apphearv3claude\AppHear-claude-s2-r3-eval-suite\AppHear-claude-s2-r3-eval-suite\experiments\continuous_asl\20261020T141110Z_alignment_observability_review01\review_cached.py'
+First attempt exit1 at new-script line108;6.291s.
+AssertionError comparing raw hand_joint_valid directly with effective feature validity.
+Source contract: effective=raw.hand_joint_valid & raw.hand_observed[:,:,None].
+Corrected only new review script. No old file changed; no CSV/report output existed yet.
+& 'D:\apphearv3claude\AppHear-claude-s2-r3-eval-suite\AppHear-claude-s2-r3-eval-suite\experiments\continuous_asl\20261019T155428Z_cslr01\runtime\venv\Scripts\python.exe' -B 'D:\apphearv3claude\AppHear-claude-s2-r3-eval-suite\AppHear-claude-s2-r3-eval-suite\experiments\continuous_asl\20261020T141110Z_alignment_observability_review01\review_cached.py'
+Second attempt exit0; shell7.854s; internal6.294256s.
+A880/B1440/C6492/MIXED3611;12 unique utterances;12423 publisher joins;
+12/12 scalar interval checks;0 coordinate/mask discrepancies.
+1637 existing files unchanged;76pilot and21audit files unchanged.
+
+Import-Csv -LiteralPath 'D:\apphearv3claude\AppHear-claude-s2-r3-eval-suite\AppHear-claude-s2-r3-eval-suite\experiments\continuous_asl\20261020T141110Z_alignment_observability_review01\event_level_findings.csv' | Select-Object review_id,group,literal_target,sample_id,relative_start_frame,relative_end_frame,target_support_distinct_train_utterances,sequence_observations,retained_count,any_hand_fraction,both_hand_fraction,publisher_hidden_flag,matching_cost | Format-Table -AutoSize
+Get-Content -LiteralPath 'D:\apphearv3claude\AppHear-claude-s2-r3-eval-suite\AppHear-claude-s2-r3-eval-suite\experiments\continuous_asl\20261020T141110Z_alignment_observability_review01\selection.json'
+
+& 'D:\apphearv3claude\AppHear-claude-s2-r3-eval-suite\AppHear-claude-s2-r3-eval-suite\experiments\continuous_asl\20261019T155428Z_cslr01\runtime\venv\Scripts\python.exe' -B 'D:\apphearv3claude\AppHear-claude-s2-r3-eval-suite\AppHear-claude-s2-r3-eval-suite\experiments\continuous_asl\20261020T141110Z_alignment_observability_review01\write_report.py'
+Creates report, command log and new-artifact checksum index.
+& 'D:\apphearv3claude\AppHear-claude-s2-r3-eval-suite\AppHear-claude-s2-r3-eval-suite\experiments\continuous_asl\20261019T155428Z_cslr01\runtime\venv\Scripts\python.exe' -B 'D:\apphearv3claude\AppHear-claude-s2-r3-eval-suite\AppHear-claude-s2-r3-eval-suite\experiments\continuous_asl\20261020T141110Z_alignment_observability_review01\verify_review.py'
+Read-only validation; execution output is returned by the tool and can be reproduced.
+
+User confirmed: No qualified reviewer available.
+No training/inference/perception/media decode/acquisition/install/external service/Git changes.
+No reserved TEST access/enumeration. All existing inputs preserved.

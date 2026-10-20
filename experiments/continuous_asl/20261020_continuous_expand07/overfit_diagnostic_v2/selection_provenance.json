@@ -1,0 +1,9 @@
+{
+  "policy": "First authentic fingerspelled-word record; first different repeated-word record; deterministic3 distinct timed narrative collections with3\u201312 events;3 source-collection-diverse ASLLRP completed clips excluding all global overlap IDs.",
+  "count": 8,
+  "manifest_sha256": "56510ec4ad4e2d571e30663ef04274665a8b8619bea6f7bb2099716e1648db78",
+  "protocol_sha256": "c4869942bf8b908b55302b70ec4129bfa14da5b460c2bd1d40d90b494bb166f8",
+  "test_accessed": false,
+  "development_accessed": false,
+  "synthetic": false
+}

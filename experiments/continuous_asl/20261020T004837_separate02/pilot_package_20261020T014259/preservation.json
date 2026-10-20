@@ -1,0 +1,71 @@
+{
+  "status": "PASS_TARGETED_ADDITIVE_GUARDS",
+  "source_guards": [
+    {
+      "path": "D:\\apphearv3claude\\AppHear-claude-s2-r3-eval-suite\\AppHear-claude-s2-r3-eval-suite\\AGENTS.md",
+      "hash_and_mtime_match_prior_protection": true
+    },
+    {
+      "path": "D:\\apphearv3claude\\AppHear-claude-s2-r3-eval-suite\\AppHear-claude-s2-r3-eval-suite\\android\\app\\src\\main\\assets\\model_manifest.json",
+      "hash_and_mtime_match_prior_protection": true
+    },
+    {
+      "path": "D:\\apphearv3claude\\AppHear-claude-s2-r3-eval-suite\\AppHear-claude-s2-r3-eval-suite\\context\\feature-schema.md",
+      "hash_and_mtime_match_prior_protection": true
+    },
+    {
+      "path": "D:\\apphearv3claude\\AppHear-claude-s2-r3-eval-suite\\AppHear-claude-s2-r3-eval-suite\\context\\progress-tracker.md",
+      "hash_and_mtime_match_prior_protection": true
+    },
+    {
+      "path": "D:\\apphearv3claude\\AppHear-claude-s2-r3-eval-suite\\AppHear-claude-s2-r3-eval-suite\\pipeline\\perception_vnext\\recognition_schema_v2.py",
+      "hash_and_mtime_match_prior_protection": true
+    },
+    {
+      "path": "D:\\apphearv3claude\\AppHear-claude-s2-r3-eval-suite\\AppHear-claude-s2-r3-eval-suite\\pipeline\\perception_vnext\\recognition_schema.py",
+      "hash_and_mtime_match_prior_protection": true
+    },
+    {
+      "path": "D:\\apphearv3claude\\AppHear-claude-s2-r3-eval-suite\\AppHear-claude-s2-r3-eval-suite\\pipeline\\perception_vnext\\segmentation\\learned_features.py",
+      "hash_and_mtime_match_prior_protection": true
+    },
+    {
+      "path": "D:\\apphearv3claude\\AppHear-claude-s2-r3-eval-suite\\AppHear-claude-s2-r3-eval-suite\\tests\\test_perception_vnext_recognition_schema_v2.py",
+      "hash_and_mtime_match_prior_protection": true
+    }
+  ],
+  "frozen_report_and_selection_guards": [
+    {
+      "path": "final_status.md",
+      "hash_matches": true
+    },
+    {
+      "path": "final_test_freeze.json",
+      "hash_matches": true
+    },
+    {
+      "path": "final_test_report.md",
+      "hash_matches": true
+    },
+    {
+      "path": "final_test_results.json",
+      "hash_matches": true
+    },
+    {
+      "path": "experiment_A/warmstart/checkpoints/best.json",
+      "hash_matches": true
+    },
+    {
+      "path": "experiment_A/warmstart_repeat/checkpoints/best.json",
+      "hash_matches": true
+    },
+    {
+      "path": "experiment_B/checkpoints/best.json",
+      "hash_matches": true
+    }
+  ],
+  "old_final_manifest_unchanged": true,
+  "old_continuation_manifest_unchanged": true,
+  "scope": "Only new pilot directory written. Prior full preservation evidence reused; no repeat archive/model/test-payload verification or inference.",
+  "prior_full_preservation_reference": "../continuation_20261020T013509/evidence/preservation.json"
+}

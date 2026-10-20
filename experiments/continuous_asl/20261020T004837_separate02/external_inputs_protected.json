@@ -1,0 +1,22 @@
+[
+  {
+    "path": "D:\\classmate_e1_matched_rtx3050_package\\classmate_e1_matched_rtx3050_package\\data\\train\\train.npz",
+    "sha256": "e3fffa4b665ef7f5350fdf9d72bceb9775865deba1b4d3f5f06fe4f8e2144f99",
+    "mtime_ns": 1784988677019208900
+  },
+  {
+    "path": "D:\\classmate_e1_matched_rtx3050_package\\classmate_e1_matched_rtx3050_package\\data\\train\\val.npz",
+    "sha256": "b5668c0e17f53a0db8d55cdcf8f5263bcc57fb929702f0a85484a916b4965c98",
+    "mtime_ns": 1784988677313198500
+  },
+  {
+    "path": "D:\\classmate_e1_matched_rtx3050_package\\classmate_e1_matched_rtx3050_package\\data\\vocab\\vocab.json",
+    "sha256": "a7d7b08d1c9ff52455aaa93cefee40e744b86a11fa5047dce08d2dd23fc0539b",
+    "mtime_ns": 1784988677349184100
+  },
+  {
+    "path": "D:\\ASL_Citizen\\ASL_Citizen\\use.txt",
+    "sha256": "5f712014b70142ef06d0bac3d47cb8ff210da0671ce555a6bdc3a7b3f3538d64",
+    "mtime_ns": 1782225610940369400
+  }
+]

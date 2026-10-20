@@ -1,0 +1,9 @@
+{
+  "partition": "train_dev",
+  "files": 79,
+  "max_planned_bytes": 662700032,
+  "actual_downloaded_bytes": 47233931,
+  "failures": 0,
+  "dry_run": false,
+  "ledger": "D:\\apphearv3claude\\AppHear-claude-s2-r3-eval-suite\\AppHear-claude-s2-r3-eval-suite\\experiments\\continuous_asl\\20261020_continuous_expand03\\logs\\acquisition_train_dev_20261020T020516_832.jsonl"
+}

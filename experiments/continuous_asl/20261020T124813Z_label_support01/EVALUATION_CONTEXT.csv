@@ -1,0 +1,7 @@
+﻿model,evaluation_scope,substitutions,deletions,insertions,reference_tokens,WER,utterances,comparison_limit
+prior64_full2519vocab,original413DEV,1001,2151,2,3236,0.9746600741656366,413,Same saved literal references; restricted task not full-task baseline replacement; fresh497fit changes membership/vocab/norm together.
+prior64_full2519vocab,compatible92DEV,218,266,2,497,0.9778672032193159,92,Same saved literal references; restricted task not full-task baseline replacement; fresh497fit changes membership/vocab/norm together.
+prior1706_full2519vocab,original413DEV,218,2953,0,3236,0.9799134734239803,413,Same saved literal references; restricted task not full-task baseline replacement; fresh497fit changes membership/vocab/norm together.
+prior1706_full2519vocab,compatible92DEV,68,425,0,497,0.9919517102615694,92,Same saved literal references; restricted task not full-task baseline replacement; fresh497fit changes membership/vocab/norm together.
+new497_restricted425vocab,original413DEV,630,2543,0,3236,0.98053152039555,413,Same saved literal references; restricted task not full-task baseline replacement; fresh497fit changes membership/vocab/norm together.
+new497_restricted425vocab,compatible92DEV,131,358,0,497,0.9839034205231388,92,Same saved literal references; restricted task not full-task baseline replacement; fresh497fit changes membership/vocab/norm together.

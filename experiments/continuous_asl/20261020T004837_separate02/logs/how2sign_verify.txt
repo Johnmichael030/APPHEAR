@@ -1,0 +1,1 @@
+{"archive_videos": 1739, "paired_annotations": 1739, "pilot_clips": 8, "pilot_bytes": 5046739, "timing_statuses": ["CONSISTENT", "CONSISTENT", "CONSISTENT", "CONSISTENT", "CONSISTENT", "CONSISTENT", "CONSISTENT", "CONSISTENT"], "archive_crc": "PASS"}

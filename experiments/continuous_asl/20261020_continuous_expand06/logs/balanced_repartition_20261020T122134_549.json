@@ -1,0 +1,55 @@
+{
+  "reason": "Measured long-tail clips12.50s average versus front5.31s; rebalance only unfinished work into four disjoint global-index modulo4 shards",
+  "processes": [
+    {
+      "ProcessId": 22472,
+      "ParentProcessId": 24868,
+      "ExecutablePath": "D:\\apphearv3claude\\AppHear-claude-s2-r3-eval-suite\\AppHear-claude-s2-r3-eval-suite\\experiments\\continuous_asl\\20261019T155428Z_cslr01\\runtime\\venv\\Scripts\\python.exe",
+      "CommandLine": "\"D:\\apphearv3claude\\AppHear-claude-s2-r3-eval-suite\\AppHear-claude-s2-r3-eval-suite\\experiments\\continuous_asl\\20261019T155428Z_cslr01\\runtime\\venv\\Scripts\\python.exe\" -B experiments/continuous_asl/20261020_continuous_expand06/tools/prepare_asllrp_tail.py --start 1300 --stop 1700"
+    },
+    {
+      "ProcessId": 30788,
+      "ParentProcessId": 22472,
+      "ExecutablePath": "D:\\apphearv3claude\\AppHear-claude-s2-r3-eval-suite\\AppHear-claude-s2-r3-eval-suite\\experiments\\continuous_asl\\20261019T155428Z_cslr01\\runtime\\python\\cpython-3.11.11-windows-x86_64-none\\python.exe",
+      "CommandLine": "\"D:\\apphearv3claude\\AppHear-claude-s2-r3-eval-suite\\AppHear-claude-s2-r3-eval-suite\\experiments\\continuous_asl\\20261019T155428Z_cslr01\\runtime\\python\\cpython-3.11.11-windows-x86_64-none\\python.exe\" -B experiments/continuous_asl/20261020_continuous_expand06/tools/prepare_asllrp_tail.py --start 1300 --stop 1700"
+    },
+    {
+      "ProcessId": 5272,
+      "ParentProcessId": 17952,
+      "ExecutablePath": "D:\\apphearv3claude\\AppHear-claude-s2-r3-eval-suite\\AppHear-claude-s2-r3-eval-suite\\experiments\\continuous_asl\\20261019T155428Z_cslr01\\runtime\\venv\\Scripts\\python.exe",
+      "CommandLine": "\"D:\\apphearv3claude\\AppHear-claude-s2-r3-eval-suite\\AppHear-claude-s2-r3-eval-suite\\experiments\\continuous_asl\\20261019T155428Z_cslr01\\runtime\\venv\\Scripts\\python.exe\" -B experiments/continuous_asl/20261020_continuous_expand06/tools/prepare_asllrp_tail.py --start 1700 --stop 2126"
+    },
+    {
+      "ProcessId": 31788,
+      "ParentProcessId": 5272,
+      "ExecutablePath": "D:\\apphearv3claude\\AppHear-claude-s2-r3-eval-suite\\AppHear-claude-s2-r3-eval-suite\\experiments\\continuous_asl\\20261019T155428Z_cslr01\\runtime\\python\\cpython-3.11.11-windows-x86_64-none\\python.exe",
+      "CommandLine": "\"D:\\apphearv3claude\\AppHear-claude-s2-r3-eval-suite\\AppHear-claude-s2-r3-eval-suite\\experiments\\continuous_asl\\20261019T155428Z_cslr01\\runtime\\python\\cpython-3.11.11-windows-x86_64-none\\python.exe\" -B experiments/continuous_asl/20261020_continuous_expand06/tools/prepare_asllrp_tail.py --start 1700 --stop 2126"
+    },
+    {
+      "ProcessId": 25708,
+      "ParentProcessId": 18660,
+      "ExecutablePath": "D:\\apphearv3claude\\AppHear-claude-s2-r3-eval-suite\\AppHear-claude-s2-r3-eval-suite\\experiments\\continuous_asl\\20261019T155428Z_cslr01\\runtime\\venv\\Scripts\\python.exe",
+      "CommandLine": "\"D:\\apphearv3claude\\AppHear-claude-s2-r3-eval-suite\\AppHear-claude-s2-r3-eval-suite\\experiments\\continuous_asl\\20261019T155428Z_cslr01\\runtime\\venv\\Scripts\\python.exe\" -B experiments/continuous_asl/20261020_continuous_expand06/tools/prepare_asllrp_front.py --shard 1"
+    },
+    {
+      "ProcessId": 19180,
+      "ParentProcessId": 15764,
+      "ExecutablePath": "D:\\apphearv3claude\\AppHear-claude-s2-r3-eval-suite\\AppHear-claude-s2-r3-eval-suite\\experiments\\continuous_asl\\20261019T155428Z_cslr01\\runtime\\venv\\Scripts\\python.exe",
+      "CommandLine": "\"D:\\apphearv3claude\\AppHear-claude-s2-r3-eval-suite\\AppHear-claude-s2-r3-eval-suite\\experiments\\continuous_asl\\20261019T155428Z_cslr01\\runtime\\venv\\Scripts\\python.exe\" -B experiments/continuous_asl/20261020_continuous_expand06/tools/prepare_asllrp_front.py --shard 0"
+    },
+    {
+      "ProcessId": 16208,
+      "ParentProcessId": 25708,
+      "ExecutablePath": "D:\\apphearv3claude\\AppHear-claude-s2-r3-eval-suite\\AppHear-claude-s2-r3-eval-suite\\experiments\\continuous_asl\\20261019T155428Z_cslr01\\runtime\\python\\cpython-3.11.11-windows-x86_64-none\\python.exe",
+      "CommandLine": "\"D:\\apphearv3claude\\AppHear-claude-s2-r3-eval-suite\\AppHear-claude-s2-r3-eval-suite\\experiments\\continuous_asl\\20261019T155428Z_cslr01\\runtime\\python\\cpython-3.11.11-windows-x86_64-none\\python.exe\" -B experiments/continuous_asl/20261020_continuous_expand06/tools/prepare_asllrp_front.py --shard 1"
+    },
+    {
+      "ProcessId": 33844,
+      "ParentProcessId": 19180,
+      "ExecutablePath": "D:\\apphearv3claude\\AppHear-claude-s2-r3-eval-suite\\AppHear-claude-s2-r3-eval-suite\\experiments\\continuous_asl\\20261019T155428Z_cslr01\\runtime\\python\\cpython-3.11.11-windows-x86_64-none\\python.exe",
+      "CommandLine": "\"D:\\apphearv3claude\\AppHear-claude-s2-r3-eval-suite\\AppHear-claude-s2-r3-eval-suite\\experiments\\continuous_asl\\20261019T155428Z_cslr01\\runtime\\python\\cpython-3.11.11-windows-x86_64-none\\python.exe\" -B experiments/continuous_asl/20261020_continuous_expand06/tools/prepare_asllrp_front.py --shard 0"
+    }
+  ],
+  "completed_row_files": 1115,
+  "replacement": "Original unchanged prepare_asllrp.py --shard0/1/2/3 --shards4; completed results checked and reused"
+}

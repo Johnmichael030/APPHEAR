@@ -1,0 +1,41 @@
+{
+  "status": "PASS",
+  "initial": {
+    "WER": 4.076923076923077,
+    "CTC_loss": 37.6635822057724,
+    "substitutions": 156,
+    "deletions": 0,
+    "insertions": 480,
+    "reference_tokens": 156,
+    "blank_fraction": 0.0,
+    "token_diversity": 62,
+    "top_token_fraction": 0.1918238993710692,
+    "empty_outputs": 0,
+    "multi_token_outputs": 16,
+    "utterances": 16
+  },
+  "final": {
+    "WER": 0.1858974358974359,
+    "CTC_loss": 0.3965426255017519,
+    "substitutions": 3,
+    "deletions": 26,
+    "insertions": 0,
+    "reference_tokens": 156,
+    "blank_fraction": 0.8257211538461539,
+    "token_diversity": 96,
+    "top_token_fraction": 0.08461538461538462,
+    "empty_outputs": 0,
+    "multi_token_outputs": 16,
+    "utterances": 16
+  },
+  "completed_epochs": 60,
+  "elapsed_seconds": 3.992636500042863,
+  "peak_allocated_bytes": 101380608,
+  "peak_reserved_bytes": 119537664,
+  "checkpoint": {
+    "path": "subset_checkpoint.pt",
+    "sha256": "9108584df8a9124c18383a28c351cecf9580f625e4b7beb431bc4a6177c97e53",
+    "epoch": 60
+  },
+  "DEV_used": false
+}

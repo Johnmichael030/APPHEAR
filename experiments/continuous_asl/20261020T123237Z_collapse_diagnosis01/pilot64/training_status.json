@@ -1,0 +1,26 @@
+{
+  "status": "NO_MEANINGFUL_DEV_GAIN_GATE40",
+  "completed_epochs": 40,
+  "optimizer_updates": 320,
+  "best_checkpoint": {
+    "path": "checkpoints\\epoch_040.pt",
+    "sha256": "89170961d30b2c413a439bfd9288139d99b9a14b506dd06a738f0c09fad6ca36",
+    "epoch": 40
+  },
+  "manifest_sha256": "74316382a1198b7815154d06829c39e06fcba9742dfaa16548450f08f6724c54",
+  "TRAIN_WER": 0.12218649517684887,
+  "DEV_WER": 0.9746600741656366,
+  "TRAIN_CTC": 0.35751624236581847,
+  "DEV_CTC": 11.804399565403456,
+  "TRAIN_unique": 343,
+  "DEV_unique": 85,
+  "fit_loop_seconds": 33.11946509999689,
+  "with_reload_seconds": 37.04803239996545,
+  "peak_allocated_vram_bytes": 1305027072,
+  "peak_reserved_vram_bytes": 1361051648,
+  "used_cuda": true,
+  "gpu": "NVIDIA GeForce RTX 3050 Laptop GPU",
+  "checkpoint_reload_predictions_match": true,
+  "TEST_used": false,
+  "promoted": false
+}

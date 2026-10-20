@@ -1,0 +1,9 @@
+{
+  "id": "how2sign_val_frontal_pilot_archive",
+  "kind": "zip",
+  "split": "val",
+  "max_bytes": 2147483648,
+  "max_expanded_bytes": 3221225472,
+  "target": "D:\\apphearv3claude\\AppHear-claude-s2-r3-eval-suite\\AppHear-claude-s2-r3-eval-suite\\experiments\\continuous_asl\\20261020T004837_separate02\\data\\raw\\how2sign\\val_rgb_front_clips.zip"
+}
+Dry run only; maximum download bytes=2147483648; no network or filesystem mutations.

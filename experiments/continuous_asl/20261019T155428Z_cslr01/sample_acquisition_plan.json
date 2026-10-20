@@ -1,0 +1,22 @@
+{
+  "scope": "One public-index-linked utterance, private noncommercial research",
+  "schema": "apphear.continuous_asl.download_plan.v1",
+  "items": [
+    {
+      "sha256": null,
+      "filename": "ncslgr/videos/ncslgr_189fd7d52377b3a8.mov",
+      "max_expanded_bytes": 0,
+      "authorization": "RESEARCH_METADATA_OR_INITIAL_SAMPLE",
+      "annotation_type": "AUTHENTIC_GLOSS_SEQUENCE_FROM_OFFICIAL_VIDEO_INDEX",
+      "max_bytes": 2097152,
+      "expected_bytes": null,
+      "split": "unsplit",
+      "id": "ncslgr_189fd7d52377b3a8",
+      "kind": "video",
+      "url": "https://csr.bu.edu/asl/private/compressed/master/693_498_small_0.mov"
+    }
+  ],
+  "allowed_hosts": [
+    "csr.bu.edu"
+  ]
+}

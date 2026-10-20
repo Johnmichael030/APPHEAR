@@ -1,0 +1,49 @@
+CLOSED CONTINUATION PACKAGE — active goal 2000, achieved 3121; no further acquisition/training scheduled.
+Repo: D:\apphearv3claude\AppHear-claude-s2-r3-eval-suite\AppHear-claude-s2-r3-eval-suite
+Run: D:\apphearv3claude\AppHear-claude-s2-r3-eval-suite\AppHear-claude-s2-r3-eval-suite\experiments\continuous_asl\20261020T104054Z_expand_eval01
+
+Initial existing validators: Verify-Diagnostics.ps1 PASS; Verify-Pilot.ps1 PASS.
+Closure validators: both PASS through underlying Python checkers; exact captured stdout/stderr/exit codes in parent_preservation_verification.json. These rehash existing evidence; no 50-check diagnostic rerun or old training repeated. The first closure invocation via a new powershell -File process was denied by its unsigned-script execution policy before any checker ran; switched to Python without changing execution policy.
+
+Executed script entry points (historical record, NOT an instruction to rerun completed work; CLI modes and exact successful fit wrapper follow):
+& 'D:\apphearv3claude\AppHear-claude-s2-r3-eval-suite\AppHear-claude-s2-r3-eval-suite\experiments\continuous_asl\20261019T155428Z_cslr01\runtime\venv\Scripts\python.exe' -B 'D:\apphearv3claude\AppHear-claude-s2-r3-eval-suite\AppHear-claude-s2-r3-eval-suite\experiments\continuous_asl\20261020T104054Z_expand_eval01\intake_metadata.py'
+& 'D:\apphearv3claude\AppHear-claude-s2-r3-eval-suite\AppHear-claude-s2-r3-eval-suite\experiments\continuous_asl\20261019T155428Z_cslr01\runtime\venv\Scripts\python.exe' -B 'D:\apphearv3claude\AppHear-claude-s2-r3-eval-suite\AppHear-claude-s2-r3-eval-suite\experiments\continuous_asl\20261020T104054Z_expand_eval01\signer_map.py'
+& 'D:\apphearv3claude\AppHear-claude-s2-r3-eval-suite\AppHear-claude-s2-r3-eval-suite\experiments\continuous_asl\20261019T155428Z_cslr01\runtime\venv\Scripts\python.exe' -B 'D:\apphearv3claude\AppHear-claude-s2-r3-eval-suite\AppHear-claude-s2-r3-eval-suite\experiments\continuous_asl\20261020T104054Z_expand_eval01\freeze_split.py'
+& 'D:\apphearv3claude\AppHear-claude-s2-r3-eval-suite\AppHear-claude-s2-r3-eval-suite\experiments\continuous_asl\20261019T155428Z_cslr01\runtime\venv\Scripts\python.exe' -B 'D:\apphearv3claude\AppHear-claude-s2-r3-eval-suite\AppHear-claude-s2-r3-eval-suite\experiments\continuous_asl\20261020T104054Z_expand_eval01\train_fresh.py'
+& 'D:\apphearv3claude\AppHear-claude-s2-r3-eval-suite\AppHear-claude-s2-r3-eval-suite\experiments\continuous_asl\20261019T155428Z_cslr01\runtime\venv\Scripts\python.exe' -B 'D:\apphearv3claude\AppHear-claude-s2-r3-eval-suite\AppHear-claude-s2-r3-eval-suite\experiments\continuous_asl\20261020T104054Z_expand_eval01\train_fresh_v2.py'
+& 'D:\apphearv3claude\AppHear-claude-s2-r3-eval-suite\AppHear-claude-s2-r3-eval-suite\experiments\continuous_asl\20261019T155428Z_cslr01\runtime\venv\Scripts\python.exe' -B 'D:\apphearv3claude\AppHear-claude-s2-r3-eval-suite\AppHear-claude-s2-r3-eval-suite\experiments\continuous_asl\20261020T104054Z_expand_eval01\vocab_cardinality_probe.py'
+& 'D:\apphearv3claude\AppHear-claude-s2-r3-eval-suite\AppHear-claude-s2-r3-eval-suite\experiments\continuous_asl\20261019T155428Z_cslr01\runtime\venv\Scripts\python.exe' -B 'D:\apphearv3claude\AppHear-claude-s2-r3-eval-suite\AppHear-claude-s2-r3-eval-suite\experiments\continuous_asl\20261020T104054Z_expand_eval01\rit_catalog.py'
+& 'D:\apphearv3claude\AppHear-claude-s2-r3-eval-suite\AppHear-claude-s2-r3-eval-suite\experiments\continuous_asl\20261019T155428Z_cslr01\runtime\venv\Scripts\python.exe' -B 'D:\apphearv3claude\AppHear-claude-s2-r3-eval-suite\AppHear-claude-s2-r3-eval-suite\experiments\continuous_asl\20261020T104054Z_expand_eval01\audit_rit_boundaries.py'
+& 'D:\apphearv3claude\AppHear-claude-s2-r3-eval-suite\AppHear-claude-s2-r3-eval-suite\experiments\continuous_asl\20261019T155428Z_cslr01\runtime\venv\Scripts\python.exe' -B 'D:\apphearv3claude\AppHear-claude-s2-r3-eval-suite\AppHear-claude-s2-r3-eval-suite\experiments\continuous_asl\20261020T104054Z_expand_eval01\rit_archive.py'
+& 'D:\apphearv3claude\AppHear-claude-s2-r3-eval-suite\AppHear-claude-s2-r3-eval-suite\experiments\continuous_asl\20261019T155428Z_cslr01\runtime\venv\Scripts\python.exe' -B 'D:\apphearv3claude\AppHear-claude-s2-r3-eval-suite\AppHear-claude-s2-r3-eval-suite\experiments\continuous_asl\20261020T104054Z_expand_eval01\prepare_rit.py'
+& 'D:\apphearv3claude\AppHear-claude-s2-r3-eval-suite\AppHear-claude-s2-r3-eval-suite\experiments\continuous_asl\20261019T155428Z_cslr01\runtime\venv\Scripts\python.exe' -B 'D:\apphearv3claude\AppHear-claude-s2-r3-eval-suite\AppHear-claude-s2-r3-eval-suite\experiments\continuous_asl\20261020T104054Z_expand_eval01\rit_timing_audit.py'
+& 'D:\apphearv3claude\AppHear-claude-s2-r3-eval-suite\AppHear-claude-s2-r3-eval-suite\experiments\continuous_asl\20261019T155428Z_cslr01\runtime\venv\Scripts\python.exe' -B 'D:\apphearv3claude\AppHear-claude-s2-r3-eval-suite\AppHear-claude-s2-r3-eval-suite\experiments\continuous_asl\20261020T104054Z_expand_eval01\resolve_ncslgr_urls.py'
+& 'D:\apphearv3claude\AppHear-claude-s2-r3-eval-suite\AppHear-claude-s2-r3-eval-suite\experiments\continuous_asl\20261019T155428Z_cslr01\runtime\venv\Scripts\python.exe' -B 'D:\apphearv3claude\AppHear-claude-s2-r3-eval-suite\AppHear-claude-s2-r3-eval-suite\experiments\continuous_asl\20261020T104054Z_expand_eval01\resolve_ncslgr_urls_v2.py'
+& 'D:\apphearv3claude\AppHear-claude-s2-r3-eval-suite\AppHear-claude-s2-r3-eval-suite\experiments\continuous_asl\20261019T155428Z_cslr01\runtime\venv\Scripts\python.exe' -B 'D:\apphearv3claude\AppHear-claude-s2-r3-eval-suite\AppHear-claude-s2-r3-eval-suite\experiments\continuous_asl\20261020T104054Z_expand_eval01\prepare_new_ncslgr.py'
+& 'D:\apphearv3claude\AppHear-claude-s2-r3-eval-suite\AppHear-claude-s2-r3-eval-suite\experiments\continuous_asl\20261019T155428Z_cslr01\runtime\venv\Scripts\python.exe' -B 'D:\apphearv3claude\AppHear-claude-s2-r3-eval-suite\AppHear-claude-s2-r3-eval-suite\experiments\continuous_asl\20261020T104054Z_expand_eval01\freeze_expanded_corpus.py'
+
+Exact successful training wrapper:
+& 'D:\apphearv3claude\AppHear-claude-s2-r3-eval-suite\AppHear-claude-s2-r3-eval-suite\experiments\continuous_asl\20261020T104054Z_expand_eval01\Run-PilotV2.ps1'
+Exact underlying training command:
+D:\apphearv3claude\AppHear-claude-s2-r3-eval-suite\AppHear-claude-s2-r3-eval-suite\experiments\continuous_asl\20261019T155428Z_cslr01\runtime\venv\Scripts\python.exe -B D:\apphearv3claude\AppHear-claude-s2-r3-eval-suite\AppHear-claude-s2-r3-eval-suite\experiments\continuous_asl\20261020T104054Z_expand_eval01/train_fresh_v2.py
+Result: exit 0; wrapper 100.9710405 seconds; five actual epochs; TRAIN_BLANK_OR_NO_LEARNABILITY_GATE. Frozen configuration/checkpoints/logs in pilot_fresh48_v2; no pending fit.
+
+New NCSLGR preparation:
+$env:CUDA_VISIBLE_DEVICES='-1'
+& 'D:\apphearv3claude\AppHear-claude-s2-r3-eval-suite\AppHear-claude-s2-r3-eval-suite\experiments\continuous_asl\20261019T155428Z_cslr01\runtime\venv\Scripts\python.exe' -B 'D:\apphearv3claude\AppHear-claude-s2-r3-eval-suite\AppHear-claude-s2-r3-eval-suite\experiments\continuous_asl\20261020T104054Z_expand_eval01\prepare_new_ncslgr.py'
+Result: 96 eligible, 0 processing failures; 152.5490514 seconds; exact unchanged adapter SHA b78ba79af96aaa5e0c06b79f787c62e2643fb46edba15fb307f5e8461da029d4.
+
+Failures retained, not hidden:
+- signer_metadata_console.txt: downloader returned None after successful download; fixed return path, verified existing receipts reused, successful v2 log retained.
+- training_20261020T185838_461.log / command_wall_20261020T185838_461.json: exit 1 before optimizer update; gradient-device logging after clearing grads. V2 isolated fix and new output directory.
+- rit_feature_pilot_console.txt: missing module search path, fixed new helper path; v2 reached strict FPS gate and rejected native60 vs expected29.97.
+- rit2025_catalog/container_timing_audit.json and full_decode_probe.json: all278 clips have two extra frames; no guessed repairs. RIT eligible0.
+- ncslgr_new_sources_console.txt: first resolver rejected actual overlapping intervals before download; v2 excludes both records, preserving original labels and media. v2 completed96.
+- Earlier How2Sign RGB failed URL/error and other blocked-source acquisition evidence remain unchanged in parent artifacts. No retry or bypass in this closure.
+
+Evidence files: dataset_plan.json; signer_metadata.json; data/processed/train_dev/manifest.json; eligible_corpus/manifest.json; DATA_PROGRESS.csv; all receipts; pilot_fresh48_v2/training_log.csv; training_status.json; gpu_20261020T185941_209.csv; vocab_cardinality_probe/results.json.
+Reproduction outputs are exclusive/new-or-verified; completed runs must not be overwritten. Any future fitting needs a separate uniquely named research directory and predeclared protocol. Do not rerun acquisition commands above merely to validate.
+
+NEXT READ-ONLY COMMAND:
+& 'D:\apphearv3claude\AppHear-claude-s2-r3-eval-suite\AppHear-claude-s2-r3-eval-suite\experiments\continuous_asl\20261020T104054Z_expand_eval01\Verify-Continuation.ps1'
+No training/acquisition/TEST inference occurs in this validator. PASS means artifact integrity and scoped protocol checks, not recognition acceptance.

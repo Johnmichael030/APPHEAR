@@ -1,0 +1,11 @@
+# Export and transfer
+
+ONNX export: PASS, opset 17, 336,478 bytes; SHA256 `97fdf0cb33c1e007d29ef884f98b5070ead1ef9cd76a1e7319b032d77bf32033`. Standard graph operators: Add, Cast, Clip, Concat, Constant, ConstantOfShape, Conv, Div, LayerNormalization, MatMul, Pad, Relu, Reshape, Slice, Sub, Transpose. Checked with onnx.checker and Windows ORT CPU.
+
+PyTorch CPU versus ORT CPU on identical inputs from all 37 clips: maximum absolute logit difference 2.86102295e-06, mean 2.31326756e-07, zero frame argmax and decoded-sequence mismatches. Predeclared CPU export tolerance 1e-4 passed. Full/prefix last-output maximum difference 9.53674316e-07. The five focused engineering tests also cover a 120-step synthetic prefix and the 61-step receptive-field bound. These probes are not ASL accuracy samples.
+
+PyTorch CPU versus CUDA: max 0.00105953217, mean 0.000163942407, zero frame argmax differences. This is a separate backend difference and is larger than the CPU export tolerance; it is not a claim of strict CUDA numerical parity. ORT CUDA EP is unavailable in this environment and was not tested.
+
+Contract: `apphear.continuous_asl.candidate01_causal378.v1`; FP32 [B,T,378] -> [B,T,39] logits, dynamic B/T, chronological observations, embedded TRAIN normalization, vocabulary order frozen in export/contract.json and vocabulary.json, BLANK=0/UNK=1, no calibrated rejection. Causal 61-observation bounded history is sufficient for the last output. Main quality checks used batch=1; arbitrary batches were not certified for Android.
+
+The existing app WORD consumer expects a [1,96,350] temporal view plus mask and 236-way word output; fingerspelling uses 405 features/28 logits. The new artifact is not drop-in compatible with either. Sharing feature width 378 with S2 does not share normalization or output semantics. Required adapter: current-frame causal features + experimental normalization/model + streaming CTC state, enforced experimental switch and original-path fallback. Boundary/rejection, signer, licensing, Android operator/provider/device and signed-phrase gates are missing. No adapter, model selection change, APK build/install, data clearing or runtime flag change was made. Disabled experiment = leave original app path running. Distribution/production rights remain unapproved.

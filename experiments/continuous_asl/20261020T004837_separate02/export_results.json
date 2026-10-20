@@ -1,0 +1,23 @@
+{
+  "status": "PASS",
+  "onnx_path": "D:\\apphearv3claude\\AppHear-claude-s2-r3-eval-suite\\AppHear-claude-s2-r3-eval-suite\\experiments\\continuous_asl\\20261020T004837_separate02\\experiment_A\\warmstart\\export\\isolated_legacy258_clip_fp32.onnx",
+  "onnx_sha256": "9e71506e1851184009f124fcdc3ed178567c52af1e5240b4e6e87b6f3e6e64eb",
+  "bytes": 700036,
+  "real_validation_rows": 3264,
+  "max_abs_probability_error": 2.086162567138672e-06,
+  "mean_abs_probability_error": 3.623572560208352e-09,
+  "decoded_class_changes": 0,
+  "CPU_ORT_p50_ms": 0.4633999924408272,
+  "CPU_ORT_p95_ms": 0.7844899970223195,
+  "CUDA_PyTorch_p50_ms": 3.622700009145774,
+  "CUDA_PyTorch_p95_ms": 16.56762500060722,
+  "cold_ORT_session_ms": 30.58489999966696,
+  "61_observation_receptive_field_max_error": 1.1920928955078125e-07,
+  "synthetic_long_sequence_length": 160,
+  "empty_mask_output_finite": true,
+  "empty_mask_runtime_policy": "REJECT_INPUT; all-zero output must never be argmax-committed",
+  "input": "float32 [B,T,258] plus bool frame_mask; legacy schema3.0",
+  "output": "236 clip probabilities in unchanged vocabulary order",
+  "Android": "NOT_INTEGRATED; current RecognitionV2 350 input incompatible",
+  "non_sign_rejection": "NOT_CALIBRATED"
+}

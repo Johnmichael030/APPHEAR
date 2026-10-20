@@ -1,0 +1,9 @@
+# New export and measured performance
+
+Primary warm-start ONNX: PASS, 700,036 bytes, SHA `9e71506e1851184009f124fcdc3ed178567c52af1e5240b4e6e87b6f3e6e64eb`. Input FP32[B,T,258] plus boolean mask; output236clip probabilities in unchanged vocabulary order. CPU PyTorch/ORT same-input parity on3264validation rows: max 2.08616257e-06, mean 3.62357256e-09, zero decoded class changes. Dynamic batch/time tested on genuine lengths; synthetic160-frame per-frame RF test maximum 1.19e-07. Caller contract restricts isolated windows1–96 and rejects empty/nonfinite input; empty masks must not be argmax-committed. No Android adapter or flag was changed.
+
+ORT CPU invocation p50/p95 0.463/0.784ms; synchronized PyTorch CUDA 3.623/16.568ms,100 warmed real inputs, transfers excluded. ORT construction 30.58ms single cold-process sample. Legacy TFLite CPU p50/p95 1.299/1.973ms; different runtime/precision/head output means this is not an architecture-only speed comparison. Model-only timings do not establish end-to-end FPS.
+
+Primary training peak allocated VRAM 29,080,576 bytes; true worker peak working set 2,221,531,136 bytes, private commit 2,450,522,112. Repeat and B independent memory records are saved. First scratch training 202.66s; primary warm-start 209.89s; repeat 176.08s; B 2.32s plus167s preprocessing. GPU monitors record device utilization/total memory/temperature during A jobs; no concurrent GPU training jobs were launched. Short laptop tests do not establish sustained Android thermal behavior.
+
+Current WORD350 and fingerspelling405 contracts are incompatible with this legacy258 candidate. The seed-repeat and nonpromising B checkpoints were not separately exported; no parity is claimed for unexported artifacts. No Android FPS, delegate/operator compatibility or signed-phrase accuracy claim. Production integration: NOT INTEGRATED.

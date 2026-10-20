@@ -1,0 +1,30 @@
+{
+  "status": "PASS",
+  "catalog_sequences": 223,
+  "unique_valid": 223,
+  "role_counts": {
+    "TRAIN_POOL_NOT_FIT": 181,
+    "PRIOR_DEV_QUARANTINE": 19,
+    "FROZEN_DEV_REFERENCE": 9,
+    "FROZEN_TEST_EXPOSED_LOCKED": 14
+  },
+  "frozen_training_counts": {
+    "train": 100,
+    "dev": 9
+  },
+  "test": 14,
+  "receptive_field": 61,
+  "signer_independent": false,
+  "conservative_raw_bytes_including_How2Sign": 1895291702,
+  "raw_cap": 2147483648,
+  "artifacts_hashed": 0,
+  "preservation": {
+    "status": "PASS",
+    "failures": [],
+    "fresh_guard_hashes_and_mtimes": 4,
+    "fresh_protected_metadata_checks": 3338,
+    "scope": "Fresh guard SHA256 and protected size/mtime checks; original full content-hash evidence reused, not rerun.",
+    "full_hash_evidence_reused": "D:\\apphearv3claude\\AppHear-claude-s2-r3-eval-suite\\AppHear-claude-s2-r3-eval-suite\\experiments\\continuous_asl\\20261020T004837_separate02\\continuation_20261020T013509\\evidence\\preservation.json"
+  },
+  "training_performed_by_verifier": false
+}

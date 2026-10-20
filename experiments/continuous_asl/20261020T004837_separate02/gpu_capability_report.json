@@ -1,0 +1,64 @@
+{
+  "status": "PASS",
+  "GPU": "NVIDIA GeForce RTX 3050 Laptop GPU",
+  "torch": "2.8.0+cu128",
+  "cuda": "12.8",
+  "probes": [
+    {
+      "batch": 1,
+      "input": "cuda:0",
+      "parameter": "cuda:0",
+      "loss": "cuda:0",
+      "finite_output": true,
+      "finite_gradients": true,
+      "optimizer_parameter_max_delta": 0.0010012537240982056,
+      "peak_allocated_vram_bytes": 20402688,
+      "memory": {
+        "actual_pid": 31396,
+        "working_set_bytes": 1093566464,
+        "peak_working_set_bytes": 1093566464,
+        "private_commit_bytes": 2251214848,
+        "peak_pagefile_bytes": 2251214848
+      }
+    },
+    {
+      "batch": 2,
+      "input": "cuda:0",
+      "parameter": "cuda:0",
+      "loss": "cuda:0",
+      "finite_output": true,
+      "finite_gradients": true,
+      "optimizer_parameter_max_delta": 0.0010012537240982056,
+      "peak_allocated_vram_bytes": 20697088,
+      "memory": {
+        "actual_pid": 31396,
+        "working_set_bytes": 1119350784,
+        "peak_working_set_bytes": 1119502336,
+        "private_commit_bytes": 2287968256,
+        "peak_pagefile_bytes": 2287968256
+      }
+    },
+    {
+      "batch": 4,
+      "input": "cuda:0",
+      "parameter": "cuda:0",
+      "loss": "cuda:0",
+      "finite_output": true,
+      "finite_gradients": true,
+      "optimizer_parameter_max_delta": 0.0010012537240982056,
+      "peak_allocated_vram_bytes": 22167552,
+      "memory": {
+        "actual_pid": 31396,
+        "working_set_bytes": 1120505856,
+        "peak_working_set_bytes": 1120505856,
+        "private_commit_bytes": 2288869376,
+        "peak_pagefile_bytes": 2288869376
+      }
+    }
+  ],
+  "selected_batch_size": 4,
+  "gradient_accumulation": 8,
+  "CPU_backward_finite": true,
+  "test_type": "real isolated-sign data, forward/loss/backward/AdamW update",
+  "worker_PID": 31396
+}

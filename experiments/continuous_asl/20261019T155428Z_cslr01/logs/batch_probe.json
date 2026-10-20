@@ -1,0 +1,36 @@
+{
+  "probes": [
+    {
+      "batch_size": 1,
+      "peak_allocated_bytes": 68252672,
+      "elapsed_ms": 680.5582999950275,
+      "input_device": "cuda:0",
+      "logits_device": "cuda:0",
+      "loss_device": "cuda:0",
+      "gradient_device": "cuda:0",
+      "finite": true
+    },
+    {
+      "batch_size": 2,
+      "peak_allocated_bytes": 69438464,
+      "elapsed_ms": 40.77060002600774,
+      "input_device": "cuda:0",
+      "logits_device": "cuda:0",
+      "loss_device": "cuda:0",
+      "gradient_device": "cuda:0",
+      "finite": true
+    },
+    {
+      "batch_size": 4,
+      "peak_allocated_bytes": 70069760,
+      "elapsed_ms": 58.05810002493672,
+      "input_device": "cuda:0",
+      "logits_device": "cuda:0",
+      "loss_device": "cuda:0",
+      "gradient_device": "cuda:0",
+      "finite": true
+    }
+  ],
+  "selected_batch_size": 4,
+  "free_vram_before": 3447403316
+}

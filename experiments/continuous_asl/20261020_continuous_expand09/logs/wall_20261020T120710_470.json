@@ -1,0 +1,11 @@
+{
+  "name": "smoke",
+  "seconds": 22.0497132,
+  "exit_code": 1,
+  "arguments": [
+    "-B",
+    "D:\\apphearv3claude\\AppHear-claude-s2-r3-eval-suite\\AppHear-claude-s2-r3-eval-suite\\experiments\\continuous_asl\\20261020_continuous_expand09\\tools\\train_pilot.py",
+    "--name",
+    "smoke"
+  ]
+}

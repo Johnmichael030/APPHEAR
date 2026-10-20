@@ -1,0 +1,75 @@
+[
+  {
+    "id": "how2sign_script",
+    "kind": "text",
+    "split": "metadata",
+    "max_bytes": 65536,
+    "max_expanded_bytes": 0,
+    "target": "D:\\apphearv3claude\\AppHear-claude-s2-r3-eval-suite\\AppHear-claude-s2-r3-eval-suite\\experiments\\continuous_asl\\20261019T155428Z_cslr01\\data\\raw\\how2sign\\download_how2sign.sh"
+  },
+  {
+    "id": "how2sign_page",
+    "kind": "html",
+    "split": "metadata",
+    "max_bytes": 524288,
+    "max_expanded_bytes": 0,
+    "target": "D:\\apphearv3claude\\AppHear-claude-s2-r3-eval-suite\\AppHear-claude-s2-r3-eval-suite\\experiments\\continuous_asl\\20261019T155428Z_cslr01\\data\\raw\\how2sign\\project.html"
+  },
+  {
+    "id": "how2sign_train_translation",
+    "kind": "csv",
+    "split": "train",
+    "max_bytes": 8388608,
+    "max_expanded_bytes": 0,
+    "target": "D:\\apphearv3claude\\AppHear-claude-s2-r3-eval-suite\\AppHear-claude-s2-r3-eval-suite\\experiments\\continuous_asl\\20261019T155428Z_cslr01\\data\\raw\\how2sign\\how2sign_realigned_train.csv"
+  },
+  {
+    "id": "how2sign_val_translation",
+    "kind": "csv",
+    "split": "val",
+    "max_bytes": 1048576,
+    "max_expanded_bytes": 0,
+    "target": "D:\\apphearv3claude\\AppHear-claude-s2-r3-eval-suite\\AppHear-claude-s2-r3-eval-suite\\experiments\\continuous_asl\\20261019T155428Z_cslr01\\data\\raw\\how2sign\\how2sign_realigned_val.csv"
+  },
+  {
+    "id": "ncslgr_documentation",
+    "kind": "html",
+    "split": "metadata",
+    "max_bytes": 524288,
+    "max_expanded_bytes": 0,
+    "target": "D:\\apphearv3claude\\AppHear-claude-s2-r3-eval-suite\\AppHear-claude-s2-r3-eval-suite\\experiments\\continuous_asl\\20261019T155428Z_cslr01\\data\\raw\\ncslgr\\download-info.html"
+  },
+  {
+    "id": "ncslgr_terms",
+    "kind": "html",
+    "split": "metadata",
+    "max_bytes": 262144,
+    "max_expanded_bytes": 0,
+    "target": "D:\\apphearv3claude\\AppHear-claude-s2-r3-eval-suite\\AppHear-claude-s2-r3-eval-suite\\experiments\\continuous_asl\\20261019T155428Z_cslr01\\data\\raw\\ncslgr\\terms.html"
+  },
+  {
+    "id": "ncslgr_video_index",
+    "kind": "zip",
+    "split": "metadata",
+    "max_bytes": 4194304,
+    "max_expanded_bytes": 67108864,
+    "target": "D:\\apphearv3claude\\AppHear-claude-s2-r3-eval-suite\\AppHear-claude-s2-r3-eval-suite\\experiments\\continuous_asl\\20261019T155428Z_cslr01\\data\\raw\\ncslgr\\video_index-20120129.zip"
+  },
+  {
+    "id": "ncslgr_dtd",
+    "kind": "xml",
+    "split": "metadata",
+    "max_bytes": 262144,
+    "max_expanded_bytes": 0,
+    "target": "D:\\apphearv3claude\\AppHear-claude-s2-r3-eval-suite\\AppHear-claude-s2-r3-eval-suite\\experiments\\continuous_asl\\20261019T155428Z_cslr01\\data\\raw\\ncslgr\\old-dtd.xml"
+  },
+  {
+    "id": "ncslgr_signstream_archive",
+    "kind": "zip",
+    "split": "metadata",
+    "max_bytes": 16777216,
+    "max_expanded_bytes": 67108864,
+    "target": "D:\\apphearv3claude\\AppHear-claude-s2-r3-eval-suite\\AppHear-claude-s2-r3-eval-suite\\experiments\\continuous_asl\\20261019T155428Z_cslr01\\data\\raw\\ncslgr\\Archive-ssdb-2-2-12.zip"
+  }
+]
+Dry run only; maximum download bytes=32047104; no network or filesystem mutations.

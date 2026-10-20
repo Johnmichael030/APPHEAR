@@ -1,0 +1,3 @@
+{"downloaded": "ben_story_439_small_0.mov", "bytes": 23704897}
+{"downloaded": "ben_story_441_small_0.mov", "bytes": 21984257}
+{"status": "NEW_URL_LIST_JOINS_RESOLVED", "candidate_utterances": 96, "new_sources": 2}

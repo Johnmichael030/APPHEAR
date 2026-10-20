@@ -1,0 +1,294 @@
+{
+  "TRAIN": {
+    "utterances": 1500,
+    "observations": {
+      "min": 8.0,
+      "median": 40.0,
+      "mean": 47.88466666666667,
+      "p95": 101.0,
+      "max": 246.0
+    },
+    "target_tokens": {
+      "min": 2.0,
+      "median": 7.0,
+      "mean": 8.282,
+      "p95": 18.0,
+      "max": 42.0
+    },
+    "CTC_slack": {
+      "min": 5.0,
+      "median": 33.0,
+      "mean": 39.58866666666667,
+      "p95": 83.04999999999995,
+      "max": 211.0
+    },
+    "duration_ms": {
+      "min": 700.7,
+      "median": 3903.9,
+      "mean": 4693.155133333334,
+      "p95": 10010.0,
+      "max": 24524.5
+    },
+    "median_dt_ms": {
+      "min": 100.09999999999997,
+      "median": 100.10000000000001,
+      "mean": 100.10000000000002,
+      "p95": 100.10000000000002,
+      "max": 100.10000000000036
+    },
+    "observed_any_hand_fraction": {
+      "min": 0.2,
+      "median": 0.7967425847457628,
+      "mean": 0.7726705625865506,
+      "p95": 0.9706302521008403,
+      "max": 1.0
+    },
+    "both_hands_fraction": {
+      "min": 0.0,
+      "median": 0.35135135135135137,
+      "mean": 0.36220746820853206,
+      "p95": 0.6829268292682927,
+      "max": 0.9
+    },
+    "body_available_fraction": {
+      "min": 0.9090909090909091,
+      "median": 1.0,
+      "mean": 0.9951554714317155,
+      "p95": 1.0,
+      "max": 1.0
+    },
+    "normalization_clip_fraction": {
+      "min": 0.0,
+      "median": 0.0,
+      "mean": 0.0002536932897741046,
+      "p95": 0.0013631111332260755,
+      "max": 0.004375254375254376
+    },
+    "zero_hand_motion_sequences": 1,
+    "events": {
+      "target_events": 12423,
+      "events_no_kept_frame": 880,
+      "sampled_events_no_observed_hand": 1440,
+      "hidden_events": 647
+    }
+  },
+  "PRIMARY80": {
+    "utterances": 80,
+    "observations": {
+      "min": 16.0,
+      "median": 27.5,
+      "mean": 29.1375,
+      "p95": 42.249999999999986,
+      "max": 64.0
+    },
+    "target_tokens": {
+      "min": 3.0,
+      "median": 6.0,
+      "mean": 6.0625,
+      "p95": 10.0,
+      "max": 17.0
+    },
+    "CTC_slack": {
+      "min": 11.0,
+      "median": 22.0,
+      "mean": 23.075,
+      "p95": 36.05,
+      "max": 47.0
+    },
+    "duration_ms": {
+      "min": 1501.5,
+      "median": 2652.6500000000005,
+      "mean": 2816.56375,
+      "p95": 4129.124999999998,
+      "max": 6306.3
+    },
+    "median_dt_ms": {
+      "min": 100.09999999999997,
+      "median": 100.10000000000001,
+      "mean": 100.10000000000002,
+      "p95": 100.10000000000002,
+      "max": 100.10000000000002
+    },
+    "observed_any_hand_fraction": {
+      "min": 0.39215686274509803,
+      "median": 0.75,
+      "mean": 0.7383021911171175,
+      "p95": 0.9230769230769231,
+      "max": 0.96
+    },
+    "both_hands_fraction": {
+      "min": 0.0,
+      "median": 0.31339285714285714,
+      "mean": 0.31409973520858936,
+      "p95": 0.5217391304347826,
+      "max": 0.64
+    },
+    "body_available_fraction": {
+      "min": 0.8431372549019608,
+      "median": 1.0,
+      "mean": 0.9928863025689942,
+      "p95": 1.0,
+      "max": 1.0
+    },
+    "normalization_clip_fraction": {
+      "min": 0.0,
+      "median": 9.986584060658134e-05,
+      "mean": 0.0006527031106416581,
+      "p95": 0.002826754649671315,
+      "max": 0.005385487528344671
+    },
+    "zero_hand_motion_sequences": 0,
+    "events": {
+      "target_events": 485,
+      "events_no_kept_frame": 40,
+      "sampled_events_no_observed_hand": 49,
+      "hidden_events": 8
+    }
+  },
+  "HELD_OTHER": {
+    "utterances": 126,
+    "observations": {
+      "min": 20.0,
+      "median": 40.5,
+      "mean": 50.30952380952381,
+      "p95": 102.5,
+      "max": 138.0
+    },
+    "target_tokens": {
+      "min": 3.0,
+      "median": 9.0,
+      "mean": 10.38888888888889,
+      "p95": 21.0,
+      "max": 27.0
+    },
+    "CTC_slack": {
+      "min": 15.0,
+      "median": 31.0,
+      "mean": 39.92063492063492,
+      "p95": 78.75,
+      "max": 115.0
+    },
+    "duration_ms": {
+      "min": 1901.9,
+      "median": 3953.9500000000003,
+      "mean": 4935.883333333333,
+      "p95": 10160.15,
+      "max": 13713.7
+    },
+    "median_dt_ms": {
+      "min": 100.09999999999997,
+      "median": 100.10000000000001,
+      "mean": 100.10000000000002,
+      "p95": 100.10000000000002,
+      "max": 100.10000000000014
+    },
+    "observed_any_hand_fraction": {
+      "min": 0.2839506172839506,
+      "median": 0.7,
+      "mean": 0.6877607598444798,
+      "p95": 0.896551724137931,
+      "max": 1.0
+    },
+    "both_hands_fraction": {
+      "min": 0.0,
+      "median": 0.2298424467099166,
+      "mean": 0.2576231638987706,
+      "p95": 0.5371794871794872,
+      "max": 0.6785714285714286
+    },
+    "body_available_fraction": {
+      "min": 0.6756756756756757,
+      "median": 1.0,
+      "mean": 0.9823097803844839,
+      "p95": 1.0,
+      "max": 1.0
+    },
+    "normalization_clip_fraction": {
+      "min": 0.0,
+      "median": 0.0002004628870300512,
+      "mean": 0.0008507837714233474,
+      "p95": 0.004505496677708028,
+      "max": 0.007575757575757576
+    },
+    "zero_hand_motion_sequences": 0,
+    "events": {
+      "target_events": 1309,
+      "events_no_kept_frame": 62,
+      "sampled_events_no_observed_hand": 172,
+      "hidden_events": 92
+    }
+  },
+  "STRONG27": {
+    "utterances": 27,
+    "observations": {
+      "min": 18.0,
+      "median": 27.0,
+      "mean": 27.925925925925927,
+      "p95": 35.0,
+      "max": 42.0
+    },
+    "target_tokens": {
+      "min": 3.0,
+      "median": 5.0,
+      "mean": 5.481481481481482,
+      "p95": 7.0,
+      "max": 9.0
+    },
+    "CTC_slack": {
+      "min": 14.0,
+      "median": 21.0,
+      "mean": 22.444444444444443,
+      "p95": 29.7,
+      "max": 36.0
+    },
+    "duration_ms": {
+      "min": 1701.7,
+      "median": 2602.6000000000004,
+      "mean": 2695.285185185185,
+      "p95": 3403.4,
+      "max": 4104.099999999999
+    },
+    "median_dt_ms": {
+      "min": 100.09999999999997,
+      "median": 100.10000000000001,
+      "mean": 100.10000000000001,
+      "p95": 100.10000000000002,
+      "max": 100.10000000000002
+    },
+    "observed_any_hand_fraction": {
+      "min": 0.5,
+      "median": 0.782608695652174,
+      "mean": 0.7800864141067898,
+      "p95": 0.9344988344988345,
+      "max": 0.96
+    },
+    "both_hands_fraction": {
+      "min": 0.13333333333333333,
+      "median": 0.34285714285714286,
+      "mean": 0.36024260012617765,
+      "p95": 0.5231884057971015,
+      "max": 0.64
+    },
+    "body_available_fraction": {
+      "min": 0.9666666666666667,
+      "median": 1.0,
+      "mean": 0.99535508050293,
+      "p95": 1.0,
+      "max": 1.0
+    },
+    "normalization_clip_fraction": {
+      "min": 0.0,
+      "median": 0.00012597631645250694,
+      "mean": 0.00039112161996677163,
+      "p95": 0.0013099505034988904,
+      "max": 0.002792475014697237
+    },
+    "zero_hand_motion_sequences": 0,
+    "events": {
+      "target_events": 148,
+      "events_no_kept_frame": 12,
+      "sampled_events_no_observed_hand": 8,
+      "hidden_events": 1
+    }
+  }
+}

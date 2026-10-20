@@ -1,0 +1,17 @@
+{
+  "diagnosis_execution": "PASS",
+  "preservation": "PASS",
+  "root_cause_attribution": "PARTIAL",
+  "source_compatible_signer_independent_evaluation": "BLOCKED",
+  "bounded_research_pilot_explicitly_authorized_by_subsequent_user": true,
+  "pilot_directory": "../20261020T102748Z_continuation_pilot01",
+  "production_promotion": "BLOCKED",
+  "train_data_kept": 3025,
+  "tests_used": false,
+  "findings": {
+    "PASS": 7,
+    "PARTIAL": 4,
+    "BLOCKED": 3,
+    "UNKNOWN": 2
+  }
+}

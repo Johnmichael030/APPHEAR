@@ -1,0 +1,1067 @@
+NCSLGR2 — complete eligible gloss-label list
+Total distinct labels: 1,062
+Includes prepared eligible examples; separate pool. This is not a merged model vocabulary.
+Row numbers are list positions, not model token IDs. Literal case, suffixes, fingerspelling and classifier notation are preserved.
+
+1. "applause"
+2. "quote"
+3. "um"
+4. "up ahead"
+5. "WHAT"
+6. #ALL
+7. #BACK
+8. #BACK:j
+9. #BUS
+10. #BUSY
+11. #BUT
+12. #CAR
+13. #DO
+14. #DO++
+15. #DO+++
+16. #DOG
+17. #EMAIL
+18. #EX
+19. #FIX
+20. #FUN
+21. #GO
+22. #IF
+23. #JOB
+24. #LUCK
+25. #NO
+26. #NO+
+27. #OK
+28. #OR
+29. #OWN
+30. #SO
+31. #TV
+32. #WHAT
+33. #WHEN
+34. #WHY
+35. (1)FAR
+36. (1)HIGHWAY
+37. (1h)5"calm down"
+38. (1h)5"forget it"
+39. (1h)5"it's ok"
+40. (1h)5"surprised"
+41. (1h)5"wave no"
+42. (1h)CAN
+43. (1h)CAR
+44. (1h)DCL:B"hair on head raising"
+45. (1h)DEER
+46. (1h)DRIVE
+47. (1h)FINISH
+48. (1h)GIFT
+49. (1h)GIFT-distributive-3p-pl-arc
+50. (1h)GIFT-distributive:i
+51. (1h)GIFT:i
+52. (1h)GIFT:j
+53. (1h)GIFT:k
+54. (1h)GO
+55. (1h)HAVE
+56. (1h)HOW-MANY
+57. (1h)LEAVE-THERE
+58. (1h)LOVE
+59. (1h)MOTORCYCLE
+60. (1h)NOTICE:j
+61. (1h)part:indef
+62. (1h)PERFECT
+63. (1h)PERSON
+64. (1h)SICK+
+65. (1h)TEACH+AGENT
+66. (1h)TOUCH++
+67. (1h)VOMIT
+68. (25)WHY
+69. (2h)#DO+
+70. (2h)#DO++:l
+71. (2h)#OK
+72. (2h)(flat-O)PAY/SPEND
+73. (2h)5"wow"
+74. (2h)alt.BCL"pulling people from the water"++
+75. (2h)alt.DCL:B-L"rapids"
+76. (2h)alt.GIFT++:j
+77. (2h)alt.GIFT+:j
+78. (2h)alt.GIVE+++:j
+79. (2h)alt.GIVE++:i
+80. (2h)alt.GIVE+:j
+81. (2h)alt.GIVE-recip++
+82. (2h)alt.LCL:crvd-5"tents all over"
+83. (2h)alt.PLAY
+84. (2h)alt.SCL:bent-V"falling off"++
+85. (2h)alt.SCL:bent-V"falling out"++
+86. (2h)alt.SCL:crvd-V"sitting down"+
+87. (2h)alt.SCL:crvd-V"sitting down"++
+88. (2h)alt.SCL:crvd-V"sitting on"++
+89. (2h)alt.SEARCH-FOR
+90. (2h)AREA
+91. (2h)BLOWN-AWAY
+92. (2h)CAT
+93. (2h)CORN
+94. (2h)DCL:5"brakes lighting up"
+95. (2h)DCL:5"everywhere"
+96. (2h)DCL:5"getting bigger":l
+97. (2h)DCL:5"headlights on"
+98. (2h)DCL:B"hair on head raising"
+99. (2h)DCL:C"bus moving"
+100. (2h)EAR
+101. (2h)FANCY+
+102. (2h)FINE
+103. (2h)GIVE-indef
+104. (2h)GO-AWAY
+105. (2h)GROW-UP
+106. (2h)ICL"rowing casually"++
+107. (2h)ICL:S"locking"
+108. (2h)ICL:S"reaching out with paddle"
+109. (2h)IX-3p:j
+110. (2h)LOOK
+111. (2h)LOOK-AROUND:n
+112. (2h)LOOK:n
+113. (2h)MUST
+114. (2h)NOT-KNOW
+115. (2h)NOT-YET
+116. (2h)PCL:5"crowding"
+117. (2h)PCL:C"group"
+118. (2h)POSS-2p-pl:i
+119. (2h)SAME
+120. (2h)SCL:3"two vehicles pulling over"
+121. (2h)SCL:3"vehicle following car"
+122. (2h)SCL:3"vehicles pull over"
+123. (2h)SCL:3"vehicles pulling over"
+124. (2h)SCL:bent-V"falling off"
+125. (2h)SCL:bent-V"switching seats"
+126. (2h)SCL:crvd-V"sitting down"
+127. (2h)SCL:crvd-V"sitting"
+128. (2h)SCL:crvd-V"switching seats"
+129. (2h)SEND
+130. (2h)SHOULD
+131. (2h)STARE
+132. (2h)THAT:i
+133. (2h)THING
+134. (2h)WOW
+135. (F)NOTHING
+136. (flat-O)ABOUT
+137. (L)FUTURE
+138. (R)RETIRE
+139. (S)BORN
+140. (V)FUTURE
+141. (Y)NOT-LIKE
+142. (Y)WHY
+143. (Y)WHY+
+144. 5"ahhh"
+145. 5"alright now"
+146. 5"calm down"
+147. 5"dumbfounded"
+148. 5"everything in order"
+149. 5"forget it"
+150. 5"frustration"
+151. 5"hands off"
+152. 5"hesitation"
+153. 5"hey"
+154. 5"hey"+
+155. 5"I don't know"
+156. 5"leave it at that"
+157. 5"let it go"
+158. 5"looking for words"
+159. 5"nah"
+160. 5"no, it's ok"
+161. 5"not a big deal"
+162. 5"ok (giving in)"
+163. 5"ok, let's see"
+164. 5"panic"
+165. 5"pause"
+166. 5"reassure"
+167. 5"resignation"
+168. 5"sheepish"
+169. 5"sigh"
+170. 5"so, all set"
+171. 5"so, ok"
+172. 5"surprised"
+173. 5"surprised"++
+174. 5"that's the way it is"
+175. 5"this is nothing"
+176. 5"to let you know, it's ok"
+177. 5"waiting for news"
+178. 5"what's going on"
+179. 5"whoa"
+180. 5"wow"
+181. 5"you know"
+182. 80
+183. 90
+184. A-LOT
+185. ABOUT
+186. ACCEPT
+187. ACCIDENT
+188. ADMIT
+189. AGAIN
+190. AGE-FOUR
+191. AGE-THREE
+192. AGREE
+193. ALL
+194. ALL-DAY
+195. ALL-NIGHT
+196. ALLERGY
+197. ALONE
+198. ALWAYS
+199. AND
+200. ANIMAL
+201. ANSWER
+202. ANY+ONE
+203. ANY+THING
+204. ANYWAY/NOT-MATTER
+205. APPLE
+206. AREA
+207. AROUND
+208. ARRIVE
+209. ARRIVE:i
+210. ARRIVE:m
+211. ASK
+212. AVERAGE/BETWEEN
+213. B-L"go on"
+214. BABY
+215. BACK
+216. BAD
+217. BASEBALL
+218. BAWL-OUT
+219. BCL"bracing self"
+220. BCL"breathing heavily, holding the wheel"
+221. BCL"coughing out water"
+222. BCL"gathering pots and pans"
+223. BCL"gathering the pots and pans"
+224. BCL"grabbing woman"
+225. BCL"hands on the hips"
+226. BCL"hey"
+227. BCL"opening the cabinet"
+228. BCL"playing deaf"
+229. BCL"pulling paddle"
+230. BCL"pulling person out"
+231. BCL"pulling woman up"
+232. BCL"reaching out with paddle"
+233. BCL"reaching under raft"
+234. BCL"running"
+235. BCL"shocked"
+236. BCL"waving from the water"
+237. BCL:4"tapping person"
+238. BCL:5"attacking":m
+239. BCL:5"deer turning head"
+240. BCL:5"raise hand"
+241. BCL:5"scared"
+242. BCL:5"touch pocket"
+243. BCL:bent-B"tapping person"
+244. BCL:C"thinking"
+245. BCL:F"eyes moving"
+246. BCL:S"holding steering wheel"
+247. BEAT
+248. BEAUTIFUL
+249. BECOME
+250. BEER
+251. BEFORE
+252. BIRD
+253. BLAME:i
+254. BOAT
+255. BOOK
+256. BOOK+
+257. BOOK++
+258. BORE
+259. BOTH
+260. BOX/ROOM
+261. BOX/ROOM++
+262. BOY
+263. BPCL:2"legs walking":k
+264. BPCL:5"chewing"
+265. BPCL:5"walking"
+266. BPCL:B"digging foot into side of raft"
+267. BPCL:bent-3"person walking over to vehicle"
+268. BPCL:bent-3"person walking"
+269. BPCL:F"eyes look back to road"
+270. BPCL:F"eyes moving"
+271. BPCL:S"heart beating"++++
+272. BRAKE
+273. BREAK
+274. BREATHE
+275. BRICK+
+276. BRICK:l
+277. BRING
+278. BROTHER
+279. BUILD
+280. BUILD:k
+281. BUILD:l
+282. BUILDING
+283. BUSINESS
+284. BUT
+285. BUY
+286. BUY+
+287. BUY++
+288. BY-A-HAIR
+289. CALL-BY-PHONE
+290. CAMP
+291. CAN
+292. CANNOT
+293. CAR
+294. CARE:i
+295. CAT
+296. CHARACTER
+297. CHASE
+298. CHAT
+299. CHEW
+300. CHILDREN
+301. CHOCOLATE
+302. CHOICE
+303. CHOP++
+304. CLASS
+305. CLASS:i
+306. CLEAR
+307. CLOSE
+308. COFFEE
+309. COME
+310. COME-ON+
+311. COMFORTABLE
+312. COMMUNICATE
+313. COMPETITION
+314. COMPUTER_2
+315. CONCEPT
+316. COOKIE
+317. COOL
+318. COP
+319. COP+
+320. COPY
+321. CORN
+322. CORRECT
+323. COUGH+
+324. COUNTRY
+325. CRASH
+326. CRAZY
+327. CRY+
+328. CRY+++
+329. CUTE+
+330. DARK
+331. DARK-inceptive
+332. DAY
+333. DCL"exit ramp on highway"
+334. DCL"pile"
+335. DCL:1"bib"
+336. DCL:1"speedometer"
+337. DCL:1"spitting out"
+338. DCL:1"tray"
+339. DCL:4"crib"
+340. DCL:5"air exhaled"
+341. DCL:5"air inhaled"
+342. DCL:5"bigger"
+343. DCL:5"grass blowing away":k
+344. DCL:5"headlights cresting hill"
+345. DCL:5"headlights on"
+346. DCL:5"sound in ear"
+347. DCL:5"sticks blowing away"
+348. DCL:5"touching wall"
+349. DCL:5-C"talking back and forth"
+350. DCL:B-L"move up hill"
+351. DCL:B-L"over a hill"
+352. DCL:bent-5"tapping"
+353. DCL:bent-B"all across the country"
+354. DCL:bent-B"flat surface passing by"
+355. DCL:bent-B"land passing by"+
+356. DCL:C"bus driving"
+357. DCL:C"bus moving"
+358. DCL:crvd-5"pile"
+359. DCL:fanned-flat-O"headlights approaching deer"
+360. DCL:fanned-flat-O"headlights moving forward":j
+361. DCL:G"across"
+362. DEAF
+363. DECIDE
+364. DECORATE
+365. DEER
+366. DELETE
+367. DELICIOUS
+368. DEPRESS
+369. DEVIL
+370. DEVOUR
+371. DIFFERENT
+372. DIFFERENT+
+373. DISCONNECT
+374. DO
+375. DOCTOR
+376. DOG
+377. DRINK
+378. DRIVE
+379. DRIVE+
+380. DRIVE++
+381. DRIVE+++
+382. DRIVE+++++++
+383. DRIVE-ALONG
+384. DRUMS
+385. DRY
+386. EACH
+387. EACH+ONE
+388. EACH+WHERE
+389. EAR
+390. EASY
+391. EAT
+392. EAT+MORNING
+393. EAT+NOON
+394. EAT-UP
+395. EIGHTY
+396. END
+397. ENJOY
+398. ENOUGH
+399. ENTER
+400. ENTER:l
+401. ENTER:m
+402. ETC
+403. EVERY-MORNING
+404. EVERYDAY
+405. EVERYDAY++
+406. EVERYDAY+fs-DAY
+407. EVERYTHING
+408. EXCITE
+409. EXCITED+
+410. EXCUSE
+411. EXCUSE+
+412. EXCUSE-GO
+413. FAIL
+414. FALL
+415. false start
+416. FARM
+417. FATHER
+418. FATHERwg
+419. FAVORITE/PREFER
+420. FAVORITE/PREFER+
+421. FEEL
+422. FEW
+423. FIFTEEN
+424. FIGURE-OUT
+425. FILM
+426. FIND/FIND-OUT
+427. FIND/FIND-OUT^#OUT
+428. FINE
+429. FINE+
+430. FINE++
+431. FINGERSPELL
+432. FINISH
+433. FIRST
+434. FISH
+435. FOLLOW
+436. FOOTBALL
+437. FOR
+438. FOR-FOR
+439. FORCE
+440. FORGET
+441. FORGET-IT
+442. FORMERLY
+443. FORMERLY+
+444. FOUR
+445. FOUR-DAY
+446. FRIDAY
+447. FRIEND
+448. FROM
+449. FROM-NOW-ON
+450. FRONT
+451. fs-A
+452. fs-ADVENTURE
+453. fs-AIR
+454. fs-ANN
+455. fs-AT
+456. fs-BE
+457. fs-BIB
+458. fs-BILL
+459. fs-BILL:i
+460. fs-BROCCOLI
+461. fs-BUSH
+462. fs-CAR
+463. fs-CARE
+464. fs-CAROL
+465. fs-CORN
+466. fs-CPR
+467. fs-CRIB
+468. fs-CSUN
+469. fs-DAISY
+470. fs-DANA
+471. fs-DAY
+472. fs-DID
+473. fs-EVEN
+474. fs-FEET
+475. fs-FILE
+476. fs-FOOT
+477. fs-FRANK
+478. fs-FREAK
+479. fs-GE
+480. fs-HAM
+481. fs-HER
+482. fs-ICE
+483. fs-IMAC
+484. fs-IS
+485. fs-IT
+486. fs-JANA
+487. fs-JANA:j
+488. fs-JOAN
+489. fs-JOHN
+490. fs-JOHN:i
+491. fs-JOHN:j
+492. fs-K
+493. fs-MAINE
+494. fs-MARY
+495. fs-MARY:i
+496. fs-MARY:j
+497. fs-MIKE
+498. fs-MPH
+499. fs-MR
+500. fs-NEWS
+501. fs-OR
+502. fs-PADDLE
+503. fs-PANS
+504. fs-PAUL
+505. fs-POTS
+506. fs-R
+507. fs-RAFT
+508. fs-RIBS
+509. fs-ROCK
+510. fs-SILBER
+511. fs-SPA
+512. fs-STOOL
+513. fs-SUE
+514. fs-TENN
+515. fs-THEN
+516. fs-TO
+517. fs-TONY
+518. fs-TOY
+519. fs-TRAY
+520. fs-TUNA
+521. fs-UNO'S
+522. fs-US
+523. fs-WESTLING
+524. FUN
+525. FUTURE
+526. FUTURE^NOT
+527. GAME
+528. GENERATION
+529. GESTURE
+530. GET
+531. GET-IN-BED
+532. GET-INTO
+533. GET-TICKET
+534. GET-UP
+535. GIFT-3p-pl-arc
+536. GIFT-pl-arc:j
+537. GIFT:i
+538. GIFT:q
+539. GIRL
+540. GIVE:i
+541. GO
+542. GO-BY-BOAT
+543. GO-OUT
+544. GO:i
+545. GOOD
+546. GOOD+ENOUGH+
+547. GRAB-CHANCE
+548. GRAD
+549. GRADUATE
+550. GRANDMOTHER
+551. GRASS
+552. GRASS:k
+553. GREAT
+554. GROUND
+555. GROUP/TOGETHER
+556. GROW++
+557. GROW-UP
+558. GUITAR
+559. HALF
+560. HAPPEN
+561. HARD
+562. HATE
+563. HAVE
+564. HEAD-COLD
+565. HEAR
+566. HEARING
+567. HEART
+568. HELLO
+569. HERE
+570. HIDE:k
+571. HIDE:l
+572. HIDE:m
+573. HIGHWAY
+574. HILL
+575. HIT
+576. HITCH-HIKE
+577. HOLD
+578. HOME
+579. HOPE
+580. HOSPITAL
+581. HOUSE
+582. HOUSE:k
+583. HOUSE:l
+584. HOUSE:m
+585. HOW
+586. HOW+
+587. HOW-MANY
+588. HUNGRY/WISH
+589. i:(1)THROW:j
+590. i:(1h)GIFT++:j
+591. i:(1h)GIFT:j
+592. i:(1h)GIFT:k
+593. i:(2h)alt.GIFT++:j
+594. i:(2h)alt.GIFT+:j
+595. i:(2h)alt.GIVE++:j
+596. i:BLAME:j
+597. i:LOOK:k
+598. ICE-CREAM
+599. ICL"banging pans"+
+600. ICL"banging the pots"+
+601. ICL"drag oar in water"+
+602. ICL"gathering pots and pans"
+603. ICL"holding steering wheel"
+604. ICL"making boards"
+605. ICL"pulling over"
+606. ICL"rowing casually"++
+607. ICL"rowing"
+608. ICL"rowing"++
+609. ICL:1"bundling grass"
+610. ICL:5"spreading mortar"
+611. ICL:5"spreading mortar":l
+612. ICL:B-L"chopping"+
+613. ICL:B-L"chopping"++
+614. ICL:S"biker holding handlebars popping wheelie"
+615. ICL:S"biker riding on one wheel"
+616. ICL:S"closing window"
+617. ICL:S"handlebars pulling right"
+618. ICL:S"holding handlebars"
+619. ICL:S"holding the wheel"
+620. ICL:S"picking up two pans"
+621. ICL:S"reaching out with paddle"
+622. ICL:S"turning steering wheel"
+623. ICL:S"turning the wheel"
+624. IF
+625. IGNORE
+626. IMPORTANT
+627. IN
+628. INFORM
+629. INFORM:1p
+630. INFORM:i
+631. INFORM:l
+632. INFORMATION
+633. IX-1p
+634. IX-1p-pl-2:l
+635. IX-1p-pl-2:x
+636. IX-1p-pl-arc
+637. IX-1p:i
+638. IX-2p
+639. IX-2p:i
+640. IX-2p:k
+641. IX-3p+:k
+642. IX-3p-pl-2:k/m
+643. IX-3p-pl-arc
+644. IX-3p-pl-arc:i
+645. IX-3p:i
+646. IX-3p:j
+647. IX-3p:k
+648. IX-3p:l
+649. IX-3p:m
+650. IX-3p:o
+651. IX-loc-arc
+652. IX-loc:i
+653. IX-loc:j
+654. IX-loc:k
+655. IX-loc:l
+656. IX-loc:m
+657. IX-loc:n
+658. IX-loc:p
+659. j:(1h)GIFT:i
+660. j:(1h)GIFT:k
+661. j:GO
+662. JUMP++
+663. k:RUN:m
+664. KEY
+665. KISS-FIST
+666. KNOW
+667. KNOW+THAT
+668. LAST
+669. LAST-WEEK
+670. LATER
+671. LAW+AGENT
+672. LAZY
+673. LAZY++
+674. LCL:1"passing by"
+675. LCL:B"across"
+676. LCL:B-L"raft"
+677. LCL:crvd-V"sitting on a raft"
+678. LCL:crvd-V"sitting on ground"
+679. LCL:G"ribs on body"
+680. LEAD
+681. LEAD++AGENT
+682. LEARN+AGENT
+683. LEAVE-THERE
+684. LICENSE
+685. LIGHT
+686. LIGHT-OUT
+687. LIKE
+688. LITTLE-BIT
+689. LIVE
+690. LOCK
+691. LONG-TERM
+692. LOOK
+693. LOOK-AT
+694. LOOK-BACKWARDS
+695. LOOK-FORWARD
+696. LOOK-UP
+697. LOOK:j
+698. LOOK:k
+699. LOOK:l
+700. LOOK:m
+701. LOOK:n
+702. LOSE
+703. LOVE
+704. LUCKY
+705. LUNCH
+706. m:CHASE:l
+707. m:PCL:V"running":l
+708. MAGAZINE
+709. MAJOR
+710. MAKE
+711. MAN
+712. MANY
+713. MATH
+714. MAYBE
+715. MEAT
+716. MEET
+717. MELON
+718. MELT/SOLVE
+719. MIDDLE
+720. MINUTE
+721. MISTAKE
+722. MORE
+723. MORNING
+724. MOST
+725. MOTHER
+726. MOTHER+
+727. MOTHER+FATHER
+728. MOTHERwg
+729. MOTORCYCLE
+730. MOUSE/FICTION
+731. MOVE-AWAY
+732. MOVIE
+733. MUSIC
+734. MUST
+735. NAME
+736. NERVOUS
+737. neu:(1h)GIFT+++:i/j/k
+738. neu:(1h)GIFT-pl-arc
+739. neu:(1h)GIFT:i
+740. neu:(1h)GIFT:j
+741. neu:GIVE-indef
+742. neu:GIVE:i
+743. neu:GIVE:j
+744. NEVER
+745. NEW
+746. NEXT
+747. NEXT-WEEK
+748. NEXT-YEAR
+749. NIGHT+
+750. NINETY
+751. NOT
+752. NOT-CARE
+753. NOT-KNOW
+754. NOT-LIKE
+755. NOT-MIND
+756. NOT-WANT
+757. NOT-YET
+758. NOTHING
+759. NOTICE
+760. NOW
+761. ns-BU
+762. ns-CALIFORNIA
+763. ns-CAPE-COD
+764. ns-CHICAGO
+765. ns-CHINA
+766. ns-EUROPE
+767. ns-FRANCE
+768. ns-GREECE_2
+769. ns-ITALY
+770. ns-LINCOLN
+771. ns-MAINE
+772. ns-MCDONALD
+773. ns-MEXICO/SPAIN
+774. ns-nat-AUSTRALIA
+775. ns-NEW-YORK
+776. ns-SILBER
+777. ns-US
+778. NUT
+779. OH-I-SEE
+780. OLD
+781. OLD+(1h)MOST
+782. ON
+783. ONE
+784. ONE-distributive-3p-pl-arc
+785. ONE-MORE
+786. OTHER
+787. OUT
+788. OVER/AFTER
+789. OVER/AFTER:k
+790. PAGEANT
+791. PAH
+792. part:indef
+793. PARTY
+794. PAST
+795. PAST++
+796. PATIENT
+797. PAY-ATTENTION+
+798. PCL:3"three pigs walking together"
+799. PCL:crvd-5"group-together"
+800. PEOPLE
+801. PERSON
+802. PICTURE
+803. PIG
+804. PINBALL
+805. PITY:i
+806. PLAN
+807. PLAY
+808. PLAY+AGENT
+809. PLUS
+810. POSS-1p
+811. POSS-1p+
+812. POSS-2p
+813. POSS-2p:k
+814. POSS-3p:i
+815. POSS-3p:j
+816. POSS-3p:k
+817. POSS-3p:l
+818. POSTED-SIGN
+819. POUR-SWEAT
+820. PREGNANT
+821. PRESIDENT
+822. PROCEED
+823. QMwg
+824. R"hoping"++
+825. RAFT
+826. RAIN
+827. RAIN+COAT
+828. READ
+829. READ+
+830. READ++
+831. READ+++
+832. READY
+833. REALLY
+834. REASON
+835. RECENT-PAST
+836. REFUSE
+837. RELAX
+838. REMEMBER
+839. REQUIRE
+840. RIDE
+841. RIGHT-HERE
+842. RIVER
+843. ROAD
+844. ROW/PADDLE
+845. RUN
+846. SAFE
+847. SALT
+848. SAME
+849. SANDWICH
+850. SARCASM
+851. SAY
+852. SCARE
+853. SCHOOL
+854. SCL:1"Dana going downstairs"
+855. SCL:1"Dana walking across the hall"
+856. SCL:1"driving around curve"
+857. SCL:1"driving around curves"
+858. SCL:1"Mother walking to Dana":l
+859. SCL:1"person going up"
+860. SCL:1"person walking away"
+861. SCL:1"person walking towards John"
+862. SCL:1"person walking"
+863. SCL:1"pig walking":k
+864. SCL:3"pulling over"
+865. SCL:3"vehicle back on road"
+866. SCL:3"vehicle driving on winding road"
+867. SCL:3"vehicle fall"
+868. SCL:3"vehicle following car"
+869. SCL:3"vehicle move over":i
+870. SCL:3"vehicle onto I-80"
+871. SCL:3"vehicle out of control"
+872. SCL:3"vehicle pulling over vehicle"
+873. SCL:3"vehicle pulls behind other car"
+874. SCL:3"vehicle pulls behind vehicle"
+875. SCL:3"vehicle swerving"
+876. SCL:3"vehicle turning off":i
+877. SCL:3"vehicle turning"
+878. SCL:3"vehicle"
+879. SCL:3"vehicles pulling over"
+880. SCL:B"driving around curves"
+881. SCL:B-L"pulling over"
+882. SCL:B-L"raft on rapids"
+883. SCL:bent-B-L"raft down"
+884. SCL:bent-B-L"raft dropping"
+885. SCL:bent-B-L"raft shooting down rapids"
+886. SCL:bent-V"fall out"
+887. SCL:bent-V"falling off"
+888. SCL:bent-V"flying from seat"
+889. SCL:bent-V"sit in passenger seat":j
+890. SCL:crvd-5"tray of baby chair"
+891. SCL:crvd-V"person sitting on ground"
+892. SCL:crvd-V"person sitting"
+893. SCL:crvd-V"sitting down"
+894. SCL:crvd-V"sitting on"++
+895. SCL:crvd-V"sitting"
+896. SCL:crvd-V"sitting"+
+897. SCOUT
+898. SCREAM
+899. SCREAM+
+900. SEE
+901. SEE-SEE
+902. SEE:i
+903. SEE:j
+904. SEE:n
+905. SEEM
+906. SELF-1p
+907. SELF-3p++:i
+908. SELF-3p+:i
+909. SELF-3p:i
+910. SELF-3p:m
+911. SELL
+912. SEMESTER
+913. SEND
+914. SENTENCE
+915. SERIOUS
+916. SET-UP:k
+917. SET-UP:l
+918. SET-UP:m
+919. SET-UP:r
+920. SET-UP:s
+921. SET-UP:t
+922. SEVEN
+923. SHINE
+924. SHOCK
+925. SHOOT
+926. SHOOT:i
+927. SHOOT:j
+928. SHOULD
+929. SHOULD+
+930. SHOW
+931. SIGN
+932. SIMPLE
+933. SINK
+934. SIREN
+935. SISTER
+936. SIT
+937. SITUATION
+938. SIX
+939. SKILL
+940. SLEEP
+941. SLEEP++
+942. SLOW
+943. SMALL
+944. SMELL
+945. SNEAK
+946. SOME
+947. SOMETHING/ONE
+948. SOON
+949. SOUTH
+950. SPEED
+951. SPEED+
+952. SPEED++
+953. SPEED++++
+954. SPIN+
+955. SPIN++
+956. SPIT++
+957. START
+958. STATE
+959. STATION
+960. STEAL
+961. STEAL+
+962. STILL
+963. STOP
+964. STORE
+965. STORY
+966. STRANGE
+967. STRANGE+AGENT
+968. STRIKE
+969. STUCK
+970. STUDY
+971. SUMMON
+972. SUN
+973. SUPPORT
+974. SWIM
+975. TAKE-BREAK
+976. TAKE-OFF
+977. TAKE-OVER:k
+978. TAKE-OVER:m
+979. TALK
+980. TALKwg
+981. TEACH+AGENT
+982. TEACH+AGENT:k
+983. TELL
+984. TELL:i
+985. TELL:j
+986. TELL:l
+987. TEN
+988. TEND
+989. TEST
+990. TEST+
+991. THAT
+992. THAT:i
+993. THEN
+994. THINK
+995. THINK+SHOCK
+996. THREE
+997. THREE-DAY
+998. THREE:i
+999. THUMB-IX-3p:i
+1000. THUMB-IX-3p:k
+1001. THUMB-IX-loc:m
+1002. TIME
+1003. TIRED
+1004. TO/UNTIL
+1005. TOMORROW
+1006. TOTAL
+1007. TOUGH
+1008. TREE
+1009. TRIP
+1010. TRUE-BUSINESS
+1011. TURKEY
+1012. TURN
+1013. TURN-OFF:i
+1014. TWENTY
+1015. TWO
+1016. TWO-WEEK
+1017. UMBRELLA
+1018. UNDERSTAND
+1019. UP-TO-NOW
+1020. UPSET
+1021. USE
+1022. USE-SIGN-LANGUAGE
+1023. VARIOUS
+1024. VEGETABLE
+1025. VIDEOTAPE
+1026. VISIT
+1027. VISIT+:i
+1028. VISIT:i
+1029. VISIT:j
+1030. VOMIT
+1031. VOTE
+1032. WAIT
+1033. WAKE-UP
+1034. WALK
+1035. WANT
+1036. WANT+
+1037. WARN
+1038. WARN:k
+1039. WATCH-TV
+1040. WATER
+1041. WEEKEND
+1042. WHEEL
+1043. WHEN
+1044. WHERE
+1045. WHICH
+1046. WHITE
+1047. WHO
+1048. WHY^NOT
+1049. WILD
+1050. WIN
+1051. WINDOW
+1052. WITH
+1053. WOLF
+1054. WOMAN
+1055. WONDER
+1056. WOOD
+1057. WOOD:m
+1058. WORD+
+1059. WORK
+1060. WORRY
+1061. WOW
+1062. YESTERDAY

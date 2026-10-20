@@ -1,0 +1,6 @@
+{
+  "original_script_sha256": "e2001c56b2d7453c5d2bcdae2305b134622371bc7f1514080641d8bd3041e81f",
+  "new_script_sha256": "1fc9f4dce234d5bf64fa96d2f5f83283e17a13255fbfbdbfee2a189833c6b70f",
+  "change": "Exclude both utterances in every new439/441overlap pair at metadata stage, then process only untouched nonoverlapping records. Keep prior445whole-source exclusion and all older exclusions unchanged.",
+  "no_frame_trim_or_label_change": true
+}

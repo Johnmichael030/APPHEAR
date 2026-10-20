@@ -1,0 +1,54 @@
+{
+  "counts": {
+    "tests": 1004,
+    "errors": 54,
+    "failures": 130,
+    "skipped": 10,
+    "passed": 810
+  },
+  "common_messages": [
+    [
+      "FileNotFoundError: [Errno 2] No such file or directory: 'D:\\\\apphearv3claude\\\\AppHear-claude-s2-r3-eval-suite\\\\AppHear-claude-s2-r3-eval-suite\\\\experiments\\\\continuous_asl\\\\2026102",
+      101
+    ],
+    [
+      "failed on setup with \"FileNotFoundError: [Errno 2] No such file or directory: 'D:\\\\apphearv3claude\\\\AppHear-claude-s2-r3-eval-suite\\\\AppHear-claude-s2-r3-eval-suite\\\\experiments\\\\c",
+      28
+    ],
+    [
+      "collection failure",
+      25
+    ],
+    [
+      "ValueError: [baseline2/data] Unexpected feature inventory",
+      4
+    ],
+    [
+      "FileNotFoundError: [WinError 206] The filename or extension is too long: 'D:\\\\apphearv3claude\\\\AppHear-claude-s2-r3-eval-suite\\\\AppHear-claude-s2-r3-eval-suite\\\\experiments\\\\contin",
+      2
+    ],
+    [
+      "RuntimeError: Intra op parallelism cannot be modified after initialization.",
+      2
+    ],
+    [
+      "StopIteration",
+      2
+    ],
+    [
+      "RuntimeError: PHASE6_SOURCE_SESSION_IDENTITY_FAILURE",
+      2
+    ],
+    [
+      "RuntimeError: PHASE6_LEARNED_EVENT_FREEZE_MISSING",
+      2
+    ],
+    [
+      "AttributeError: module 'numpy' has no attribute 'trapezoid'",
+      2
+    ]
+  ],
+  "all_failures_preexisting_confirmed": false,
+  "known_preexisting": "missing phase7 Keras artifact and absent MediaPipe in reused environment",
+  "other_failures": "snapshot paths/fixtures, API differences and isolated-test constraints; not all classified against original environment"
+}

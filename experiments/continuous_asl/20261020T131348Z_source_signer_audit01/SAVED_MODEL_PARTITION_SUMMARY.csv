@@ -1,0 +1,7 @@
+﻿model,split,utterances,WER,CTC_loss,blank_argmax_fraction,empty_outputs,predicted_token_diversity,interpretation
+prior1706,TRAIN,1706,0.9760146303720898,5.821992352866903,0.9831794973725729,436,11,TRAIN resubstitution is not transfer; frozenDEV descriptive only
+prior1706,FROZEN_DEV_REPORT_ONLY,413,0.9799134734239803,6.801272752498599,0.9839557087170216,131,3,TRAIN resubstitution is not transfer; frozenDEV descriptive only
+prior64,TRAIN,64,0.12218649517684887,0.35751624236581847,0.8357695614789338,0,343,TRAIN resubstitution is not transfer; frozenDEV descriptive only
+prior64,FROZEN_DEV_REPORT_ONLY,413,0.9746600741656366,11.804399565403456,0.9377436303033727,0,85,TRAIN resubstitution is not transfer; frozenDEV descriptive only
+prior497,TRAIN,497,0.4367729831144465,1.6795463728113194,0.8650569922784656,0,362,TRAIN resubstitution is not transfer; frozenDEV descriptive only
+prior497,FROZEN_DEV_REPORT_ONLY,413,0.98053152039555,10.69858633461645,0.9597762838257725,57,78,TRAIN resubstitution is not transfer; frozenDEV descriptive only

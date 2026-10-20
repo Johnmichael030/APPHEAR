@@ -1,0 +1,2 @@
+epoch,train_monitor_wer,train_monitor_ctc_loss,train_ctc_loss,dev_loss,dev_wer,substitutions,deletions,insertions,reference_tokens,epoch_seconds,elapsed_seconds,peak_allocated_vram_bytes,peak_reserved_vram_bytes,free_vram_bytes,worker_peak_working_set_bytes,best,input_device,logits_device,loss_device,gradient_device,optimizer_state_device
+1,2.4285714285714284,27.069400787353516,35.54560852050781,35.01553535461426,3.0714285714285716,13,0,30,14,0.31802930001867935,0.3191190999932587,70732800,73400320,3353031476,1189216256,True,cuda:0,cuda:0,cuda:0,cuda:0,cuda:0

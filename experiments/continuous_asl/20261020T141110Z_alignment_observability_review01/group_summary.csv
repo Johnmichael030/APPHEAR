@@ -1,0 +1,4 @@
+﻿group,candidate_events,selected_events,mean_duration_ms,min_duration_ms,max_duration_ms,mean_target_support,retained_frames_total,any_hand_frame_fraction,body_available_frame_fraction,mean_context_any_hand_fraction,mean_context_body_fraction,recording_families,source_masters,computational_discrepancies,qualified_reviews,semantic_adjudication
+A,880,4,41.708333333333336,33.36666666666667,66.73333333333333,165.25,0,,,0.6875,1.0,4,4,0,0,BLOCKED
+B,1440,4,58.391666666666666,33.36666666666667,66.73333333333333,165.0,4,0.0,1.0,0.6875,1.0,4,4,0,0,BLOCKED
+C,6492,4,41.708333333333336,33.36666666666667,66.73333333333333,165.25,4,1.0,1.0,1.0,1.0,4,4,0,0,BLOCKED

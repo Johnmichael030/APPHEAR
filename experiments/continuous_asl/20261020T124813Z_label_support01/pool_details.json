@@ -1,0 +1,555 @@
+{
+  "ASLLRP3": {
+    "top30_tokens": [
+      [
+        "IX-1p",
+        619
+      ],
+      [
+        "IX-3p:i",
+        548
+      ],
+      [
+        "IX-loc:i",
+        260
+      ],
+      [
+        "NOT",
+        257
+      ],
+      [
+        "part:indef",
+        252
+      ],
+      [
+        "IX-2p",
+        153
+      ],
+      [
+        "(1h)part:indef",
+        145
+      ],
+      [
+        "FUTURE",
+        130
+      ],
+      [
+        "FRIEND",
+        127
+      ],
+      [
+        "WHO",
+        107
+      ],
+      [
+        "IX-3p:j",
+        102
+      ],
+      [
+        "THAT",
+        98
+      ],
+      [
+        "ns-fs-JOHN",
+        89
+      ],
+      [
+        "DEAF",
+        86
+      ],
+      [
+        "FINISH",
+        84
+      ],
+      [
+        "#IF",
+        81
+      ],
+      [
+        "ns-fs-MARY",
+        79
+      ],
+      [
+        "CAR",
+        77
+      ],
+      [
+        "POSS-3p:i",
+        76
+      ],
+      [
+        "POSS-1p",
+        76
+      ],
+      [
+        "NONE/NOTHING",
+        74
+      ],
+      [
+        "MUST",
+        71
+      ],
+      [
+        "(1h)HAVE",
+        69
+      ],
+      [
+        "GO-OUT",
+        68
+      ],
+      [
+        "REALLY",
+        67
+      ],
+      [
+        "WITH",
+        60
+      ],
+      [
+        "FOR",
+        60
+      ],
+      [
+        "IN",
+        59
+      ],
+      [
+        "GROUP/TOGETHER",
+        58
+      ],
+      [
+        "MOTHER",
+        57
+      ]
+    ],
+    "label_sequence_length": {
+      "min": 2.0,
+      "p25": 5.0,
+      "median": 7.0,
+      "p75": 10.0,
+      "p95": 18.0,
+      "max": 42.0,
+      "mean": 8.333528722157093
+    },
+    "feature_sequence_length": {
+      "min": 8.0,
+      "p25": 30.0,
+      "median": 39.0,
+      "p75": 56.0,
+      "p95": 98.75,
+      "max": 246.0,
+      "mean": 47.18464243845252
+    },
+    "CTC_slack": {
+      "min": 5.0,
+      "p25": 25.0,
+      "median": 33.0,
+      "p75": 46.0,
+      "p95": 80.75,
+      "max": 211.0,
+      "mean": 38.83880422039859
+    },
+    "CTC_violations": 0,
+    "train_dev_known_overlap": {
+      "sample_id": [],
+      "signer_id": [],
+      "source_group": [],
+      "raw_sha256": [],
+      "decoded_pixel_sha256": []
+    },
+    "DEV_only_labels": [
+      "#BQQ",
+      "#CD",
+      "#JULY",
+      "(1)SEND",
+      "(1)SEND/MAIL",
+      "(1)SEND:j",
+      "(1h)(P)PARTY",
+      "(1h)ACCEPT",
+      "(1h)FIRE",
+      "(1h)LOVE",
+      "(1h)OUT+",
+      "(1h)PROCEED+",
+      "(1h)WANT+NEG",
+      "(2h)#NO+MORE",
+      "(2h)BALD",
+      "(2h)DRUNK",
+      "(2h)EAT",
+      "(2h)LOOK-FORWARD+",
+      "(2h)PASS-OUT_2",
+      "(2h)REASON",
+      "(2h)SUNSHINE",
+      "(2h)SUNSHINE_2",
+      "(2h)alt.CHEER",
+      "(2h)alt.FIRE+",
+      "(5)THROW",
+      "(L)LOTION",
+      "(bent-1)POSS-1p",
+      "(nd-1)BEFORE",
+      "(nd-1)GATE",
+      "(nd-1)MOVIE+",
+      "(nd-1)NEXT-TO",
+      "(nd-5)HIT",
+      "1p-GIVE-indef",
+      "1p-INFORM:j",
+      "1p-MEET-3p-pl-arc",
+      "1p-SEND/MAIL:j",
+      "2p-ASK:i",
+      "2p-MEET:i",
+      "3\\um\\\"\"",
+      "5\\etcetera\\\"\"",
+      "5\\listen up\\\"\"",
+      "5\\oh\\\"\"",
+      "5\\pay attention\\\"\"",
+      "5\\uh\\\"\"",
+      "AFTERNOON_3",
+      "AGE-TWENTY-ONE",
+      "ALL-NIGHT_3",
+      "ALL-YEARS-HS",
+      "ASK-1p",
+      "BAKE/OVEN",
+      "BAKING-SPRINKLES",
+      "BAWL-OUT+",
+      "BAWL-OUT++",
+      "BCL:C\\showing off pectorals\\\"\"",
+      "BCL:crvd-5\\eyes pop out\\\"\"",
+      "BIRTHDAY",
+      "BLANK-OUT",
+      "BLUE+fs-BERRY",
+      "BOY+SCOUT",
+      "BPCL:B-L\\rub on lotion\\\"\"",
+      "BURST",
+      "CAMP",
+      "CARE:i",
+      "CELEBRATE",
+      "CHAT+",
+      "CHAT+++",
+      "CLICK",
+      "COLOR",
+      "COMPUTER+",
+      "COUNTRY+",
+      "CRASH",
+      "CRY++",
+      "DCL:1\\Bob approaching her\\\"\"",
+      "DCL:1\\bride and groom meet\\\"\"",
+      "DCL:1\\two people approaching each other\\\"\"",
+      "DCL:4\\many people look at me\\\"\"",
+      "DCL:4\\people gathering in a circle\\\"\"",
+      "DCL:4\\people tanning\\\"\"",
+      "DCL:B-L\\long hair\\\"\"",
+      "DCL:L-X\\disc\\\"\"",
+      "DCL:U-L\\cow running\\\"\"",
+      "DCL:U-L\\horse running\\\"\"",
+      "DCL:V/2\\horse running\\\"\"",
+      "DCL:X\\skiing back and forth\\\"\"",
+      "DCL\\describing the land\\\"\"",
+      "DCL\\flat tract of land\\\"\"",
+      "DCL\\swirling\\\"\"",
+      "DEPART+",
+      "DINNER+",
+      "DIRECT",
+      "EACH+ONE-pl-arc",
+      "EASY+(1h)MOST",
+      "ENJOY++",
+      "EYES",
+      "FATHERwg",
+      "FEED+",
+      "FIREWORKS",
+      "FIREWORKS_2",
+      "FIREWORKS_2+",
+      "FIREWORKS_2++",
+      "FLIP-FLOP_2",
+      "FLOW",
+      "FLOW++",
+      "FOR-FOR",
+      "FOURTH",
+      "GARAGE/SUBMARINE+",
+      "GIRL+CORRECT",
+      "GLASSES_2+",
+      "GOBBLE-UP",
+      "HAIR+DYE+",
+      "HAIR_2+DYE",
+      "HAIR_2+DYE+",
+      "HAIR_2+DYE++",
+      "HEADBAND_2",
+      "HELP-1p",
+      "ICL:B-L\\applying suncreen\\\"\"",
+      "ICL:B-L\\bring over bucket\\\"\"",
+      "ICL:X\\use spray cans\\\"\"",
+      "KOWTOW",
+      "LATE+++",
+      "LAZY",
+      "LETTER/MAIL_2+",
+      "LICENSE",
+      "LIGHT-FLASH++",
+      "LIGHT-MATCH",
+      "LOCK",
+      "MAD",
+      "MAKE++",
+      "MAKE+REALLY",
+      "MEET-3p-pl-arc",
+      "MEMORIZE",
+      "OPEN-BOOK",
+      "PACK",
+      "PARTY-HARD",
+      "PASS-OUT_2",
+      "PET/SPOILED+",
+      "PLAN+",
+      "POSS-3p+:i",
+      "RAKE",
+      "REMIND-2p+",
+      "REQUEST",
+      "ROLL-ON-FLOOR-LAUGHING",
+      "SATISFIED",
+      "SCL:1\\describing a narrow road\\\"\"",
+      "SCL:1\\one person approaching another\\\"\"",
+      "SCL:1\\person approaching\\\"\"",
+      "SCL:1\\person\\\"\"",
+      "SCL:1\\throw fish in bucket\\\"\"",
+      "SCL:3\\person passed out\\\"\"",
+      "SCL:3\\person walking at water's edge\\\"\"",
+      "SCL:3\\person walking\\\"\"",
+      "SCL:U-L\\person passed out\\\"\"",
+      "SCL:V/2\\horse galloping\\\"\"",
+      "SCL:V/2\\look around and around\\\"\"",
+      "SCL:V/2\\person rolling around\\\"\"",
+      "SCL:V/2\\person sliding off tube\\\"\"",
+      "SCL:X\\catch fish\\\"\"",
+      "SCL:bent-B\\flat land\\\"\"",
+      "SCL:crvd-U\\laying on side\\\"\"",
+      "SCL:crvd-V\\horse galloping\\\"\"",
+      "SCL:crvd-W\\shoreline\\\"\"",
+      "SCL\\Donna\\\"\"",
+      "SCL\\Jessica\\\"\"",
+      "SCL\\person passed out\\\"\"",
+      "SELF-1p",
+      "SHUCKS",
+      "SUNBATHE",
+      "SUNBATHE++",
+      "SUNSHINE_2",
+      "SUPPORT+",
+      "SURF-INTERNET",
+      "SWIRLING",
+      "SWITCH",
+      "TAPE-RECORDING+",
+      "TIME-TWO",
+      "TORTURE_2",
+      "TRAFFIC_2",
+      "TUBING",
+      "TWENTY-EIGHT:i",
+      "WAKE-UP",
+      "WALK++",
+      "WATCH-TV",
+      "WATER+DCL\\round flat\\\"+\"",
+      "WATER+TUBING",
+      "WEEKEND_2",
+      "WHIP",
+      "ZOOM",
+      "fs-ACTION",
+      "fs-BONFIRE",
+      "fs-BRIDE",
+      "fs-BUCKET",
+      "fs-COLLARS",
+      "fs-EXAM",
+      "fs-EXTRA",
+      "fs-GLITTER",
+      "fs-GROOM",
+      "fs-HORROR",
+      "fs-LOGS",
+      "fs-MOOD",
+      "fs-PALE",
+      "fs-PIE",
+      "fs-PUPPIES",
+      "fs-SCOUT",
+      "fs-SITES",
+      "fs-SUN",
+      "fs-SUN+#BURN",
+      "fs-SUNSCREEN",
+      "fs-SUPREME",
+      "fs-WAVES",
+      "i:GIVE-1p",
+      "i:GIVE-indef",
+      "j:GIVE-indef",
+      "j:MEET:i",
+      "j:SCL:1\\Bob meets his girlfriend\\\":i\"",
+      "ns-ASIA",
+      "ns-CALIFORNIA_2",
+      "ns-CAROL",
+      "ns-fs-BARACK-OBAMA",
+      "ns-fs-BOB:j",
+      "ns-fs-CAROL",
+      "ns-fs-JESSICA",
+      "ns-fs-POTTER"
+    ],
+    "schema": "literal realized dominant occurrence",
+    "DEV_signers": [
+      "asllrp_dai_participant_4"
+    ],
+    "DEV_sources": 8
+  },
+  "NCSLGR2": {
+    "top30_tokens": [
+      [
+        "HOLD",
+        390
+      ],
+      [
+        "fs-JOHN",
+        348
+      ],
+      [
+        "IX-1p",
+        176
+      ],
+      [
+        "IX-3p:i",
+        153
+      ],
+      [
+        "BOOK",
+        98
+      ],
+      [
+        "BUY",
+        87
+      ],
+      [
+        "part:indef",
+        85
+      ],
+      [
+        "FINISH",
+        79
+      ],
+      [
+        "FUTURE",
+        79
+      ],
+      [
+        "CAR",
+        79
+      ],
+      [
+        "IX-loc:i",
+        72
+      ],
+      [
+        "LIKE",
+        70
+      ],
+      [
+        "fs-MARY",
+        68
+      ],
+      [
+        "NOT",
+        66
+      ],
+      [
+        "WHO",
+        63
+      ],
+      [
+        "MOTHER",
+        61
+      ],
+      [
+        "READ",
+        58
+      ],
+      [
+        "TEACH+AGENT",
+        58
+      ],
+      [
+        "HOUSE",
+        54
+      ],
+      [
+        "MOVIE",
+        45
+      ],
+      [
+        "SEE",
+        44
+      ],
+      [
+        "POSS-3p:i",
+        40
+      ],
+      [
+        "LEARN+AGENT",
+        40
+      ],
+      [
+        "YESTERDAY",
+        39
+      ],
+      [
+        "DEAF",
+        34
+      ],
+      [
+        "ARRIVE",
+        33
+      ],
+      [
+        "CHOCOLATE",
+        32
+      ],
+      [
+        "REALLY",
+        32
+      ],
+      [
+        "KNOW",
+        31
+      ],
+      [
+        "RAIN",
+        31
+      ]
+    ],
+    "label_sequence_length": {
+      "min": 2.0,
+      "p25": 4.0,
+      "median": 5.0,
+      "p75": 7.0,
+      "p95": 9.0,
+      "max": 19.0,
+      "mean": 5.537924151696607
+    },
+    "feature_sequence_length": {
+      "min": 9.0,
+      "p25": 23.0,
+      "median": 29.0,
+      "p75": 35.0,
+      "p95": 46.0,
+      "max": 87.0,
+      "mean": 29.74251497005988
+    },
+    "CTC_slack": {
+      "min": 5.0,
+      "p25": 18.0,
+      "median": 24.0,
+      "p75": 29.0,
+      "p95": 39.0,
+      "max": 75.0,
+      "mean": 24.20359281437126
+    },
+    "CTC_violations": 0,
+    "train_dev_known_overlap": {
+      "sample_id": [],
+      "signer_id": [],
+      "source_group": [],
+      "raw_sha256": [],
+      "decoded_pixel_sha256": []
+    },
+    "DEV_only_labels": [
+      "LATERwg"
+    ],
+    "schema": "literal main gloss; mixed legacy/exact-EAF time strata",
+    "DEV_signers": [],
+    "DEV_sources": 9
+  }
+}

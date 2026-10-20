@@ -1,0 +1,20 @@
+{
+  "status": "PASS_VALID_SUBSET",
+  "unique_valid": 451,
+  "raw_source_files": 231,
+  "eligible_train": 451,
+  "all_features_schema": "apphear.continuous_asl.candidate01_causal378.v1",
+  "pending_or_failed_source_files": 1,
+  "source_failures": [
+    {
+      "source_url": "https://csr.bu.edu/asl/private/downloads/2001_9_19/master/ben_story_445_small_0.mov",
+      "reason": "OVERLAPPING_PUBLISHER_UTTERANCE_SPANS",
+      "candidate_utterances": 16
+    }
+  ],
+  "signer_independent": false,
+  "synthetic_samples": 0,
+  "script_sha256": "e089f03827bbe418f4047bed39ce1d682bbbfc424a42b1858fedb7de495b9c57",
+  "seconds": 940.0227696999791,
+  "no_test_access": true
+}

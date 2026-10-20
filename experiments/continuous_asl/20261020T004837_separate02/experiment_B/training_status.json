@@ -1,0 +1,22 @@
+{
+  "status": "EARLY_STOP",
+  "completed_epochs": 11,
+  "used_cuda": true,
+  "best_score": [
+    0.92,
+    4.133095332554409
+  ],
+  "seconds": 2.3235810000041965,
+  "worker_memory": {
+    "actual_pid": 7372,
+    "working_set_bytes": 1164500992,
+    "peak_working_set_bytes": 1166536704,
+    "private_commit_bytes": 2301992960,
+    "peak_pagefile_bytes": 2304069632
+  },
+  "schema_version": "apphear.continuous_asl.candidate01_causal378_native.v1",
+  "manifest_sha256": "c173d02e2a64856329d380b6212eac35dd5a306131e57eed466eadf3614b08b3",
+  "script_sha256": "28727ad8d03552c9af2ff3c29b456e569be9708502e04c81dc11e90ac591ecbb",
+  "signer_independence": "UNVERIFIED",
+  "non_sign_boundaries": "BLOCKED_NO_LABELS"
+}

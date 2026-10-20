@@ -1,0 +1,30 @@
+{
+  "onnx_CPU": {
+    "samples": 944,
+    "p50_ms": 0.34830000367946923,
+    "p95_ms": 0.6177649891469627,
+    "sum_ms": 372.1964995493181,
+    "scope": "real prefixes, warmed runtime, model invocation only"
+  },
+  "torch_CPU": {
+    "samples": 944,
+    "p50_ms": 2.101850011968054,
+    "p95_ms": 3.7638199966750108,
+    "sum_ms": 2300.0729002815206,
+    "scope": "real prefixes, warmed runtime, model invocation only"
+  },
+  "torch_CUDA": {
+    "samples": 944,
+    "p50_ms": 3.409599987207912,
+    "p95_ms": 8.90358000615378,
+    "sum_ms": 4066.7576000560075,
+    "scope": "real prefixes, warmed runtime, model invocation only"
+  },
+  "onnx_session_cold_start_ms": 27.016200008802116,
+  "onnx_bytes": 336478,
+  "checkpoint_bytes": 980299,
+  "model_only_is_not_end_to_end": true,
+  "end_to_end_android_FPS": "NOT_MEASURED",
+  "streaming_replay_load": "sequential saved clips, no live camera, no rendering or SentenceBuilder",
+  "parameter_count": 76551
+}

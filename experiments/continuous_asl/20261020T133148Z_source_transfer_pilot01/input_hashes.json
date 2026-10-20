@@ -1,0 +1,5 @@
+{
+  "D:\\apphearv3claude\\AppHear-claude-s2-r3-eval-suite\\AppHear-claude-s2-r3-eval-suite\\experiments\\continuous_asl\\20261020T131348Z_source_signer_audit01\\folds\\A_guarded_pooled_family_holdout.json": "87442a6f1241860e369a5c8f0768d583b3a4058f5a9ad03dcc135532c419c72f",
+  "D:\\apphearv3claude\\AppHear-claude-s2-r3-eval-suite\\AppHear-claude-s2-r3-eval-suite\\experiments\\continuous_asl\\20261020T104054Z_expand_eval01\\data\\processed\\train_dev\\manifest.json": "04fb7c6c26bc934d6618902ceeaa2ee69e19d0c12e5bfe922e5743c8518c0ebe",
+  "D:\\apphearv3claude\\AppHear-claude-s2-r3-eval-suite\\AppHear-claude-s2-r3-eval-suite\\tools\\continuous_asl\\ctc_experiment.py": "d434d2341348ab89558a82dfc9f952800e533246d4b6baf0294ee10fc013aa63"
+}

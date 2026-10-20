@@ -1,0 +1,204 @@
+{
+  "status": "PARTIAL",
+  "events": [
+    {
+      "review_id": "R01",
+      "sample_id": "asllrp3_74056df91b3d6f10",
+      "group": "A",
+      "current_inside": [],
+      "native_inside": [
+        31,
+        32
+      ],
+      "native_timestamp_ms": [
+        1034.3666666666668,
+        1067.7333333333333
+      ],
+      "actual_new_hand_observability": "UNKNOWN_NO_NEW_PERCEPTION",
+      "metadata_only": true
+    },
+    {
+      "review_id": "R02",
+      "sample_id": "asllrp3_5e8c232c421b973c",
+      "group": "B",
+      "current_inside": [
+        48
+      ],
+      "native_inside": [
+        47,
+        48
+      ],
+      "native_timestamp_ms": [
+        1568.2333333333333,
+        1601.6000000000001
+      ],
+      "actual_new_hand_observability": "UNKNOWN_NO_NEW_PERCEPTION",
+      "metadata_only": true
+    },
+    {
+      "review_id": "R03",
+      "sample_id": "asllrp3_f14263e33ffe5d2a",
+      "group": "C",
+      "current_inside": [
+        33
+      ],
+      "native_inside": [
+        33,
+        34
+      ],
+      "native_timestamp_ms": [
+        1101.1,
+        1134.4666666666667
+      ],
+      "actual_new_hand_observability": "UNKNOWN_NO_NEW_PERCEPTION",
+      "metadata_only": true
+    },
+    {
+      "review_id": "R04",
+      "sample_id": "asllrp3_6b64205041deb7a4",
+      "group": "A",
+      "current_inside": [],
+      "native_inside": [
+        113
+      ],
+      "native_timestamp_ms": [
+        3770.4333333333334
+      ],
+      "actual_new_hand_observability": "UNKNOWN_NO_NEW_PERCEPTION",
+      "metadata_only": true
+    },
+    {
+      "review_id": "R05",
+      "sample_id": "asllrp3_ba5ef08595898ad5",
+      "group": "B",
+      "current_inside": [
+        63
+      ],
+      "native_inside": [
+        63,
+        64
+      ],
+      "native_timestamp_ms": [
+        2102.1,
+        2135.4666666666667
+      ],
+      "actual_new_hand_observability": "UNKNOWN_NO_NEW_PERCEPTION",
+      "metadata_only": true
+    },
+    {
+      "review_id": "R06",
+      "sample_id": "asllrp3_261ef7b7731ef7c4",
+      "group": "C",
+      "current_inside": [
+        60
+      ],
+      "native_inside": [
+        60
+      ],
+      "native_timestamp_ms": [
+        2002.0
+      ],
+      "actual_new_hand_observability": "UNKNOWN_NO_NEW_PERCEPTION",
+      "metadata_only": true
+    },
+    {
+      "review_id": "R07",
+      "sample_id": "asllrp3_c255e0bc881edc3d",
+      "group": "A",
+      "current_inside": [],
+      "native_inside": [
+        175
+      ],
+      "native_timestamp_ms": [
+        5839.166666666667
+      ],
+      "actual_new_hand_observability": "UNKNOWN_NO_NEW_PERCEPTION",
+      "metadata_only": true
+    },
+    {
+      "review_id": "R08",
+      "sample_id": "asllrp3_7de3e1853e10841b",
+      "group": "B",
+      "current_inside": [
+        387
+      ],
+      "native_inside": [
+        387,
+        388
+      ],
+      "native_timestamp_ms": [
+        12912.9,
+        12946.266666666666
+      ],
+      "actual_new_hand_observability": "UNKNOWN_NO_NEW_PERCEPTION",
+      "metadata_only": true
+    },
+    {
+      "review_id": "R09",
+      "sample_id": "asllrp3_fd476c9928d0ec59",
+      "group": "C",
+      "current_inside": [
+        300
+      ],
+      "native_inside": [
+        300
+      ],
+      "native_timestamp_ms": [
+        10010.0
+      ],
+      "actual_new_hand_observability": "UNKNOWN_NO_NEW_PERCEPTION",
+      "metadata_only": true
+    },
+    {
+      "review_id": "R10",
+      "sample_id": "asllrp3_6805dc16c3ef4442",
+      "group": "A",
+      "current_inside": [],
+      "native_inside": [
+        32
+      ],
+      "native_timestamp_ms": [
+        1067.7333333333333
+      ],
+      "actual_new_hand_observability": "UNKNOWN_NO_NEW_PERCEPTION",
+      "metadata_only": true
+    },
+    {
+      "review_id": "R11",
+      "sample_id": "asllrp3_1154932b4f4440a4",
+      "group": "B",
+      "current_inside": [
+        18
+      ],
+      "native_inside": [
+        18
+      ],
+      "native_timestamp_ms": [
+        600.6
+      ],
+      "actual_new_hand_observability": "UNKNOWN_NO_NEW_PERCEPTION",
+      "metadata_only": true
+    },
+    {
+      "review_id": "R12",
+      "sample_id": "asllrp3_07c4abd57070cc40",
+      "group": "C",
+      "current_inside": [
+        33
+      ],
+      "native_inside": [
+        33
+      ],
+      "native_timestamp_ms": [
+        1101.1
+      ],
+      "actual_new_hand_observability": "UNKNOWN_NO_NEW_PERCEPTION",
+      "metadata_only": true
+    }
+  ],
+  "current_sampled_fps": 9.99000999000999,
+  "alternative_fps": 29.97002997002997,
+  "features_regenerated": false,
+  "recognition_improvement_tested": false,
+  "qualified_visual_review": "BLOCKED"
+}

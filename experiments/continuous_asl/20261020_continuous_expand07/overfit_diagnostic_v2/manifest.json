@@ -1,0 +1,1104 @@
+[
+  {
+    "database": "ncslgr10a",
+    "export_utterance_id": "1",
+    "participant_source_name": "Benjamin James Bahan",
+    "glosses": [
+      "fs-JOHN",
+      "FINISH",
+      "READ+",
+      "BOOK+"
+    ],
+    "sign_times_original": [
+      [
+        360,
+        560
+      ],
+      [
+        660,
+        720
+      ],
+      [
+        920,
+        1100
+      ],
+      [
+        1240,
+        1400
+      ]
+    ],
+    "source_utterance_bounds_original": [
+      100,
+      1620
+    ],
+    "video_basenames": [
+      "669_474_master_small.mov",
+      "669_474_slave1_small.mov",
+      "669_474_slave2_small.mov"
+    ],
+    "annotation_path": "D:\\apphearv3claude\\AppHear-claude-s2-r3-eval-suite\\AppHear-claude-s2-r3-eval-suite\\experiments\\continuous_asl\\20261020_continuous_expand04\\data\\raw\\bu_signstream\\exports\\669_474.txt",
+    "annotation_sha256": "2ea85d0ea8b2633926263feb4f3f1d1613318343b2caaca2c1c0d34bb63d676f",
+    "annotation_format": "SIGNSTREAM_TEXT_EXPORT_VERSION5_CA2002",
+    "time_units": "LEGACY_SOURCE_FRAME_COORDINATES_UNCALIBRATED_TO_CURRENT_CONTAINER; preserve integers; no conversion or boundary evaluation",
+    "sample_id": "ncslgr_d9ecd1ee55ecb558",
+    "collection": "ncslgr10a.xml",
+    "utterance_id": "0",
+    "source_group": "474",
+    "source_url": "https://csr.bu.edu/asl/private/compressed/master/669_474_small_0.mov",
+    "source_url_original": "http://csr.bu.edu/asl/private/compressed/master/669_474_small_0.mov",
+    "gloss_text": "fs-JOHN FINISH READ+ BOOK+",
+    "dataset": "NCSLGR",
+    "signer_id": "ncslgr_participant_439e92da28e72cc2",
+    "annotation_type": "AUTHENTIC_STRUCTURED_MAIN_GLOSS_EVENTS_MATCHING_OFFICIAL_INDEX",
+    "annotation_provenance": {
+      "index_path": "D:\\apphearv3claude\\AppHear-claude-s2-r3-eval-suite\\AppHear-claude-s2-r3-eval-suite\\experiments\\continuous_asl\\20261019T155428Z_cslr01\\data\\extracted\\ncslgr_video_index\\video_index-20120129\\files_by_xml_file.csv",
+      "index_sha256": "8b1dfa8f58da82272c475263f65f30f9d41be03bf523fc70d6e5820d17e7cc63",
+      "source_row": 1289,
+      "export_source_url": "https://www.bu.edu/asllrp/cslgr/pages/sstxt/669_474",
+      "ID_note": "Legacy export ID and current index ID preserved separately; join uses exact media basename+collection+gloss, never inferred offset.",
+      "official_index": "D:\\apphearv3claude\\AppHear-claude-s2-r3-eval-suite\\AppHear-claude-s2-r3-eval-suite\\experiments\\continuous_asl\\20261019T155428Z_cslr01\\data\\extracted\\ncslgr_video_index\\video_index-20120129\\files_by_xml_file.csv"
+    },
+    "license_status": "BU_PRIVATE_NONCOMMERCIAL_RESEARCH_TERMS_REVIEWED",
+    "license_reference": "https://www.bu.edu/asllrp/dai-terms.html",
+    "video_path": "D:\\apphearv3claude\\AppHear-claude-s2-r3-eval-suite\\AppHear-claude-s2-r3-eval-suite\\experiments\\continuous_asl\\20261020_continuous_expand04\\data\\raw\\ncslgr_structured\\videos\\ncslgr_d9ecd1ee55ecb558.mov",
+    "split": "train",
+    "new_raw_required": true,
+    "new_in_catalog_v2": true,
+    "preprocessing_status": "PASS",
+    "feature_path": "D:\\apphearv3claude\\AppHear-claude-s2-r3-eval-suite\\AppHear-claude-s2-r3-eval-suite\\experiments\\continuous_asl\\20261020_continuous_expand04\\data\\processed\\index_v2\\ncslgr_d9ecd1ee55ecb558.features.npz",
+    "feature_sha256": "35e230c53c4d5029e0aed1fdc43fee630ab61c94862931c1f54ca54a7505cdfd",
+    "raw_sha256": "475e88a6bbeb4fa40207806be0a1b24072f1edd2df2787b9ce812e29ed41d18a",
+    "bytes": 213497,
+    "decoded_frames": 91,
+    "observations": 31,
+    "decoded_pixel_sha256": "9291b6c401853899415e840c45687308550935b9eb178dc8b3fa6d173567e7d2",
+    "dimensions": [
+      324,
+      312
+    ],
+    "native_fps": 30.0,
+    "preprocessing_evidence": "NEW_FULL_DECODE_AND_FEATURES",
+    "cache_origin": null,
+    "unique_valid": true,
+    "exclusion_reason": null,
+    "catalog_role": "TRAIN_POOL_NEW_FIT",
+    "schema_version": "apphear.continuous_asl.candidate01_causal378.v1",
+    "source_video_sha256": "475e88a6bbeb4fa40207806be0a1b24072f1edd2df2787b9ce812e29ed41d18a",
+    "reuse_feature_cache": true
+  },
+  {
+    "sample_id": "ncslgr_95c2c72d6aa30c32",
+    "dataset": "NCSLGR",
+    "collection": "ncslgr10a.xml",
+    "utterance_id": "8",
+    "source_group": "482",
+    "source_url": "https://csr.bu.edu/asl/private/compressed/master/681_482_small_0.mov",
+    "source_url_original": "http://csr.bu.edu/asl/private/compressed/master/681_482_small_0.mov",
+    "gloss_text": "THAT:i BOOK IX-loc:i HOLD fs-JOHN FINISH READ YESTERDAY HOLD",
+    "glosses": [
+      "THAT:i",
+      "BOOK",
+      "IX-loc:i",
+      "HOLD",
+      "fs-JOHN",
+      "FINISH",
+      "READ",
+      "YESTERDAY",
+      "HOLD"
+    ],
+    "annotation_type": "AUTHENTIC_INDEX_MAIN_GLOSS_TOKEN_SEQUENCE_INCLUDING_FS_WORDS",
+    "annotation_provenance": {
+      "official_index": "D:\\apphearv3claude\\AppHear-claude-s2-r3-eval-suite\\AppHear-claude-s2-r3-eval-suite\\experiments\\continuous_asl\\20261019T155428Z_cslr01\\data\\extracted\\ncslgr_video_index\\video_index-20120129\\files_by_xml_file.csv",
+      "index_sha256": "8b1dfa8f58da82272c475263f65f30f9d41be03bf523fc70d6e5820d17e7cc63",
+      "source_row": 1325
+    },
+    "new_raw_required": true,
+    "video_path": "D:\\apphearv3claude\\AppHear-claude-s2-r3-eval-suite\\AppHear-claude-s2-r3-eval-suite\\experiments\\continuous_asl\\20261020_continuous_expand04\\data\\raw\\ncslgr_index_v2\\videos\\ncslgr_95c2c72d6aa30c32.mov",
+    "signer_id": null,
+    "sign_times_original": null,
+    "time_units": "UNAVAILABLE_IN_INDEX",
+    "license_status": "BU_PRIVATE_NONCOMMERCIAL_RESEARCH_TERMS_REVIEWED",
+    "license_reference": "https://www.bu.edu/asllrp/dai-terms.html",
+    "split": "train",
+    "new_in_catalog_v2": true,
+    "preprocessing_status": "PASS",
+    "feature_path": "D:\\apphearv3claude\\AppHear-claude-s2-r3-eval-suite\\AppHear-claude-s2-r3-eval-suite\\experiments\\continuous_asl\\20261020_continuous_expand04\\data\\processed\\index_v2\\ncslgr_95c2c72d6aa30c32.features.npz",
+    "feature_sha256": "65d358930c9937338005a7a95f73731af2c13141af7073c0e96c59886572a53d",
+    "raw_sha256": "a6a158d3fb05e7a3cd9ad6a7caa2506de7e50819bbfc3867f116f1f56eea6b61",
+    "bytes": 243313,
+    "decoded_frames": 112,
+    "observations": 38,
+    "decoded_pixel_sha256": "fab4bbc84fb3282850a7af96b53f32cc6cb5b8350ba40c2354d53d0e1925dda6",
+    "dimensions": [
+      324,
+      312
+    ],
+    "native_fps": 30.0,
+    "preprocessing_evidence": "NEW_FULL_DECODE_AND_FEATURES",
+    "cache_origin": null,
+    "unique_valid": true,
+    "exclusion_reason": null,
+    "catalog_role": "TRAIN_POOL_NEW_FIT",
+    "schema_version": "apphear.continuous_asl.candidate01_causal378.v1",
+    "source_video_sha256": "a6a158d3fb05e7a3cd9ad6a7caa2506de7e50819bbfc3867f116f1f56eea6b61",
+    "reuse_feature_cache": true
+  },
+  {
+    "sample_id": "ncslgr_00cfa58ebff1f267",
+    "dataset": "NCSLGR",
+    "collection": "siblings.xml",
+    "utterance_id": "27",
+    "source_group": "1066",
+    "source_url": "https://csr.bu.edu/asl/private/downloads/2001_8_17/master/Siblings_1066_small_0.mov",
+    "glosses": [
+      "IX-1p",
+      "SLEEP",
+      "IN",
+      "fs-CRIB",
+      "DCL:4\"crib\"",
+      "HOLD"
+    ],
+    "gloss_text": "IX-1p SLEEP IN fs-CRIB DCL:4\"crib\" HOLD",
+    "start_ms": 65433,
+    "end_ms": 67733,
+    "sign_times_ms": [
+      [
+        65466,
+        65533
+      ],
+      [
+        65700,
+        65800
+      ],
+      [
+        65900,
+        65966
+      ],
+      [
+        66066,
+        66800
+      ],
+      [
+        67000,
+        67400
+      ],
+      [
+        67000,
+        67733
+      ]
+    ],
+    "annotation_event_ids": [
+      "a2901",
+      "a2902",
+      "a2903",
+      "a2904",
+      "a2905",
+      "a2906"
+    ],
+    "utterance_span_event_id": "a3237",
+    "annotation_type": "AUTHENTIC_ELAN_MAIN_GLOSS_EVENTS_EXACTLY_MATCHED_TO_OFFICIAL_INDEX",
+    "annotation_provenance": {
+      "archive_path": "D:\\apphearv3claude\\AppHear-claude-s2-r3-eval-suite\\AppHear-claude-s2-r3-eval-suite\\experiments\\continuous_asl\\20261020_continuous_expand06\\data\\raw\\depaul\\elanBUcorpus.zip",
+      "archive_sha256": "7e2a49cfec0d2d39a933df1c20e1f1f79f30bca70974b1f65ef05a0df99f2949",
+      "member": "elanBUcorpus/siblings_siblings_1066_small_0.eaf",
+      "member_sha256": "9eaeda5fc469a37695c553684af7740ddca0cd2567c31c8f53f8cb11beb0119e",
+      "eaf_version": "2.7",
+      "time_units": "milliseconds",
+      "media_descriptor": {
+        "MEDIA_URL": "file:///C:/data/ASL/elan-signStream/video/Siblings_1066_small_0.mov",
+        "MIME_TYPE": "video/quicktime",
+        "RELATIVE_MEDIA_URL": "../video/Siblings_1066_small_0.mov"
+      },
+      "index_path": "D:\\apphearv3claude\\AppHear-claude-s2-r3-eval-suite\\AppHear-claude-s2-r3-eval-suite\\experiments\\continuous_asl\\20261019T155428Z_cslr01\\data\\extracted\\ncslgr_video_index\\video_index-20120129\\files_by_xml_file.csv",
+      "index_sha256": "8b1dfa8f58da82272c475263f65f30f9d41be03bf523fc70d6e5820d17e7cc63",
+      "source_row": 4449,
+      "English_translation_used_as_gloss": false,
+      "span_source": "Publisher-aligned utterance span from English translation tier; target values exclusively main gloss"
+    },
+    "existing_verified_utterance": false,
+    "requires_temporal_slice": true,
+    "source_file_utterance_count": 66,
+    "signer_id": null,
+    "license_status": "BU_RESEARCH_TERMS_WITH_OFFICIAL_DEPAUL_CONVERSION_ATTRIBUTION",
+    "license_reference": "https://www.bu.edu/asllrp/dai-terms.html",
+    "role": "NEW_RESEARCH_TRAIN_CANDIDATE",
+    "split": "train",
+    "video_path": "D:\\apphearv3claude\\AppHear-claude-s2-r3-eval-suite\\AppHear-claude-s2-r3-eval-suite\\experiments\\continuous_asl\\20261020_continuous_expand06\\data\\raw\\ncslgr_media\\5d913396464ead9cc4c2.mov",
+    "raw_sha256": "4f1eff5053a062d95a3525f0d0468feb428d123bf2d8d513a7a3f9d90532ebbf",
+    "feature_path": "D:\\apphearv3claude\\AppHear-claude-s2-r3-eval-suite\\AppHear-claude-s2-r3-eval-suite\\experiments\\continuous_asl\\20261020_continuous_expand06\\data\\processed\\timed\\ncslgr_00cfa58ebff1f267.features.npz",
+    "feature_sha256": "a02add51283ca9daeb8d134fbe61fbbf512e0d4f2ed3764da63285d70b1b1b61",
+    "observations": 23,
+    "decoded_frames": 5283,
+    "source_decoded_pixel_sha256": "2844d26a32705ef117068d438009a5a468d0b67fac3f362f7e3ac8de33a20b79",
+    "decoded_segment_observation_sha256": "f75496a89919936a16b5aad776e70bee25f37bd9905aadef7e342ac83e1b9ae8",
+    "source_cache": "D:\\apphearv3claude\\AppHear-claude-s2-r3-eval-suite\\AppHear-claude-s2-r3-eval-suite\\experiments\\continuous_asl\\20261020_continuous_expand06\\data\\processed\\source_cache\\5d913396464ead9cc4c2.raw.json",
+    "preprocessing_status": "PASS",
+    "unique_valid": true,
+    "cadence_max_hz": 10,
+    "timestamp_sources": [
+      "CONTAINER_POS_MSEC"
+    ],
+    "alignment_scope": "Publisher EAF millisecond origin matches header; all spans fit fully decoded media; no speed scaling. Independent visual alignment not audited."
+  },
+  {
+    "sample_id": "ncslgr_012cff1af527c209",
+    "dataset": "NCSLGR",
+    "collection": "ncslgr10g.xml",
+    "utterance_id": "0",
+    "source_group": "548",
+    "source_url": "https://csr.bu.edu/asl/private/compressed/master/548_small_0.mov",
+    "glosses": [
+      "fs-JOHN",
+      "IN",
+      "IX-3p:i",
+      "HOUSE",
+      "IX-loc:i",
+      "NOW",
+      "IX-loc:i",
+      "IX-3p:j",
+      "READ+",
+      "BOOK",
+      "IX-3p:i"
+    ],
+    "gloss_text": "fs-JOHN IN IX-3p:i HOUSE IX-loc:i NOW IX-loc:i IX-3p:j READ+ BOOK IX-3p:i",
+    "start_ms": 0,
+    "end_ms": 4600,
+    "sign_times_ms": [
+      [
+        566,
+        933
+      ],
+      [
+        1233,
+        1333
+      ],
+      [
+        1500,
+        1533
+      ],
+      [
+        1700,
+        1833
+      ],
+      [
+        1933,
+        2166
+      ],
+      [
+        2400,
+        2466
+      ],
+      [
+        2633,
+        2700
+      ],
+      [
+        2933,
+        2966
+      ],
+      [
+        3166,
+        3533
+      ],
+      [
+        3600,
+        3766
+      ],
+      [
+        3933,
+        4233
+      ]
+    ],
+    "annotation_event_ids": [
+      "a275",
+      "a276",
+      "a277",
+      "a278",
+      "a279",
+      "a280",
+      "a281",
+      "a282",
+      "a283",
+      "a284",
+      "a285"
+    ],
+    "utterance_span_event_id": "a322",
+    "annotation_type": "AUTHENTIC_ELAN_MAIN_GLOSS_EVENTS_EXACTLY_MATCHED_TO_OFFICIAL_INDEX",
+    "annotation_provenance": {
+      "archive_path": "D:\\apphearv3claude\\AppHear-claude-s2-r3-eval-suite\\AppHear-claude-s2-r3-eval-suite\\experiments\\continuous_asl\\20261020_continuous_expand06\\data\\raw\\depaul\\elanBUcorpus.zip",
+      "archive_sha256": "7e2a49cfec0d2d39a933df1c20e1f1f79f30bca70974b1f65ef05a0df99f2949",
+      "member": "elanBUcorpus/ncslgr10g_548_slave2_small.eaf",
+      "member_sha256": "412f18b2fa5482b4054ca4c5e670a673c97c2ffcebc7367efe1e42156b48178f",
+      "eaf_version": "2.7",
+      "time_units": "milliseconds",
+      "media_descriptor": {
+        "MEDIA_URL": "file:///C:/data/ASL/elan-signStream/video/548_small_0.mov",
+        "MIME_TYPE": "video/quicktime",
+        "RELATIVE_MEDIA_URL": "../video/548_small_0.mov"
+      },
+      "index_path": "D:\\apphearv3claude\\AppHear-claude-s2-r3-eval-suite\\AppHear-claude-s2-r3-eval-suite\\experiments\\continuous_asl\\20261019T155428Z_cslr01\\data\\extracted\\ncslgr_video_index\\video_index-20120129\\files_by_xml_file.csv",
+      "index_sha256": "8b1dfa8f58da82272c475263f65f30f9d41be03bf523fc70d6e5820d17e7cc63",
+      "source_row": 2045,
+      "English_translation_used_as_gloss": false,
+      "span_source": "Publisher-aligned utterance span from English translation tier; target values exclusively main gloss"
+    },
+    "existing_verified_utterance": false,
+    "requires_temporal_slice": true,
+    "source_file_utterance_count": 7,
+    "signer_id": null,
+    "license_status": "BU_RESEARCH_TERMS_WITH_OFFICIAL_DEPAUL_CONVERSION_ATTRIBUTION",
+    "license_reference": "https://www.bu.edu/asllrp/dai-terms.html",
+    "role": "NEW_RESEARCH_TRAIN_CANDIDATE",
+    "split": "train",
+    "video_path": "D:\\apphearv3claude\\AppHear-claude-s2-r3-eval-suite\\AppHear-claude-s2-r3-eval-suite\\experiments\\continuous_asl\\20261020_continuous_expand06\\data\\raw\\ncslgr_media\\22f9889d78743409e7a1.mov",
+    "raw_sha256": "91d468641ceb36b7402d75e8f3b859018af2378ce2c7bdca0a0916015cf4c1e6",
+    "feature_path": "D:\\apphearv3claude\\AppHear-claude-s2-r3-eval-suite\\AppHear-claude-s2-r3-eval-suite\\experiments\\continuous_asl\\20261020_continuous_expand06\\data\\processed\\timed\\ncslgr_012cff1af527c209.features.npz",
+    "feature_sha256": "11da689c3ad9a693bb0180c1f12329ba6f383f140cced0139589fa3b3e709945",
+    "observations": 46,
+    "decoded_frames": 734,
+    "source_decoded_pixel_sha256": "edf616565340febfabd82a672c9bee6a411fb35134878adf72484ad7d63efa44",
+    "decoded_segment_observation_sha256": "9855879435eaad2d0888af0e08db9d8d15a05f31f153bb61e16869721d5146b7",
+    "source_cache": "D:\\apphearv3claude\\AppHear-claude-s2-r3-eval-suite\\AppHear-claude-s2-r3-eval-suite\\experiments\\continuous_asl\\20261020_continuous_expand06\\data\\processed\\source_cache\\22f9889d78743409e7a1.raw.json",
+    "preprocessing_status": "PASS",
+    "unique_valid": true,
+    "cadence_max_hz": 10,
+    "timestamp_sources": [
+      "CONTAINER_POS_MSEC"
+    ],
+    "alignment_scope": "Publisher EAF millisecond origin matches header; all spans fit fully decoded media; no speed scaling. Independent visual alignment not audited."
+  },
+  {
+    "sample_id": "ncslgr_068242cdb83df680",
+    "dataset": "NCSLGR",
+    "collection": "three pigs.xml",
+    "utterance_id": "9",
+    "source_group": "443",
+    "source_url": "https://csr.bu.edu/asl/private/downloads/2001_9_19/master/ben_story_443_small_0.mov",
+    "glosses": [
+      "POSS-2p:k",
+      "POSS-1p",
+      "HOLD",
+      "HOUSE",
+      "SET-UP:k",
+      "SET-UP:m",
+      "SET-UP:l",
+      "HOLD",
+      "PROCEED"
+    ],
+    "gloss_text": "POSS-2p:k POSS-1p HOLD HOUSE SET-UP:k SET-UP:m SET-UP:l HOLD PROCEED",
+    "start_ms": 23400,
+    "end_ms": 26500,
+    "sign_times_ms": [
+      [
+        23733,
+        24033
+      ],
+      [
+        24233,
+        24466
+      ],
+      [
+        24233,
+        24766
+      ],
+      [
+        24933,
+        25133
+      ],
+      [
+        25466,
+        25533
+      ],
+      [
+        25566,
+        25733
+      ],
+      [
+        25766,
+        25933
+      ],
+      [
+        25766,
+        26166
+      ],
+      [
+        26333,
+        26500
+      ]
+    ],
+    "annotation_event_ids": [
+      "a2209",
+      "a2210",
+      "a2211",
+      "a2212",
+      "a2213",
+      "a2214",
+      "a2215",
+      "a2216",
+      "a2217"
+    ],
+    "utterance_span_event_id": "a2510",
+    "annotation_type": "AUTHENTIC_ELAN_MAIN_GLOSS_EVENTS_EXACTLY_MATCHED_TO_OFFICIAL_INDEX",
+    "annotation_provenance": {
+      "archive_path": "D:\\apphearv3claude\\AppHear-claude-s2-r3-eval-suite\\AppHear-claude-s2-r3-eval-suite\\experiments\\continuous_asl\\20261020_continuous_expand06\\data\\raw\\depaul\\elanBUcorpus.zip",
+      "archive_sha256": "7e2a49cfec0d2d39a933df1c20e1f1f79f30bca70974b1f65ef05a0df99f2949",
+      "member": "elanBUcorpus/three pigs_ben_story_443_small_3.eaf",
+      "member_sha256": "07ecd5595bd186ca0ead737a610e6748f16088850d3c3b3df2c95d001d9e5ee7",
+      "eaf_version": "2.7",
+      "time_units": "milliseconds",
+      "media_descriptor": {
+        "MEDIA_URL": "file:///C:/data/ASL/elan-signStream/video/ben_story_443_small_0.mov",
+        "MIME_TYPE": "video/quicktime",
+        "RELATIVE_MEDIA_URL": "../video/ben_story_443_small_0.mov"
+      },
+      "index_path": "D:\\apphearv3claude\\AppHear-claude-s2-r3-eval-suite\\AppHear-claude-s2-r3-eval-suite\\experiments\\continuous_asl\\20261019T155428Z_cslr01\\data\\extracted\\ncslgr_video_index\\video_index-20120129\\files_by_xml_file.csv",
+      "index_sha256": "8b1dfa8f58da82272c475263f65f30f9d41be03bf523fc70d6e5820d17e7cc63",
+      "source_row": 4759,
+      "English_translation_used_as_gloss": false,
+      "span_source": "Publisher-aligned utterance span from English translation tier; target values exclusively main gloss"
+    },
+    "existing_verified_utterance": false,
+    "requires_temporal_slice": true,
+    "source_file_utterance_count": 50,
+    "signer_id": null,
+    "license_status": "BU_RESEARCH_TERMS_WITH_OFFICIAL_DEPAUL_CONVERSION_ATTRIBUTION",
+    "license_reference": "https://www.bu.edu/asllrp/dai-terms.html",
+    "role": "NEW_RESEARCH_TRAIN_CANDIDATE",
+    "split": "train",
+    "video_path": "D:\\apphearv3claude\\AppHear-claude-s2-r3-eval-suite\\AppHear-claude-s2-r3-eval-suite\\experiments\\continuous_asl\\20261020_continuous_expand06\\data\\raw\\ncslgr_media\\7d710fc45df9edcb9357.mov",
+    "raw_sha256": "b762adc063b0e3b23259db89a6f51967a40094b0c399576dff47dac47af0f557",
+    "feature_path": "D:\\apphearv3claude\\AppHear-claude-s2-r3-eval-suite\\AppHear-claude-s2-r3-eval-suite\\experiments\\continuous_asl\\20261020_continuous_expand06\\data\\processed\\timed\\ncslgr_068242cdb83df680.features.npz",
+    "feature_sha256": "c86e9526e936b5f84f7ab3843d889c84a5fd8bcf50bd392b15f0c6946603e17b",
+    "observations": 31,
+    "decoded_frames": 4611,
+    "source_decoded_pixel_sha256": "6da1a4c6dcffb68233e7dccd14faa85a18b8ac9d3c23fd36c01c4ce4ba470161",
+    "decoded_segment_observation_sha256": "56da37a77fad115e507379003c5fead5fe4ea7b7d1f339025e88e696dc839f45",
+    "source_cache": "D:\\apphearv3claude\\AppHear-claude-s2-r3-eval-suite\\AppHear-claude-s2-r3-eval-suite\\experiments\\continuous_asl\\20261020_continuous_expand06\\data\\processed\\source_cache\\7d710fc45df9edcb9357.raw.json",
+    "preprocessing_status": "PASS",
+    "unique_valid": true,
+    "cadence_max_hz": 10,
+    "timestamp_sources": [
+      "CONTAINER_POS_MSEC"
+    ],
+    "alignment_scope": "Publisher EAF millisecond origin matches header; all spans fit fully decoded media; no speed scaling. Independent visual alignment not audited."
+  },
+  {
+    "sample_id": "asllrp3_f182e6fd05424c68",
+    "dataset": "ASLLRP_SIGNSTREAM3_2025",
+    "collection": "Cory_2013-6-25_sc0106",
+    "utterance_id": "3",
+    "source_group": "2013-06-25_CB_0106-cam1-for-ss3.mp4",
+    "signer_id": null,
+    "split": "train",
+    "utterance_filename": "98857459.mp4",
+    "utterance_start_frame_master": 364,
+    "utterance_end_frame_master": 447,
+    "glosses": [
+      "IX-1p",
+      "BORN",
+      "IX-loc:i",
+      "ns-#FLA"
+    ],
+    "events": [
+      {
+        "source_row": 19,
+        "event_id": "341003",
+        "label": "IX-1p",
+        "start_frame_master": 378,
+        "end_frame_master": 381,
+        "hidden": false
+      },
+      {
+        "source_row": 20,
+        "event_id": "341004",
+        "label": "BORN",
+        "start_frame_master": 389,
+        "end_frame_master": 396,
+        "hidden": false
+      },
+      {
+        "source_row": 21,
+        "event_id": "341005",
+        "label": "IX-loc:i",
+        "start_frame_master": 406,
+        "end_frame_master": 411,
+        "hidden": false
+      },
+      {
+        "source_row": 22,
+        "event_id": "341006",
+        "label": "ns-#FLA",
+        "start_frame_master": 421,
+        "end_frame_master": 436,
+        "hidden": false
+      }
+    ],
+    "annotation_type": "AUTHENTIC_PUBLISHED_DOMINANT_HAND_OCCURRENCE_EVENTS",
+    "annotation_provenance": {
+      "csv_path": "D:\\apphearv3claude\\AppHear-claude-s2-r3-eval-suite\\AppHear-claude-s2-r3-eval-suite\\experiments\\continuous_asl\\20261020_continuous_expand06\\data\\raw\\asllrp2025\\asllrp_sentence_signs_2025_06_28.csv",
+      "csv_sha256": "9c1641b6b95a6e6c2223c34eb101ed2e83bb1da824e18c7a21791c59b1593e86",
+      "source_rows": [
+        19,
+        20,
+        21,
+        22
+      ],
+      "target_column": "Occurrence label",
+      "order": "verified master frame start; retain hidden events, compounds and full literal labels",
+      "frame_rate_reference": "https://www.bu.edu/asllrp/rpt24/asllrpr24.pdf",
+      "hand_scope_reference": "https://dai.cs.rutgers.edu/asllvd/signbank/Additional-information-6-29-25.pdf",
+      "excluded_nondominant_only_events": "Publisher CSV omits these; never invent missing labels",
+      "English_translation_used_as_gloss": false
+    },
+    "license_status": "PRIVATE_NONCOMMERCIAL_RESEARCH_ONLY_NO_REDISTRIBUTION",
+    "license_reference": "https://www.bu.edu/asllrp/dai-terms.html",
+    "timing_status": "EXACT_INCLUSIVE_MASTER_FRAME_SPAN_AND_29.97FPS_MEDIA_COUNT_JOIN; NO_OFFSET_SCALING; VISUAL_ALIGNMENT_NOT_INDEPENDENTLY_AUDITED",
+    "signer_independent": false,
+    "video_path": "D:\\apphearv3claude\\AppHear-claude-s2-r3-eval-suite\\AppHear-claude-s2-r3-eval-suite\\experiments\\continuous_asl\\20261020_continuous_expand06\\data\\raw\\asllrp2025\\utterances\\98857459.mp4",
+    "raw_sha256": "0abf8b5f99637e34d3432df39e99535c5cad36bd6b347b873aee41ea2b5230c3",
+    "bytes": 437676,
+    "media_provenance": {
+      "official_archive_url": "https://dai.cs.rutgers.edu/asllvd/signbank/asllrp_videos/batch_utterance_video_v3_1.zip",
+      "archive_sha256": "e021e4814703ecf3fd3342f32c7a2112b0040921d10f8c4b625caa8c9f2a4b32",
+      "member": "98857459.mp4",
+      "crc32": 3125214598
+    },
+    "media_status": "CRC_VERIFIED_NOT_YET_DECODED",
+    "feature_path": "D:\\apphearv3claude\\AppHear-claude-s2-r3-eval-suite\\AppHear-claude-s2-r3-eval-suite\\experiments\\continuous_asl\\20261020_continuous_expand06\\data\\processed\\asllrp2025\\asllrp3_f182e6fd05424c68.features.npz",
+    "feature_sha256": "8f915df3e62ac28c07f6b635dda64629e1d5e4823861faa33ebfb95c2e59dee4",
+    "decoded_pixel_sha256": "70125db6e33f966f31fd32f4956abedca2c4fa413ca080067b889324518eae7f",
+    "observations": 28,
+    "decoded_frames": 84,
+    "native_fps": 29.97002997002997,
+    "dimensions": [
+      1280,
+      720
+    ],
+    "timestamp_sources": [
+      "CONTAINER_POS_MSEC"
+    ],
+    "max_pts_frame_error_ms": 4.547473508864641e-13,
+    "individual_sign_times_ms": [
+      [
+        467.1333333333333,
+        600.6
+      ],
+      [
+        834.1666666666666,
+        1101.1
+      ],
+      [
+        1401.4,
+        1601.6000000000001
+      ],
+      [
+        1901.9,
+        2435.766666666667
+      ]
+    ],
+    "preprocessing_status": "PASS",
+    "unique_valid": true,
+    "cadence_max_hz": 10,
+    "extraction_ms_sum": 1052.278799994383,
+    "extraction_ms_p50": 34.23320000001695,
+    "extraction_ms_p95": 52.14852001518011,
+    "preprocessing_seconds": 2.572588800016092,
+    "hand_observed_fraction": [
+      0.10714285714285714,
+      0.5714285714285714
+    ],
+    "body_available_fraction": 0.9285714285714286
+  },
+  {
+    "sample_id": "asllrp3_9f73cae90600b643",
+    "dataset": "ASLLRP_SIGNSTREAM3_2025",
+    "collection": "Rachel_2012-02-14_sc66",
+    "utterance_id": "1",
+    "source_group": "2012-02-14_0066-cam1-for-ss3.mp4",
+    "signer_id": null,
+    "split": "train",
+    "utterance_filename": "25317.mp4",
+    "utterance_start_frame_master": 4,
+    "utterance_end_frame_master": 284,
+    "glosses": [
+      "IX-2p",
+      "IX-1p",
+      "FUTURE",
+      "TALK+",
+      "ABOUT",
+      "IX-3p:i",
+      "EARLY_2",
+      "INCLUDE/INVOLVE",
+      "fs-FIELD",
+      "SELF-3p+:j",
+      "HOW",
+      "IX-3p:j",
+      "HOSPITAL",
+      "5\\hesitation\\\"\"",
+      "INFORM:j",
+      "MOTHER+FATHER",
+      "ABOUT",
+      "IX-3p:i",
+      "KID",
+      "DEAF",
+      "(1h)part:indef"
+    ],
+    "events": [
+      {
+        "source_row": 351,
+        "event_id": "341364",
+        "label": "IX-2p",
+        "start_frame_master": 18,
+        "end_frame_master": 18,
+        "hidden": false
+      },
+      {
+        "source_row": 352,
+        "event_id": "341365",
+        "label": "IX-1p",
+        "start_frame_master": 25,
+        "end_frame_master": 26,
+        "hidden": false
+      },
+      {
+        "source_row": 353,
+        "event_id": "341366",
+        "label": "FUTURE",
+        "start_frame_master": 35,
+        "end_frame_master": 39,
+        "hidden": false
+      },
+      {
+        "source_row": 354,
+        "event_id": "341367",
+        "label": "TALK+",
+        "start_frame_master": 41,
+        "end_frame_master": 47,
+        "hidden": false
+      },
+      {
+        "source_row": 355,
+        "event_id": "341368",
+        "label": "ABOUT",
+        "start_frame_master": 50,
+        "end_frame_master": 60,
+        "hidden": false
+      },
+      {
+        "source_row": 356,
+        "event_id": "341369",
+        "label": "IX-3p:i",
+        "start_frame_master": 67,
+        "end_frame_master": 67,
+        "hidden": false
+      },
+      {
+        "source_row": 357,
+        "event_id": "341370",
+        "label": "EARLY_2",
+        "start_frame_master": 72,
+        "end_frame_master": 78,
+        "hidden": false
+      },
+      {
+        "source_row": 358,
+        "event_id": "341371",
+        "label": "INCLUDE/INVOLVE",
+        "start_frame_master": 82,
+        "end_frame_master": 90,
+        "hidden": false
+      },
+      {
+        "source_row": 359,
+        "event_id": "341372",
+        "label": "fs-FIELD",
+        "start_frame_master": 96,
+        "end_frame_master": 113,
+        "hidden": false
+      },
+      {
+        "source_row": 360,
+        "event_id": "341373",
+        "label": "SELF-3p+:j",
+        "start_frame_master": 118,
+        "end_frame_master": 125,
+        "hidden": true
+      },
+      {
+        "source_row": 361,
+        "event_id": "341374",
+        "label": "HOW",
+        "start_frame_master": 133,
+        "end_frame_master": 140,
+        "hidden": false
+      },
+      {
+        "source_row": 362,
+        "event_id": "341375",
+        "label": "IX-3p:j",
+        "start_frame_master": 151,
+        "end_frame_master": 153,
+        "hidden": false
+      },
+      {
+        "source_row": 363,
+        "event_id": "341376",
+        "label": "HOSPITAL",
+        "start_frame_master": 158,
+        "end_frame_master": 167,
+        "hidden": false
+      },
+      {
+        "source_row": 364,
+        "event_id": "341377",
+        "label": "5\\hesitation\\\"\"",
+        "start_frame_master": 191,
+        "end_frame_master": 194,
+        "hidden": false
+      },
+      {
+        "source_row": 365,
+        "event_id": "341378",
+        "label": "INFORM:j",
+        "start_frame_master": 204,
+        "end_frame_master": 211,
+        "hidden": false
+      },
+      {
+        "source_row": 366,
+        "event_id": "341381",
+        "label": "MOTHER+FATHER",
+        "start_frame_master": 218,
+        "end_frame_master": 228,
+        "hidden": false
+      },
+      {
+        "source_row": 367,
+        "event_id": "341382",
+        "label": "ABOUT",
+        "start_frame_master": 235,
+        "end_frame_master": 242,
+        "hidden": false
+      },
+      {
+        "source_row": 368,
+        "event_id": "341383",
+        "label": "IX-3p:i",
+        "start_frame_master": 250,
+        "end_frame_master": 250,
+        "hidden": false
+      },
+      {
+        "source_row": 369,
+        "event_id": "341384",
+        "label": "KID",
+        "start_frame_master": 257,
+        "end_frame_master": 260,
+        "hidden": false
+      },
+      {
+        "source_row": 370,
+        "event_id": "341385",
+        "label": "DEAF",
+        "start_frame_master": 265,
+        "end_frame_master": 273,
+        "hidden": false
+      },
+      {
+        "source_row": 371,
+        "event_id": "341386",
+        "label": "(1h)part:indef",
+        "start_frame_master": 278,
+        "end_frame_master": 283,
+        "hidden": false
+      }
+    ],
+    "annotation_type": "AUTHENTIC_PUBLISHED_DOMINANT_HAND_OCCURRENCE_EVENTS",
+    "annotation_provenance": {
+      "csv_path": "D:\\apphearv3claude\\AppHear-claude-s2-r3-eval-suite\\AppHear-claude-s2-r3-eval-suite\\experiments\\continuous_asl\\20261020_continuous_expand06\\data\\raw\\asllrp2025\\asllrp_sentence_signs_2025_06_28.csv",
+      "csv_sha256": "9c1641b6b95a6e6c2223c34eb101ed2e83bb1da824e18c7a21791c59b1593e86",
+      "source_rows": [
+        351,
+        352,
+        353,
+        354,
+        355,
+        356,
+        357,
+        358,
+        359,
+        360,
+        361,
+        362,
+        363,
+        364,
+        365,
+        366,
+        367,
+        368,
+        369,
+        370,
+        371
+      ],
+      "target_column": "Occurrence label",
+      "order": "verified master frame start; retain hidden events, compounds and full literal labels",
+      "frame_rate_reference": "https://www.bu.edu/asllrp/rpt24/asllrpr24.pdf",
+      "hand_scope_reference": "https://dai.cs.rutgers.edu/asllvd/signbank/Additional-information-6-29-25.pdf",
+      "excluded_nondominant_only_events": "Publisher CSV omits these; never invent missing labels",
+      "English_translation_used_as_gloss": false
+    },
+    "license_status": "PRIVATE_NONCOMMERCIAL_RESEARCH_ONLY_NO_REDISTRIBUTION",
+    "license_reference": "https://www.bu.edu/asllrp/dai-terms.html",
+    "timing_status": "EXACT_INCLUSIVE_MASTER_FRAME_SPAN_AND_29.97FPS_MEDIA_COUNT_JOIN; NO_OFFSET_SCALING; VISUAL_ALIGNMENT_NOT_INDEPENDENTLY_AUDITED",
+    "signer_independent": false,
+    "video_path": "D:\\apphearv3claude\\AppHear-claude-s2-r3-eval-suite\\AppHear-claude-s2-r3-eval-suite\\experiments\\continuous_asl\\20261020_continuous_expand06\\data\\raw\\asllrp2025\\utterances\\25317.mp4",
+    "raw_sha256": "70997ccb0b4cafba2989d0ae399af149a3461026615bf39e91fc1be25175ad2c",
+    "bytes": 1673649,
+    "media_provenance": {
+      "official_archive_url": "https://dai.cs.rutgers.edu/asllvd/signbank/asllrp_videos/batch_utterance_video_v3_1.zip",
+      "archive_sha256": "e021e4814703ecf3fd3342f32c7a2112b0040921d10f8c4b625caa8c9f2a4b32",
+      "member": "25317.mp4",
+      "crc32": 697670737
+    },
+    "media_status": "CRC_VERIFIED_NOT_YET_DECODED",
+    "feature_path": "D:\\apphearv3claude\\AppHear-claude-s2-r3-eval-suite\\AppHear-claude-s2-r3-eval-suite\\experiments\\continuous_asl\\20261020_continuous_expand06\\data\\processed\\asllrp2025\\asllrp3_9f73cae90600b643.features.npz",
+    "feature_sha256": "c92a220184f5fadce09fba1d90876f4ab4b79c5bf7832e55c6abfc5f64bd43ff",
+    "decoded_pixel_sha256": "a325ff2ba436bd75bf22836d1ab93222962cc87c8d7845bef4229c6759662eb2",
+    "observations": 94,
+    "decoded_frames": 281,
+    "native_fps": 29.97002997002997,
+    "dimensions": [
+      1280,
+      960
+    ],
+    "timestamp_sources": [
+      "CONTAINER_POS_MSEC"
+    ],
+    "max_pts_frame_error_ms": 1.8189894035458565e-12,
+    "individual_sign_times_ms": [
+      [
+        467.1333333333333,
+        500.5
+      ],
+      [
+        700.7,
+        767.4333333333334
+      ],
+      [
+        1034.3666666666668,
+        1201.2
+      ],
+      [
+        1234.5666666666666,
+        1468.1333333333334
+      ],
+      [
+        1534.8666666666668,
+        1901.9
+      ],
+      [
+        2102.1,
+        2135.4666666666667
+      ],
+      [
+        2268.9333333333334,
+        2502.5
+      ],
+      [
+        2602.6,
+        2902.9
+      ],
+      [
+        3069.7333333333336,
+        3670.3333333333335
+      ],
+      [
+        3803.8,
+        4070.7333333333336
+      ],
+      [
+        4304.3,
+        4571.233333333334
+      ],
+      [
+        4904.9,
+        5005.0
+      ],
+      [
+        5138.466666666667,
+        5472.133333333333
+      ],
+      [
+        6239.566666666667,
+        6373.033333333334
+      ],
+      [
+        6673.333333333333,
+        6940.266666666666
+      ],
+      [
+        7140.466666666667,
+        7507.5
+      ],
+      [
+        7707.7,
+        7974.633333333333
+      ],
+      [
+        8208.2,
+        8241.566666666668
+      ],
+      [
+        8441.766666666666,
+        8575.233333333334
+      ],
+      [
+        8708.7,
+        9009.0
+      ],
+      [
+        9142.466666666667,
+        9342.666666666666
+      ]
+    ],
+    "preprocessing_status": "PASS",
+    "unique_valid": true,
+    "cadence_max_hz": 10,
+    "extraction_ms_sum": 4906.609499943443,
+    "extraction_ms_p50": 51.34234999422915,
+    "extraction_ms_p95": 57.10163999174256,
+    "preprocessing_seconds": 11.434568600001512,
+    "hand_observed_fraction": [
+      0.30851063829787234,
+      0.4787234042553192
+    ],
+    "body_available_fraction": 1.0
+  },
+  {
+    "sample_id": "asllrp3_2cf7b65be141761c",
+    "dataset": "ASLLRP_SIGNSTREAM3_2025",
+    "collection": "Jonathan_2012-11-27_sc98",
+    "utterance_id": "1",
+    "source_group": "2012-11-27_JM9_0098-cam1-for-ss3.mp4",
+    "signer_id": null,
+    "split": "train",
+    "utterance_filename": "423147.mp4",
+    "utterance_start_frame_master": 1,
+    "utterance_end_frame_master": 100,
+    "glosses": [
+      "IX-1p",
+      "(2h)NOT-YET",
+      "(P)PAY",
+      "fs-RENT"
+    ],
+    "events": [
+      {
+        "source_row": 4730,
+        "event_id": "345899",
+        "label": "IX-1p",
+        "start_frame_master": 23,
+        "end_frame_master": 26,
+        "hidden": false
+      },
+      {
+        "source_row": 4731,
+        "event_id": "345900",
+        "label": "(2h)NOT-YET",
+        "start_frame_master": 29,
+        "end_frame_master": 34,
+        "hidden": false
+      },
+      {
+        "source_row": 4732,
+        "event_id": "345901",
+        "label": "(P)PAY",
+        "start_frame_master": 39,
+        "end_frame_master": 44,
+        "hidden": false
+      },
+      {
+        "source_row": 4733,
+        "event_id": "345902",
+        "label": "fs-RENT",
+        "start_frame_master": 47,
+        "end_frame_master": 65,
+        "hidden": false
+      }
+    ],
+    "annotation_type": "AUTHENTIC_PUBLISHED_DOMINANT_HAND_OCCURRENCE_EVENTS",
+    "annotation_provenance": {
+      "csv_path": "D:\\apphearv3claude\\AppHear-claude-s2-r3-eval-suite\\AppHear-claude-s2-r3-eval-suite\\experiments\\continuous_asl\\20261020_continuous_expand06\\data\\raw\\asllrp2025\\asllrp_sentence_signs_2025_06_28.csv",
+      "csv_sha256": "9c1641b6b95a6e6c2223c34eb101ed2e83bb1da824e18c7a21791c59b1593e86",
+      "source_rows": [
+        4730,
+        4731,
+        4732,
+        4733
+      ],
+      "target_column": "Occurrence label",
+      "order": "verified master frame start; retain hidden events, compounds and full literal labels",
+      "frame_rate_reference": "https://www.bu.edu/asllrp/rpt24/asllrpr24.pdf",
+      "hand_scope_reference": "https://dai.cs.rutgers.edu/asllvd/signbank/Additional-information-6-29-25.pdf",
+      "excluded_nondominant_only_events": "Publisher CSV omits these; never invent missing labels",
+      "English_translation_used_as_gloss": false
+    },
+    "license_status": "PRIVATE_NONCOMMERCIAL_RESEARCH_ONLY_NO_REDISTRIBUTION",
+    "license_reference": "https://www.bu.edu/asllrp/dai-terms.html",
+    "timing_status": "EXACT_INCLUSIVE_MASTER_FRAME_SPAN_AND_29.97FPS_MEDIA_COUNT_JOIN; NO_OFFSET_SCALING; VISUAL_ALIGNMENT_NOT_INDEPENDENTLY_AUDITED",
+    "signer_independent": false,
+    "video_path": "D:\\apphearv3claude\\AppHear-claude-s2-r3-eval-suite\\AppHear-claude-s2-r3-eval-suite\\experiments\\continuous_asl\\20261020_continuous_expand06\\data\\raw\\asllrp2025\\utterances\\423147.mp4",
+    "raw_sha256": "84d33f8478b8a6af507305a0649db26c9a4a7ae8ec27d8d178f0ec0db39d42aa",
+    "bytes": 483985,
+    "media_provenance": {
+      "official_archive_url": "https://dai.cs.rutgers.edu/asllvd/signbank/asllrp_videos/batch_utterance_video_v3_1.zip",
+      "archive_sha256": "e021e4814703ecf3fd3342f32c7a2112b0040921d10f8c4b625caa8c9f2a4b32",
+      "member": "423147.mp4",
+      "crc32": 3245940406
+    },
+    "media_status": "CRC_VERIFIED_NOT_YET_DECODED",
+    "feature_path": "D:\\apphearv3claude\\AppHear-claude-s2-r3-eval-suite\\AppHear-claude-s2-r3-eval-suite\\experiments\\continuous_asl\\20261020_continuous_expand06\\data\\processed\\asllrp2025\\asllrp3_2cf7b65be141761c.features.npz",
+    "feature_sha256": "7515fa83b406f05878f8f7264cae08b198581a5843cca42a398e24757034dad1",
+    "decoded_pixel_sha256": "10da77e696deec22849af2dfc3983ac2d6b0994f5e1c08feed1c5075b412efe0",
+    "observations": 34,
+    "decoded_frames": 100,
+    "native_fps": 29.97002997002997,
+    "dimensions": [
+      1280,
+      720
+    ],
+    "timestamp_sources": [
+      "CONTAINER_POS_MSEC"
+    ],
+    "max_pts_frame_error_ms": 4.547473508864641e-13,
+    "individual_sign_times_ms": [
+      [
+        734.0666666666667,
+        867.5333333333333
+      ],
+      [
+        934.2666666666667,
+        1134.4666666666667
+      ],
+      [
+        1267.9333333333334,
+        1468.1333333333334
+      ],
+      [
+        1534.8666666666668,
+        2168.8333333333335
+      ]
+    ],
+    "preprocessing_status": "PASS",
+    "unique_valid": true,
+    "cadence_max_hz": 10,
+    "extraction_ms_sum": 1705.4521999380086,
+    "extraction_ms_p50": 49.73929999687243,
+    "extraction_ms_p95": 54.32263998372946,
+    "preprocessing_seconds": 3.4547738000110257,
+    "hand_observed_fraction": [
+      0.14705882352941177,
+      0.08823529411764706
+    ],
+    "body_available_fraction": 1.0
+  }
+]

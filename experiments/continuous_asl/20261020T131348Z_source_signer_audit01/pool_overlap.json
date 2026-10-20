@@ -1,0 +1,20 @@
+{
+  "ASLLRP3_TRAIN_labels": 2517,
+  "NCSLGR2_TRAIN_labels": 1062,
+  "shared_literal_spellings": 419,
+  "compatible_targets": "UNPROVEN; shared spelling does not establish annotation-equivalent targets",
+  "explicit_signer_counts": {
+    "asllrp_dai_participant_2": 754,
+    "asllrp_dai_participant_3": 617,
+    "asllrp_dai_participant_5": 335,
+    "ncslgr_participant_439e92da28e72cc2": 13,
+    "ncslgr_participant_d3676eea1633876b": 1
+  },
+  "explicit_source_keys_per_signer": {
+    "asllrp_dai_participant_2": 10,
+    "asllrp_dai_participant_3": 19,
+    "asllrp_dai_participant_5": 10,
+    "ncslgr_participant_439e92da28e72cc2": 13,
+    "ncslgr_participant_d3676eea1633876b": 1
+  }
+}

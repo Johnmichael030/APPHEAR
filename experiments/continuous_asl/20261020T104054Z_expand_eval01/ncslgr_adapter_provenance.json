@@ -1,0 +1,9 @@
+{
+  "source_path": "D:\\apphearv3claude\\AppHear-claude-s2-r3-eval-suite\\AppHear-claude-s2-r3-eval-suite\\experiments\\continuous_asl\\20261020_continuous_expand06\\tools\\prepare_timed.py",
+  "source_sha256": "e089f03827bbe418f4047bed39ce1d682bbbfc424a42b1858fedb7de495b9c57",
+  "copied_path": "D:\\apphearv3claude\\AppHear-claude-s2-r3-eval-suite\\AppHear-claude-s2-r3-eval-suite\\experiments\\continuous_asl\\20261020T104054Z_expand_eval01\\prepare_new_ncslgr.py",
+  "copied_sha256": "b78ba79af96aaa5e0c06b79f787c62e2643fb46edba15fb307f5e8461da029d4",
+  "source_algorithm_changed": false,
+  "new_input_plan_only": true,
+  "all_previous_exclusions_preserved": true
+}

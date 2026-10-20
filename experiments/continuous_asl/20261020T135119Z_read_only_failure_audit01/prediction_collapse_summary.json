@@ -1,0 +1,370 @@
+[
+  {
+    "scope": "train1500",
+    "WER": 0.8708041535860903,
+    "CTC_loss": 3.8853096224069597,
+    "S": 1541,
+    "D": 9258,
+    "I": 19,
+    "reference_tokens": 12423,
+    "blank_fraction": 0.9530677878792098,
+    "empty_outputs": 262,
+    "unique_predicted": 507,
+    "hypothesis_length_histogram": {
+      "1": 349,
+      "2": 335,
+      "0": 262,
+      "3": 246,
+      "4": 182,
+      "7": 10,
+      "6": 24,
+      "5": 85,
+      "8": 4,
+      "9": 2,
+      "10": 1
+    },
+    "top10_predictions": [
+      [
+        "IX-1p",
+        404
+      ],
+      [
+        "FRIEND",
+        128
+      ],
+      [
+        "(1h)part:indef",
+        115
+      ],
+      [
+        "WHO",
+        103
+      ],
+      [
+        "NOT",
+        90
+      ],
+      [
+        "part:indef",
+        89
+      ],
+      [
+        "IX-3p:i",
+        89
+      ],
+      [
+        "IX-loc:i",
+        75
+      ],
+      [
+        "NONE/NOTHING",
+        68
+      ],
+      [
+        "QMwg",
+        53
+      ]
+    ],
+    "top_reference_token": [
+      [
+        "IX-1p",
+        533
+      ]
+    ],
+    "UNK_predictions": 0,
+    "BLANK_predictions_in_decoded_text": 0,
+    "adjacent_duplicate_hypothesis_tokens": 87
+  },
+  {
+    "scope": "monitor",
+    "WER": 0.8827708703374778,
+    "CTC_loss": 3.9109551068395376,
+    "S": 153,
+    "D": 840,
+    "I": 1,
+    "reference_tokens": 1126,
+    "blank_fraction": 0.9511241446725318,
+    "empty_outputs": 19,
+    "unique_predicted": 121,
+    "hypothesis_length_histogram": {
+      "0": 19,
+      "2": 30,
+      "1": 25,
+      "5": 7,
+      "3": 27,
+      "4": 18,
+      "8": 1,
+      "6": 1
+    },
+    "top10_predictions": [
+      [
+        "IX-1p",
+        48
+      ],
+      [
+        "LIKE",
+        10
+      ],
+      [
+        "NOT",
+        9
+      ],
+      [
+        "QMwg",
+        9
+      ],
+      [
+        "(1h)part:indef",
+        7
+      ],
+      [
+        "IX-3p:i",
+        7
+      ],
+      [
+        "FRIEND",
+        7
+      ],
+      [
+        "WHO",
+        6
+      ],
+      [
+        "NOISE",
+        5
+      ],
+      [
+        "part:indef",
+        5
+      ]
+    ],
+    "top_reference_token": [
+      [
+        "IX-3p:i",
+        57
+      ]
+    ],
+    "UNK_predictions": 0,
+    "BLANK_predictions_in_decoded_text": 0,
+    "adjacent_duplicate_hypothesis_tokens": 10
+  },
+  {
+    "scope": "primary80",
+    "WER": 0.9690721649484536,
+    "CTC_loss": 7.563339900970459,
+    "S": 157,
+    "D": 312,
+    "I": 1,
+    "reference_tokens": 485,
+    "blank_fraction": 0.9232089232089232,
+    "empty_outputs": 6,
+    "unique_predicted": 57,
+    "hypothesis_length_histogram": {
+      "1": 24,
+      "3": 18,
+      "2": 19,
+      "0": 6,
+      "4": 9,
+      "5": 2,
+      "6": 2
+    },
+    "top10_predictions": [
+      [
+        "IX-1p",
+        52
+      ],
+      [
+        "NONE/NOTHING",
+        15
+      ],
+      [
+        "NOT",
+        13
+      ],
+      [
+        "IX-2p",
+        10
+      ],
+      [
+        "FINISH",
+        5
+      ],
+      [
+        "part:indef",
+        5
+      ],
+      [
+        "SNOW",
+        5
+      ],
+      [
+        "RAIN+",
+        4
+      ],
+      [
+        "(1h)HAPPY+",
+        3
+      ],
+      [
+        "CONTINUE",
+        3
+      ]
+    ],
+    "top_reference_token": [
+      [
+        "IX-3p:i",
+        31
+      ]
+    ],
+    "UNK_predictions": 0,
+    "BLANK_predictions_in_decoded_text": 0,
+    "adjacent_duplicate_hypothesis_tokens": 3
+  },
+  {
+    "scope": "strong27",
+    "WER": 0.9662162162162162,
+    "CTC_loss": 6.487293190426296,
+    "S": 51,
+    "D": 92,
+    "I": 0,
+    "reference_tokens": 148,
+    "blank_fraction": 0.9257294429708223,
+    "empty_outputs": 2,
+    "unique_predicted": 28,
+    "hypothesis_length_histogram": {
+      "1": 6,
+      "2": 9,
+      "0": 2,
+      "3": 8,
+      "4": 2
+    },
+    "top10_predictions": [
+      [
+        "IX-1p",
+        14
+      ],
+      [
+        "IX-2p",
+        5
+      ],
+      [
+        "NOT",
+        4
+      ],
+      [
+        "NONE/NOTHING",
+        3
+      ],
+      [
+        "HOME",
+        3
+      ],
+      [
+        "RAIN+",
+        2
+      ],
+      [
+        "SNOW",
+        2
+      ],
+      [
+        "MOVE",
+        2
+      ],
+      [
+        "part:indef",
+        2
+      ],
+      [
+        "BROTHER",
+        1
+      ]
+    ],
+    "top_reference_token": [
+      [
+        "ns-fs-MARY",
+        10
+      ]
+    ],
+    "UNK_predictions": 0,
+    "BLANK_predictions_in_decoded_text": 0,
+    "adjacent_duplicate_hypothesis_tokens": 0
+  },
+  {
+    "scope": "full206",
+    "WER": 0.9788182831661093,
+    "CTC_loss": null,
+    "S": 534,
+    "D": 1221,
+    "I": 1,
+    "reference_tokens": 1794,
+    "blank_fraction": 0.9314878892733564,
+    "empty_outputs": 14,
+    "unique_predicted": 101,
+    "hypothesis_length_histogram": {
+      "1": 46,
+      "3": 37,
+      "2": 49,
+      "0": 14,
+      "6": 10,
+      "11": 1,
+      "12": 1,
+      "7": 6,
+      "4": 28,
+      "5": 12,
+      "8": 1,
+      "14": 1
+    },
+    "top10_predictions": [
+      [
+        "IX-1p",
+        155
+      ],
+      [
+        "NOT",
+        44
+      ],
+      [
+        "WIN",
+        19
+      ],
+      [
+        "NONE/NOTHING",
+        18
+      ],
+      [
+        "#NO+",
+        16
+      ],
+      [
+        "NORMAL",
+        13
+      ],
+      [
+        "HOME",
+        13
+      ],
+      [
+        "FUTURE",
+        12
+      ],
+      [
+        "ns-fs-JOHN",
+        12
+      ],
+      [
+        "FINISH",
+        11
+      ]
+    ],
+    "top_reference_token": [
+      [
+        "IX-3p:i",
+        88
+      ]
+    ],
+    "UNK_predictions": 0,
+    "BLANK_predictions_in_decoded_text": 0,
+    "adjacent_duplicate_hypothesis_tokens": 23
+  }
+]

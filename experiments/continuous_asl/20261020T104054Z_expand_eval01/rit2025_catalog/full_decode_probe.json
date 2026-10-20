@@ -1,0 +1,31 @@
+{
+  "samples": [
+    {
+      "sample_id": "rit3_115bc70b90616c49",
+      "actual_decoded_frames": 139,
+      "publisher_frames": 137,
+      "first_container_ms": 0.0,
+      "last_container_ms": 2300.0,
+      "frame_difference": 2
+    },
+    {
+      "sample_id": "rit3_070d5e0db572e28a",
+      "actual_decoded_frames": 166,
+      "publisher_frames": 164,
+      "first_container_ms": 0.0,
+      "last_container_ms": 2750.0,
+      "frame_difference": 2
+    },
+    {
+      "sample_id": "rit3_fd536cb9602ba89c",
+      "actual_decoded_frames": 207,
+      "publisher_frames": 205,
+      "first_container_ms": 0.0,
+      "last_container_ms": 3433.333333333333,
+      "frame_difference": 2
+    }
+  ],
+  "seconds": 2.0584276000154205,
+  "features_extracted": false,
+  "labels_changed": false
+}

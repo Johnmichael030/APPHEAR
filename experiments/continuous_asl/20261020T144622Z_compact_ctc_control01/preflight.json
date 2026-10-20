@@ -1,0 +1,8 @@
+{
+  "status": "PASS",
+  "prior_artifact_hashes_verified": 90,
+  "subset_features_verified": 96,
+  "vocabulary_size": 2289,
+  "numerical_integrity": true,
+  "fold_membership": true
+}

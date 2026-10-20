@@ -1,0 +1,94 @@
+{
+  "files": [
+    {
+      "source": "D:\\apphearv3claude\\AppHear-claude-s2-r3-eval-suite\\AppHear-claude-s2-r3-eval-suite\\experiments\\continuous_asl\\20261020_continuous_expand06\\tools\\asllrp_catalog.py",
+      "source_sha256": "d7bb99babfba4fe897877fcaa371272b0401127451faaea03b3164b49779c83f",
+      "new_path": "D:\\apphearv3claude\\AppHear-claude-s2-r3-eval-suite\\AppHear-claude-s2-r3-eval-suite\\experiments\\continuous_asl\\20261020T104054Z_expand_eval01\\rit_catalog.py",
+      "new_sha256": "530a770eab17949853e60483da604fe8d3e7fea940ab3a2a55287bae29aa697e",
+      "changes": [
+        [
+          "RUN/'asllrp2025_catalog'",
+          "RUN/'rit2025_catalog'"
+        ],
+        [
+          "RUN/'data/raw/asllrp2025/asllrp_sentence_signs_2025_06_28.csv'",
+          "RUN/'sources/rit_sentence_signs_2025_11_01.csv'"
+        ],
+        [
+          "'asllrp3_'",
+          "'rit3_'"
+        ],
+        [
+          "'ASLLRP_SIGNSTREAM3_2025'",
+          "'RIT_SENTENCES_SIGNSTREAM3_2025'"
+        ],
+        [
+          "https://dai.cs.rutgers.edu/asllvd/signbank/asllrp_videos/batch_utterance_video_v3_1.zip",
+          "https://dai.cs.rutgers.edu/asllvd/signbank/rit3/batch_utterance_video_v1_1.zip"
+        ]
+      ]
+    },
+    {
+      "source": "D:\\apphearv3claude\\AppHear-claude-s2-r3-eval-suite\\AppHear-claude-s2-r3-eval-suite\\experiments\\continuous_asl\\20261020_continuous_expand06\\tools\\audit_asllrp_boundaries.py",
+      "source_sha256": "15ff2cdf18775f592e6c386781b071688dbe5640ded1aa5f59a36cb8b339d253",
+      "new_path": "D:\\apphearv3claude\\AppHear-claude-s2-r3-eval-suite\\AppHear-claude-s2-r3-eval-suite\\experiments\\continuous_asl\\20261020T104054Z_expand_eval01\\audit_rit_boundaries.py",
+      "new_sha256": "b9e0ff714adec921144e685b4338bfa41f26f761811e60ddbecd3435755f2c6e",
+      "changes": [
+        [
+          "asllrp2025_catalog",
+          "rit2025_catalog"
+        ]
+      ]
+    },
+    {
+      "source": "D:\\apphearv3claude\\AppHear-claude-s2-r3-eval-suite\\AppHear-claude-s2-r3-eval-suite\\experiments\\continuous_asl\\20261020_continuous_expand06\\tools\\asllrp_archive.py",
+      "source_sha256": "62148cd94cba6c732ac88813ebbead95fdfbfa6f1f67cee34ea8b534a55113d0",
+      "new_path": "D:\\apphearv3claude\\AppHear-claude-s2-r3-eval-suite\\AppHear-claude-s2-r3-eval-suite\\experiments\\continuous_asl\\20261020T104054Z_expand_eval01\\rit_archive.py",
+      "new_sha256": "39d3cc4bd878a16bfa7bfdd27459f6a5295f1e32990db5176bdf8cc5d03bb64a",
+      "changes": [
+        [
+          "asllrp2025_catalog",
+          "rit2025_catalog"
+        ],
+        [
+          "RUN/'data/raw/asllrp2025/batch_utterance_video_v3_1.zip'",
+          "RUN/'sources/rit_batch_utterance_video_v1_1.zip'"
+        ],
+        [
+          "RUN/'data/raw/asllrp2025/utterances'",
+          "RUN/'data/raw/rit_utterances'"
+        ]
+      ]
+    },
+    {
+      "source": "D:\\apphearv3claude\\AppHear-claude-s2-r3-eval-suite\\AppHear-claude-s2-r3-eval-suite\\experiments\\continuous_asl\\20261020_continuous_expand06\\tools\\prepare_asllrp.py",
+      "source_sha256": "ca98d9e95ec8730d86c461c10a01eddb07b03b39bc0d73b93e9f4670723272a6",
+      "new_path": "D:\\apphearv3claude\\AppHear-claude-s2-r3-eval-suite\\AppHear-claude-s2-r3-eval-suite\\experiments\\continuous_asl\\20261020T104054Z_expand_eval01\\prepare_rit.py",
+      "new_sha256": "71eb50ed46a1c8eb34b68580ee4ac0a9e77ae5ffab46461dab7a2d3d21385fce",
+      "changes": [
+        [
+          "asllrp2025_catalog",
+          "rit2025_catalog"
+        ],
+        [
+          "RUN/'data/processed/asllrp2025'",
+          "RUN/'data/processed/rit2025'"
+        ],
+        [
+          "rows=read(RUN/'rit2025_catalog/media_manifest.json')",
+          "rows=read(RUN/'rit2025_catalog/media_manifest.json');excluded=set(read(RUN/'rit2025_catalog/annotation_boundary_audit.v2.json')['reject_sample_ids']);rows=[r for r in rows if r['sample_id'] not in excluded]"
+        ],
+        [
+          "if not 0<=shard<shards<=4:raise ValueError('SHARD_CONFIGURATION')",
+          "if not 0<=shard<shards<=4:raise ValueError('SHARD_CONFIGURATION')"
+        ],
+        [
+          "ROOT=RUN.parents[2]",
+          "ROOT=RUN.parents[2]"
+        ]
+      ]
+    }
+  ],
+  "math_changed": false,
+  "purpose": "Separate official RIT continuous sentences; existing exact frame/schema/CTC gates, no trimming/label normalization."
+}

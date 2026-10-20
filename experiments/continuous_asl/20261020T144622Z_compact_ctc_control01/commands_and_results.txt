@@ -1,0 +1,16 @@
+Working directory:D:\apphearv3claude\AppHear-claude-s2-r3-eval-suite\AppHear-claude-s2-r3-eval-suite
+Read completed prior MISSION_REPORT.md,decision.json,training_metrics.csv,prediction_examples.csv,artifact_hashes.sha256,run.log,CONTROL_REVIEW.md.
+GPU/process check:nvidia-smi --query-gpu=name,memory.total,memory.free,utilization.gpu --format=csv,noheader
+No competing Python/GPU job found.
+& 'D:\apphearv3claude\AppHear-claude-s2-r3-eval-suite\AppHear-claude-s2-r3-eval-suite\experiments\continuous_asl\20261019T155428Z_cslr01\runtime\venv\Scripts\python.exe' -B 'D:\apphearv3claude\AppHear-claude-s2-r3-eval-suite\AppHear-claude-s2-r3-eval-suite\experiments\continuous_asl\20261020T144622Z_compact_ctc_control01\control.py' --prepare
+Result:90prior artifact hashes PASS;96features PASS;404labels/756tokens;subset/config frozen.
+& 'D:\apphearv3claude\AppHear-claude-s2-r3-eval-suite\AppHear-claude-s2-r3-eval-suite\experiments\continuous_asl\20261019T155428Z_cslr01\runtime\venv\Scripts\python.exe' -B 'D:\apphearv3claude\AppHear-claude-s2-r3-eval-suite\AppHear-claude-s2-r3-eval-suite\experiments\continuous_asl\20261020T144622Z_compact_ctc_control01\verify_prepared.py'
+Result:9local prepared inputs hash/membership PASS;subset hashc7b78f1aef43b5501fce5fafbf69e91753e5d9d85cb594a3e18fc693ecfb5198.
+Phase1 command/execution detail:diagnosis_execution_notes.txt;numeric validityPASS;no posterior arrays saved.
+& 'D:\apphearv3claude\AppHear-claude-s2-r3-eval-suite\AppHear-claude-s2-r3-eval-suite\experiments\continuous_asl\20261019T155428Z_cslr01\runtime\venv\Scripts\python.exe' -B 'D:\apphearv3claude\AppHear-claude-s2-r3-eval-suite\AppHear-claude-s2-r3-eval-suite\experiments\continuous_asl\20261020T144622Z_compact_ctc_control01\control.py' --train *> 'D:\apphearv3claude\AppHear-claude-s2-r3-eval-suite\AppHear-claude-s2-r3-eval-suite\experiments\continuous_asl\20261020T144622Z_compact_ctc_control01\run.log'
+Exit0;one fit;30epochs/360steps;WER4.138888888888889->0.12037037037037036;CTC42.03894211848577->0.5678139443043619;15.724792800028808s;peak92356608bytes;no full training.
+& 'D:\apphearv3claude\AppHear-claude-s2-r3-eval-suite\AppHear-claude-s2-r3-eval-suite\experiments\continuous_asl\20261019T155428Z_cslr01\runtime\venv\Scripts\python.exe' -B 'D:\apphearv3claude\AppHear-claude-s2-r3-eval-suite\AppHear-claude-s2-r3-eval-suite\experiments\continuous_asl\20261020T144622Z_compact_ctc_control01\finish_compact.py'
+Creates final report,merged scoped integrity,mission decision,output hashes;no fitting.
+& 'D:\apphearv3claude\AppHear-claude-s2-r3-eval-suite\AppHear-claude-s2-r3-eval-suite\experiments\continuous_asl\20261019T155428Z_cslr01\runtime\venv\Scripts\python.exe' -B 'D:\apphearv3claude\AppHear-claude-s2-r3-eval-suite\AppHear-claude-s2-r3-eval-suite\experiments\continuous_asl\20261020T144622Z_compact_ctc_control01\verify_compact.py'
+Read-only current validation command.
+No prior16rerun;noheld-outselection/new evaluation;noTEST;no promotion;no acquisition or production changes.

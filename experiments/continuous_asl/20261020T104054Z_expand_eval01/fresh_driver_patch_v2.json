@@ -1,0 +1,8 @@
+{
+  "source_sha256": "f50e57838957a9186f4c1b45f6711b12bfd6a498d9d077c74c5c68afce320d50",
+  "patched_sha256": "2da43ed0fca5542cf3e4259aac97718d70e0e2854a13ebdb9e382cd78f030d62",
+  "failure": "Smoke logging dereferenced grad.device after zero_grad(set_to_none=True)",
+  "correction": "Capture gradient device before clearing gradients; use new isolated pilot_fresh48_v2 output. Original failed output/logs preserved.",
+  "optimizer_steps_before_failure": 0,
+  "data_model_optimizer_label_math_changed": false
+}

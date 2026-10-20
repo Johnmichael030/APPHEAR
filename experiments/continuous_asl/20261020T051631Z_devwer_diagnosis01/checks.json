@@ -1,0 +1,675 @@
+[
+  {
+    "finding": "synthetic_decode_[0, 0]",
+    "status": "PASS",
+    "passed": true,
+    "evidence": {
+      "ids": [
+        0,
+        0
+      ],
+      "expected": [],
+      "actual": []
+    },
+    "limitation": "Synthetic contract check, not model evaluation."
+  },
+  {
+    "finding": "synthetic_decode_[2, 2, 0, 2]",
+    "status": "PASS",
+    "passed": true,
+    "evidence": {
+      "ids": [
+        2,
+        2,
+        0,
+        2
+      ],
+      "expected": [
+        "A",
+        "A"
+      ],
+      "actual": [
+        "A",
+        "A"
+      ]
+    },
+    "limitation": "Synthetic contract check, not model evaluation."
+  },
+  {
+    "finding": "synthetic_decode_[2, 3, 3]",
+    "status": "PASS",
+    "passed": true,
+    "evidence": {
+      "ids": [
+        2,
+        3,
+        3
+      ],
+      "expected": [
+        "A",
+        "B"
+      ],
+      "actual": [
+        "A",
+        "B"
+      ]
+    },
+    "limitation": "Synthetic contract check, not model evaluation."
+  },
+  {
+    "finding": "synthetic_decode_[1, 0, 1]",
+    "status": "PASS",
+    "passed": true,
+    "evidence": {
+      "ids": [
+        1,
+        0,
+        1
+      ],
+      "expected": [
+        "<UNK>",
+        "<UNK>"
+      ],
+      "actual": [
+        "<UNK>",
+        "<UNK>"
+      ]
+    },
+    "limitation": "Synthetic contract check, not model evaluation."
+  },
+  {
+    "finding": "synthetic_beam_exhaustive_0",
+    "status": "PASS",
+    "passed": true,
+    "evidence": {
+      "exact_prefix": [
+        2,
+        1
+      ],
+      "beam_prefix": [
+        2,
+        1
+      ],
+      "probability_error": 5.551115123125783e-17
+    },
+    "limitation": "Exhaustive synthetic 3^4 paths; real beam is pruned."
+  },
+  {
+    "finding": "synthetic_beam_exhaustive_1",
+    "status": "PASS",
+    "passed": true,
+    "evidence": {
+      "exact_prefix": [
+        2,
+        1
+      ],
+      "beam_prefix": [
+        2,
+        1
+      ],
+      "probability_error": 0.0
+    },
+    "limitation": "Exhaustive synthetic 3^4 paths; real beam is pruned."
+  },
+  {
+    "finding": "synthetic_beam_exhaustive_2",
+    "status": "PASS",
+    "passed": true,
+    "evidence": {
+      "exact_prefix": [
+        1,
+        2
+      ],
+      "beam_prefix": [
+        1,
+        2
+      ],
+      "probability_error": 0.0
+    },
+    "limitation": "Exhaustive synthetic 3^4 paths; real beam is pruned."
+  },
+  {
+    "finding": "synthetic_beam_exhaustive_3",
+    "status": "PASS",
+    "passed": true,
+    "evidence": {
+      "exact_prefix": [
+        2,
+        1
+      ],
+      "beam_prefix": [
+        2,
+        1
+      ],
+      "probability_error": 0.0
+    },
+    "limitation": "Exhaustive synthetic 3^4 paths; real beam is pruned."
+  },
+  {
+    "finding": "synthetic_wer_[][]",
+    "status": "PASS",
+    "passed": true,
+    "evidence": {
+      "substitutions": 0,
+      "deletions": 0,
+      "insertions": 0,
+      "reference_tokens": 0
+    },
+    "limitation": "Synthetic metric check."
+  },
+  {
+    "finding": "synthetic_wer_['IX-3p:i', 'READ++'][]",
+    "status": "PASS",
+    "passed": true,
+    "evidence": {
+      "substitutions": 0,
+      "deletions": 2,
+      "insertions": 0,
+      "reference_tokens": 2
+    },
+    "limitation": "Synthetic metric check."
+  },
+  {
+    "finding": "synthetic_wer_['A', 'A']['A']",
+    "status": "PASS",
+    "passed": true,
+    "evidence": {
+      "substitutions": 0,
+      "deletions": 1,
+      "insertions": 0,
+      "reference_tokens": 2
+    },
+    "limitation": "Synthetic metric check."
+  },
+  {
+    "finding": "synthetic_wer_['A']['B', 'A']",
+    "status": "PASS",
+    "passed": true,
+    "evidence": {
+      "substitutions": 0,
+      "deletions": 0,
+      "insertions": 1,
+      "reference_tokens": 1
+    },
+    "limitation": "Synthetic metric check."
+  },
+  {
+    "finding": "ASLLRP3_LITERAL_DOMINANT_REALIZED_OCCURRENCE_internal_contract",
+    "status": "PASS",
+    "passed": true,
+    "evidence": {
+      "utterances": 2119,
+      "ctc_invalid": [],
+      "annotation_errors": [],
+      "direct_csv_event_joins": 17453,
+      "publisher_bound_checks": 2119
+    },
+    "limitation": "Publisher-coordinate consistency is not independent linguistic/visual alignment."
+  },
+  {
+    "finding": "NCSLGR2_LITERAL_MAIN_GLOSS_internal_contract",
+    "status": "PASS",
+    "passed": true,
+    "evidence": {
+      "utterances": 906,
+      "ctc_invalid": [],
+      "annotation_errors": [],
+      "direct_csv_event_joins": 0,
+      "publisher_bound_checks": 451
+    },
+    "limitation": "Publisher-coordinate consistency is not independent linguistic/visual alignment."
+  },
+  {
+    "finding": "baseline_fixed_dev_identity",
+    "status": "PASS",
+    "passed": true,
+    "evidence": {
+      "dev_ids": [
+        "ncslgr_6b627c2a6d44a0fc",
+        "ncslgr_480b611253531cc0",
+        "ncslgr_cecf49697b9aae80",
+        "ncslgr_510cf79b19adb2d4",
+        "ncslgr_63612b0124839c79",
+        "ncslgr_1418dc0eb004ad3b",
+        "ncslgr_417afd4735362b64",
+        "ncslgr_f9d66524fb30b3c5",
+        "ncslgr_43f1ecb8adfc4359"
+      ],
+      "tokens": 57
+    },
+    "limitation": ""
+  },
+  {
+    "finding": "baseline_vocab_ids",
+    "status": "PASS",
+    "passed": true,
+    "evidence": {
+      "vocab_size": 117,
+      "blank_token": "<BLANK>",
+      "unknown_token": "<UNK>"
+    },
+    "limitation": ""
+  },
+  {
+    "finding": "baseline_checkpoint_manifest",
+    "status": "PASS",
+    "passed": true,
+    "evidence": {
+      "checkpoint_epoch": 4,
+      "manifest_sha256": "1835f9c30234add2a951793ab9fa2776a75ef295d2842f6d6f7d96f83ea510a9"
+    },
+    "limitation": ""
+  },
+  {
+    "finding": "baseline_selection",
+    "status": "PASS",
+    "passed": true,
+    "evidence": {
+      "selected_epoch": 4,
+      "argmin_log_epoch": 4,
+      "epoch_wer": [
+        1.0,
+        1.0,
+        0.9649122807017544,
+        0.8596491228070176,
+        0.9649122807017544,
+        0.8596491228070176,
+        0.9122807017543859,
+        0.9298245614035088,
+        0.9122807017543859,
+        0.9649122807017544,
+        0.8771929824561403,
+        0.9824561403508771,
+        0.9473684210526315,
+        1.0
+      ]
+    },
+    "limitation": ""
+  },
+  {
+    "finding": "baseline_reproduce_saved_dev",
+    "status": "PASS",
+    "passed": true,
+    "evidence": {
+      "wer": 0.8596491228070176,
+      "S": 10,
+      "D": 39,
+      "I": 0,
+      "saved_loss": 4.757568703757392,
+      "cpu_loss": 4.75759055879381
+    },
+    "limitation": "Float loss can differ slightly between CUDA/CPU while literal hypotheses and edit counts match."
+  },
+  {
+    "finding": "baseline_train_only_normalization",
+    "status": "PASS",
+    "passed": true,
+    "evidence": {
+      "mean_max_abs_error": 0.0,
+      "std_max_abs_error": 0.0
+    },
+    "limitation": ""
+  },
+  {
+    "finding": "baseline_known_train_dev_leakage",
+    "status": "PASS",
+    "passed": true,
+    "evidence": {
+      "sample_id": [],
+      "collection": [],
+      "source_group": [],
+      "feature_sha256": [],
+      "raw_sha256": [],
+      "same_literal_gloss_sequences": []
+    },
+    "limitation": "No exhaustive perceptual duplicate detector; unknown signer IDs prevent signer-leakage certification. Repeated linguistic prompts are not themselves identical media."
+  },
+  {
+    "finding": "baseline_padding_and_no_truncation",
+    "status": "PASS",
+    "passed": true,
+    "evidence": {
+      "padding_max_logit_error": 1.9073486328125e-06,
+      "prefix_max_logit_error": 0.0,
+      "all_dev_input_output_lengths_equal": true
+    },
+    "limitation": "Causal stride1 TCN retains T; cadence sampling is upstream, not neural downsampling."
+  },
+  {
+    "finding": "pilot906_fixed_dev_identity",
+    "status": "PASS",
+    "passed": true,
+    "evidence": {
+      "dev_ids": [
+        "ncslgr_6b627c2a6d44a0fc",
+        "ncslgr_480b611253531cc0",
+        "ncslgr_cecf49697b9aae80",
+        "ncslgr_510cf79b19adb2d4",
+        "ncslgr_63612b0124839c79",
+        "ncslgr_1418dc0eb004ad3b",
+        "ncslgr_417afd4735362b64",
+        "ncslgr_f9d66524fb30b3c5",
+        "ncslgr_43f1ecb8adfc4359"
+      ],
+      "tokens": 57
+    },
+    "limitation": ""
+  },
+  {
+    "finding": "pilot906_vocab_ids",
+    "status": "PASS",
+    "passed": true,
+    "evidence": {
+      "vocab_size": 922,
+      "blank_token": "<BLANK>",
+      "unknown_token": "<UNK>"
+    },
+    "limitation": ""
+  },
+  {
+    "finding": "pilot906_checkpoint_manifest",
+    "status": "PASS",
+    "passed": true,
+    "evidence": {
+      "checkpoint_epoch": 13,
+      "manifest_sha256": "efcb25826cab6d6ac5361ad80f12f65d722fdf483369d755c62f9791515cece6"
+    },
+    "limitation": ""
+  },
+  {
+    "finding": "pilot906_selection",
+    "status": "PASS",
+    "passed": true,
+    "evidence": {
+      "selected_epoch": 13,
+      "argmin_log_epoch": 13,
+      "epoch_wer": [
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        0.9824561403508771,
+        0.9824561403508771,
+        0.9824561403508771,
+        0.9649122807017544,
+        0.9649122807017544,
+        0.9824561403508771,
+        0.9824561403508771,
+        0.9824561403508771,
+        0.9649122807017544,
+        0.9649122807017544,
+        0.9649122807017544,
+        0.9649122807017544
+      ]
+    },
+    "limitation": ""
+  },
+  {
+    "finding": "pilot906_reproduce_saved_dev",
+    "status": "PASS",
+    "passed": true,
+    "evidence": {
+      "wer": 0.9649122807017544,
+      "S": 16,
+      "D": 39,
+      "I": 0,
+      "saved_loss": 6.536171277364095,
+      "cpu_loss": 6.53623088200887
+    },
+    "limitation": "Float loss can differ slightly between CUDA/CPU while literal hypotheses and edit counts match."
+  },
+  {
+    "finding": "pilot906_train_only_normalization",
+    "status": "PASS",
+    "passed": true,
+    "evidence": {
+      "mean_max_abs_error": 0.0,
+      "std_max_abs_error": 0.0
+    },
+    "limitation": ""
+  },
+  {
+    "finding": "pilot906_known_train_dev_leakage",
+    "status": "PASS",
+    "passed": true,
+    "evidence": {
+      "sample_id": [],
+      "collection": [],
+      "source_group": [],
+      "feature_sha256": [],
+      "raw_sha256": [],
+      "same_literal_gloss_sequences": []
+    },
+    "limitation": "No exhaustive perceptual duplicate detector; unknown signer IDs prevent signer-leakage certification. Repeated linguistic prompts are not themselves identical media."
+  },
+  {
+    "finding": "pilot906_padding_and_no_truncation",
+    "status": "PASS",
+    "passed": true,
+    "evidence": {
+      "padding_max_logit_error": 7.62939453125e-06,
+      "prefix_max_logit_error": 0.0,
+      "all_dev_input_output_lengths_equal": true
+    },
+    "limitation": "Causal stride1 TCN retains T; cadence sampling is upstream, not neural downsampling."
+  },
+  {
+    "finding": "main2119_fixed_dev_identity",
+    "status": "PASS",
+    "passed": true,
+    "evidence": {
+      "dev_ids": [
+        "ncslgr_6b627c2a6d44a0fc",
+        "ncslgr_480b611253531cc0",
+        "ncslgr_cecf49697b9aae80",
+        "ncslgr_510cf79b19adb2d4",
+        "ncslgr_63612b0124839c79",
+        "ncslgr_1418dc0eb004ad3b",
+        "ncslgr_417afd4735362b64",
+        "ncslgr_f9d66524fb30b3c5",
+        "ncslgr_43f1ecb8adfc4359"
+      ],
+      "tokens": 57
+    },
+    "limitation": ""
+  },
+  {
+    "finding": "main2119_vocab_ids",
+    "status": "PASS",
+    "passed": true,
+    "evidence": {
+      "vocab_size": 2741,
+      "blank_token": "<BLANK>",
+      "unknown_token": "<UNK>"
+    },
+    "limitation": ""
+  },
+  {
+    "finding": "main2119_checkpoint_manifest",
+    "status": "PASS",
+    "passed": true,
+    "evidence": {
+      "checkpoint_epoch": 2,
+      "manifest_sha256": "adebeb9e2f20179eb59b7f79805ea9226ad6c9c0594e6cba193c771947cdaf40"
+    },
+    "limitation": ""
+  },
+  {
+    "finding": "main2119_selection",
+    "status": "PASS",
+    "passed": true,
+    "evidence": {
+      "selected_epoch": 2,
+      "argmin_log_epoch": 2,
+      "epoch_wer": [
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    "limitation": ""
+  },
+  {
+    "finding": "main2119_reproduce_saved_dev",
+    "status": "PASS",
+    "passed": true,
+    "evidence": {
+      "wer": 1.0,
+      "S": 0,
+      "D": 57,
+      "I": 0,
+      "saved_loss": 6.363733874426948,
+      "cpu_loss": 6.36371013853285
+    },
+    "limitation": "Float loss can differ slightly between CUDA/CPU while literal hypotheses and edit counts match."
+  },
+  {
+    "finding": "main2119_train_only_normalization",
+    "status": "PASS",
+    "passed": true,
+    "evidence": {
+      "mean_max_abs_error": 0.0,
+      "std_max_abs_error": 0.0
+    },
+    "limitation": ""
+  },
+  {
+    "finding": "main2119_known_train_dev_leakage",
+    "status": "PASS",
+    "passed": true,
+    "evidence": {
+      "sample_id": [],
+      "collection": [],
+      "source_group": [],
+      "feature_sha256": [],
+      "raw_sha256": [],
+      "same_literal_gloss_sequences": []
+    },
+    "limitation": "No exhaustive perceptual duplicate detector; unknown signer IDs prevent signer-leakage certification. Repeated linguistic prompts are not themselves identical media."
+  },
+  {
+    "finding": "main2119_padding_and_no_truncation",
+    "status": "PASS",
+    "passed": true,
+    "evidence": {
+      "padding_max_logit_error": 3.814697265625e-06,
+      "prefix_max_logit_error": 0.0,
+      "all_dev_input_output_lengths_equal": true
+    },
+    "limitation": "Causal stride1 TCN retains T; cadence sampling is upstream, not neural downsampling."
+  },
+  {
+    "finding": "bounded_cached_raw_to_feature_parity",
+    "status": "PASS",
+    "passed": true,
+    "evidence": [
+      {
+        "sample_id": "asllrp3_f182e6fd05424c68",
+        "status": "PASS",
+        "feature_exact_match": true,
+        "timestamp_exact_match": true,
+        "causal_prefix_match": true
+      },
+      {
+        "sample_id": "ncslgr_15ce3b0df9a36e45",
+        "status": "PASS",
+        "feature_exact_match": true,
+        "timestamp_exact_match": true,
+        "causal_prefix_match": true
+      },
+      {
+        "sample_id": "ncslgr_00cfa58ebff1f267",
+        "status": "PASS",
+        "feature_exact_match": true,
+        "timestamp_exact_match": true,
+        "causal_prefix_match": true
+      }
+    ],
+    "limitation": "Three saved raw fixtures only; no video decoding, acquisition or feature-file writes."
+  },
+  {
+    "finding": "main_last_epoch_train_wer",
+    "status": "PASS",
+    "passed": true,
+    "evidence": {
+      "epoch": 17,
+      "wer": 0.7195324586031054,
+      "saved_wer": 0.7195324586031054,
+      "reference_tokens": 17453,
+      "S": 3529,
+      "D": 8967,
+      "I": 62
+    },
+    "limitation": ""
+  },
+  {
+    "finding": "main_selected_epoch_train_wer",
+    "status": "PASS",
+    "passed": true,
+    "evidence": {
+      "epoch": 2,
+      "wer": 0.9999427032601845,
+      "saved_wer": 0.9999427032601845,
+      "reference_tokens": 17453,
+      "S": 1,
+      "D": 17451,
+      "I": 0
+    },
+    "limitation": ""
+  },
+  {
+    "finding": "six_overlap_exclusions_preserved",
+    "status": "PASS",
+    "passed": true,
+    "evidence": {
+      "excluded_ids": [
+        "asllrp3_30f9921c65b0cadd",
+        "asllrp3_94a8a002cf7e3c86",
+        "asllrp3_bb964afacd3fc522",
+        "asllrp3_c28859e372c911e9",
+        "asllrp3_d79c8f0fe46bdd48",
+        "asllrp3_f3e7467cc40679a1"
+      ],
+      "eligible_union": 3025
+    },
+    "limitation": ""
+  },
+  {
+    "finding": "frame_mismatch_exclusion_preserved",
+    "status": "PASS",
+    "passed": true,
+    "evidence": {
+      "PUBLISHER_MASTER_FRAME_UTTERANCE_OVERLAP": 6,
+      "PUBLISHER_INCLUSIVE_FRAME_SPAN_MISMATCH:expected=100:actual=99": 1
+    },
+    "limitation": ""
+  },
+  {
+    "finding": "frozen_files_preserved",
+    "status": "PASS",
+    "passed": true,
+    "evidence": {
+      "checked_files": 20745,
+      "changed": []
+    },
+    "limitation": ""
+  }
+]

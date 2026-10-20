@@ -1,0 +1,30 @@
+.............F...................                                        [100%]
+================================== FAILURES ===================================
+________________ test_frozen_s2_identity_and_sparse_population ________________
+
+    def test_frozen_s2_identity_and_sparse_population() -> None:
+>       identity = p8.verify_s2_identity()
+
+tests\test_phase8a_causal_streaming_decoder.py:37: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+
+    def verify_s2_identity() -> dict[str, Any]:
+        model_path = P7 / "best_model.keras"
+        normalization_path = P7 / "cadence_aligned_normalization_stats.json"
+        identity_path = P7 / "best_model.sha256.json"
+        history_path = P7 / "training_history.json"
+        manifest_path = P7 / "sparse_view_manifest.json"
+        for path in (model_path, normalization_path, identity_path, history_path, manifest_path):
+            if not path.is_file():
+>               raise RuntimeError(f"PHASE8A_FROZEN_S2_ARTIFACT_MISSING:{path}")
+E               RuntimeError: PHASE8A_FROZEN_S2_ARTIFACT_MISSING:D:\apphearv3claude\AppHear-claude-s2-r3-eval-suite\AppHear-claude-s2-r3-eval-suite\artifacts\recognition_upgrade\perception_vnext\recognition_utility_236_01\phase7_production_cadence_aligned_segmenter_01\best_model.keras
+
+eval\runtime_diagnostics\phase8a_causal_streaming_decoder.py:126: RuntimeError
+- generated xml file: D:\apphearv3claude\AppHear-claude-s2-r3-eval-suite\AppHear-claude-s2-r3-eval-suite\experiments\continuous_asl\20261019T155428Z_cslr01\logs\existing_and_ctc_tests.xml -
+=========================== short test summary info ===========================
+FAILED tests/test_phase8a_causal_streaming_decoder.py::test_frozen_s2_identity_and_sparse_population
+1 failed, 32 passed in 5.44s
+Exception ignored in: <function Console.__del__ at 0x000001EC56BB96C0>
+Traceback (most recent call last):
+  File "D:\apphearv3claude\AppHear-claude-s2-r3-eval-suite\AppHear-claude-s2-r3-eval-suite\experiments\continuous_asl\20261019T155428Z_cslr01\runtime\venv\Lib\site-packages\pyreadline3\console\console.py", line 256, in __del__
+OSError: [WinError -1073741816] Windows Error 0xc0000008

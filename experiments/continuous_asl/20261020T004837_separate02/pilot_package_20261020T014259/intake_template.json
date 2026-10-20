@@ -1,0 +1,16 @@
+{
+  "schema": "apphear.streaming_pilot.manifest.v1",
+  "mode": "REAL",
+  "purpose": "EVALUATION_ONLY",
+  "training_allowed": false,
+  "permission_review": {"status": "PENDING", "reviewer_id": "", "reference": ""},
+  "signer_history": {"status": "PENDING", "reviewer_id": "", "reference": "", "covered_sources": [], "registry": []},
+  "contract_hashes": {},
+  "participants": [{
+    "signer_id": "PENDING_SIGNER_1", "identity_key": "PENDING", "role": "PILOT_1_EVAL",
+    "qualification": {"status": "PENDING", "reference": "", "reviewer_id": ""},
+    "consent": {"status": "PENDING", "reference": "", "reviewer_id": "", "withdrawn": false,
+                "allowed_actions": [], "established_utc": "", "retention_until_utc": ""}
+  }],
+  "recordings": []
+}

@@ -1,0 +1,2223 @@
+{
+  "status": "PASS_COMPLETED_DIAGNOSTIC_COMPARISON",
+  "models": {
+    "reference48": {
+      "status": "EARLY_STOP",
+      "completed_epochs": 14,
+      "selected_epoch": 4,
+      "dev": {
+        "loss": 4.757568703757392,
+        "gloss_wer": 0.8596491228070176,
+        "substitutions": 10,
+        "deletions": 39,
+        "insertions": 0,
+        "reference_tokens": 57,
+        "predictions": [
+          {
+            "sample_id": "ncslgr_6b627c2a6d44a0fc",
+            "reference": [
+              "IX-3p:i",
+              "LEARN+AGENT",
+              "MOTHERwg",
+              "CAR",
+              "BUY",
+              "FINISH",
+              "IX-3p:i"
+            ],
+            "hypothesis": [
+              "MOTHER",
+              "BUY"
+            ],
+            "substitutions": 1,
+            "deletions": 5,
+            "insertions": 0,
+            "reference_tokens": 7
+          },
+          {
+            "sample_id": "ncslgr_480b611253531cc0",
+            "reference": [
+              "LEARN+AGENT",
+              "IX-loc:i",
+              "HOLD",
+              "MOTHER",
+              "FUTURE",
+              "BUY",
+              "CAR"
+            ],
+            "hypothesis": [
+              "MOTHER",
+              "BUY"
+            ],
+            "substitutions": 0,
+            "deletions": 5,
+            "insertions": 0,
+            "reference_tokens": 7
+          },
+          {
+            "sample_id": "ncslgr_cecf49697b9aae80",
+            "reference": [
+              "IX-3p:i",
+              "LEARN+AGENT",
+              "POSS-3p:i",
+              "FATHERwg",
+              "HOUSE",
+              "WHICH",
+              "BUY",
+              "IX-loc-arc"
+            ],
+            "hypothesis": [
+              "MOTHER",
+              "BUY"
+            ],
+            "substitutions": 1,
+            "deletions": 6,
+            "insertions": 0,
+            "reference_tokens": 8
+          },
+          {
+            "sample_id": "ncslgr_510cf79b19adb2d4",
+            "reference": [
+              "IX-3p:i",
+              "MOTHERwg",
+              "BOOK",
+              "READ++"
+            ],
+            "hypothesis": [
+              "MOTHER",
+              "BUY"
+            ],
+            "substitutions": 2,
+            "deletions": 2,
+            "insertions": 0,
+            "reference_tokens": 4
+          },
+          {
+            "sample_id": "ncslgr_63612b0124839c79",
+            "reference": [
+              "IX-3p:i",
+              "MOTHERwg",
+              "PLAN",
+              "READ++",
+              "BOOK",
+              "LATERwg"
+            ],
+            "hypothesis": [
+              "MOTHER",
+              "BUY"
+            ],
+            "substitutions": 2,
+            "deletions": 4,
+            "insertions": 0,
+            "reference_tokens": 6
+          },
+          {
+            "sample_id": "ncslgr_1418dc0eb004ad3b",
+            "reference": [
+              "IX-3p:i",
+              "MOTHER+",
+              "READ+",
+              "BOOK",
+              "IX-3p:i"
+            ],
+            "hypothesis": [
+              "MOTHER",
+              "BUY"
+            ],
+            "substitutions": 2,
+            "deletions": 3,
+            "insertions": 0,
+            "reference_tokens": 5
+          },
+          {
+            "sample_id": "ncslgr_417afd4735362b64",
+            "reference": [
+              "IX-3p:i",
+              "MOTHER",
+              "IX-3p:i",
+              "CAR",
+              "BUY",
+              "IX-3p:j"
+            ],
+            "hypothesis": [
+              "MOTHER",
+              "BUY"
+            ],
+            "substitutions": 0,
+            "deletions": 4,
+            "insertions": 0,
+            "reference_tokens": 6
+          },
+          {
+            "sample_id": "ncslgr_f9d66524fb30b3c5",
+            "reference": [
+              "IX-3p:i",
+              "FATHER",
+              "IX-loc:i",
+              "HOLD",
+              "BUY",
+              "BOOK",
+              "IX-3p:i"
+            ],
+            "hypothesis": [
+              "MOTHER",
+              "BUY"
+            ],
+            "substitutions": 1,
+            "deletions": 5,
+            "insertions": 0,
+            "reference_tokens": 7
+          },
+          {
+            "sample_id": "ncslgr_43f1ecb8adfc4359",
+            "reference": [
+              "IX-3p:i",
+              "MOTHERwg",
+              "IX-3p:i",
+              "CAR",
+              "BUY",
+              "SHOULD",
+              "NOT"
+            ],
+            "hypothesis": [
+              "MOTHER",
+              "BUY"
+            ],
+            "substitutions": 1,
+            "deletions": 5,
+            "insertions": 0,
+            "reference_tokens": 7
+          }
+        ],
+        "scope": "COLLECTION-DISJOINT DIAGNOSTIC, SIGNER UNVERIFIED; NOT PRODUCT ACCURACY",
+        "out_of_vocabulary_tokens": 9
+      },
+      "measured_training_loop_and_reload_seconds": 5.773206899990328,
+      "epoch_seconds_sum": 5.678802800073754,
+      "epoch_seconds_median": 0.38026194999110885,
+      "epoch_seconds_min": 0.3440126000205055,
+      "epoch_seconds_max": 0.7264203000231646,
+      "train_observations_per_train_dev_checkpoint_epoch_second": 7541.378263644548,
+      "train_dev_observations_per_complete_epoch_second": 8601.460857095726,
+      "peak_pytorch_allocated_vram_bytes": 71389696,
+      "peak_pytorch_reserved_vram_bytes": 73400320,
+      "minimum_measured_free_vram_bytes": 3353031476,
+      "peak_worker_working_set_bytes": 1155100672,
+      "gpu_devices": {
+        "input_device": [
+          "cuda:0"
+        ],
+        "logits_device": [
+          "cuda:0"
+        ],
+        "loss_device": [
+          "cuda:0"
+        ],
+        "gradient_device": [
+          "cuda:0"
+        ],
+        "optimizer_state_device": [
+          "cuda:0"
+        ]
+      },
+      "checkpoint_path": "D:\\apphearv3claude\\AppHear-claude-s2-r3-eval-suite\\AppHear-claude-s2-r3-eval-suite\\experiments\\continuous_asl\\20261020_continuous_expand03\\models\\reference48\\checkpoints\\epoch_004.pt",
+      "checkpoint_sha256": "489ec5883ca440364ab10690ee5cfb9d0b0b0e6942df8f477509ea4ba6faf99c",
+      "parameter_count": 80373,
+      "vocabulary_size": 117,
+      "memory_failure_record_present": false,
+      "checkpoint_reload_predictions_match": true
+    },
+    "compact24": {
+      "status": "EARLY_STOP",
+      "completed_epochs": 22,
+      "selected_epoch": 12,
+      "dev": {
+        "loss": 5.350591606563992,
+        "gloss_wer": 0.9649122807017544,
+        "substitutions": 6,
+        "deletions": 49,
+        "insertions": 0,
+        "reference_tokens": 57,
+        "predictions": [
+          {
+            "sample_id": "ncslgr_6b627c2a6d44a0fc",
+            "reference": [
+              "IX-3p:i",
+              "LEARN+AGENT",
+              "MOTHERwg",
+              "CAR",
+              "BUY",
+              "FINISH",
+              "IX-3p:i"
+            ],
+            "hypothesis": [
+              "MOTHER"
+            ],
+            "substitutions": 1,
+            "deletions": 6,
+            "insertions": 0,
+            "reference_tokens": 7
+          },
+          {
+            "sample_id": "ncslgr_480b611253531cc0",
+            "reference": [
+              "LEARN+AGENT",
+              "IX-loc:i",
+              "HOLD",
+              "MOTHER",
+              "FUTURE",
+              "BUY",
+              "CAR"
+            ],
+            "hypothesis": [
+              "MOTHER"
+            ],
+            "substitutions": 0,
+            "deletions": 6,
+            "insertions": 0,
+            "reference_tokens": 7
+          },
+          {
+            "sample_id": "ncslgr_cecf49697b9aae80",
+            "reference": [
+              "IX-3p:i",
+              "LEARN+AGENT",
+              "POSS-3p:i",
+              "FATHERwg",
+              "HOUSE",
+              "WHICH",
+              "BUY",
+              "IX-loc-arc"
+            ],
+            "hypothesis": [
+              "MOTHER"
+            ],
+            "substitutions": 1,
+            "deletions": 7,
+            "insertions": 0,
+            "reference_tokens": 8
+          },
+          {
+            "sample_id": "ncslgr_510cf79b19adb2d4",
+            "reference": [
+              "IX-3p:i",
+              "MOTHERwg",
+              "BOOK",
+              "READ++"
+            ],
+            "hypothesis": [
+              "MOTHER"
+            ],
+            "substitutions": 1,
+            "deletions": 3,
+            "insertions": 0,
+            "reference_tokens": 4
+          },
+          {
+            "sample_id": "ncslgr_63612b0124839c79",
+            "reference": [
+              "IX-3p:i",
+              "MOTHERwg",
+              "PLAN",
+              "READ++",
+              "BOOK",
+              "LATERwg"
+            ],
+            "hypothesis": [
+              "MOTHER"
+            ],
+            "substitutions": 1,
+            "deletions": 5,
+            "insertions": 0,
+            "reference_tokens": 6
+          },
+          {
+            "sample_id": "ncslgr_1418dc0eb004ad3b",
+            "reference": [
+              "IX-3p:i",
+              "MOTHER+",
+              "READ+",
+              "BOOK",
+              "IX-3p:i"
+            ],
+            "hypothesis": [],
+            "substitutions": 0,
+            "deletions": 5,
+            "insertions": 0,
+            "reference_tokens": 5
+          },
+          {
+            "sample_id": "ncslgr_417afd4735362b64",
+            "reference": [
+              "IX-3p:i",
+              "MOTHER",
+              "IX-3p:i",
+              "CAR",
+              "BUY",
+              "IX-3p:j"
+            ],
+            "hypothesis": [
+              "MOTHER"
+            ],
+            "substitutions": 0,
+            "deletions": 5,
+            "insertions": 0,
+            "reference_tokens": 6
+          },
+          {
+            "sample_id": "ncslgr_f9d66524fb30b3c5",
+            "reference": [
+              "IX-3p:i",
+              "FATHER",
+              "IX-loc:i",
+              "HOLD",
+              "BUY",
+              "BOOK",
+              "IX-3p:i"
+            ],
+            "hypothesis": [
+              "MOTHER"
+            ],
+            "substitutions": 1,
+            "deletions": 6,
+            "insertions": 0,
+            "reference_tokens": 7
+          },
+          {
+            "sample_id": "ncslgr_43f1ecb8adfc4359",
+            "reference": [
+              "IX-3p:i",
+              "MOTHERwg",
+              "IX-3p:i",
+              "CAR",
+              "BUY",
+              "SHOULD",
+              "NOT"
+            ],
+            "hypothesis": [
+              "MOTHER"
+            ],
+            "substitutions": 1,
+            "deletions": 6,
+            "insertions": 0,
+            "reference_tokens": 7
+          }
+        ],
+        "scope": "COLLECTION-DISJOINT DIAGNOSTIC, SIGNER UNVERIFIED; NOT PRODUCT ACCURACY",
+        "out_of_vocabulary_tokens": 9
+      },
+      "measured_training_loop_and_reload_seconds": 7.980726400011918,
+      "epoch_seconds_sum": 7.890414800000144,
+      "epoch_seconds_median": 0.32951095000316855,
+      "epoch_seconds_min": 0.3152817999944091,
+      "epoch_seconds_max": 0.6675270000123419,
+      "train_observations_per_train_dev_checkpoint_epoch_second": 8529.08265355058,
+      "train_dev_observations_per_complete_epoch_second": 9728.005681019278,
+      "peak_pytorch_allocated_vram_bytes": 70012928,
+      "peak_pytorch_reserved_vram_bytes": 71303168,
+      "minimum_measured_free_vram_bytes": 3355128628,
+      "peak_worker_working_set_bytes": 1149263872,
+      "gpu_devices": {
+        "input_device": [
+          "cuda:0"
+        ],
+        "logits_device": [
+          "cuda:0"
+        ],
+        "loss_device": [
+          "cuda:0"
+        ],
+        "gradient_device": [
+          "cuda:0"
+        ],
+        "optimizer_state_device": [
+          "cuda:0"
+        ]
+      },
+      "checkpoint_path": "D:\\apphearv3claude\\AppHear-claude-s2-r3-eval-suite\\AppHear-claude-s2-r3-eval-suite\\experiments\\continuous_asl\\20261020_continuous_expand03\\models\\compact24\\checkpoints\\epoch_012.pt",
+      "checkpoint_sha256": "845e72314bcfbf5dd70dc5fa8fa59b324d72c5a5f3a68bda2cd988ef1f32823a",
+      "parameter_count": 26421,
+      "vocabulary_size": 117,
+      "memory_failure_record_present": false,
+      "checkpoint_reload_predictions_match": true
+    }
+  },
+  "frozen_checks": {
+    "data_plan": true,
+    "training_plan": true,
+    "data_manifest": true,
+    "training_script": true,
+    "preprocessing_script": true,
+    "reference48_pointer": true,
+    "reference48_checkpoint": true,
+    "reference48_status": true,
+    "reference48_config": true,
+    "compact24_pointer": true,
+    "compact24_checkpoint": true,
+    "compact24_status": true,
+    "compact24_config": true
+  },
+  "fairness": {
+    "partitions_identical": true,
+    "vocabulary_identical": true,
+    "normalization_buffers_identical": true,
+    "shared_config_values_identical": [
+      "seed",
+      "batch",
+      "gradient_accumulation",
+      "lr",
+      "weight_decay",
+      "mixed_precision",
+      "patience",
+      "max_epochs",
+      "schema",
+      "effective_receptive_field_observations",
+      "normalization",
+      "selection"
+    ],
+    "decoder": "fixed greedy CTC, blank0, no tuned thresholds or language model",
+    "only_planned_model_size_differs": true
+  },
+  "rows": {
+    "train": 100,
+    "dev": 9
+  },
+  "observations": {
+    "train": 3059,
+    "dev": 430
+  },
+  "manifest_sha256": "1835f9c30234add2a951793ab9fa2776a75ef295d2842f6d6f7d96f83ea510a9",
+  "dev_wer_delta_candidate_minus_reference": 0.10526315789473684,
+  "preprocessing": {
+    "status": "PASS",
+    "requested": 109,
+    "processed": 109,
+    "failures": [],
+    "exact_decoded_duplicates": [],
+    "decoded": [
+      {
+        "sample_id": "ncslgr_15ce3b0df9a36e45",
+        "split": "train",
+        "decoded_pixel_sha256": "bdecf210a7ccb8c629858444ed4f79728beacc6c4981e240702c4be85a0db462",
+        "frames": 87,
+        "method": "all-frame decoded BGR SHA256; prior verified result reused if source media hash matches",
+        "reused": true
+      },
+      {
+        "sample_id": "ncslgr_189fd7d52377b3a8",
+        "split": "train",
+        "decoded_pixel_sha256": "2c611b13a20e67c63155b45da75704222a6a077c30907796a9ceee1a9746e5d7",
+        "frames": 88,
+        "method": "all-frame decoded BGR SHA256; prior verified result reused if source media hash matches",
+        "reused": true
+      },
+      {
+        "sample_id": "ncslgr_1e2c1b5b4aaadceb",
+        "split": "train",
+        "decoded_pixel_sha256": "62ee3679c7bd687c494cc3762178b4396a0773832ad4efc52a6d8840fd578864",
+        "frames": 81,
+        "method": "all-frame decoded BGR SHA256; prior verified result reused if source media hash matches",
+        "reused": true
+      },
+      {
+        "sample_id": "ncslgr_1fdea7c25c7c94f9",
+        "split": "train",
+        "decoded_pixel_sha256": "114017e3c29830795b7f846c83617cbaeed4831e0a5d074e4e73259a59766d7a",
+        "frames": 43,
+        "method": "all-frame decoded BGR SHA256; prior verified result reused if source media hash matches",
+        "reused": true
+      },
+      {
+        "sample_id": "ncslgr_29025ebac908ca34",
+        "split": "train",
+        "decoded_pixel_sha256": "b80a28f3159a996426d1dd7a146795e5a6d34449bd2f1e9eb01772c62ec2f834",
+        "frames": 80,
+        "method": "all-frame decoded BGR SHA256; prior verified result reused if source media hash matches",
+        "reused": true
+      },
+      {
+        "sample_id": "ncslgr_3a72bddf4e899dc2",
+        "split": "train",
+        "decoded_pixel_sha256": "cae74bde9f625f5812074ef87e2a711e133540068064b6934552d4db823d73de",
+        "frames": 62,
+        "method": "all-frame decoded BGR SHA256; prior verified result reused if source media hash matches",
+        "reused": true
+      },
+      {
+        "sample_id": "ncslgr_42e8b262b491ff76",
+        "split": "train",
+        "decoded_pixel_sha256": "3ccd9b46fb246211e62181286f0bad9b7ccb866fec647f047a91815b8cde941e",
+        "frames": 63,
+        "method": "all-frame decoded BGR SHA256; prior verified result reused if source media hash matches",
+        "reused": true
+      },
+      {
+        "sample_id": "ncslgr_506eb32518c31cf0",
+        "split": "train",
+        "decoded_pixel_sha256": "16d2a0a77e594cb99dbafc4c9632c2ffba99c1d160f104cb0f5f423e948842ec",
+        "frames": 81,
+        "method": "all-frame decoded BGR SHA256; prior verified result reused if source media hash matches",
+        "reused": true
+      },
+      {
+        "sample_id": "ncslgr_5ebe678119cee7c7",
+        "split": "train",
+        "decoded_pixel_sha256": "90072eebcecd4a1ffb44dfa810d4b1541d2eb6dfd2f51b564c4e7adae84eea0d",
+        "frames": 89,
+        "method": "all-frame decoded BGR SHA256; prior verified result reused if source media hash matches",
+        "reused": true
+      },
+      {
+        "sample_id": "ncslgr_6388dfd0f663edff",
+        "split": "train",
+        "decoded_pixel_sha256": "ab0005690f19e5ae203b567a27aed2e334315f69dac90d08b4ff6fa26e7dbe9d",
+        "frames": 89,
+        "method": "all-frame decoded BGR SHA256; prior verified result reused if source media hash matches",
+        "reused": true
+      },
+      {
+        "sample_id": "ncslgr_6a4af42a32509d57",
+        "split": "train",
+        "decoded_pixel_sha256": "f9d1da549660552fd9687ca0b5a7fd75defd407d1647fa29c58d6878de32123a",
+        "frames": 97,
+        "method": "all-frame decoded BGR SHA256; prior verified result reused if source media hash matches",
+        "reused": true
+      },
+      {
+        "sample_id": "ncslgr_6d36b1f27e4d56af",
+        "split": "train",
+        "decoded_pixel_sha256": "2c923d3b30c785b05e340b3fa0dac328f500b55a1f11427c495913e3aae0568c",
+        "frames": 68,
+        "method": "all-frame decoded BGR SHA256; prior verified result reused if source media hash matches",
+        "reused": true
+      },
+      {
+        "sample_id": "ncslgr_6ffe901b165408f0",
+        "split": "train",
+        "decoded_pixel_sha256": "fbae05a5d60f82502e98a7d86b33c03026f3ee671989a493b51467b0d9f399eb",
+        "frames": 113,
+        "method": "all-frame decoded BGR SHA256; prior verified result reused if source media hash matches",
+        "reused": true
+      },
+      {
+        "sample_id": "ncslgr_70c974c405d9d22f",
+        "split": "train",
+        "decoded_pixel_sha256": "bbbf3bcb5170800cd08b3666513a9e589eebd401ec1de9d34f04280bddeee292",
+        "frames": 72,
+        "method": "all-frame decoded BGR SHA256; prior verified result reused if source media hash matches",
+        "reused": true
+      },
+      {
+        "sample_id": "ncslgr_72c804adf365509c",
+        "split": "train",
+        "decoded_pixel_sha256": "d1959a8b333f53f3eeae62d6d06b3915b3eb1b8d8d9c28abd7943743c5a2545b",
+        "frames": 78,
+        "method": "all-frame decoded BGR SHA256; prior verified result reused if source media hash matches",
+        "reused": true
+      },
+      {
+        "sample_id": "ncslgr_80c4176c179c9190",
+        "split": "train",
+        "decoded_pixel_sha256": "dd4d79fcdab369e7e08797f995566752777141bb73538c2a96ae799a5520adb4",
+        "frames": 99,
+        "method": "all-frame decoded BGR SHA256; prior verified result reused if source media hash matches",
+        "reused": true
+      },
+      {
+        "sample_id": "ncslgr_848668784c16c828",
+        "split": "train",
+        "decoded_pixel_sha256": "f6c5cfb524c9c214b413ef4797f5c198f8312c3024112900eef84671d87af22c",
+        "frames": 69,
+        "method": "all-frame decoded BGR SHA256; prior verified result reused if source media hash matches",
+        "reused": true
+      },
+      {
+        "sample_id": "ncslgr_87f13ef225243f47",
+        "split": "train",
+        "decoded_pixel_sha256": "e2273f9a7405b24b72f93bf9a2cd9a3345da98546a4e165198c7e97f4754ede5",
+        "frames": 83,
+        "method": "all-frame decoded BGR SHA256; prior verified result reused if source media hash matches",
+        "reused": true
+      },
+      {
+        "sample_id": "ncslgr_8df5a103f3008daa",
+        "split": "train",
+        "decoded_pixel_sha256": "6b096b70191629b0c160fe6173b79d19b931ed66fca1767016ac68f5ab26531d",
+        "frames": 87,
+        "method": "all-frame decoded BGR SHA256; prior verified result reused if source media hash matches",
+        "reused": true
+      },
+      {
+        "sample_id": "ncslgr_96d4fba7d1c2598c",
+        "split": "train",
+        "decoded_pixel_sha256": "885af2e52100b1688bda9772b4a8a5ffdde52348e38c2924fc24d58dc8f23ac4",
+        "frames": 59,
+        "method": "all-frame decoded BGR SHA256; prior verified result reused if source media hash matches",
+        "reused": true
+      },
+      {
+        "sample_id": "ncslgr_9ab04c8d83836bbd",
+        "split": "train",
+        "decoded_pixel_sha256": "ff09707611626ea0cb2c58a021f24121fe54a54bfee25838d9720e05a2e2ed71",
+        "frames": 73,
+        "method": "all-frame decoded BGR SHA256; prior verified result reused if source media hash matches",
+        "reused": true
+      },
+      {
+        "sample_id": "ncslgr_a1f5b0418a1d8936",
+        "split": "train",
+        "decoded_pixel_sha256": "af9bf64110c883d9f367916c00f8af9c187353f90bcafd104bbe8c9a7236d0d8",
+        "frames": 81,
+        "method": "all-frame decoded BGR SHA256; prior verified result reused if source media hash matches",
+        "reused": true
+      },
+      {
+        "sample_id": "ncslgr_b5a0f500c50c90a5",
+        "split": "train",
+        "decoded_pixel_sha256": "4ef964a0323cd231d4fec5d95f8059bd97f683afd73dba990a5452eeee76f0bf",
+        "frames": 71,
+        "method": "all-frame decoded BGR SHA256; prior verified result reused if source media hash matches",
+        "reused": true
+      },
+      {
+        "sample_id": "ncslgr_b79906da14d728f6",
+        "split": "train",
+        "decoded_pixel_sha256": "abd39d4e7097d043ec12549dab2baabd81e49946b323d62640b61b6d74de74d4",
+        "frames": 98,
+        "method": "all-frame decoded BGR SHA256; prior verified result reused if source media hash matches",
+        "reused": true
+      },
+      {
+        "sample_id": "ncslgr_c9b58a7e5186fbcc",
+        "split": "train",
+        "decoded_pixel_sha256": "b6257d01b821d4018b96db91499dfed53ae438d30408f552d05a3c7cafbcfd15",
+        "frames": 65,
+        "method": "all-frame decoded BGR SHA256; prior verified result reused if source media hash matches",
+        "reused": true
+      },
+      {
+        "sample_id": "ncslgr_d00de0e555560ccf",
+        "split": "train",
+        "decoded_pixel_sha256": "c9ecce7ddaf277467f268763fc4935904e7a7ed547bc1ad35124a19ce2769420",
+        "frames": 89,
+        "method": "all-frame decoded BGR SHA256; prior verified result reused if source media hash matches",
+        "reused": true
+      },
+      {
+        "sample_id": "ncslgr_d58fc6ae63332323",
+        "split": "train",
+        "decoded_pixel_sha256": "35c0678db549c3f2ed7ee0e60c3b8310735a753cb2464798a594edc7e5de6194",
+        "frames": 91,
+        "method": "all-frame decoded BGR SHA256; prior verified result reused if source media hash matches",
+        "reused": true
+      },
+      {
+        "sample_id": "ncslgr_d79fcf66fb5f83a0",
+        "split": "train",
+        "decoded_pixel_sha256": "4bfe4dbddcad636a3387419642a201336aea6e852ad7e646335f0b43996147be",
+        "frames": 64,
+        "method": "all-frame decoded BGR SHA256; prior verified result reused if source media hash matches",
+        "reused": true
+      },
+      {
+        "sample_id": "ncslgr_db431890eb66b9b8",
+        "split": "train",
+        "decoded_pixel_sha256": "ad24e5d56956e6b11032dbb38d1ba8a0d1b647cd47ee7c45d1d339c0eb695e2c",
+        "frames": 70,
+        "method": "all-frame decoded BGR SHA256; prior verified result reused if source media hash matches",
+        "reused": true
+      },
+      {
+        "sample_id": "ncslgr_ff4ccab6214e02e3",
+        "split": "train",
+        "decoded_pixel_sha256": "e72f32196c1fd209bdb07894712891cae97aad7005b727b99d907023f825f498",
+        "frames": 68,
+        "method": "all-frame decoded BGR SHA256; prior verified result reused if source media hash matches",
+        "reused": true
+      },
+      {
+        "sample_id": "ncslgr_90a44b81b93507ad",
+        "split": "train",
+        "decoded_pixel_sha256": "f00e327aa3f18a0ed27755789886ebfadb0c9667a8a8b67ee5d00ffa74e5dd8c",
+        "frames": 101,
+        "method": "all-frame decoded BGR SHA256; prior verified result reused if source media hash matches",
+        "reused": false
+      },
+      {
+        "sample_id": "ncslgr_319d3896ec6ee25e",
+        "split": "train",
+        "decoded_pixel_sha256": "d4c754b11c860964f903ec76724a4353a070570847597f6d27de102e411df6ba",
+        "frames": 98,
+        "method": "all-frame decoded BGR SHA256; prior verified result reused if source media hash matches",
+        "reused": false
+      },
+      {
+        "sample_id": "ncslgr_63813c42e6562360",
+        "split": "train",
+        "decoded_pixel_sha256": "4b74728c45b0f61a0b6cd86a420b06e8d7bddcd23cf78215cba7ee2db4ad1279",
+        "frames": 106,
+        "method": "all-frame decoded BGR SHA256; prior verified result reused if source media hash matches",
+        "reused": false
+      },
+      {
+        "sample_id": "ncslgr_fecc315b19869920",
+        "split": "train",
+        "decoded_pixel_sha256": "1cede376d180061f30278634ae33e8bd8428d50b879102eec07f8aa1792730ff",
+        "frames": 159,
+        "method": "all-frame decoded BGR SHA256; prior verified result reused if source media hash matches",
+        "reused": false
+      },
+      {
+        "sample_id": "ncslgr_0b352db9b67a498b",
+        "split": "train",
+        "decoded_pixel_sha256": "04073a7aed75f8ec18beb3e66a563e0bee2be0cd9fbd696fdb30dafaba632be1",
+        "frames": 75,
+        "method": "all-frame decoded BGR SHA256; prior verified result reused if source media hash matches",
+        "reused": false
+      },
+      {
+        "sample_id": "ncslgr_20e44b7ed835f84c",
+        "split": "train",
+        "decoded_pixel_sha256": "fdcafdd37b978a7a5de067e43e916f8371b8d651a0ce6cf984035932366a52c9",
+        "frames": 97,
+        "method": "all-frame decoded BGR SHA256; prior verified result reused if source media hash matches",
+        "reused": false
+      },
+      {
+        "sample_id": "ncslgr_88024b507c85d0ee",
+        "split": "train",
+        "decoded_pixel_sha256": "2b7b885e090233fd48e939b7e60669b9576ad304adbef96c0908b72cd0c590a7",
+        "frames": 64,
+        "method": "all-frame decoded BGR SHA256; prior verified result reused if source media hash matches",
+        "reused": false
+      },
+      {
+        "sample_id": "ncslgr_6a490529405d1315",
+        "split": "train",
+        "decoded_pixel_sha256": "6d0a6636b5e8ef025b00873e58182443b6cefaa26f269d8e7ea43220397007ec",
+        "frames": 87,
+        "method": "all-frame decoded BGR SHA256; prior verified result reused if source media hash matches",
+        "reused": false
+      },
+      {
+        "sample_id": "ncslgr_d3da1e260edba994",
+        "split": "train",
+        "decoded_pixel_sha256": "40d19c252d80e1481244cd793b66a948cb10d4a7d2666d1324c260a0fd62b8c7",
+        "frames": 88,
+        "method": "all-frame decoded BGR SHA256; prior verified result reused if source media hash matches",
+        "reused": false
+      },
+      {
+        "sample_id": "ncslgr_1d26464832f7a211",
+        "split": "train",
+        "decoded_pixel_sha256": "a13c9091930e41b51a3b9a297240ab72415a680c9d6fa3c3d51db534c68df354",
+        "frames": 97,
+        "method": "all-frame decoded BGR SHA256; prior verified result reused if source media hash matches",
+        "reused": false
+      },
+      {
+        "sample_id": "ncslgr_db2155ec0ead1472",
+        "split": "train",
+        "decoded_pixel_sha256": "237ec8149fb5d265e3d221423bc773ab4bd0e9bc427c0651dff441d9e070f51e",
+        "frames": 135,
+        "method": "all-frame decoded BGR SHA256; prior verified result reused if source media hash matches",
+        "reused": false
+      },
+      {
+        "sample_id": "ncslgr_817a2bb1ae0bf365",
+        "split": "train",
+        "decoded_pixel_sha256": "47d8b83d099e646f43b0a1da61e5fae7a7ca56e2396216174b3b9ff931369673",
+        "frames": 86,
+        "method": "all-frame decoded BGR SHA256; prior verified result reused if source media hash matches",
+        "reused": false
+      },
+      {
+        "sample_id": "ncslgr_f00d93e24b917566",
+        "split": "train",
+        "decoded_pixel_sha256": "47cbe8de2b301e0ac55978ee2ac367fefd4f90e81b7aac99545072c90bad22ae",
+        "frames": 98,
+        "method": "all-frame decoded BGR SHA256; prior verified result reused if source media hash matches",
+        "reused": false
+      },
+      {
+        "sample_id": "ncslgr_f869bbf30e639a97",
+        "split": "train",
+        "decoded_pixel_sha256": "24627eef5095fc9ea5537e868742cb333fba5548a64c9259072f889b55ddb923",
+        "frames": 113,
+        "method": "all-frame decoded BGR SHA256; prior verified result reused if source media hash matches",
+        "reused": false
+      },
+      {
+        "sample_id": "ncslgr_758bce9519deecaa",
+        "split": "train",
+        "decoded_pixel_sha256": "d23f66b17ee7e0fc974aa2a5aa6d047758c9ddb9f57d7123001a850ed301e0f6",
+        "frames": 97,
+        "method": "all-frame decoded BGR SHA256; prior verified result reused if source media hash matches",
+        "reused": false
+      },
+      {
+        "sample_id": "ncslgr_ededdfcaaa559b20",
+        "split": "train",
+        "decoded_pixel_sha256": "6c499f7ec50fe68489845e668d38d9033bace6eed63adc8c3b67a32da4941c59",
+        "frames": 98,
+        "method": "all-frame decoded BGR SHA256; prior verified result reused if source media hash matches",
+        "reused": false
+      },
+      {
+        "sample_id": "ncslgr_d75188d63d14f294",
+        "split": "train",
+        "decoded_pixel_sha256": "712b34092213539351c81c4339dcea81ab115fe7ee83615196aee0fcd389c49e",
+        "frames": 72,
+        "method": "all-frame decoded BGR SHA256; prior verified result reused if source media hash matches",
+        "reused": false
+      },
+      {
+        "sample_id": "ncslgr_bb45cf1c221f0057",
+        "split": "train",
+        "decoded_pixel_sha256": "fee1861b3c3fcf2d0afbc2c1b43e1de2b93eabb077f40d9a3520ff5b3b580a02",
+        "frames": 123,
+        "method": "all-frame decoded BGR SHA256; prior verified result reused if source media hash matches",
+        "reused": false
+      },
+      {
+        "sample_id": "ncslgr_b41353d9f5c4d4a1",
+        "split": "train",
+        "decoded_pixel_sha256": "de11249e7d64aa3480151cbd9ea5a965c97a06409c08e77df93e98993aa9d0a7",
+        "frames": 117,
+        "method": "all-frame decoded BGR SHA256; prior verified result reused if source media hash matches",
+        "reused": false
+      },
+      {
+        "sample_id": "ncslgr_2d607b7e0199bd52",
+        "split": "train",
+        "decoded_pixel_sha256": "b0fc42fbef5d8ad25ca152e2a14a68253530708ea733a87314adb646707de440",
+        "frames": 86,
+        "method": "all-frame decoded BGR SHA256; prior verified result reused if source media hash matches",
+        "reused": false
+      },
+      {
+        "sample_id": "ncslgr_bcfa09cd37d06fee",
+        "split": "train",
+        "decoded_pixel_sha256": "afe750ef12d44867f122b03c92ba4d64a92d9cd7162f8b2b98d9ca14b4285203",
+        "frames": 136,
+        "method": "all-frame decoded BGR SHA256; prior verified result reused if source media hash matches",
+        "reused": false
+      },
+      {
+        "sample_id": "ncslgr_e538266dd80846ab",
+        "split": "train",
+        "decoded_pixel_sha256": "b159e4b668c084d970d561eddf36b5e49852a2662a49570c4b3d9a304fde5d1d",
+        "frames": 83,
+        "method": "all-frame decoded BGR SHA256; prior verified result reused if source media hash matches",
+        "reused": false
+      },
+      {
+        "sample_id": "ncslgr_84d3cdc2a6ce76ae",
+        "split": "train",
+        "decoded_pixel_sha256": "9cb12161c9d3d489a795a64f5eabe36105d12689ab9716199d9091482f385b4d",
+        "frames": 73,
+        "method": "all-frame decoded BGR SHA256; prior verified result reused if source media hash matches",
+        "reused": false
+      },
+      {
+        "sample_id": "ncslgr_2630822e5548abde",
+        "split": "train",
+        "decoded_pixel_sha256": "36ced464a4a25909563c6822f4db7d0f7b53db25ab12d3846464d79761e3213e",
+        "frames": 79,
+        "method": "all-frame decoded BGR SHA256; prior verified result reused if source media hash matches",
+        "reused": false
+      },
+      {
+        "sample_id": "ncslgr_b193b89a97b387cd",
+        "split": "train",
+        "decoded_pixel_sha256": "babd7c78d7c17784af3dc3869e5c9222df04149273d5e9a36488477229570522",
+        "frames": 127,
+        "method": "all-frame decoded BGR SHA256; prior verified result reused if source media hash matches",
+        "reused": false
+      },
+      {
+        "sample_id": "ncslgr_c9d830763f1aeb51",
+        "split": "train",
+        "decoded_pixel_sha256": "b45c7d48ea8bef5cbcbee67f9c5f02bb1b89c63aabc5eaee2f658cf2858dbc60",
+        "frames": 73,
+        "method": "all-frame decoded BGR SHA256; prior verified result reused if source media hash matches",
+        "reused": false
+      },
+      {
+        "sample_id": "ncslgr_94579b1b8803981d",
+        "split": "train",
+        "decoded_pixel_sha256": "611b8e94af83b92f82e996864028ff5d6af61c8ff70b5fd912c3a506e6ea19aa",
+        "frames": 87,
+        "method": "all-frame decoded BGR SHA256; prior verified result reused if source media hash matches",
+        "reused": false
+      },
+      {
+        "sample_id": "ncslgr_93f2a913c2e603c5",
+        "split": "train",
+        "decoded_pixel_sha256": "ca5974b39d385c7f63769b3d8f4cd1dbc300aef90a285ca767d6be0301166870",
+        "frames": 129,
+        "method": "all-frame decoded BGR SHA256; prior verified result reused if source media hash matches",
+        "reused": false
+      },
+      {
+        "sample_id": "ncslgr_3d8ac82ec23c105c",
+        "split": "train",
+        "decoded_pixel_sha256": "7728c9299949fc173fc8eb69fdd31ea5aceada71edae0bf76d4d9780d1b1ef1e",
+        "frames": 132,
+        "method": "all-frame decoded BGR SHA256; prior verified result reused if source media hash matches",
+        "reused": false
+      },
+      {
+        "sample_id": "ncslgr_a1781107c17bdc13",
+        "split": "train",
+        "decoded_pixel_sha256": "92a7b0cec1e527f3f59d80fdfbde02d547e322fdd6be00c96f301f8eb4c0e53b",
+        "frames": 68,
+        "method": "all-frame decoded BGR SHA256; prior verified result reused if source media hash matches",
+        "reused": false
+      },
+      {
+        "sample_id": "ncslgr_df02ec3c8434bdb7",
+        "split": "train",
+        "decoded_pixel_sha256": "81e28ce4be9621dbfe4000eb2cfe198d15d8f3f6777f52934406d7de8efc9c8a",
+        "frames": 97,
+        "method": "all-frame decoded BGR SHA256; prior verified result reused if source media hash matches",
+        "reused": false
+      },
+      {
+        "sample_id": "ncslgr_7ffe81b97b58aeb8",
+        "split": "train",
+        "decoded_pixel_sha256": "db248e50bc9bd984b671dc34bd2cc3d9c6b88b0f92412f4756c1da7a89741d4b",
+        "frames": 106,
+        "method": "all-frame decoded BGR SHA256; prior verified result reused if source media hash matches",
+        "reused": false
+      },
+      {
+        "sample_id": "ncslgr_b1a44da24e00a74b",
+        "split": "train",
+        "decoded_pixel_sha256": "c4a6c3c3dc9e3cc066e35db9d57ec164ba0f27cb13af33318b0387f47a1738cb",
+        "frames": 97,
+        "method": "all-frame decoded BGR SHA256; prior verified result reused if source media hash matches",
+        "reused": false
+      },
+      {
+        "sample_id": "ncslgr_ee66a02d2edf86a9",
+        "split": "train",
+        "decoded_pixel_sha256": "9063311d059dd54df63564ecc0eb1d490384e6e8fee1b94f639811d8f52cea4c",
+        "frames": 97,
+        "method": "all-frame decoded BGR SHA256; prior verified result reused if source media hash matches",
+        "reused": false
+      },
+      {
+        "sample_id": "ncslgr_eb907a97735a1b09",
+        "split": "train",
+        "decoded_pixel_sha256": "24979376e30488c358f7ca98ab0838b33e9a996553fcfe222963a7630362f94d",
+        "frames": 87,
+        "method": "all-frame decoded BGR SHA256; prior verified result reused if source media hash matches",
+        "reused": false
+      },
+      {
+        "sample_id": "ncslgr_78c221dc4a158913",
+        "split": "train",
+        "decoded_pixel_sha256": "cb9383fc64da6288cbd5c87a3c13df0c5383f6c541f989b3a5f2009af68dd8ae",
+        "frames": 72,
+        "method": "all-frame decoded BGR SHA256; prior verified result reused if source media hash matches",
+        "reused": false
+      },
+      {
+        "sample_id": "ncslgr_f332d3b828c62bac",
+        "split": "train",
+        "decoded_pixel_sha256": "a0b9025fa2c5442ab13262c59218ca017a1dc4ef42d11a180ce518c27e1208df",
+        "frames": 62,
+        "method": "all-frame decoded BGR SHA256; prior verified result reused if source media hash matches",
+        "reused": false
+      },
+      {
+        "sample_id": "ncslgr_1b8569968049e0ba",
+        "split": "train",
+        "decoded_pixel_sha256": "aee0fbde44185ae63d09b47782742bfc0d4523d2d3ff127ae210e7c08c91ad94",
+        "frames": 105,
+        "method": "all-frame decoded BGR SHA256; prior verified result reused if source media hash matches",
+        "reused": false
+      },
+      {
+        "sample_id": "ncslgr_5824258b906ef10d",
+        "split": "train",
+        "decoded_pixel_sha256": "daf384fe395f7c6b76e25be5dd3296c04a84f9867a71c392f7c9194749ddb0f8",
+        "frames": 109,
+        "method": "all-frame decoded BGR SHA256; prior verified result reused if source media hash matches",
+        "reused": false
+      },
+      {
+        "sample_id": "ncslgr_bf4861052176d17f",
+        "split": "train",
+        "decoded_pixel_sha256": "49fc3c854cb71ab21c74d44a114de66156ffd97ab559fff244616652455d3194",
+        "frames": 85,
+        "method": "all-frame decoded BGR SHA256; prior verified result reused if source media hash matches",
+        "reused": false
+      },
+      {
+        "sample_id": "ncslgr_be8b5d66d244b964",
+        "split": "train",
+        "decoded_pixel_sha256": "3c11aabae963e0f4b08c13dfec61c163d89ee7a96c0f3eba4daf5058f1212fcd",
+        "frames": 94,
+        "method": "all-frame decoded BGR SHA256; prior verified result reused if source media hash matches",
+        "reused": false
+      },
+      {
+        "sample_id": "ncslgr_1fc26714bd2ee91c",
+        "split": "train",
+        "decoded_pixel_sha256": "b17e1cbd6465839806f9aba4de8b732cb573e212c854fa62a540f78bb7f5d69d",
+        "frames": 97,
+        "method": "all-frame decoded BGR SHA256; prior verified result reused if source media hash matches",
+        "reused": false
+      },
+      {
+        "sample_id": "ncslgr_b1882018fd8bc160",
+        "split": "train",
+        "decoded_pixel_sha256": "dd6f42670cea0f0a46cfe0a2702f431c35010d3f88434eb2ca5041b9151a2b8b",
+        "frames": 113,
+        "method": "all-frame decoded BGR SHA256; prior verified result reused if source media hash matches",
+        "reused": false
+      },
+      {
+        "sample_id": "ncslgr_ca89e0f39e7c5c4b",
+        "split": "train",
+        "decoded_pixel_sha256": "9c747c722589b5a46a9c6410808fb38ef80ea6fe51b9b601e93b2ef716b94503",
+        "frames": 92,
+        "method": "all-frame decoded BGR SHA256; prior verified result reused if source media hash matches",
+        "reused": false
+      },
+      {
+        "sample_id": "ncslgr_b0cb412dca3d924b",
+        "split": "train",
+        "decoded_pixel_sha256": "414b4d39420114c85d783ce6f2eddcca2fb98eec1c459564f0a139bc69bd1899",
+        "frames": 85,
+        "method": "all-frame decoded BGR SHA256; prior verified result reused if source media hash matches",
+        "reused": false
+      },
+      {
+        "sample_id": "ncslgr_6945120c9735431c",
+        "split": "train",
+        "decoded_pixel_sha256": "17e7df056be997258580e2e29518978319aa86b89f69c84880322bda54b2c6b1",
+        "frames": 87,
+        "method": "all-frame decoded BGR SHA256; prior verified result reused if source media hash matches",
+        "reused": false
+      },
+      {
+        "sample_id": "ncslgr_eb7a2e40cc648cae",
+        "split": "train",
+        "decoded_pixel_sha256": "c93d9d33daf32c72c1fc81629e893781597ab9cde46a617f131fedd88a98df2c",
+        "frames": 125,
+        "method": "all-frame decoded BGR SHA256; prior verified result reused if source media hash matches",
+        "reused": false
+      },
+      {
+        "sample_id": "ncslgr_a9d1feacf2ac6f84",
+        "split": "train",
+        "decoded_pixel_sha256": "0278ec3f2ceac89cf97c7115fce92a3883f321deaa26034f66a18829b4afe972",
+        "frames": 70,
+        "method": "all-frame decoded BGR SHA256; prior verified result reused if source media hash matches",
+        "reused": false
+      },
+      {
+        "sample_id": "ncslgr_a025187d833e3d16",
+        "split": "train",
+        "decoded_pixel_sha256": "c069aaa4b7a85649ed6513201cd99997fffac9aae75a963e8b9ffc1c5a356415",
+        "frames": 113,
+        "method": "all-frame decoded BGR SHA256; prior verified result reused if source media hash matches",
+        "reused": false
+      },
+      {
+        "sample_id": "ncslgr_ebf5db09dc1abd8c",
+        "split": "train",
+        "decoded_pixel_sha256": "2bd0ce9975d99120366bb1ee222f3108dc84fa8ee510660b497b5cd12d32e762",
+        "frames": 89,
+        "method": "all-frame decoded BGR SHA256; prior verified result reused if source media hash matches",
+        "reused": false
+      },
+      {
+        "sample_id": "ncslgr_29399601e5ab8bf6",
+        "split": "train",
+        "decoded_pixel_sha256": "3210f3e3057de4a968ff060d995189ed90255b929fdf80b7473c54ba49db4de1",
+        "frames": 136,
+        "method": "all-frame decoded BGR SHA256; prior verified result reused if source media hash matches",
+        "reused": false
+      },
+      {
+        "sample_id": "ncslgr_dade8909357f1f50",
+        "split": "train",
+        "decoded_pixel_sha256": "3ecf61ad20fb68c7d71cd1f3b51830d476e61583d520f6c8874a19231b32dd5f",
+        "frames": 85,
+        "method": "all-frame decoded BGR SHA256; prior verified result reused if source media hash matches",
+        "reused": false
+      },
+      {
+        "sample_id": "ncslgr_3835ca7bdf3ffd43",
+        "split": "train",
+        "decoded_pixel_sha256": "3217947351f9a65b647214dae986cfc2d5de1c69621dabdc859fe30f2e30291b",
+        "frames": 150,
+        "method": "all-frame decoded BGR SHA256; prior verified result reused if source media hash matches",
+        "reused": false
+      },
+      {
+        "sample_id": "ncslgr_1454dd6da5b9812f",
+        "split": "train",
+        "decoded_pixel_sha256": "962348133d0d673f25c662d7c7890aee42c425431b6c3fe1252c4923c37be516",
+        "frames": 121,
+        "method": "all-frame decoded BGR SHA256; prior verified result reused if source media hash matches",
+        "reused": false
+      },
+      {
+        "sample_id": "ncslgr_f6cf915bc15ceec3",
+        "split": "train",
+        "decoded_pixel_sha256": "ef30b343adc8782863992b559a56ff0f632a902f436e58a75a0f8058eec5bae8",
+        "frames": 85,
+        "method": "all-frame decoded BGR SHA256; prior verified result reused if source media hash matches",
+        "reused": false
+      },
+      {
+        "sample_id": "ncslgr_0021f5efb3ee7d46",
+        "split": "train",
+        "decoded_pixel_sha256": "341fd52852149ae2e06299f04edda4c8293a7bae5cbca17818a34f309b26e68b",
+        "frames": 105,
+        "method": "all-frame decoded BGR SHA256; prior verified result reused if source media hash matches",
+        "reused": false
+      },
+      {
+        "sample_id": "ncslgr_7c392c46aa514787",
+        "split": "train",
+        "decoded_pixel_sha256": "c69d3919a32131d78236659a99f0f0e4ac39eb7296ebcbdbd17d15f78330c0f5",
+        "frames": 94,
+        "method": "all-frame decoded BGR SHA256; prior verified result reused if source media hash matches",
+        "reused": false
+      },
+      {
+        "sample_id": "ncslgr_c7a5766524d2fc7b",
+        "split": "train",
+        "decoded_pixel_sha256": "5492289f62631c4f092bc92a6a6f59a8febfc9234f10792aecce1fa6635259a4",
+        "frames": 89,
+        "method": "all-frame decoded BGR SHA256; prior verified result reused if source media hash matches",
+        "reused": false
+      },
+      {
+        "sample_id": "ncslgr_41a5c6fe2e2dd788",
+        "split": "train",
+        "decoded_pixel_sha256": "97c241b9c9c8cf3f3415e71783138f514df34ea6b9570ffae4c24f574a4c2c85",
+        "frames": 70,
+        "method": "all-frame decoded BGR SHA256; prior verified result reused if source media hash matches",
+        "reused": false
+      },
+      {
+        "sample_id": "ncslgr_486bb40429a7c7ef",
+        "split": "train",
+        "decoded_pixel_sha256": "d8e1ade35e165260292b523ee184658ad9622e7064d998f2743b29adc5756343",
+        "frames": 97,
+        "method": "all-frame decoded BGR SHA256; prior verified result reused if source media hash matches",
+        "reused": false
+      },
+      {
+        "sample_id": "ncslgr_345711c6c9af0698",
+        "split": "train",
+        "decoded_pixel_sha256": "0a5117d96741759d493179ae0d8c378cf13e0e1fb67cd1be89f0efc3d159c9f5",
+        "frames": 77,
+        "method": "all-frame decoded BGR SHA256; prior verified result reused if source media hash matches",
+        "reused": false
+      },
+      {
+        "sample_id": "ncslgr_750262e943ab7fad",
+        "split": "train",
+        "decoded_pixel_sha256": "3f2a18938f7c45dc65e47310f50c35dda8b24309ac09f03295a560bffadd79b2",
+        "frames": 94,
+        "method": "all-frame decoded BGR SHA256; prior verified result reused if source media hash matches",
+        "reused": false
+      },
+      {
+        "sample_id": "ncslgr_c27ac5af5dab0e2a",
+        "split": "train",
+        "decoded_pixel_sha256": "2e85d880de835a56527318631f27768a0d37564e75b7c7d6be72a2e13b975175",
+        "frames": 89,
+        "method": "all-frame decoded BGR SHA256; prior verified result reused if source media hash matches",
+        "reused": false
+      },
+      {
+        "sample_id": "ncslgr_97b09f8007c5e0f9",
+        "split": "train",
+        "decoded_pixel_sha256": "46983b21f662594cff6e65d0d4e4eca8f82d11f6ef5d0057d331763160be7f9f",
+        "frames": 68,
+        "method": "all-frame decoded BGR SHA256; prior verified result reused if source media hash matches",
+        "reused": false
+      },
+      {
+        "sample_id": "ncslgr_b69a973554770fd1",
+        "split": "train",
+        "decoded_pixel_sha256": "c417419953176f59f89a2e0a96cb2e6209bb0ceba5f3e2577ce49f7052f32bc0",
+        "frames": 69,
+        "method": "all-frame decoded BGR SHA256; prior verified result reused if source media hash matches",
+        "reused": false
+      },
+      {
+        "sample_id": "ncslgr_c85f1ef6c383ad32",
+        "split": "train",
+        "decoded_pixel_sha256": "c620dbc9659c5d36358bba4e68508ff45a807a1706b0a874d736963500e6fbda",
+        "frames": 97,
+        "method": "all-frame decoded BGR SHA256; prior verified result reused if source media hash matches",
+        "reused": false
+      },
+      {
+        "sample_id": "ncslgr_95621d6e49f6ddec",
+        "split": "train",
+        "decoded_pixel_sha256": "cdb0f0499b5d50b1877227acf28d5a95eb761bfb3b832624cdcf3b4744530a18",
+        "frames": 77,
+        "method": "all-frame decoded BGR SHA256; prior verified result reused if source media hash matches",
+        "reused": false
+      },
+      {
+        "sample_id": "ncslgr_84a94707bc73c753",
+        "split": "train",
+        "decoded_pixel_sha256": "b95f67202b099d296e75dc3a07b9857da2c19f4ced6dfc0e68fab33994f84d33",
+        "frames": 91,
+        "method": "all-frame decoded BGR SHA256; prior verified result reused if source media hash matches",
+        "reused": false
+      },
+      {
+        "sample_id": "ncslgr_be2875af611fe566",
+        "split": "train",
+        "decoded_pixel_sha256": "19c0ef51a9516d573ca82cd2eb7d4d784dd0cefcfb8a88368e2495d81a79ed5d",
+        "frames": 86,
+        "method": "all-frame decoded BGR SHA256; prior verified result reused if source media hash matches",
+        "reused": false
+      },
+      {
+        "sample_id": "ncslgr_f79de085befe5864",
+        "split": "train",
+        "decoded_pixel_sha256": "3ad469e996b503c4551ad7a09433a2a3631b1bdbdea3fd5f4b8d6b8b5b26ae8f",
+        "frames": 62,
+        "method": "all-frame decoded BGR SHA256; prior verified result reused if source media hash matches",
+        "reused": false
+      },
+      {
+        "sample_id": "ncslgr_6b627c2a6d44a0fc",
+        "split": "dev",
+        "decoded_pixel_sha256": "c54d8b079082f10b2a9625a7285505df4f5763b4209dc7d3f820b1b135b274ca",
+        "frames": 117,
+        "method": "all-frame decoded BGR SHA256; prior verified result reused if source media hash matches",
+        "reused": false
+      },
+      {
+        "sample_id": "ncslgr_480b611253531cc0",
+        "split": "dev",
+        "decoded_pixel_sha256": "92e05ba699711235d847ebb14a11c78e72a700252ba978b2978a19f374c3cb1e",
+        "frames": 159,
+        "method": "all-frame decoded BGR SHA256; prior verified result reused if source media hash matches",
+        "reused": false
+      },
+      {
+        "sample_id": "ncslgr_cecf49697b9aae80",
+        "split": "dev",
+        "decoded_pixel_sha256": "5871c9cfeeaa69ce580712915fb59e9ddc5ca11b6c5ca36dd0b2ae0a4a0fee50",
+        "frames": 173,
+        "method": "all-frame decoded BGR SHA256; prior verified result reused if source media hash matches",
+        "reused": false
+      },
+      {
+        "sample_id": "ncslgr_510cf79b19adb2d4",
+        "split": "dev",
+        "decoded_pixel_sha256": "820a9e5241713aeb1a8c1c4ba0b63bf83e5cb7f0735425b36722ca5563ab8f52",
+        "frames": 114,
+        "method": "all-frame decoded BGR SHA256; prior verified result reused if source media hash matches",
+        "reused": false
+      },
+      {
+        "sample_id": "ncslgr_63612b0124839c79",
+        "split": "dev",
+        "decoded_pixel_sha256": "5826d3d7daa3eed2f88ba019aba17b961e8f0bea492f91ddfc0269097b1b4f5c",
+        "frames": 153,
+        "method": "all-frame decoded BGR SHA256; prior verified result reused if source media hash matches",
+        "reused": false
+      },
+      {
+        "sample_id": "ncslgr_1418dc0eb004ad3b",
+        "split": "dev",
+        "decoded_pixel_sha256": "cbecd354bf1018335ae3952f10e2398eaf5e4e844ce8cdf106d30249c501653a",
+        "frames": 128,
+        "method": "all-frame decoded BGR SHA256; prior verified result reused if source media hash matches",
+        "reused": false
+      },
+      {
+        "sample_id": "ncslgr_417afd4735362b64",
+        "split": "dev",
+        "decoded_pixel_sha256": "4b68d1ac7ea154b6ea676419ef2b8ebbfccf48ed75647491b508d5381e75c5f3",
+        "frames": 130,
+        "method": "all-frame decoded BGR SHA256; prior verified result reused if source media hash matches",
+        "reused": false
+      },
+      {
+        "sample_id": "ncslgr_f9d66524fb30b3c5",
+        "split": "dev",
+        "decoded_pixel_sha256": "2ea2c4153c9415f85584b4964f9ab49ddc1c8d9714fd2acd840834442a550b5e",
+        "frames": 181,
+        "method": "all-frame decoded BGR SHA256; prior verified result reused if source media hash matches",
+        "reused": false
+      },
+      {
+        "sample_id": "ncslgr_43f1ecb8adfc4359",
+        "split": "dev",
+        "decoded_pixel_sha256": "5be663132542dd0b90818d84a59ecf1868bad383e7695d123ef20055f335fc37",
+        "frames": 127,
+        "method": "all-frame decoded BGR SHA256; prior verified result reused if source media hash matches",
+        "reused": false
+      }
+    ],
+    "elapsed_seconds": 165.95893429999705,
+    "new_observations_processed": 2694,
+    "extraction_ms_p50": 49.39780000131577,
+    "extraction_ms_p95": 54.760945004818495,
+    "split_counts": {
+      "train": 100,
+      "dev": 9
+    },
+    "source_media_hash_duplicates": 0,
+    "timing_limit": "Container PTS/fps-derived timestamps, not independently synchronized boundary ground truth; publisher notes some archive clips may play at half speed.",
+    "training_eligible_for": "DIAGNOSTIC_CTC_ONLY",
+    "signer_independence": false
+  },
+  "final_holdout": {
+    "models": {
+      "reference48": {
+        "loss": 4.49733749457768,
+        "gloss_wer": 0.9767441860465116,
+        "substitutions": 23,
+        "deletions": 61,
+        "insertions": 0,
+        "reference_tokens": 86,
+        "predictions": [
+          {
+            "sample_id": "ncslgr_cf8616785179b9b0",
+            "reference": [
+              "IX-3p:i",
+              "CAR",
+              "WHO"
+            ],
+            "hypothesis": [
+              "MOTHER",
+              "BUY"
+            ],
+            "substitutions": 2,
+            "deletions": 1,
+            "insertions": 0,
+            "reference_tokens": 3
+          },
+          {
+            "sample_id": "ncslgr_9c83cfa6598e2ded",
+            "reference": [
+              "MOTHER",
+              "NOT-WANT",
+              "BUY",
+              "HOUSE",
+              "IX-3p:i"
+            ],
+            "hypothesis": [
+              "MOTHER",
+              "BUY"
+            ],
+            "substitutions": 0,
+            "deletions": 3,
+            "insertions": 0,
+            "reference_tokens": 5
+          },
+          {
+            "sample_id": "ncslgr_5ddda1732430d5ba",
+            "reference": [
+              "IX-3p:i",
+              "REALLY",
+              "TEACH+AGENT",
+              "MOVIE",
+              "REALLY",
+              "LIKE"
+            ],
+            "hypothesis": [
+              "MOTHER"
+            ],
+            "substitutions": 1,
+            "deletions": 5,
+            "insertions": 0,
+            "reference_tokens": 6
+          },
+          {
+            "sample_id": "ncslgr_88b2a99eef6a9e50",
+            "reference": [
+              "IX-3p:i",
+              "TEACH+AGENT",
+              "ENJOY+",
+              "BUT",
+              "IX-3p:j",
+              "KID",
+              "NOT",
+              "LIKE",
+              "MOVIE",
+              "part:indef"
+            ],
+            "hypothesis": [
+              "MOTHER",
+              "BUY"
+            ],
+            "substitutions": 2,
+            "deletions": 8,
+            "insertions": 0,
+            "reference_tokens": 10
+          },
+          {
+            "sample_id": "ncslgr_e069cfc6e7c70c62",
+            "reference": [
+              "IX-3p:i",
+              "HOLD",
+              "TEACH+AGENT",
+              "VOMIT",
+              "MOVIE"
+            ],
+            "hypothesis": [
+              "MOTHER",
+              "BUY"
+            ],
+            "substitutions": 2,
+            "deletions": 3,
+            "insertions": 0,
+            "reference_tokens": 5
+          },
+          {
+            "sample_id": "ncslgr_bc5969d393f73639",
+            "reference": [
+              "IX-3p:i",
+              "NOT-KNOW",
+              "TEACH+AGENT",
+              "LIKE",
+              "MOVIE",
+              "NOT-KNOW",
+              "part:indef"
+            ],
+            "hypothesis": [
+              "MOTHER",
+              "BUY"
+            ],
+            "substitutions": 2,
+            "deletions": 5,
+            "insertions": 0,
+            "reference_tokens": 7
+          },
+          {
+            "sample_id": "ncslgr_513c3cc024cc660b",
+            "reference": [
+              "CHOCOLATE",
+              "REALLY",
+              "LEARN+AGENT",
+              "LIKE",
+              "HOLD"
+            ],
+            "hypothesis": [
+              "MOTHER",
+              "BUY"
+            ],
+            "substitutions": 2,
+            "deletions": 3,
+            "insertions": 0,
+            "reference_tokens": 5
+          },
+          {
+            "sample_id": "ncslgr_3b52bd5c591bc2cf",
+            "reference": [
+              "CHOCOLATE",
+              "TEACH+AGENT",
+              "IX-3p:i",
+              "LIKE",
+              "HOLD"
+            ],
+            "hypothesis": [
+              "MOTHER",
+              "BUY"
+            ],
+            "substitutions": 2,
+            "deletions": 3,
+            "insertions": 0,
+            "reference_tokens": 5
+          },
+          {
+            "sample_id": "ncslgr_c2d2eb8e18cbc071",
+            "reference": [
+              "LEARN+AGENT",
+              "READ+",
+              "HOW-MANY",
+              "BOOK",
+              "HOLD"
+            ],
+            "hypothesis": [
+              "MOTHER",
+              "FUTURE"
+            ],
+            "substitutions": 2,
+            "deletions": 3,
+            "insertions": 0,
+            "reference_tokens": 5
+          },
+          {
+            "sample_id": "ncslgr_6822d6b4dbb0b004",
+            "reference": [
+              "IX-3p:i",
+              "LEARN+AGENT",
+              "IX-3p:i",
+              "READ+",
+              "BOOK",
+              "UP-TO-NOW",
+              "part:indef"
+            ],
+            "hypothesis": [
+              "MOTHER",
+              "BUY"
+            ],
+            "substitutions": 2,
+            "deletions": 5,
+            "insertions": 0,
+            "reference_tokens": 7
+          },
+          {
+            "sample_id": "ncslgr_017f157660e1ccf5",
+            "reference": [
+              "IX-3p:i",
+              "TEACH+AGENT",
+              "IX-loc:i",
+              "CAR",
+              "BUY+",
+              "UP-TO-NOW"
+            ],
+            "hypothesis": [
+              "MOTHER",
+              "FUTURE"
+            ],
+            "substitutions": 2,
+            "deletions": 4,
+            "insertions": 0,
+            "reference_tokens": 6
+          },
+          {
+            "sample_id": "ncslgr_69a923d1dc519f2c",
+            "reference": [
+              "IX-3p:i",
+              "TEACH+AGENT",
+              "CAR",
+              "BUY++",
+              "UP-TO-NOW",
+              "HOLD"
+            ],
+            "hypothesis": [
+              "MOTHER"
+            ],
+            "substitutions": 1,
+            "deletions": 5,
+            "insertions": 0,
+            "reference_tokens": 6
+          },
+          {
+            "sample_id": "ncslgr_3e17c8dfe3510896",
+            "reference": [
+              "IX-3p:i",
+              "LEARN+AGENT",
+              "IX-loc:i",
+              "KISS-FIST",
+              "CHOCOLATE",
+              "VOMIT",
+              "HOLD",
+              "READ+",
+              "HOLD"
+            ],
+            "hypothesis": [
+              "MOTHER"
+            ],
+            "substitutions": 1,
+            "deletions": 8,
+            "insertions": 0,
+            "reference_tokens": 9
+          },
+          {
+            "sample_id": "ncslgr_ce7ffa412fd10ae5",
+            "reference": [
+              "TEACH+AGENT",
+              "ENJOY",
+              "READ++",
+              "BUT",
+              "MOVIE",
+              "NOT",
+              "HOLD"
+            ],
+            "hypothesis": [
+              "MOTHER",
+              "BUY"
+            ],
+            "substitutions": 2,
+            "deletions": 5,
+            "insertions": 0,
+            "reference_tokens": 7
+          }
+        ],
+        "scope": "COLLECTION-DISJOINT DIAGNOSTIC, SIGNER UNVERIFIED; NOT PRODUCT ACCURACY",
+        "out_of_vocabulary_tokens": 9,
+        "checkpoint_sha256": "489ec5883ca440364ab10690ee5cfb9d0b0b0e6942df8f477509ea4ba6faf99c",
+        "parameter_count": 80373,
+        "cpu_model_only_p50_ms": 1.95644999621436,
+        "cpu_model_only_p95_ms": 2.471815005992539,
+        "cpu_threads": 2,
+        "model_timing_samples": 180,
+        "feature_schema": "apphear.continuous_asl.candidate01_causal378.v1"
+      },
+      "compact24": {
+        "loss": 4.865385924066816,
+        "gloss_wer": 0.9883720930232558,
+        "substitutions": 13,
+        "deletions": 72,
+        "insertions": 0,
+        "reference_tokens": 86,
+        "predictions": [
+          {
+            "sample_id": "ncslgr_cf8616785179b9b0",
+            "reference": [
+              "IX-3p:i",
+              "CAR",
+              "WHO"
+            ],
+            "hypothesis": [
+              "MOTHER"
+            ],
+            "substitutions": 1,
+            "deletions": 2,
+            "insertions": 0,
+            "reference_tokens": 3
+          },
+          {
+            "sample_id": "ncslgr_9c83cfa6598e2ded",
+            "reference": [
+              "MOTHER",
+              "NOT-WANT",
+              "BUY",
+              "HOUSE",
+              "IX-3p:i"
+            ],
+            "hypothesis": [
+              "MOTHER"
+            ],
+            "substitutions": 0,
+            "deletions": 4,
+            "insertions": 0,
+            "reference_tokens": 5
+          },
+          {
+            "sample_id": "ncslgr_5ddda1732430d5ba",
+            "reference": [
+              "IX-3p:i",
+              "REALLY",
+              "TEACH+AGENT",
+              "MOVIE",
+              "REALLY",
+              "LIKE"
+            ],
+            "hypothesis": [
+              "MOTHER"
+            ],
+            "substitutions": 1,
+            "deletions": 5,
+            "insertions": 0,
+            "reference_tokens": 6
+          },
+          {
+            "sample_id": "ncslgr_88b2a99eef6a9e50",
+            "reference": [
+              "IX-3p:i",
+              "TEACH+AGENT",
+              "ENJOY+",
+              "BUT",
+              "IX-3p:j",
+              "KID",
+              "NOT",
+              "LIKE",
+              "MOVIE",
+              "part:indef"
+            ],
+            "hypothesis": [
+              "MOTHER"
+            ],
+            "substitutions": 1,
+            "deletions": 9,
+            "insertions": 0,
+            "reference_tokens": 10
+          },
+          {
+            "sample_id": "ncslgr_e069cfc6e7c70c62",
+            "reference": [
+              "IX-3p:i",
+              "HOLD",
+              "TEACH+AGENT",
+              "VOMIT",
+              "MOVIE"
+            ],
+            "hypothesis": [
+              "MOTHER"
+            ],
+            "substitutions": 1,
+            "deletions": 4,
+            "insertions": 0,
+            "reference_tokens": 5
+          },
+          {
+            "sample_id": "ncslgr_bc5969d393f73639",
+            "reference": [
+              "IX-3p:i",
+              "NOT-KNOW",
+              "TEACH+AGENT",
+              "LIKE",
+              "MOVIE",
+              "NOT-KNOW",
+              "part:indef"
+            ],
+            "hypothesis": [
+              "MOTHER"
+            ],
+            "substitutions": 1,
+            "deletions": 6,
+            "insertions": 0,
+            "reference_tokens": 7
+          },
+          {
+            "sample_id": "ncslgr_513c3cc024cc660b",
+            "reference": [
+              "CHOCOLATE",
+              "REALLY",
+              "LEARN+AGENT",
+              "LIKE",
+              "HOLD"
+            ],
+            "hypothesis": [
+              "MOTHER"
+            ],
+            "substitutions": 1,
+            "deletions": 4,
+            "insertions": 0,
+            "reference_tokens": 5
+          },
+          {
+            "sample_id": "ncslgr_3b52bd5c591bc2cf",
+            "reference": [
+              "CHOCOLATE",
+              "TEACH+AGENT",
+              "IX-3p:i",
+              "LIKE",
+              "HOLD"
+            ],
+            "hypothesis": [
+              "MOTHER"
+            ],
+            "substitutions": 1,
+            "deletions": 4,
+            "insertions": 0,
+            "reference_tokens": 5
+          },
+          {
+            "sample_id": "ncslgr_c2d2eb8e18cbc071",
+            "reference": [
+              "LEARN+AGENT",
+              "READ+",
+              "HOW-MANY",
+              "BOOK",
+              "HOLD"
+            ],
+            "hypothesis": [
+              "MOTHER"
+            ],
+            "substitutions": 1,
+            "deletions": 4,
+            "insertions": 0,
+            "reference_tokens": 5
+          },
+          {
+            "sample_id": "ncslgr_6822d6b4dbb0b004",
+            "reference": [
+              "IX-3p:i",
+              "LEARN+AGENT",
+              "IX-3p:i",
+              "READ+",
+              "BOOK",
+              "UP-TO-NOW",
+              "part:indef"
+            ],
+            "hypothesis": [
+              "MOTHER"
+            ],
+            "substitutions": 1,
+            "deletions": 6,
+            "insertions": 0,
+            "reference_tokens": 7
+          },
+          {
+            "sample_id": "ncslgr_017f157660e1ccf5",
+            "reference": [
+              "IX-3p:i",
+              "TEACH+AGENT",
+              "IX-loc:i",
+              "CAR",
+              "BUY+",
+              "UP-TO-NOW"
+            ],
+            "hypothesis": [
+              "MOTHER"
+            ],
+            "substitutions": 1,
+            "deletions": 5,
+            "insertions": 0,
+            "reference_tokens": 6
+          },
+          {
+            "sample_id": "ncslgr_69a923d1dc519f2c",
+            "reference": [
+              "IX-3p:i",
+              "TEACH+AGENT",
+              "CAR",
+              "BUY++",
+              "UP-TO-NOW",
+              "HOLD"
+            ],
+            "hypothesis": [
+              "MOTHER"
+            ],
+            "substitutions": 1,
+            "deletions": 5,
+            "insertions": 0,
+            "reference_tokens": 6
+          },
+          {
+            "sample_id": "ncslgr_3e17c8dfe3510896",
+            "reference": [
+              "IX-3p:i",
+              "LEARN+AGENT",
+              "IX-loc:i",
+              "KISS-FIST",
+              "CHOCOLATE",
+              "VOMIT",
+              "HOLD",
+              "READ+",
+              "HOLD"
+            ],
+            "hypothesis": [
+              "MOTHER"
+            ],
+            "substitutions": 1,
+            "deletions": 8,
+            "insertions": 0,
+            "reference_tokens": 9
+          },
+          {
+            "sample_id": "ncslgr_ce7ffa412fd10ae5",
+            "reference": [
+              "TEACH+AGENT",
+              "ENJOY",
+              "READ++",
+              "BUT",
+              "MOVIE",
+              "NOT",
+              "HOLD"
+            ],
+            "hypothesis": [
+              "MOTHER"
+            ],
+            "substitutions": 1,
+            "deletions": 6,
+            "insertions": 0,
+            "reference_tokens": 7
+          }
+        ],
+        "scope": "COLLECTION-DISJOINT DIAGNOSTIC, SIGNER UNVERIFIED; NOT PRODUCT ACCURACY",
+        "out_of_vocabulary_tokens": 9,
+        "checkpoint_sha256": "845e72314bcfbf5dd70dc5fa8fa59b324d72c5a5f3a68bda2cd988ef1f32823a",
+        "parameter_count": 26421,
+        "cpu_model_only_p50_ms": 1.335799999651499,
+        "cpu_model_only_p95_ms": 1.6597400011960415,
+        "cpu_threads": 2,
+        "model_timing_samples": 180,
+        "feature_schema": "apphear.continuous_asl.candidate01_causal378.v1"
+      }
+    },
+    "unchanged_legacy_baseline": {
+      "loss": 6.933991227831159,
+      "gloss_wer": 0.9883720930232558,
+      "substitutions": 9,
+      "deletions": 76,
+      "insertions": 0,
+      "reference_tokens": 86,
+      "predictions": [
+        {
+          "sample_id": "ncslgr_cf8616785179b9b0",
+          "reference": [
+            "IX-3p:i",
+            "CAR",
+            "WHO"
+          ],
+          "hypothesis": [],
+          "substitutions": 0,
+          "deletions": 3,
+          "insertions": 0,
+          "reference_tokens": 3
+        },
+        {
+          "sample_id": "ncslgr_9c83cfa6598e2ded",
+          "reference": [
+            "MOTHER",
+            "NOT-WANT",
+            "BUY",
+            "HOUSE",
+            "IX-3p:i"
+          ],
+          "hypothesis": [
+            "MOTHER"
+          ],
+          "substitutions": 0,
+          "deletions": 4,
+          "insertions": 0,
+          "reference_tokens": 5
+        },
+        {
+          "sample_id": "ncslgr_5ddda1732430d5ba",
+          "reference": [
+            "IX-3p:i",
+            "REALLY",
+            "TEACH+AGENT",
+            "MOVIE",
+            "REALLY",
+            "LIKE"
+          ],
+          "hypothesis": [
+            "MOTHER"
+          ],
+          "substitutions": 1,
+          "deletions": 5,
+          "insertions": 0,
+          "reference_tokens": 6
+        },
+        {
+          "sample_id": "ncslgr_88b2a99eef6a9e50",
+          "reference": [
+            "IX-3p:i",
+            "TEACH+AGENT",
+            "ENJOY+",
+            "BUT",
+            "IX-3p:j",
+            "KID",
+            "NOT",
+            "LIKE",
+            "MOVIE",
+            "part:indef"
+          ],
+          "hypothesis": [],
+          "substitutions": 0,
+          "deletions": 10,
+          "insertions": 0,
+          "reference_tokens": 10
+        },
+        {
+          "sample_id": "ncslgr_e069cfc6e7c70c62",
+          "reference": [
+            "IX-3p:i",
+            "HOLD",
+            "TEACH+AGENT",
+            "VOMIT",
+            "MOVIE"
+          ],
+          "hypothesis": [],
+          "substitutions": 0,
+          "deletions": 5,
+          "insertions": 0,
+          "reference_tokens": 5
+        },
+        {
+          "sample_id": "ncslgr_bc5969d393f73639",
+          "reference": [
+            "IX-3p:i",
+            "NOT-KNOW",
+            "TEACH+AGENT",
+            "LIKE",
+            "MOVIE",
+            "NOT-KNOW",
+            "part:indef"
+          ],
+          "hypothesis": [],
+          "substitutions": 0,
+          "deletions": 7,
+          "insertions": 0,
+          "reference_tokens": 7
+        },
+        {
+          "sample_id": "ncslgr_513c3cc024cc660b",
+          "reference": [
+            "CHOCOLATE",
+            "REALLY",
+            "LEARN+AGENT",
+            "LIKE",
+            "HOLD"
+          ],
+          "hypothesis": [],
+          "substitutions": 0,
+          "deletions": 5,
+          "insertions": 0,
+          "reference_tokens": 5
+        },
+        {
+          "sample_id": "ncslgr_3b52bd5c591bc2cf",
+          "reference": [
+            "CHOCOLATE",
+            "TEACH+AGENT",
+            "IX-3p:i",
+            "LIKE",
+            "HOLD"
+          ],
+          "hypothesis": [],
+          "substitutions": 0,
+          "deletions": 5,
+          "insertions": 0,
+          "reference_tokens": 5
+        },
+        {
+          "sample_id": "ncslgr_c2d2eb8e18cbc071",
+          "reference": [
+            "LEARN+AGENT",
+            "READ+",
+            "HOW-MANY",
+            "BOOK",
+            "HOLD"
+          ],
+          "hypothesis": [
+            "MOTHER",
+            "FUTURE"
+          ],
+          "substitutions": 2,
+          "deletions": 3,
+          "insertions": 0,
+          "reference_tokens": 5
+        },
+        {
+          "sample_id": "ncslgr_6822d6b4dbb0b004",
+          "reference": [
+            "IX-3p:i",
+            "LEARN+AGENT",
+            "IX-3p:i",
+            "READ+",
+            "BOOK",
+            "UP-TO-NOW",
+            "part:indef"
+          ],
+          "hypothesis": [
+            "MOTHER"
+          ],
+          "substitutions": 1,
+          "deletions": 6,
+          "insertions": 0,
+          "reference_tokens": 7
+        },
+        {
+          "sample_id": "ncslgr_017f157660e1ccf5",
+          "reference": [
+            "IX-3p:i",
+            "TEACH+AGENT",
+            "IX-loc:i",
+            "CAR",
+            "BUY+",
+            "UP-TO-NOW"
+          ],
+          "hypothesis": [
+            "MOTHER"
+          ],
+          "substitutions": 1,
+          "deletions": 5,
+          "insertions": 0,
+          "reference_tokens": 6
+        },
+        {
+          "sample_id": "ncslgr_69a923d1dc519f2c",
+          "reference": [
+            "IX-3p:i",
+            "TEACH+AGENT",
+            "CAR",
+            "BUY++",
+            "UP-TO-NOW",
+            "HOLD"
+          ],
+          "hypothesis": [
+            "MOTHER",
+            "FUTURE"
+          ],
+          "substitutions": 2,
+          "deletions": 4,
+          "insertions": 0,
+          "reference_tokens": 6
+        },
+        {
+          "sample_id": "ncslgr_3e17c8dfe3510896",
+          "reference": [
+            "IX-3p:i",
+            "LEARN+AGENT",
+            "IX-loc:i",
+            "KISS-FIST",
+            "CHOCOLATE",
+            "VOMIT",
+            "HOLD",
+            "READ+",
+            "HOLD"
+          ],
+          "hypothesis": [
+            "MOTHER"
+          ],
+          "substitutions": 1,
+          "deletions": 8,
+          "insertions": 0,
+          "reference_tokens": 9
+        },
+        {
+          "sample_id": "ncslgr_ce7ffa412fd10ae5",
+          "reference": [
+            "TEACH+AGENT",
+            "ENJOY",
+            "READ++",
+            "BUT",
+            "MOVIE",
+            "NOT",
+            "HOLD"
+          ],
+          "hypothesis": [
+            "MOTHER"
+          ],
+          "substitutions": 1,
+          "deletions": 6,
+          "insertions": 0,
+          "reference_tokens": 7
+        }
+      ],
+      "scope": "COLLECTION-DISJOINT DIAGNOSTIC, SIGNER UNVERIFIED; NOT PRODUCT ACCURACY",
+      "out_of_vocabulary_tokens": 50,
+      "checkpoint_sha256": "278f616ab5b6f9abe8584c124c542c221ff8e5ac641126eeddbff195cbc78180",
+      "note": "Unchanged historical39-token output space; OOV counted against original reference tokens; not a vocabulary-matched architecture ablation."
+    },
+    "rows": 14,
+    "collection_count": 1,
+    "signer_independence": false,
+    "paired_utterance_bootstrap_delta_wer_95ci": [
+      0.0,
+      0.038461538461538464
+    ],
+    "uncertainty_limit": "Utterance-resampling descriptive interval; one TEST collection and unknown signer clustering. Not a signer-independent confidence interval.",
+    "test_manifest_sha256": "5a01eca0cbff78a1dea50dad6053cba8d8469ea8414e369fa1c0a0772e9e06c3",
+    "selection_freeze_sha256": "17c255059bf8b9abab638ddd0c252e8b744a6cdaf50c7c8a8251569b08a8ac13",
+    "normal_app_end_to_end_latency": "NOT_MEASURED",
+    "boundary_and_negative_metrics": "BLOCKED_NO_GROUND_TRUTH",
+    "15_completed_fps_phone_gate": "NOT_MEASURED; source policy is max10Hz diagnostic, not a product cadence pass"
+  },
+  "real_world_accuracy_claim": false,
+  "production_promoted": false,
+  "candidate_decision": "UNSELECTED_ACCURACY_REGRESSION",
+  "throughput_scope": "Computed from measured complete epochs incl DEV/checkpoint work on precomputed features; not RGB throughput or Android FPS",
+  "training_time_scope": "Recorded fit-loop, DEV evaluation, checkpoint work and final reload; excludes interpreter startup and initial dataset/model setup",
+  "vram_scope": "Measured PyTorch allocator peaks; external whole-GPU physical peak was not independently sampled",
+  "failures": "Pre-fit RF121 draft failed one focused check; corrected to61 in training_plan.v2.json before fitting. No completed-model memory/numerical failure artifact.",
+  "determinism": "Fixed seeds; CUDA CTC backward is warn_only/nondeterministic. No bitwise reproducibility claim."
+}

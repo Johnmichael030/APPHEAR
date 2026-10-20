@@ -1,0 +1,12 @@
+Phase 1 command (PowerShell; run from actual nested repository root):
+& 'D:\apphearv3claude\AppHear-claude-s2-r3-eval-suite\AppHear-claude-s2-r3-eval-suite\experiments\continuous_asl\20261019T155428Z_cslr01\runtime\venv\Scripts\python.exe' -B 'D:\apphearv3claude\AppHear-claude-s2-r3-eval-suite\AppHear-claude-s2-r3-eval-suite\experiments\continuous_asl\20261020T144622Z_compact_ctc_control01\diagnosis_phase1.py'
+
+Execution history (no fitting or inference):
+1. Initial invocation stopped before output creation because the diagnostic harness expected role HELD_OUT, while the existing scoped resolved manifest uses HELD_OUT_COMPATIBLE for all80 primary records. Corrected only the new diagnostic harness to the actual literal role; no manifest was changed.
+2. Second invocation stopped before output creation because the report-construction dict repeated reference_tokens. Removed the duplicate key only in the new harness.
+3. Final invocation exit0, runtime0.6930113s measured within script. Assertions passed: frozen1500/80IDs, family separation, literal labels/vocabulary, saved-prediction joins, S/D/I recount, CTC lengths, normalization/vocabulary/decoder hashes, exact prior-cache validation status, explicit before/after input hashes.
+
+Final artifacts use exclusive file creation; completed outputs were not overwritten.
+38 explicit inputs unchanged by SHA256,size,mtime_ns.
+No torch import, model/checkpoint load, GPU work, training, inference, feature reconstruction, acquisition or reserved TEST access occurred in this phase.
+The final script is retained for reproducibility but intentionally cannot overwrite its completed artifacts if rerun in this directory.

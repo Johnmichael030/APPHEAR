@@ -1,0 +1,89 @@
+{
+  "loss": 30.088086128234863,
+  "gloss_wer": 2.9285714285714284,
+  "substitutions": 14,
+  "deletions": 0,
+  "insertions": 27,
+  "reference_tokens": 14,
+  "predictions": [
+    {
+      "sample_id": "ncslgr_6b627c2a6d44a0fc",
+      "reference": [
+        "IX-3p:i",
+        "LEARN+AGENT",
+        "MOTHERwg",
+        "CAR",
+        "BUY",
+        "FINISH",
+        "IX-3p:i"
+      ],
+      "hypothesis": [
+        "KNOW",
+        "SEE",
+        "KNOW",
+        "HOUSE",
+        "SEE",
+        "KNOW",
+        "SEE",
+        "KNOW",
+        "FORGET",
+        "KNOW",
+        "SAY",
+        "SEE",
+        "KNOW",
+        "FORGET",
+        "KNOW",
+        "FORGET",
+        "KNOW",
+        "FORGET",
+        "KNOW"
+      ],
+      "substitutions": 7,
+      "deletions": 0,
+      "insertions": 12,
+      "reference_tokens": 7
+    },
+    {
+      "sample_id": "ncslgr_480b611253531cc0",
+      "reference": [
+        "LEARN+AGENT",
+        "IX-loc:i",
+        "HOLD",
+        "MOTHER",
+        "FUTURE",
+        "BUY",
+        "CAR"
+      ],
+      "hypothesis": [
+        "KNOW",
+        "FORGET",
+        "SEE",
+        "HOUSE",
+        "FORGET",
+        "SEE",
+        "KNOW",
+        "PROCEED",
+        "KNOW",
+        "FORGET",
+        "KNOW",
+        "FORGET",
+        "KNOW",
+        "SEE",
+        "KNOW",
+        "FORGET",
+        "KNOW",
+        "FORGET",
+        "KNOW",
+        "FORGET",
+        "KNOW",
+        "FORGET"
+      ],
+      "substitutions": 7,
+      "deletions": 0,
+      "insertions": 15,
+      "reference_tokens": 7
+    }
+  ],
+  "scope": "COLLECTION-DISJOINT DIAGNOSTIC, SIGNER UNVERIFIED; NOT PRODUCT ACCURACY",
+  "out_of_vocabulary_tokens": 1
+}

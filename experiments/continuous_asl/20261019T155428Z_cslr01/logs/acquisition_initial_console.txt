@@ -1,0 +1,23 @@
+{"id":"how2sign_script","status":"DOWNLOADED","bytes":21166,"sha256":"8e2da3664df692667fadec8e0a22bef01057ce493f7cfeb222717e736e70864e"}
+{"id":"how2sign_page","status":"DOWNLOADED","bytes":34655,"sha256":"625c9af6ad997cf7eb6b20dc9b43d16f3cfd0efcf4d04dc469afe04033fa2d19"}
+{"id":"ncslgr_documentation","status":"DOWNLOADED","bytes":15212,"sha256":"59e75382516083f9791eb27db9052eecbb43ec330720fbb2873462eb2dbf1219"}
+{"id":"ncslgr_terms","status":"DOWNLOADED","bytes":8776,"sha256":"db21696d6a420d2b6b8d79218c83b178be5abc08fa0a6b627e86d787a39a9e71"}
+{"id":"ncslgr_video_index","status":"DOWNLOADED","bytes":564370,"sha256":"4dac2c992d02959542b4a122da274173b2213f7892caf8111cba8d2ad6268840"}
+{"id":"ncslgr_dtd","status":"DOWNLOADED","bytes":1670,"sha256":"2ea74b70e999311b5567fd4442b26a5999145dd6e868d2144361594a869439b8"}
+Traceback (most recent call last):
+  File "D:\apphearv3claude\AppHear-claude-s2-r3-eval-suite\AppHear-claude-s2-r3-eval-suite\tools\continuous_asl\archive_safety.py", line 138, in <module>
+    main()
+  File "D:\apphearv3claude\AppHear-claude-s2-r3-eval-suite\AppHear-claude-s2-r3-eval-suite\tools\continuous_asl\archive_safety.py", line 131, in main
+    result = extract(args.archive, args.extract_to, args.allowed_root, args.max_expanded_bytes)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\apphearv3claude\AppHear-claude-s2-r3-eval-suite\AppHear-claude-s2-r3-eval-suite\tools\continuous_asl\archive_safety.py", line 72, in extract
+    rows = inspect_archive(path, max_bytes)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\apphearv3claude\AppHear-claude-s2-r3-eval-suite\AppHear-claude-s2-r3-eval-suite\tools\continuous_asl\archive_safety.py", line 58, in inspect_archive
+    add(info.filename, info.file_size, info.is_dir())
+  File "D:\apphearv3claude\AppHear-claude-s2-r3-eval-suite\AppHear-claude-s2-r3-eval-suite\tools\continuous_asl\archive_safety.py", line 40, in add
+    safe = str(member_path(name))
+               ^^^^^^^^^^^^^^^^^
+  File "D:\apphearv3claude\AppHear-claude-s2-r3-eval-suite\AppHear-claude-s2-r3-eval-suite\tools\continuous_asl\archive_safety.py", line 24, in member_path
+    raise ValueError("WINDOWS_UNSAFE_ARCHIVE_PATH")
+ValueError: WINDOWS_UNSAFE_ARCHIVE_PATH

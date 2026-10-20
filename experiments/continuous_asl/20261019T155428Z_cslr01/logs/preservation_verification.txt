@@ -1,0 +1,11 @@
+{
+  "baseline_sha256": "7511ec95167574e8727e858e4ec04adad53bd43fdcb7cb101c1e1cc038181ce1",
+  "original_files_checked": 2932,
+  "content_mismatches": [],
+  "original_bytes_checked": 1569935151,
+  "git_available": false,
+  "status": "PASS",
+  "verified_utc": "2026-10-19T16:39:59.7594709Z",
+  "last_write_changes": [],
+  "production_model_assets_avatars_manifests": "included in all-original-file verification"
+}

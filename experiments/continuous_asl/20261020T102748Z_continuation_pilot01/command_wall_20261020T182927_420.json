@@ -1,0 +1,5 @@
+{
+  "seconds": 62.9377127,
+  "exit_code": 0,
+  "command": "D:\\apphearv3claude\\AppHear-claude-s2-r3-eval-suite\\AppHear-claude-s2-r3-eval-suite\\experiments\\continuous_asl\\20261019T155428Z_cslr01\\runtime\\venv\\Scripts\\python.exe -B D:\\apphearv3claude\\AppHear-claude-s2-r3-eval-suite\\AppHear-claude-s2-r3-eval-suite\\experiments\\continuous_asl\\20261020T102748Z_continuation_pilot01/train_pilot.py"
+}

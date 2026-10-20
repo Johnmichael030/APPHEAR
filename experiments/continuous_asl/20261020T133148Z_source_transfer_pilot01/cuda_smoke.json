@@ -1,0 +1,9 @@
+{
+  "status": "PASS",
+  "input_device": "cuda:0",
+  "logits_device": "cuda:0",
+  "loss_device": "cuda:0",
+  "gradient_device": "cuda:0",
+  "optimizer_updates": 0,
+  "loss": 48.20882797241211
+}

@@ -1,0 +1,12 @@
+{
+  "20261020T051631Z_devwer_diagnosis01": {
+    "exit_code": 0,
+    "stdout": "{\n  \"status\": \"PASS_READ_ONLY_DIAGNOSTIC_VERIFICATION\",\n  \"diagnostic_artifacts_hashed\": 35,\n  \"frozen_input_hashes\": 3077,\n  \"frozen_metadata_checks\": 20745,\n  \"training_performed\": false,\n  \"test_inference_performed\": false\n}\n",
+    "stderr": ""
+  },
+  "20261020T102748Z_continuation_pilot01": {
+    "exit_code": 0,
+    "stdout": "{\n  \"status\": \"PASS_READ_ONLY_PILOT_VERIFICATION\",\n  \"artifacts_hashed\": 33,\n  \"additional_epochs\": 3,\n  \"train\": 2119,\n  \"dev\": 9,\n  \"test_used\": false,\n  \"training_performed_by_verifier\": false,\n  \"production_promoted\": false\n}\n",
+    "stderr": ""
+  }
+}

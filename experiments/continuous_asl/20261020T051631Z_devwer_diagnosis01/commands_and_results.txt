@@ -1,0 +1,31 @@
+AppHear continuous-ASL diagnostic command ledger
+Finalized 2026-10-20T18:31:14.506433+08:00
+
+1. FIRST ACTION, completed exit0:
+& 'D:\apphearv3claude\AppHear-claude-s2-r3-eval-suite\AppHear-claude-s2-r3-eval-suite\experiments\continuous_asl\20261020_continuous_expand08\Validate-Completed.ps1'
+Result: PASS_READ_ONLY_VERIFICATION;16132indexed new artifact entries,1268expand03content hashes,4prior guards,4606protected metadata checks,27additional frozen hashes/mtimes.17TESTnot evaluated; production false. Initial console evidence is in this chat tool session18162; no duplicate validation was performed.
+
+2. CPU inference and bounded contracts, completed exit0:
+& 'D:\apphearv3claude\AppHear-claude-s2-r3-eval-suite\AppHear-claude-s2-r3-eval-suite\experiments\continuous_asl\20261019T155428Z_cslr01\runtime\venv\Scripts\python.exe' -B 'D:\apphearv3claude\AppHear-claude-s2-r3-eval-suite\AppHear-claude-s2-r3-eval-suite\experiments\continuous_asl\20261020T051631Z_devwer_diagnosis01\audit.py'
+Result: 44checks passed; 38.732211s. See audit_console.txt, checks.json and audit_results.json.
+
+3. Targeted annotation joins, synthetic numeric CTC and already logged latest-epoch DEV replay, completed exit0:
+& 'D:\apphearv3claude\AppHear-claude-s2-r3-eval-suite\AppHear-claude-s2-r3-eval-suite\experiments\continuous_asl\20261019T155428Z_cslr01\runtime\venv\Scripts\python.exe' -B 'D:\apphearv3claude\AppHear-claude-s2-r3-eval-suite\AppHear-claude-s2-r3-eval-suite\experiments\continuous_asl\20261020T051631Z_devwer_diagnosis01\supplement.py'
+Result: PASS;460EAFjoins,915indexjoins,4additional tests;1.334143s. See supplement_console.txt.
+
+4. Source/decoder contract and exact original DEV filter reconstruction, completed exit0:
+& 'D:\apphearv3claude\AppHear-claude-s2-r3-eval-suite\AppHear-claude-s2-r3-eval-suite\experiments\continuous_asl\20261019T155428Z_cslr01\runtime\venv\Scripts\python.exe' -B 'D:\apphearv3claude\AppHear-claude-s2-r3-eval-suite\AppHear-claude-s2-r3-eval-suite\experiments\continuous_asl\20261020T051631Z_devwer_diagnosis01\verify_dev_origin.py'
+Result: PASS_SOURCE_CONTRACT_CHECKS; two checks passed. Shared fitting-source hash matches; original DEV filter reconstructs exactly nine IDs.
+
+5. Generate diagnosis and SHA256 inventory:
+& 'D:\apphearv3claude\AppHear-claude-s2-r3-eval-suite\AppHear-claude-s2-r3-eval-suite\experiments\continuous_asl\20261019T155428Z_cslr01\runtime\venv\Scripts\python.exe' -B 'D:\apphearv3claude\AppHear-claude-s2-r3-eval-suite\AppHear-claude-s2-r3-eval-suite\experiments\continuous_asl\20261020T051631Z_devwer_diagnosis01\finalize_diagnosis.py'
+This command creates reports only. It does not fit, select models or evaluate TEST.
+
+6. Exact safe next/recheck command:
+& 'D:\apphearv3claude\AppHear-claude-s2-r3-eval-suite\AppHear-claude-s2-r3-eval-suite\experiments\continuous_asl\20261020T051631Z_devwer_diagnosis01\Verify-Diagnostics.ps1'
+Read-only hashes and metadata; no inference. Verification stdout records actual result.
+
+Failed exploratory reads retained in chat: guessed file tools/catalog_asllrp.py did not exist; actual asllrp_catalog.py was inspected. Original03 tools/initialize.py did not exist; actual tools/core.py was inspected. No data/training command failed in this diagnostic. Large exploratory output was truncated; subsequent reads were bounded. No dependencies were installed.
+
+Only variable changed in the model-output counterfactual: decoder greedy -> fixed prefix beam10/top16. Results85.964912%,96.491228%,100%. No temperature, thresholds, normalization, weights, labels or checkpoint selection changed.
+All44main checks,4supplemental test records and2source-contract checks are bounded diagnostics. Synthetic fixtures are explicitly identified and never counted as model evaluation.

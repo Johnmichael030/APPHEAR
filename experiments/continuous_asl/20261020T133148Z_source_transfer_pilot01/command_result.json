@@ -1,0 +1,5 @@
+{
+  "exit_code": 0,
+  "wall_seconds": 114.268149,
+  "command": "python.exe -B experiments/continuous_asl/20261020T133148Z_source_transfer_pilot01/train.py"
+}

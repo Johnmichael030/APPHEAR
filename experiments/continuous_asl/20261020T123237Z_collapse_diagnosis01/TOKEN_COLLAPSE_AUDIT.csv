@@ -1,0 +1,3 @@
+﻿status,split,utterances,WER,CTC_loss,blank_argmax_fraction,mean_blank_probability,empty_outputs,unique_predicted_tokens,prediction_tokens,top_predicted_token,top_token_count,top_token_fraction,unique_reference_tokens,reference_tokens,top_reference_token,top_reference_count,hypothesis_length_histogram
+PASS_MEASURED_COLLAPSE,train,1706,0.9760146303720898,5.821992352866903,0.9831794973725729,0.822531013996309,436,11,1337,IX-1p,862,0.6447270007479432,2517,14217,IX-1p,619,"{""0"": 436, ""1"": 1208, ""2"": 57, ""3"": 5}"
+PASS_MEASURED_COLLAPSE,dev,413,0.9799134734239803,6.801272752498599,0.9839557087170216,0.8430329371250239,131,3,283,IX-1p,280,0.9893992932862191,708,3236,IX-1p,178,"{""1"": 281, ""0"": 131, ""2"": 1}"

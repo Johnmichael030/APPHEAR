@@ -1,0 +1,15 @@
+{
+  "negative_boundary_labels": "unavailable; no rejection/boundary heads",
+  "batch": 4,
+  "task": "continuous authentic gloss CTC",
+  "learning_rate": 0.001,
+  "hypothesis": "Native genuine cadence adds temporal evidence missing at 10Hz; full hand/body features retained",
+  "schema_version": "apphear.continuous_asl.candidate01_causal378_native.v1",
+  "early_stopping_patience": 6,
+  "source": "verified prior 37 NCSLGR clips; no new RGB download",
+  "hypothesis_registered_before_preprocessing": true,
+  "split": "unchanged 30 TRAIN / 7 validation by collection; signer IDs unknown",
+  "max_epochs": 30,
+  "channels": 48,
+  "seed": 20261019
+}

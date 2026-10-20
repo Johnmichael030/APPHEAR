@@ -1,0 +1,8 @@
+﻿stage,candidate_utterances,annotation_media_joins,verified_eligible,metadata_excluded,timing_blocked,network_media_files_this_phase,raw_media_files_this_phase,actually_in_new_TRAIN,actually_in_new_DEV,note
+Prior_NCSLGR2,previous_completed_evidence,previous_completed_evidence,906,previous_completed_evidence,0,0,0,0,0,Frozen verified pool reused; no extraction repeated.
+Prior_ASLLRP3,2130,2126,2119,10,1,0,0,1706,413,4annotation rejects+6overlap exclusions+1frame mismatch. Original2119TRAIN manifest unchanged; new random-initialized fit has a distinct signer split.
+New_NCSLGR_URL_list_resolution,98,96,96,2,0,2,2,0,0,"Two EAF-exact media URLs; both sides of one overlap pair excluded. Features from2new fully decoded source videos,96distinct genuine utterances."
+New_RIT_sentences,280,278,0,4,276,1,278,0,0,"One434126167byte archive,278extracted clips.2initial annotation rejects+2overlap excludes. Every clip has60fps and2extra frames; no trimming or guessed offset."
+NEW_PHASE_TOTAL,378,374,96,6,276,3,280,1706,413,"TRAIN/DEV cells describe the new fit using existing ASLLRP records, not newly acquired examples. File counts are not utterance counts."
+ELIGIBLE_CATALOG_TOTAL,not_summed_across_different_historical_stages,see_parent_and_new_stage_counts,3121,see_source_specific_rows,see_source_specific_rows,3,280,1706,413,1002NCSLGR2+2119ASLLRP3 in separate label pools;5000target shortfall1879. Eligibility does not authorize mixing targets or fitting DEV.
+ACTIVE_GOAL_UPDATE,,,3121,,,,,1706,413,"User reduced active target to2000;target met,shortfall0.5000stretch target is historical/inactive. No further acquisition."

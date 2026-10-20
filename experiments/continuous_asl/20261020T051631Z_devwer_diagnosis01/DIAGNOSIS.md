@@ -1,0 +1,104 @@
+# Diagnosis of the completed AppHear continuous-ASL run
+
+Created 2026-10-20T18:31:14.506433+08:00 (Asia/Shanghai).
+
+**PASS diagnostic execution and preservation; PARTIAL causal attribution; BLOCKED production promotion and signer-independent claims.** A subsequent explicit user instruction authorizes a separate bounded research continuation once critical engineering checks pass. Those checks passed; see the authorization addendum below.
+
+The direct cause of 100%DEV WER is verified: the frozen epoch-2 model chooses CTC blank at all 430 DEV timesteps, so all nine hypotheses are empty and all 57 reference tokens are deleted. The decoder faithfully reflects the logits. No token-ID, blank-ID, length/truncation, vocabulary-loading, normalization or WER implementation bug was found in the bounded checks.
+
+The most likely underlying explanation is an early blank solution selected by a poorly informative nine-utterance cross-corpus DEV criterion, combined with a much sparser large-vocabulary fitting problem and a source/annotation shift. Confidence is moderate in that attribution, high in the blank-output/selection mechanism. Those factors were not independently ablated, so this report does not claim that longer training, label normalization, a new learning rate or a decoder threshold would fix the problem.
+
+## Reproduced results
+
+| Frozen run | TRAIN | Vocab incl. blank/UNK | Selected epoch | DEV WER | S/D/I | Blank argmax frames | Empty hypotheses | OOV DEV tokens |
+|---|---:|---:|---:|---:|---:|---:|---:|---:|
+| expand03 baseline | 100 | 117 | 4 | 85.96% | 10/39/0 | 95.58% | 0/9 | 9/57 |
+| expand09 pilot | 906 | 922 | 13 | 96.49% | 16/39/0 | 95.81% | 0/9 | 1/57 |
+| expand08 main | 2119 | 2741 | 2 | 100.00% | 0/57/0 | 100.00% | 9/9 | 6/57 |
+
+All three selected-checkpoint CPU replays match their saved literal hypotheses and edit counts exactly. Small CPU/CUDA loss differences are recorded, not interpreted as changed predictions. Baseline checkpoint SHA256:489ec5883ca440364ab10690ee5cfb9d0b0b0e6942df8f477509ea4ba6faf99c. Main selected checkpoint SHA256:f7a2b8bff5638671747352e2808f44fc2c60487a78d31a74cc49e978a46e7364. Main frozen manifest SHA256:adebeb9e2f20179eb59b7f79805ea9226ad6c9c0594e6cba193c771947cdaf40.
+
+The two TRAIN numbers belong to different checkpoints: epoch 17 has 71.95324586% WER (3529S/8967D/62I;17,453 reference tokens), while selected epoch 2 has 99.99427033% (1S/17451D/0I). Both full2,119 TRAIN prediction lists were independently reproduced without fitting. Replaying the already logged epoch 17 on DEV gives 100% WER with10S/47D/0I and 4/9 empty hypotheses. Thus later fitting reduces the early global blank collapse on TRAIN, but does not recover correct tokens on this DEV. No later checkpoint was selected or promoted.
+
+All 17logged DEV WER values are 1.0. The declared score is the tuple(WER,loss); epoch 2 has the smallest DEV loss 6.3637338744 and is correctly selected. That checkpoint emits blank on all 430 DEV frames. Its per-utterance mean blank probability ranges from 86.39% to 92.34%; even the best nonblank logit never beats blank. The model is not producing a hidden repeated-token string that is accidentally removed by postprocessing.
+
+## Example-level references and hypotheses
+
+Tokens below are literal source labels. Case, locus suffixes, plus signs and whole fingerspelled words are unchanged. The CSV contains all 27 selected-model/example rows, raw argmax IDs, blank probabilities, lengths, OOV labels and token IDs.
+
+| Sample | Literal reference | Baseline hypothesis | Pilot hypothesis | Main hypothesis |
+|---|---|---|---|---|
+| `ncslgr_6b627c2a6d44a0fc` | `IX-3p:i LEARN+AGENT MOTHERwg CAR BUY FINISH IX-3p:i` | `MOTHER BUY` | `fs-JOHN FINISH ARRIVE:i` | `<EMPTY>` |
+| `ncslgr_480b611253531cc0` | `LEARN+AGENT IX-loc:i HOLD MOTHER FUTURE BUY CAR` | `MOTHER BUY` | `fs-JOHN ARRIVE:i IX-1p` | `<EMPTY>` |
+| `ncslgr_cecf49697b9aae80` | `IX-3p:i LEARN+AGENT POSS-3p:i FATHERwg HOUSE WHICH BUY IX-loc-arc` | `MOTHER BUY` | `fs-JOHN HOLD` | `<EMPTY>` |
+
+## Findings and confidence
+
+| Status | Finding | Confidence | Evidence / limitation |
+|---|---|---|---|
+| PASS | Completed package preserved | High | Initial Validate-Completed.ps1 exited0/PASS_READ_ONLY_VERIFICATION. Final metadata checks cover 20745 protected/indexed paths; no changes. Canonical3025eligible, original manifests and six overlap plus one frame-count exclusions remain unchanged. |
+| PASS | Selected model predicts blank at every DEV timestep | High | epoch 2:430/430argmax blank 0,9/9 hypotheses empty,0S/57D/0I; exact saved-prediction replay. This directly explains100%WER. |
+| PASS | Epoch2 selection matches declared rule | High | All 17epochs have DEV WER 1.0; tie-break loss minimum occurs at epoch 2. Patience15 then stops at17. No checkpoint-selection implementation bug found. |
+| PASS | 71.95%TRAIN WER belongs to epoch 17 | High | Full2,119 TRAIN replay:3529S+8967D+62I over 17,453 tokens =71.95324586%. Epoch2 TRAIN:1S+17451D+0I =99.99427033%. Both match saved full predictions exactly. |
+| PASS | CTC/token/decoder/metric implementation checks | High | blank 0 / UNK 1, TRAIN-sorted unique vocab, checkpoint/config/manifest identity, all 3,025CTC length checks, no neural downsampling/truncation, independent greedy collapse/edit distance, synthetic exhaustive prefix sums and numeric CTCLoss checks pass. |
+| PASS | Normalization and feature contract | High | Each model TRAIN mean/std recomputes bit-exactly; same 378-feature schema, finite values and increasing timestamps. Three saved raw fixtures reproduce features and causal prefixes exactly. Padding/prefix forward tests pass; no video reprocessing. |
+| PARTIAL | Cross-run comparison equivalence | High | Same9DEV IDs, literal refs, feature hashes, greedy decoder, metric and48-channel architecture; different TRAIN size, corpus, vocab, normalization, budgets and fitted weights. WER contrast is valid on this fixed diagnostic set, not a controlled architecture/data-scaling or signer-independent benchmark. |
+| PARTIAL | Known train/DEV leakage checks | High for checked keys | No sample ID, collection, source_group, feature SHA or exact raw SHA intersection for each run. Shared prompt text is audited separately. Unknown signer IDs and no exhaustive perceptual duplicate detector prevent a complete independence claim. |
+| BLOCKED | Signer-independent generalization | High | All9DEV signer IDs unknown, one collection ncslgr10p.xml, one URL session/date2001_8_6,9indexed source groups. EAF tier attributes do not establish verified global signer identities. An annotator/author name is not treated as a signer. |
+| PARTIAL | Internally consistent publisher label pools | High for joins | ASLLRP 17,453 literal CSV events / 2,119 utterances and all906NCSLGR TRAIN plus 9 DEV exact index strings pass.451 new TRAIN + 9 DEV EAF event/boundary joins pass.403labels overlap, but the label/hand/hidden/HOLD conventions are not established as equivalent. |
+| BLOCKED | Merging the two target pools | High | Do not merge now. Feature representation matches; target scope and cross-version equivalence require a versioned expert-reviewed mapping or explicitly source-conditioned task, new vocab IDs, and an independent evaluation protocol. No labels/frames changed. |
+| UNKNOWN | Independent physical/linguistic boundary correctness | High confidence in limitation | Publisher frame/ms consistency is checked, not independent visual alignment. Some older NCSLGR records have only ordered utterance labels. Source timing does not itself certify visual boundary accuracy. |
+| PASS | Smallest decoder-only corrective test executed | High | Fixed prefix beam10/top16, no LM/penalty/sweep, identical logits/vocab/ref. Main remains100%WER; baseline85.96%, pilot96.49%. This tested decoder alternative does not fix the failure; pruned beam is not proof about every possible decoder. |
+| PARTIAL | Most likely underlying explanation: weak fit plus domain/task mismatch | Moderate | The selected checkpoint is still blank-collapsed even on TRAIN; the later checkpoint learns TRAIN but fails the old DEV. New pool has2,739 labels / 17,453 tokens with1,331 singleton labels versus baseline115 labels / 494 tokens. The source/annotation/camera change and tiny old DEV prevent useful selection. Contributions are confounded; no causal ablation or new fit was done. |
+| UNKNOWN | OOV or missing-hand observations as the sole root cause | Low support for sole-cause claim | Main has6OOV DEV tokens, baseline 9 yet betterWER. All57deletions cannot be explained by 6 OOVs. DEV hand-observed rates25.8% left / 39.8% right vs mainTRAIN47.8% / 48.9%; real data-quality/domain differences exist but their causal effect is not isolated. |
+| BLOCKED | Production promotion and generalization claims | High | Technical prediction/data checks passed; signer-independent evaluation and cross-pool equivalence remain incomplete. The100%DEV checkpoint must not be promoted. The subsequent user instruction authorizes a separate bounded continuation on the unchanged research split; it does not establish product readiness. |
+
+## What the bounded checks establish
+
+- **PASS CTC convention:** blank 0, unknown 1, unique TRAIN-sorted vocabulary; every TRAIN target round-trips without blank/unknown and every cached sequence is CTC-feasible including adjacent repeats. The causal TCN uses stride 1 and preserves T. No additional neural downsampling, fixed-window truncation or dropped feature blocks was found. Three synthetic CTCLoss values match exhaustive 3^4 path sums to float64 precision; these fixtures are not model-evaluation evidence.
+- **PASS decoding/metric:** independent raw-ID collapse agrees with the project decoder; argmax(logits) and argmax(log-softmax) agree; synthetic blank/repeat tests and independent Levenshtein distances pass. WER is total literal-token edits divided by57, not per-utterance averaging or whitespace re-tokenization. No case folding, punctuation stripping or English-to-gloss conversion occurs.
+- **PASS normalization:** each checkpoint carries its own TRAIN-only mean/std. Recomputing from its exact frozen TRAIN partition is bit-exact. Clipping affects only 0.01292% of main-normalized DEV feature values versus 0.02991% of main TRAIN; gross normalization clipping is not supported as the cause. Checkpoint/config/vocabulary/manifest identity passes for all three models.
+- **PASS feature parity within tested scope:** all 3,025 eligible records plus 9 DEV have the 378 float32 schema, finite features, increasing genuine timestamps and feasible CTC targets. Three cached raw examples (old NCSLGR, timed NCSLGR, ASLLRP) reproduce all 378 features exactly, including causal prefixes. No video decode or feature extraction was repeated. Frozen-model batched-padding/single-sequence/prefix logits agree within recorded numerical tolerance.
+- **PARTIAL temporal/linguistic validity:** publisher ASLLRP frame bounds and exact media counts, EAF millisecond bounds and literal annotation joins pass. This is not an independent review that the depicted signer action aligns with every event. Old utterance-only supervision cannot supply independent boundary truth.
+
+The6 main OOV tokens are HOLD × 2, IX-loc-arc × 1, READ++ × 2 and LATERwg × 1. They impose a literal-token error floor of at least6/57=10.53%, not100%. The baseline has9 OOV tokens and still scores better; the pilot has1 OOV token and scores96.49%. Coverage alone is insufficient. CTC loss maps absent reference labels to <UNK> while WER retains their literal identities. This is consistent across runs, but losses across different vocabularies are not directly comparable and the DEV-loss tie-break is only a within-run rule.
+
+## DEV provenance and comparison limits
+
+The nine DEV items all come from ncslgr10p.xml, with indexed source groups 986,987,988,989,990,992,993,994,996 and the same URL recording session 2001_8_6. These are nine indexed media/source groups, not nine independent signers or confirmed independent recording sessions. All nine frozen signer_id fields are null; no trustworthy global IDs were recovered from the inspected EAF metadata. Annotation authors/annotators are not inferred as signers. The prompts repeatedly concern family, reading, buying and possessions, so lexical/topic coverage is narrow.
+
+Why this DEV set exists: expand03/tools/core.py explicitly assigned eligible collection ncslgr10p.xml to DEV and kept other collections for TRAIN, excluding the earlier exposed validation collections. Independently reconstructing its original filter reproduces exactly these nine IDs: frontal view 0, a whole-utterance movie with an unambiguous annotation join, 2–12 lexical tokens and its original exclusion of quoted/complex/classifier/fingerspelled labels. Later TRAIN label policy broadened while DEV stayed fixed. This was a custom collection split, not an official publisher split, random representative validation sample or verified signer split. Later runs explicitly carried the same IDs/labels/feature hashes forward. See source_contract_checks.json and comparison_equivalence.csv.
+
+Known leakage checks found no TRAIN/DEV overlap in the checked IDs, collection, source_group, feature hash or raw-media hash for any of the three fits. Full existing package duplicate evidence was reused. Exact literal prompt repetitions are separately recorded and do not by themselves mean duplicate performances. Signer leakage and re-encoded or semantic duplicates remain unverified. The17reserved TEST utterances were not opened for predictions, annotation analysis or tuning. The initial validator hashes their existing protected artifacts as designed; no TEST inference occurred.
+
+## Label-pool compatibility
+
+NCSLGR2 has 906 eligible utterances,920 literal labels,5,133 target tokens and493 singleton labels. ASLLRP3 has 2,119 utterances,2,739 labels, 17,453 tokens and1,331 singletons (48.59% of labels). They share 403 literal strings (union 3,256); identical strings do not establish identical annotation scope. The mean label exposure is 6.37 tokens/label in the main pool, with a strongly sparse tail. Those observations support a difficult data/learning problem, not proof of a particular optimizer defect.
+
+The ASLLRP3 source uses literal dominant-realized Occurrence label events, including publisher-hidden events and full compounds/fingerspelled labels. The NCSLGR2 pool uses literal main-gloss conventions, including source HOLD and repetition notation; its new timed subset obtains utterance spans from English-translation-tier coordinates, but never uses English values as target labels.17,453 ASLLRP CSV event joins,451 timed TRAIN + 9 DEV EAF joins and915 NCSLGR index string joins all pass. The shared feature function retains both hands/body and missingness; it does not make these label projections interchangeable.
+
+Merge decision: **BLOCKED** pending an explicitly versioned expert review of target scope and cross-version conventions, a new vocabulary mapping and a suitable independent evaluation protocol. No automatic stripping of wg,++,:i orHOLD; no relabeling to main-entry gloss; no guessed nondominant labels; no union manifest was fitted. All 3,025 eligible records remain intact in their original separate pools.
+
+## Smallest safe corrective test and next action
+
+**Executed PASS test / negative correction result:** change only decoding on the saved logits to a predeclared prefix beam of 10 with top 16 symbols/frame, preserving blank 0, weights, normalization, vocabulary and references; no LM, insertion penalty, threshold sweep or selection. Synthetic exhaustive tests validate the implementation. It gives exactly the same WER for all three models, including 100% for the main model. This tested decoder alternative does not repair the failure. It is a pruned approximation, so no claim about all beam search variants is made. The outputs are counterfactual diagnostics, not replacement official results.
+
+**Next data/evaluation step for generalization claims (BLOCKED pending verification):** complete a publisher-provenance signer/source mapping and have a qualified ASL annotator review a small source-matched evaluation packet under one declared literal target convention. The packet must come from authorized recordings genuinely unused for fitting, with a signer/source split frozen before fitting a new model on that protocol; previously trained records may only be called TRAIN diagnostics. Do not repurpose the protected17TEST set or silently rewrite these nine DEV references. Start with explicit review of HOLD, IX-loc-arc, READ++ and LATERwg scope and the dominant/hidden-event projection; proposed aliases are not ground truth. Independently verify representative visual boundaries and hand-observation quality. No acquisition, participant recording or relabeling occurred in this diagnostic.
+
+**Authorization addendum:** after these checks completed, the user explicitly directed a bounded pilot on the frozen2,119TRAIN/original9DEV split if no critical bug or data-integrity issue was found. The isolated internal label/feature contracts pass, the two pools stay separate and no critical implementation defect was found. Therefore a new bounded continuation was executed at `../20261020T102748Z_continuation_pilot01`, from the frozen epoch 17 weights/AdamW/RNG state. Only the continuation budget/stopping protocol changes; model, learning rate, normalization, vocabulary, data and decoder remain fixed. Initial window3epochs, total cap8additional epochs/120seconds; continue beyond3only with a predeclared2/57token DEV gain and TRAIN learning. This is an authorized optimization test under the existing cross-corpus diagnostic, not a claim that the unresolved signer/evaluation gates passed. The pilot has separate actual logs/checkpoints/status and does not promote a model.
+
+**Measured budget-only test result: PARTIAL recognition, PASS execution.** The continuation completed3additional CUDA epochs18–20, then stopped with `NO_CREDIBLE_DEV_GAIN_INITIAL_WINDOW`. Full TRAIN WER improved71.9532%→65.2266%at epoch 20, but all three DEV WER values remained100%. New-pilot DEV tie-break selected epoch18 (TRAIN WER70.1713%, DEV0correct tokens); this is a local pointer only and does not replace original epoch 2. Epoch loop26.464s; fitting/reload/fullTRAINdiagnostics46.696s; peak allocated1.2155GiB. Best-new-checkpoint SHA256:`a0673a7cf56b147445f0123884bc1cda0261c2c34602b5ac33f2b26b0715953b`. This single-budget test did not repair DEV, so no further continuation was launched. The result strengthens evidence for a generalization/evaluation mismatch beyond simple initial blank collapse, without isolating its linguistic or visual cause.
+
+## Reproduction, artifacts and preservation
+
+The CPU audit took38.732s; supplemental label/CTC/final-epoch replay took1.334s, excluding Python startup and initial package verification. No training/backward/optimizer update occurred in these diagnostic scripts; the separately authorized CUDA pilot above is explicitly distinguished. No downloads, production integration, APK, Android app data or avatar/GLB changes occurred. Diagnostic writes are confined to this directory, and new pilot writes to its own directory. The original06/08manifests,3025eligible examples, six overlap exclusions and one frame-count mismatch exclusion are unchanged.
+
+Required artifacts: DIAGNOSIS.md; prediction_audit.csv; comparison_equivalence.csv; label_pool_compatibility.csv; commands_and_results.txt; artifact_hashes.sha256. Detailed machine-readable evidence: checks.json, audit_results.json, annotation_join_checks.json, supplement_results.json, pool_details.json, ctc_lengths.csv, all saved DEV logits/counterfactuals, latest_epoch_dev_replay.json and preservation snapshots. All findings use PASS/PARTIAL/BLOCKED/UNKNOWN; PASS means only the stated bounded check.
+
+Read-only command (no fitting or TEST inference):
+
+```powershell
+& 'D:\apphearv3claude\AppHear-claude-s2-r3-eval-suite\AppHear-claude-s2-r3-eval-suite\experiments\continuous_asl\20261020T051631Z_devwer_diagnosis01\Verify-Diagnostics.ps1'
+```
+
+Historical execution commands and exit results are preserved in commands_and_results.txt. artifact_hashes.sha256 covers the closed new diagnostic files except itself. The three *_input_artifacts.json/input_artifacts.json records contain hashes for frozen inputs actually read. verify_outputs.py validates those hashes and all protected metadata. The current shared CTC/model/decoder/metric source hash matches the hash captured in the main fitting provenance. No prior report/checkpoint was overwritten. The local continuity/review instructions were applied within the explicitly requested diagnostic scope; the existing root memory and progress documents remain unchanged.

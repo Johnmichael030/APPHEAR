@@ -1,0 +1,96 @@
+{
+  "matched_baseline": "FP32 original Keras transferred with parity",
+  "top1_delta": 0.019607843137254832,
+  "macro_f1_delta": 0.024499738646987734,
+  "paired_signer_bootstrap_top1_delta_95pct": [
+    0.00816582914572861,
+    0.026177243534872212
+  ],
+  "bootstrap_repetitions": 2000,
+  "validation_signers": 5,
+  "uncertainty_limit": "Only five signer clusters; checkpoint selection used this validation set; no independent final test claim",
+  "confidence_coverage_curve_positive_only": [
+    {
+      "validation_confidence_threshold": 0.026979954913258553,
+      "coverage": 1.0,
+      "accepted_top1": 0.6709558823529411,
+      "positive_sign_rejection_rate": 0.0,
+      "false_activations": "NOT_MEASURED_NO_NEGATIVES",
+      "threshold_selected_for_runtime": false
+    },
+    {
+      "validation_confidence_threshold": 0.2829316556453705,
+      "coverage": 0.7503063725490197,
+      "accepted_top1": 0.7586770110249081,
+      "positive_sign_rejection_rate": 0.2496936274509804,
+      "false_activations": "NOT_MEASURED_NO_NEGATIVES",
+      "threshold_selected_for_runtime": false
+    },
+    {
+      "validation_confidence_threshold": 0.4094787687063217,
+      "coverage": 0.5,
+      "accepted_top1": 0.8333333333333334,
+      "positive_sign_rejection_rate": 0.5,
+      "false_activations": "NOT_MEASURED_NO_NEGATIVES",
+      "threshold_selected_for_runtime": false
+    },
+    {
+      "validation_confidence_threshold": 0.5803070813417435,
+      "coverage": 0.25,
+      "accepted_top1": 0.8909313725490197,
+      "positive_sign_rejection_rate": 0.75,
+      "false_activations": "NOT_MEASURED_NO_NEGATIVES",
+      "threshold_selected_for_runtime": false
+    },
+    {
+      "validation_confidence_threshold": 0.7268677175045014,
+      "coverage": 0.10018382352941177,
+      "accepted_top1": 0.9602446483180428,
+      "positive_sign_rejection_rate": 0.8998161764705882,
+      "false_activations": "NOT_MEASURED_NO_NEGATIVES",
+      "threshold_selected_for_runtime": false
+    }
+  ],
+  "missing_hand_proxy_groups": [
+    {
+      "both_hands_absent_fraction_range": [
+        0,
+        0.25
+      ],
+      "rows": 593,
+      "baseline_top1": 0.7706576728499157,
+      "candidate_top1": 0.7571669477234402
+    },
+    {
+      "both_hands_absent_fraction_range": [
+        0.25,
+        0.5
+      ],
+      "rows": 1665,
+      "baseline_top1": 0.6792792792792792,
+      "candidate_top1": 0.7003003003003003
+    },
+    {
+      "both_hands_absent_fraction_range": [
+        0.5,
+        0.75
+      ],
+      "rows": 867,
+      "baseline_top1": 0.5547866205305652,
+      "candidate_top1": 0.5974625144175317
+    },
+    {
+      "both_hands_absent_fraction_range": [
+        0.75,
+        1.0
+      ],
+      "rows": 139,
+      "baseline_top1": 0.41007194244604317,
+      "candidate_top1": 0.41007194244604317
+    }
+  ],
+  "supported_classes": 236,
+  "new_fingerspelling_candidate": "BLOCKED_NO_VERIFIED_LETTER_SEQUENCE_TRAINING_DATA",
+  "false_activation_improvement": "NOT_MEASURED",
+  "production_promotion": false
+}

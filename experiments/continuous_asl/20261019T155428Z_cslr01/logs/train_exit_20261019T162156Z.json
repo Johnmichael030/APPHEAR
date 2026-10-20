@@ -1,0 +1,6 @@
+{
+  "exit_code": 0,
+  "resources": "D:\\apphearv3claude\\AppHear-claude-s2-r3-eval-suite\\AppHear-claude-s2-r3-eval-suite\\experiments\\continuous_asl\\20261019T155428Z_cslr01\\logs\\resources_20261019T162156Z.csv",
+  "stdout": "D:\\apphearv3claude\\AppHear-claude-s2-r3-eval-suite\\AppHear-claude-s2-r3-eval-suite\\experiments\\continuous_asl\\20261019T155428Z_cslr01\\logs\\train_20261019T162156Z.out.txt",
+  "stderr": "D:\\apphearv3claude\\AppHear-claude-s2-r3-eval-suite\\AppHear-claude-s2-r3-eval-suite\\experiments\\continuous_asl\\20261019T155428Z_cslr01\\logs\\train_20261019T162156Z.err.txt"
+}

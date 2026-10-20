@@ -1,0 +1,2 @@
+{"id":"how2sign_train_translation","status":"DOWNLOADED","bytes":5607385,"sha256":"67a8f4fb6dc066f38006b89ac84c27a4b05d7fa07d5e6952f997042724d7a847"}
+{"id":"how2sign_val_translation","status":"DOWNLOADED","bytes":311419,"sha256":"1bf5d57ce90d61571776d06a179335d99648d8c94fc22b327d2abb328d26137c"}

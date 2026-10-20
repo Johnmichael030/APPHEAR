@@ -1,0 +1,32 @@
+{
+  "status": "NO_CREDIBLE_DEV_GAIN_INITIAL_WINDOW",
+  "used_cuda": true,
+  "gpu": "NVIDIA GeForce RTX 3050 Laptop GPU",
+  "completed_additional_epochs": 3,
+  "parent_epoch": 17,
+  "last_epoch": 20,
+  "best_checkpoint": {
+    "path": "checkpoints\\epoch_018.pt",
+    "sha256": "a0673a7cf56b147445f0123884bc1cda0261c2c34602b5ac33f2b26b0715953b",
+    "epoch": 18
+  },
+  "best_new_dev_wer": 1.0,
+  "best_new_train_wer": 0.7017131725204836,
+  "last_train_wer": 0.6522660860597032,
+  "initial_dev_wer": 1.0,
+  "initial_train_full_wer_from_frozen_evidence": 0.7195324586031054,
+  "epoch_loop_seconds": 26.464425900019705,
+  "fit_reload_full_train_diagnostics_seconds": 46.695898699981626,
+  "peak_allocated_vram_bytes": 1305171456,
+  "peak_reserved_vram_bytes": 1361051648,
+  "checkpoint_reload_predictions_match": true,
+  "manifest_sha256": "adebeb9e2f20179eb59b7f79805ea9226ad6c9c0594e6cba193c771947cdaf40",
+  "unique_train_consumed": 2119,
+  "utterance_presentations": 6357,
+  "training_script_sha256": "9483831d4d2ffb28dde7bda4110026d52281886fc19cc4aabd4125e9fc2c534c",
+  "production_promoted": false,
+  "test_accessed": false,
+  "frozen_baseline_dev_wer": 0.8596491228070176,
+  "beats_parent_last_dev": false,
+  "beats_frozen_baseline": false
+}

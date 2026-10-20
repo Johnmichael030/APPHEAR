@@ -1,0 +1,470 @@
+[
+  {
+    "file": "initialization.pt",
+    "sha256": "2f0202eb7c24ef5cde79e6d8d4d9f5dc34831fac6091aeb42aa6dc4dc59b6ef2",
+    "epoch": 0,
+    "model_parameter_count_excluding_norm_buffers": 186801,
+    "state_shapes": {
+      "mean": [
+        378
+      ],
+      "std": [
+        378
+      ],
+      "input.weight": [
+        48,
+        378
+      ],
+      "input.bias": [
+        48
+      ],
+      "blocks.0.conv1.weight": [
+        48,
+        48,
+        3
+      ],
+      "blocks.0.conv1.bias": [
+        48
+      ],
+      "blocks.0.conv2.weight": [
+        48,
+        48,
+        3
+      ],
+      "blocks.0.conv2.bias": [
+        48
+      ],
+      "blocks.0.norm1.weight": [
+        48
+      ],
+      "blocks.0.norm1.bias": [
+        48
+      ],
+      "blocks.0.norm2.weight": [
+        48
+      ],
+      "blocks.0.norm2.bias": [
+        48
+      ],
+      "blocks.1.conv1.weight": [
+        48,
+        48,
+        3
+      ],
+      "blocks.1.conv1.bias": [
+        48
+      ],
+      "blocks.1.conv2.weight": [
+        48,
+        48,
+        3
+      ],
+      "blocks.1.conv2.bias": [
+        48
+      ],
+      "blocks.1.norm1.weight": [
+        48
+      ],
+      "blocks.1.norm1.bias": [
+        48
+      ],
+      "blocks.1.norm2.weight": [
+        48
+      ],
+      "blocks.1.norm2.bias": [
+        48
+      ],
+      "blocks.2.conv1.weight": [
+        48,
+        48,
+        3
+      ],
+      "blocks.2.conv1.bias": [
+        48
+      ],
+      "blocks.2.conv2.weight": [
+        48,
+        48,
+        3
+      ],
+      "blocks.2.conv2.bias": [
+        48
+      ],
+      "blocks.2.norm1.weight": [
+        48
+      ],
+      "blocks.2.norm1.bias": [
+        48
+      ],
+      "blocks.2.norm2.weight": [
+        48
+      ],
+      "blocks.2.norm2.bias": [
+        48
+      ],
+      "blocks.3.conv1.weight": [
+        48,
+        48,
+        3
+      ],
+      "blocks.3.conv1.bias": [
+        48
+      ],
+      "blocks.3.conv2.weight": [
+        48,
+        48,
+        3
+      ],
+      "blocks.3.conv2.bias": [
+        48
+      ],
+      "blocks.3.norm1.weight": [
+        48
+      ],
+      "blocks.3.norm1.bias": [
+        48
+      ],
+      "blocks.3.norm2.weight": [
+        48
+      ],
+      "blocks.3.norm2.bias": [
+        48
+      ],
+      "output.weight": [
+        2289,
+        48
+      ],
+      "output.bias": [
+        2289
+      ]
+    },
+    "parameter_L2_change_from_initialization": 0.0,
+    "optimizer_step_min": 0,
+    "optimizer_step_max": 0,
+    "optimizer_groups": [
+      {
+        "lr": 0.001,
+        "betas": [
+          0.9,
+          0.999
+        ],
+        "eps": 1e-08,
+        "weight_decay": 0.0001,
+        "amsgrad": false
+      }
+    ],
+    "all_model_tensors_finite": true
+  },
+  {
+    "file": "epoch_012.pt",
+    "sha256": "e2a6e0046bca4a3f97f33f023dc7346dd9d6226e19e9bd855357a00c8f1579bf",
+    "epoch": 12,
+    "model_parameter_count_excluding_norm_buffers": 186801,
+    "state_shapes": {
+      "mean": [
+        378
+      ],
+      "std": [
+        378
+      ],
+      "input.weight": [
+        48,
+        378
+      ],
+      "input.bias": [
+        48
+      ],
+      "blocks.0.conv1.weight": [
+        48,
+        48,
+        3
+      ],
+      "blocks.0.conv1.bias": [
+        48
+      ],
+      "blocks.0.conv2.weight": [
+        48,
+        48,
+        3
+      ],
+      "blocks.0.conv2.bias": [
+        48
+      ],
+      "blocks.0.norm1.weight": [
+        48
+      ],
+      "blocks.0.norm1.bias": [
+        48
+      ],
+      "blocks.0.norm2.weight": [
+        48
+      ],
+      "blocks.0.norm2.bias": [
+        48
+      ],
+      "blocks.1.conv1.weight": [
+        48,
+        48,
+        3
+      ],
+      "blocks.1.conv1.bias": [
+        48
+      ],
+      "blocks.1.conv2.weight": [
+        48,
+        48,
+        3
+      ],
+      "blocks.1.conv2.bias": [
+        48
+      ],
+      "blocks.1.norm1.weight": [
+        48
+      ],
+      "blocks.1.norm1.bias": [
+        48
+      ],
+      "blocks.1.norm2.weight": [
+        48
+      ],
+      "blocks.1.norm2.bias": [
+        48
+      ],
+      "blocks.2.conv1.weight": [
+        48,
+        48,
+        3
+      ],
+      "blocks.2.conv1.bias": [
+        48
+      ],
+      "blocks.2.conv2.weight": [
+        48,
+        48,
+        3
+      ],
+      "blocks.2.conv2.bias": [
+        48
+      ],
+      "blocks.2.norm1.weight": [
+        48
+      ],
+      "blocks.2.norm1.bias": [
+        48
+      ],
+      "blocks.2.norm2.weight": [
+        48
+      ],
+      "blocks.2.norm2.bias": [
+        48
+      ],
+      "blocks.3.conv1.weight": [
+        48,
+        48,
+        3
+      ],
+      "blocks.3.conv1.bias": [
+        48
+      ],
+      "blocks.3.conv2.weight": [
+        48,
+        48,
+        3
+      ],
+      "blocks.3.conv2.bias": [
+        48
+      ],
+      "blocks.3.norm1.weight": [
+        48
+      ],
+      "blocks.3.norm1.bias": [
+        48
+      ],
+      "blocks.3.norm2.weight": [
+        48
+      ],
+      "blocks.3.norm2.bias": [
+        48
+      ],
+      "output.weight": [
+        2289,
+        48
+      ],
+      "output.bias": [
+        2289
+      ]
+    },
+    "parameter_L2_change_from_initialization": 87.13576860315989,
+    "optimizer_step_min": 2256,
+    "optimizer_step_max": 2256,
+    "optimizer_groups": [
+      {
+        "lr": 0.001,
+        "betas": [
+          0.9,
+          0.999
+        ],
+        "eps": 1e-08,
+        "weight_decay": 0.0001,
+        "amsgrad": false
+      }
+    ],
+    "all_model_tensors_finite": true
+  },
+  {
+    "file": "epoch_014.pt",
+    "sha256": "4cadc0d54ba7757a7110855f9699bd2460317d07a30c5bb1ce8b908faee3af8e",
+    "epoch": 14,
+    "model_parameter_count_excluding_norm_buffers": 186801,
+    "state_shapes": {
+      "mean": [
+        378
+      ],
+      "std": [
+        378
+      ],
+      "input.weight": [
+        48,
+        378
+      ],
+      "input.bias": [
+        48
+      ],
+      "blocks.0.conv1.weight": [
+        48,
+        48,
+        3
+      ],
+      "blocks.0.conv1.bias": [
+        48
+      ],
+      "blocks.0.conv2.weight": [
+        48,
+        48,
+        3
+      ],
+      "blocks.0.conv2.bias": [
+        48
+      ],
+      "blocks.0.norm1.weight": [
+        48
+      ],
+      "blocks.0.norm1.bias": [
+        48
+      ],
+      "blocks.0.norm2.weight": [
+        48
+      ],
+      "blocks.0.norm2.bias": [
+        48
+      ],
+      "blocks.1.conv1.weight": [
+        48,
+        48,
+        3
+      ],
+      "blocks.1.conv1.bias": [
+        48
+      ],
+      "blocks.1.conv2.weight": [
+        48,
+        48,
+        3
+      ],
+      "blocks.1.conv2.bias": [
+        48
+      ],
+      "blocks.1.norm1.weight": [
+        48
+      ],
+      "blocks.1.norm1.bias": [
+        48
+      ],
+      "blocks.1.norm2.weight": [
+        48
+      ],
+      "blocks.1.norm2.bias": [
+        48
+      ],
+      "blocks.2.conv1.weight": [
+        48,
+        48,
+        3
+      ],
+      "blocks.2.conv1.bias": [
+        48
+      ],
+      "blocks.2.conv2.weight": [
+        48,
+        48,
+        3
+      ],
+      "blocks.2.conv2.bias": [
+        48
+      ],
+      "blocks.2.norm1.weight": [
+        48
+      ],
+      "blocks.2.norm1.bias": [
+        48
+      ],
+      "blocks.2.norm2.weight": [
+        48
+      ],
+      "blocks.2.norm2.bias": [
+        48
+      ],
+      "blocks.3.conv1.weight": [
+        48,
+        48,
+        3
+      ],
+      "blocks.3.conv1.bias": [
+        48
+      ],
+      "blocks.3.conv2.weight": [
+        48,
+        48,
+        3
+      ],
+      "blocks.3.conv2.bias": [
+        48
+      ],
+      "blocks.3.norm1.weight": [
+        48
+      ],
+      "blocks.3.norm1.bias": [
+        48
+      ],
+      "blocks.3.norm2.weight": [
+        48
+      ],
+      "blocks.3.norm2.bias": [
+        48
+      ],
+      "output.weight": [
+        2289,
+        48
+      ],
+      "output.bias": [
+        2289
+      ]
+    },
+    "parameter_L2_change_from_initialization": 93.80555388273484,
+    "optimizer_step_min": 2632,
+    "optimizer_step_max": 2632,
+    "optimizer_groups": [
+      {
+        "lr": 0.001,
+        "betas": [
+          0.9,
+          0.999
+        ],
+        "eps": 1e-08,
+        "weight_decay": 0.0001,
+        "amsgrad": false
+      }
+    ],
+    "all_model_tensors_finite": true
+  }
+]

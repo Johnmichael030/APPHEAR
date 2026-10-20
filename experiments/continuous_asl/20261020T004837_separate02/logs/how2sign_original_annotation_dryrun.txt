@@ -1,0 +1,5 @@
+{
+  "id": "how2sign_original_val_translation",
+  "target": "D:\\apphearv3claude\\AppHear-claude-s2-r3-eval-suite\\AppHear-claude-s2-r3-eval-suite\\experiments\\continuous_asl\\20261020T004837_separate02\\data\\raw\\how2sign\\how2sign_original_val.csv",
+  "max_bytes": 1048576
+}

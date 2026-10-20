@@ -1,0 +1,11 @@
+D:\apphearv3claude\AppHear-claude-s2-r3-eval-suite\AppHear-claude-s2-r3-eval-suite\experiments\continuous_asl\20261019T155428Z_cslr01\runtime\venv\Lib\site-packages\tensorflow\lite\python\interpreter.py:457: UserWarning:     Warning: tf.lite.Interpreter is deprecated and is scheduled for deletion in
+    TF 2.20. Please use the LiteRT interpreter from the ai_edge_litert package.
+    See the [migration guide](https://ai.google.dev/edge/litert/migration)
+    for details.
+    
+  warnings.warn(_INTERPRETER_DELETION_WARNING)
+INFO: Created TensorFlow Lite XNNPACK delegate for CPU.
+{"sample_id": "rit3_115bc70b90616c49", "reason": "PUBLISHER_FRAME_RATE_MISMATCH"}
+{"sample_id": "rit3_070d5e0db572e28a", "reason": "PUBLISHER_FRAME_RATE_MISMATCH"}
+{"sample_id": "rit3_fd536cb9602ba89c", "reason": "PUBLISHER_FRAME_RATE_MISMATCH"}
+{"status": "PARTIAL_REJECTED_OR_RESOURCE_STOP", "requested": 3, "valid": 0, "resource_stop": null, "shard": 0, "shards": 1, "seconds": 11.679421899956651, "script_sha256": "71eb50ed46a1c8eb34b68580ee4ac0a9e77ae5ffab46461dab7a2d3d21385fce", "synthetic": false, "training_performed": false}

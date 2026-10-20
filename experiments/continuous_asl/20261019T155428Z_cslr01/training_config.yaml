@@ -1,0 +1,30 @@
+schema_version: apphear.continuous_asl.candidate01_causal378.v1
+task: authentic_gloss_CTC
+scope: private_noncommercial_collection_disjoint_diagnostic
+seed: 20261019
+channels: 48
+dilations: [1, 2, 4, 8]
+convolutions_per_block: 2
+kernel_size: 3
+receptive_field_observations: 61
+normalization: train_only_per_channel_mean_std
+normalization_clip: 10.0
+decode: greedy_CTC_blank_collapse
+blank_id: 0
+unknown_id: 1
+max_epochs: 30
+early_stopping_patience: 6
+selection: lexicographic_validation_gloss_WER_then_CTC_loss
+batch_candidates: [1, 2, 4]
+vram_budget_fraction: 0.5
+learning_rate: 0.001
+weight_decay: 0.0001
+gradient_clip: 5.0
+mixed_precision: false
+gradient_accumulation: 1
+gradient_checkpointing: false
+disk_headroom_bytes: 1073741824
+boundary_head: blocked_no_individual_sign_boundaries
+rejection_head: blocked_no_valid_nonsign_labels
+signer_evaluation: unavailable_IDs_not_in_public_index
+promotion: disabled_acceptance_gates_missing

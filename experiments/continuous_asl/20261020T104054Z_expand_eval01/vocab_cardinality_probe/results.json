@@ -1,0 +1,658 @@
+{
+  "status": "COMPLETED_CONTROLLED_TRAIN_ONLY_PROBE",
+  "trials": {
+    "full_vocab": {
+      "updates": 100,
+      "seconds": 3.040303500019945,
+      "initial": {
+        "loss": 42.76219725608826,
+        "gloss_wer": 4.638888888888889,
+        "substitutions": 71,
+        "deletions": 0,
+        "insertions": 263,
+        "reference_tokens": 72,
+        "scope": "COLLECTION-DISJOINT DIAGNOSTIC, SIGNER UNVERIFIED; NOT PRODUCT ACCURACY",
+        "out_of_vocabulary_tokens": 0
+      },
+      "best": {
+        "loss": 0.12321044504642487,
+        "gloss_wer": 0.027777777777777776,
+        "substitutions": 0,
+        "deletions": 2,
+        "insertions": 0,
+        "reference_tokens": 72,
+        "predictions": [
+          {
+            "sample_id": "asllrp3_a86eaaaaed5a06e4",
+            "reference": [
+              "POSS-1p-pl",
+              "COUSIN",
+              "ns-fs-JOHN",
+              "IX-loc:i",
+              "BREAK",
+              "IX-3p:j",
+              "fs-TRUCK",
+              "IX-3p:j"
+            ],
+            "hypothesis": [
+              "POSS-1p-pl",
+              "COUSIN",
+              "ns-fs-JOHN",
+              "IX-loc:i",
+              "BREAK",
+              "IX-3p:j",
+              "fs-TRUCK",
+              "IX-3p:j"
+            ],
+            "substitutions": 0,
+            "deletions": 0,
+            "insertions": 0,
+            "reference_tokens": 8
+          },
+          {
+            "sample_id": "asllrp3_d6573e9aaf690351",
+            "reference": [
+              "HAPPEN",
+              "SNOW",
+              "SCHOOL",
+              "CANCEL/CRITICIZE"
+            ],
+            "hypothesis": [
+              "HAPPEN",
+              "SNOW",
+              "SCHOOL",
+              "CANCEL/CRITICIZE"
+            ],
+            "substitutions": 0,
+            "deletions": 0,
+            "insertions": 0,
+            "reference_tokens": 4
+          },
+          {
+            "sample_id": "asllrp3_c78f443982ed707e",
+            "reference": [
+              "fs-AUDIOVOCAL",
+              "fs-ORIENTATION",
+              "MAJOR:i",
+              "IX-loc-line",
+              "HAVE",
+              "POSS-3p:i",
+              "SET-UP:i",
+              "VISUALIZE",
+              "RULE",
+              "COOPERATE/UNITE",
+              "WITH",
+              "VOICE",
+              "RANGE"
+            ],
+            "hypothesis": [
+              "fs-AUDIOVOCAL",
+              "fs-ORIENTATION",
+              "MAJOR:i",
+              "IX-loc-line",
+              "POSS-3p:i",
+              "SET-UP:i",
+              "VISUALIZE",
+              "RULE",
+              "COOPERATE/UNITE",
+              "WITH",
+              "RANGE"
+            ],
+            "substitutions": 0,
+            "deletions": 2,
+            "insertions": 0,
+            "reference_tokens": 13
+          },
+          {
+            "sample_id": "asllrp3_f6c16dd6fdfc2924",
+            "reference": [
+              "PAST+NIGHT",
+              "IX-1p",
+              "LIE-DOWN",
+              "DRUNK",
+              "IX-1p"
+            ],
+            "hypothesis": [
+              "PAST+NIGHT",
+              "IX-1p",
+              "LIE-DOWN",
+              "DRUNK",
+              "IX-1p"
+            ],
+            "substitutions": 0,
+            "deletions": 0,
+            "insertions": 0,
+            "reference_tokens": 5
+          },
+          {
+            "sample_id": "asllrp3_f27e40aae77bb6f2",
+            "reference": [
+              "TEACH+AGENT",
+              "DISTRIBUTE",
+              "ANSWER",
+              "TO/UNTIL",
+              "TEST"
+            ],
+            "hypothesis": [
+              "TEACH+AGENT",
+              "DISTRIBUTE",
+              "ANSWER",
+              "TO/UNTIL",
+              "TEST"
+            ],
+            "substitutions": 0,
+            "deletions": 0,
+            "insertions": 0,
+            "reference_tokens": 5
+          },
+          {
+            "sample_id": "asllrp3_091cd61d054e0934",
+            "reference": [
+              "FUTURE",
+              "VISUALIZE",
+              "THAT",
+              "(1h)PERSON",
+              "IX-3p:i",
+              "HIGH",
+              "fs-PITCHED",
+              "CHARACTER",
+              "(2h)TALKwg"
+            ],
+            "hypothesis": [
+              "FUTURE",
+              "VISUALIZE",
+              "THAT",
+              "(1h)PERSON",
+              "IX-3p:i",
+              "HIGH",
+              "fs-PITCHED",
+              "CHARACTER",
+              "(2h)TALKwg"
+            ],
+            "substitutions": 0,
+            "deletions": 0,
+            "insertions": 0,
+            "reference_tokens": 9
+          },
+          {
+            "sample_id": "asllrp3_8ea4735ee49926ff",
+            "reference": [
+              "#IF",
+              "IX-1p",
+              "INVITE/HIRE",
+              "IX-3p:i",
+              "PEOPLE",
+              "IX-3p-pl-arc",
+              "POP-UP",
+              "fs-LATE",
+              "IX-3p-pl-arc",
+              "SORRY",
+              "FUTURE",
+              "IX-3p:i"
+            ],
+            "hypothesis": [
+              "#IF",
+              "IX-1p",
+              "INVITE/HIRE",
+              "IX-3p:i",
+              "PEOPLE",
+              "IX-3p-pl-arc",
+              "POP-UP",
+              "fs-LATE",
+              "IX-3p-pl-arc",
+              "SORRY",
+              "FUTURE",
+              "IX-3p:i"
+            ],
+            "substitutions": 0,
+            "deletions": 0,
+            "insertions": 0,
+            "reference_tokens": 12
+          },
+          {
+            "sample_id": "asllrp3_55c67deba904c267",
+            "reference": [
+              "IX-3p:i",
+              "ns-TEXAS",
+              "IX-loc:i",
+              "(1h)HAVE",
+              "(1h)GOOD/THANK-YOU",
+              "FOOTBALL",
+              "TEAM",
+              "#NO+",
+              "IX-3p:i",
+              "LOUSY",
+              "IX-3p:i",
+              "LOSE-COMPETITION++",
+              "UP-TO-NOW",
+              "NOT-YET",
+              "WIN",
+              "part:indef"
+            ],
+            "hypothesis": [
+              "IX-3p:i",
+              "ns-TEXAS",
+              "IX-loc:i",
+              "(1h)HAVE",
+              "(1h)GOOD/THANK-YOU",
+              "FOOTBALL",
+              "TEAM",
+              "#NO+",
+              "IX-3p:i",
+              "LOUSY",
+              "IX-3p:i",
+              "LOSE-COMPETITION++",
+              "UP-TO-NOW",
+              "NOT-YET",
+              "WIN",
+              "part:indef"
+            ],
+            "substitutions": 0,
+            "deletions": 0,
+            "insertions": 0,
+            "reference_tokens": 16
+          }
+        ],
+        "scope": "COLLECTION-DISJOINT DIAGNOSTIC, SIGNER UNVERIFIED; NOT PRODUCT ACCURACY",
+        "out_of_vocabulary_tokens": 0
+      },
+      "curve": [
+        {
+          "update": 1,
+          "train_wer": 3.888888888888889,
+          "train_loss": 37.629613637924194,
+          "prediction_tokens": 281
+        },
+        {
+          "update": 10,
+          "train_wer": 1.0,
+          "train_loss": 12.239911079406738,
+          "prediction_tokens": 0
+        },
+        {
+          "update": 20,
+          "train_wer": 1.0,
+          "train_loss": 6.558610618114471,
+          "prediction_tokens": 0
+        },
+        {
+          "update": 30,
+          "train_wer": 0.9861111111111112,
+          "train_loss": 4.641871362924576,
+          "prediction_tokens": 1
+        },
+        {
+          "update": 40,
+          "train_wer": 0.9583333333333334,
+          "train_loss": 3.4170791506767273,
+          "prediction_tokens": 6
+        },
+        {
+          "update": 50,
+          "train_wer": 0.8194444444444444,
+          "train_loss": 2.633364677429199,
+          "prediction_tokens": 14
+        },
+        {
+          "update": 60,
+          "train_wer": 0.7777777777777778,
+          "train_loss": 1.9807142913341522,
+          "prediction_tokens": 17
+        },
+        {
+          "update": 70,
+          "train_wer": 0.6527777777777778,
+          "train_loss": 1.3806075900793076,
+          "prediction_tokens": 25
+        },
+        {
+          "update": 80,
+          "train_wer": 0.4166666666666667,
+          "train_loss": 0.7787001999095082,
+          "prediction_tokens": 42
+        },
+        {
+          "update": 90,
+          "train_wer": 0.16666666666666666,
+          "train_loss": 0.3418372902087867,
+          "prediction_tokens": 60
+        },
+        {
+          "update": 100,
+          "train_wer": 0.027777777777777776,
+          "train_loss": 0.12321044504642487,
+          "prediction_tokens": 70
+        }
+      ],
+      "checkpoint_sha256": "37433bf09f14816f8e74caf0d56a57b87035dc709f76542add8843a6f3e2ef35",
+      "peak_allocated_vram_bytes": 339492352,
+      "used_cuda": true
+    },
+    "restricted_vocab": {
+      "updates": 90,
+      "seconds": 2.4580505999620073,
+      "initial": {
+        "loss": 20.63953125476837,
+        "gloss_wer": 2.8472222222222223,
+        "substitutions": 67,
+        "deletions": 0,
+        "insertions": 138,
+        "reference_tokens": 72,
+        "scope": "COLLECTION-DISJOINT DIAGNOSTIC, SIGNER UNVERIFIED; NOT PRODUCT ACCURACY",
+        "out_of_vocabulary_tokens": 0
+      },
+      "best": {
+        "loss": 0.05172471620608121,
+        "gloss_wer": 0.013888888888888888,
+        "substitutions": 0,
+        "deletions": 1,
+        "insertions": 0,
+        "reference_tokens": 72,
+        "predictions": [
+          {
+            "sample_id": "asllrp3_a86eaaaaed5a06e4",
+            "reference": [
+              "POSS-1p-pl",
+              "COUSIN",
+              "ns-fs-JOHN",
+              "IX-loc:i",
+              "BREAK",
+              "IX-3p:j",
+              "fs-TRUCK",
+              "IX-3p:j"
+            ],
+            "hypothesis": [
+              "POSS-1p-pl",
+              "COUSIN",
+              "ns-fs-JOHN",
+              "IX-loc:i",
+              "BREAK",
+              "IX-3p:j",
+              "fs-TRUCK",
+              "IX-3p:j"
+            ],
+            "substitutions": 0,
+            "deletions": 0,
+            "insertions": 0,
+            "reference_tokens": 8
+          },
+          {
+            "sample_id": "asllrp3_d6573e9aaf690351",
+            "reference": [
+              "HAPPEN",
+              "SNOW",
+              "SCHOOL",
+              "CANCEL/CRITICIZE"
+            ],
+            "hypothesis": [
+              "HAPPEN",
+              "SNOW",
+              "SCHOOL",
+              "CANCEL/CRITICIZE"
+            ],
+            "substitutions": 0,
+            "deletions": 0,
+            "insertions": 0,
+            "reference_tokens": 4
+          },
+          {
+            "sample_id": "asllrp3_c78f443982ed707e",
+            "reference": [
+              "fs-AUDIOVOCAL",
+              "fs-ORIENTATION",
+              "MAJOR:i",
+              "IX-loc-line",
+              "HAVE",
+              "POSS-3p:i",
+              "SET-UP:i",
+              "VISUALIZE",
+              "RULE",
+              "COOPERATE/UNITE",
+              "WITH",
+              "VOICE",
+              "RANGE"
+            ],
+            "hypothesis": [
+              "fs-AUDIOVOCAL",
+              "fs-ORIENTATION",
+              "MAJOR:i",
+              "IX-loc-line",
+              "HAVE",
+              "POSS-3p:i",
+              "VISUALIZE",
+              "RULE",
+              "COOPERATE/UNITE",
+              "WITH",
+              "VOICE",
+              "RANGE"
+            ],
+            "substitutions": 0,
+            "deletions": 1,
+            "insertions": 0,
+            "reference_tokens": 13
+          },
+          {
+            "sample_id": "asllrp3_f6c16dd6fdfc2924",
+            "reference": [
+              "PAST+NIGHT",
+              "IX-1p",
+              "LIE-DOWN",
+              "DRUNK",
+              "IX-1p"
+            ],
+            "hypothesis": [
+              "PAST+NIGHT",
+              "IX-1p",
+              "LIE-DOWN",
+              "DRUNK",
+              "IX-1p"
+            ],
+            "substitutions": 0,
+            "deletions": 0,
+            "insertions": 0,
+            "reference_tokens": 5
+          },
+          {
+            "sample_id": "asllrp3_f27e40aae77bb6f2",
+            "reference": [
+              "TEACH+AGENT",
+              "DISTRIBUTE",
+              "ANSWER",
+              "TO/UNTIL",
+              "TEST"
+            ],
+            "hypothesis": [
+              "TEACH+AGENT",
+              "DISTRIBUTE",
+              "ANSWER",
+              "TO/UNTIL",
+              "TEST"
+            ],
+            "substitutions": 0,
+            "deletions": 0,
+            "insertions": 0,
+            "reference_tokens": 5
+          },
+          {
+            "sample_id": "asllrp3_091cd61d054e0934",
+            "reference": [
+              "FUTURE",
+              "VISUALIZE",
+              "THAT",
+              "(1h)PERSON",
+              "IX-3p:i",
+              "HIGH",
+              "fs-PITCHED",
+              "CHARACTER",
+              "(2h)TALKwg"
+            ],
+            "hypothesis": [
+              "FUTURE",
+              "VISUALIZE",
+              "THAT",
+              "(1h)PERSON",
+              "IX-3p:i",
+              "HIGH",
+              "fs-PITCHED",
+              "CHARACTER",
+              "(2h)TALKwg"
+            ],
+            "substitutions": 0,
+            "deletions": 0,
+            "insertions": 0,
+            "reference_tokens": 9
+          },
+          {
+            "sample_id": "asllrp3_8ea4735ee49926ff",
+            "reference": [
+              "#IF",
+              "IX-1p",
+              "INVITE/HIRE",
+              "IX-3p:i",
+              "PEOPLE",
+              "IX-3p-pl-arc",
+              "POP-UP",
+              "fs-LATE",
+              "IX-3p-pl-arc",
+              "SORRY",
+              "FUTURE",
+              "IX-3p:i"
+            ],
+            "hypothesis": [
+              "#IF",
+              "IX-1p",
+              "INVITE/HIRE",
+              "IX-3p:i",
+              "PEOPLE",
+              "IX-3p-pl-arc",
+              "POP-UP",
+              "fs-LATE",
+              "IX-3p-pl-arc",
+              "SORRY",
+              "FUTURE",
+              "IX-3p:i"
+            ],
+            "substitutions": 0,
+            "deletions": 0,
+            "insertions": 0,
+            "reference_tokens": 12
+          },
+          {
+            "sample_id": "asllrp3_55c67deba904c267",
+            "reference": [
+              "IX-3p:i",
+              "ns-TEXAS",
+              "IX-loc:i",
+              "(1h)HAVE",
+              "(1h)GOOD/THANK-YOU",
+              "FOOTBALL",
+              "TEAM",
+              "#NO+",
+              "IX-3p:i",
+              "LOUSY",
+              "IX-3p:i",
+              "LOSE-COMPETITION++",
+              "UP-TO-NOW",
+              "NOT-YET",
+              "WIN",
+              "part:indef"
+            ],
+            "hypothesis": [
+              "IX-3p:i",
+              "ns-TEXAS",
+              "IX-loc:i",
+              "(1h)HAVE",
+              "(1h)GOOD/THANK-YOU",
+              "FOOTBALL",
+              "TEAM",
+              "#NO+",
+              "IX-3p:i",
+              "LOUSY",
+              "IX-3p:i",
+              "LOSE-COMPETITION++",
+              "UP-TO-NOW",
+              "NOT-YET",
+              "WIN",
+              "part:indef"
+            ],
+            "substitutions": 0,
+            "deletions": 0,
+            "insertions": 0,
+            "reference_tokens": 16
+          }
+        ],
+        "scope": "COLLECTION-DISJOINT DIAGNOSTIC, SIGNER UNVERIFIED; NOT PRODUCT ACCURACY",
+        "out_of_vocabulary_tokens": 0
+      },
+      "curve": [
+        {
+          "update": 1,
+          "train_wer": 1.5555555555555556,
+          "train_loss": 15.905164241790771,
+          "prediction_tokens": 104
+        },
+        {
+          "update": 10,
+          "train_wer": 1.0,
+          "train_loss": 4.416497468948364,
+          "prediction_tokens": 0
+        },
+        {
+          "update": 20,
+          "train_wer": 1.0,
+          "train_loss": 3.5754929780960083,
+          "prediction_tokens": 0
+        },
+        {
+          "update": 30,
+          "train_wer": 0.9166666666666666,
+          "train_loss": 2.8115912675857544,
+          "prediction_tokens": 9
+        },
+        {
+          "update": 40,
+          "train_wer": 0.7083333333333334,
+          "train_loss": 1.9916499704122543,
+          "prediction_tokens": 22
+        },
+        {
+          "update": 50,
+          "train_wer": 0.6388888888888888,
+          "train_loss": 1.2794013004750013,
+          "prediction_tokens": 26
+        },
+        {
+          "update": 60,
+          "train_wer": 0.4027777777777778,
+          "train_loss": 0.7090047867968678,
+          "prediction_tokens": 43
+        },
+        {
+          "update": 70,
+          "train_wer": 0.18055555555555555,
+          "train_loss": 0.3120713634416461,
+          "prediction_tokens": 59
+        },
+        {
+          "update": 80,
+          "train_wer": 0.05555555555555555,
+          "train_loss": 0.123367142630741,
+          "prediction_tokens": 68
+        },
+        {
+          "update": 90,
+          "train_wer": 0.013888888888888888,
+          "train_loss": 0.05172471620608121,
+          "prediction_tokens": 71
+        }
+      ],
+      "checkpoint_sha256": "ac5510ec8c430bdff340749599197eaf73c638fb64b0abd53c36744b2aa78059",
+      "peak_allocated_vram_bytes": 331537408,
+      "used_cuda": true
+    }
+  },
+  "generalization_claim": false,
+  "DEV_or_TEST_used": false,
+  "new_unique_examples_added": 0,
+  "production_promoted": false
+}

@@ -1,0 +1,23 @@
+{
+  "schema": "apphear.continuous_asl.candidate01_causal378.v1",
+  "seed": 20261020,
+  "task": "Literal source-main-gloss-token CTC including authentic fingerspelled-word targets, retained as complete source labels",
+  "batch": 4,
+  "gradient_accumulation": 2,
+  "lr": 0.001,
+  "weight_decay": 0.0001,
+  "gradient_clip": 5.0,
+  "patience": 10,
+  "mixed_precision": false,
+  "max_vram_allocated_bytes": 2684354560,
+  "minimum_free_vram_bytes": 268435456,
+  "effective_receptive_field_observations": 61,
+  "selection": "Fixed9DEV WER then loss; no test-based selection.30epochs/180seconds,patience10.",
+  "baseline": "Immutable expand03 reference48, same9DEV and decoder; expanded training data and TRAIN-only vocabulary/normalization change. No architecture-only comparison.",
+  "normalization": "TRAIN mean/std only, same arrays for both model sizes",
+  "production_enabled": false,
+  "channels": 24,
+  "max_epochs": 30,
+  "wall_seconds": 180,
+  "name": "compact24"
+}

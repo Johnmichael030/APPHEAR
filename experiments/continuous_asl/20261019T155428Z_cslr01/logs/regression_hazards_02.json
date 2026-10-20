@@ -1,0 +1,24 @@
+{
+  "A": {
+    "original": "REPRODUCED_REFERENCE_PLUS_KOTLIN_PRECONDITION",
+    "event_start": 0,
+    "retained_first": 13,
+    "evicted": 13,
+    "guard": "EXPIRED_EVENT",
+    "android_executed": false
+  },
+  "E": {
+    "original": "OVERWRITE_REPRODUCED_ONLY_ON_NEW_SYNTHETIC_FIXTURE",
+    "source_train_hash_before": "3cf4a16ccabddd7ee525e919e3142a03d447e2cfd1be88830a8e6d9fdfb2c4a5",
+    "after": "9c8a9ee240c8e0e8a7fb05395407c8c409da57c2327f607c9b508a09538a2089",
+    "new_guard": "REJECTS_IDENTICAL_AND_NESTED"
+  },
+  "tests_run": 6,
+  "failures": 0,
+  "errors": 0,
+  "production_modified": false,
+  "guard_integrated": false,
+  "B": "SOURCE_EVIDENCE_ONLY; NO LABELED NEGATIVES FOR CALIBRATION",
+  "C": "MEASURED_SEPARATELY_IN_PREPROCESSING_AND_PERFORMANCE",
+  "D": "SOURCE_AUDIT_ONLY; NO RUNTIME_FLAG_FIX"
+}

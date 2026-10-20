@@ -1,0 +1,1 @@
+{"id":"how2sign_val_frontal_currentpage","status":"DOWNLOADED","bytes":1778074855,"sha256":"6cb48170131fdb7fc64d40381a3c4be41112ba4454444170f5a31af2227b6d36"}

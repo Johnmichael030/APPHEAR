@@ -1,0 +1,27 @@
+{
+  "manifest_sha256": "4ea4a144faa157f749755afba57befb193085a6bcedcd11f9d71f1b03677161e",
+  "plan_sha256": "20e4425362f1105c7c1bfd146f485a01bab9147ef6422deec37c73d768cc2ae7",
+  "trainer_sha256": "85e053587d1f4f266b440adbd8b16db3ceb4e2207a435b9d140b283a0d392849",
+  "created_utc": "2026-10-20T02:52:49.923063+00:00",
+  "selection": "DEV WER then loss; no final test accessed",
+  "models": {
+    "reference48": {
+      "pointer": {
+        "path": "checkpoints\\epoch_006.pt",
+        "sha256": "69cc26576ababf2648510715714220c3340139451b2b7f11aea847a7aed54290",
+        "epoch": 6
+      },
+      "status_sha256": "9cf44ab15dadbd8ddebf7886038b59398ec32c96f7e91da6bfd8dea1b80e9f2b",
+      "config_sha256": "3df61faf66a4a8f7d4e1e60f2382ec65b056c449d36ef06fda3ff9fe11000deb"
+    },
+    "compact24": {
+      "pointer": {
+        "path": "checkpoints\\epoch_017.pt",
+        "sha256": "74b59a944557b247131df5825398bfa51e8e1c965dc9c877c8a755aa40998c16",
+        "epoch": 17
+      },
+      "status_sha256": "b423d49d67145063b966053d2f829a01ba9504766f75c2c68030d6ff12b9c7f6",
+      "config_sha256": "81b6b422fbe1ffca22c3ffe709f0306ece343be9173160bc7f365ca2f8d11e47"
+    }
+  }
+}
