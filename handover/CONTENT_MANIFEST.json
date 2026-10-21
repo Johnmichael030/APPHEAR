@@ -1,5 +1,5 @@
 {
-  "source_status": "READ_ONLY_UNCHANGED",
+  "source_status": "AUTHORIZED_PUBLIC_UI_UPDATE",
   "files": [
     {
       "path": "handover/PROJECT_GITATTRIBUTES.txt",
@@ -249,8 +249,8 @@
     {
       "path": "android/app/build.gradle.kts",
       "source_path": "android/app/build.gradle.kts",
-      "bytes": 16788,
-      "sha256": "dfaa2bb19a5ec28d533ddd144a1d57500d08099fcd9e651ffb9d1db5f75ed780",
+      "bytes": 16789,
+      "sha256": "e1d09f50058e9865908a749c5e4106f2bba29a52f37246d1310213c2327255f0",
       "delivery": "git"
     },
     {
@@ -4855,8 +4855,8 @@
     {
       "path": "android/app/src/main/java/com/example/apphear/RecognitionActivity.kt",
       "source_path": "android/app/src/main/java/com/example/apphear/RecognitionActivity.kt",
-      "bytes": 76950,
-      "sha256": "fb509e4cfab20d717418eca1c797adf93b493ecb750c50c049079fd6c0e791ee",
+      "bytes": 77208,
+      "sha256": "a40826334869e7a40069045cadc14e791fd711e61f41fdbb5136ddcdc876d9d8",
       "delivery": "git"
     },
     {
@@ -6871,8 +6871,8 @@
     {
       "path": "android/app/src/main/res/values/strings.xml",
       "source_path": "android/app/src/main/res/values/strings.xml",
-      "bytes": 12676,
-      "sha256": "402e02501f409af412c389f0af29a3283149eb18c0ed32515c8b822810771130",
+      "bytes": 12405,
+      "sha256": "a44f83d1350e385237661797bf48979c18c7be5611013b8e3bd72ffced0e4130",
       "delivery": "git"
     },
     {
@@ -9251,8 +9251,8 @@
     {
       "path": "context/progress-tracker.md",
       "source_path": "context/progress-tracker.md",
-      "bytes": 663977,
-      "sha256": "c14cb10b2c148642f21a84bbeb0512e58f7e89b9a8c675ac3d3e8f7d70c31341",
+      "bytes": 664968,
+      "sha256": "e97825ca95ca01fa83ba73bda169dfb2cd986d67832174917aebc3638c061e3d",
       "delivery": "git"
     },
     {
@@ -41363,6 +41363,41 @@
       "bytes": 852132332,
       "sha256": "a547e867134f2be80aa1a54265b3c6f3eac524588de55670c009ee1995a8493c",
       "delivery": "lfs"
+    },
+    {
+      "path": "android/app/src/main/res/drawable/ic_continuous_edit.xml",
+      "source_path": "android/app/src/main/res/drawable/ic_continuous_edit.xml",
+      "bytes": 491,
+      "sha256": "e91b0b83fa702cec4c0bad0461199b1606c8569767109ec132570f199fd987c8",
+      "delivery": "git"
+    },
+    {
+      "path": "android/app/src/main/res/drawable/bg_continuous_edit_button.xml",
+      "source_path": "android/app/src/main/res/drawable/bg_continuous_edit_button.xml",
+      "bytes": 387,
+      "sha256": "5e516d64a17f9f01b95f06bcedcaaed3c86dac38154fca3808966380b63314ab",
+      "delivery": "git"
+    },
+    {
+      "path": "android/app/src/main/res/color/continuous_edit_icon_tint.xml",
+      "source_path": "android/app/src/main/res/color/continuous_edit_icon_tint.xml",
+      "bytes": 262,
+      "sha256": "b92ad955c8cb70e7a79d608951eb4a6934eb109e7efca9843a565b6daa6f5623",
+      "delivery": "git"
+    },
+    {
+      "path": "docs/continuous-asl-clean-ui-20261021.md",
+      "source_path": "docs/continuous-asl-clean-ui-20261021.md",
+      "bytes": 1896,
+      "sha256": "2fb865dbb8dd5dc10ef3b1b589d019d2130888b53ba43966c5d43b6a48607ab4",
+      "delivery": "git"
+    },
+    {
+      "path": "apk/AppHear-continuous-clean-ui-20261021.apk",
+      "source_path": "evidence/20261021T141540Z_continuous_clean_ui01/AppHear-continuous-clean-ui-20261021.apk",
+      "bytes": 852149874,
+      "sha256": "5c19ae04128108d1abaea26c896923e2e4711f9493bf601c152a2bd8eba61448",
+      "delivery": "lfs"
     }
   ],
   "archives": [],
@@ -41409,5 +41444,16 @@
     }
   ],
   "scope": "Reviewed project source, APK, runtime assets and research weights. Restricted datasets/media/features, private participant records, credentials, software environments/caches and reserved TEST payloads excluded.",
-  "delivery_mode": "GIT_LFS_DIRECT_FILES"
+  "delivery_mode": "GIT_LFS_DIRECT_FILES",
+  "latest_UI_source_paths": [
+    "android/app/src/main/java/com/example/apphear/RecognitionActivity.kt",
+    "android/app/src/main/res/values/strings.xml",
+    "android/app/build.gradle.kts",
+    "context/progress-tracker.md",
+    "android/app/src/main/res/drawable/ic_continuous_edit.xml",
+    "android/app/src/main/res/drawable/bg_continuous_edit_button.xml",
+    "android/app/src/main/res/color/continuous_edit_icon_tint.xml",
+    "docs/continuous-asl-clean-ui-20261021.md"
+  ],
+  "latest_delivery_scope": "Public APK, scoped UI source and aggregate report; new detailed logs, machine/participant metadata and camera images excluded. Earlier committed history is preserved."
 }

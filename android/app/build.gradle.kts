@@ -147,7 +147,7 @@ android {
 
     buildTypes {
         debug {
-            if (continuousAsl) versionNameSuffix = "-continuous-refined-20261021"
+            if (continuousAsl) versionNameSuffix = "-continuous-clean-ui-20261021"
             buildConfigField("boolean", "CONTINUOUS_ASL_EXPERIMENT_ENABLED", continuousAsl.toString())
             buildConfigField("boolean", "RECOGNITION_V3_PARALLEL_HANDS_ENABLED", recognitionV3ParallelHands.toString())
             buildConfigField("boolean", "RECOGNITION_V3_PROFILE_ENABLED", recognitionV3Profile.toString())

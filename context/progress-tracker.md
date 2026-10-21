@@ -5708,3 +5708,10 @@ Next: connected-phone smoke check with data preserved, then independent recognit
 Decision: ship only experimental engineering fixes; do not claim WER improvement, relax failed gates or run longer same-data training automatically. Report:docs/continuous-asl-detection-refinement-20261021.md.
 APK:evidence/20261021T062258Z_continuous_detectionfix01/AppHear-continuous-refined-20261021.apk;SHA256a547e867134f2be80aa1a54265b3c6f3eac524588de55670c009ee1995a8493c.
 Next:qualified review of existing12TRAINevents, then permissioned targeted repetition with frozen signer/session evaluation. No bulk vocabulary expansion or dataset reacquisition.
+
+## 2026-10-21 — continuous-ASL compact controls
+
+- User-requested static explanation removal and replacement of the wide Edit text control with a 48 dp accessible pencil icon. Live status, experimental labels and optional editing behavior retained.
+- 301 host tests pass; debug/test APK builds, signature and packaged resource checks pass. All 528 previous APK asset entries and 220 protected paths preserved; continuous/output asset bytes exact. No model, feature, decoder, renderer, threshold or avatar changes.
+- APK: evidence/20261021T141540Z_continuous_clean_ui01/AppHear-continuous-clean-ui-20261021.apk; SHA256 5c19ae04128108d1abaea26c896923e2e4711f9493bf601c152a2bd8eba61448. No phone installation or device visual check performed.
+- GitHub delivery uses Git LFS on the public APPHEAR repository; detailed local metadata is excluded from this update. Report: docs/continuous-asl-clean-ui-20261021.md. This is a presentation update, not an accuracy improvement or model promotion.

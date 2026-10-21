@@ -29,10 +29,10 @@
   "safe_string_configuration": {
     "APPLICATION_ID": "com.example.apphear",
     "BUILD_TYPE": "debug",
-    "VERSION_NAME": "1.0-continuous-refined-20261021",
+    "VERSION_NAME": "1.0-continuous-clean-ui-20261021",
     "APP_PHONE_S2_PACKAGE": "S2_R2_CANDIDATE",
     "CONTEXT_PHRASE_ASSIST_PROVIDER": "fake"
   },
-  "source": "D:\\apphearv3claude\\AppHear-claude-s2-r3-eval-suite\\AppHear-claude-s2-r3-eval-suite\\android\\app\\build\\generated\\source\\buildConfig\\debug\\com\\example\\apphear\\BuildConfig.java",
-  "credential_values_emitted": false
+  "credential_values_emitted": false,
+  "source_reference": "android/app/build/generated/source/buildConfig/debug/com/example/apphear/BuildConfig.java"
 }

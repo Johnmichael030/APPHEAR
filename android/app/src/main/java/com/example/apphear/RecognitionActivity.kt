@@ -894,25 +894,27 @@ class RecognitionActivity : AppCompatActivity() {
     private fun installContinuousControls() {
         val container = binding.expandableContent.getChildAt(0) as LinearLayout
         continuousPanel = LinearLayout(this).apply {
-            orientation = LinearLayout.VERTICAL
+            orientation = LinearLayout.HORIZONTAL
+            gravity = android.view.Gravity.CENTER_VERTICAL
             setPadding(0, 8.dp, 0, 8.dp)
             visibility = if (selectedRecognitionMode == RecognitionMode.CONTINUOUS_WORD) View.VISIBLE else View.GONE
-            addView(TextView(this@RecognitionActivity).apply {
-                setText(R.string.continuous_asl_title); textSize = 16f
-                setTextColor(getColor(R.color.color_text_primary))
-            })
-            addView(TextView(this@RecognitionActivity).apply {
-                setText(R.string.continuous_asl_body); textSize = 12f
-                setTextColor(getColor(R.color.color_text_secondary))
-            })
             continuousStatus = TextView(this@RecognitionActivity).apply {
                 text = "Loading continuous recognition…"; textSize = 12f
                 setTextColor(getColor(R.color.color_text_secondary))
+                layoutParams = LinearLayout.LayoutParams(0, LinearLayout.LayoutParams.WRAP_CONTENT, 1f)
             }
             addView(continuousStatus)
-            addView(MaterialButton(this@RecognitionActivity).apply {
+            addView(androidx.appcompat.widget.AppCompatImageButton(this@RecognitionActivity).apply {
                 id = R.id.continuousReviewButton
-                setText(R.string.continuous_asl_review)
+                layoutParams = LinearLayout.LayoutParams(48.dp, 48.dp).apply { marginStart = 12.dp }
+                setBackgroundResource(R.drawable.bg_continuous_edit_button)
+                setImageResource(R.drawable.ic_continuous_edit)
+                imageTintList = ContextCompat.getColorStateList(context, R.color.continuous_edit_icon_tint)
+                setPadding(12.dp, 12.dp, 12.dp, 12.dp)
+                contentDescription = getString(R.string.continuous_asl_edit_description)
+                tooltipText = contentDescription
+                isFocusable = true
+                isEnabled = false
                 setOnClickListener { editContinuous() }
             })
         }
@@ -977,7 +979,6 @@ class RecognitionActivity : AppCompatActivity() {
                 continuousDialog?.dismiss()
                 continuousDialog = androidx.appcompat.app.AlertDialog.Builder(this)
                     .setTitle(R.string.continuous_asl_review)
-                    .setMessage(R.string.continuous_asl_body)
                     .setView(edit)
                     .setPositiveButton(R.string.continuous_asl_confirm) { _, _ ->
                         val text = edit.text.toString()

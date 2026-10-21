@@ -151,8 +151,7 @@
     <string name="recognition_mode_title">Recognition mode</string>
     <string name="recognition_mode_body">Only the selected mode recognizes signs. Continuous mode displays experimental English automatically; editing is optional.</string>
     <string name="recognition_mode_continuous">CONTINUOUS WORD · experimental</string>
-    <string name="continuous_asl_title">Continuous word recognition · experimental</string>
-    <string name="continuous_asl_body">Sign to display text automatically. Limited offline English rules support common patterns; other labels stay visible as untranslated. Recognition can be wrong. Editing is optional. Hear speaks only when tapped.</string>
+    <string name="continuous_asl_edit_description">Edit recognized text</string>
     <string name="continuous_asl_review">Edit text (optional)</string>
     <string name="continuous_asl_confirm">Save edit</string>
     <string name="continuous_asl_confirm_hear">Use edited text and hear</string>

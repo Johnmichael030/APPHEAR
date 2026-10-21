@@ -1,12 +1,12 @@
 # AppHear continuous ASL developer handover
 
-Date: 21 October 2026, Asia/Shanghai. This delivery shares the existing verified APK and source; it does not deploy a newly trained model. Repository visibility must remain private. Share collaborator access separately.
+Date: 21 October 2026, Asia/Shanghai. This delivery shares the existing verified APK and source; it does not deploy a newly trained model. The repository remains public as explicitly requested. This UI update publishes only the APK, scoped UI source and aggregate results; detailed local logs and private metadata are excluded.
 
 ## Clone and verify Git LFS
 
-Use Git LFS and a short Windows path, such as C:\src\APPHEAR. Install Git LFS locally, clone this private repository, then run `git lfs pull`, `git lfs fsck` and `python .\tools\handover\verify_checkout.py` from its root. LFS retrieves actual binary assets; pointer files alone are insufficient. An ordinary GitHub source ZIP may contain pointers. The receiver needs repository access.
+Use Git LFS and a short Windows path, such as C:\src\APPHEAR. Install Git LFS locally, clone this public repository, then run `git lfs pull`, `git lfs fsck` and `python .\tools\handover\verify_checkout.py` from its root. LFS retrieves actual binary assets; pointer files alone are insufficient. An ordinary GitHub source ZIP may contain pointers. Public read access is sufficient for cloning; push permission is separate.
 
-The APK is directly under `apk/AppHear-continuous-refined-20261021.apk`. GitHub's file view offers Download raw file. Version `1.0-continuous-refined-20261021`, application ID `com.example.apphear`, minimum API 26, target 36, 852,132,332 bytes (812.7 MiB). SHA256 `a547e867134f2be80aa1a54265b3c6f3eac524588de55670c009ee1995a8493c`. It is the existing credentials-free debug build, not a newly trained app model. Settings > Recognition mode > CONTINUOUS WORD · experimental enables the included mode.
+The APK is directly under `apk/AppHear-continuous-clean-ui-20261021.apk`. GitHub's file view offers Download raw file. Version `1.0-continuous-clean-ui-20261021`, application ID `com.example.apphear`, minimum API 26, target 36, 852,149,874 bytes (812.7 MiB). SHA256 `5c19ae04128108d1abaea26c896923e2e4711f9493bf601c152a2bd8eba61448`. It is the existing credentials-free debug build, not a newly trained app model. Settings > Recognition mode > CONTINUOUS WORD Â· experimental enables the included mode.
 
 All included models, checkpoints and app assets live at their original source paths with Git LFS, not in a new release archive. The verifier checks their materialized bytes against handover/CONTENT_MANIFEST.json. It reports missing or pointer-only files instead of silently skipping them. No data extraction or participant processing occurs.
 
@@ -27,7 +27,7 @@ Root `requirements.txt` describes the broader older pipeline. Existing research 
 
 After running git lfs pull, configure your own SDK path via local.properties or ANDROID_HOME. Do not copy someone else's signing keys or service credentials. From repository root run `powershell.exe -NoProfile -ExecutionPolicy Bypass -File .\tools\handover\Build-Handover.ps1`. It runs unit tests and assembles debug APKs with the captured feature flags and empty cloud credentials; it does not install or access a phone. A new debug signing key may prevent updating an existing installation; do not clear application data as a workaround.
 
-The supplied APK was already built and passed301hosttests and APK signature verification in its original evidence. This upload verifies hashes, source scope and archive integrity; it does not repeat a build or claim fresh phone validation. Synthetic ONNX/checkpoint parity fixtures are engineering evidence, not ASL accuracy measurements.
+The supplied APK was already built and passed301hosttests and APK signature verification in its original evidence. The UI update was rebuilt and verifies hashes, source scope and asset preservation; it does not claim fresh phone validation. Synthetic ONNX/checkpoint parity fixtures are engineering evidence, not ASL accuracy measurements.
 
 ## Current behavior and limitations
 
@@ -35,7 +35,7 @@ The existing model is causal CTC,378features,48channels,RF61,2,287literal target
 
 Pause stops inference, asynchronous load resumes only while STARTED, and missing hands discard unsettled tokens. Keep lifecycle/no-hand/blank-separated-repeat safeguards. Do not reintroduce forced publication on loss of tracking. WORD/FINGERSPELL and avatar assets remain unchanged.
 
-Latest A:1,500TRAIN/80known-signer family-heldDEV,10fine-tuningepochs/82.106s,1.214GiBpeakallocatedVRAM. TRAIN WER88.40%â†’85.70%; fullsequenceDEV95.67%â†’94.64%; streamingDEV95.67%â†’95.67%; exact0/80. No classes added. New-class data admission is blocked; no qualified linguistic review or independent no-sign/unseen-signer validation is established. Do not promote A or repeat failed framing/history variants blindly. See MISSION_REPORT.md and PROMOTION_DECISION.md for the frozen gates.
+Latest A:1,500TRAIN/80known-signer family-heldDEV,10fine-tuningepochs/82.106s,1.214GiBpeakallocatedVRAM. TRAIN WER88.40%Ã¢â€ â€™85.70%; fullsequenceDEV95.67%Ã¢â€ â€™94.64%; streamingDEV95.67%Ã¢â€ â€™95.67%; exact0/80. No classes added. New-class data admission is blocked; no qualified linguistic review or independent no-sign/unseen-signer validation is established. Do not promote A or repeat failed framing/history variants blindly. See MISSION_REPORT.md and PROMOTION_DECISION.md for the frozen gates.
 
 ## Data access and reproduction limits
 
@@ -44,3 +44,7 @@ Training needs separately permissioned dataset access and verified feature files
 No participant media, derived features, consent documents, private recording metadata, raw archives, environment/cache or reserved TEST payload was added. Existing encrypted experiments backup remains unchanged and needs its separately held recovery key. The receiving developer must obtain dataset access directly from the publisher rather than redistributing restricted media. [ASLLRP terms](https://www.bu.edu/asllrp/dai-terms.html) and [SignBank terms](https://www.bu.edu/asllrp/signbank-terms.pdf) require attribution and restrict commercial/redistribution uses. Cite CarolNeidle/DimitrisMetaxas, ASLLRP SignBank, Boston/Rutgers Universities, and the applicable corpus publication. Model files do not grant commercial or dataset redistribution permission.
 
 The smallest quality-improvement step is the qualified12eventTRAIN review and permissioned repeated natural signs across independent recordings/signers, plus consented no-sign/boundary evaluation. Resolve local permission/verified-label records and RIT timing before admitting new classes. Do not use the reserved17TEST for selection/tuning.
+
+## Latest UI update
+
+The static continuous-mode explanation is removed. Optional editing is a 48 dp pencil icon with an accessibility label and tooltip. Live status and experimental labels remain. This build passed 301 host tests, signature/resource checks and exact asset preservation; a physical device visual check remains pending. No recognition model was promoted. The previous APK is retained in apk/.

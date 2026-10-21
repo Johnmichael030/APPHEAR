@@ -1,9 +1,10 @@
 # AppHear developer handover
 
-**Latest APK and continuous-ASL files — 21 October 2026, Asia/Shanghai.**
+**Latest APK and continuous-ASL files â€” 21 October 2026, Asia/Shanghai.**
 
-- [Latest APK](apk/AppHear-continuous-refined-20261021.apk) — open the file and use **Download raw file** (812.7 MiB).
-- [Developer handover](DEVELOPER_HANDOVER.md) — setup, source map, build and known issues.
+- [Latest APK](apk/AppHear-continuous-clean-ui-20261021.apk) â€” open the file and use **Download raw file** (812.7 MiB).
+- [UI update report](docs/continuous-asl-clean-ui-20261021.md) — explanation removed and edit action changed to a pencil icon.
+- [Developer handover](DEVELOPER_HANDOVER.md) â€” setup, source map, build and known issues.
 - [Continuous-ASL Android runtime](android/app/src/main/java/com/example/apphear/continuousasl/).
 - [Continuous training/evaluation tools](tools/continuous_asl/).
 - [Runtime model and vocabulary](packages/continuous_asl_research_01/).
@@ -21,7 +22,7 @@ git lfs fsck
 python .\tools\handover\verify_checkout.py
 ```
 
-GitHub's ordinary ZIP download may contain LFS pointers. Clone with Git LFS to obtain actual assets. The repository is private; give the receiving developer collaborator access separately.
+GitHub's ordinary ZIP download may contain LFS pointers. Clone with Git LFS to obtain actual assets. The repository is public, as explicitly requested. Reading and cloning do not require collaborator access. This UI update excludes detailed local logs and private metadata.
 
 The APK retains the frozen epoch-12 recognizer. Latest research A improved full-sequence DEV WER from 95.67% to 94.64%, but streaming replay stays 95.67% and exact sequences remain 0/80. It was **not promoted**. Recognition and the finite English renderer remain experimental.
 
