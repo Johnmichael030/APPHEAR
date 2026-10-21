@@ -1,0 +1,120 @@
+{
+  "status": "BLOCKED_PAIRED_GATE",
+  "scope": "Predeclared development diagnostic; NOT independent evaluation or unseen-signer generalization.",
+  "metrics": {
+    "TRAIN192": {
+      "A_reset_nohand": {
+        "substitutions": 391,
+        "deletions": 982,
+        "insertions": 3,
+        "reference_tokens": 1464,
+        "utterances": 192,
+        "exact_sequences": 0,
+        "hypothesis_tokens": 485,
+        "empty_outputs": 23,
+        "nohand_token_emissions": 0,
+        "logical_model_calls_on_nohand": 0,
+        "logical_visible_inference_positions": 5538,
+        "token_limit_hits": 0,
+        "WER": 0.9398907103825137,
+        "exact_sequence_fraction": 0.0
+      },
+      "B_retain_missing_features": {
+        "substitutions": 117,
+        "deletions": 1252,
+        "insertions": 0,
+        "reference_tokens": 1464,
+        "utterances": 192,
+        "exact_sequences": 0,
+        "hypothesis_tokens": 212,
+        "empty_outputs": 73,
+        "nohand_token_emissions": 0,
+        "logical_model_calls_on_nohand": 0,
+        "logical_visible_inference_positions": 5538,
+        "token_limit_hits": 0,
+        "WER": 0.9351092896174863,
+        "exact_sequence_fraction": 0.0
+      }
+    },
+    "HELD80": {
+      "A_reset_nohand": {
+        "substitutions": 176,
+        "deletions": 288,
+        "insertions": 0,
+        "reference_tokens": 485,
+        "utterances": 80,
+        "exact_sequences": 0,
+        "hypothesis_tokens": 197,
+        "empty_outputs": 7,
+        "nohand_token_emissions": 0,
+        "logical_model_calls_on_nohand": 0,
+        "logical_visible_inference_positions": 1697,
+        "token_limit_hits": 0,
+        "WER": 0.9567010309278351,
+        "exact_sequence_fraction": 0.0
+      },
+      "B_retain_missing_features": {
+        "substitutions": 65,
+        "deletions": 409,
+        "insertions": 0,
+        "reference_tokens": 485,
+        "utterances": 80,
+        "exact_sequences": 0,
+        "hypothesis_tokens": 76,
+        "empty_outputs": 30,
+        "nohand_token_emissions": 0,
+        "logical_model_calls_on_nohand": 0,
+        "logical_visible_inference_positions": 1697,
+        "token_limit_hits": 0,
+        "WER": 0.977319587628866,
+        "exact_sequence_fraction": 0.0
+      }
+    }
+  },
+  "gate": {
+    "TRAIN192": {
+      "WER_lower": true,
+      "insertions_nonincrease": true
+    },
+    "HELD80": {
+      "WER_lower": false,
+      "insertions_nonincrease": true
+    }
+  },
+  "events": {
+    "TRAIN192": {
+      "utterances": 192,
+      "frames": 7847,
+      "visible_frames": 5538,
+      "nohand_frames": 2309,
+      "visible_to_nohand": 1095,
+      "nohand_to_visible": 1092,
+      "long_timestamp_gaps": 0,
+      "visible_runs": 1203
+    },
+    "HELD80": {
+      "utterances": 80,
+      "frames": 2331,
+      "visible_frames": 1697,
+      "nohand_frames": 634,
+      "visible_to_nohand": 309,
+      "nohand_to_visible": 313,
+      "long_timestamp_gaps": 0,
+      "visible_runs": 360
+    }
+  },
+  "inference_and_scoring_seconds": 0.5103523999569006,
+  "actual_vectorized_ORT_calls": {
+    "A_reset_nohand": 1563,
+    "B_retain_missing_features": 272,
+    "parity_full_B": 1,
+    "parity_prefix_B": 5,
+    "parity_full_A": 2,
+    "parity_prefix_A": 2
+  },
+  "numerical_parity_pass": true,
+  "config_sha256": "082f1d12b150d67e14308d7a834f3bafa84e39090a0828c9f8a47ed3b584c383",
+  "parent_TRAIN192_A_reproduction": "PASS exact edit/token counts",
+  "deployment": "NOT_PERFORMED; root must separately decide after gates and review.",
+  "TEST_accessed": false
+}

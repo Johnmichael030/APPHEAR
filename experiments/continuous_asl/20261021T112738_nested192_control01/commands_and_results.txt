@@ -1,0 +1,43 @@
+Controlled nested192 experiment — executed 2026-10-21 Asia/Shanghai
+PROJECT = D:/apphearv3claude/AppHear-claude-s2-r3-eval-suite/AppHear-claude-s2-r3-eval-suite
+RUN = D:/apphearv3claude/AppHear-claude-s2-r3-eval-suite/AppHear-claude-s2-r3-eval-suite/experiments/continuous_asl/20261021T112738_nested192_control01
+PYTHON = D:/apphearv3claude/AppHear-claude-s2-r3-eval-suite/AppHear-claude-s2-r3-eval-suite/experiments/continuous_asl/20261019T155428Z_cslr01/runtime/venv/Scripts/python.exe
+
+1. Read-only old control verification:
+& 'D:\apphearv3claude\AppHear-claude-s2-r3-eval-suite\AppHear-claude-s2-r3-eval-suite\experiments\continuous_asl\20261019T155428Z_cslr01\runtime\venv\Scripts\python.exe' -B D:/apphearv3claude/AppHear-claude-s2-r3-eval-suite/AppHear-claude-s2-r3-eval-suite/experiments/continuous_asl/20261020T144622Z_compact_ctc_control01/verify_compact.py
+PASS:200unchanged inputs,47output hashes,91/756independent edits,old96gatePASS.
+2. nvidia-smi: RTX3050Laptop4096MiB,0used/0%compute before training. No competing training/GPU process.
+3. & 'D:\apphearv3claude\AppHear-claude-s2-r3-eval-suite\AppHear-claude-s2-r3-eval-suite\experiments\continuous_asl\20261019T155428Z_cslr01\runtime\venv\Scripts\python.exe' -B D:/apphearv3claude/AppHear-claude-s2-r3-eval-suite/AppHear-claude-s2-r3-eval-suite/tools/continuous_asl/prepare_nested192_control.py
+Created new unique RUN; source trainer hash4521c8a... verified.
+4. & 'D:\apphearv3claude\AppHear-claude-s2-r3-eval-suite\AppHear-claude-s2-r3-eval-suite\experiments\continuous_asl\20261019T155428Z_cslr01\runtime\venv\Scripts\python.exe' -B D:/apphearv3claude/AppHear-claude-s2-r3-eval-suite/AppHear-claude-s2-r3-eval-suite/experiments/continuous_asl/20261021T112738_nested192_control01/control192.py --prepare > D:/apphearv3claude/AppHear-claude-s2-r3-eval-suite/AppHear-claude-s2-r3-eval-suite/experiments/continuous_asl/20261021T112738_nested192_control01/prepare.log
+PASS:192valid features, nested original96, authentic labels, split/family guards, fixed2289classes.
+5. Failed initial train command used D:/apphearv3claude/AppHear-claude-s2-r3-eval-suite/experiments/continuous_asl/20261021T112738_nested192_control01/control192.py (missing one nested project component).
+Error:[Errno2]No such file or directory. Python did not open trainer; no fit/checkpoint created by this attempt.
+6. Correct actual training command (COMPLETED; do not rerun):
+& 'D:\apphearv3claude\AppHear-claude-s2-r3-eval-suite\AppHear-claude-s2-r3-eval-suite\experiments\continuous_asl\20261019T155428Z_cslr01\runtime\venv\Scripts\python.exe' -B D:/apphearv3claude/AppHear-claude-s2-r3-eval-suite/AppHear-claude-s2-r3-eval-suite/experiments/continuous_asl/20261021T112738_nested192_control01/control192.py --train *> D:/apphearv3claude/AppHear-claude-s2-r3-eval-suite/AppHear-claude-s2-r3-eval-suite/experiments/continuous_asl/20261021T112738_nested192_control01/run.log
+PASS:30completeepochs/720updates/29.991s/TRAIN_WER10.5874%/CTC0.532527.
+7. & 'D:\apphearv3claude\AppHear-claude-s2-r3-eval-suite\AppHear-claude-s2-r3-eval-suite\experiments\continuous_asl\20261019T155428Z_cslr01\runtime\venv\Scripts\python.exe' -B D:/apphearv3claude/AppHear-claude-s2-r3-eval-suite/AppHear-claude-s2-r3-eval-suite/experiments/continuous_asl/20261021T112738_nested192_control01/finish192.py > D:/apphearv3claude/AppHear-claude-s2-r3-eval-suite/AppHear-claude-s2-r3-eval-suite/experiments/continuous_asl/20261021T112738_nested192_control01/postfit.log
+One post-fit fixed80evaluation:101.0309%WER,490/485edits,0/80exact. Original27subgroup100.6757%. No checkpoint selection from held-out. Fully supported22score97.50%WER. Before/after feature and checkpoint hashes passed.
+8. & 'D:\apphearv3claude\AppHear-claude-s2-r3-eval-suite\AppHear-claude-s2-r3-eval-suite\experiments\continuous_asl\20261019T155428Z_cslr01\runtime\venv\Scripts\python.exe' -B D:/apphearv3claude/AppHear-claude-s2-r3-eval-suite/AppHear-claude-s2-r3-eval-suite/experiments/continuous_asl/20261021T112738_nested192_control01/prepare_phone_harness.py
+Separate application ID com.example.apphear.continuousparity; actual model-loader source copied/hash recorded. No camera/audio permissions. Existing app model epoch12, NOT new192weights.
+9. First harness Gradle invocation failed: unquoted dotted -Pandroid.useAndroidX=true became a task .useAndroidX=true.
+Corrected exact equivalent:
+JAVA_HOME=C:/Program Files/Eclipse Adoptium/jdk-17.0.20.101-hotspot (process only)
+& D:/apphearv3claude/AppHear-claude-s2-r3-eval-suite/AppHear-claude-s2-r3-eval-suite/android/gradlew.bat -p D:/apphearv3claude/AppHear-claude-s2-r3-eval-suite/AppHear-claude-s2-r3-eval-suite/experiments/continuous_asl/20261021T112738_nested192_control01/phone_parity ':app:assembleDebug' ':app:assembleDebugAndroidTest' '--console=plain' '--no-daemon' '--max-workers=2' '-Pandroid.useAndroidX=true'
+PASS:BUILD SUCCESSFUL1m3s; no production app rebuilt/replaced in this phase.
+10. ADB initially no devices; Windows sawSamsungUSB; user connected/authorizedUSBdebugging. DetectedSamsungSM_A226B.
+11. Initial aapt2 check expected nonexistentSDKbuild-tools36.0.0 and failed before any install. Discovered installed35.0.0aapt.exe and verified harness packageID/no camera/audio permissions.
+12. Phone synthetic tests (explicitly authorized by user):
+ADB=C:/Users/johnm/AppData/Local/Android/Sdk/platform-tools/adb.exe
+& 'C:\Users\johnm\AppData\Local\Android\Sdk\platform-tools\adb.exe' -s R9AT401M8HJ shell pm path com.example.apphear
+& 'C:\Users\johnm\AppData\Local\Android\Sdk\platform-tools\adb.exe' -s R9AT401M8HJ install -r D:/apphearv3claude/AppHear-claude-s2-r3-eval-suite/AppHear-claude-s2-r3-eval-suite/experiments/continuous_asl/20261021T112738_nested192_control01/phone_parity/app/build/outputs/apk/debug/app-debug.apk
+& 'C:\Users\johnm\AppData\Local\Android\Sdk\platform-tools\adb.exe' -s R9AT401M8HJ install -r D:/apphearv3claude/AppHear-claude-s2-r3-eval-suite/AppHear-claude-s2-r3-eval-suite/experiments/continuous_asl/20261021T112738_nested192_control01/phone_parity/app/build/outputs/apk/androidTest/debug/app-debug-androidTest.apk
+& 'C:\Users\johnm\AppData\Local\Android\Sdk\platform-tools\adb.exe' -s R9AT401M8HJ shell am instrument -w -e class 'com.example.apphear.continuousasl.ContinuousAslParityInstrumentedTest,com.example.apphear.continuousasl.ModelTimingTest' 'com.example.apphear.continuousparity.test/androidx.test.runner.AndroidJUnitRunner'
+PASS:OK(2tests). Model61observations p50=13.732769ms,p95=27.429846ms. Model-only synthetic; no camera/data record. OriginalAppHearAPKpathsame before/after. Only separate harness/testpackages installed.
+13. & 'D:\apphearv3claude\AppHear-claude-s2-r3-eval-suite\AppHear-claude-s2-r3-eval-suite\experiments\continuous_asl\20261019T155428Z_cslr01\runtime\venv\Scripts\python.exe' -B D:/apphearv3claude/AppHear-claude-s2-r3-eval-suite/AppHear-claude-s2-r3-eval-suite/experiments/continuous_asl/20261021T112738_nested192_control01/write_report.py
+Created PILOT_REPORT.md/PHONE_PARITY_RESULTS.json. No extra inference/fit.
+
+Next exact read-only verification:
+& 'D:\apphearv3claude\AppHear-claude-s2-r3-eval-suite\AppHear-claude-s2-r3-eval-suite\experiments\continuous_asl\20261019T155428Z_cslr01\runtime\venv\Scripts\python.exe' -B D:/apphearv3claude/AppHear-claude-s2-r3-eval-suite/AppHear-claude-s2-r3-eval-suite/experiments/continuous_asl/20261021T112738_nested192_control01/verify192.py
+No larger training command is launched or recommended automatically. Qualified12-event review and permissioned targeted data collection are pending.
+

@@ -1,0 +1,34 @@
+{
+  "source_script": "D:\\apphearv3claude\\AppHear-claude-s2-r3-eval-suite\\AppHear-claude-s2-r3-eval-suite\\experiments\\continuous_asl\\20261020T144622Z_compact_ctc_control01\\control.py",
+  "source_sha256": "4521c8a5948c9e3a512c0c5f01fcba02ef1bb48fc8955427e1d636803a9e377f",
+  "training_code_reused": true,
+  "train_size": [
+    96,
+    192
+  ],
+  "fixed_complete_epochs": 30,
+  "max_seconds": 90,
+  "max_optimizer_steps": 720,
+  "unchanged": [
+    "architecture",
+    "features",
+    "literal_labels",
+    "vocabulary",
+    "normalization",
+    "seed",
+    "AdamW",
+    "learning_rate",
+    "weight_decay",
+    "batch4",
+    "accumulation2",
+    "gradient_clip",
+    "greedy_CTC",
+    "TRAIN_gate_thresholds"
+  ],
+  "instrumentation_changes": [
+    "nested_prepare",
+    "epoch_timer",
+    "devicewide_GPU_monitor"
+  ],
+  "stop_policy": "Complete30passes even if diagnostic gate passed sooner; same collapse rule at epoch30/resource/numerical guard; no further fit"
+}

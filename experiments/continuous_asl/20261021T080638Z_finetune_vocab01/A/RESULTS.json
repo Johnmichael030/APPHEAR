@@ -1,0 +1,30 @@
+{
+  "status": "COMPLETED_BOUNDED_FINE_TUNING",
+  "reason": "NO_CREDIBLE_DEV_GAIN_STOP",
+  "completed_epochs": 10,
+  "optimizer_updates": 1880,
+  "disposable_smoke_updates": 1,
+  "discarded_partial_epoch_updates": 0,
+  "wall_training_and_epoch_eval_seconds": 82.10640079999575,
+  "fit_seconds": 72.77128839999205,
+  "peak_allocated_bytes": 1303238656,
+  "peak_reserved_bytes": 1340080128,
+  "selected_checkpoint": {
+    "path": "A\\checkpoints\\epoch_002.pt",
+    "epoch": 2,
+    "sha256": "a190e96b035e74b374c651a48ca56178c1ce593666938e0825d63368556f51da"
+  },
+  "baseline_greedy_WER": 0.9567010309278351,
+  "TRAIN_WER": 0.8569588666183692,
+  "DEV_WER": 0.9463917525773196,
+  "streaming_DEV_WER": 0.9567010309278351,
+  "DEV_substitutions": 132,
+  "DEV_deletions": 327,
+  "DEV_insertions": 0,
+  "DEV_exact": 0,
+  "promising_for_C": false,
+  "old_classes": 2287,
+  "new_classes": 0,
+  "production_promoted": false,
+  "TEST_used": false
+}

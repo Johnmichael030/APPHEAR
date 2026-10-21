@@ -1,0 +1,577 @@
+sample_id,policy,reference,hypothesis,nohand_frames,substitutions,deletions,insertions,reference_tokens
+asllrp3_48507e7eb82da9b8,continuous_training_features_greedy,PEOPLE IX-1p 1p-MEET+++:i/j/k/l PAST+NIGHT WOW (L-X)INTERESTING,IX-1p 1p-MEET+++:i/j/k/l,15,0,4,0,6
+asllrp3_48507e7eb82da9b8,current_nohand_flush,PEOPLE IX-1p 1p-MEET+++:i/j/k/l PAST+NIGHT WOW (L-X)INTERESTING,,15,0,6,0,6
+asllrp3_48507e7eb82da9b8,nohand_discard_fix,PEOPLE IX-1p 1p-MEET+++:i/j/k/l PAST+NIGHT WOW (L-X)INTERESTING,,15,0,6,0,6
+asllrp3_12c3a93500af51aa,continuous_training_features_greedy,"PAST+NIGHT (5)ACCIDENT PCL:5\long line of cars\"""" (1h)WOW/AWFUL","IX-1p FAMILY PCL:5\long line of cars\""""",12,2,1,0,4
+asllrp3_12c3a93500af51aa,current_nohand_flush,"PAST+NIGHT (5)ACCIDENT PCL:5\long line of cars\"""" (1h)WOW/AWFUL",IX-2p HAPPEN IX-1p IX-1p,12,4,0,0,4
+asllrp3_12c3a93500af51aa,nohand_discard_fix,"PAST+NIGHT (5)ACCIDENT PCL:5\long line of cars\"""" (1h)WOW/AWFUL",IX-2p HAPPEN IX-1p,12,3,1,0,4
+asllrp3_1399c3f7e54b60cf,continuous_training_features_greedy,"IX-3p:i BOOK READ+ REALLY (1h)GOOD/THANK-YOU #NO LOUSY (1h)5\wave no\"""" IX-1p NOT LIKE","IX-1p NOT 5\hands off\"""" QMwg",17,1,8,1,11
+asllrp3_1399c3f7e54b60cf,current_nohand_flush,"IX-3p:i BOOK READ+ REALLY (1h)GOOD/THANK-YOU #NO LOUSY (1h)5\wave no\"""" IX-1p NOT LIKE","IX-1p HAPPEN IX-1p IX-1p IX-1p IX-1p IX-1p 5\hands off\"""" IX-1p IX-1p IX-1p IX-1p",17,10,0,1,11
+asllrp3_1399c3f7e54b60cf,nohand_discard_fix,"IX-3p:i BOOK READ+ REALLY (1h)GOOD/THANK-YOU #NO LOUSY (1h)5\wave no\"""" IX-1p NOT LIKE",IX-1p HAPPEN IX-1p IX-1p IX-1p IX-1p IX-1p,17,6,4,0,11
+asllrp3_0541021d00521482,continuous_training_features_greedy,IX-1p LIKE IX-3p:i CHOCOLATE fs-CEREAL BUT NONE/NOTHING (25)WHY part:indef,"IX-1p CHOCOLATE (1h)5\wave no\"""" NONE/NOTHING",6,1,5,0,9
+asllrp3_0541021d00521482,current_nohand_flush,IX-1p LIKE IX-3p:i CHOCOLATE fs-CEREAL BUT NONE/NOTHING (25)WHY part:indef,IX-1p IX-1p #NO+ NONE/NOTHING IX-1p,6,3,4,0,9
+asllrp3_0541021d00521482,nohand_discard_fix,IX-1p LIKE IX-3p:i CHOCOLATE fs-CEREAL BUT NONE/NOTHING (25)WHY part:indef,IX-1p #NO+,6,1,7,0,9
+asllrp3_2debd9737dec3941,continuous_training_features_greedy,RAIN++ (1h)WOW/AWFUL,IX-1p (1h)WOW/AWFUL,2,1,0,0,2
+asllrp3_2debd9737dec3941,current_nohand_flush,RAIN++ (1h)WOW/AWFUL,HAPPEN (1h)WOW/AWFUL,2,1,0,0,2
+asllrp3_2debd9737dec3941,nohand_discard_fix,RAIN++ (1h)WOW/AWFUL,HAPPEN (1h)WOW/AWFUL,2,1,0,0,2
+asllrp3_c4c7d7b223717d24,continuous_training_features_greedy,UNDERSTAND LEARN+++ AND USE THAT (2h)alt.UNDERSTAND IX-1p USE MANY DEAF PEOPLE POSS-3p-pl-arc EXPERIENCE THROUGH STORY+,,31,0,15,0,15
+asllrp3_c4c7d7b223717d24,current_nohand_flush,UNDERSTAND LEARN+++ AND USE THAT (2h)alt.UNDERSTAND IX-1p USE MANY DEAF PEOPLE POSS-3p-pl-arc EXPERIENCE THROUGH STORY+,IX-2p SHOW HAPPEN (1h)FAST_3,31,4,11,0,15
+asllrp3_c4c7d7b223717d24,nohand_discard_fix,UNDERSTAND LEARN+++ AND USE THAT (2h)alt.UNDERSTAND IX-1p USE MANY DEAF PEOPLE POSS-3p-pl-arc EXPERIENCE THROUGH STORY+,IX-2p HAPPEN,31,2,13,0,15
+asllrp3_0eb94e195eb6841e,continuous_training_features_greedy,WOW BRACELET PRICE HOW-MANY+ THREE THOUSAND,IX-1p,4,1,5,0,6
+asllrp3_0eb94e195eb6841e,current_nohand_flush,WOW BRACELET PRICE HOW-MANY+ THREE THOUSAND,IX-2p,4,1,5,0,6
+asllrp3_0eb94e195eb6841e,nohand_discard_fix,WOW BRACELET PRICE HOW-MANY+ THREE THOUSAND,IX-2p,4,1,5,0,6
+asllrp3_c65a7f06f4271f3f,continuous_training_features_greedy,PAST+ TAKE-BREAK IX-1p READY #DO HOMEWORK FROM-NOW-ON EMPTY-FROM-NOW-ON READY,IX-1p #DO,21,0,7,0,9
+asllrp3_c65a7f06f4271f3f,current_nohand_flush,PAST+ TAKE-BREAK IX-1p READY #DO HOMEWORK FROM-NOW-ON EMPTY-FROM-NOW-ON READY,IX-1p FINISH IX-1p IX-1p IX-1p,21,4,4,0,9
+asllrp3_c65a7f06f4271f3f,nohand_discard_fix,PAST+ TAKE-BREAK IX-1p READY #DO HOMEWORK FROM-NOW-ON EMPTY-FROM-NOW-ON READY,IX-1p FINISH IX-1p,21,2,6,0,9
+asllrp3_63277274438d7dd1,continuous_training_features_greedy,ns-fs-JACK IX-3p:i (1h)HAVE (1h)PAY/BUY QMwg,IX-1p QMwg,2,1,3,0,5
+asllrp3_63277274438d7dd1,current_nohand_flush,ns-fs-JACK IX-3p:i (1h)HAVE (1h)PAY/BUY QMwg,IX-1p IX-1p IX-1p,2,3,2,0,5
+asllrp3_63277274438d7dd1,nohand_discard_fix,ns-fs-JACK IX-3p:i (1h)HAVE (1h)PAY/BUY QMwg,IX-1p IX-1p IX-1p,2,3,2,0,5
+asllrp3_ade85023f1ed923f,continuous_training_features_greedy,BOY WANT NEW SHOE,IX-3p:i,8,1,3,0,4
+asllrp3_ade85023f1ed923f,current_nohand_flush,BOY WANT NEW SHOE,IX-3p:i FINISH,8,2,2,0,4
+asllrp3_ade85023f1ed923f,nohand_discard_fix,BOY WANT NEW SHOE,IX-3p:i FINISH,8,2,2,0,4
+asllrp3_ec3255952332e9eb,continuous_training_features_greedy,ns-FRANCE POSS-3p:i KING BALD NOT #NO IX-3p:i NONE/NOTHING KING NOW part:indef,IX-1p KING (1h)part:indef,14,2,8,0,11
+asllrp3_ec3255952332e9eb,current_nohand_flush,ns-FRANCE POSS-3p:i KING BALD NOT #NO IX-3p:i NONE/NOTHING KING NOW part:indef,IX-1p IX-1p IX-1p GO-OUT IX-1p GO-OUT IX-1p IX-1p IX-1p,14,9,2,0,11
+asllrp3_ec3255952332e9eb,nohand_discard_fix,ns-FRANCE POSS-3p:i KING BALD NOT #NO IX-3p:i NONE/NOTHING KING NOW part:indef,IX-1p IX-1p IX-1p IX-1p IX-1p IX-1p,14,6,5,0,11
+asllrp3_22f128ed48fe07d6,continuous_training_features_greedy,ns-fs-BILL ns-fs-ENNIS TELL GREAT STORY ABOUT fs-BUBBLES QUOTE/TOPIC fs-BUBBLES,IX-1p,14,1,8,0,9
+asllrp3_22f128ed48fe07d6,current_nohand_flush,ns-fs-BILL ns-fs-ENNIS TELL GREAT STORY ABOUT fs-BUBBLES QUOTE/TOPIC fs-BUBBLES,,14,0,9,0,9
+asllrp3_22f128ed48fe07d6,nohand_discard_fix,ns-fs-BILL ns-fs-ENNIS TELL GREAT STORY ABOUT fs-BUBBLES QUOTE/TOPIC fs-BUBBLES,,14,0,9,0,9
+asllrp3_ce2d9ec263768488,continuous_training_features_greedy,IF (5)MAN HAVE WIFE IX-3p:i LOVE IX-3p:j,DEPART LOVE,12,1,5,0,7
+asllrp3_ce2d9ec263768488,current_nohand_flush,IF (5)MAN HAVE WIFE IX-3p:i LOVE IX-3p:j,IX-2p,12,1,6,0,7
+asllrp3_ce2d9ec263768488,nohand_discard_fix,IF (5)MAN HAVE WIFE IX-3p:i LOVE IX-3p:j,IX-2p,12,1,6,0,7
+asllrp3_c29f483f94b9fac9,continuous_training_features_greedy,POSS-1p MOTHER+ IX-3p:i BECOME OLD (1h)part:indef,IX-1p (1h)part:indef,12,1,4,0,6
+asllrp3_c29f483f94b9fac9,current_nohand_flush,POSS-1p MOTHER+ IX-3p:i BECOME OLD (1h)part:indef,IX-1p IX-1p BROTHER IX-1p IX-1p,12,5,1,0,6
+asllrp3_c29f483f94b9fac9,nohand_discard_fix,POSS-1p MOTHER+ IX-3p:i BECOME OLD (1h)part:indef,IX-1p IX-1p IX-1p IX-1p,12,4,2,0,6
+asllrp3_ff38f935c4d84a4b,continuous_training_features_greedy,"IX-1p FUTURE SERVICE NUT BUTTER (2h)#ALL_2 LIKE A-OK 5\wave no\"""" IX-3p:i ns-fs-BETH 5\whoa\"""" ALLERGY CANNOT EAT NUT BUTTER 5\wave no\""""","IX-1p BREAK-DOWN CAR A-OK 5\wave no\"""" IX-3p:i FUTURE 5\wave no\"""" NONE/NOTHING",21,5,9,0,18
+asllrp3_ff38f935c4d84a4b,current_nohand_flush,"IX-1p FUTURE SERVICE NUT BUTTER (2h)#ALL_2 LIKE A-OK 5\wave no\"""" IX-3p:i ns-fs-BETH 5\whoa\"""" ALLERGY CANNOT EAT NUT BUTTER 5\wave no\""""",IX-1p IX-1p KING IX-1p IX-1p WHO IX-1p NONE/NOTHING IX-1p,21,8,9,0,18
+asllrp3_ff38f935c4d84a4b,nohand_discard_fix,"IX-1p FUTURE SERVICE NUT BUTTER (2h)#ALL_2 LIKE A-OK 5\wave no\"""" IX-3p:i ns-fs-BETH 5\whoa\"""" ALLERGY CANNOT EAT NUT BUTTER 5\wave no\""""",IX-1p IX-1p KING IX-1p WHO IX-1p IX-1p,21,6,11,0,18
+asllrp3_6aef3747b689f5c0,continuous_training_features_greedy,MOVIE IX-3p:i QUOTE/TOPIC fs-ELECTION IX-3p:i STRANGE BUT FUNNY part:indef,IX-3p:i fs-ELECTION,9,0,7,0,9
+asllrp3_6aef3747b689f5c0,current_nohand_flush,MOVIE IX-3p:i QUOTE/TOPIC fs-ELECTION IX-3p:i STRANGE BUT FUNNY part:indef,IX-3p:i WANT,9,1,7,0,9
+asllrp3_6aef3747b689f5c0,nohand_discard_fix,MOVIE IX-3p:i QUOTE/TOPIC fs-ELECTION IX-3p:i STRANGE BUT FUNNY part:indef,IX-3p:i WANT,9,1,7,0,9
+asllrp3_c5d3dda8e2264920,continuous_training_features_greedy,IF IX-1p STUDY FUTURE FAIL,IX-1p IX-1p,15,1,3,0,5
+asllrp3_c5d3dda8e2264920,current_nohand_flush,IF IX-1p STUDY FUTURE FAIL,IX-1p IX-1p IX-1p #WHEN IX-1p,15,4,0,0,5
+asllrp3_c5d3dda8e2264920,nohand_discard_fix,IF IX-1p STUDY FUTURE FAIL,IX-1p IX-1p IX-1p IX-1p,15,3,1,0,5
+asllrp3_0ad9c994086877b1,continuous_training_features_greedy,"DCL:B\pathway of sign language\"""" (2h)alt.SEE fs-TACTILE fs-ORIENTATION DCL:B\pathway of orientation\"""" PARALLEL",,15,0,6,0,6
+asllrp3_0ad9c994086877b1,current_nohand_flush,"DCL:B\pathway of sign language\"""" (2h)alt.SEE fs-TACTILE fs-ORIENTATION DCL:B\pathway of orientation\"""" PARALLEL",WHO HAPPEN,15,2,4,0,6
+asllrp3_0ad9c994086877b1,nohand_discard_fix,"DCL:B\pathway of sign language\"""" (2h)alt.SEE fs-TACTILE fs-ORIENTATION DCL:B\pathway of orientation\"""" PARALLEL",WHO,15,1,5,0,6
+asllrp3_319b954fbeb29b40,continuous_training_features_greedy,"FAMILY TAKE-UP DOG DCL:crvd-B\small puppies\""""",FAMILY DOG WORK+,6,1,1,0,4
+asllrp3_319b954fbeb29b40,current_nohand_flush,"FAMILY TAKE-UP DOG DCL:crvd-B\small puppies\""""",FAMILY IX-1p,6,1,2,0,4
+asllrp3_319b954fbeb29b40,nohand_discard_fix,"FAMILY TAKE-UP DOG DCL:crvd-B\small puppies\""""",FAMILY,6,0,3,0,4
+asllrp3_2409cb789bb3df57,continuous_training_features_greedy,POSS-1p+ OTHER FRIEND IX-3p-pl-arc JOIN IX-1p PAST+NIGHT,FRIEND IX-1p,14,0,5,0,7
+asllrp3_2409cb789bb3df57,current_nohand_flush,POSS-1p+ OTHER FRIEND IX-3p-pl-arc JOIN IX-1p PAST+NIGHT,IX-1p IX-1p HAPPEN IX-1p,14,3,3,0,7
+asllrp3_2409cb789bb3df57,nohand_discard_fix,POSS-1p+ OTHER FRIEND IX-3p-pl-arc JOIN IX-1p PAST+NIGHT,IX-1p,14,0,6,0,7
+asllrp3_3a7f7adbe30febb6,continuous_training_features_greedy,IX-1p READ+ IX-3p:i ARTICLE WRITE_2 FOR ns-BOSTON fs-GLOBE IX-3p:i IX-1p THINK WONDERFUL,"IX-1p POSS-3p:i (1h)5\wave no\""""",18,2,9,0,12
+asllrp3_3a7f7adbe30febb6,current_nohand_flush,IX-1p READ+ IX-3p:i ARTICLE WRITE_2 FOR ns-BOSTON fs-GLOBE IX-3p:i IX-1p THINK WONDERFUL,IX-1p IX-1p TEACH+AGENT,18,1,9,0,12
+asllrp3_3a7f7adbe30febb6,nohand_discard_fix,IX-1p READ+ IX-3p:i ARTICLE WRITE_2 FOR ns-BOSTON fs-GLOBE IX-3p:i IX-1p THINK WONDERFUL,IX-1p IX-1p TEACH+AGENT,18,1,9,0,12
+asllrp3_a1653acfbad12211,continuous_training_features_greedy,"IX-3p:i CAR NOT BREAK-DOWN 5\wave no\"""" IX-3p:j fs-TRUCK BREAK-DOWN",IX-1p BREAK-DOWN ns-fs-JOHN,20,2,5,0,8
+asllrp3_a1653acfbad12211,current_nohand_flush,"IX-3p:i CAR NOT BREAK-DOWN 5\wave no\"""" IX-3p:j fs-TRUCK BREAK-DOWN",IX-1p ns-fs-JOHN IX-1p IX-1p,20,4,4,0,8
+asllrp3_a1653acfbad12211,nohand_discard_fix,"IX-3p:i CAR NOT BREAK-DOWN 5\wave no\"""" IX-3p:j fs-TRUCK BREAK-DOWN",ns-fs-JOHN,20,1,7,0,8
+asllrp3_2a5c52b6034defde,continuous_training_features_greedy,IX-1p CANNOT BELIEVE RAIN NONE/NOTHING IX-1p SURPRISE part:indef,IX-1p NONE/NOTHING HOME,4,1,5,0,8
+asllrp3_2a5c52b6034defde,current_nohand_flush,IX-1p CANNOT BELIEVE RAIN NONE/NOTHING IX-1p SURPRISE part:indef,IX-1p HAPPEN HAPPEN BOX/ROOM,4,3,4,0,8
+asllrp3_2a5c52b6034defde,nohand_discard_fix,IX-1p CANNOT BELIEVE RAIN NONE/NOTHING IX-1p SURPRISE part:indef,IX-1p HAPPEN HAPPEN BOX/ROOM,4,3,4,0,8
+asllrp3_4cd6c89bbc914ba2,continuous_training_features_greedy,"MORE LOUD DCL:crvd-5\noises in the air\"""" MORE A-LEVEL-BELOW fs-ROWDY A-LEVEL-BELOW MORE QUIET MORE POLITE A-LEVEL-ABOVE",HOW fs-ORIENTATION,15,2,10,0,12
+asllrp3_4cd6c89bbc914ba2,current_nohand_flush,"MORE LOUD DCL:crvd-5\noises in the air\"""" MORE A-LEVEL-BELOW fs-ROWDY A-LEVEL-BELOW MORE QUIET MORE POLITE A-LEVEL-ABOVE",HOW (1h)HAVE PEOPLE DOWN,15,4,8,0,12
+asllrp3_4cd6c89bbc914ba2,nohand_discard_fix,"MORE LOUD DCL:crvd-5\noises in the air\"""" MORE A-LEVEL-BELOW fs-ROWDY A-LEVEL-BELOW MORE QUIET MORE POLITE A-LEVEL-ABOVE",HOW (1h)HAVE PEOPLE DOWN,15,4,8,0,12
+asllrp3_5aaeefe23c950906,continuous_training_features_greedy,PLAY FRISBEE FUN,FUN,10,0,2,0,3
+asllrp3_5aaeefe23c950906,current_nohand_flush,PLAY FRISBEE FUN,,10,0,3,0,3
+asllrp3_5aaeefe23c950906,nohand_discard_fix,PLAY FRISBEE FUN,,10,0,3,0,3
+asllrp3_cfbdab19659683e8,continuous_training_features_greedy,IX-1p HAVE APPOINTMENT (1h)NOW+AFTERNOON_2 WITH (crvd-5)POSS-1p TEACH+AGENT,IX-1p,18,0,6,0,7
+asllrp3_cfbdab19659683e8,current_nohand_flush,IX-1p HAVE APPOINTMENT (1h)NOW+AFTERNOON_2 WITH (crvd-5)POSS-1p TEACH+AGENT,IX-1p IX-2p IX-1p IX-1p,18,3,3,0,7
+asllrp3_cfbdab19659683e8,nohand_discard_fix,IX-1p HAVE APPOINTMENT (1h)NOW+AFTERNOON_2 WITH (crvd-5)POSS-1p TEACH+AGENT,IX-2p IX-1p,18,2,5,0,7
+asllrp3_14af4959f05ddedb,continuous_training_features_greedy,IX-3p:i ns-fs-JACK GO-OUT IX-3p:i SEE SOMETHING/ONE STRANGE QMwg (1h)part:indef,IX-1p BOY GO-OUT,3,2,6,0,9
+asllrp3_14af4959f05ddedb,current_nohand_flush,IX-3p:i ns-fs-JACK GO-OUT IX-3p:i SEE SOMETHING/ONE STRANGE QMwg (1h)part:indef,IX-1p BOY GO-OUT,3,2,6,0,9
+asllrp3_14af4959f05ddedb,nohand_discard_fix,IX-3p:i ns-fs-JACK GO-OUT IX-3p:i SEE SOMETHING/ONE STRANGE QMwg (1h)part:indef,IX-1p BOY GO-OUT,3,2,6,0,9
+asllrp3_cd82c4dcb530c966,continuous_training_features_greedy,STRANGE ns-fs-MARY TELL-1p ARRIVE HOME AROUND MIDNIGHT IX-1p LOOK:i THINK ARRIVE THREE_2 MORNING,IX-3p:i DRIVE LOOK:i LOOK:i THREE_2,18,3,8,0,13
+asllrp3_cd82c4dcb530c966,current_nohand_flush,STRANGE ns-fs-MARY TELL-1p ARRIVE HOME AROUND MIDNIGHT IX-1p LOOK:i THINK ARRIVE THREE_2 MORNING,ns-fs-MARY LIKE IX-3p:i IX-1p,18,2,9,0,13
+asllrp3_cd82c4dcb530c966,nohand_discard_fix,STRANGE ns-fs-MARY TELL-1p ARRIVE HOME AROUND MIDNIGHT IX-1p LOOK:i THINK ARRIVE THREE_2 MORNING,ns-fs-MARY LIKE IX-3p:i IX-1p,18,2,9,0,13
+asllrp3_f3cab6ef55838e2c,continuous_training_features_greedy,GO-OUT NOT SNOW SCHOOL NORMAL NOT CANCEL/CRITICIZE,NOT SNOW SCHOOL CANCEL/CRITICIZE,14,0,3,0,7
+asllrp3_f3cab6ef55838e2c,current_nohand_flush,GO-OUT NOT SNOW SCHOOL NORMAL NOT CANCEL/CRITICIZE,IX-1p GO-OUT IX-1p IX-1p,14,4,3,0,7
+asllrp3_f3cab6ef55838e2c,nohand_discard_fix,GO-OUT NOT SNOW SCHOOL NORMAL NOT CANCEL/CRITICIZE,IX-1p GO-OUT IX-1p,14,3,4,0,7
+asllrp3_fbdd7dab8ad6758c,continuous_training_features_greedy,"(2h)5\wow\"""" DIFFERENT+ AMONG_2",HOW,14,1,2,0,3
+asllrp3_fbdd7dab8ad6758c,current_nohand_flush,"(2h)5\wow\"""" DIFFERENT+ AMONG_2",HOW IX-1p,14,2,1,0,3
+asllrp3_fbdd7dab8ad6758c,nohand_discard_fix,"(2h)5\wow\"""" DIFFERENT+ AMONG_2",,14,0,3,0,3
+asllrp3_0834f3a8c0236d70,continuous_training_features_greedy,NOW+ (5)WEATHER BEAUTIFUL,(5)WEATHER,1,0,2,0,3
+asllrp3_0834f3a8c0236d70,current_nohand_flush,NOW+ (5)WEATHER BEAUTIFUL,,1,0,3,0,3
+asllrp3_0834f3a8c0236d70,nohand_discard_fix,NOW+ (5)WEATHER BEAUTIFUL,,1,0,3,0,3
+asllrp3_c7ac64849a56d97b,continuous_training_features_greedy,IX-1p KNOW-THAT IX-3p:i MONSTER HOUSE IX-1p SUFFER ENTER fs-AT POSS-1p #OWN fs-RISK,IX-1p GROUP/TOGETHER,28,1,10,0,12
+asllrp3_c7ac64849a56d97b,current_nohand_flush,IX-1p KNOW-THAT IX-3p:i MONSTER HOUSE IX-1p SUFFER ENTER fs-AT POSS-1p #OWN fs-RISK,IX-1p GROUP/TOGETHER IX-1p IX-1p IX-1p,28,3,7,0,12
+asllrp3_c7ac64849a56d97b,nohand_discard_fix,IX-1p KNOW-THAT IX-3p:i MONSTER HOUSE IX-1p SUFFER ENTER fs-AT POSS-1p #OWN fs-RISK,IX-1p GROUP/TOGETHER IX-1p,28,1,9,0,12
+asllrp3_825f37e65770a200,continuous_training_features_greedy,POSS-2p ROOMMATE NAB PAST+NIGHT #NO++ IX-1p BREAKFAST WITH (1h)NOW+MORNING FINE+,IX-1p WHO FUTURE,22,2,7,0,10
+asllrp3_825f37e65770a200,current_nohand_flush,POSS-2p ROOMMATE NAB PAST+NIGHT #NO++ IX-1p BREAKFAST WITH (1h)NOW+MORNING FINE+,IX-1p IX-1p IX-3p:i IX-1p IX-2p IX-1p IX-1p IX-2p IX-1p IX-1p,22,9,0,0,10
+asllrp3_825f37e65770a200,nohand_discard_fix,POSS-2p ROOMMATE NAB PAST+NIGHT #NO++ IX-1p BREAKFAST WITH (1h)NOW+MORNING FINE+,IX-1p IX-1p IX-3p:i IX-1p IX-2p IX-1p IX-1p,22,6,3,0,10
+asllrp3_8aaceb618440922e,continuous_training_features_greedy,WHO IX-3p:i LIKE IX-3p:j,WHO LIKE LIKE,9,1,1,0,4
+asllrp3_8aaceb618440922e,current_nohand_flush,WHO IX-3p:i LIKE IX-3p:j,ns-fs-MARY SORRY,9,2,2,0,4
+asllrp3_8aaceb618440922e,nohand_discard_fix,WHO IX-3p:i LIKE IX-3p:j,ns-fs-MARY,9,1,3,0,4
+asllrp3_762917348e94c7a1,continuous_training_features_greedy,"BOX/ROOM SMALL DCL\small box\""""","BOX/ROOM SMALL DCL\small box\""""",6,0,0,0,3
+asllrp3_762917348e94c7a1,current_nohand_flush,"BOX/ROOM SMALL DCL\small box\""""",BOX/ROOM IX-1p IX-1p IX-1p,6,2,0,1,3
+asllrp3_762917348e94c7a1,nohand_discard_fix,"BOX/ROOM SMALL DCL\small box\""""",BOX/ROOM IX-1p IX-1p IX-1p,6,2,0,1,3
+asllrp3_ee72981295efbe25,continuous_training_features_greedy,"APPLAUSE+ IX-2p-pl-arc 5\pause\"""" THANK-YOU+",IX-2p-pl-arc,7,0,3,0,4
+asllrp3_ee72981295efbe25,current_nohand_flush,"APPLAUSE+ IX-2p-pl-arc 5\pause\"""" THANK-YOU+",HOW,7,1,3,0,4
+asllrp3_ee72981295efbe25,nohand_discard_fix,"APPLAUSE+ IX-2p-pl-arc 5\pause\"""" THANK-YOU+",HOW,7,1,3,0,4
+asllrp3_6322defaccbe4639,continuous_training_features_greedy,IX-2p (1h)VOMIT/HATE VIDEO-GAME IX-loc:i (25)WHY IX-loc:i,,7,0,6,0,6
+asllrp3_6322defaccbe4639,current_nohand_flush,IX-2p (1h)VOMIT/HATE VIDEO-GAME IX-loc:i (25)WHY IX-loc:i,IX-2p IX-2p,7,1,4,0,6
+asllrp3_6322defaccbe4639,nohand_discard_fix,IX-2p (1h)VOMIT/HATE VIDEO-GAME IX-loc:i (25)WHY IX-loc:i,IX-2p,7,0,5,0,6
+asllrp3_45e79817cad2acc2,continuous_training_features_greedy,IX-1p LOVE ACTION MOVIE NOT BORE fs-DRAMA (1h)FORGET-IT,IX-1p LOVE ns-BOSTON,23,1,5,0,8
+asllrp3_45e79817cad2acc2,current_nohand_flush,IX-1p LOVE ACTION MOVIE NOT BORE fs-DRAMA (1h)FORGET-IT,IX-1p IX-1p IX-1p IX-1p ns-BOSTON IX-1p,23,5,2,0,8
+asllrp3_45e79817cad2acc2,nohand_discard_fix,IX-1p LOVE ACTION MOVIE NOT BORE fs-DRAMA (1h)FORGET-IT,IX-1p IX-1p IX-1p,23,2,5,0,8
+asllrp3_34dc1c38209e6cdc,continuous_training_features_greedy,"ATTENTION-WAVE PAST+NIGHT IX-3p:i ns-fs-JOHN-STEWART INTERVIEW ns-fs-SARAH-JESSICA-PARKER #NO 5\wave no\"""" NOT (1h)INTERVIEW IX-3p:i (1h)INTERVIEW ns-fs-SARAH-PALIN",IX-1p ns-fs-JOHN-STEWART ns-fs-JOHN-STEWART NONE/NOTHING QMwg IX-3p:i ANYWAY/NOT-MATTER+ ns-BOSTON QMwg,27,8,4,0,13
+asllrp3_34dc1c38209e6cdc,current_nohand_flush,"ATTENTION-WAVE PAST+NIGHT IX-3p:i ns-fs-JOHN-STEWART INTERVIEW ns-fs-SARAH-JESSICA-PARKER #NO 5\wave no\"""" NOT (1h)INTERVIEW IX-3p:i (1h)INTERVIEW ns-fs-SARAH-PALIN",IX-1p GO-OUT IX-1p IX-3p:i WHO MEET MEET IX-3p:i IX-1p IX-1p IX-1p IX-1p IX-1p IX-1p IX-1p,27,12,0,2,13
+asllrp3_34dc1c38209e6cdc,nohand_discard_fix,"ATTENTION-WAVE PAST+NIGHT IX-3p:i ns-fs-JOHN-STEWART INTERVIEW ns-fs-SARAH-JESSICA-PARKER #NO 5\wave no\"""" NOT (1h)INTERVIEW IX-3p:i (1h)INTERVIEW ns-fs-SARAH-PALIN",IX-1p IX-1p WHO MEET IX-3p:i IX-1p IX-1p IX-1p IX-1p IX-1p,27,10,3,0,13
+asllrp3_ef64ee1fb0d71a1f,continuous_training_features_greedy,WEATHER LOUSY NOW++,WEATHER NOW++,7,0,1,0,3
+asllrp3_ef64ee1fb0d71a1f,current_nohand_flush,WEATHER LOUSY NOW++,WEATHER IX-1p IX-2p ns-fs-JOHN,7,2,0,1,3
+asllrp3_ef64ee1fb0d71a1f,nohand_discard_fix,WEATHER LOUSY NOW++,WEATHER IX-1p IX-2p,7,2,0,0,3
+asllrp3_98df3a2db70b629b,continuous_training_features_greedy,IF+ SNOW NONE/NOTHING IX-1p TRIP CANCEL/CRITICIZE,IX-1p NONE/NOTHING IX-1p,12,1,3,0,6
+asllrp3_98df3a2db70b629b,current_nohand_flush,IF+ SNOW NONE/NOTHING IX-1p TRIP CANCEL/CRITICIZE,IX-1p WHO NONE/NOTHING GO-OUT HAPPEN IX-2p,12,5,0,0,6
+asllrp3_98df3a2db70b629b,nohand_discard_fix,IF+ SNOW NONE/NOTHING IX-1p TRIP CANCEL/CRITICIZE,WHO GO-OUT HAPPEN,12,3,3,0,6
+asllrp3_89f54b6f4f4699cc,continuous_training_features_greedy,WHEN MEET PERSON WHO NOT USE_2 VOICE (2h)alt.LOOK-OVER CANNOT SET-UP UNDERSTAND WHO IX-honorific:i IDENTIFY IF part:indef,,23,0,16,0,16
+asllrp3_89f54b6f4f4699cc,current_nohand_flush,WHEN MEET PERSON WHO NOT USE_2 VOICE (2h)alt.LOOK-OVER CANNOT SET-UP UNDERSTAND WHO IX-honorific:i IDENTIFY IF part:indef,HOW HOW PEOPLE HOW HOW IX-2p HOW,23,7,9,0,16
+asllrp3_89f54b6f4f4699cc,nohand_discard_fix,WHEN MEET PERSON WHO NOT USE_2 VOICE (2h)alt.LOOK-OVER CANNOT SET-UP UNDERSTAND WHO IX-honorific:i IDENTIFY IF part:indef,HOW HOW HOW IX-2p HOW,23,5,11,0,16
+asllrp3_1275fa40adfbf3d6,continuous_training_features_greedy,IF STUDENT IX-3p:i HEAR/LISTEN TEACH+AGENT FUTURE LEARN SOMETHING/ONE,,4,0,8,0,8
+asllrp3_1275fa40adfbf3d6,current_nohand_flush,IF STUDENT IX-3p:i HEAR/LISTEN TEACH+AGENT FUTURE LEARN SOMETHING/ONE,,4,0,8,0,8
+asllrp3_1275fa40adfbf3d6,nohand_discard_fix,IF STUDENT IX-3p:i HEAR/LISTEN TEACH+AGENT FUTURE LEARN SOMETHING/ONE,,4,0,8,0,8
+asllrp3_d0aef1fa333a927d,continuous_training_features_greedy,PICK/CHOOSE-1p GROUP/TOGETHER fs-CLUB JOIN (2h)WOW HONOR,IX-1p HONOR,28,1,4,0,6
+asllrp3_d0aef1fa333a927d,current_nohand_flush,PICK/CHOOSE-1p GROUP/TOGETHER fs-CLUB JOIN (2h)WOW HONOR,IX-1p IX-1p,28,2,4,0,6
+asllrp3_d0aef1fa333a927d,nohand_discard_fix,PICK/CHOOSE-1p GROUP/TOGETHER fs-CLUB JOIN (2h)WOW HONOR,IX-1p IX-1p,28,2,4,0,6
+asllrp3_8385bc6456b2ade2,continuous_training_features_greedy,GAME FINISH BEFORE_2 SIX QMwg (1h)part:indef,IX-1p RAIN+ SIX,0,2,3,0,6
+asllrp3_8385bc6456b2ade2,current_nohand_flush,GAME FINISH BEFORE_2 SIX QMwg (1h)part:indef,IX-1p RAIN+ SIX,0,2,3,0,6
+asllrp3_8385bc6456b2ade2,nohand_discard_fix,GAME FINISH BEFORE_2 SIX QMwg (1h)part:indef,IX-1p RAIN+ SIX,0,2,3,0,6
+asllrp3_3f560c3ba34572ba,continuous_training_features_greedy,IX-3p:i ns-fs-MARY CAR BREAK-DOWN FINE+ IX-3p:j ns-fs-JOHN DRIVE IX-3p:i TO/UNTIL WORK,IX-3p:i,20,0,10,0,11
+asllrp3_3f560c3ba34572ba,current_nohand_flush,IX-3p:i ns-fs-MARY CAR BREAK-DOWN FINE+ IX-3p:j ns-fs-JOHN DRIVE IX-3p:i TO/UNTIL WORK,ns-fs-JOHN ns-fs-JOHN IX-1p IX-1p IX-1p IX-1p IX-1p,20,7,4,0,11
+asllrp3_3f560c3ba34572ba,nohand_discard_fix,IX-3p:i ns-fs-MARY CAR BREAK-DOWN FINE+ IX-3p:j ns-fs-JOHN DRIVE IX-3p:i TO/UNTIL WORK,ns-fs-JOHN IX-1p IX-1p IX-1p IX-1p IX-1p,20,6,5,0,11
+asllrp3_b93af72c82bd2ccb,continuous_training_features_greedy,NAME+ CITY/COMMUNITY_3 ns-fs-BU part:indef ns-BOSTON part:indef ns-fs-BUSTUN ns-fs-BOSTON,IX-1p BUY ns-fs-BU ns-fs-BU NONE/NOTHING ns-fs-BOSTON,7,4,2,0,8
+asllrp3_b93af72c82bd2ccb,current_nohand_flush,NAME+ CITY/COMMUNITY_3 ns-fs-BU part:indef ns-BOSTON part:indef ns-fs-BUSTUN ns-fs-BOSTON,IX-1p HAPPEN RAIN+ ns-fs-BU ns-fs-BU,7,5,3,0,8
+asllrp3_b93af72c82bd2ccb,nohand_discard_fix,NAME+ CITY/COMMUNITY_3 ns-fs-BU part:indef ns-BOSTON part:indef ns-fs-BUSTUN ns-fs-BOSTON,IX-1p HAPPEN RAIN+ ns-fs-BU ns-fs-BU,7,5,3,0,8
+asllrp3_5f92ff4fac376d4e,continuous_training_features_greedy,FOR SHOW part:indef fs-GRUNT POP-UP+ HAPPEN+ FREQUENTLY IN PING-PONG/TENNIS (P)PROFESSION PING-PONG/TENNIS REALLY SHOW part:indef,,29,0,14,0,14
+asllrp3_5f92ff4fac376d4e,current_nohand_flush,FOR SHOW part:indef fs-GRUNT POP-UP+ HAPPEN+ FREQUENTLY IN PING-PONG/TENNIS (P)PROFESSION PING-PONG/TENNIS REALLY SHOW part:indef,HOW WHO IX-1p HOW,29,4,10,0,14
+asllrp3_5f92ff4fac376d4e,nohand_discard_fix,FOR SHOW part:indef fs-GRUNT POP-UP+ HAPPEN+ FREQUENTLY IN PING-PONG/TENNIS (P)PROFESSION PING-PONG/TENNIS REALLY SHOW part:indef,HOW WHO IX-1p,29,3,11,0,14
+asllrp3_9b4d03f54528f13e,continuous_training_features_greedy,IX-1p+ NOT STUDY IX-1p GUARANTEE FAIL IX-1p,IX-1p (1h)VOMIT/HATE (1h)part:indef,10,2,4,0,7
+asllrp3_9b4d03f54528f13e,current_nohand_flush,IX-1p+ NOT STUDY IX-1p GUARANTEE FAIL IX-1p,IX-1p (1h)VOMIT/HATE,10,1,5,0,7
+asllrp3_9b4d03f54528f13e,nohand_discard_fix,IX-1p+ NOT STUDY IX-1p GUARANTEE FAIL IX-1p,IX-1p (1h)VOMIT/HATE,10,1,5,0,7
+asllrp3_d6a2d1d380e3f30f,continuous_training_features_greedy,"PAST+ALL-NIGHT IX-1p #DO HOMEWORK 5\wow\"""" A-LOT",IX-1p IX-3p:i NONE/NOTHING,20,2,3,0,6
+asllrp3_d6a2d1d380e3f30f,current_nohand_flush,"PAST+ALL-NIGHT IX-1p #DO HOMEWORK 5\wow\"""" A-LOT",HAPPEN IX-1p PAST+NIGHT IX-1p IX-3p:i IX-1p IX-1p IX-1p,20,5,0,2,6
+asllrp3_d6a2d1d380e3f30f,nohand_discard_fix,"PAST+ALL-NIGHT IX-1p #DO HOMEWORK 5\wow\"""" A-LOT",IX-3p:i IX-1p IX-1p IX-1p,20,3,2,0,6
+asllrp3_364b4f0501df9946,continuous_training_features_greedy,GAME FINISH SIX QMwg,IX-1p FINISH SIX QMwg,4,1,0,0,4
+asllrp3_364b4f0501df9946,current_nohand_flush,GAME FINISH SIX QMwg,IX-1p FINISH IX-1p,4,2,1,0,4
+asllrp3_364b4f0501df9946,nohand_discard_fix,GAME FINISH SIX QMwg,IX-1p FINISH IX-1p,4,2,1,0,4
+asllrp3_4532e41c4bc127b8,continuous_training_features_greedy,HOT fs-DAY GO-OUT+ IX-3p:i ns-fs-JOHN GO LIBRARY READ MAGAZINE FINEwg #AC COOL,IX-loc:i IX-3p:i COOL,14,1,9,0,12
+asllrp3_4532e41c4bc127b8,current_nohand_flush,HOT fs-DAY GO-OUT+ IX-3p:i ns-fs-JOHN GO LIBRARY READ MAGAZINE FINEwg #AC COOL,WEATHER IX-loc:i IX-1p IX-3p:i IX-3p:i LOUSY,14,5,6,0,12
+asllrp3_4532e41c4bc127b8,nohand_discard_fix,HOT fs-DAY GO-OUT+ IX-3p:i ns-fs-JOHN GO LIBRARY READ MAGAZINE FINEwg #AC COOL,WEATHER IX-loc:i IX-1p IX-3p:i LOUSY,14,4,7,0,12
+asllrp3_72536395864e1698,continuous_training_features_greedy,IX-1p NOT THRILL/WHAT'S-UP #IF HAVE PINEAPPLE fs-CREAM CHEESE part:indef,"IX-1p (1h)5\wave no\"""" IX-1p PINEAPPLE fs-CREAM CHEESE part:indef",12,2,2,0,9
+asllrp3_72536395864e1698,current_nohand_flush,IX-1p NOT THRILL/WHAT'S-UP #IF HAVE PINEAPPLE fs-CREAM CHEESE part:indef,IX-1p HAPPEN IX-1p IX-1p IX-1p,12,4,4,0,9
+asllrp3_72536395864e1698,nohand_discard_fix,IX-1p NOT THRILL/WHAT'S-UP #IF HAVE PINEAPPLE fs-CREAM CHEESE part:indef,IX-1p IX-1p IX-1p,12,2,6,0,9
+asllrp3_a43875801a6de413,continuous_training_features_greedy,OFTEN NOT REASON A-LOT NOISE IX-3p:j MAKE #SO NOT ALSO QUIET ALSO IX-3p-pl-arc THINK,,33,0,14,0,14
+asllrp3_a43875801a6de413,current_nohand_flush,OFTEN NOT REASON A-LOT NOISE IX-3p:j MAKE #SO NOT ALSO QUIET ALSO IX-3p-pl-arc THINK,IX-1p,33,1,13,0,14
+asllrp3_a43875801a6de413,nohand_discard_fix,OFTEN NOT REASON A-LOT NOISE IX-3p:j MAKE #SO NOT ALSO QUIET ALSO IX-3p-pl-arc THINK,IX-1p,33,1,13,0,14
+asllrp3_74b4ecc5d0b4e11a,continuous_training_features_greedy,"MOUSE/FICTION ESCAPE SCL:1\mouse scurries\"""" CAT SCL:crvd-V\cat chases mouse\"""" CHASE SCL:crvd-V\cat jumps up onto the table\"""" TABLE",INTERNET,14,1,7,0,8
+asllrp3_74b4ecc5d0b4e11a,current_nohand_flush,"MOUSE/FICTION ESCAPE SCL:1\mouse scurries\"""" CAT SCL:crvd-V\cat chases mouse\"""" CHASE SCL:crvd-V\cat jumps up onto the table\"""" TABLE",FRIEND,14,1,7,0,8
+asllrp3_74b4ecc5d0b4e11a,nohand_discard_fix,"MOUSE/FICTION ESCAPE SCL:1\mouse scurries\"""" CAT SCL:crvd-V\cat chases mouse\"""" CHASE SCL:crvd-V\cat jumps up onto the table\"""" TABLE",FRIEND,14,1,7,0,8
+asllrp3_4149383a424ebaf3,continuous_training_features_greedy,YESTERDAY ALL-DAY IX-1p WORK++,IX-1p ALL-DAY,17,1,2,0,4
+asllrp3_4149383a424ebaf3,current_nohand_flush,YESTERDAY ALL-DAY IX-1p WORK++,IX-1p IX-1p ns-fs-JOHN ns-fs-JOHN IX-2p,17,4,0,1,4
+asllrp3_4149383a424ebaf3,nohand_discard_fix,YESTERDAY ALL-DAY IX-1p WORK++,IX-1p IX-1p ns-fs-JOHN ns-fs-JOHN IX-2p,17,4,0,1,4
+asllrp3_f4b263588f0f9c5c,continuous_training_features_greedy,"TOMORROW SUNDAY_2 (1h)5\wave no\"""" NOW (H)THURSDAY MEAN TOMORROW FRIDAY+","IX-1p SUNDAY_2 (H)THURSDAY 5\wave no\""+"" (1h)5\wave no\"""" FRIDAY+",11,3,2,0,8
+asllrp3_f4b263588f0f9c5c,current_nohand_flush,"TOMORROW SUNDAY_2 (1h)5\wave no\"""" NOW (H)THURSDAY MEAN TOMORROW FRIDAY+",IX-1p SNOW HAPPEN IX-1p IX-1p IX-1p,11,6,2,0,8
+asllrp3_f4b263588f0f9c5c,nohand_discard_fix,"TOMORROW SUNDAY_2 (1h)5\wave no\"""" NOW (H)THURSDAY MEAN TOMORROW FRIDAY+",IX-1p SNOW HAPPEN IX-1p IX-1p IX-1p,11,6,2,0,8
+asllrp3_46c4e2c1e32722a9,continuous_training_features_greedy,IX-2p WANT GO-OUT BUY SHOE+ IX-2p,ns-fs-MARY WANT FINISH,6,2,3,0,6
+asllrp3_46c4e2c1e32722a9,current_nohand_flush,IX-2p WANT GO-OUT BUY SHOE+ IX-2p,IX-3p:i IX-2p IX-3p:i IX-1p,6,4,2,0,6
+asllrp3_46c4e2c1e32722a9,nohand_discard_fix,IX-2p WANT GO-OUT BUY SHOE+ IX-2p,IX-3p:i IX-2p IX-3p:i IX-1p,6,4,2,0,6
+asllrp3_38b01799105e1a01,continuous_training_features_greedy,#IF IX-1p STUDY FUTURE FAIL,IX-1p (1h)HAPPY+ IX-1p STUDY FUTURE,19,1,1,1,5
+asllrp3_38b01799105e1a01,current_nohand_flush,#IF IX-1p STUDY FUTURE FAIL,IX-1p IX-1p BOX/ROOM IX-1p IX-1p #WHEN,19,4,0,1,5
+asllrp3_38b01799105e1a01,nohand_discard_fix,#IF IX-1p STUDY FUTURE FAIL,IX-1p BOX/ROOM IX-1p IX-1p #WHEN,19,5,0,0,5
+asllrp3_6857624a0ce1fc03,continuous_training_features_greedy,"NONE/NOTHING VOICE 5\I don't know\"""" (2h)KNOW+NEG IDENTIFY (2h)alt.LOOK-OVER",,11,0,6,0,6
+asllrp3_6857624a0ce1fc03,current_nohand_flush,"NONE/NOTHING VOICE 5\I don't know\"""" (2h)KNOW+NEG IDENTIFY (2h)alt.LOOK-OVER",WHO,11,1,5,0,6
+asllrp3_6857624a0ce1fc03,nohand_discard_fix,"NONE/NOTHING VOICE 5\I don't know\"""" (2h)KNOW+NEG IDENTIFY (2h)alt.LOOK-OVER",WHO,11,1,5,0,6
+asllrp3_778c746caa87b34a,continuous_training_features_greedy,NOW+ ECONOMIC CRISIS NOW+,,6,0,4,0,4
+asllrp3_778c746caa87b34a,current_nohand_flush,NOW+ ECONOMIC CRISIS NOW+,,6,0,4,0,4
+asllrp3_778c746caa87b34a,nohand_discard_fix,NOW+ ECONOMIC CRISIS NOW+,,6,0,4,0,4
+asllrp3_87b589731049062a,continuous_training_features_greedy,"POSS-1p SISTER i:BLAME-1p IX-1p 5\exasperation\"""" IX-1p INNOCENT 5\exasperation\""""",IX-1p,19,0,7,0,8
+asllrp3_87b589731049062a,current_nohand_flush,"POSS-1p SISTER i:BLAME-1p IX-1p 5\exasperation\"""" IX-1p INNOCENT 5\exasperation\""""",IX-1p IX-1p IX-1p,19,1,5,0,8
+asllrp3_87b589731049062a,nohand_discard_fix,"POSS-1p SISTER i:BLAME-1p IX-1p 5\exasperation\"""" IX-1p INNOCENT 5\exasperation\""""",IX-1p,19,0,7,0,8
+asllrp3_e3a3d11a192b3046,continuous_training_features_greedy,"IX-2p FUTURE SEE IX-2p ns-fs-MARY IX-3p:j (P)PARTY NOT-MIND TELL:j j:CALL-BY-PHONE-1p (1h)part:indef #NO IX-1p DOUBT FUTURE GO-OUT IX-loc:k BUT #IF IX-1p SEE:j IX-2p IX-1p FUTURE TELL:i CALL-BY-PHONE:k 5\of course\""""",IX-1p ns-BOSTON WARM,23,2,24,0,27
+asllrp3_e3a3d11a192b3046,current_nohand_flush,"IX-2p FUTURE SEE IX-2p ns-fs-MARY IX-3p:j (P)PARTY NOT-MIND TELL:j j:CALL-BY-PHONE-1p (1h)part:indef #NO IX-1p DOUBT FUTURE GO-OUT IX-loc:k BUT #IF IX-1p SEE:j IX-2p IX-1p FUTURE TELL:i CALL-BY-PHONE:k 5\of course\""""",IX-1p IX-1p NOT IX-1p IX-1p IX-1p GO-OUT IX-1p IX-1p,23,5,18,0,27
+asllrp3_e3a3d11a192b3046,nohand_discard_fix,"IX-2p FUTURE SEE IX-2p ns-fs-MARY IX-3p:j (P)PARTY NOT-MIND TELL:j j:CALL-BY-PHONE-1p (1h)part:indef #NO IX-1p DOUBT FUTURE GO-OUT IX-loc:k BUT #IF IX-1p SEE:j IX-2p IX-1p FUTURE TELL:i CALL-BY-PHONE:k 5\of course\""""",IX-1p NOT IX-1p IX-1p GO-OUT,23,2,22,0,27
+asllrp3_d757be6afdab68ed,continuous_training_features_greedy,TOMORROW IX-2p GO-OUT LIBRARY INTERPRET QMwg,LIKE,5,1,5,0,6
+asllrp3_d757be6afdab68ed,current_nohand_flush,TOMORROW IX-2p GO-OUT LIBRARY INTERPRET QMwg,LIKE IX-3p:i IX-1p,5,3,3,0,6
+asllrp3_d757be6afdab68ed,nohand_discard_fix,TOMORROW IX-2p GO-OUT LIBRARY INTERPRET QMwg,LIKE IX-1p,5,2,4,0,6
+asllrp3_def1ed2a46805c67,continuous_training_features_greedy,"ns-fs-JOHN READ BOOK (1h)5\wave no\"""" IX-3p:i ns-fs-JOHN NEVER START BOOK","IX-1p NOT (1h)5\wave no\"""" #NO+ #NO+ FUTURE",19,5,3,0,9
+asllrp3_def1ed2a46805c67,current_nohand_flush,"ns-fs-JOHN READ BOOK (1h)5\wave no\"""" IX-3p:i ns-fs-JOHN NEVER START BOOK",IX-1p IX-1p GO-OUT HAPPEN,19,4,5,0,9
+asllrp3_def1ed2a46805c67,nohand_discard_fix,"ns-fs-JOHN READ BOOK (1h)5\wave no\"""" IX-3p:i ns-fs-JOHN NEVER START BOOK",IX-1p IX-1p HAPPEN,19,3,6,0,9
+asllrp3_89c0fa4a2b7f4799,continuous_training_features_greedy,"SOME REQUIRE SLOW DCL:flat-O\rip paper slowly\"""" SOME REQUIRE FAST_3 DCL:flat-O\rip paper quickly\""""",,20,0,8,0,8
+asllrp3_89c0fa4a2b7f4799,current_nohand_flush,"SOME REQUIRE SLOW DCL:flat-O\rip paper slowly\"""" SOME REQUIRE FAST_3 DCL:flat-O\rip paper quickly\""""",HOW HOW,20,2,6,0,8
+asllrp3_89c0fa4a2b7f4799,nohand_discard_fix,"SOME REQUIRE SLOW DCL:flat-O\rip paper slowly\"""" SOME REQUIRE FAST_3 DCL:flat-O\rip paper quickly\""""",HOW,20,1,7,0,8
+asllrp3_b0011a850795e52a,continuous_training_features_greedy,LIE-DOWN SUNSHINE TAN BRAVE/RECOVER,part:indef,5,1,3,0,4
+asllrp3_b0011a850795e52a,current_nohand_flush,LIE-DOWN SUNSHINE TAN BRAVE/RECOVER,,5,0,4,0,4
+asllrp3_b0011a850795e52a,nohand_discard_fix,LIE-DOWN SUNSHINE TAN BRAVE/RECOVER,,5,0,4,0,4
+asllrp3_72e456e7c5228d89,continuous_training_features_greedy,SELF-3p+:i MOVIE REALLY SCARE+,IX-1p CANCEL/CRITICIZE,23,2,2,0,4
+asllrp3_72e456e7c5228d89,current_nohand_flush,SELF-3p+:i MOVIE REALLY SCARE+,IX-1p IX-1p IX-1p,23,3,1,0,4
+asllrp3_72e456e7c5228d89,nohand_discard_fix,SELF-3p+:i MOVIE REALLY SCARE+,,23,0,4,0,4
+asllrp3_89b116f9e5fed023,continuous_training_features_greedy,IX-3p:i LOVE ns-fs-BILL IX-3p:j WHO IX-3p:i,IX-1p LOVE ns-fs-BILL,7,1,3,0,6
+asllrp3_89b116f9e5fed023,current_nohand_flush,IX-3p:i LOVE ns-fs-BILL IX-3p:j WHO IX-3p:i,IX-1p IX-2p IX-1p IX-1p IX-1p,7,5,1,0,6
+asllrp3_89b116f9e5fed023,nohand_discard_fix,IX-3p:i LOVE ns-fs-BILL IX-3p:j WHO IX-3p:i,IX-1p IX-2p IX-1p,7,3,3,0,6
+asllrp3_c392cb53a3ad56e5,continuous_training_features_greedy,HOT IX-2p COLD IX-2p,MOTHER+ IX-2p IX-loc:i,11,2,1,0,4
+asllrp3_c392cb53a3ad56e5,current_nohand_flush,HOT IX-2p COLD IX-2p,MOTHER+ IX-3p:i IX-3p:i,11,3,1,0,4
+asllrp3_c392cb53a3ad56e5,nohand_discard_fix,HOT IX-2p COLD IX-2p,MOTHER+,11,1,3,0,4
+asllrp3_c57de838bf922065,continuous_training_features_greedy,IX-3p:i TEACH+AGENT NOT REQUIRE READ+ DROP IX-3p:j ns-fs-JOHN IX-loc:j NOT READ,"ns-fs-JOHN DROP (1h)5\wave no\"""" (1h)part:indef IX-1p",11,4,6,0,11
+asllrp3_c57de838bf922065,current_nohand_flush,IX-3p:i TEACH+AGENT NOT REQUIRE READ+ DROP IX-3p:j ns-fs-JOHN IX-loc:j NOT READ,IX-1p DEPART IX-1p,11,3,8,0,11
+asllrp3_c57de838bf922065,nohand_discard_fix,IX-3p:i TEACH+AGENT NOT REQUIRE READ+ DROP IX-3p:j ns-fs-JOHN IX-loc:j NOT READ,IX-1p IX-1p,11,2,9,0,11
+asllrp3_39448ebfb3817f71,continuous_training_features_greedy,"GROW (2h)TALKwg DCL:bent-1\length of time\"""" GROW SIGN DCL:B\pathway of sign language\""""","DCL:bent-1\length of time\"""" SIGN",10,0,4,0,6
+asllrp3_39448ebfb3817f71,current_nohand_flush,"GROW (2h)TALKwg DCL:bent-1\length of time\"""" GROW SIGN DCL:B\pathway of sign language\""""",HOW (1h)FAST_3,10,2,4,0,6
+asllrp3_39448ebfb3817f71,nohand_discard_fix,"GROW (2h)TALKwg DCL:bent-1\length of time\"""" GROW SIGN DCL:B\pathway of sign language\""""",(1h)FAST_3,10,1,5,0,6
+asllrp3_c1353b3697686867,continuous_training_features_greedy,#VP CLEAR,CLEAR,2,0,1,0,2
+asllrp3_c1353b3697686867,current_nohand_flush,#VP CLEAR,CLEAR,2,0,1,0,2
+asllrp3_c1353b3697686867,nohand_discard_fix,#VP CLEAR,CLEAR,2,0,1,0,2
+asllrp3_b5e61b29b606b661,continuous_training_features_greedy,IX-1p ANALYZE MATH+ PROBLEM_2 IX-1p LOOK-OVER,IX-1p,17,0,5,0,6
+asllrp3_b5e61b29b606b661,current_nohand_flush,IX-1p ANALYZE MATH+ PROBLEM_2 IX-1p LOOK-OVER,IX-1p IX-2p IX-1p IX-1p IX-1p,17,3,1,0,6
+asllrp3_b5e61b29b606b661,nohand_discard_fix,IX-1p ANALYZE MATH+ PROBLEM_2 IX-1p LOOK-OVER,IX-2p IX-1p,17,1,4,0,6
+asllrp3_05cb28187a740ac4,continuous_training_features_greedy,"IX-1p fs-SUSHI IX-1p EAT IX-3p:i TASTE STRANGE IX-1p HOPE NOT RUIN 5\out of my control\""""",IX-1p QMwg,17,1,10,0,12
+asllrp3_05cb28187a740ac4,current_nohand_flush,"IX-1p fs-SUSHI IX-1p EAT IX-3p:i TASTE STRANGE IX-1p HOPE NOT RUIN 5\out of my control\""""",IX-1p IX-1p IX-1p IX-1p GO-OUT IX-1p BOY+,17,4,5,0,12
+asllrp3_05cb28187a740ac4,nohand_discard_fix,"IX-1p fs-SUSHI IX-1p EAT IX-3p:i TASTE STRANGE IX-1p HOPE NOT RUIN 5\out of my control\""""",IX-1p IX-1p IX-1p GO-OUT IX-1p BOY+,17,3,6,0,12
+asllrp3_ee8504b335e1322f,continuous_training_features_greedy,IF IX-2p INTERPRET IX-2p MUST USE_2 BLACK DRESS/CLOTHES,NOT,10,1,7,0,8
+asllrp3_ee8504b335e1322f,current_nohand_flush,IF IX-2p INTERPRET IX-2p MUST USE_2 BLACK DRESS/CLOTHES,IX-1p ns-fs-JOHN BOY IX-loc:i IX-3p:i WEATHER,10,6,2,0,8
+asllrp3_ee8504b335e1322f,nohand_discard_fix,IF IX-2p INTERPRET IX-2p MUST USE_2 BLACK DRESS/CLOTHES,ns-fs-JOHN BOY IX-loc:i WEATHER,10,4,4,0,8
+asllrp3_cf01d5fd3e352ae0,continuous_training_features_greedy,WHEN RAIN IX-1p NOT STAY_2 HOME IX-1p DEPART,IX-1p NOT KING,3,1,5,0,8
+asllrp3_cf01d5fd3e352ae0,current_nohand_flush,WHEN RAIN IX-1p NOT STAY_2 HOME IX-1p DEPART,IX-1p KING WINDOW,3,2,5,0,8
+asllrp3_cf01d5fd3e352ae0,nohand_discard_fix,WHEN RAIN IX-1p NOT STAY_2 HOME IX-1p DEPART,IX-1p KING WINDOW,3,2,5,0,8
+asllrp3_08cfa2b3ad738d79,continuous_training_features_greedy,(1h)THIS ARTICLE QUOTE/TOPIC fs-SENSORY fs-ORIENTATION SECOND SOME,MEAN,10,1,6,0,7
+asllrp3_08cfa2b3ad738d79,current_nohand_flush,(1h)THIS ARTICLE QUOTE/TOPIC fs-SENSORY fs-ORIENTATION SECOND SOME,,10,0,7,0,7
+asllrp3_08cfa2b3ad738d79,nohand_discard_fix,(1h)THIS ARTICLE QUOTE/TOPIC fs-SENSORY fs-ORIENTATION SECOND SOME,,10,0,7,0,7
+asllrp3_3e29360900eee990,continuous_training_features_greedy,FATHER+ ARRIVE HOME fs-LATE NIGHT+ WHY IX-3p:i RECENT-PAST FINISH POSS-3p:i WORK+,ARRIVE WIN JOIN,12,2,8,0,11
+asllrp3_3e29360900eee990,current_nohand_flush,FATHER+ ARRIVE HOME fs-LATE NIGHT+ WHY IX-3p:i RECENT-PAST FINISH POSS-3p:i WORK+,ARRIVE BROTHER,12,1,9,0,11
+asllrp3_3e29360900eee990,nohand_discard_fix,FATHER+ ARRIVE HOME fs-LATE NIGHT+ WHY IX-3p:i RECENT-PAST FINISH POSS-3p:i WORK+,ARRIVE BROTHER,12,1,9,0,11
+asllrp3_bdf71640ea62f1c2,continuous_training_features_greedy,IX-1p (1h)TEND WORK-OUT OVER/AFTER CLASS_2,IX-1p,15,0,4,0,5
+asllrp3_bdf71640ea62f1c2,current_nohand_flush,IX-1p (1h)TEND WORK-OUT OVER/AFTER CLASS_2,IX-2p,15,1,4,0,5
+asllrp3_bdf71640ea62f1c2,nohand_discard_fix,IX-1p (1h)TEND WORK-OUT OVER/AFTER CLASS_2,IX-2p,15,1,4,0,5
+asllrp3_e32d80091040f70a,continuous_training_features_greedy,IX-2p LIKE ns-BOSTON QMwg,IX-1p LIKE QMwg,4,1,1,0,4
+asllrp3_e32d80091040f70a,current_nohand_flush,IX-2p LIKE ns-BOSTON QMwg,IX-1p BOY+,4,2,2,0,4
+asllrp3_e32d80091040f70a,nohand_discard_fix,IX-2p LIKE ns-BOSTON QMwg,IX-1p BOY+,4,2,2,0,4
+asllrp3_1f7ca48563dec93c,continuous_training_features_greedy,#NO IX-1p NOT LIKE PINEAPPLE fs-CREAM CHEESE #NO,"WEATHER 5\hands off\"""" fs-CREAM CHEESE",3,2,4,0,8
+asllrp3_1f7ca48563dec93c,current_nohand_flush,#NO IX-1p NOT LIKE PINEAPPLE fs-CREAM CHEESE #NO,"WEATHER 5\hands off\"""" IX-1p",3,3,5,0,8
+asllrp3_1f7ca48563dec93c,nohand_discard_fix,#NO IX-1p NOT LIKE PINEAPPLE fs-CREAM CHEESE #NO,WEATHER IX-1p,3,1,6,0,8
+asllrp3_e2bc68f8c5eaf59d,continuous_training_features_greedy,IX-1p THINK ns-fs-OBAMA FUTURE WIN AGAIN part:indef,IX-1p ns-fs-MARY part:indef,7,1,4,0,7
+asllrp3_e2bc68f8c5eaf59d,current_nohand_flush,IX-1p THINK ns-fs-OBAMA FUTURE WIN AGAIN part:indef,IX-1p IX-1p WIN IX-1p IX-1p part:indef,7,4,1,0,7
+asllrp3_e2bc68f8c5eaf59d,nohand_discard_fix,IX-1p THINK ns-fs-OBAMA FUTURE WIN AGAIN part:indef,IX-1p IX-1p IX-1p IX-1p,7,3,3,0,7
+asllrp3_192a025d17af092d,continuous_training_features_greedy,IN GROUP/TOGETHER TALK fs-DISORDER (1h)HAVE GROUP/TOGETHER NAME DEAF fs-SPEECH,,37,0,9,0,9
+asllrp3_192a025d17af092d,current_nohand_flush,IN GROUP/TOGETHER TALK fs-DISORDER (1h)HAVE GROUP/TOGETHER NAME DEAF fs-SPEECH,HOW,37,1,8,0,9
+asllrp3_192a025d17af092d,nohand_discard_fix,IN GROUP/TOGETHER TALK fs-DISORDER (1h)HAVE GROUP/TOGETHER NAME DEAF fs-SPEECH,,37,0,9,0,9
+asllrp3_1133d61580f550fa,continuous_training_features_greedy,TOMORROW RAIN++ MEAN ARRIVE UNCLE HOUSE STAY IN+,STAY ARRIVE STAY MOVIE_2,10,2,4,0,8
+asllrp3_1133d61580f550fa,current_nohand_flush,TOMORROW RAIN++ MEAN ARRIVE UNCLE HOUSE STAY IN+,IX-2p STAY ARRIVE NICE/CLEAN+,10,3,4,0,8
+asllrp3_1133d61580f550fa,nohand_discard_fix,TOMORROW RAIN++ MEAN ARRIVE UNCLE HOUSE STAY IN+,IX-2p STAY ARRIVE,10,2,5,0,8
+asllrp3_095fbb544880c78d,continuous_training_features_greedy,IX-1p VOLUNTEER/SHIRT HELP+ OTHER ORGANIZATION,IX-1p PAST+NIGHT BREAK-DOWN,19,2,2,0,5
+asllrp3_095fbb544880c78d,current_nohand_flush,IX-1p VOLUNTEER/SHIRT HELP+ OTHER ORGANIZATION,,19,0,5,0,5
+asllrp3_095fbb544880c78d,nohand_discard_fix,IX-1p VOLUNTEER/SHIRT HELP+ OTHER ORGANIZATION,,19,0,5,0,5
+asllrp3_a246820f7fa3e34a,continuous_training_features_greedy,IX-2p FINISH HOMEWORK IX-2p FINISH IX-3p:i #NO (1h)HAVE (2h)NOT-YET NOT-YET START part:indef,IX-1p FINISH NONE/NOTHING WIN (1h)part:indef,9,4,7,0,12
+asllrp3_a246820f7fa3e34a,current_nohand_flush,IX-2p FINISH HOMEWORK IX-2p FINISH IX-3p:i #NO (1h)HAVE (2h)NOT-YET NOT-YET START part:indef,IX-1p FINISH NONE/NOTHING IX-1p IX-1p IX-1p,9,5,6,0,12
+asllrp3_a246820f7fa3e34a,nohand_discard_fix,IX-2p FINISH HOMEWORK IX-2p FINISH IX-3p:i #NO (1h)HAVE (2h)NOT-YET NOT-YET START part:indef,IX-1p FINISH NONE/NOTHING IX-1p IX-1p IX-1p,9,5,6,0,12
+asllrp3_6b64205041deb7a4,continuous_training_features_greedy,IX-1p BABY BORN IX-1p WANT_2 (1h)i:GIFT:j ns-IRELAND NAME BUT IX-3p:j IX-1p FATHER IX-loc:j (1h)WANT (1h)i:GIFT:j ns-ITALY NAME+ part:indef,IX-3p:i LIKE ns-FRANCE CLASS_2 STRANGE,12,5,13,0,18
+asllrp3_6b64205041deb7a4,current_nohand_flush,IX-1p BABY BORN IX-1p WANT_2 (1h)i:GIFT:j ns-IRELAND NAME BUT IX-3p:j IX-1p FATHER IX-loc:j (1h)WANT (1h)i:GIFT:j ns-ITALY NAME+ part:indef,IX-3p:i IX-3p:i (1h)HAVE LEND,12,4,14,0,18
+asllrp3_6b64205041deb7a4,nohand_discard_fix,IX-1p BABY BORN IX-1p WANT_2 (1h)i:GIFT:j ns-IRELAND NAME BUT IX-3p:j IX-1p FATHER IX-loc:j (1h)WANT (1h)i:GIFT:j ns-ITALY NAME+ part:indef,IX-3p:i IX-3p:i (1h)HAVE LEND,12,4,14,0,18
+asllrp3_93a5a6dea5b41993,continuous_training_features_greedy,IX-1p NOT STUDY FUTURE FAIL,IX-1p NOT STUDY,9,0,2,0,5
+asllrp3_93a5a6dea5b41993,current_nohand_flush,IX-1p NOT STUDY FUTURE FAIL,BOX/ROOM NOT IX-1p BOX/ROOM IX-1p,9,4,0,0,5
+asllrp3_93a5a6dea5b41993,nohand_discard_fix,IX-1p NOT STUDY FUTURE FAIL,BOX/ROOM NOT BOX/ROOM IX-1p,9,3,1,0,5
+asllrp3_296360c901274d94,continuous_training_features_greedy,PEOPLE IN THAT MAJOR fs-ORIENTATION OFTEN (1h)HAVE AWKWARD EXPERIENCE TO/UNTIL MEET DEAF,,26,0,12,0,12
+asllrp3_296360c901274d94,current_nohand_flush,PEOPLE IN THAT MAJOR fs-ORIENTATION OFTEN (1h)HAVE AWKWARD EXPERIENCE TO/UNTIL MEET DEAF,IX-2p HOW HOW,26,3,9,0,12
+asllrp3_296360c901274d94,nohand_discard_fix,PEOPLE IN THAT MAJOR fs-ORIENTATION OFTEN (1h)HAVE AWKWARD EXPERIENCE TO/UNTIL MEET DEAF,HOW HOW,26,2,10,0,12
+asllrp3_ff8a943c9abff5e8,continuous_training_features_greedy,TIME+ FRIEND (5)CRASH (P)PARTY part:indef TIME (1h)part:indef,FRIEND,6,0,6,0,7
+asllrp3_ff8a943c9abff5e8,current_nohand_flush,TIME+ FRIEND (5)CRASH (P)PARTY part:indef TIME (1h)part:indef,FRIEND,6,0,6,0,7
+asllrp3_ff8a943c9abff5e8,nohand_discard_fix,TIME+ FRIEND (5)CRASH (P)PARTY part:indef TIME (1h)part:indef,FRIEND,6,0,6,0,7
+asllrp3_d88e52dedd536876,continuous_training_features_greedy,NOW+AFTERNOON+ IX-1p FUTURE GO SELL+,IX-1p,16,0,4,0,5
+asllrp3_d88e52dedd536876,current_nohand_flush,NOW+AFTERNOON+ IX-1p FUTURE GO SELL+,WEATHER IX-1p ns-fs-JOHN,16,2,2,0,5
+asllrp3_d88e52dedd536876,nohand_discard_fix,NOW+AFTERNOON+ IX-1p FUTURE GO SELL+,WEATHER IX-1p,16,1,3,0,5
+asllrp3_c7c9b0e4144af842,continuous_training_features_greedy,"IX-3p:i LCL:3\parked car\"""" RED LIGHT HIT_2 IX-1p FEEL IX-3p:j CAR+AGENT PHONE (1h)L-X\I don't know\"""" THINK (1h)L\I don't know\""""","IX-1p (1h)part:indef (1h)L-X\I don't know\"""" REALLY QMwg",13,3,8,0,13
+asllrp3_c7c9b0e4144af842,current_nohand_flush,"IX-3p:i LCL:3\parked car\"""" RED LIGHT HIT_2 IX-1p FEEL IX-3p:j CAR+AGENT PHONE (1h)L-X\I don't know\"""" THINK (1h)L\I don't know\""""",IX-1p IX-2p IX-1p IX-1p IX-1p,13,4,8,0,13
+asllrp3_c7c9b0e4144af842,nohand_discard_fix,"IX-3p:i LCL:3\parked car\"""" RED LIGHT HIT_2 IX-1p FEEL IX-3p:j CAR+AGENT PHONE (1h)L-X\I don't know\"""" THINK (1h)L\I don't know\""""",IX-1p IX-2p IX-1p IX-1p IX-1p,13,4,8,0,13
+asllrp3_dc88050cd329950e,continuous_training_features_greedy,ns-fs-JOHN IX-loc:i FUTURE DRIVE IX-3p:j ns-fs-MARY WORK,WEATHER LIKE ns-fs-MARY,7,2,4,0,7
+asllrp3_dc88050cd329950e,current_nohand_flush,ns-fs-JOHN IX-loc:i FUTURE DRIVE IX-3p:j ns-fs-MARY WORK,WEATHER IX-1p IX-1p IX-1p WEATHER,7,5,2,0,7
+asllrp3_dc88050cd329950e,nohand_discard_fix,ns-fs-JOHN IX-loc:i FUTURE DRIVE IX-3p:j ns-fs-MARY WORK,WEATHER IX-1p IX-1p IX-1p WEATHER,7,5,2,0,7
+asllrp3_1219503586aff765,continuous_training_features_greedy,#WHEN RAIN+ IX-1p NOT STAY_2 HOME DEPART,IX-1p RAIN+ (1h)part:indef,9,2,4,0,7
+asllrp3_1219503586aff765,current_nohand_flush,#WHEN RAIN+ IX-1p NOT STAY_2 HOME DEPART,IX-1p IX-1p IX-1p IX-3p:i IX-1p,9,4,2,0,7
+asllrp3_1219503586aff765,nohand_discard_fix,#WHEN RAIN+ IX-1p NOT STAY_2 HOME DEPART,IX-1p IX-1p IX-1p IX-1p,9,3,3,0,7
+asllrp3_bea2bde2ad7d8e1d,continuous_training_features_greedy,SHOW+ ns-fs-BAUMAN BETWEEN/SHARE POSS-3p:i EXPERIENCE+ IN IX-3p:j fs-LOCKER+BOX/ROOM,fs-ORIENTATION fs-ORIENTATION,20,2,6,0,8
+asllrp3_bea2bde2ad7d8e1d,current_nohand_flush,SHOW+ ns-fs-BAUMAN BETWEEN/SHARE POSS-3p:i EXPERIENCE+ IN IX-3p:j fs-LOCKER+BOX/ROOM,IX-1p,20,1,7,0,8
+asllrp3_bea2bde2ad7d8e1d,nohand_discard_fix,SHOW+ ns-fs-BAUMAN BETWEEN/SHARE POSS-3p:i EXPERIENCE+ IN IX-3p:j fs-LOCKER+BOX/ROOM,IX-1p,20,1,7,0,8
+asllrp3_63ae1b69061f3aa9,continuous_training_features_greedy,IF+ ns-fs-MARY POSS-3p:i CAR+ BREAK-DOWN ns-fs-JOHN MUST TAKE WORK+,ns-fs-MARY,13,0,8,0,9
+asllrp3_63ae1b69061f3aa9,current_nohand_flush,IF+ ns-fs-MARY POSS-3p:i CAR+ BREAK-DOWN ns-fs-JOHN MUST TAKE WORK+,ns-fs-MARY,13,0,8,0,9
+asllrp3_63ae1b69061f3aa9,nohand_discard_fix,IF+ ns-fs-MARY POSS-3p:i CAR+ BREAK-DOWN ns-fs-JOHN MUST TAKE WORK+,ns-fs-MARY,13,0,8,0,9
+asllrp3_5318c9f1fe8aa708,continuous_training_features_greedy,IX-1p ALWAYS SERIOUS IN SCHOOL,IX-1p,15,0,4,0,5
+asllrp3_5318c9f1fe8aa708,current_nohand_flush,IX-1p ALWAYS SERIOUS IN SCHOOL,IX-1p IX-1p IX-1p ns-fs-JOHN IX-2p,15,4,0,0,5
+asllrp3_5318c9f1fe8aa708,nohand_discard_fix,IX-1p ALWAYS SERIOUS IN SCHOOL,IX-1p ns-fs-JOHN,15,1,3,0,5
+asllrp3_1174e8911d44d3b3,continuous_training_features_greedy,WHO BUY CAR part:indef,IX-1p BUY part:indef,2,1,1,0,4
+asllrp3_1174e8911d44d3b3,current_nohand_flush,WHO BUY CAR part:indef,IX-1p BUY IX-1p,2,2,1,0,4
+asllrp3_1174e8911d44d3b3,nohand_discard_fix,WHO BUY CAR part:indef,IX-1p BUY IX-1p,2,2,1,0,4
+asllrp3_8281abc83f6ecf5a,continuous_training_features_greedy,IX-3p:i FARM+ IX-loc:i LIKE HOT SUMMER EASY+ GROW+ BIG VEGETABLE ADULT-TALL-pl,IX-3p:i LIKE LIKE fs-BAGEL ADULT-TALL-pl,10,2,6,0,11
+asllrp3_8281abc83f6ecf5a,current_nohand_flush,IX-3p:i FARM+ IX-loc:i LIKE HOT SUMMER EASY+ GROW+ BIG VEGETABLE ADULT-TALL-pl,IX-3p:i LEND LOOK:i WANT VEGETABLE,10,3,6,0,11
+asllrp3_8281abc83f6ecf5a,nohand_discard_fix,IX-3p:i FARM+ IX-loc:i LIKE HOT SUMMER EASY+ GROW+ BIG VEGETABLE ADULT-TALL-pl,LEND LOOK:i WANT VEGETABLE,10,3,7,0,11
+asllrp3_8341e9adb1b63d3c,continuous_training_features_greedy,IX-loc:i RAIN HAPPEN WHO GO-OUT part:indef,GO-OUT+ RAIN NOTHING-AT-ALL IX-3p-pl-2:i/j,4,3,2,0,6
+asllrp3_8341e9adb1b63d3c,current_nohand_flush,IX-loc:i RAIN HAPPEN WHO GO-OUT part:indef,IX-1p RAIN HAPPEN IX-3p-pl-2:i/j,4,2,2,0,6
+asllrp3_8341e9adb1b63d3c,nohand_discard_fix,IX-loc:i RAIN HAPPEN WHO GO-OUT part:indef,IX-1p RAIN HAPPEN IX-3p-pl-2:i/j,4,2,2,0,6
+asllrp3_3af9eaf5eef798f4,continuous_training_features_greedy,IX-1p TELL:i GROW-UP THAT TOILET SAFE PLACE NOT REALLY ANY+MORE,,34,0,10,0,10
+asllrp3_3af9eaf5eef798f4,current_nohand_flush,IX-1p TELL:i GROW-UP THAT TOILET SAFE PLACE NOT REALLY ANY+MORE,#SO HOW IX-1p IX-1p IX-1p,34,5,5,0,10
+asllrp3_3af9eaf5eef798f4,nohand_discard_fix,IX-1p TELL:i GROW-UP THAT TOILET SAFE PLACE NOT REALLY ANY+MORE,HOW IX-1p,34,2,8,0,10
+asllrp3_a97b9069c1f14e1d,continuous_training_features_greedy,#IF+ IX-1p NONE/NOTHING BOOK READ IX-1p NONE/NOTHING IX-1p BORE IX-1p part:indef,FINISH,2,1,10,0,11
+asllrp3_a97b9069c1f14e1d,current_nohand_flush,#IF+ IX-1p NONE/NOTHING BOOK READ IX-1p NONE/NOTHING IX-1p BORE IX-1p part:indef,FINISH,2,1,10,0,11
+asllrp3_a97b9069c1f14e1d,nohand_discard_fix,#IF+ IX-1p NONE/NOTHING BOOK READ IX-1p NONE/NOTHING IX-1p BORE IX-1p part:indef,FINISH,2,1,10,0,11
+asllrp3_99c3003b2b716ffb,continuous_training_features_greedy,IX-1p LOOK MOVIE PAST+NIGHT IX-1p AFRAID (1h)WOW/AWFUL,IX-1p PAST+NIGHT QMwg,17,1,4,0,7
+asllrp3_99c3003b2b716ffb,current_nohand_flush,IX-1p LOOK MOVIE PAST+NIGHT IX-1p AFRAID (1h)WOW/AWFUL,IX-1p IX-1p IX-2p GO-OUT IX-1p,17,3,2,0,7
+asllrp3_99c3003b2b716ffb,nohand_discard_fix,IX-1p LOOK MOVIE PAST+NIGHT IX-1p AFRAID (1h)WOW/AWFUL,IX-1p IX-2p GO-OUT,17,2,4,0,7
+asllrp3_fd92eac5d40c4b36,continuous_training_features_greedy,"ns-fs-NETFLIX i:SEND/MAIL-1p IX-1p fs-DVD IX-3p:j 3\come on\"""" SCRATCH \aw man\""""",IX-1p QMwg,8,1,6,0,8
+asllrp3_fd92eac5d40c4b36,current_nohand_flush,"ns-fs-NETFLIX i:SEND/MAIL-1p IX-1p fs-DVD IX-3p:j 3\come on\"""" SCRATCH \aw man\""""",IX-1p GO-OUT GO-OUT IX-1p IX-1p IX-1p,8,5,2,0,8
+asllrp3_fd92eac5d40c4b36,nohand_discard_fix,"ns-fs-NETFLIX i:SEND/MAIL-1p IX-1p fs-DVD IX-3p:j 3\come on\"""" SCRATCH \aw man\""""",IX-1p GO-OUT GO-OUT IX-1p IX-1p,8,4,3,0,8
+asllrp3_006251a5a43d4450,continuous_training_features_greedy,HAVE CLASS_2 TOMORROW,CLASS_2,8,0,2,0,3
+asllrp3_006251a5a43d4450,current_nohand_flush,HAVE CLASS_2 TOMORROW,,8,0,3,0,3
+asllrp3_006251a5a43d4450,nohand_discard_fix,HAVE CLASS_2 TOMORROW,,8,0,3,0,3
+asllrp3_b3ce095104fec4ce,continuous_training_features_greedy,TWO PLUS ONE EQUAL+ SIX #NO+ TWO PLUS ONE EQUAL THREE,IX-1p HOME,6,2,9,0,11
+asllrp3_b3ce095104fec4ce,current_nohand_flush,TWO PLUS ONE EQUAL+ SIX #NO+ TWO PLUS ONE EQUAL THREE,IX-1p IX-3p:i IX-1p,6,3,8,0,11
+asllrp3_b3ce095104fec4ce,nohand_discard_fix,TWO PLUS ONE EQUAL+ SIX #NO+ TWO PLUS ONE EQUAL THREE,IX-1p IX-3p:i IX-1p,6,3,8,0,11
+asllrp3_0530b726e13f08c3,continuous_training_features_greedy,DISCUSS QUOTE/TOPIC_2 COOPERATE/UNITE WITH VOICE IDENTIFY LIST-ORDER,IX-1p,18,1,6,0,7
+asllrp3_0530b726e13f08c3,current_nohand_flush,DISCUSS QUOTE/TOPIC_2 COOPERATE/UNITE WITH VOICE IDENTIFY LIST-ORDER,IX-1p HOW,18,2,5,0,7
+asllrp3_0530b726e13f08c3,nohand_discard_fix,DISCUSS QUOTE/TOPIC_2 COOPERATE/UNITE WITH VOICE IDENTIFY LIST-ORDER,IX-1p HOW,18,2,5,0,7
+asllrp3_0d0619cc55ea2d3b,continuous_training_features_greedy,"#IF IX-3p:i FAMILY IX-loc:i NOT TAKE-UP IX-3p-pl-arc DCL:crvd-B\small puppies\"""" DOG part:indef POSS-1p FRIEND FUTURE",WHO IX-loc:i IX-3p:i TAKE-UP MUSIC,4,3,8,0,13
+asllrp3_0d0619cc55ea2d3b,current_nohand_flush,"#IF IX-3p:i FAMILY IX-loc:i NOT TAKE-UP IX-3p-pl-arc DCL:crvd-B\small puppies\"""" DOG part:indef POSS-1p FRIEND FUTURE",IX-loc:i FRIEND NICE/CLEAN+ TAKE-UP,4,3,9,0,13
+asllrp3_0d0619cc55ea2d3b,nohand_discard_fix,"#IF IX-3p:i FAMILY IX-loc:i NOT TAKE-UP IX-3p-pl-arc DCL:crvd-B\small puppies\"""" DOG part:indef POSS-1p FRIEND FUTURE",IX-loc:i FRIEND NICE/CLEAN+ TAKE-UP,4,3,9,0,13
+asllrp3_292df8eeac7f66bd,continuous_training_features_greedy,IX-1p 1p-ASK:i POSS-1p TEACH+AGENT FOR SOME ADVISE/INFLUENCE IX-1p DISCUSS++ part:indef,IX-1p,33,0,9,0,10
+asllrp3_292df8eeac7f66bd,current_nohand_flush,IX-1p 1p-ASK:i POSS-1p TEACH+AGENT FOR SOME ADVISE/INFLUENCE IX-1p DISCUSS++ part:indef,IX-1p IX-1p IX-1p IX-1p IX-1p IX-1p IX-1p,33,5,3,0,10
+asllrp3_292df8eeac7f66bd,nohand_discard_fix,IX-1p 1p-ASK:i POSS-1p TEACH+AGENT FOR SOME ADVISE/INFLUENCE IX-1p DISCUSS++ part:indef,IX-1p IX-1p,33,0,8,0,10
+asllrp3_d21cb5b87e6bb418,continuous_training_features_greedy,IX-3p-pl-2:i/j ns-fs-JEN ns-fs-JOE MARRY IX-3p-pl-2:i/j QMwg,IX-1p ns-fs-JOE QMwg,4,1,3,0,6
+asllrp3_d21cb5b87e6bb418,current_nohand_flush,IX-3p-pl-2:i/j ns-fs-JEN ns-fs-JOE MARRY IX-3p-pl-2:i/j QMwg,IX-1p,4,1,5,0,6
+asllrp3_d21cb5b87e6bb418,nohand_discard_fix,IX-3p-pl-2:i/j ns-fs-JEN ns-fs-JOE MARRY IX-3p-pl-2:i/j QMwg,IX-1p,4,1,5,0,6
+asllrp3_67235f2d2abd20d4,continuous_training_features_greedy,NOT RAIN NONE/NOTHING,WEATHER NOT RAIN NONE/NOTHING,11,0,0,1,3
+asllrp3_67235f2d2abd20d4,current_nohand_flush,NOT RAIN NONE/NOTHING,WEATHER IX-1p IX-1p NOT HOW IX-1p IX-1p WEATHER,11,2,0,5,3
+asllrp3_67235f2d2abd20d4,nohand_discard_fix,NOT RAIN NONE/NOTHING,IX-1p NOT HOW IX-1p,11,2,0,1,3
+asllrp3_6d5573d32002c026,continuous_training_features_greedy,"NEAR SEMESTER SOON FINISH IX-1p DEAF-APPLAUSE SOCIAL/INTERACT (1h)5\wave no\"""" CANNOT","IX-1p KING DEAF-APPLAUSE SOCIAL/INTERACT (1h)5\wave no\""""",12,2,4,0,9
+asllrp3_6d5573d32002c026,current_nohand_flush,"NEAR SEMESTER SOON FINISH IX-1p DEAF-APPLAUSE SOCIAL/INTERACT (1h)5\wave no\"""" CANNOT",IX-1p DEPART HAPPEN NEVER BOX/ROOM,12,4,4,0,9
+asllrp3_6d5573d32002c026,nohand_discard_fix,"NEAR SEMESTER SOON FINISH IX-1p DEAF-APPLAUSE SOCIAL/INTERACT (1h)5\wave no\"""" CANNOT",IX-1p DEPART HAPPEN NEVER BOX/ROOM,12,4,4,0,9
+asllrp3_f0a2517a6b1d2b61,continuous_training_features_greedy,STUDY ON SPEECH/ORAL fs-DISORDER A-LOT,,23,0,5,0,5
+asllrp3_f0a2517a6b1d2b61,current_nohand_flush,STUDY ON SPEECH/ORAL fs-DISORDER A-LOT,HOW #SO,23,2,3,0,5
+asllrp3_f0a2517a6b1d2b61,nohand_discard_fix,STUDY ON SPEECH/ORAL fs-DISORDER A-LOT,HOW,23,1,4,0,5
+asllrp3_a9d509c75715f0c7,continuous_training_features_greedy,IF+ (5)WEATHER WARM IX-1p-pl-arc GO fs-BEACH,,0,0,6,0,6
+asllrp3_a9d509c75715f0c7,current_nohand_flush,IF+ (5)WEATHER WARM IX-1p-pl-arc GO fs-BEACH,,0,0,6,0,6
+asllrp3_a9d509c75715f0c7,nohand_discard_fix,IF+ (5)WEATHER WARM IX-1p-pl-arc GO fs-BEACH,,0,0,6,0,6
+asllrp3_d81d53f9fe1c1717,continuous_training_features_greedy,POSS-1p (2h)alt.LONG-AGO (2h)LONG-PAST FROM WHERE ns-nat-GERMANY,,16,0,6,0,6
+asllrp3_d81d53f9fe1c1717,current_nohand_flush,POSS-1p (2h)alt.LONG-AGO (2h)LONG-PAST FROM WHERE ns-nat-GERMANY,GO-OUT IX-1p IX-1p IX-1p,16,4,2,0,6
+asllrp3_d81d53f9fe1c1717,nohand_discard_fix,POSS-1p (2h)alt.LONG-AGO (2h)LONG-PAST FROM WHERE ns-nat-GERMANY,IX-1p,16,1,5,0,6
+asllrp3_71d737b1bb19edc9,continuous_training_features_greedy,"STUDENT (1h)GO #QUIZ #TV ACT IX-3p:i NOT WIN 5\that's the way it is\""""",IX-1p NOT WIN,16,1,6,0,9
+asllrp3_71d737b1bb19edc9,current_nohand_flush,"STUDENT (1h)GO #QUIZ #TV ACT IX-3p:i NOT WIN 5\that's the way it is\""""",IX-1p IX-1p IX-1p,16,3,6,0,9
+asllrp3_71d737b1bb19edc9,nohand_discard_fix,"STUDENT (1h)GO #QUIZ #TV ACT IX-3p:i NOT WIN 5\that's the way it is\""""",IX-1p IX-1p,16,2,7,0,9
+asllrp3_d30525b5f5873a32,continuous_training_features_greedy,IX-3p:i SISTER NOT LIKE CHOCOLATE fs-CEREAL,ns-fs-MARY SISTER LIKE fs-CEREAL QMwg,4,3,1,0,6
+asllrp3_d30525b5f5873a32,current_nohand_flush,IX-3p:i SISTER NOT LIKE CHOCOLATE fs-CEREAL,IX-1p SISTER LIKE ns-fs-JOHN IX-1p,4,3,1,0,6
+asllrp3_d30525b5f5873a32,nohand_discard_fix,IX-3p:i SISTER NOT LIKE CHOCOLATE fs-CEREAL,IX-1p SISTER LIKE IX-1p,4,2,2,0,6
+asllrp3_2b520a377be372c9,continuous_training_features_greedy,ns-fs-JOHN IX-3p:i NOT BREAK WINDOW #NO+ IX-3p:j ns-fs-SALLY,#NO+ ARRIVE #NO+,3,2,5,0,8
+asllrp3_2b520a377be372c9,current_nohand_flush,ns-fs-JOHN IX-3p:i NOT BREAK WINDOW #NO+ IX-3p:j ns-fs-SALLY,#NO+ ARRIVE IX-1p GO-OUT,3,4,4,0,8
+asllrp3_2b520a377be372c9,nohand_discard_fix,ns-fs-JOHN IX-3p:i NOT BREAK WINDOW #NO+ IX-3p:j ns-fs-SALLY,#NO+ IX-1p GO-OUT,3,2,5,0,8
+asllrp3_db76a79ba2f56260,continuous_training_features_greedy,AND NOISE RANGE MORE LONG-LIST BUT IX-1p FOCUS/NARROW ON THOSE-TWO RANGE ACCEPT,MATCH,14,1,11,0,12
+asllrp3_db76a79ba2f56260,current_nohand_flush,AND NOISE RANGE MORE LONG-LIST BUT IX-1p FOCUS/NARROW ON THOSE-TWO RANGE ACCEPT,SHOW HOW,14,2,10,0,12
+asllrp3_db76a79ba2f56260,nohand_discard_fix,AND NOISE RANGE MORE LONG-LIST BUT IX-1p FOCUS/NARROW ON THOSE-TWO RANGE ACCEPT,SHOW HOW,14,2,10,0,12
+asllrp3_08a81b8867243ff9,continuous_training_features_greedy,#NO IX-1p NOT AFRAID fs-OF HIGH part:indef DO-DO MAKE IX-2p THINK THAT (1h)part:indef,,7,0,13,0,13
+asllrp3_08a81b8867243ff9,current_nohand_flush,#NO IX-1p NOT AFRAID fs-OF HIGH part:indef DO-DO MAKE IX-2p THINK THAT (1h)part:indef,,7,0,13,0,13
+asllrp3_08a81b8867243ff9,nohand_discard_fix,#NO IX-1p NOT AFRAID fs-OF HIGH part:indef DO-DO MAKE IX-2p THINK THAT (1h)part:indef,,7,0,13,0,13
+asllrp3_f27e40aae77bb6f2,continuous_training_features_greedy,TEACH+AGENT DISTRIBUTE ANSWER TO/UNTIL TEST,IX-1p,18,1,4,0,5
+asllrp3_f27e40aae77bb6f2,current_nohand_flush,TEACH+AGENT DISTRIBUTE ANSWER TO/UNTIL TEST,IX-1p IX-1p IX-2p IX-1p IX-1p,18,5,0,0,5
+asllrp3_f27e40aae77bb6f2,nohand_discard_fix,TEACH+AGENT DISTRIBUTE ANSWER TO/UNTIL TEST,IX-1p,18,1,4,0,5
+asllrp3_2a8b9d69eedfae20,continuous_training_features_greedy,IX-2p FACE NOT FEEL (1h)GOOD/THANK-YOU IX-3p:j #OK IX-2p WRONG+ (1h)part:indef,IX-1p GO-OUT IX-3p:i ns-fs-MARY (1h)part:indef,3,4,5,0,10
+asllrp3_2a8b9d69eedfae20,current_nohand_flush,IX-2p FACE NOT FEEL (1h)GOOD/THANK-YOU IX-3p:j #OK IX-2p WRONG+ (1h)part:indef,IX-1p IX-1p GO-OUT IX-1p IX-3p:i IX-loc:i,3,6,4,0,10
+asllrp3_2a8b9d69eedfae20,nohand_discard_fix,IX-2p FACE NOT FEEL (1h)GOOD/THANK-YOU IX-3p:j #OK IX-2p WRONG+ (1h)part:indef,IX-1p IX-1p GO-OUT IX-1p IX-3p:i IX-loc:i,3,6,4,0,10
+asllrp3_acb294bda16f9594,continuous_training_features_greedy,"COLD POSS-1p MOTHER NOT GO-OUT (1h)5\wave no\""""",IX-3p:i MOTHER GO-OUT LOUSY,5,2,2,0,6
+asllrp3_acb294bda16f9594,current_nohand_flush,"COLD POSS-1p MOTHER NOT GO-OUT (1h)5\wave no\""""",IX-3p:i IX-3p:i FINISH APPLAUSE+,5,4,2,0,6
+asllrp3_acb294bda16f9594,nohand_discard_fix,"COLD POSS-1p MOTHER NOT GO-OUT (1h)5\wave no\""""",IX-3p:i FINISH APPLAUSE+,5,3,3,0,6
+asllrp3_24ac8d090476770a,continuous_training_features_greedy,POSS-3p:i ns-FRANCE POSS-3p:i KING BALD,IX-1p ns-FRANCE KING,6,1,2,0,5
+asllrp3_24ac8d090476770a,current_nohand_flush,POSS-3p:i ns-FRANCE POSS-3p:i KING BALD,IX-1p IX-1p,6,2,3,0,5
+asllrp3_24ac8d090476770a,nohand_discard_fix,POSS-3p:i ns-FRANCE POSS-3p:i KING BALD,IX-1p IX-1p,6,2,3,0,5
+asllrp3_f418e6917ef11870,continuous_training_features_greedy,EXPRESS THROUGH_2 (2h)TALKwg MINOR EXPRESS SIGN CURRENT-TOPIC ROAD,,19,0,8,0,8
+asllrp3_f418e6917ef11870,current_nohand_flush,EXPRESS THROUGH_2 (2h)TALKwg MINOR EXPRESS SIGN CURRENT-TOPIC ROAD,,19,0,8,0,8
+asllrp3_f418e6917ef11870,nohand_discard_fix,EXPRESS THROUGH_2 (2h)TALKwg MINOR EXPRESS SIGN CURRENT-TOPIC ROAD,,19,0,8,0,8
+asllrp3_23c6d3883c5ac5bb,continuous_training_features_greedy,"FRIEND GROUP/TOGETHER DCL:crvd-5\group go together\"""" MOVIE_2 ACT WHY fs-HP SEVENTH (nd-1)MOVIE RECENT-PAST SPREAD","FRIEND DCL:crvd-5\group go together\"""" MUST",6,1,8,0,11
+asllrp3_23c6d3883c5ac5bb,current_nohand_flush,"FRIEND GROUP/TOGETHER DCL:crvd-5\group go together\"""" MOVIE_2 ACT WHY fs-HP SEVENTH (nd-1)MOVIE RECENT-PAST SPREAD","FRIEND DCL:crvd-5\group go together\"""" BREAK-DOWN MUST",6,2,7,0,11
+asllrp3_23c6d3883c5ac5bb,nohand_discard_fix,"FRIEND GROUP/TOGETHER DCL:crvd-5\group go together\"""" MOVIE_2 ACT WHY fs-HP SEVENTH (nd-1)MOVIE RECENT-PAST SPREAD",FRIEND BREAK-DOWN,6,1,9,0,11
+asllrp3_405047c4bac753d6,continuous_training_features_greedy,POSS-1p SISTER ACTION STRANGE IX-1p 1p-LOOK:i,IX-1p ACTION,19,1,4,0,6
+asllrp3_405047c4bac753d6,current_nohand_flush,POSS-1p SISTER ACTION STRANGE IX-1p 1p-LOOK:i,IX-1p IX-1p IX-1p IX-2p IX-1p IX-1p IX-1p IX-1p IX-1p,19,5,0,3,6
+asllrp3_405047c4bac753d6,nohand_discard_fix,POSS-1p SISTER ACTION STRANGE IX-1p 1p-LOOK:i,IX-1p IX-1p IX-1p,19,2,3,0,6
+asllrp3_3d18b285301314f5,continuous_training_features_greedy,"IX-3p:i #DOG_2 i:CHASE:j IX-3p:j CAT IX-loc:j #DOG_2 IX-loc:j NOT POSS-1p+ 5\wave no\""""",IX-1p IX-loc:i i:CHASE:j QMwg,7,3,7,0,11
+asllrp3_3d18b285301314f5,current_nohand_flush,"IX-3p:i #DOG_2 i:CHASE:j IX-3p:j CAT IX-loc:j #DOG_2 IX-loc:j NOT POSS-1p+ 5\wave no\""""",IX-1p IX-1p IX-3p:i i:CHASE:j IX-1p,7,5,6,0,11
+asllrp3_3d18b285301314f5,nohand_discard_fix,"IX-3p:i #DOG_2 i:CHASE:j IX-3p:j CAT IX-loc:j #DOG_2 IX-loc:j NOT POSS-1p+ 5\wave no\""""",IX-3p:i i:CHASE:j IX-1p,7,1,8,0,11
+asllrp3_9069117d0accf434,continuous_training_features_greedy,NEXT-WEEK ns-fs-PAUL BUSY/BUSINESS ALL-DAY WORK INTERPRET+ NIGHT-pl-arc CLASS-pl (1h)WOW/AWFUL,MOTHER+ LEND WORK CLASS-pl,13,2,5,0,9
+asllrp3_9069117d0accf434,current_nohand_flush,NEXT-WEEK ns-fs-PAUL BUSY/BUSINESS ALL-DAY WORK INTERPRET+ NIGHT-pl-arc CLASS-pl (1h)WOW/AWFUL,MOTHER+ LEND FINISH ns-fs-MARY,13,4,5,0,9
+asllrp3_9069117d0accf434,nohand_discard_fix,NEXT-WEEK ns-fs-PAUL BUSY/BUSINESS ALL-DAY WORK INTERPRET+ NIGHT-pl-arc CLASS-pl (1h)WOW/AWFUL,MOTHER+ LEND FINISH ns-fs-MARY,13,4,5,0,9
+asllrp3_cef0fe582517e4d0,continuous_training_features_greedy,IX-1p REALLY HAVE PINEAPPLE fs-CREAM CHEESE,IX-1p NOT PINEAPPLE fs-CREAM CHEESE,8,1,1,0,6
+asllrp3_cef0fe582517e4d0,current_nohand_flush,IX-1p REALLY HAVE PINEAPPLE fs-CREAM CHEESE,IX-1p,8,0,5,0,6
+asllrp3_cef0fe582517e4d0,nohand_discard_fix,IX-1p REALLY HAVE PINEAPPLE fs-CREAM CHEESE,IX-1p,8,0,5,0,6
+asllrp3_3a3dee8665af816f,continuous_training_features_greedy,"\WHAT\"""" MEAN DEAF fs-SPEECH",,24,0,4,0,4
+asllrp3_3a3dee8665af816f,current_nohand_flush,"\WHAT\"""" MEAN DEAF fs-SPEECH",IX-1p,24,1,3,0,4
+asllrp3_3a3dee8665af816f,nohand_discard_fix,"\WHAT\"""" MEAN DEAF fs-SPEECH",IX-1p,24,1,3,0,4
+asllrp3_53998a6dd53705b7,continuous_training_features_greedy,#IF IX-1p ENJOY CHAT:i WITH IX-3p-pl-2:i/j MEAN IX-1p MUST CHAT:k #ALL_2 ns-fs-BU,,15,0,12,0,12
+asllrp3_53998a6dd53705b7,current_nohand_flush,#IF IX-1p ENJOY CHAT:i WITH IX-3p-pl-2:i/j MEAN IX-1p MUST CHAT:k #ALL_2 ns-fs-BU,,15,0,12,0,12
+asllrp3_53998a6dd53705b7,nohand_discard_fix,#IF IX-1p ENJOY CHAT:i WITH IX-3p-pl-2:i/j MEAN IX-1p MUST CHAT:k #ALL_2 ns-fs-BU,,15,0,12,0,12
+asllrp3_65890cb6c098ad04,continuous_training_features_greedy,IX-1p ALMOST FINISH HOMEWORK,IX-1p SNOW HOMEWORK,10,1,1,0,4
+asllrp3_65890cb6c098ad04,current_nohand_flush,IX-1p ALMOST FINISH HOMEWORK,IX-1p IX-1p IX-1p,10,2,1,0,4
+asllrp3_65890cb6c098ad04,nohand_discard_fix,IX-1p ALMOST FINISH HOMEWORK,IX-1p IX-1p,10,1,2,0,4
+asllrp3_34ced4ffc2a6dd99,continuous_training_features_greedy,(25)WHY FATHER (P)UPSET (1h)part:indef KNOW+(1h)NEG,IX-1p LIKE QMwg (1h)part:indef,6,3,1,0,5
+asllrp3_34ced4ffc2a6dd99,current_nohand_flush,(25)WHY FATHER (P)UPSET (1h)part:indef KNOW+(1h)NEG,IX-1p IX-1p IX-1p BOY+,6,4,1,0,5
+asllrp3_34ced4ffc2a6dd99,nohand_discard_fix,(25)WHY FATHER (P)UPSET (1h)part:indef KNOW+(1h)NEG,IX-1p IX-1p IX-1p BOY+,6,4,1,0,5
+asllrp3_cfe1f3a93edfe745,continuous_training_features_greedy,"SOUP fs-GAZPACHO SOUP IX-3p:i COLD NOT HOT (1h)5\why is it so\""""",IX-1p NOT,20,1,6,0,8
+asllrp3_cfe1f3a93edfe745,current_nohand_flush,"SOUP fs-GAZPACHO SOUP IX-3p:i COLD NOT HOT (1h)5\why is it so\""""",IX-1p IX-2p IX-3p:i IX-1p,20,3,4,0,8
+asllrp3_cfe1f3a93edfe745,nohand_discard_fix,"SOUP fs-GAZPACHO SOUP IX-3p:i COLD NOT HOT (1h)5\why is it so\""""",IX-2p IX-3p:i,20,1,6,0,8
+asllrp3_b2eba8a3763fbd46,continuous_training_features_greedy,FOR REALLY IX-3p:i FUTURE (1h)i:GIFT:j FLOWER,IX-1p,5,1,5,0,6
+asllrp3_b2eba8a3763fbd46,current_nohand_flush,FOR REALLY IX-3p:i FUTURE (1h)i:GIFT:j FLOWER,IX-1p IX-1p BOX/ROOM IX-1p,5,4,2,0,6
+asllrp3_b2eba8a3763fbd46,nohand_discard_fix,FOR REALLY IX-3p:i FUTURE (1h)i:GIFT:j FLOWER,IX-1p IX-1p BOX/ROOM IX-1p,5,4,2,0,6
+asllrp3_69c658a3c3e837d4,continuous_training_features_greedy,"WHICH (1h)part:indef MAKE NOISE WHICH NOT 5\umm\"""" VARY",,14,0,8,0,8
+asllrp3_69c658a3c3e837d4,current_nohand_flush,"WHICH (1h)part:indef MAKE NOISE WHICH NOT 5\umm\"""" VARY",HOW HOW #SO PEOPLE SHOW+ FOR,14,6,2,0,8
+asllrp3_69c658a3c3e837d4,nohand_discard_fix,"WHICH (1h)part:indef MAKE NOISE WHICH NOT 5\umm\"""" VARY",#SO SHOW+ FOR,14,3,5,0,8
+asllrp3_ebec92689e250962,continuous_training_features_greedy,ns-fs-BOB IX-loc:i FUTURE SURPRISE FROM THAT SURPRISE THRILL/WHAT'S-UP QMwg,IX-loc:i NONE/NOTHING ns-BOSTON,0,2,6,0,9
+asllrp3_ebec92689e250962,current_nohand_flush,ns-fs-BOB IX-loc:i FUTURE SURPRISE FROM THAT SURPRISE THRILL/WHAT'S-UP QMwg,IX-loc:i NONE/NOTHING,0,1,7,0,9
+asllrp3_ebec92689e250962,nohand_discard_fix,ns-fs-BOB IX-loc:i FUTURE SURPRISE FROM THAT SURPRISE THRILL/WHAT'S-UP QMwg,IX-loc:i NONE/NOTHING,0,1,7,0,9
+asllrp3_14b742de2e4c69d9,continuous_training_features_greedy,POSS-1p TEACH+AGENT IX-3p:i (1h)GOOD/THANK-YOU ADVISE/INFLUENCE++AGENT (1h)GOOD/THANK-YOU,IX-1p,16,1,5,0,6
+asllrp3_14b742de2e4c69d9,current_nohand_flush,POSS-1p TEACH+AGENT IX-3p:i (1h)GOOD/THANK-YOU ADVISE/INFLUENCE++AGENT (1h)GOOD/THANK-YOU,IX-1p IX-1p IX-1p IX-1p,16,4,2,0,6
+asllrp3_14b742de2e4c69d9,nohand_discard_fix,POSS-1p TEACH+AGENT IX-3p:i (1h)GOOD/THANK-YOU ADVISE/INFLUENCE++AGENT (1h)GOOD/THANK-YOU,IX-1p IX-1p IX-1p,16,3,3,0,6
+asllrp3_1fc77b80040965c2,continuous_training_features_greedy,AIRPLANE IX-loc:i KICK-OUT WHO IX-3p:j ns-fs-ALEC-BALDWIN,IX-1p QMwg IX-3p:j,5,2,3,0,6
+asllrp3_1fc77b80040965c2,current_nohand_flush,AIRPLANE IX-loc:i KICK-OUT WHO IX-3p:j ns-fs-ALEC-BALDWIN,IX-1p QMwg IX-3p:i NOT,5,4,2,0,6
+asllrp3_1fc77b80040965c2,nohand_discard_fix,AIRPLANE IX-loc:i KICK-OUT WHO IX-3p:j ns-fs-ALEC-BALDWIN,IX-1p QMwg IX-3p:i NOT,5,4,2,0,6
+asllrp3_f77dcdc89c1cbf19,continuous_training_features_greedy,WORK HARD BOSS LIKE IX-2p,,9,0,5,0,5
+asllrp3_f77dcdc89c1cbf19,current_nohand_flush,WORK HARD BOSS LIKE IX-2p,SORRY,9,1,4,0,5
+asllrp3_f77dcdc89c1cbf19,nohand_discard_fix,WORK HARD BOSS LIKE IX-2p,,9,0,5,0,5
+asllrp3_88948107c73f29d1,continuous_training_features_greedy,"IX-1p 5\exasperation\"""" IX-3p-pl-2:i/j DOUBT-1p NOT NOT-YET DECIDE IX-1p MYSTERY part:indef",IX-1p ns-FRANCE STILL part:indef,7,2,6,0,10
+asllrp3_88948107c73f29d1,current_nohand_flush,"IX-1p 5\exasperation\"""" IX-3p-pl-2:i/j DOUBT-1p NOT NOT-YET DECIDE IX-1p MYSTERY part:indef",IX-1p ns-FRANCE IX-1p HAPPEN IX-1p,7,3,5,0,10
+asllrp3_88948107c73f29d1,nohand_discard_fix,"IX-1p 5\exasperation\"""" IX-3p-pl-2:i/j DOUBT-1p NOT NOT-YET DECIDE IX-1p MYSTERY part:indef",IX-1p ns-FRANCE HAPPEN IX-1p,7,2,6,0,10
+asllrp3_7937747f49edb327,continuous_training_features_greedy,WHO IX-honorific:i part:indef,part:indef,0,0,2,0,3
+asllrp3_7937747f49edb327,current_nohand_flush,WHO IX-honorific:i part:indef,part:indef,0,0,2,0,3
+asllrp3_7937747f49edb327,nohand_discard_fix,WHO IX-honorific:i part:indef,part:indef,0,0,2,0,3
+asllrp3_53bae00ddc5954e2,continuous_training_features_greedy,"#IF++ HAVE PINEAPPLE fs-CREAM+fs-CHEESE IX-1p+++ REFUSE EAT+ DCL:crvd-L\bagel\"""" fs-BAGEL IX-1p (1h)part:indef",IX-3p:i,3,1,10,0,11
+asllrp3_53bae00ddc5954e2,current_nohand_flush,"#IF++ HAVE PINEAPPLE fs-CREAM+fs-CHEESE IX-1p+++ REFUSE EAT+ DCL:crvd-L\bagel\"""" fs-BAGEL IX-1p (1h)part:indef",,3,0,11,0,11
+asllrp3_53bae00ddc5954e2,nohand_discard_fix,"#IF++ HAVE PINEAPPLE fs-CREAM+fs-CHEESE IX-1p+++ REFUSE EAT+ DCL:crvd-L\bagel\"""" fs-BAGEL IX-1p (1h)part:indef",,3,0,11,0,11
+asllrp3_2358b7f69d90a3cf,continuous_training_features_greedy,"IX-3p:i APPLY-1p IX-1p MANY fs-TASKS 5\frustration\""""",IX-1p,14,0,5,0,6
+asllrp3_2358b7f69d90a3cf,current_nohand_flush,"IX-3p:i APPLY-1p IX-1p MANY fs-TASKS 5\frustration\""""",IX-1p HAPPEN IX-1p BOY+ IX-1p,14,4,1,0,6
+asllrp3_2358b7f69d90a3cf,nohand_discard_fix,"IX-3p:i APPLY-1p IX-1p MANY fs-TASKS 5\frustration\""""",IX-1p BOY+ IX-1p,14,2,3,0,6
+asllrp3_4a49d7fa8cfa4c46,continuous_training_features_greedy,WHO ARRIVE LATE+ part:indef WHO,IX-1p ARRIVE LATE+,8,1,2,0,5
+asllrp3_4a49d7fa8cfa4c46,current_nohand_flush,WHO ARRIVE LATE+ part:indef WHO,IX-1p ARRIVE HAPPEN HAPPEN IX-1p IX-1p IX-1p,8,4,0,2,5
+asllrp3_4a49d7fa8cfa4c46,nohand_discard_fix,WHO ARRIVE LATE+ part:indef WHO,IX-1p HAPPEN IX-1p IX-1p,8,4,1,0,5
+asllrp3_78e811c2d71614bf,continuous_training_features_greedy,"#IF IX-3p:i PINEAPPLE fs-CREAM CHEESE (1h)5\wave no\"""" IX-1p REFUSE EAT+ fs-BAGEL (1h)5\wave no\""""",IX-1p CHEESE ns-fs-MARY,5,2,8,0,11
+asllrp3_78e811c2d71614bf,current_nohand_flush,"#IF IX-3p:i PINEAPPLE fs-CREAM CHEESE (1h)5\wave no\"""" IX-1p REFUSE EAT+ fs-BAGEL (1h)5\wave no\""""",IX-1p IX-1p CHEESE WHO+,5,3,7,0,11
+asllrp3_78e811c2d71614bf,nohand_discard_fix,"#IF IX-3p:i PINEAPPLE fs-CREAM CHEESE (1h)5\wave no\"""" IX-1p REFUSE EAT+ fs-BAGEL (1h)5\wave no\""""",IX-1p IX-1p CHEESE WHO+,5,3,7,0,11
+asllrp3_0ac803511c6b79e9,continuous_training_features_greedy,"GO-OUT RAIN 5\wave no\"""" (1)TEMPERATURE-DROP SNOW",BOX/ROOM WASHING-MACHINE+ part:indef SNOW,3,3,1,0,5
+asllrp3_0ac803511c6b79e9,current_nohand_flush,"GO-OUT RAIN 5\wave no\"""" (1)TEMPERATURE-DROP SNOW",BOX/ROOM HAPPEN SNOW,3,2,2,0,5
+asllrp3_0ac803511c6b79e9,nohand_discard_fix,"GO-OUT RAIN 5\wave no\"""" (1)TEMPERATURE-DROP SNOW",BOX/ROOM HAPPEN SNOW,3,2,2,0,5
+asllrp3_93cd336742a43cfa,continuous_training_features_greedy,(1h)HAVE VISUALIZE MEAN part:indef LONG-LIST,part:indef,14,0,4,0,5
+asllrp3_93cd336742a43cfa,current_nohand_flush,(1h)HAVE VISUALIZE MEAN part:indef LONG-LIST,part:indef,14,0,4,0,5
+asllrp3_93cd336742a43cfa,nohand_discard_fix,(1h)HAVE VISUALIZE MEAN part:indef LONG-LIST,part:indef,14,0,4,0,5
+asllrp3_f044f9015af1c098,continuous_training_features_greedy,IF+ RAIN TOMORROW IX-1p ARRIVE UNCLE HOUSE STAY IN+,IX-2p INTERNET HOUSE STAY IN+,9,2,4,0,9
+asllrp3_f044f9015af1c098,current_nohand_flush,IF+ RAIN TOMORROW IX-1p ARRIVE UNCLE HOUSE STAY IN+,IX-2p,9,1,8,0,9
+asllrp3_f044f9015af1c098,nohand_discard_fix,IF+ RAIN TOMORROW IX-1p ARRIVE UNCLE HOUSE STAY IN+,IX-2p,9,1,8,0,9
+asllrp3_f3d6600ecfbc58e5,continuous_training_features_greedy,(G/Q)POSS-1p OFFICE POSS-1p BOSS WORK ABOVE IX-loc+:i,IX-1p NOT IX-loc+:i,21,2,4,0,7
+asllrp3_f3d6600ecfbc58e5,current_nohand_flush,(G/Q)POSS-1p OFFICE POSS-1p BOSS WORK ABOVE IX-loc+:i,HAPPEN IX-2p,21,2,5,0,7
+asllrp3_f3d6600ecfbc58e5,nohand_discard_fix,(G/Q)POSS-1p OFFICE POSS-1p BOSS WORK ABOVE IX-loc+:i,IX-2p,21,1,6,0,7
+asllrp3_c467ef7d51080f48,continuous_training_features_greedy,ns-fs-JACK STAND GO-OUT+ IX-3p:i SEE SOMETHING/ONE STRANGE QMwg,IX-1p (1h)part:indef part:indef,10,3,5,0,8
+asllrp3_c467ef7d51080f48,current_nohand_flush,ns-fs-JACK STAND GO-OUT+ IX-3p:i SEE SOMETHING/ONE STRANGE QMwg,IX-1p GO-OUT IX-1p IX-1p IX-2p IX-1p,10,6,2,0,8
+asllrp3_c467ef7d51080f48,nohand_discard_fix,ns-fs-JACK STAND GO-OUT+ IX-3p:i SEE SOMETHING/ONE STRANGE QMwg,IX-1p GO-OUT IX-1p IX-2p IX-1p,10,5,3,0,8
+asllrp3_ba5ef08595898ad5,continuous_training_features_greedy,IX-3p:i MAGAZINE QUOTE/TOPIC PEOPLE fs-PEOPLE KNOW IX-2p THINK (1h)GOOD/THANK-YOU IX-2p QMwg,WEATHER ns-fs-JOHN QMwg,8,2,8,0,11
+asllrp3_ba5ef08595898ad5,current_nohand_flush,IX-3p:i MAGAZINE QUOTE/TOPIC PEOPLE fs-PEOPLE KNOW IX-2p THINK (1h)GOOD/THANK-YOU IX-2p QMwg,WEATHER IX-1p IX-1p IX-1p,8,4,7,0,11
+asllrp3_ba5ef08595898ad5,nohand_discard_fix,IX-3p:i MAGAZINE QUOTE/TOPIC PEOPLE fs-PEOPLE KNOW IX-2p THINK (1h)GOOD/THANK-YOU IX-2p QMwg,WEATHER IX-1p IX-1p,8,3,8,0,11
+asllrp3_4e797666982b3cee,continuous_training_features_greedy,"TEACH+AGENT NOT REQUIRE BOOK READ DROP IX-3p:i ns-fs-JOHN FUTURE READ BOOK (2h)B-L\I don't know\""""",IX-1p DROP WHO,11,2,9,0,12
+asllrp3_4e797666982b3cee,current_nohand_flush,"TEACH+AGENT NOT REQUIRE BOOK READ DROP IX-3p:i ns-fs-JOHN FUTURE READ BOOK (2h)B-L\I don't know\""""",IX-1p GO-OUT IX-1p GO-OUT IX-1p,11,5,7,0,12
+asllrp3_4e797666982b3cee,nohand_discard_fix,"TEACH+AGENT NOT REQUIRE BOOK READ DROP IX-3p:i ns-fs-JOHN FUTURE READ BOOK (2h)B-L\I don't know\""""",IX-1p GO-OUT GO-OUT IX-1p,11,4,8,0,12
+asllrp3_92df92272fa53cdd,continuous_training_features_greedy,MUST CULTURE DEVELOP MEAN VOICE INCLUDE/INVOLVE IDEA,,23,0,7,0,7
+asllrp3_92df92272fa53cdd,current_nohand_flush,MUST CULTURE DEVELOP MEAN VOICE INCLUDE/INVOLVE IDEA,#SO,23,1,6,0,7
+asllrp3_92df92272fa53cdd,nohand_discard_fix,MUST CULTURE DEVELOP MEAN VOICE INCLUDE/INVOLVE IDEA,#SO,23,1,6,0,7
+asllrp3_123271ff75c8914f,continuous_training_features_greedy,IX-1p LOOK ns-fs-JOHN MANIPULATE+ ns-fs-MARY IX-1p (1h)ANGRY HUNGRY/WISH IX-3p-pl-2:i/j RELATIONSHIP-OFF,INVITE/HIRE IX-loc:i MANIPULATE+,2,2,7,0,10
+asllrp3_123271ff75c8914f,current_nohand_flush,IX-1p LOOK ns-fs-JOHN MANIPULATE+ ns-fs-MARY IX-1p (1h)ANGRY HUNGRY/WISH IX-3p-pl-2:i/j RELATIONSHIP-OFF,INVITE/HIRE IX-loc:i MANIPULATE+,2,2,7,0,10
+asllrp3_123271ff75c8914f,nohand_discard_fix,IX-1p LOOK ns-fs-JOHN MANIPULATE+ ns-fs-MARY IX-1p (1h)ANGRY HUNGRY/WISH IX-3p-pl-2:i/j RELATIONSHIP-OFF,INVITE/HIRE IX-loc:i MANIPULATE+,2,2,7,0,10
+asllrp3_a22911f88ad4da02,continuous_training_features_greedy,IX-1p MUST TAKE-UP TEST_2 AGAIN,IX-1p,12,0,4,0,5
+asllrp3_a22911f88ad4da02,current_nohand_flush,IX-1p MUST TAKE-UP TEST_2 AGAIN,IX-1p IX-1p IX-1p IX-1p,12,3,1,0,5
+asllrp3_a22911f88ad4da02,nohand_discard_fix,IX-1p MUST TAKE-UP TEST_2 AGAIN,IX-1p IX-1p IX-1p,12,2,2,0,5
+asllrp3_973b3f7cc1b9bf55,continuous_training_features_greedy,(P)PARTY NIGHT START EIGHT NINE part:indef,IX-1p GO-OUT #NO+ (1h)part:indef part:indef,10,4,1,0,6
+asllrp3_973b3f7cc1b9bf55,current_nohand_flush,(P)PARTY NIGHT START EIGHT NINE part:indef,IX-1p IX-1p,10,2,4,0,6
+asllrp3_973b3f7cc1b9bf55,nohand_discard_fix,(P)PARTY NIGHT START EIGHT NINE part:indef,IX-1p,10,1,5,0,6
+asllrp3_9f4a149cf3fb79d6,continuous_training_features_greedy,SUMMER HOT fs-DAY IX-loc:i ns-fs-MARY KISS-FIST DRINK LEMON+,fs-DAY ns-fs-MARY LEMON+,2,0,5,0,8
+asllrp3_9f4a149cf3fb79d6,current_nohand_flush,SUMMER HOT fs-DAY IX-loc:i ns-fs-MARY KISS-FIST DRINK LEMON+,fs-DAY SORRY,2,1,6,0,8
+asllrp3_9f4a149cf3fb79d6,nohand_discard_fix,SUMMER HOT fs-DAY IX-loc:i ns-fs-MARY KISS-FIST DRINK LEMON+,fs-DAY SORRY,2,1,6,0,8
+asllrp3_1b826388cd623c69,continuous_training_features_greedy,WHEN NOT SNOW (G/Q)POSS-1p fs-TRIP IX-3p:i CANCEL/CRITICIZE,"ns-fs-JOHN NOT SNOW RAIN+ 5\wave no\"""" CANCEL/CRITICIZE",7,3,1,0,7
+asllrp3_1b826388cd623c69,current_nohand_flush,WHEN NOT SNOW (G/Q)POSS-1p fs-TRIP IX-3p:i CANCEL/CRITICIZE,ns-fs-JOHN NOT IX-1p HAPPEN HAPPEN,7,4,2,0,7
+asllrp3_1b826388cd623c69,nohand_discard_fix,WHEN NOT SNOW (G/Q)POSS-1p fs-TRIP IX-3p:i CANCEL/CRITICIZE,ns-fs-JOHN NOT IX-1p HAPPEN,7,3,3,0,7
+asllrp3_72af54e74ad190e2,continuous_training_features_greedy,IDEA UNDERSTAND IX-loc:j INFORM IN POLITE CORRECT NARROW-STREET IX-3p:i FUTURE ACCEPT,MEAN,16,1,10,0,11
+asllrp3_72af54e74ad190e2,current_nohand_flush,IDEA UNDERSTAND IX-loc:j INFORM IN POLITE CORRECT NARROW-STREET IX-3p:i FUTURE ACCEPT,WHO,16,1,10,0,11
+asllrp3_72af54e74ad190e2,nohand_discard_fix,IDEA UNDERSTAND IX-loc:j INFORM IN POLITE CORRECT NARROW-STREET IX-3p:i FUTURE ACCEPT,WHO,16,1,10,0,11
+asllrp3_d8ea4b067f145801,continuous_training_features_greedy,"#IF SWIM IX-1p WANT+NEG FUTURE DO-DO SCL:bent-U-L\person walking\""""",WHO,11,1,6,0,7
+asllrp3_d8ea4b067f145801,current_nohand_flush,"#IF SWIM IX-1p WANT+NEG FUTURE DO-DO SCL:bent-U-L\person walking\""""",,11,0,7,0,7
+asllrp3_d8ea4b067f145801,nohand_discard_fix,"#IF SWIM IX-1p WANT+NEG FUTURE DO-DO SCL:bent-U-L\person walking\""""",,11,0,7,0,7
+asllrp3_87c503f2bbb54b45,continuous_training_features_greedy,IX-1p KISS-FIST APPLE DURING/WHILE AUTUMN,IX-1p,15,0,4,0,5
+asllrp3_87c503f2bbb54b45,current_nohand_flush,IX-1p KISS-FIST APPLE DURING/WHILE AUTUMN,IX-1p IX-2p,15,1,3,0,5
+asllrp3_87c503f2bbb54b45,nohand_discard_fix,IX-1p KISS-FIST APPLE DURING/WHILE AUTUMN,,15,0,5,0,5
+asllrp3_9aef09e69dc26e16,continuous_training_features_greedy,CAT IX-3p:i (1h)HAVE NEXT-TO FIND/FIND-OUT IX-3p:j REALLY HUNGRY/WISH (1h)WOW/AWFUL,IX-1p GO-OUT GO-OUT QMwg HUNGRY/WISH QMwg,9,5,3,0,9
+asllrp3_9aef09e69dc26e16,current_nohand_flush,CAT IX-3p:i (1h)HAVE NEXT-TO FIND/FIND-OUT IX-3p:j REALLY HUNGRY/WISH (1h)WOW/AWFUL,IX-1p GO-OUT GO-OUT IX-1p IX-1p,9,5,4,0,9
+asllrp3_9aef09e69dc26e16,nohand_discard_fix,CAT IX-3p:i (1h)HAVE NEXT-TO FIND/FIND-OUT IX-3p:j REALLY HUNGRY/WISH (1h)WOW/AWFUL,IX-1p GO-OUT GO-OUT IX-1p,9,4,5,0,9
+asllrp3_134819a628365aa8,continuous_training_features_greedy,LIE (1h)FINISH NOT FUNNY WHERE MOTHER+ (1h)part:indef,IX-3p:i FUNNY STRANGE,7,2,4,0,7
+asllrp3_134819a628365aa8,current_nohand_flush,LIE (1h)FINISH NOT FUNNY WHERE MOTHER+ (1h)part:indef,IX-3p:i IX-3p:i ns-fs-JOHN FUNNY IX-3p:i,7,4,2,0,7
+asllrp3_134819a628365aa8,nohand_discard_fix,LIE (1h)FINISH NOT FUNNY WHERE MOTHER+ (1h)part:indef,IX-3p:i ns-fs-JOHN IX-3p:i,7,3,4,0,7
+asllrp3_1a88e628036166e5,continuous_training_features_greedy,IX-1p CANNOT BELIEVE IX-3p:i NOT (1)GUILTY IX-1p THINK IX-3p:i (1)GUILTY+,IX-1p (1)GUILTY+,11,0,8,0,10
+asllrp3_1a88e628036166e5,current_nohand_flush,IX-1p CANNOT BELIEVE IX-3p:i NOT (1)GUILTY IX-1p THINK IX-3p:i (1)GUILTY+,IX-1p BOX/ROOM IX-1p IX-1p IX-1p BOY+,11,4,4,0,10
+asllrp3_1a88e628036166e5,nohand_discard_fix,IX-1p CANNOT BELIEVE IX-3p:i NOT (1)GUILTY IX-1p THINK IX-3p:i (1)GUILTY+,IX-1p IX-1p BOY+,11,1,7,0,10
+asllrp3_261e95e8592cb319,continuous_training_features_greedy,"CAN MAKE IX-3p:k DCL:flat-O\put it collectively\"""" LEARN+ DCL:bent-1\this pathway\"""" SET-UP DIFFERENT LIST-ORDER",,20,0,9,0,9
+asllrp3_261e95e8592cb319,current_nohand_flush,"CAN MAKE IX-3p:k DCL:flat-O\put it collectively\"""" LEARN+ DCL:bent-1\this pathway\"""" SET-UP DIFFERENT LIST-ORDER",WHO HOW HOW,20,3,6,0,9
+asllrp3_261e95e8592cb319,nohand_discard_fix,"CAN MAKE IX-3p:k DCL:flat-O\put it collectively\"""" LEARN+ DCL:bent-1\this pathway\"""" SET-UP DIFFERENT LIST-ORDER",WHO HOW,20,2,7,0,9
+asllrp3_2ca2e1a38917b354,continuous_training_features_greedy,FINISH BUY CAR+ WHO,BUY FRIEND WHO,1,1,1,0,4
+asllrp3_2ca2e1a38917b354,current_nohand_flush,FINISH BUY CAR+ WHO,BUY FRIEND WHO,1,1,1,0,4
+asllrp3_2ca2e1a38917b354,nohand_discard_fix,FINISH BUY CAR+ WHO,BUY FRIEND WHO,1,1,1,0,4
+asllrp3_3901b1120b071ed7,continuous_training_features_greedy,ALCOHOL+ SELF-3p+:i NOT ALWAYS (1h)GOOD/THANK-YOU part:indef,IX-1p KING part:indef,9,2,3,0,6
+asllrp3_3901b1120b071ed7,current_nohand_flush,ALCOHOL+ SELF-3p+:i NOT ALWAYS (1h)GOOD/THANK-YOU part:indef,IX-1p IX-1p IX-2p,9,3,3,0,6
+asllrp3_3901b1120b071ed7,nohand_discard_fix,ALCOHOL+ SELF-3p+:i NOT ALWAYS (1h)GOOD/THANK-YOU part:indef,IX-1p IX-2p,9,2,4,0,6
+asllrp3_bac6d12c8851ae1d,continuous_training_features_greedy,ns-fs-LIZ SISTER IX-3p:i FAMOUS WHO,IX-1p WHO,3,1,3,0,5
+asllrp3_bac6d12c8851ae1d,current_nohand_flush,ns-fs-LIZ SISTER IX-3p:i FAMOUS WHO,IX-1p IX-1p,3,2,3,0,5
+asllrp3_bac6d12c8851ae1d,nohand_discard_fix,ns-fs-LIZ SISTER IX-3p:i FAMOUS WHO,IX-1p IX-1p,3,2,3,0,5
+asllrp3_d52d4cc9ab4abd14,continuous_training_features_greedy,MOTHER COME MUST NICE/CLEAN+ HOUSE,,13,0,5,0,5
+asllrp3_d52d4cc9ab4abd14,current_nohand_flush,MOTHER COME MUST NICE/CLEAN+ HOUSE,IX-2p ns-fs-MARY,13,2,3,0,5
+asllrp3_d52d4cc9ab4abd14,nohand_discard_fix,MOTHER COME MUST NICE/CLEAN+ HOUSE,IX-2p ns-fs-MARY,13,2,3,0,5
+asllrp3_485cd7863735b16e,continuous_training_features_greedy,"ns-fs-MARY STOP ROWING+ 5\out of my control\"""" NOT CONTINUE ROWING 5\no more\""""","IX-1p BELIEVE 5\wave no\"""" ROWING THRILL/WHAT'S-UP",11,4,3,0,8
+asllrp3_485cd7863735b16e,current_nohand_flush,"ns-fs-MARY STOP ROWING+ 5\out of my control\"""" NOT CONTINUE ROWING 5\no more\""""",IX-1p IX-1p IX-1p NONE/NOTHING IX-1p HAPPEN,11,6,2,0,8
+asllrp3_485cd7863735b16e,nohand_discard_fix,"ns-fs-MARY STOP ROWING+ 5\out of my control\"""" NOT CONTINUE ROWING 5\no more\""""",IX-1p IX-1p IX-1p HAPPEN,11,4,4,0,8
+asllrp3_96a6331ebbafbeb3,continuous_training_features_greedy,LOUD (Y)WOW POLITE NONE/NOTHING fs-BARBARIC WOW LOOK-OVER LONG-LIST,,22,0,8,0,8
+asllrp3_96a6331ebbafbeb3,current_nohand_flush,LOUD (Y)WOW POLITE NONE/NOTHING fs-BARBARIC WOW LOOK-OVER LONG-LIST,#SO WHO,22,2,6,0,8
+asllrp3_96a6331ebbafbeb3,nohand_discard_fix,LOUD (Y)WOW POLITE NONE/NOTHING fs-BARBARIC WOW LOOK-OVER LONG-LIST,#SO WHO,22,2,6,0,8
+asllrp3_678bc149c74643bb,continuous_training_features_greedy,#IF+ IX-1p GO-OUT EAT WHO (P)PAY part:indef,part:indef,12,0,6,0,7
+asllrp3_678bc149c74643bb,current_nohand_flush,#IF+ IX-1p GO-OUT EAT WHO (P)PAY part:indef,,12,0,7,0,7
+asllrp3_678bc149c74643bb,nohand_discard_fix,#IF+ IX-1p GO-OUT EAT WHO (P)PAY part:indef,,12,0,7,0,7
+asllrp3_504e268845a5da2e,continuous_training_features_greedy,IX-1p (2h)LOOK MOVIE PAST+NIGHT ACT+AGENT (1h)GOOD/THANK-YOU,,24,0,6,0,6
+asllrp3_504e268845a5da2e,current_nohand_flush,IX-1p (2h)LOOK MOVIE PAST+NIGHT ACT+AGENT (1h)GOOD/THANK-YOU,IX-1p IX-1p,24,1,4,0,6
+asllrp3_504e268845a5da2e,nohand_discard_fix,IX-1p (2h)LOOK MOVIE PAST+NIGHT ACT+AGENT (1h)GOOD/THANK-YOU,IX-1p,24,0,5,0,6
+asllrp3_59cfe8e1e6e22f53,continuous_training_features_greedy,COAT RECENT-PAST (1h)PAY/BUY IX-3p:i FACE WARM IX-3p:i,IX-1p NOTHING-AT-ALL WIN,5,3,4,0,7
+asllrp3_59cfe8e1e6e22f53,current_nohand_flush,COAT RECENT-PAST (1h)PAY/BUY IX-3p:i FACE WARM IX-3p:i,IX-1p IX-1p NOTHING-AT-ALL IX-1p,5,4,3,0,7
+asllrp3_59cfe8e1e6e22f53,nohand_discard_fix,COAT RECENT-PAST (1h)PAY/BUY IX-3p:i FACE WARM IX-3p:i,IX-1p NOTHING-AT-ALL IX-1p,5,3,4,0,7
+asllrp3_626e769a1bef0b50,continuous_training_features_greedy,"IX-3p:i CAR BREAK-DOWN 5\frustration\""""","IX-3p:i BREAK-DOWN 5\frustration\""""",15,0,1,0,4
+asllrp3_626e769a1bef0b50,current_nohand_flush,"IX-3p:i CAR BREAK-DOWN 5\frustration\""""",IX-1p,15,1,3,0,4
+asllrp3_626e769a1bef0b50,nohand_discard_fix,"IX-3p:i CAR BREAK-DOWN 5\frustration\""""",IX-1p,15,1,3,0,4
+asllrp3_909fe62e2de7d50e,continuous_training_features_greedy,EMERGENCY+ IX-loc:i GO-OUT WHERE,IX-1p ns-fs-SALLY WHERE,4,2,1,0,4
+asllrp3_909fe62e2de7d50e,current_nohand_flush,EMERGENCY+ IX-loc:i GO-OUT WHERE,IX-1p BOX/ROOM,4,2,2,0,4
+asllrp3_909fe62e2de7d50e,nohand_discard_fix,EMERGENCY+ IX-loc:i GO-OUT WHERE,IX-1p BOX/ROOM,4,2,2,0,4
+asllrp3_63f7317819c0d217,continuous_training_features_greedy,SOME fs-CODA IX-3p:i/j BETWEEN/SHARE EMBARRASS MINUTE POSS-3p-pl-arc EXPERIENCE,,15,0,8,0,8
+asllrp3_63f7317819c0d217,current_nohand_flush,SOME fs-CODA IX-3p:i/j BETWEEN/SHARE EMBARRASS MINUTE POSS-3p-pl-arc EXPERIENCE,HOW HOW HOW IX-1p,15,4,4,0,8
+asllrp3_63f7317819c0d217,nohand_discard_fix,SOME fs-CODA IX-3p:i/j BETWEEN/SHARE EMBARRASS MINUTE POSS-3p-pl-arc EXPERIENCE,HOW HOW IX-1p,15,3,5,0,8
+asllrp3_f287924af5fb30f8,continuous_training_features_greedy,"IX-3p:i BUY CAR \WHAT\"""" KIND",IX-1p FRIEND,6,2,3,0,5
+asllrp3_f287924af5fb30f8,current_nohand_flush,"IX-3p:i BUY CAR \WHAT\"""" KIND",,6,0,5,0,5
+asllrp3_f287924af5fb30f8,nohand_discard_fix,"IX-3p:i BUY CAR \WHAT\"""" KIND",,6,0,5,0,5
+asllrp3_ee578a14cf688af4,continuous_training_features_greedy,IX-1p D CLASS_2 IX-1p ACCEPT,IX-1p DEPART IX-2p CONTINUE,11,3,1,0,5
+asllrp3_ee578a14cf688af4,current_nohand_flush,IX-1p D CLASS_2 IX-1p ACCEPT,IX-1p IX-1p,11,0,3,0,5
+asllrp3_ee578a14cf688af4,nohand_discard_fix,IX-1p D CLASS_2 IX-1p ACCEPT,IX-1p,11,0,4,0,5
+asllrp3_b01f2e29235534c3,continuous_training_features_greedy,CAR IX-3p:i (1h)(flat-O)PAY/SPEND YESTERDAY DO-DO+ KIND part:indef,IX-1p YESTERDAY (1h)HAPPY+ (1h)part:indef,5,3,3,0,7
+asllrp3_b01f2e29235534c3,current_nohand_flush,CAR IX-3p:i (1h)(flat-O)PAY/SPEND YESTERDAY DO-DO+ KIND part:indef,IX-1p IX-1p IX-1p IX-1p IX-1p,5,5,2,0,7
+asllrp3_b01f2e29235534c3,nohand_discard_fix,CAR IX-3p:i (1h)(flat-O)PAY/SPEND YESTERDAY DO-DO+ KIND part:indef,IX-1p IX-1p IX-1p IX-1p IX-1p,5,5,2,0,7
+asllrp3_d4dc011f23660ebd,continuous_training_features_greedy,"IX-pl-2:i/j ns-fs-JOHN ns-fs-MARY (1h)HAVE STRANGE BICYCLE SCL:crvd-V\two people on tandem bicycle\""""","ns-fs-JOHN SCL:crvd-V\two people on tandem bicycle\""""",5,0,5,0,7
+asllrp3_d4dc011f23660ebd,current_nohand_flush,"IX-pl-2:i/j ns-fs-JOHN ns-fs-MARY (1h)HAVE STRANGE BICYCLE SCL:crvd-V\two people on tandem bicycle\""""",LEND,5,1,6,0,7
+asllrp3_d4dc011f23660ebd,nohand_discard_fix,"IX-pl-2:i/j ns-fs-JOHN ns-fs-MARY (1h)HAVE STRANGE BICYCLE SCL:crvd-V\two people on tandem bicycle\""""",LEND,5,1,6,0,7
+asllrp3_8a77d228743459a0,continuous_training_features_greedy,"5\wave no\"""" PINEAPPLE fs-CREAM CHEESE 5\wave no\"""" BETTER fs-LOX IX-1p 5\hands off\""""","fs-CREAM CHEESE FUTURE (1h)5\wave no\"""" HOME",9,3,4,0,9
+asllrp3_8a77d228743459a0,current_nohand_flush,"5\wave no\"""" PINEAPPLE fs-CREAM CHEESE 5\wave no\"""" BETTER fs-LOX IX-1p 5\hands off\""""",IX-1p BOX/ROOM WANT IX-2p SMALL IX-1p IX-1p IX-1p SNOW IX-1p,9,8,0,1,9
+asllrp3_8a77d228743459a0,nohand_discard_fix,"5\wave no\"""" PINEAPPLE fs-CREAM CHEESE 5\wave no\"""" BETTER fs-LOX IX-1p 5\hands off\""""",BOX/ROOM WANT IX-2p SMALL IX-1p,9,4,4,0,9
+asllrp3_43f08c385e3032ea,continuous_training_features_greedy,AND MORE COOPERATE/UNITE HOW DEAF PEOPLE POSS-3p-pl-arc EXPERIENCE IN THAT WORLD,,25,0,11,0,11
+asllrp3_43f08c385e3032ea,current_nohand_flush,AND MORE COOPERATE/UNITE HOW DEAF PEOPLE POSS-3p-pl-arc EXPERIENCE IN THAT WORLD,HOW IX-1p WHO (1)GUILTY+,25,3,7,0,11
+asllrp3_43f08c385e3032ea,nohand_discard_fix,AND MORE COOPERATE/UNITE HOW DEAF PEOPLE POSS-3p-pl-arc EXPERIENCE IN THAT WORLD,HOW IX-1p WHO (1)GUILTY+,25,3,7,0,11
+asllrp3_355ddb09c3733046,continuous_training_features_greedy,"IX-1p MUST FIND/FIND-OUT (1h)\WHAT\"""" GIFT FOR MOTHER+ (1h)part:indef",ns-fs-MARY ns-fs-MARY WHO (1h)part:indef,0,3,4,0,8
+asllrp3_355ddb09c3733046,current_nohand_flush,"IX-1p MUST FIND/FIND-OUT (1h)\WHAT\"""" GIFT FOR MOTHER+ (1h)part:indef",ns-fs-MARY ns-fs-MARY WHO,0,3,5,0,8
+asllrp3_355ddb09c3733046,nohand_discard_fix,"IX-1p MUST FIND/FIND-OUT (1h)\WHAT\"""" GIFT FOR MOTHER+ (1h)part:indef",ns-fs-MARY ns-fs-MARY WHO,0,3,5,0,8
+asllrp3_36ac991e9949fbc8,continuous_training_features_greedy,REALLY SELF-3p+:i OLD NOT IMPORTANT (1h)part:indef,IX-1p (1h)part:indef,19,1,4,0,6
+asllrp3_36ac991e9949fbc8,current_nohand_flush,REALLY SELF-3p+:i OLD NOT IMPORTANT (1h)part:indef,IX-1p IX-1p IX-1p IX-1p,19,4,2,0,6
+asllrp3_36ac991e9949fbc8,nohand_discard_fix,REALLY SELF-3p+:i OLD NOT IMPORTANT (1h)part:indef,IX-1p,19,1,5,0,6
+asllrp3_7700920d6105eb7c,continuous_training_features_greedy,POSS-1p BROTHER FIND/FIND-OUT BRACELET SELF-3p:i REALLY fs-GOLD,ns-fs-BILL QMwg,16,2,5,0,7
+asllrp3_7700920d6105eb7c,current_nohand_flush,POSS-1p BROTHER FIND/FIND-OUT BRACELET SELF-3p:i REALLY fs-GOLD,IX-1p IX-2p IX-2p IX-1p,16,4,3,0,7
+asllrp3_7700920d6105eb7c,nohand_discard_fix,POSS-1p BROTHER FIND/FIND-OUT BRACELET SELF-3p:i REALLY fs-GOLD,IX-1p IX-2p IX-2p,16,3,4,0,7
+asllrp3_3695057508533d74,continuous_training_features_greedy,FATHER i:SAME-1p LIKE PINEAPPLE fs-CREAM CHEESE,WEATHER i:SAME-1p fs-CREAM CHEESE,4,1,2,0,6
+asllrp3_3695057508533d74,current_nohand_flush,FATHER i:SAME-1p LIKE PINEAPPLE fs-CREAM CHEESE,WEATHER IX-1p i:SAME-1p,4,3,3,0,6
+asllrp3_3695057508533d74,nohand_discard_fix,FATHER i:SAME-1p LIKE PINEAPPLE fs-CREAM CHEESE,WEATHER IX-1p i:SAME-1p,4,3,3,0,6
+asllrp3_1a86480112b2eba4,continuous_training_features_greedy,IX-2p FINGERSPELL+ LOUSY (1h)INFORM:i,IX-1p FINGERSPELL+,7,1,2,0,4
+asllrp3_1a86480112b2eba4,current_nohand_flush,IX-2p FINGERSPELL+ LOUSY (1h)INFORM:i,GO-OUT GO-OUT IX-1p IX-1p,7,4,0,0,4
+asllrp3_1a86480112b2eba4,nohand_discard_fix,IX-2p FINGERSPELL+ LOUSY (1h)INFORM:i,GO-OUT IX-1p IX-1p,7,3,1,0,4
+asllrp3_05abbca68db07ed2,continuous_training_features_greedy,OTHER EXPERIENCE WITH (F)BELONG WITH POSS-1p (F)BELONG WITH VOICE,,31,0,9,0,9
+asllrp3_05abbca68db07ed2,current_nohand_flush,OTHER EXPERIENCE WITH (F)BELONG WITH POSS-1p (F)BELONG WITH VOICE,IX-3p:i #SO HOW,31,3,6,0,9
+asllrp3_05abbca68db07ed2,nohand_discard_fix,OTHER EXPERIENCE WITH (F)BELONG WITH POSS-1p (F)BELONG WITH VOICE,#SO HOW,31,2,7,0,9

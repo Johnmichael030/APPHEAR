@@ -1,0 +1,11 @@
+{
+  "status": "FAIL",
+  "eligible_for_one_fit": false,
+  "baseline_WER": 0.10587431693989072,
+  "offsets_worsened_at_least_10pp": 0,
+  "required": 3,
+  "inference_seconds": 13.639125899993815,
+  "configuration_frozen_before_inference": true,
+  "TRAIN_only": true,
+  "TEST_used": false
+}

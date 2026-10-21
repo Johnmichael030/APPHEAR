@@ -1,0 +1,42 @@
+Working directory: D:\apphearv3claude\AppHear-claude-s2-r3-eval-suite\AppHear-claude-s2-r3-eval-suite
+Executed once:
+& '.\experiments\continuous_asl\20261019T155428Z_cslr01\runtime\venv\Scripts\python.exe' '.\evidence\20261021T062258Z_continuous_detectionfix01\continuity_replay\safety_before_after\compare_safety.py'
+Exit0. Config frozen before ORT inference; no fitting, tuning or deployment.
+{
+  "status": "PASS_COMPUTATIONAL_SAFETY_COMPARISON_NOT_ACCURACY_ACCEPTANCE",
+  "metrics": {
+    "OLD_flush": {
+      "substitutions": 230,
+      "deletions": 232,
+      "insertions": 2,
+      "reference_tokens": 485,
+      "utterances": 80,
+      "exact_sequences": 0,
+      "empty_outputs": 7,
+      "hypothesis_tokens": 255,
+      "nohand_token_publications": 58,
+      "nohand_model_calls": 0,
+      "WER": 0.9567010309278351,
+      "exact_sequence_fraction": 0.0
+    },
+    "NEW_discard": {
+      "substitutions": 176,
+      "deletions": 288,
+      "insertions": 0,
+      "reference_tokens": 485,
+      "utterances": 80,
+      "exact_sequences": 0,
+      "empty_outputs": 7,
+      "hypothesis_tokens": 197,
+      "nohand_token_publications": 0,
+      "nohand_model_calls": 0,
+      "WER": 0.9567010309278351,
+      "exact_sequence_fraction": 0.0
+    }
+  },
+  "measured_inference_and_scoring_seconds": 0.08664699998917058,
+  "config_sha256": "696d4f58c8a957cc158b092393901327184fe4f865b1b16fe8d9927e20dd8d94",
+  "no_TEST": true,
+  "source_model_and_labels_unchanged": true,
+  "interpretation": "Suppressing absent-hand publications enforces the declared visibility safety contract; report deletion/WER tradeoff explicitly. Lifecycle tests do not establish quality. No deployment/model selection occurred in this replay."
+}

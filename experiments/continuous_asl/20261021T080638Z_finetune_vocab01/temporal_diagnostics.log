@@ -1,0 +1,1 @@
+PASS: saved publisher interval sampling and cached CTC runs; boundary accuracy/no-sign/live latency remain unmeasured.

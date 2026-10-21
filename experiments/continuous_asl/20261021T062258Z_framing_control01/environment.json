@@ -1,0 +1,8 @@
+{
+  "torch": "2.8.0+cu128",
+  "CUDA": "12.8",
+  "device": "NVIDIA GeForce RTX 3050 Laptop GPU",
+  "device_total_bytes": 4294443008,
+  "device_free_bytes": 3376100148,
+  "nondeterminism": "CUDA CTC warn_only; no seed-equivalent causal claim"
+}

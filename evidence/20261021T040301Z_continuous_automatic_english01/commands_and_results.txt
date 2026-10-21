@@ -1,0 +1,28 @@
+Working directory:
+D:\apphearv3claude\AppHear-claude-s2-r3-eval-suite\AppHear-claude-s2-r3-eval-suite
+
+1. Scoped originals and previous APK copied to before/. Hashes saved to preservation_before.json before source edits.
+2. Python create_english_assets.py: 75 word equivalents, 40 phrase templates, 2,212 unsupported literal targets. No training or participant fixtures used.
+3. Full build exact Gradle arguments are in build_command.txt. Run from android with JAVA_HOME=C:\Program Files\Eclipse Adoptium\jdk-17.0.20.101-hotspot. Quote every -P argument when pasting into PowerShell. Result: BUILD SUCCESSFUL, exit 0, 121.1946913 seconds. testDebugUnitTest, assembleDebug, assembleDebugAndroidTest.
+4. Same build flags, testDebugUnitTest after packaged-language contract tests were added: BUILD SUCCESSFUL in49s. 293 tests, 0 failures/errors/skips. Main APK unchanged by test-only additions.
+5. adb devices -l: empty. adb -s R9AT401M8HJ shell pm path com.example.apphear: device not found. No app installation, removal, data clearing or camera capture performed.
+6. Preservation/package check (writes reports only in this evidence directory; reuses APK copy if present):
+& '.\experiments\continuous_asl\20261019T155428Z_cslr01\runtime\venv\Scripts\python.exe' '.\evidence\20261021T040301Z_continuous_automatic_english01\verify_and_package.py'
+Result: PASS — 173 frozen files, 526 prior APK asset entries; two new output assets only; model bytes unchanged. APK SHA97ad71071780935137206e89ac25b218206e7696fc236765f7c75d1215e0aefa.
+7. APK verification:
+$env:JAVA_HOME='C:\Program Files\Eclipse Adoptium\jdk-17.0.20.101-hotspot'
+$apk='D:\apphearv3claude\AppHear-claude-s2-r3-eval-suite\AppHear-claude-s2-r3-eval-suite\evidence\20261021T040301Z_continuous_automatic_english01\AppHear-continuous-auto-English-20261021.apk'
+& 'C:\Users\johnm\AppData\Local\Android\Sdk\build-tools\35.0.0\apksigner.bat' verify --verbose --print-certs $apk
+& 'C:\Users\johnm\AppData\Local\Android\Sdk\build-tools\35.0.0\aapt.exe' dump badging $apk
+Result: signature verifies; com.example.apphear / 1.0-continuous-auto-20261021 / minAPI26 / targetAPI36.
+
+NEXT DEVICE COMMANDS (not executed):
+$adb='C:\Users\johnm\AppData\Local\Android\Sdk\platform-tools\adb.exe'
+& $adb devices -l
+# Only after the intended phone is connected and selected:
+& $adb -s R9AT401M8HJ install -r $apk
+# Keep application data. If signature compatibility fails, retain the existing installation and report the error.
+# Open AppHear > Settings > Recognition mode > CONTINUOUS WORD · experimental.
+# Check automatic text, optional edit/cancel, Hear, Clear, scrolling, pause/resume and mode/lens changes.
+
+All synthetic checks are engineering results, not recognition/translation accuracy evidence.

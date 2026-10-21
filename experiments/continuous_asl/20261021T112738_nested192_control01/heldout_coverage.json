@@ -1,0 +1,14 @@
+{
+  "heldout_utterances": 80,
+  "reference_tokens": 485,
+  "model_vocabulary_covered_reference_tokens": 485,
+  "actual192_target_covered_reference_tokens": 386,
+  "actual192_target_fully_covered_utterances": 22,
+  "new192_unique_target_labels": 631,
+  "old96_unique_target_labels": 404,
+  "same_signers": true,
+  "recording_family_disjoint": true,
+  "heldout_families": 2,
+  "no_selection": true,
+  "unseen_signer_generalization": false
+}

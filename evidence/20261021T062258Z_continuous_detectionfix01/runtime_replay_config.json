@@ -1,0 +1,19 @@
+{
+  "schema": "apphear.continuous_asl.cached_training_replay.v1",
+  "rows": "frozen192TRAINonly",
+  "manifest": "D:\\apphearv3claude\\AppHear-claude-s2-r3-eval-suite\\AppHear-claude-s2-r3-eval-suite\\experiments\\continuous_asl\\20261021T112738_nested192_control01\\subset_manifest.json",
+  "manifest_sha256": "8a2234a3eafd0d336ebe888d7b8e391b17410540b62d702315d2f5cb0b3c5f48",
+  "model_sha256": "5651c24209a0951b09a792f44b17f5477dc86f353fb6ade1a3afec64ff20f663",
+  "vocabulary_sha256": "0ca1c3e5c98e69bf53faa53c2c5df8a15c1151e039d950e39fc147c2e78c9a6e",
+  "policies": [
+    "continuous_training_features_greedy",
+    "current_nohand_flush",
+    "nohand_discard_fix"
+  ],
+  "changed_runtime_variable": "No-hand pending-token flush versus discard only. Both retain existing no-hand model/feature reset.",
+  "stable_token_ms": 200.0,
+  "sampling": "Existing cached10Hz genuine observations only; this does NOT simulate missing intervening camera frames or measure live accuracy.",
+  "maximum_tokens": 128,
+  "reserved_TEST_accessed": false,
+  "model_selection": false
+}

@@ -1,0 +1,8 @@
+{
+  "status": "PASS_SYNTHETIC_ONLY",
+  "loss": 1.0759913921356201,
+  "expanded_AdamW_step": true,
+  "actual_new_classes": 0,
+  "participant_data_used": false,
+  "checkpoint_saved": false
+}

@@ -1,0 +1,1087 @@
+{
+  "status": "PASS",
+  "files": 216,
+  "changed": [],
+  "after": {
+    "D:\\apphearv3claude\\AppHear-claude-s2-r3-eval-suite\\AppHear-claude-s2-r3-eval-suite\\experiments\\continuous_asl\\20261020_continuous_expand06\\data\\processed\\asllrp2025\\asllrp3_006251a5a43d4450.features.npz": {
+      "sha256": "36d90394ce3eb385198021342594ef2fe7c47a4224683ef677d3508ab6147a15",
+      "bytes": 12009,
+      "mtime_ns": 1792469044010345200
+    },
+    "D:\\apphearv3claude\\AppHear-claude-s2-r3-eval-suite\\AppHear-claude-s2-r3-eval-suite\\experiments\\continuous_asl\\20261020_continuous_expand06\\data\\processed\\asllrp2025\\asllrp3_0530b726e13f08c3.features.npz": {
+      "sha256": "a52519cb87d57265db1d59a998e630afb6aa2c852254e175a8a06fddbf278bdf",
+      "bytes": 35833,
+      "mtime_ns": 1792470898957282400
+    },
+    "D:\\apphearv3claude\\AppHear-claude-s2-r3-eval-suite\\AppHear-claude-s2-r3-eval-suite\\experiments\\continuous_asl\\20261020_continuous_expand06\\data\\processed\\asllrp2025\\asllrp3_0541021d00521482.features.npz": {
+      "sha256": "c25ac28145b92d47974634a1f0aebd0e5c92e1e45d0423b210a3d4d0036067b1",
+      "bytes": 33670,
+      "mtime_ns": 1792469439352373600
+    },
+    "D:\\apphearv3claude\\AppHear-claude-s2-r3-eval-suite\\AppHear-claude-s2-r3-eval-suite\\experiments\\continuous_asl\\20261020_continuous_expand06\\data\\processed\\asllrp2025\\asllrp3_05abbca68db07ed2.features.npz": {
+      "sha256": "1d51529707f2d6bdeec835446e9588acf1d011243f5dbd6d1bc44441b61db0b2",
+      "bytes": 19379,
+      "mtime_ns": 1792471281735850400
+    },
+    "D:\\apphearv3claude\\AppHear-claude-s2-r3-eval-suite\\AppHear-claude-s2-r3-eval-suite\\experiments\\continuous_asl\\20261020_continuous_expand06\\data\\processed\\asllrp2025\\asllrp3_05cb28187a740ac4.features.npz": {
+      "sha256": "f9e2b80adb50c386c51d9b9ffa97f5a97cb7e7f7098ffbbab370051ae26e5f7e",
+      "bytes": 31651,
+      "mtime_ns": 1792471603038277300
+    },
+    "D:\\apphearv3claude\\AppHear-claude-s2-r3-eval-suite\\AppHear-claude-s2-r3-eval-suite\\experiments\\continuous_asl\\20261020_continuous_expand06\\data\\processed\\asllrp2025\\asllrp3_0834f3a8c0236d70.features.npz": {
+      "sha256": "1e52d016966b96aa3c73b5d318d7756807eb50a29909ae5c52b50b98d5b80feb",
+      "bytes": 25363,
+      "mtime_ns": 1792470788028758800
+    },
+    "D:\\apphearv3claude\\AppHear-claude-s2-r3-eval-suite\\AppHear-claude-s2-r3-eval-suite\\experiments\\continuous_asl\\20261020_continuous_expand06\\data\\processed\\asllrp2025\\asllrp3_08a81b8867243ff9.features.npz": {
+      "sha256": "02d2a722cbd3ba898b93551928cf7df9a8d47da5aa993af21bf265929df3405d",
+      "bytes": 34385,
+      "mtime_ns": 1792470914211622100
+    },
+    "D:\\apphearv3claude\\AppHear-claude-s2-r3-eval-suite\\AppHear-claude-s2-r3-eval-suite\\experiments\\continuous_asl\\20261020_continuous_expand06\\data\\processed\\asllrp2025\\asllrp3_08cfa2b3ad738d79.features.npz": {
+      "sha256": "c5f567cc625d48fb2e6f22bcb636a6fab825525ee3d0b071781910a5e7817ce1",
+      "bytes": 33167,
+      "mtime_ns": 1792471685669196700
+    },
+    "D:\\apphearv3claude\\AppHear-claude-s2-r3-eval-suite\\AppHear-claude-s2-r3-eval-suite\\experiments\\continuous_asl\\20261020_continuous_expand06\\data\\processed\\asllrp2025\\asllrp3_095fbb544880c78d.features.npz": {
+      "sha256": "8fafa474490ce0cb6917bdc51f8af0d8be0127cef25ee0c3c196519258c3bcab",
+      "bytes": 14365,
+      "mtime_ns": 1792469822909006300
+    },
+    "D:\\apphearv3claude\\AppHear-claude-s2-r3-eval-suite\\AppHear-claude-s2-r3-eval-suite\\experiments\\continuous_asl\\20261020_continuous_expand06\\data\\processed\\asllrp2025\\asllrp3_0ac803511c6b79e9.features.npz": {
+      "sha256": "ba9cb025c60a6e6675471240429fe68402b699fcde22634020db0d903c432f4a",
+      "bytes": 27869,
+      "mtime_ns": 1792468870486140800
+    },
+    "D:\\apphearv3claude\\AppHear-claude-s2-r3-eval-suite\\AppHear-claude-s2-r3-eval-suite\\experiments\\continuous_asl\\20261020_continuous_expand06\\data\\processed\\asllrp2025\\asllrp3_0ad9c994086877b1.features.npz": {
+      "sha256": "6c3a93b8ea97b80e1df31798471b7deb49c095d00e5ea7e9279adbc206ea2713",
+      "bytes": 45007,
+      "mtime_ns": 1792469586132108500
+    },
+    "D:\\apphearv3claude\\AppHear-claude-s2-r3-eval-suite\\AppHear-claude-s2-r3-eval-suite\\experiments\\continuous_asl\\20261020_continuous_expand06\\data\\processed\\asllrp2025\\asllrp3_0d0619cc55ea2d3b.features.npz": {
+      "sha256": "af594a856448fadcb26ba35cb9fe1ca8f7a4419cf4ba8630d531c5f7079e96b5",
+      "bytes": 54048,
+      "mtime_ns": 1792471415131637300
+    },
+    "D:\\apphearv3claude\\AppHear-claude-s2-r3-eval-suite\\AppHear-claude-s2-r3-eval-suite\\experiments\\continuous_asl\\20261020_continuous_expand06\\data\\processed\\asllrp2025\\asllrp3_0eb94e195eb6841e.features.npz": {
+      "sha256": "9f840d1bc1f07a350099e5ae953137ef6573fb198972b10d6c265ad1deeba6c5",
+      "bytes": 33633,
+      "mtime_ns": 1792469549140401500
+    },
+    "D:\\apphearv3claude\\AppHear-claude-s2-r3-eval-suite\\AppHear-claude-s2-r3-eval-suite\\experiments\\continuous_asl\\20261020_continuous_expand06\\data\\processed\\asllrp2025\\asllrp3_1133d61580f550fa.features.npz": {
+      "sha256": "6d0ecee6574c948d9201ddd26560469446b8a3234b78292ab77f4cdafa69b84e",
+      "bytes": 45264,
+      "mtime_ns": 1792468731449061700
+    },
+    "D:\\apphearv3claude\\AppHear-claude-s2-r3-eval-suite\\AppHear-claude-s2-r3-eval-suite\\experiments\\continuous_asl\\20261020_continuous_expand06\\data\\processed\\asllrp2025\\asllrp3_1174e8911d44d3b3.features.npz": {
+      "sha256": "c0785f0b244c6a5c5b4fb41751b86ed8363e5df55f7e36c0cb70e8ecba1b582c",
+      "bytes": 13222,
+      "mtime_ns": 1792469450467038200
+    },
+    "D:\\apphearv3claude\\AppHear-claude-s2-r3-eval-suite\\AppHear-claude-s2-r3-eval-suite\\experiments\\continuous_asl\\20261020_continuous_expand06\\data\\processed\\asllrp2025\\asllrp3_1219503586aff765.features.npz": {
+      "sha256": "d6e583be62f72b4000c36258eed37311ab41c6b2f41f3224ed92ca6feaa5cf76",
+      "bytes": 19534,
+      "mtime_ns": 1792468878955237800
+    },
+    "D:\\apphearv3claude\\AppHear-claude-s2-r3-eval-suite\\AppHear-claude-s2-r3-eval-suite\\experiments\\continuous_asl\\20261020_continuous_expand06\\data\\processed\\asllrp2025\\asllrp3_123271ff75c8914f.features.npz": {
+      "sha256": "3cd7cc25eb87b6dc2e007168ab8c9c0a77696276883a6309b442a23d9a01ba23",
+      "bytes": 48384,
+      "mtime_ns": 1792470801348952400
+    },
+    "D:\\apphearv3claude\\AppHear-claude-s2-r3-eval-suite\\AppHear-claude-s2-r3-eval-suite\\experiments\\continuous_asl\\20261020_continuous_expand06\\data\\processed\\asllrp2025\\asllrp3_1275fa40adfbf3d6.features.npz": {
+      "sha256": "0fb0c6b0c7628ff5096a05f2a4018ef5fe0a208c4b5102adce62d61167901bdc",
+      "bytes": 37566,
+      "mtime_ns": 1792470416071126500
+    },
+    "D:\\apphearv3claude\\AppHear-claude-s2-r3-eval-suite\\AppHear-claude-s2-r3-eval-suite\\experiments\\continuous_asl\\20261020_continuous_expand06\\data\\processed\\asllrp2025\\asllrp3_12c3a93500af51aa.features.npz": {
+      "sha256": "a4df44df48bb57ed9528ca03c398905569746e7eefab000ba5be1c8c4c12d0f9",
+      "bytes": 18640,
+      "mtime_ns": 1792469685176946900
+    },
+    "D:\\apphearv3claude\\AppHear-claude-s2-r3-eval-suite\\AppHear-claude-s2-r3-eval-suite\\experiments\\continuous_asl\\20261020_continuous_expand06\\data\\processed\\asllrp2025\\asllrp3_134819a628365aa8.features.npz": {
+      "sha256": "f07d8b5c1469f073b62edda9c9eac0701ce7c2c34af16a7d8850440ac544485a",
+      "bytes": 17564,
+      "mtime_ns": 1792469196872949600
+    },
+    "D:\\apphearv3claude\\AppHear-claude-s2-r3-eval-suite\\AppHear-claude-s2-r3-eval-suite\\experiments\\continuous_asl\\20261020_continuous_expand06\\data\\processed\\asllrp2025\\asllrp3_1399c3f7e54b60cf.features.npz": {
+      "sha256": "8429c4e30ce824bdeb65b410122f833038e90ffd5e084018657f9d84d8d4cc09",
+      "bytes": 42786,
+      "mtime_ns": 1792469536855525600
+    },
+    "D:\\apphearv3claude\\AppHear-claude-s2-r3-eval-suite\\AppHear-claude-s2-r3-eval-suite\\experiments\\continuous_asl\\20261020_continuous_expand06\\data\\processed\\asllrp2025\\asllrp3_14af4959f05ddedb.features.npz": {
+      "sha256": "b2056f9757d8a9013a423997caea633179ba41dee1bafab558862af3f050297b",
+      "bytes": 24411,
+      "mtime_ns": 1792469488121072200
+    },
+    "D:\\apphearv3claude\\AppHear-claude-s2-r3-eval-suite\\AppHear-claude-s2-r3-eval-suite\\experiments\\continuous_asl\\20261020_continuous_expand06\\data\\processed\\asllrp2025\\asllrp3_14b742de2e4c69d9.features.npz": {
+      "sha256": "fcaa04fb94d88dff4d02aae5a4bf1956d9428f2674d00527d03b449d596b4c2d",
+      "bytes": 15773,
+      "mtime_ns": 1792469717153277300
+    },
+    "D:\\apphearv3claude\\AppHear-claude-s2-r3-eval-suite\\AppHear-claude-s2-r3-eval-suite\\experiments\\continuous_asl\\20261020_continuous_expand06\\data\\processed\\asllrp2025\\asllrp3_192a025d17af092d.features.npz": {
+      "sha256": "735938f89e5fab7c482f5fd9baad23aaa57c1bb95a998964bcc72e8a7e2a5dd4",
+      "bytes": 35418,
+      "mtime_ns": 1792471198288742900
+    },
+    "D:\\apphearv3claude\\AppHear-claude-s2-r3-eval-suite\\AppHear-claude-s2-r3-eval-suite\\experiments\\continuous_asl\\20261020_continuous_expand06\\data\\processed\\asllrp2025\\asllrp3_1a86480112b2eba4.features.npz": {
+      "sha256": "096046fe774b06f961924f04d762ea5b42773a44a43bc7c0d6c18951e22dce7a",
+      "bytes": 15675,
+      "mtime_ns": 1792468894648661900
+    },
+    "D:\\apphearv3claude\\AppHear-claude-s2-r3-eval-suite\\AppHear-claude-s2-r3-eval-suite\\experiments\\continuous_asl\\20261020_continuous_expand06\\data\\processed\\asllrp2025\\asllrp3_1a88e628036166e5.features.npz": {
+      "sha256": "d1935bf56c368b41ecc64ce33b18326be90d31d1cc23899881f66bcd2438baaf",
+      "bytes": 18785,
+      "mtime_ns": 1792468933995402600
+    },
+    "D:\\apphearv3claude\\AppHear-claude-s2-r3-eval-suite\\AppHear-claude-s2-r3-eval-suite\\experiments\\continuous_asl\\20261020_continuous_expand06\\data\\processed\\asllrp2025\\asllrp3_1b826388cd623c69.features.npz": {
+      "sha256": "615cc41855a90825a9d4702845491b3143e76812fbcc5440e39f4eff1ea79c99",
+      "bytes": 16758,
+      "mtime_ns": 1792468744733633300
+    },
+    "D:\\apphearv3claude\\AppHear-claude-s2-r3-eval-suite\\AppHear-claude-s2-r3-eval-suite\\experiments\\continuous_asl\\20261020_continuous_expand06\\data\\processed\\asllrp2025\\asllrp3_1f7ca48563dec93c.features.npz": {
+      "sha256": "be7c3148e98d5f260218719d3b8c9969d493c1d6f54aaa086e7e2c7150db9abf",
+      "bytes": 26476,
+      "mtime_ns": 1792469423972421800
+    },
+    "D:\\apphearv3claude\\AppHear-claude-s2-r3-eval-suite\\AppHear-claude-s2-r3-eval-suite\\experiments\\continuous_asl\\20261020_continuous_expand06\\data\\processed\\asllrp2025\\asllrp3_1fc77b80040965c2.features.npz": {
+      "sha256": "ec9ed0c4fc9355949dd42c840bc6665175958c7b8f8217381abff3ea0cc62e62",
+      "bytes": 41203,
+      "mtime_ns": 1792471693867557800
+    },
+    "D:\\apphearv3claude\\AppHear-claude-s2-r3-eval-suite\\AppHear-claude-s2-r3-eval-suite\\experiments\\continuous_asl\\20261020_continuous_expand06\\data\\processed\\asllrp2025\\asllrp3_22f128ed48fe07d6.features.npz": {
+      "sha256": "26365c09f8c3ccc80bf1fa5e4c23d61ce2e5f40e66b15e348b0f2aa4bdd4c957",
+      "bytes": 36528,
+      "mtime_ns": 1792469506404382600
+    },
+    "D:\\apphearv3claude\\AppHear-claude-s2-r3-eval-suite\\AppHear-claude-s2-r3-eval-suite\\experiments\\continuous_asl\\20261020_continuous_expand06\\data\\processed\\asllrp2025\\asllrp3_2358b7f69d90a3cf.features.npz": {
+      "sha256": "f473f44ec27394b976e235a4cc5b2bbdc498946eba77f98a5a755d29d3dbffe1",
+      "bytes": 17275,
+      "mtime_ns": 1792469827568317800
+    },
+    "D:\\apphearv3claude\\AppHear-claude-s2-r3-eval-suite\\AppHear-claude-s2-r3-eval-suite\\experiments\\continuous_asl\\20261020_continuous_expand06\\data\\processed\\asllrp2025\\asllrp3_23c6d3883c5ac5bb.features.npz": {
+      "sha256": "730caa968bae75ba153c11bd2cc36e1154dc7b5e22fa7c600b77e4b064c73b33",
+      "bytes": 51889,
+      "mtime_ns": 1792470731511503500
+    },
+    "D:\\apphearv3claude\\AppHear-claude-s2-r3-eval-suite\\AppHear-claude-s2-r3-eval-suite\\experiments\\continuous_asl\\20261020_continuous_expand06\\data\\processed\\asllrp2025\\asllrp3_2409cb789bb3df57.features.npz": {
+      "sha256": "63014516bf7811f5c4a0ccb6c1a4990cc0bcca199f3f90fba6774f28860859b8",
+      "bytes": 19872,
+      "mtime_ns": 1792469763435735900
+    },
+    "D:\\apphearv3claude\\AppHear-claude-s2-r3-eval-suite\\AppHear-claude-s2-r3-eval-suite\\experiments\\continuous_asl\\20261020_continuous_expand06\\data\\processed\\asllrp2025\\asllrp3_24ac8d090476770a.features.npz": {
+      "sha256": "3f8e4e431f04222323a21b680dac37a427994ed8b8eab85ee7348457239d708c",
+      "bytes": 23462,
+      "mtime_ns": 1792468776196087600
+    },
+    "D:\\apphearv3claude\\AppHear-claude-s2-r3-eval-suite\\AppHear-claude-s2-r3-eval-suite\\experiments\\continuous_asl\\20261020_continuous_expand06\\data\\processed\\asllrp2025\\asllrp3_261e95e8592cb319.features.npz": {
+      "sha256": "d7dd2736f50de829120177a45a984f78cbc54788bfccd17ba91f4cb86882a87a",
+      "bytes": 22438,
+      "mtime_ns": 1792469617888143800
+    },
+    "D:\\apphearv3claude\\AppHear-claude-s2-r3-eval-suite\\AppHear-claude-s2-r3-eval-suite\\experiments\\continuous_asl\\20261020_continuous_expand06\\data\\processed\\asllrp2025\\asllrp3_292df8eeac7f66bd.features.npz": {
+      "sha256": "342c5eaafe967306ceb0777143f8352d768617eaf55186f616640805a688bc4b",
+      "bytes": 24568,
+      "mtime_ns": 1792469769670614800
+    },
+    "D:\\apphearv3claude\\AppHear-claude-s2-r3-eval-suite\\AppHear-claude-s2-r3-eval-suite\\experiments\\continuous_asl\\20261020_continuous_expand06\\data\\processed\\asllrp2025\\asllrp3_296360c901274d94.features.npz": {
+      "sha256": "f4047bace503e6c1e1d298d26f86d644fb903ab4b3480892319e2252f7dec452",
+      "bytes": 25644,
+      "mtime_ns": 1792470997772291100
+    },
+    "D:\\apphearv3claude\\AppHear-claude-s2-r3-eval-suite\\AppHear-claude-s2-r3-eval-suite\\experiments\\continuous_asl\\20261020_continuous_expand06\\data\\processed\\asllrp2025\\asllrp3_2a5c52b6034defde.features.npz": {
+      "sha256": "e98e2bd955d6bef04b65b3b53f8948f7e60859feac514f3cd85c52f5d47b579d",
+      "bytes": 19278,
+      "mtime_ns": 1792468938559538300
+    },
+    "D:\\apphearv3claude\\AppHear-claude-s2-r3-eval-suite\\AppHear-claude-s2-r3-eval-suite\\experiments\\continuous_asl\\20261020_continuous_expand06\\data\\processed\\asllrp2025\\asllrp3_2a8b9d69eedfae20.features.npz": {
+      "sha256": "0d866c607a159e8fd1951af8b00befe0cf25bd40c0049aa757c85072e4bd305a",
+      "bytes": 23965,
+      "mtime_ns": 1792469513671756100
+    },
+    "D:\\apphearv3claude\\AppHear-claude-s2-r3-eval-suite\\AppHear-claude-s2-r3-eval-suite\\experiments\\continuous_asl\\20261020_continuous_expand06\\data\\processed\\asllrp2025\\asllrp3_2b520a377be372c9.features.npz": {
+      "sha256": "f5c9963421e46ae84e1cbbdc813236ebfb9cc785b0c8e9302de84eb95ebe0f39",
+      "bytes": 24576,
+      "mtime_ns": 1792469022615448400
+    },
+    "D:\\apphearv3claude\\AppHear-claude-s2-r3-eval-suite\\AppHear-claude-s2-r3-eval-suite\\experiments\\continuous_asl\\20261020_continuous_expand06\\data\\processed\\asllrp2025\\asllrp3_2ca2e1a38917b354.features.npz": {
+      "sha256": "e2292d35e735b96247f5307a2720357ca1511a81826401e97d365807b9b45d77",
+      "bytes": 28327,
+      "mtime_ns": 1792471498309204600
+    },
+    "D:\\apphearv3claude\\AppHear-claude-s2-r3-eval-suite\\AppHear-claude-s2-r3-eval-suite\\experiments\\continuous_asl\\20261020_continuous_expand06\\data\\processed\\asllrp2025\\asllrp3_2debd9737dec3941.features.npz": {
+      "sha256": "961f3a424f6c2e2a15f845a67f173bfa2c92d6bba4576b020440fd63e16388ca",
+      "bytes": 14383,
+      "mtime_ns": 1792468950126345600
+    },
+    "D:\\apphearv3claude\\AppHear-claude-s2-r3-eval-suite\\AppHear-claude-s2-r3-eval-suite\\experiments\\continuous_asl\\20261020_continuous_expand06\\data\\processed\\asllrp2025\\asllrp3_319b954fbeb29b40.features.npz": {
+      "sha256": "1b3a39a9de9e3ab8d852da50d7f16567f6ef993d8c814b1ef9b46b34504c7181",
+      "bytes": 31210,
+      "mtime_ns": 1792469934949899000
+    },
+    "D:\\apphearv3claude\\AppHear-claude-s2-r3-eval-suite\\AppHear-claude-s2-r3-eval-suite\\experiments\\continuous_asl\\20261020_continuous_expand06\\data\\processed\\asllrp2025\\asllrp3_34ced4ffc2a6dd99.features.npz": {
+      "sha256": "1341833ae6e51a411c152d5887354403476ae4b35351da19f4614ef7f00486d0",
+      "bytes": 14420,
+      "mtime_ns": 1792469527409010300
+    },
+    "D:\\apphearv3claude\\AppHear-claude-s2-r3-eval-suite\\AppHear-claude-s2-r3-eval-suite\\experiments\\continuous_asl\\20261020_continuous_expand06\\data\\processed\\asllrp2025\\asllrp3_34dc1c38209e6cdc.features.npz": {
+      "sha256": "61785010bb016853846f3b16b4b122e6555890feda8ddac01c3304be41243a57",
+      "bytes": 60774,
+      "mtime_ns": 1792469605700757300
+    },
+    "D:\\apphearv3claude\\AppHear-claude-s2-r3-eval-suite\\AppHear-claude-s2-r3-eval-suite\\experiments\\continuous_asl\\20261020_continuous_expand06\\data\\processed\\asllrp2025\\asllrp3_355ddb09c3733046.features.npz": {
+      "sha256": "08dc61812b83d1d83db33fa780decdf7ffc5efcd6799396bdbd52f34c9388b87",
+      "bytes": 33045,
+      "mtime_ns": 1792469554997940900
+    },
+    "D:\\apphearv3claude\\AppHear-claude-s2-r3-eval-suite\\AppHear-claude-s2-r3-eval-suite\\experiments\\continuous_asl\\20261020_continuous_expand06\\data\\processed\\asllrp2025\\asllrp3_364b4f0501df9946.features.npz": {
+      "sha256": "95fe29c1e43af856084b1ab12dcc9c9692521f43ad2d984b27167a664e3b1a24",
+      "bytes": 14846,
+      "mtime_ns": 1792471659192935100
+    },
+    "D:\\apphearv3claude\\AppHear-claude-s2-r3-eval-suite\\AppHear-claude-s2-r3-eval-suite\\experiments\\continuous_asl\\20261020_continuous_expand06\\data\\processed\\asllrp2025\\asllrp3_3695057508533d74.features.npz": {
+      "sha256": "fbefcba0c8bb22819d1a4bb8efdf2aeca94e47c040a10601bf9aa541c81f145d",
+      "bytes": 28241,
+      "mtime_ns": 1792469350378461200
+    },
+    "D:\\apphearv3claude\\AppHear-claude-s2-r3-eval-suite\\AppHear-claude-s2-r3-eval-suite\\experiments\\continuous_asl\\20261020_continuous_expand06\\data\\processed\\asllrp2025\\asllrp3_36ac991e9949fbc8.features.npz": {
+      "sha256": "f4c50d684495dc67f5310bb9bcfea68312996998325425840d0bdad1ebb348a3",
+      "bytes": 17450,
+      "mtime_ns": 1792469732331623700
+    },
+    "D:\\apphearv3claude\\AppHear-claude-s2-r3-eval-suite\\AppHear-claude-s2-r3-eval-suite\\experiments\\continuous_asl\\20261020_continuous_expand06\\data\\processed\\asllrp2025\\asllrp3_38b01799105e1a01.features.npz": {
+      "sha256": "919b2ac09d25c30bbc2794383d8cc9f4d9bac2a6c674289ae0a2787feddfbabb",
+      "bytes": 21950,
+      "mtime_ns": 1792468982386724600
+    },
+    "D:\\apphearv3claude\\AppHear-claude-s2-r3-eval-suite\\AppHear-claude-s2-r3-eval-suite\\experiments\\continuous_asl\\20261020_continuous_expand06\\data\\processed\\asllrp2025\\asllrp3_3901b1120b071ed7.features.npz": {
+      "sha256": "403e8ff72c5462ccfdd8b584fa3e4be8213bebf87afdca897a456bc8232db1cd",
+      "bytes": 17428,
+      "mtime_ns": 1792469743213989900
+    },
+    "D:\\apphearv3claude\\AppHear-claude-s2-r3-eval-suite\\AppHear-claude-s2-r3-eval-suite\\experiments\\continuous_asl\\20261020_continuous_expand06\\data\\processed\\asllrp2025\\asllrp3_39448ebfb3817f71.features.npz": {
+      "sha256": "2acbff45c6295aa0069e0925579e0cae9c5c46168344586aef4e8b1186d04455",
+      "bytes": 21702,
+      "mtime_ns": 1792469574675669500
+    },
+    "D:\\apphearv3claude\\AppHear-claude-s2-r3-eval-suite\\AppHear-claude-s2-r3-eval-suite\\experiments\\continuous_asl\\20261020_continuous_expand06\\data\\processed\\asllrp2025\\asllrp3_3a3dee8665af816f.features.npz": {
+      "sha256": "61527e97fc4a63964b70e4d669682b036457a2265732d513164dd94d733d9b8c",
+      "bytes": 24876,
+      "mtime_ns": 1792471147252341000
+    },
+    "D:\\apphearv3claude\\AppHear-claude-s2-r3-eval-suite\\AppHear-claude-s2-r3-eval-suite\\experiments\\continuous_asl\\20261020_continuous_expand06\\data\\processed\\asllrp2025\\asllrp3_3a7f7adbe30febb6.features.npz": {
+      "sha256": "8c6a1e0969ef30004788da18ea8217aa87c5455f9bbe0f25715a75d1ae57d4cc",
+      "bytes": 23578,
+      "mtime_ns": 1792471619138029400
+    },
+    "D:\\apphearv3claude\\AppHear-claude-s2-r3-eval-suite\\AppHear-claude-s2-r3-eval-suite\\experiments\\continuous_asl\\20261020_continuous_expand06\\data\\processed\\asllrp2025\\asllrp3_3af9eaf5eef798f4.features.npz": {
+      "sha256": "2ab0431754342d1be1c7920af7a5a113e59f5bd9348e06d9b7bc5c8547f59b38",
+      "bytes": 36272,
+      "mtime_ns": 1792469888704566300
+    },
+    "D:\\apphearv3claude\\AppHear-claude-s2-r3-eval-suite\\AppHear-claude-s2-r3-eval-suite\\experiments\\continuous_asl\\20261020_continuous_expand06\\data\\processed\\asllrp2025\\asllrp3_3d18b285301314f5.features.npz": {
+      "sha256": "b9eebec9af3d6deae79a13aa6afc46b946806390da3e6c1f3c758cfe4770e8c7",
+      "bytes": 21530,
+      "mtime_ns": 1792471651845774400
+    },
+    "D:\\apphearv3claude\\AppHear-claude-s2-r3-eval-suite\\AppHear-claude-s2-r3-eval-suite\\experiments\\continuous_asl\\20261020_continuous_expand06\\data\\processed\\asllrp2025\\asllrp3_3e29360900eee990.features.npz": {
+      "sha256": "b024ab092bad5270e3a192c517f39616aeaa1067586cb94973b898797d055258",
+      "bytes": 39134,
+      "mtime_ns": 1792471379489414100
+    },
+    "D:\\apphearv3claude\\AppHear-claude-s2-r3-eval-suite\\AppHear-claude-s2-r3-eval-suite\\experiments\\continuous_asl\\20261020_continuous_expand06\\data\\processed\\asllrp2025\\asllrp3_3f560c3ba34572ba.features.npz": {
+      "sha256": "5b8f3929a20d3e443869067bb546ba8037af43e23ca53cf9be9ed1c443b2a9b4",
+      "bytes": 32958,
+      "mtime_ns": 1792469285761834700
+    },
+    "D:\\apphearv3claude\\AppHear-claude-s2-r3-eval-suite\\AppHear-claude-s2-r3-eval-suite\\experiments\\continuous_asl\\20261020_continuous_expand06\\data\\processed\\asllrp2025\\asllrp3_405047c4bac753d6.features.npz": {
+      "sha256": "113d4755264668c6f2cba7c5d332bffe8a091050acf7e8b08ebab85c11711737",
+      "bytes": 17892,
+      "mtime_ns": 1792469755550145700
+    },
+    "D:\\apphearv3claude\\AppHear-claude-s2-r3-eval-suite\\AppHear-claude-s2-r3-eval-suite\\experiments\\continuous_asl\\20261020_continuous_expand06\\data\\processed\\asllrp2025\\asllrp3_4149383a424ebaf3.features.npz": {
+      "sha256": "6cfd9b5a265b4fd23b486cb12ebb46a9de9c7a25a6a60a86c7c7015ed26a08bd",
+      "bytes": 23329,
+      "mtime_ns": 1792469801589601100
+    },
+    "D:\\apphearv3claude\\AppHear-claude-s2-r3-eval-suite\\AppHear-claude-s2-r3-eval-suite\\experiments\\continuous_asl\\20261020_continuous_expand06\\data\\processed\\asllrp2025\\asllrp3_43f08c385e3032ea.features.npz": {
+      "sha256": "aa2306ac4e96c5ed7d467416816fa2d38275a3628324dd5ae3fe4e1c21c6056d",
+      "bytes": 28762,
+      "mtime_ns": 1792471713559178800
+    },
+    "D:\\apphearv3claude\\AppHear-claude-s2-r3-eval-suite\\AppHear-claude-s2-r3-eval-suite\\experiments\\continuous_asl\\20261020_continuous_expand06\\data\\processed\\asllrp2025\\asllrp3_4532e41c4bc127b8.features.npz": {
+      "sha256": "e2c82ecdc0aa4de343a829fc38e54c4606138280f91fb184fb32ad3dd9b5b8a5",
+      "bytes": 35885,
+      "mtime_ns": 1792469266706200500
+    },
+    "D:\\apphearv3claude\\AppHear-claude-s2-r3-eval-suite\\AppHear-claude-s2-r3-eval-suite\\experiments\\continuous_asl\\20261020_continuous_expand06\\data\\processed\\asllrp2025\\asllrp3_45e79817cad2acc2.features.npz": {
+      "sha256": "1363b69f29fc4b19014cea3db187863b2c23797819440681e1d62884d8e76b01",
+      "bytes": 20190,
+      "mtime_ns": 1792469761831185400
+    },
+    "D:\\apphearv3claude\\AppHear-claude-s2-r3-eval-suite\\AppHear-claude-s2-r3-eval-suite\\experiments\\continuous_asl\\20261020_continuous_expand06\\data\\processed\\asllrp2025\\asllrp3_46c4e2c1e32722a9.features.npz": {
+      "sha256": "a173d083c6f33016b91fe4cd89b63ffc674cb7a56a149a184f9ff569869092c6",
+      "bytes": 13980,
+      "mtime_ns": 1792469219955278100
+    },
+    "D:\\apphearv3claude\\AppHear-claude-s2-r3-eval-suite\\AppHear-claude-s2-r3-eval-suite\\experiments\\continuous_asl\\20261020_continuous_expand06\\data\\processed\\asllrp2025\\asllrp3_48507e7eb82da9b8.features.npz": {
+      "sha256": "68644de92be2286934ee33245b013952d99c9045a0a9df0d77830ac7d1b6d6ba",
+      "bytes": 25346,
+      "mtime_ns": 1792468510190127200
+    },
+    "D:\\apphearv3claude\\AppHear-claude-s2-r3-eval-suite\\AppHear-claude-s2-r3-eval-suite\\experiments\\continuous_asl\\20261020_continuous_expand06\\data\\processed\\asllrp2025\\asllrp3_485cd7863735b16e.features.npz": {
+      "sha256": "7ab6120a709d1fc5734b8c0fc6a2c7bde493fd9873f71438476aea4b51bf2060",
+      "bytes": 21455,
+      "mtime_ns": 1792469032654567700
+    },
+    "D:\\apphearv3claude\\AppHear-claude-s2-r3-eval-suite\\AppHear-claude-s2-r3-eval-suite\\experiments\\continuous_asl\\20261020_continuous_expand06\\data\\processed\\asllrp2025\\asllrp3_4a49d7fa8cfa4c46.features.npz": {
+      "sha256": "4d494b242fc1bf67e56683e2b7d616ef622baae6d64fda25c33fb6735077821b",
+      "bytes": 16675,
+      "mtime_ns": 1792469517510197300
+    },
+    "D:\\apphearv3claude\\AppHear-claude-s2-r3-eval-suite\\AppHear-claude-s2-r3-eval-suite\\experiments\\continuous_asl\\20261020_continuous_expand06\\data\\processed\\asllrp2025\\asllrp3_4cd6c89bbc914ba2.features.npz": {
+      "sha256": "e0fba972b4e95ec3ac2c6f783f21158f88e52b4fd70b9a82eb24b4ff415416a0",
+      "bytes": 38520,
+      "mtime_ns": 1792469856058972400
+    },
+    "D:\\apphearv3claude\\AppHear-claude-s2-r3-eval-suite\\AppHear-claude-s2-r3-eval-suite\\experiments\\continuous_asl\\20261020_continuous_expand06\\data\\processed\\asllrp2025\\asllrp3_4e797666982b3cee.features.npz": {
+      "sha256": "dfb71fd5010de01ae36bce06a0a49c084532c07c1c91425e532bd9e83f578619",
+      "bytes": 29918,
+      "mtime_ns": 1792468753615542600
+    },
+    "D:\\apphearv3claude\\AppHear-claude-s2-r3-eval-suite\\AppHear-claude-s2-r3-eval-suite\\experiments\\continuous_asl\\20261020_continuous_expand06\\data\\processed\\asllrp2025\\asllrp3_504e268845a5da2e.features.npz": {
+      "sha256": "6e5c90df698aac40b8604fd28bb69e442d5689bba3ddd72ea2c2d2032c31d865",
+      "bytes": 17233,
+      "mtime_ns": 1792469702432416800
+    },
+    "D:\\apphearv3claude\\AppHear-claude-s2-r3-eval-suite\\AppHear-claude-s2-r3-eval-suite\\experiments\\continuous_asl\\20261020_continuous_expand06\\data\\processed\\asllrp2025\\asllrp3_5318c9f1fe8aa708.features.npz": {
+      "sha256": "5ec0058be89e1112ca2b52ef9aa012998879da7cb4e524d68865e59214e9d66d",
+      "bytes": 13958,
+      "mtime_ns": 1792469752512057000
+    },
+    "D:\\apphearv3claude\\AppHear-claude-s2-r3-eval-suite\\AppHear-claude-s2-r3-eval-suite\\experiments\\continuous_asl\\20261020_continuous_expand06\\data\\processed\\asllrp2025\\asllrp3_53998a6dd53705b7.features.npz": {
+      "sha256": "e8c51b228917f954240dcd0ffe2f8ddcb51117e9443e046a6a1eae8c474cdae4",
+      "bytes": 42993,
+      "mtime_ns": 1792470528799264500
+    },
+    "D:\\apphearv3claude\\AppHear-claude-s2-r3-eval-suite\\AppHear-claude-s2-r3-eval-suite\\experiments\\continuous_asl\\20261020_continuous_expand06\\data\\processed\\asllrp2025\\asllrp3_53bae00ddc5954e2.features.npz": {
+      "sha256": "651788569e6116638cd25b6a753bdb41daf98a3bdc200f87cd1bb395d78e1b88",
+      "bytes": 46914,
+      "mtime_ns": 1792470804224547800
+    },
+    "D:\\apphearv3claude\\AppHear-claude-s2-r3-eval-suite\\AppHear-claude-s2-r3-eval-suite\\experiments\\continuous_asl\\20261020_continuous_expand06\\data\\processed\\asllrp2025\\asllrp3_59cfe8e1e6e22f53.features.npz": {
+      "sha256": "a61a231020126edd1d9f23c4d9e898fb7653c405237c366c600b1a090a09d24e",
+      "bytes": 25340,
+      "mtime_ns": 1792471656657354900
+    },
+    "D:\\apphearv3claude\\AppHear-claude-s2-r3-eval-suite\\AppHear-claude-s2-r3-eval-suite\\experiments\\continuous_asl\\20261020_continuous_expand06\\data\\processed\\asllrp2025\\asllrp3_5aaeefe23c950906.features.npz": {
+      "sha256": "920e050619a12204f87c08f2b20737c992bfaa6f9b6228590862020d70a6daf8",
+      "bytes": 25291,
+      "mtime_ns": 1792470685509121400
+    },
+    "D:\\apphearv3claude\\AppHear-claude-s2-r3-eval-suite\\AppHear-claude-s2-r3-eval-suite\\experiments\\continuous_asl\\20261020_continuous_expand06\\data\\processed\\asllrp2025\\asllrp3_5f92ff4fac376d4e.features.npz": {
+      "sha256": "2ad2f049f411a7099ff4c9f107712d8e20d9006f67942b4192512aa266b61699",
+      "bytes": 29499,
+      "mtime_ns": 1792468695486571100
+    },
+    "D:\\apphearv3claude\\AppHear-claude-s2-r3-eval-suite\\AppHear-claude-s2-r3-eval-suite\\experiments\\continuous_asl\\20261020_continuous_expand06\\data\\processed\\asllrp2025\\asllrp3_626e769a1bef0b50.features.npz": {
+      "sha256": "c27b7b3fd144a5d216dd5b49b87d9c11ce3be31cd8d6e77271e832f2c3e102ba",
+      "bytes": 16092,
+      "mtime_ns": 1792469304114322100
+    },
+    "D:\\apphearv3claude\\AppHear-claude-s2-r3-eval-suite\\AppHear-claude-s2-r3-eval-suite\\experiments\\continuous_asl\\20261020_continuous_expand06\\data\\processed\\asllrp2025\\asllrp3_6322defaccbe4639.features.npz": {
+      "sha256": "6f630a902989019bf91a878a97ebf42ee97e4ce835a3ac5843c96a5208dc38e8",
+      "bytes": 22790,
+      "mtime_ns": 1792471485112507200
+    },
+    "D:\\apphearv3claude\\AppHear-claude-s2-r3-eval-suite\\AppHear-claude-s2-r3-eval-suite\\experiments\\continuous_asl\\20261020_continuous_expand06\\data\\processed\\asllrp2025\\asllrp3_63277274438d7dd1.features.npz": {
+      "sha256": "4b10524bdd393039e9096f4bba22eaba6c72a78563ca0b79f3ca14610beb36c5",
+      "bytes": 25462,
+      "mtime_ns": 1792471647665055100
+    },
+    "D:\\apphearv3claude\\AppHear-claude-s2-r3-eval-suite\\AppHear-claude-s2-r3-eval-suite\\experiments\\continuous_asl\\20261020_continuous_expand06\\data\\processed\\asllrp2025\\asllrp3_63ae1b69061f3aa9.features.npz": {
+      "sha256": "b23a04ae03cae6e36b7b4103a201ffc6f93870dee0757f13dcb08fac26db7305",
+      "bytes": 40254,
+      "mtime_ns": 1792470857647808000
+    },
+    "D:\\apphearv3claude\\AppHear-claude-s2-r3-eval-suite\\AppHear-claude-s2-r3-eval-suite\\experiments\\continuous_asl\\20261020_continuous_expand06\\data\\processed\\asllrp2025\\asllrp3_63f7317819c0d217.features.npz": {
+      "sha256": "55e74c3db7e5306697ce90c1951ccc348a0971fa63166f62fa8f5889bb8eec04",
+      "bytes": 22362,
+      "mtime_ns": 1792469256007895700
+    },
+    "D:\\apphearv3claude\\AppHear-claude-s2-r3-eval-suite\\AppHear-claude-s2-r3-eval-suite\\experiments\\continuous_asl\\20261020_continuous_expand06\\data\\processed\\asllrp2025\\asllrp3_65890cb6c098ad04.features.npz": {
+      "sha256": "a3bdf02e50e89efa5322528d9577cbb5e7fb4112b9af66ebddb9cb0f62f249a7",
+      "bytes": 14916,
+      "mtime_ns": 1792469805089023300
+    },
+    "D:\\apphearv3claude\\AppHear-claude-s2-r3-eval-suite\\AppHear-claude-s2-r3-eval-suite\\experiments\\continuous_asl\\20261020_continuous_expand06\\data\\processed\\asllrp2025\\asllrp3_67235f2d2abd20d4.features.npz": {
+      "sha256": "a8743057a5d423d3da9d0bec3959b02b369c9641c51a365fcfe9fd4a4156a6cb",
+      "bytes": 20771,
+      "mtime_ns": 1792469313015852000
+    },
+    "D:\\apphearv3claude\\AppHear-claude-s2-r3-eval-suite\\AppHear-claude-s2-r3-eval-suite\\experiments\\continuous_asl\\20261020_continuous_expand06\\data\\processed\\asllrp2025\\asllrp3_678bc149c74643bb.features.npz": {
+      "sha256": "9c25bf795170afa496540cee5911b341a6c8e5b0ac461b0ca48153c69b4dc02c",
+      "bytes": 27200,
+      "mtime_ns": 1792468779785919100
+    },
+    "D:\\apphearv3claude\\AppHear-claude-s2-r3-eval-suite\\AppHear-claude-s2-r3-eval-suite\\experiments\\continuous_asl\\20261020_continuous_expand06\\data\\processed\\asllrp2025\\asllrp3_6857624a0ce1fc03.features.npz": {
+      "sha256": "226b7e0e833182eca1c8b78324b93cd16d5c446fc4b5098f942bff73258a0131",
+      "bytes": 24715,
+      "mtime_ns": 1792469780940957800
+    },
+    "D:\\apphearv3claude\\AppHear-claude-s2-r3-eval-suite\\AppHear-claude-s2-r3-eval-suite\\experiments\\continuous_asl\\20261020_continuous_expand06\\data\\processed\\asllrp2025\\asllrp3_69c658a3c3e837d4.features.npz": {
+      "sha256": "812c434a3476d63880b6942e887a8bcca46c1ad09101ea0a77b0658db138b862",
+      "bytes": 17934,
+      "mtime_ns": 1792470020097024400
+    },
+    "D:\\apphearv3claude\\AppHear-claude-s2-r3-eval-suite\\AppHear-claude-s2-r3-eval-suite\\experiments\\continuous_asl\\20261020_continuous_expand06\\data\\processed\\asllrp2025\\asllrp3_6aef3747b689f5c0.features.npz": {
+      "sha256": "b5703380c07e9c6d8a7ce09035e83338bb19959f6aac1cb66343edfe227abc29",
+      "bytes": 22863,
+      "mtime_ns": 1792469227475064000
+    },
+    "D:\\apphearv3claude\\AppHear-claude-s2-r3-eval-suite\\AppHear-claude-s2-r3-eval-suite\\experiments\\continuous_asl\\20261020_continuous_expand06\\data\\processed\\asllrp2025\\asllrp3_6b64205041deb7a4.features.npz": {
+      "sha256": "cb8969b0658542133a131d1451a6baaa5ba648a2fc3f0b333c3501b2293987bb",
+      "bytes": 38272,
+      "mtime_ns": 1792469241652442200
+    },
+    "D:\\apphearv3claude\\AppHear-claude-s2-r3-eval-suite\\AppHear-claude-s2-r3-eval-suite\\experiments\\continuous_asl\\20261020_continuous_expand06\\data\\processed\\asllrp2025\\asllrp3_6d5573d32002c026.features.npz": {
+      "sha256": "3b8671591b71ae2dcca65f7b4e7c8801256dedba5287e3350c834d0e3f8926ce",
+      "bytes": 30118,
+      "mtime_ns": 1792469010089666300
+    },
+    "D:\\apphearv3claude\\AppHear-claude-s2-r3-eval-suite\\AppHear-claude-s2-r3-eval-suite\\experiments\\continuous_asl\\20261020_continuous_expand06\\data\\processed\\asllrp2025\\asllrp3_71d737b1bb19edc9.features.npz": {
+      "sha256": "25dffbb66113502d3a40a92ebee45f4485525991e884d166f31746e2e5aee861",
+      "bytes": 25734,
+      "mtime_ns": 1792471674335179400
+    },
+    "D:\\apphearv3claude\\AppHear-claude-s2-r3-eval-suite\\AppHear-claude-s2-r3-eval-suite\\experiments\\continuous_asl\\20261020_continuous_expand06\\data\\processed\\asllrp2025\\asllrp3_72536395864e1698.features.npz": {
+      "sha256": "264de885186a51efc583d6e873e9b80edb0149fd124e23f44929857d8bc3a27c",
+      "bytes": 22709,
+      "mtime_ns": 1792468645400480000
+    },
+    "D:\\apphearv3claude\\AppHear-claude-s2-r3-eval-suite\\AppHear-claude-s2-r3-eval-suite\\experiments\\continuous_asl\\20261020_continuous_expand06\\data\\processed\\asllrp2025\\asllrp3_72af54e74ad190e2.features.npz": {
+      "sha256": "6c1289df208f846495ef2c87c500eac839d7236d210adcd939396d1ba0fb0ad4",
+      "bytes": 23474,
+      "mtime_ns": 1792470917427631100
+    },
+    "D:\\apphearv3claude\\AppHear-claude-s2-r3-eval-suite\\AppHear-claude-s2-r3-eval-suite\\experiments\\continuous_asl\\20261020_continuous_expand06\\data\\processed\\asllrp2025\\asllrp3_72e456e7c5228d89.features.npz": {
+      "sha256": "fa7585c8c71d49685fb79445e113249029a26837665b133dba18c6d654b62c20",
+      "bytes": 17841,
+      "mtime_ns": 1792469722618944900
+    },
+    "D:\\apphearv3claude\\AppHear-claude-s2-r3-eval-suite\\AppHear-claude-s2-r3-eval-suite\\experiments\\continuous_asl\\20261020_continuous_expand06\\data\\processed\\asllrp2025\\asllrp3_74b4ecc5d0b4e11a.features.npz": {
+      "sha256": "1de664c728fdcdfb598ce916eac79a20cfe17fd2506877fce4b6d0664fa4ac99",
+      "bytes": 41019,
+      "mtime_ns": 1792468990711161500
+    },
+    "D:\\apphearv3claude\\AppHear-claude-s2-r3-eval-suite\\AppHear-claude-s2-r3-eval-suite\\experiments\\continuous_asl\\20261020_continuous_expand06\\data\\processed\\asllrp2025\\asllrp3_762917348e94c7a1.features.npz": {
+      "sha256": "bd1555a1815a05964c0e13819c454fafda47fb7f743ef75bef508c2c36f070ff",
+      "bytes": 12888,
+      "mtime_ns": 1792468901909423500
+    },
+    "D:\\apphearv3claude\\AppHear-claude-s2-r3-eval-suite\\AppHear-claude-s2-r3-eval-suite\\experiments\\continuous_asl\\20261020_continuous_expand06\\data\\processed\\asllrp2025\\asllrp3_7700920d6105eb7c.features.npz": {
+      "sha256": "dc561968a9d381262a07d1018ca6406bdb91a6359930125bdce34c1861a7859b",
+      "bytes": 28121,
+      "mtime_ns": 1792471698941540900
+    },
+    "D:\\apphearv3claude\\AppHear-claude-s2-r3-eval-suite\\AppHear-claude-s2-r3-eval-suite\\experiments\\continuous_asl\\20261020_continuous_expand06\\data\\processed\\asllrp2025\\asllrp3_778c746caa87b34a.features.npz": {
+      "sha256": "ec8a855b1dc28db045e437321c80038f080f279772533eebf59dc8c2cacb0d2d",
+      "bytes": 41783,
+      "mtime_ns": 1792470861769999400
+    },
+    "D:\\apphearv3claude\\AppHear-claude-s2-r3-eval-suite\\AppHear-claude-s2-r3-eval-suite\\experiments\\continuous_asl\\20261020_continuous_expand06\\data\\processed\\asllrp2025\\asllrp3_78e811c2d71614bf.features.npz": {
+      "sha256": "b65e7195fea3873832bf72ae04fa72460b5befdcc471dfa41ea47aa9fc644c46",
+      "bytes": 30971,
+      "mtime_ns": 1792469431930582400
+    },
+    "D:\\apphearv3claude\\AppHear-claude-s2-r3-eval-suite\\AppHear-claude-s2-r3-eval-suite\\experiments\\continuous_asl\\20261020_continuous_expand06\\data\\processed\\asllrp2025\\asllrp3_7937747f49edb327.features.npz": {
+      "sha256": "083c6750968ee3e977dced33d8168febe430da99799159f9ac6d4714dfcfd229",
+      "bytes": 14581,
+      "mtime_ns": 1792471073639285500
+    },
+    "D:\\apphearv3claude\\AppHear-claude-s2-r3-eval-suite\\AppHear-claude-s2-r3-eval-suite\\experiments\\continuous_asl\\20261020_continuous_expand06\\data\\processed\\asllrp2025\\asllrp3_825f37e65770a200.features.npz": {
+      "sha256": "8b5feebf4fbb7ff0ef6d914920415d6c4a444e967cff28c55ecd583a0db801ff",
+      "bytes": 34765,
+      "mtime_ns": 1792469501802421600
+    },
+    "D:\\apphearv3claude\\AppHear-claude-s2-r3-eval-suite\\AppHear-claude-s2-r3-eval-suite\\experiments\\continuous_asl\\20261020_continuous_expand06\\data\\processed\\asllrp2025\\asllrp3_8281abc83f6ecf5a.features.npz": {
+      "sha256": "527552a5de43439e31c2827032bc3329b311fb3d57d9857b8c203095e5ae7d18",
+      "bytes": 30717,
+      "mtime_ns": 1792469054901106200
+    },
+    "D:\\apphearv3claude\\AppHear-claude-s2-r3-eval-suite\\AppHear-claude-s2-r3-eval-suite\\experiments\\continuous_asl\\20261020_continuous_expand06\\data\\processed\\asllrp2025\\asllrp3_8341e9adb1b63d3c.features.npz": {
+      "sha256": "d7feb04f2f82efcb1aad7df39f2c9e07158d80779de7f32d97ff1a7c51215950",
+      "bytes": 19327,
+      "mtime_ns": 1792468747686290100
+    },
+    "D:\\apphearv3claude\\AppHear-claude-s2-r3-eval-suite\\AppHear-claude-s2-r3-eval-suite\\experiments\\continuous_asl\\20261020_continuous_expand06\\data\\processed\\asllrp2025\\asllrp3_8385bc6456b2ade2.features.npz": {
+      "sha256": "091ae2baf7a0ede624e08f57e6384b72d01f8263a11404687a44c5a70549da50",
+      "bytes": 17890,
+      "mtime_ns": 1792469491888392600
+    },
+    "D:\\apphearv3claude\\AppHear-claude-s2-r3-eval-suite\\AppHear-claude-s2-r3-eval-suite\\experiments\\continuous_asl\\20261020_continuous_expand06\\data\\processed\\asllrp2025\\asllrp3_87b589731049062a.features.npz": {
+      "sha256": "b7e52e8c8c894d68c4343a8a2371d7bf29a18bbe310f40daf08a66beb6d438cd",
+      "bytes": 16418,
+      "mtime_ns": 1792469750111837900
+    },
+    "D:\\apphearv3claude\\AppHear-claude-s2-r3-eval-suite\\AppHear-claude-s2-r3-eval-suite\\experiments\\continuous_asl\\20261020_continuous_expand06\\data\\processed\\asllrp2025\\asllrp3_87c503f2bbb54b45.features.npz": {
+      "sha256": "e1db17686d24b77596e931ccc96bf2db8d643c1c7742e8daaf94d58b342b5c88",
+      "bytes": 15504,
+      "mtime_ns": 1792469767559668200
+    },
+    "D:\\apphearv3claude\\AppHear-claude-s2-r3-eval-suite\\AppHear-claude-s2-r3-eval-suite\\experiments\\continuous_asl\\20261020_continuous_expand06\\data\\processed\\asllrp2025\\asllrp3_88948107c73f29d1.features.npz": {
+      "sha256": "274ae11686ad672f2ff55599240b2592129809e9e4b6cb582ad9d13c73a46bbb",
+      "bytes": 22211,
+      "mtime_ns": 1792468943319532800
+    },
+    "D:\\apphearv3claude\\AppHear-claude-s2-r3-eval-suite\\AppHear-claude-s2-r3-eval-suite\\experiments\\continuous_asl\\20261020_continuous_expand06\\data\\processed\\asllrp2025\\asllrp3_89b116f9e5fed023.features.npz": {
+      "sha256": "aec59ca64efa36f5e1bc2bf0872d2aa3a9ba9dfa3358974efb84b861aa2fdec5",
+      "bytes": 16993,
+      "mtime_ns": 1792471680219032100
+    },
+    "D:\\apphearv3claude\\AppHear-claude-s2-r3-eval-suite\\AppHear-claude-s2-r3-eval-suite\\experiments\\continuous_asl\\20261020_continuous_expand06\\data\\processed\\asllrp2025\\asllrp3_89c0fa4a2b7f4799.features.npz": {
+      "sha256": "44f18f5a769bbc1666697f4c1f79f7157f649d5d2abc4e5a89dcadf3e37dc246",
+      "bytes": 23769,
+      "mtime_ns": 1792469966327987500
+    },
+    "D:\\apphearv3claude\\AppHear-claude-s2-r3-eval-suite\\AppHear-claude-s2-r3-eval-suite\\experiments\\continuous_asl\\20261020_continuous_expand06\\data\\processed\\asllrp2025\\asllrp3_89f54b6f4f4699cc.features.npz": {
+      "sha256": "f0345f56748b92504e9813c9300de4d8cb971e91e37aff200d57b4eeeb2cc03c",
+      "bytes": 53028,
+      "mtime_ns": 1792471120088703700
+    },
+    "D:\\apphearv3claude\\AppHear-claude-s2-r3-eval-suite\\AppHear-claude-s2-r3-eval-suite\\experiments\\continuous_asl\\20261020_continuous_expand06\\data\\processed\\asllrp2025\\asllrp3_8a77d228743459a0.features.npz": {
+      "sha256": "330fcd3d087ffd324591d57bee2e46007535228461110b75cdb1d76114514fe3",
+      "bytes": 29714,
+      "mtime_ns": 1792468692147235300
+    },
+    "D:\\apphearv3claude\\AppHear-claude-s2-r3-eval-suite\\AppHear-claude-s2-r3-eval-suite\\experiments\\continuous_asl\\20261020_continuous_expand06\\data\\processed\\asllrp2025\\asllrp3_8aaceb618440922e.features.npz": {
+      "sha256": "5782bceeaa82a0b7c929b94f3a08075d1bca5df89f5c610bc4cd52acb13d3b4f",
+      "bytes": 8739,
+      "mtime_ns": 1792469135307750500
+    },
+    "D:\\apphearv3claude\\AppHear-claude-s2-r3-eval-suite\\AppHear-claude-s2-r3-eval-suite\\experiments\\continuous_asl\\20261020_continuous_expand06\\data\\processed\\asllrp2025\\asllrp3_9069117d0accf434.features.npz": {
+      "sha256": "892321a5fa2a72cb10e35ad76e22bd2139d0df80b51efb925a80c3e459089c7f",
+      "bytes": 29747,
+      "mtime_ns": 1792469166431463200
+    },
+    "D:\\apphearv3claude\\AppHear-claude-s2-r3-eval-suite\\AppHear-claude-s2-r3-eval-suite\\experiments\\continuous_asl\\20261020_continuous_expand06\\data\\processed\\asllrp2025\\asllrp3_909fe62e2de7d50e.features.npz": {
+      "sha256": "753eb1371a0883dc35618b9407d517bf81e8bae60fcffd5ce6a310d5789f3883",
+      "bytes": 17757,
+      "mtime_ns": 1792468991720240900
+    },
+    "D:\\apphearv3claude\\AppHear-claude-s2-r3-eval-suite\\AppHear-claude-s2-r3-eval-suite\\experiments\\continuous_asl\\20261020_continuous_expand06\\data\\processed\\asllrp2025\\asllrp3_92df92272fa53cdd.features.npz": {
+      "sha256": "9e9049b3c4f2658ac7676fe4b61ea548820f4eb534c2a80bf3a575b51850985f",
+      "bytes": 29819,
+      "mtime_ns": 1792471135818660200
+    },
+    "D:\\apphearv3claude\\AppHear-claude-s2-r3-eval-suite\\AppHear-claude-s2-r3-eval-suite\\experiments\\continuous_asl\\20261020_continuous_expand06\\data\\processed\\asllrp2025\\asllrp3_93a5a6dea5b41993.features.npz": {
+      "sha256": "84f1d8c7e6b846c18ecb97d24aa866dc4b4083c2a4966455b8f70ca8bc932513",
+      "bytes": 19013,
+      "mtime_ns": 1792468976076953200
+    },
+    "D:\\apphearv3claude\\AppHear-claude-s2-r3-eval-suite\\AppHear-claude-s2-r3-eval-suite\\experiments\\continuous_asl\\20261020_continuous_expand06\\data\\processed\\asllrp2025\\asllrp3_93cd336742a43cfa.features.npz": {
+      "sha256": "0d4f8ad4b2c6e2e737ba36b7e40bcb3ae16a56d5249cddb7a5555a50fd060bc4",
+      "bytes": 19619,
+      "mtime_ns": 1792468544496214300
+    },
+    "D:\\apphearv3claude\\AppHear-claude-s2-r3-eval-suite\\AppHear-claude-s2-r3-eval-suite\\experiments\\continuous_asl\\20261020_continuous_expand06\\data\\processed\\asllrp2025\\asllrp3_96a6331ebbafbeb3.features.npz": {
+      "sha256": "2679d5c4f6ab63e65efb40e72b0953f7ccc2a8b81a47c308418689b5a2e9a85d",
+      "bytes": 25179,
+      "mtime_ns": 1792469769386978900
+    },
+    "D:\\apphearv3claude\\AppHear-claude-s2-r3-eval-suite\\AppHear-claude-s2-r3-eval-suite\\experiments\\continuous_asl\\20261020_continuous_expand06\\data\\processed\\asllrp2025\\asllrp3_973b3f7cc1b9bf55.features.npz": {
+      "sha256": "ca39eac12bed9529f6503ca483c2399548a9b5e16a0285d76f7f99b135e9ed51",
+      "bytes": 17160,
+      "mtime_ns": 1792469455064596200
+    },
+    "D:\\apphearv3claude\\AppHear-claude-s2-r3-eval-suite\\AppHear-claude-s2-r3-eval-suite\\experiments\\continuous_asl\\20261020_continuous_expand06\\data\\processed\\asllrp2025\\asllrp3_98df3a2db70b629b.features.npz": {
+      "sha256": "0f5cabef713785419b94e72c950eb86fd3e6e1f51cbbaf6f99cd4d8e121f6720",
+      "bytes": 19827,
+      "mtime_ns": 1792468822176953700
+    },
+    "D:\\apphearv3claude\\AppHear-claude-s2-r3-eval-suite\\AppHear-claude-s2-r3-eval-suite\\experiments\\continuous_asl\\20261020_continuous_expand06\\data\\processed\\asllrp2025\\asllrp3_99c3003b2b716ffb.features.npz": {
+      "sha256": "87b30ed1b9030d4e3591b91e7f97376cea64d91d78168044b3dbae0167069c6a",
+      "bytes": 17079,
+      "mtime_ns": 1792469774325861200
+    },
+    "D:\\apphearv3claude\\AppHear-claude-s2-r3-eval-suite\\AppHear-claude-s2-r3-eval-suite\\experiments\\continuous_asl\\20261020_continuous_expand06\\data\\processed\\asllrp2025\\asllrp3_9aef09e69dc26e16.features.npz": {
+      "sha256": "46816b7b62b74d7d40d0c10da5984dacb6779b3cdf9a7d8d10d6881a93831a90",
+      "bytes": 26208,
+      "mtime_ns": 1792471607910864900
+    },
+    "D:\\apphearv3claude\\AppHear-claude-s2-r3-eval-suite\\AppHear-claude-s2-r3-eval-suite\\experiments\\continuous_asl\\20261020_continuous_expand06\\data\\processed\\asllrp2025\\asllrp3_9b4d03f54528f13e.features.npz": {
+      "sha256": "7033abb41841b4030ec47f08491fabfa02fb44a5e51dab8e6383dbabd0ca8815",
+      "bytes": 23040,
+      "mtime_ns": 1792470777633449600
+    },
+    "D:\\apphearv3claude\\AppHear-claude-s2-r3-eval-suite\\AppHear-claude-s2-r3-eval-suite\\experiments\\continuous_asl\\20261020_continuous_expand06\\data\\processed\\asllrp2025\\asllrp3_9f4a149cf3fb79d6.features.npz": {
+      "sha256": "b65d9ff4256a46475ebeded1ed41666391d861fe5343c508d85f0bb6fe764920",
+      "bytes": 31615,
+      "mtime_ns": 1792469080952654300
+    },
+    "D:\\apphearv3claude\\AppHear-claude-s2-r3-eval-suite\\AppHear-claude-s2-r3-eval-suite\\experiments\\continuous_asl\\20261020_continuous_expand06\\data\\processed\\asllrp2025\\asllrp3_a1653acfbad12211.features.npz": {
+      "sha256": "50c6e46c6a1e68ea2ad1cb35b0f1bed9272aa0f0466052b38f9296f1b3e03f2b",
+      "bytes": 23702,
+      "mtime_ns": 1792469252396730200
+    },
+    "D:\\apphearv3claude\\AppHear-claude-s2-r3-eval-suite\\AppHear-claude-s2-r3-eval-suite\\experiments\\continuous_asl\\20261020_continuous_expand06\\data\\processed\\asllrp2025\\asllrp3_a22911f88ad4da02.features.npz": {
+      "sha256": "09a11c5fdb4ee2a82ee55b26c4cc3a36aa6fddbb00a76e7d5c63d040958670c4",
+      "bytes": 13166,
+      "mtime_ns": 1792469726455552200
+    },
+    "D:\\apphearv3claude\\AppHear-claude-s2-r3-eval-suite\\AppHear-claude-s2-r3-eval-suite\\experiments\\continuous_asl\\20261020_continuous_expand06\\data\\processed\\asllrp2025\\asllrp3_a246820f7fa3e34a.features.npz": {
+      "sha256": "bee9f47de1058e96d9f2ddbc7eccac228d7be54a16c158c9d142d7f81a78f32f",
+      "bytes": 37513,
+      "mtime_ns": 1792469666578723900
+    },
+    "D:\\apphearv3claude\\AppHear-claude-s2-r3-eval-suite\\AppHear-claude-s2-r3-eval-suite\\experiments\\continuous_asl\\20261020_continuous_expand06\\data\\processed\\asllrp2025\\asllrp3_a43875801a6de413.features.npz": {
+      "sha256": "356179e85038b53ec2fd9e4e35ef5c370127457d34cf2ea3c6c81166057d5e5e",
+      "bytes": 25073,
+      "mtime_ns": 1792470990769108600
+    },
+    "D:\\apphearv3claude\\AppHear-claude-s2-r3-eval-suite\\AppHear-claude-s2-r3-eval-suite\\experiments\\continuous_asl\\20261020_continuous_expand06\\data\\processed\\asllrp2025\\asllrp3_a97b9069c1f14e1d.features.npz": {
+      "sha256": "538bd7e231d0173931c89d7c16a5a3e30f6290c05a3e7148e4d41e196a55014e",
+      "bytes": 41850,
+      "mtime_ns": 1792470745690383100
+    },
+    "D:\\apphearv3claude\\AppHear-claude-s2-r3-eval-suite\\AppHear-claude-s2-r3-eval-suite\\experiments\\continuous_asl\\20261020_continuous_expand06\\data\\processed\\asllrp2025\\asllrp3_a9d509c75715f0c7.features.npz": {
+      "sha256": "562859b8ec5a096dcb957d499f2971ca4218794164c48f1673fa4db2750636a1",
+      "bytes": 45842,
+      "mtime_ns": 1792469136947879600
+    },
+    "D:\\apphearv3claude\\AppHear-claude-s2-r3-eval-suite\\AppHear-claude-s2-r3-eval-suite\\experiments\\continuous_asl\\20261020_continuous_expand06\\data\\processed\\asllrp2025\\asllrp3_acb294bda16f9594.features.npz": {
+      "sha256": "de27e9b5adf69d2a84f18b3181707da2150b9ba9dba9615ba65db89837b109b6",
+      "bytes": 15938,
+      "mtime_ns": 1792469147250910400
+    },
+    "D:\\apphearv3claude\\AppHear-claude-s2-r3-eval-suite\\AppHear-claude-s2-r3-eval-suite\\experiments\\continuous_asl\\20261020_continuous_expand06\\data\\processed\\asllrp2025\\asllrp3_ade85023f1ed923f.features.npz": {
+      "sha256": "ba15fabdf15bcfa01be59f8536591991c1df12d262ffb6dd1fe0b1a5a7d23c75",
+      "bytes": 14841,
+      "mtime_ns": 1792469212871563700
+    },
+    "D:\\apphearv3claude\\AppHear-claude-s2-r3-eval-suite\\AppHear-claude-s2-r3-eval-suite\\experiments\\continuous_asl\\20261020_continuous_expand06\\data\\processed\\asllrp2025\\asllrp3_b0011a850795e52a.features.npz": {
+      "sha256": "7d34d1f1d95f10f24f5573b3a697d780d02aeea5b98f1e19ee44b77fad562c71",
+      "bytes": 31167,
+      "mtime_ns": 1792470648903706100
+    },
+    "D:\\apphearv3claude\\AppHear-claude-s2-r3-eval-suite\\AppHear-claude-s2-r3-eval-suite\\experiments\\continuous_asl\\20261020_continuous_expand06\\data\\processed\\asllrp2025\\asllrp3_b01f2e29235534c3.features.npz": {
+      "sha256": "f5992ae1012d06ea6d833325311bcec461e5dcf8ba288435c13fd067571cf214",
+      "bytes": 19474,
+      "mtime_ns": 1792469460061039200
+    },
+    "D:\\apphearv3claude\\AppHear-claude-s2-r3-eval-suite\\AppHear-claude-s2-r3-eval-suite\\experiments\\continuous_asl\\20261020_continuous_expand06\\data\\processed\\asllrp2025\\asllrp3_b2eba8a3763fbd46.features.npz": {
+      "sha256": "389a633e9d5e766b053a602d885847a8d0d97635b0b881cf77b3478d5b7cae59",
+      "bytes": 23303,
+      "mtime_ns": 1792469075699021800
+    },
+    "D:\\apphearv3claude\\AppHear-claude-s2-r3-eval-suite\\AppHear-claude-s2-r3-eval-suite\\experiments\\continuous_asl\\20261020_continuous_expand06\\data\\processed\\asllrp2025\\asllrp3_b3ce095104fec4ce.features.npz": {
+      "sha256": "18445fc02a1d460b97f57a6dabda72c35cbd7320a5eecab210bb62ca52f97b78",
+      "bytes": 25468,
+      "mtime_ns": 1792468890326454100
+    },
+    "D:\\apphearv3claude\\AppHear-claude-s2-r3-eval-suite\\AppHear-claude-s2-r3-eval-suite\\experiments\\continuous_asl\\20261020_continuous_expand06\\data\\processed\\asllrp2025\\asllrp3_b5e61b29b606b661.features.npz": {
+      "sha256": "d52d13ff638f1aea116cadc063e1b9eb385bc9c538da58e4bf8e20a14f7cff60",
+      "bytes": 18563,
+      "mtime_ns": 1792469810276933600
+    },
+    "D:\\apphearv3claude\\AppHear-claude-s2-r3-eval-suite\\AppHear-claude-s2-r3-eval-suite\\experiments\\continuous_asl\\20261020_continuous_expand06\\data\\processed\\asllrp2025\\asllrp3_b93af72c82bd2ccb.features.npz": {
+      "sha256": "bae2e8012211f6871f6c9c7b63040d95a2b3251ca07dbe9b53357de243236416",
+      "bytes": 36165,
+      "mtime_ns": 1792468903218976900
+    },
+    "D:\\apphearv3claude\\AppHear-claude-s2-r3-eval-suite\\AppHear-claude-s2-r3-eval-suite\\experiments\\continuous_asl\\20261020_continuous_expand06\\data\\processed\\asllrp2025\\asllrp3_ba5ef08595898ad5.features.npz": {
+      "sha256": "d81700e9dd6404033abe778b9efe7f45dfb4a41bbadd521776c69e97ae7e4276",
+      "bytes": 24935,
+      "mtime_ns": 1792469222808963900
+    },
+    "D:\\apphearv3claude\\AppHear-claude-s2-r3-eval-suite\\AppHear-claude-s2-r3-eval-suite\\experiments\\continuous_asl\\20261020_continuous_expand06\\data\\processed\\asllrp2025\\asllrp3_bac6d12c8851ae1d.features.npz": {
+      "sha256": "538a949eddc1967e33f08f9da09d3b12ce0fc7982d7fcf223b6270c87ac581ef",
+      "bytes": 23139,
+      "mtime_ns": 1792469477956947300
+    },
+    "D:\\apphearv3claude\\AppHear-claude-s2-r3-eval-suite\\AppHear-claude-s2-r3-eval-suite\\experiments\\continuous_asl\\20261020_continuous_expand06\\data\\processed\\asllrp2025\\asllrp3_bdf71640ea62f1c2.features.npz": {
+      "sha256": "a9a2c08342a2777429f84d187090bae1cc7d654c73fadd2b1a91117b3c5420fa",
+      "bytes": 20715,
+      "mtime_ns": 1792469695400945800
+    },
+    "D:\\apphearv3claude\\AppHear-claude-s2-r3-eval-suite\\AppHear-claude-s2-r3-eval-suite\\experiments\\continuous_asl\\20261020_continuous_expand06\\data\\processed\\asllrp2025\\asllrp3_bea2bde2ad7d8e1d.features.npz": {
+      "sha256": "68ef4e648d5dbef77ce714fae72da009960ea0e73225486a5bfb1df8375b2de4",
+      "bytes": 38792,
+      "mtime_ns": 1792468555343396500
+    },
+    "D:\\apphearv3claude\\AppHear-claude-s2-r3-eval-suite\\AppHear-claude-s2-r3-eval-suite\\experiments\\continuous_asl\\20261020_continuous_expand06\\data\\processed\\asllrp2025\\asllrp3_c1353b3697686867.features.npz": {
+      "sha256": "3ce493f41488e2abe1b9c599e445b747f3abc1f76db014f610e417e6322ca7df",
+      "bytes": 20378,
+      "mtime_ns": 1792471462912099000
+    },
+    "D:\\apphearv3claude\\AppHear-claude-s2-r3-eval-suite\\AppHear-claude-s2-r3-eval-suite\\experiments\\continuous_asl\\20261020_continuous_expand06\\data\\processed\\asllrp2025\\asllrp3_c29f483f94b9fac9.features.npz": {
+      "sha256": "17f3369dd4271b6dc620e07e2dfc9266ba9ea8cd696c9eee76735c8ff5f64a21",
+      "bytes": 16286,
+      "mtime_ns": 1792469784085508500
+    },
+    "D:\\apphearv3claude\\AppHear-claude-s2-r3-eval-suite\\AppHear-claude-s2-r3-eval-suite\\experiments\\continuous_asl\\20261020_continuous_expand06\\data\\processed\\asllrp2025\\asllrp3_c392cb53a3ad56e5.features.npz": {
+      "sha256": "f776355ab6df8c6ebd01ef7b2b71a4b31399b2c27b7eb38b48660dfe01774c0a",
+      "bytes": 12844,
+      "mtime_ns": 1792469047427483900
+    },
+    "D:\\apphearv3claude\\AppHear-claude-s2-r3-eval-suite\\AppHear-claude-s2-r3-eval-suite\\experiments\\continuous_asl\\20261020_continuous_expand06\\data\\processed\\asllrp2025\\asllrp3_c467ef7d51080f48.features.npz": {
+      "sha256": "3d12648d4ce20b31855281b89faf3ec6709d4f348e70716fdf281ca5077b1772",
+      "bytes": 19997,
+      "mtime_ns": 1792471683851667700
+    },
+    "D:\\apphearv3claude\\AppHear-claude-s2-r3-eval-suite\\AppHear-claude-s2-r3-eval-suite\\experiments\\continuous_asl\\20261020_continuous_expand06\\data\\processed\\asllrp2025\\asllrp3_c4c7d7b223717d24.features.npz": {
+      "sha256": "07ab4d07a5ee7bd8b77c3dff5462c54839f87dcfdb0fdc8d062b2b824ccd9423",
+      "bytes": 38263,
+      "mtime_ns": 1792471661345144400
+    },
+    "D:\\apphearv3claude\\AppHear-claude-s2-r3-eval-suite\\AppHear-claude-s2-r3-eval-suite\\experiments\\continuous_asl\\20261020_continuous_expand06\\data\\processed\\asllrp2025\\asllrp3_c57de838bf922065.features.npz": {
+      "sha256": "096daf02f898e9173366aca7018c929e3d961e7d627848eca64fc693609fe423",
+      "bytes": 28085,
+      "mtime_ns": 1792468697873690400
+    },
+    "D:\\apphearv3claude\\AppHear-claude-s2-r3-eval-suite\\AppHear-claude-s2-r3-eval-suite\\experiments\\continuous_asl\\20261020_continuous_expand06\\data\\processed\\asllrp2025\\asllrp3_c5d3dda8e2264920.features.npz": {
+      "sha256": "31831a8fb61b858562e35b46fd0a9307a8f9c6c280a9dd8561389afb3756aae8",
+      "bytes": 16419,
+      "mtime_ns": 1792469065057874600
+    },
+    "D:\\apphearv3claude\\AppHear-claude-s2-r3-eval-suite\\AppHear-claude-s2-r3-eval-suite\\experiments\\continuous_asl\\20261020_continuous_expand06\\data\\processed\\asllrp2025\\asllrp3_c65a7f06f4271f3f.features.npz": {
+      "sha256": "1f6b22c28518f1a8d61ef3fae3641b6e01fd3ddb1aa5c25f773da24f47822d7d",
+      "bytes": 20342,
+      "mtime_ns": 1792469789833352500
+    },
+    "D:\\apphearv3claude\\AppHear-claude-s2-r3-eval-suite\\AppHear-claude-s2-r3-eval-suite\\experiments\\continuous_asl\\20261020_continuous_expand06\\data\\processed\\asllrp2025\\asllrp3_c7ac64849a56d97b.features.npz": {
+      "sha256": "c05efb8ed62cb67474dcdc49268885c793b2fcf8b7987fae58017eb0b7b83dcf",
+      "bytes": 25336,
+      "mtime_ns": 1792469712065276800
+    },
+    "D:\\apphearv3claude\\AppHear-claude-s2-r3-eval-suite\\AppHear-claude-s2-r3-eval-suite\\experiments\\continuous_asl\\20261020_continuous_expand06\\data\\processed\\asllrp2025\\asllrp3_c7c9b0e4144af842.features.npz": {
+      "sha256": "fc0bc6dba5625e9c9be4ae92cff2cd425ad04e3944abf4e371f715467aa74c4f",
+      "bytes": 33421,
+      "mtime_ns": 1792471705074604300
+    },
+    "D:\\apphearv3claude\\AppHear-claude-s2-r3-eval-suite\\AppHear-claude-s2-r3-eval-suite\\experiments\\continuous_asl\\20261020_continuous_expand06\\data\\processed\\asllrp2025\\asllrp3_cd82c4dcb530c966.features.npz": {
+      "sha256": "95f3f6d07c82ce1c8fcff57b7c02264f2565e4ecd87223e03b6d711f700cdf1b",
+      "bytes": 31126,
+      "mtime_ns": 1792469115188512600
+    },
+    "D:\\apphearv3claude\\AppHear-claude-s2-r3-eval-suite\\AppHear-claude-s2-r3-eval-suite\\experiments\\continuous_asl\\20261020_continuous_expand06\\data\\processed\\asllrp2025\\asllrp3_ce2d9ec263768488.features.npz": {
+      "sha256": "85b608dac113d6f926d07e9ad960af800323bf50930c5d7110e87d3a1442bace",
+      "bytes": 26837,
+      "mtime_ns": 1792468841687010500
+    },
+    "D:\\apphearv3claude\\AppHear-claude-s2-r3-eval-suite\\AppHear-claude-s2-r3-eval-suite\\experiments\\continuous_asl\\20261020_continuous_expand06\\data\\processed\\asllrp2025\\asllrp3_cef0fe582517e4d0.features.npz": {
+      "sha256": "d9d5e2945743e8f7e9bbcc9d90e6cd56e8ac7fb78e28230b59709f194810818b",
+      "bytes": 19237,
+      "mtime_ns": 1792468699502082600
+    },
+    "D:\\apphearv3claude\\AppHear-claude-s2-r3-eval-suite\\AppHear-claude-s2-r3-eval-suite\\experiments\\continuous_asl\\20261020_continuous_expand06\\data\\processed\\asllrp2025\\asllrp3_cf01d5fd3e352ae0.features.npz": {
+      "sha256": "bc67fc43a8830cb4915858824337bc370731580412c0f590d950d8a82f6e5a17",
+      "bytes": 21754,
+      "mtime_ns": 1792468806116798300
+    },
+    "D:\\apphearv3claude\\AppHear-claude-s2-r3-eval-suite\\AppHear-claude-s2-r3-eval-suite\\experiments\\continuous_asl\\20261020_continuous_expand06\\data\\processed\\asllrp2025\\asllrp3_cfbdab19659683e8.features.npz": {
+      "sha256": "7bf7d33e2f115562c21a231774e4249aeb1d0c362e475d9144e361cc5e1ce994",
+      "bytes": 15411,
+      "mtime_ns": 1792469777860940600
+    },
+    "D:\\apphearv3claude\\AppHear-claude-s2-r3-eval-suite\\AppHear-claude-s2-r3-eval-suite\\experiments\\continuous_asl\\20261020_continuous_expand06\\data\\processed\\asllrp2025\\asllrp3_cfe1f3a93edfe745.features.npz": {
+      "sha256": "a1f8901b9a810fa0d034cdc06295b001742de21674c7316e5e045be7577586ae",
+      "bytes": 22401,
+      "mtime_ns": 1792469287991174900
+    },
+    "D:\\apphearv3claude\\AppHear-claude-s2-r3-eval-suite\\AppHear-claude-s2-r3-eval-suite\\experiments\\continuous_asl\\20261020_continuous_expand06\\data\\processed\\asllrp2025\\asllrp3_d0aef1fa333a927d.features.npz": {
+      "sha256": "a966dbd81841cc2fc3b8502fa10b24645a7756a79ee19945f12a2bcd16c5c88a",
+      "bytes": 17899,
+      "mtime_ns": 1792469773387686900
+    },
+    "D:\\apphearv3claude\\AppHear-claude-s2-r3-eval-suite\\AppHear-claude-s2-r3-eval-suite\\experiments\\continuous_asl\\20261020_continuous_expand06\\data\\processed\\asllrp2025\\asllrp3_d21cb5b87e6bb418.features.npz": {
+      "sha256": "4f2f7f564b2fe4b0a27fc171d4b7e77a14f6b4976d2ff7c6a3cc5d998b426aef",
+      "bytes": 18192,
+      "mtime_ns": 1792469541975046800
+    },
+    "D:\\apphearv3claude\\AppHear-claude-s2-r3-eval-suite\\AppHear-claude-s2-r3-eval-suite\\experiments\\continuous_asl\\20261020_continuous_expand06\\data\\processed\\asllrp2025\\asllrp3_d30525b5f5873a32.features.npz": {
+      "sha256": "b80a07775d89ab1b7e856f6087beaaa37f1ee5df70f2041ff11dc3eb60ddeda3",
+      "bytes": 23556,
+      "mtime_ns": 1792469369801132300
+    },
+    "D:\\apphearv3claude\\AppHear-claude-s2-r3-eval-suite\\AppHear-claude-s2-r3-eval-suite\\experiments\\continuous_asl\\20261020_continuous_expand06\\data\\processed\\asllrp2025\\asllrp3_d4dc011f23660ebd.features.npz": {
+      "sha256": "8b118b59944272fef854bfdefc4847778c0f823546d3d5652c7a911f174fd1bd",
+      "bytes": 27830,
+      "mtime_ns": 1792469067232196100
+    },
+    "D:\\apphearv3claude\\AppHear-claude-s2-r3-eval-suite\\AppHear-claude-s2-r3-eval-suite\\experiments\\continuous_asl\\20261020_continuous_expand06\\data\\processed\\asllrp2025\\asllrp3_d52d4cc9ab4abd14.features.npz": {
+      "sha256": "4dff0bf5770cbc672264bae101d46db5369f817e38ebeb6adfc0c8b5e06ff899",
+      "bytes": 24364,
+      "mtime_ns": 1792469123462444200
+    },
+    "D:\\apphearv3claude\\AppHear-claude-s2-r3-eval-suite\\AppHear-claude-s2-r3-eval-suite\\experiments\\continuous_asl\\20261020_continuous_expand06\\data\\processed\\asllrp2025\\asllrp3_d6a2d1d380e3f30f.features.npz": {
+      "sha256": "9a27c8d89015cc83e7fae659b5c4d26b818d9ea92b4bc5e52f6456a8497e8071",
+      "bytes": 18626,
+      "mtime_ns": 1792469748595340800
+    },
+    "D:\\apphearv3claude\\AppHear-claude-s2-r3-eval-suite\\AppHear-claude-s2-r3-eval-suite\\experiments\\continuous_asl\\20261020_continuous_expand06\\data\\processed\\asllrp2025\\asllrp3_d757be6afdab68ed.features.npz": {
+      "sha256": "f21bf1e3775fc6e85b2b7ee22b72eec1031fc08eb075683d54a0021a5dd81dc5",
+      "bytes": 18062,
+      "mtime_ns": 1792469128656910900
+    },
+    "D:\\apphearv3claude\\AppHear-claude-s2-r3-eval-suite\\AppHear-claude-s2-r3-eval-suite\\experiments\\continuous_asl\\20261020_continuous_expand06\\data\\processed\\asllrp2025\\asllrp3_d81d53f9fe1c1717.features.npz": {
+      "sha256": "30d30d7ac7d2b6f15d7a1f4b8256278a1635013a16e05cb3d6844b12966df4ee",
+      "bytes": 18905,
+      "mtime_ns": 1792469758221112600
+    },
+    "D:\\apphearv3claude\\AppHear-claude-s2-r3-eval-suite\\AppHear-claude-s2-r3-eval-suite\\experiments\\continuous_asl\\20261020_continuous_expand06\\data\\processed\\asllrp2025\\asllrp3_d88e52dedd536876.features.npz": {
+      "sha256": "49241446f220df8e64b937eb861d621b8cb578ce5cee93ec0c86b69a379bad81",
+      "bytes": 20307,
+      "mtime_ns": 1792469779924672400
+    },
+    "D:\\apphearv3claude\\AppHear-claude-s2-r3-eval-suite\\AppHear-claude-s2-r3-eval-suite\\experiments\\continuous_asl\\20261020_continuous_expand06\\data\\processed\\asllrp2025\\asllrp3_d8ea4b067f145801.features.npz": {
+      "sha256": "2c108786fe871fa9b267762d7f835ae81e1b6d2619a41a71dd27038b91a0ff30",
+      "bytes": 52000,
+      "mtime_ns": 1792471282511891400
+    },
+    "D:\\apphearv3claude\\AppHear-claude-s2-r3-eval-suite\\AppHear-claude-s2-r3-eval-suite\\experiments\\continuous_asl\\20261020_continuous_expand06\\data\\processed\\asllrp2025\\asllrp3_db76a79ba2f56260.features.npz": {
+      "sha256": "3d6fbb8da70a270cffb2ca2a1a634ed666e68af6fe5b185ee3cd9e0446d0bf1f",
+      "bytes": 30314,
+      "mtime_ns": 1792469724247408800
+    },
+    "D:\\apphearv3claude\\AppHear-claude-s2-r3-eval-suite\\AppHear-claude-s2-r3-eval-suite\\experiments\\continuous_asl\\20261020_continuous_expand06\\data\\processed\\asllrp2025\\asllrp3_dc88050cd329950e.features.npz": {
+      "sha256": "4545cd090b606563cbd22c8591e390923988dadc767f88ad4b3cf41233076f7a",
+      "bytes": 22918,
+      "mtime_ns": 1792469302690697100
+    },
+    "D:\\apphearv3claude\\AppHear-claude-s2-r3-eval-suite\\AppHear-claude-s2-r3-eval-suite\\experiments\\continuous_asl\\20261020_continuous_expand06\\data\\processed\\asllrp2025\\asllrp3_def1ed2a46805c67.features.npz": {
+      "sha256": "db0ffd3db03b298f8a0d5cad675435b200cac5e943566c0bd4280da63217e9b6",
+      "bytes": 20003,
+      "mtime_ns": 1792468954096347400
+    },
+    "D:\\apphearv3claude\\AppHear-claude-s2-r3-eval-suite\\AppHear-claude-s2-r3-eval-suite\\experiments\\continuous_asl\\20261020_continuous_expand06\\data\\processed\\asllrp2025\\asllrp3_e2bc68f8c5eaf59d.features.npz": {
+      "sha256": "72359fd0b20f5ecf5b614819c9099f314af82264822a8dcf4ee9ed3c58c2543f",
+      "bytes": 23320,
+      "mtime_ns": 1792468862148089100
+    },
+    "D:\\apphearv3claude\\AppHear-claude-s2-r3-eval-suite\\AppHear-claude-s2-r3-eval-suite\\experiments\\continuous_asl\\20261020_continuous_expand06\\data\\processed\\asllrp2025\\asllrp3_e32d80091040f70a.features.npz": {
+      "sha256": "d083d31b49e8dfb244294ab86a36f1ba34c981a17e34871f7ed19db327dacf1c",
+      "bytes": 13657,
+      "mtime_ns": 1792469523860546000
+    },
+    "D:\\apphearv3claude\\AppHear-claude-s2-r3-eval-suite\\AppHear-claude-s2-r3-eval-suite\\experiments\\continuous_asl\\20261020_continuous_expand06\\data\\processed\\asllrp2025\\asllrp3_e3a3d11a192b3046.features.npz": {
+      "sha256": "6eec4fcac93a0b66fa980de2540fb36e1a1703f9bfb37a923fc98eb5c57d7f64",
+      "bytes": 57329,
+      "mtime_ns": 1792469447631626600
+    },
+    "D:\\apphearv3claude\\AppHear-claude-s2-r3-eval-suite\\AppHear-claude-s2-r3-eval-suite\\experiments\\continuous_asl\\20261020_continuous_expand06\\data\\processed\\asllrp2025\\asllrp3_ebec92689e250962.features.npz": {
+      "sha256": "42c72aae5da09faff5043777bfa06de7582032ae91d450a585713ad9cf4ddfbf",
+      "bytes": 45248,
+      "mtime_ns": 1792471459721611500
+    },
+    "D:\\apphearv3claude\\AppHear-claude-s2-r3-eval-suite\\AppHear-claude-s2-r3-eval-suite\\experiments\\continuous_asl\\20261020_continuous_expand06\\data\\processed\\asllrp2025\\asllrp3_ec3255952332e9eb.features.npz": {
+      "sha256": "9cad06573be59b9f1a6ec14f0c7cf45235ad9dc7c8a89cf5bf888f3b4e57155b",
+      "bytes": 28322,
+      "mtime_ns": 1792468786711176600
+    },
+    "D:\\apphearv3claude\\AppHear-claude-s2-r3-eval-suite\\AppHear-claude-s2-r3-eval-suite\\experiments\\continuous_asl\\20261020_continuous_expand06\\data\\processed\\asllrp2025\\asllrp3_ee578a14cf688af4.features.npz": {
+      "sha256": "ad6723a06cc4599b7b49f5ccf7b1e97a0a923fc9d2f2f9af5564ff40a1ac86af",
+      "bytes": 17981,
+      "mtime_ns": 1792469689553788300
+    },
+    "D:\\apphearv3claude\\AppHear-claude-s2-r3-eval-suite\\AppHear-claude-s2-r3-eval-suite\\experiments\\continuous_asl\\20261020_continuous_expand06\\data\\processed\\asllrp2025\\asllrp3_ee72981295efbe25.features.npz": {
+      "sha256": "141c7e6b76f5df6f149689983e8a085850d40767e0b5c800b5bde6aa242498eb",
+      "bytes": 12320,
+      "mtime_ns": 1792471174457479600
+    },
+    "D:\\apphearv3claude\\AppHear-claude-s2-r3-eval-suite\\AppHear-claude-s2-r3-eval-suite\\experiments\\continuous_asl\\20261020_continuous_expand06\\data\\processed\\asllrp2025\\asllrp3_ee8504b335e1322f.features.npz": {
+      "sha256": "beb627e3a7294af31f228ce38a727b5e166a0642f11c237f711ade2c0ed9f71f",
+      "bytes": 19886,
+      "mtime_ns": 1792469276426567000
+    },
+    "D:\\apphearv3claude\\AppHear-claude-s2-r3-eval-suite\\AppHear-claude-s2-r3-eval-suite\\experiments\\continuous_asl\\20261020_continuous_expand06\\data\\processed\\asllrp2025\\asllrp3_ef64ee1fb0d71a1f.features.npz": {
+      "sha256": "b7294790a3b7c972ea7c27b4ae03625a39e04b4c3561157668a7db292e4864c8",
+      "bytes": 24647,
+      "mtime_ns": 1792469392680579300
+    },
+    "D:\\apphearv3claude\\AppHear-claude-s2-r3-eval-suite\\AppHear-claude-s2-r3-eval-suite\\experiments\\continuous_asl\\20261020_continuous_expand06\\data\\processed\\asllrp2025\\asllrp3_f044f9015af1c098.features.npz": {
+      "sha256": "8534bbd40cb9742712c7540582f4e81697847509070f08e5a0bb4ea8289c380b",
+      "bytes": 38663,
+      "mtime_ns": 1792468722781757900
+    },
+    "D:\\apphearv3claude\\AppHear-claude-s2-r3-eval-suite\\AppHear-claude-s2-r3-eval-suite\\experiments\\continuous_asl\\20261020_continuous_expand06\\data\\processed\\asllrp2025\\asllrp3_f0a2517a6b1d2b61.features.npz": {
+      "sha256": "89ba3d56f881509ee56a592cae30b5b78021be7edd70fe317119f42fd7ffad1c",
+      "bytes": 23313,
+      "mtime_ns": 1792471153136621800
+    },
+    "D:\\apphearv3claude\\AppHear-claude-s2-r3-eval-suite\\AppHear-claude-s2-r3-eval-suite\\experiments\\continuous_asl\\20261020_continuous_expand06\\data\\processed\\asllrp2025\\asllrp3_f27e40aae77bb6f2.features.npz": {
+      "sha256": "4eeea13fdbf76729001119569de86ef4428308f3484905a939516d72e2863cdc",
+      "bytes": 13303,
+      "mtime_ns": 1792469818713334700
+    },
+    "D:\\apphearv3claude\\AppHear-claude-s2-r3-eval-suite\\AppHear-claude-s2-r3-eval-suite\\experiments\\continuous_asl\\20261020_continuous_expand06\\data\\processed\\asllrp2025\\asllrp3_f287924af5fb30f8.features.npz": {
+      "sha256": "aa2bb2cb41da766b80374f687da60b970c6a605b54a92f5132a5766bfb42d6e7",
+      "bytes": 30776,
+      "mtime_ns": 1792470884992397400
+    },
+    "D:\\apphearv3claude\\AppHear-claude-s2-r3-eval-suite\\AppHear-claude-s2-r3-eval-suite\\experiments\\continuous_asl\\20261020_continuous_expand06\\data\\processed\\asllrp2025\\asllrp3_f3cab6ef55838e2c.features.npz": {
+      "sha256": "279ea65d31596558b8a989396fbe2b4f68a0881f97d7a64726193c7bf1fca5c0",
+      "bytes": 25099,
+      "mtime_ns": 1792468683307822800
+    },
+    "D:\\apphearv3claude\\AppHear-claude-s2-r3-eval-suite\\AppHear-claude-s2-r3-eval-suite\\experiments\\continuous_asl\\20261020_continuous_expand06\\data\\processed\\asllrp2025\\asllrp3_f3d6600ecfbc58e5.features.npz": {
+      "sha256": "1215bfb796de0b0722015ef3258f1f12ce7b128332bb5645399a5cf36414dd12",
+      "bytes": 19206,
+      "mtime_ns": 1792469745392010200
+    },
+    "D:\\apphearv3claude\\AppHear-claude-s2-r3-eval-suite\\AppHear-claude-s2-r3-eval-suite\\experiments\\continuous_asl\\20261020_continuous_expand06\\data\\processed\\asllrp2025\\asllrp3_f418e6917ef11870.features.npz": {
+      "sha256": "62cc62c06cb79ba89151d405c2053aa7af7da2d3bd081b6e509eac08734fe37e",
+      "bytes": 14698,
+      "mtime_ns": 1792471682972800600
+    },
+    "D:\\apphearv3claude\\AppHear-claude-s2-r3-eval-suite\\AppHear-claude-s2-r3-eval-suite\\experiments\\continuous_asl\\20261020_continuous_expand06\\data\\processed\\asllrp2025\\asllrp3_f4b263588f0f9c5c.features.npz": {
+      "sha256": "4a2a825dc053e0df8034f46333ec0b44d362903a727652b8449ffc56542a5d23",
+      "bytes": 39903,
+      "mtime_ns": 1792469578276561100
+    },
+    "D:\\apphearv3claude\\AppHear-claude-s2-r3-eval-suite\\AppHear-claude-s2-r3-eval-suite\\experiments\\continuous_asl\\20261020_continuous_expand06\\data\\processed\\asllrp2025\\asllrp3_f77dcdc89c1cbf19.features.npz": {
+      "sha256": "1e5b47403525c03c76deaf2d1c56551a6335b3ca31ac181ceb41ea68788d05c8",
+      "bytes": 26097,
+      "mtime_ns": 1792469032379106000
+    },
+    "D:\\apphearv3claude\\AppHear-claude-s2-r3-eval-suite\\AppHear-claude-s2-r3-eval-suite\\experiments\\continuous_asl\\20261020_continuous_expand06\\data\\processed\\asllrp2025\\asllrp3_fbdd7dab8ad6758c.features.npz": {
+      "sha256": "80bc2556b95fd97a51095ec0d6ac8bb5b22797a5a8e2b257841250f4f6425edc",
+      "bytes": 13641,
+      "mtime_ns": 1792471128298442600
+    },
+    "D:\\apphearv3claude\\AppHear-claude-s2-r3-eval-suite\\AppHear-claude-s2-r3-eval-suite\\experiments\\continuous_asl\\20261020_continuous_expand06\\data\\processed\\asllrp2025\\asllrp3_fd92eac5d40c4b36.features.npz": {
+      "sha256": "32181000214de0142877b225a595b27e05b17636b6575b8f55a695ee0323d4e2",
+      "bytes": 24773,
+      "mtime_ns": 1792471665898010000
+    },
+    "D:\\apphearv3claude\\AppHear-claude-s2-r3-eval-suite\\AppHear-claude-s2-r3-eval-suite\\experiments\\continuous_asl\\20261020_continuous_expand06\\data\\processed\\asllrp2025\\asllrp3_ff38f935c4d84a4b.features.npz": {
+      "sha256": "767373be0df0e44e0504291738362e1aa4e7842a5b5ebd52e05e3dcf097a1f55",
+      "bytes": 46937,
+      "mtime_ns": 1792469388761535700
+    },
+    "D:\\apphearv3claude\\AppHear-claude-s2-r3-eval-suite\\AppHear-claude-s2-r3-eval-suite\\experiments\\continuous_asl\\20261020_continuous_expand06\\data\\processed\\asllrp2025\\asllrp3_ff8a943c9abff5e8.features.npz": {
+      "sha256": "08f6f8656c3ad4eaf6eaf8685951ad2f29ae64f73e82b5075eba351257f2ab2e",
+      "bytes": 30897,
+      "mtime_ns": 1792470607490911200
+    },
+    "D:\\apphearv3claude\\AppHear-claude-s2-r3-eval-suite\\AppHear-claude-s2-r3-eval-suite\\experiments\\continuous_asl\\20261020T135119Z_read_only_failure_audit01\\feature_and_target_checks.json": {
+      "sha256": "2d2c8e2763f9b1b2c2c816d07bc97c780c49a8440acc70d07515233c88540eb6",
+      "bytes": 1120203,
+      "mtime_ns": 1792504641259871900
+    },
+    "D:\\apphearv3claude\\AppHear-claude-s2-r3-eval-suite\\AppHear-claude-s2-r3-eval-suite\\experiments\\continuous_asl\\20261020T143609Z_learning_diagnostic01\\config.json": {
+      "sha256": "3882dbe58406a84021894224ce2f8a3072ff076cd08f208601cdb30b4e76d366",
+      "bytes": 2003,
+      "mtime_ns": 1792507179939122700
+    },
+    "D:\\apphearv3claude\\AppHear-claude-s2-r3-eval-suite\\AppHear-claude-s2-r3-eval-suite\\experiments\\continuous_asl\\20261020T143609Z_learning_diagnostic01\\fold_manifest.json": {
+      "sha256": "87442a6f1241860e369a5c8f0768d583b3a4058f5a9ad03dcc135532c419c72f",
+      "bytes": 60909,
+      "mtime_ns": 1792507179942132800
+    },
+    "D:\\apphearv3claude\\AppHear-claude-s2-r3-eval-suite\\AppHear-claude-s2-r3-eval-suite\\experiments\\continuous_asl\\20261020T143609Z_learning_diagnostic01\\normalization.npz": {
+      "sha256": "394a3862286b01b884d30952f767f8620969ea21c0384715254e4bddb2d41489",
+      "bytes": 3972,
+      "mtime_ns": 1792507179945130400
+    },
+    "D:\\apphearv3claude\\AppHear-claude-s2-r3-eval-suite\\AppHear-claude-s2-r3-eval-suite\\experiments\\continuous_asl\\20261020T143609Z_learning_diagnostic01\\resolved_manifest.json": {
+      "sha256": "0e1b797f67e8030aea69124bb303d4255a6e23dded799b35bc90f8553b9332f4",
+      "bytes": 11535735,
+      "mtime_ns": 1792507180408976000
+    },
+    "D:\\apphearv3claude\\AppHear-claude-s2-r3-eval-suite\\AppHear-claude-s2-r3-eval-suite\\experiments\\continuous_asl\\20261020T143609Z_learning_diagnostic01\\vocabulary.json": {
+      "sha256": "365b44d435c9def2bba6e0f347155c72bf2ca001bd365d5b10f55dbe91174715",
+      "bytes": 46030,
+      "mtime_ns": 1792507179944129700
+    },
+    "D:\\apphearv3claude\\AppHear-claude-s2-r3-eval-suite\\AppHear-claude-s2-r3-eval-suite\\experiments\\continuous_asl\\20261020T144622Z_compact_ctc_control01\\artifact_hashes.sha256": {
+      "sha256": "0d857d1da5404b6dab27f55cddada97a391c9f434ca0c7719135635a2811d77d",
+      "bytes": 4217,
+      "mtime_ns": 1792508090465163300
+    },
+    "D:\\apphearv3claude\\AppHear-claude-s2-r3-eval-suite\\AppHear-claude-s2-r3-eval-suite\\experiments\\continuous_asl\\20261020T144622Z_compact_ctc_control01\\checkpoints\\epoch_030.pt": {
+      "sha256": "2ff4b2aa7231c4d3d5cf90dded03dcff224e8c311b5dc91893aecf991f5c4db7",
+      "bytes": 2351115,
+      "mtime_ns": 1792507902767870300
+    },
+    "D:\\apphearv3claude\\AppHear-claude-s2-r3-eval-suite\\AppHear-claude-s2-r3-eval-suite\\experiments\\continuous_asl\\20261020T144622Z_compact_ctc_control01\\checkpoints\\initialization.pt": {
+      "sha256": "86201a0f476aeb0be651ad5fa958ef65b1cdeaa55dec07fb228ac5b16a08f4e3",
+      "bytes": 826861,
+      "mtime_ns": 1792507888484368500
+    },
+    "D:\\apphearv3claude\\AppHear-claude-s2-r3-eval-suite\\AppHear-claude-s2-r3-eval-suite\\experiments\\continuous_asl\\20261020T144622Z_compact_ctc_control01\\control.py": {
+      "sha256": "4521c8a5948c9e3a512c0c5f01fcba02ef1bb48fc8955427e1d636803a9e377f",
+      "bytes": 18619,
+      "mtime_ns": 1792507713565521800
+    },
+    "D:\\apphearv3claude\\AppHear-claude-s2-r3-eval-suite\\AppHear-claude-s2-r3-eval-suite\\experiments\\continuous_asl\\20261020T144622Z_compact_ctc_control01\\control_config.json": {
+      "sha256": "b2720066330ca2ce68d6b98afaf4511c9af6d3db93fa6f6f2b7034da8ab85e98",
+      "bytes": 1827,
+      "mtime_ns": 1792507715969557300
+    },
+    "D:\\apphearv3claude\\AppHear-claude-s2-r3-eval-suite\\AppHear-claude-s2-r3-eval-suite\\experiments\\continuous_asl\\20261020T144622Z_compact_ctc_control01\\decision.json": {
+      "sha256": "ff8459897f8f57678469938761a5935f22883934378a6c55927aa24fc225622d",
+      "bytes": 1457,
+      "mtime_ns": 1792507903209297000
+    },
+    "D:\\apphearv3claude\\AppHear-claude-s2-r3-eval-suite\\AppHear-claude-s2-r3-eval-suite\\experiments\\continuous_asl\\20261020T144622Z_compact_ctc_control01\\final_predictions.json": {
+      "sha256": "2b2d796989f9d8560cdabed69a23b0c33950bd52e3346bee4dff53e54a1b9000",
+      "bytes": 73339,
+      "mtime_ns": 1792507903209297000
+    },
+    "D:\\apphearv3claude\\AppHear-claude-s2-r3-eval-suite\\AppHear-claude-s2-r3-eval-suite\\experiments\\continuous_asl\\20261020T144622Z_compact_ctc_control01\\subset_coverage.json": {
+      "sha256": "e7b4439805d1603350aa1a0a5e498a6c5314d7eb87bdf8310bcca84a079a3d48",
+      "bytes": 1446,
+      "mtime_ns": 1792507715968552900
+    },
+    "D:\\apphearv3claude\\AppHear-claude-s2-r3-eval-suite\\AppHear-claude-s2-r3-eval-suite\\experiments\\continuous_asl\\20261020T144622Z_compact_ctc_control01\\subset_manifest.json": {
+      "sha256": "c7b78f1aef43b5501fce5fafbf69e91753e5d9d85cb594a3e18fc693ecfb5198",
+      "bytes": 730905,
+      "mtime_ns": 1792507715967559300
+    },
+    "D:\\apphearv3claude\\AppHear-claude-s2-r3-eval-suite\\AppHear-claude-s2-r3-eval-suite\\experiments\\continuous_asl\\20261021T112738_nested192_control01\\control192.py": {
+      "sha256": "d38be4b3468e0c2f9d65f2f02c0ea4fb737069c1be39e83e2e79f063a72a9f8a",
+      "bytes": 20885,
+      "mtime_ns": 1792553258164417700
+    },
+    "D:\\apphearv3claude\\AppHear-claude-s2-r3-eval-suite\\AppHear-claude-s2-r3-eval-suite\\experiments\\continuous_asl\\20261021T112738_nested192_control01\\control_config.json": {
+      "sha256": "4287278d846bd8401328c5a9be288707dc498161a16f917f37c9c1e4708934d4",
+      "bytes": 2159,
+      "mtime_ns": 1792553268182536300
+    },
+    "D:\\apphearv3claude\\AppHear-claude-s2-r3-eval-suite\\AppHear-claude-s2-r3-eval-suite\\experiments\\continuous_asl\\20261021T112738_nested192_control01\\fold_manifest.json": {
+      "sha256": "87442a6f1241860e369a5c8f0768d583b3a4058f5a9ad03dcc135532c419c72f",
+      "bytes": 60909,
+      "mtime_ns": 1792553268185046700
+    },
+    "D:\\apphearv3claude\\AppHear-claude-s2-r3-eval-suite\\AppHear-claude-s2-r3-eval-suite\\experiments\\continuous_asl\\20261021T112738_nested192_control01\\normalization.npz": {
+      "sha256": "394a3862286b01b884d30952f767f8620969ea21c0384715254e4bddb2d41489",
+      "bytes": 3972,
+      "mtime_ns": 1792553268183537000
+    },
+    "D:\\apphearv3claude\\AppHear-claude-s2-r3-eval-suite\\AppHear-claude-s2-r3-eval-suite\\experiments\\continuous_asl\\20261021T112738_nested192_control01\\subset_coverage.json": {
+      "sha256": "f262f729660ef339247f905936d8cacd32cb1b8db17110df0de3f1ffbbfc8207",
+      "bytes": 1277,
+      "mtime_ns": 1792553268181538100
+    },
+    "D:\\apphearv3claude\\AppHear-claude-s2-r3-eval-suite\\AppHear-claude-s2-r3-eval-suite\\experiments\\continuous_asl\\20261021T112738_nested192_control01\\subset_manifest.json": {
+      "sha256": "8a2234a3eafd0d336ebe888d7b8e391b17410540b62d702315d2f5cb0b3c5f48",
+      "bytes": 1446935,
+      "mtime_ns": 1792553268180533400
+    },
+    "D:\\apphearv3claude\\AppHear-claude-s2-r3-eval-suite\\AppHear-claude-s2-r3-eval-suite\\experiments\\continuous_asl\\20261021T112738_nested192_control01\\vocabulary.json": {
+      "sha256": "365b44d435c9def2bba6e0f347155c72bf2ca001bd365d5b10f55dbe91174715",
+      "bytes": 46030,
+      "mtime_ns": 1792553268183537000
+    },
+    "D:\\apphearv3claude\\AppHear-claude-s2-r3-eval-suite\\AppHear-claude-s2-r3-eval-suite\\tools\\continuous_asl\\ctc_experiment.py": {
+      "sha256": "d434d2341348ab89558a82dfc9f952800e533246d4b6baf0294ee10fc013aa63",
+      "bytes": 15174,
+      "mtime_ns": 1792426915591516000
+    },
+    "D:\\apphearv3claude\\AppHear-claude-s2-r3-eval-suite\\AppHear-claude-s2-r3-eval-suite\\tools\\continuous_asl\\prepare_features.py": {
+      "sha256": "7cf516e7e1267b03a348b22efeef9625fe2875f045976d6554fcd3984b9e8dd9",
+      "bytes": 9635,
+      "mtime_ns": 1792426483639025100
+    }
+  }
+}

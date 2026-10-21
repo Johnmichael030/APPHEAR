@@ -1,0 +1,12 @@
+{
+  "status": "PASS",
+  "optimizer_updates": 1,
+  "loss": 4.620786666870117,
+  "gradient_norm": 5.95098352432251,
+  "checkpoint": {
+    "path": "A\\smoke_one_update.pt",
+    "sha256": "40abe0c2d059fab8f57b6759db2805e488fbb55f4c42bb4422a71371e8f1ecdc",
+    "epoch": 0
+  },
+  "restored_source_before_main_fit": true
+}

@@ -1,0 +1,14 @@
+{
+  "widths": [
+    4,
+    8
+  ],
+  "topk": 16,
+  "blank_id": 0,
+  "UNK_id": 1,
+  "language_model": false,
+  "length_penalty": 0,
+  "temperature": 1,
+  "scope": "Full-sequence DEV80 CTC marginalization; not current streaming display policy",
+  "model_checkpoint_selection": "A remains selected by fixed greedy DEV WER; beam never selects its checkpoint"
+}

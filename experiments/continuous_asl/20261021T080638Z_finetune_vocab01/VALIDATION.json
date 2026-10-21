@@ -1,0 +1,22 @@
+{
+  "status": "PASS_INTEGRITY_PARTIAL_RECOGNITION",
+  "protected_files": 221,
+  "feature_files": 1580,
+  "sealed_artifacts": 0,
+  "A_completed": true,
+  "B_actual_new_classes": 0,
+  "C_not_run": true,
+  "production_promoted": false,
+  "TEST_accessed": false,
+  "device_modified": false,
+  "recognition_status": "PARTIAL_NOT_PROMOTABLE",
+  "vocabulary_expansion_status": "BLOCKED_ACTUAL_RECORDS_NOT_ESTABLISHED",
+  "baseline_before_fit": true,
+  "baseline_predictions_reproduced": true,
+  "decoder_probe_executed_after_A": true,
+  "physical_boundaries_and_no_sign_and_unseen_signer_gates": "BLOCKED",
+  "head_extension_tests": "SYNTHETIC_ENGINEERING_ONLY",
+  "runtime_tests": "Reused prior301passinghosttests; unchanged runtime source/assets verified, not rerun",
+  "new_B_data_training": "NOT_EXECUTED; future driver not validated on real expanded data",
+  "checkpoint_header_and_resume_state_checks": "PASS_all10completedepochs"
+}

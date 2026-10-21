@@ -1,0 +1,41 @@
+Working directory:
+D:\apphearv3claude\AppHear-claude-s2-r3-eval-suite\AppHear-claude-s2-r3-eval-suite
+
+COMPLETED:
+- Scoped originals/APK preserved under before/. Source/model/asset hashes saved before edits.
+- Independent read-only research/runtime reviews found missing-hand forced-publication and pause-consume defects. Only scoped Core, Activity, test and version-suffix source changed.
+- runtime_replay.py ran once:192TRAIN caches, old versus fixed safety;186->0missing-hand publications. Current script refuses existing configuration to prevent overwriting frozen results. This is not a training command.
+- vocabulary_support.py:1,500TRAINutterances;2,287literal labels;1,182singletons;1,808below5support;zero added classes.
+- Framing discriminator exact command and gates: see experiments/continuous_asl/20261021T062258Z_framing_control01/commands_and_results.txt. Gate failed; no fit was run. No new checkpoint exists.
+- Paired continuity and actual previous-APK/safety comparison: see continuity_replay/commands_and_results.txt and continuity_replay/safety_before_after/commands_and_results.txt. Retain-context gate failed, so no app context-policy change.
+- Host tests: full quoted Gradle properties in test_command.txt, run from android with JDK17. BUILD SUCCESSFUL in1m59s;301tests,0failures/errors/skips.
+- APK build: exact full properties in build_command.txt. BUILD SUCCESSFUL; exit0;150.2877667seconds. Version1.0-continuous-refined-20261021.
+- First packaging shell invocation had a mistyped working-directory path and failed before any file operations (oserror267). Corrected path succeeded once; no repeated build or overwritten artifact.
+- package_and_check.py created immutable delivery APK and validation report:210protected files match hashes;528previous APKassetentries preserved bysize/CRC; continuousassets also exact-byte checked. No assets changed.
+- apksigner verify:PASS; aapt dump badging:com.example.apphear/minAPI26/target36/version1.0-continuous-refined-20261021.
+- adb devices -l:empty. No installation, removal, app-data clearing or camera capture performed.
+
+READ-ONLY VALIDATION:
+$python='D:\apphearv3claude\AppHear-claude-s2-r3-eval-suite\AppHear-claude-s2-r3-eval-suite\experiments\continuous_asl\20261019T155428Z_cslr01\runtime\venv\Scripts\python.exe'
+& $python -B 'D:\apphearv3claude\AppHear-claude-s2-r3-eval-suite\AppHear-claude-s2-r3-eval-suite\evidence\20261021T062258Z_continuous_detectionfix01\verify_refinement.py'
+& $python -B 'D:\apphearv3claude\AppHear-claude-s2-r3-eval-suite\AppHear-claude-s2-r3-eval-suite\experiments\continuous_asl\20261021T062258Z_framing_control01\framing_control.py' --verify
+
+INDEPENDENT APK VERIFICATION:
+$env:JAVA_HOME='C:\Program Files\Eclipse Adoptium\jdk-17.0.20.101-hotspot'
+$apk='D:\apphearv3claude\AppHear-claude-s2-r3-eval-suite\AppHear-claude-s2-r3-eval-suite\evidence\20261021T062258Z_continuous_detectionfix01\AppHear-continuous-refined-20261021.apk'
+& 'C:\Users\johnm\AppData\Local\Android\Sdk\build-tools\35.0.0\apksigner.bat' verify --verbose --print-certs $apk
+& 'C:\Users\johnm\AppData\Local\Android\Sdk\build-tools\35.0.0\aapt.exe' dump badging $apk
+Get-FileHash -LiteralPath $apk -Algorithm SHA256
+ExpectedSHA256:a547e867134f2be80aa1a54265b3c6f3eac524588de55670c009ee1995a8493c
+
+NEXT PHONE COMMANDS (not executed):
+$adb='C:\Users\johnm\AppData\Local\Android\Sdk\platform-tools\adb.exe'
+& $adb devices -l
+# Once the authorized Samsung R9AT401M8HJ is connected and selected:
+& $adb -s R9AT401M8HJ install -r $apk
+# Preserve application data; do not uninstall/clear if an update error occurs.
+# In AppHear:Settings >Recognition mode >CONTINUOUS WORD ·experimental.
+# Synthetic/engineering smoke:pause/resume,lifecycle/mode changes,optional edit/Hear/Clear; no participant recording without established permissions.
+
+NEXT MODEL ACTION:
+No new fit/resume command is justified by the failed experimental gates. Use the existing qualified12-event review package and targeted permissioned support collection described in REFINEMENT_REPORT.md. Keep reserved17TEST isolated. Do not relax gates, mix pools or promote the weak checkpoint.

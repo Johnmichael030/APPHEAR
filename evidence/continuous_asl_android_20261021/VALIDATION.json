@@ -1,0 +1,86 @@
+{
+  "status": "PASS",
+  "integration": "EXPERIMENTAL_OPT_IN_DEBUG_ONLY",
+  "unit_tests": {
+    "tests": 284,
+    "failures": 0,
+    "errors": 0,
+    "skipped": 0
+  },
+  "new_continuous_tests": 9,
+  "debug_and_instrumentation_apks_built": true,
+  "device_tests": "NOT_RUN",
+  "installed_to_device": false,
+  "recognition_quality": "NOT_ACCEPTED; saved heldout WER 95.6701%",
+  "export_parity": {
+    "status": "PASS",
+    "synthetic_only": true,
+    "recognition_accuracy_claim": false,
+    "checkpoint_sha256": "14d0e4669674265ea2be8a3161fa6699e4f813daf4b97b384863dce1daa038ff",
+    "model_sha256": "5651c24209a0951b09a792f44b17f5477dc86f353fb6ade1a3afec64ff20f663",
+    "torch": "2.8.0+cu128",
+    "onnxruntime": "1.22.0",
+    "tests": [
+      {
+        "length": 1,
+        "max_abs_error": 3.814697265625e-05,
+        "argmax_equal": true,
+        "causal_context_parity": true
+      },
+      {
+        "length": 2,
+        "max_abs_error": 3.814697265625e-05,
+        "argmax_equal": true,
+        "causal_context_parity": true
+      },
+      {
+        "length": 17,
+        "max_abs_error": 4.57763671875e-05,
+        "argmax_equal": true,
+        "causal_context_parity": true
+      },
+      {
+        "length": 61,
+        "max_abs_error": 4.57763671875e-05,
+        "argmax_equal": true,
+        "causal_context_parity": true
+      },
+      {
+        "length": 97,
+        "max_abs_error": 6.103515625e-05,
+        "argmax_equal": true,
+        "causal_context_parity": true
+      }
+    ]
+  },
+  "preserved_existing_source_asset_files": 566,
+  "preserved_fingerspelling_package_files": 33,
+  "preserved_source_checkpoint_sha256": "14d0e4669674265ea2be8a3161fa6699e4f813daf4b97b384863dce1daa038ff",
+  "runtime_entries": [
+    {
+      "name": "assets/continuous_asl/causal_gloss_ctc_fp32.onnx",
+      "bytes": 777490,
+      "apk_payload_bytes": 777490
+    },
+    {
+      "name": "assets/continuous_asl/manifest.json",
+      "bytes": 1518,
+      "apk_payload_bytes": 887
+    },
+    {
+      "name": "assets/continuous_asl/vocabulary.json",
+      "bytes": 34441,
+      "apk_payload_bytes": 13079
+    }
+  ],
+  "runtime_asset_bytes": 813449,
+  "runtime_apk_payload_bytes": 791456,
+  "apk": "D:\\apphearv3claude\\AppHear-claude-s2-r3-eval-suite\\AppHear-claude-s2-r3-eval-suite\\android\\app\\build\\outputs\\apk\\debug\\app-debug.apk",
+  "apk_bytes": 853580528,
+  "apk_sha256": "bbef4b37d7067d092a726c55ab9fe98a4761d793442deaa992a1c0633ac93296",
+  "test_apk": "D:\\apphearv3claude\\AppHear-claude-s2-r3-eval-suite\\AppHear-claude-s2-r3-eval-suite\\android\\app\\build\\outputs\\apk\\androidTest\\debug\\app-debug-androidTest.apk",
+  "test_apk_sha256": "441d64bad0f2dc47ffb07538e90faf6bf205878697d0197376fd749ef9ecdf24",
+  "new_training": false,
+  "TEST_used": false,
+  "production_promoted": false
+}

@@ -1,0 +1,867 @@
+[
+  {
+    "path": "D:\\apphearv3claude\\AppHear-claude-s2-r3-eval-suite\\AppHear-claude-s2-r3-eval-suite\\packages\\continuous_asl_research_01\\export_parity.json",
+    "unchanged": true,
+    "sha256": "2f07595ff8d3cbe7d3bda6a2dfe6de4910e636bccc5888818efa1b1978accdb8"
+  },
+  {
+    "path": "D:\\apphearv3claude\\AppHear-claude-s2-r3-eval-suite\\AppHear-claude-s2-r3-eval-suite\\packages\\continuous_asl_research_01\\android_assets\\continuous_asl\\causal_gloss_ctc_fp32.onnx",
+    "unchanged": true,
+    "sha256": "5651c24209a0951b09a792f44b17f5477dc86f353fb6ade1a3afec64ff20f663"
+  },
+  {
+    "path": "D:\\apphearv3claude\\AppHear-claude-s2-r3-eval-suite\\AppHear-claude-s2-r3-eval-suite\\packages\\continuous_asl_research_01\\android_assets\\continuous_asl\\manifest.json",
+    "unchanged": true,
+    "sha256": "a8efc020ec991c6f3d9bddf34c9550ae54ca4cceb909e9675bf996f73763ec68"
+  },
+  {
+    "path": "D:\\apphearv3claude\\AppHear-claude-s2-r3-eval-suite\\AppHear-claude-s2-r3-eval-suite\\packages\\continuous_asl_research_01\\android_assets\\continuous_asl\\vocabulary.json",
+    "unchanged": true,
+    "sha256": "0ca1c3e5c98e69bf53faa53c2c5df8a15c1151e039d950e39fc147c2e78c9a6e"
+  },
+  {
+    "path": "D:\\apphearv3claude\\AppHear-claude-s2-r3-eval-suite\\AppHear-claude-s2-r3-eval-suite\\packages\\continuous_asl_research_01\\parity_assets\\continuous_asl\\synthetic_features.f32",
+    "unchanged": true,
+    "sha256": "9d6e899e7b6580546d304dab1526ba633b292fdcce8c0f6174a6e2138f4e5b7f"
+  },
+  {
+    "path": "D:\\apphearv3claude\\AppHear-claude-s2-r3-eval-suite\\AppHear-claude-s2-r3-eval-suite\\packages\\continuous_asl_research_01\\parity_assets\\continuous_asl\\synthetic_logits.f32",
+    "unchanged": true,
+    "sha256": "ccbae0a17e3111c920db4020c7e17a0c0119a1a9f8f11d5d18f7152ec45fdd08"
+  },
+  {
+    "path": "D:\\apphearv3claude\\AppHear-claude-s2-r3-eval-suite\\AppHear-claude-s2-r3-eval-suite\\experiments\\continuous_asl\\20261020T143609Z_learning_diagnostic01\\candidate_checkpoints\\epoch_012.pt",
+    "unchanged": true,
+    "sha256": "14d0e4669674265ea2be8a3161fa6699e4f813daf4b97b384863dce1daa038ff"
+  },
+  {
+    "path": "D:\\apphearv3claude\\AppHear-claude-s2-r3-eval-suite\\AppHear-claude-s2-r3-eval-suite\\android\\app\\src\\main\\assets\\context_phrase_assist_policy.json",
+    "unchanged": true,
+    "sha256": "ca8193ac0d5971a2146a384f2e29dca2894592deac864eb8f253b0a0dd2a83b7"
+  },
+  {
+    "path": "D:\\apphearv3claude\\AppHear-claude-s2-r3-eval-suite\\AppHear-claude-s2-r3-eval-suite\\android\\app\\src\\main\\assets\\model_manifest.json",
+    "unchanged": true,
+    "sha256": "33565f8f20c22473b42ed42785b8a8dac34aba9762e4e2bdc2c21de116199d3a"
+  },
+  {
+    "path": "D:\\apphearv3claude\\AppHear-claude-s2-r3-eval-suite\\AppHear-claude-s2-r3-eval-suite\\android\\app\\src\\main\\assets\\model_viewer.html",
+    "unchanged": true,
+    "sha256": "83a4c6dca7acd0a57f0cbb8d2504d7db3d2b550076ef220b17cd119c7ad96680"
+  },
+  {
+    "path": "D:\\apphearv3claude\\AppHear-claude-s2-r3-eval-suite\\AppHear-claude-s2-r3-eval-suite\\android\\app\\src\\main\\assets\\phase1_shadow_manifest.json",
+    "unchanged": true,
+    "sha256": "404d4aa66951e3a4093d2965e526c0c7303a2496bd06717a5f43c0d618410095"
+  },
+  {
+    "path": "D:\\apphearv3claude\\AppHear-claude-s2-r3-eval-suite\\AppHear-claude-s2-r3-eval-suite\\android\\app\\src\\main\\assets\\phase1_shadow_seed_101.tflite",
+    "unchanged": true,
+    "sha256": "00cc8fc3faba73a8ce0d6ff5aff1473a97f401af1a657212ad5f933fc295aad5"
+  },
+  {
+    "path": "D:\\apphearv3claude\\AppHear-claude-s2-r3-eval-suite\\AppHear-claude-s2-r3-eval-suite\\android\\app\\src\\main\\assets\\phase1_shadow_seed_202.tflite",
+    "unchanged": true,
+    "sha256": "a06193473bf275d320b83bdeb27ff47cfed08e28f400dba3ce6409de70bafe34"
+  },
+  {
+    "path": "D:\\apphearv3claude\\AppHear-claude-s2-r3-eval-suite\\AppHear-claude-s2-r3-eval-suite\\android\\app\\src\\main\\assets\\phase1_shadow_seed_303.tflite",
+    "unchanged": true,
+    "sha256": "0ecb59fe8db2abe930c70d2c30bf15422a14bb12669fe5dfe8ba61516286aaa2"
+  },
+  {
+    "path": "D:\\apphearv3claude\\AppHear-claude-s2-r3-eval-suite\\AppHear-claude-s2-r3-eval-suite\\android\\app\\src\\main\\assets\\recognition_config.json",
+    "unchanged": true,
+    "sha256": "270c1a9f28bde604a06de100197f6490642d79fdce8afac99155fa7824d6567e"
+  },
+  {
+    "path": "D:\\apphearv3claude\\AppHear-claude-s2-r3-eval-suite\\AppHear-claude-s2-r3-eval-suite\\android\\app\\src\\main\\assets\\recognition_coordination_policy.json",
+    "unchanged": true,
+    "sha256": "7482d5471d92e72f74af1a042e1e243bb952229d3524cdb68792c3b1b4a1f5c1"
+  },
+  {
+    "path": "D:\\apphearv3claude\\AppHear-claude-s2-r3-eval-suite\\AppHear-claude-s2-r3-eval-suite\\android\\app\\src\\main\\assets\\streaming.tflite",
+    "unchanged": true,
+    "sha256": "42575710a4adb0a1433b58ba9093bc4e9f49401381582cc4ad304feeb669d4bb"
+  },
+  {
+    "path": "D:\\apphearv3claude\\AppHear-claude-s2-r3-eval-suite\\AppHear-claude-s2-r3-eval-suite\\android\\app\\src\\main\\assets\\vocab.json",
+    "unchanged": true,
+    "sha256": "ac1972c5b3a5b67140e551b488238018661f5acb75945dfeef05f500c96303da"
+  },
+  {
+    "path": "D:\\apphearv3claude\\AppHear-claude-s2-r3-eval-suite\\AppHear-claude-s2-r3-eval-suite\\android\\app\\src\\main\\assets\\asl_animations\\adjective-his-her-hers-its-belongs-to.glb",
+    "unchanged": true,
+    "sha256": "dffc6f28e258944d608185e2e6a2778a1f0e6dd0b67111234c1928b6f975019b"
+  },
+  {
+    "path": "D:\\apphearv3claude\\AppHear-claude-s2-r3-eval-suite\\AppHear-claude-s2-r3-eval-suite\\android\\app\\src\\main\\assets\\asl_animations\\again.glb",
+    "unchanged": true,
+    "sha256": "d355028630aa5d9959448230f8c1b09832d0c699280e781cb1e5462eeb0cc0ba"
+  },
+  {
+    "path": "D:\\apphearv3claude\\AppHear-claude-s2-r3-eval-suite\\AppHear-claude-s2-r3-eval-suite\\android\\app\\src\\main\\assets\\asl_animations\\all.glb",
+    "unchanged": true,
+    "sha256": "0a47687fd319c3e7cb0fa08ce74855f9ff08aeb2dd5b972e4dad20cba1e7035c"
+  },
+  {
+    "path": "D:\\apphearv3claude\\AppHear-claude-s2-r3-eval-suite\\AppHear-claude-s2-r3-eval-suite\\android\\app\\src\\main\\assets\\asl_animations\\anim_a.glb",
+    "unchanged": true,
+    "sha256": "c666149475257b5d30a3495c5e36410240adb329eb56669845d6d0f926983e58"
+  },
+  {
+    "path": "D:\\apphearv3claude\\AppHear-claude-s2-r3-eval-suite\\AppHear-claude-s2-r3-eval-suite\\android\\app\\src\\main\\assets\\asl_animations\\anim_b.glb",
+    "unchanged": true,
+    "sha256": "f4f1ca57baed32853e4b6fa3c82ec98f1f1d7879298b97aa80aa539d12c72fe7"
+  },
+  {
+    "path": "D:\\apphearv3claude\\AppHear-claude-s2-r3-eval-suite\\AppHear-claude-s2-r3-eval-suite\\android\\app\\src\\main\\assets\\asl_animations\\asl_idle.glb",
+    "unchanged": true,
+    "sha256": "52f00fbaaf490f5517dfb947f3954b177b9ed04789966b8a08c1e637d1ea740f"
+  },
+  {
+    "path": "D:\\apphearv3claude\\AppHear-claude-s2-r3-eval-suite\\AppHear-claude-s2-r3-eval-suite\\android\\app\\src\\main\\assets\\asl_animations\\best.glb",
+    "unchanged": true,
+    "sha256": "72224c0054dbac6cf203114bf0b11514cea83abe3d14db1c0ca14000d500b7f2"
+  },
+  {
+    "path": "D:\\apphearv3claude\\AppHear-claude-s2-r3-eval-suite\\AppHear-claude-s2-r3-eval-suite\\android\\app\\src\\main\\assets\\asl_animations\\better.glb",
+    "unchanged": true,
+    "sha256": "390cbd36bb858524c9c442599e9980a9dbf6f7888df9ea01bcfd65d081153e4b"
+  },
+  {
+    "path": "D:\\apphearv3claude\\AppHear-claude-s2-r3-eval-suite\\AppHear-claude-s2-r3-eval-suite\\android\\app\\src\\main\\assets\\asl_animations\\brother-you-how-many.glb",
+    "unchanged": true,
+    "sha256": "a5d80ebe1c32acbea2bfd5953c1e262e06405e520ea99facb007b40973b67ef4"
+  },
+  {
+    "path": "D:\\apphearv3claude\\AppHear-claude-s2-r3-eval-suite\\AppHear-claude-s2-r3-eval-suite\\android\\app\\src\\main\\assets\\asl_animations\\brother.glb",
+    "unchanged": true,
+    "sha256": "0db89139a09c866641bce2929f11889c79da9d488aa8536c7b81f092b3fa8792"
+  },
+  {
+    "path": "D:\\apphearv3claude\\AppHear-claude-s2-r3-eval-suite\\AppHear-claude-s2-r3-eval-suite\\android\\app\\src\\main\\assets\\asl_animations\\child.glb",
+    "unchanged": true,
+    "sha256": "af3485fd78b013f99a28d3e4d505460d717fc7ed553e5a8511f8a12d0d7f0a03"
+  },
+  {
+    "path": "D:\\apphearv3claude\\AppHear-claude-s2-r3-eval-suite\\AppHear-claude-s2-r3-eval-suite\\android\\app\\src\\main\\assets\\asl_animations\\children.glb",
+    "unchanged": true,
+    "sha256": "a5ebda995489d2bbd304c7d99878d7a781f876ea238dafd6b4302ff8769161be"
+  },
+  {
+    "path": "D:\\apphearv3claude\\AppHear-claude-s2-r3-eval-suite\\AppHear-claude-s2-r3-eval-suite\\android\\app\\src\\main\\assets\\asl_animations\\city-you-live.glb",
+    "unchanged": true,
+    "sha256": "9f844c773885caf9d81455e4c5e721bbddca29b597df9118b5766a917fcabaa7"
+  },
+  {
+    "path": "D:\\apphearv3claude\\AppHear-claude-s2-r3-eval-suite\\AppHear-claude-s2-r3-eval-suite\\android\\app\\src\\main\\assets\\asl_animations\\city.glb",
+    "unchanged": true,
+    "sha256": "78b933450112777f0060578a9a7e22445257be4271aae679e22e9962d5f77081"
+  },
+  {
+    "path": "D:\\apphearv3claude\\AppHear-claude-s2-r3-eval-suite\\AppHear-claude-s2-r3-eval-suite\\android\\app\\src\\main\\assets\\asl_animations\\class.glb",
+    "unchanged": true,
+    "sha256": "49f02a3cd5b504bdf7fcaabbb9172509696e0dbce9c96906287530c35665d025"
+  },
+  {
+    "path": "D:\\apphearv3claude\\AppHear-claude-s2-r3-eval-suite\\AppHear-claude-s2-r3-eval-suite\\android\\app\\src\\main\\assets\\asl_animations\\come-to-here.glb",
+    "unchanged": true,
+    "sha256": "567786365c41cd0ce21b5eb9ec3a9bf02eb7adc872b7dab0bd724e4affcec5cb"
+  },
+  {
+    "path": "D:\\apphearv3claude\\AppHear-claude-s2-r3-eval-suite\\AppHear-claude-s2-r3-eval-suite\\android\\app\\src\\main\\assets\\asl_animations\\critical-must.glb",
+    "unchanged": true,
+    "sha256": "54fd010b087ccc8d4165a8a69297fbe418d890a3edb947b046f33fcd7b26820f"
+  },
+  {
+    "path": "D:\\apphearv3claude\\AppHear-claude-s2-r3-eval-suite\\AppHear-claude-s2-r3-eval-suite\\android\\app\\src\\main\\assets\\asl_animations\\dad.glb",
+    "unchanged": true,
+    "sha256": "2a08eb42690ce27ad1d66d5fc053c592456050d8a81b768fb9c310016a96e848"
+  },
+  {
+    "path": "D:\\apphearv3claude\\AppHear-claude-s2-r3-eval-suite\\AppHear-claude-s2-r3-eval-suite\\android\\app\\src\\main\\assets\\asl_animations\\dictionary_extensions_asl.json",
+    "unchanged": true,
+    "sha256": "632f03d9b999f3a1f94701154ab91144ea04823fb3dcab6ff161ab1b95c6f5bd"
+  },
+  {
+    "path": "D:\\apphearv3claude\\AppHear-claude-s2-r3-eval-suite\\AppHear-claude-s2-r3-eval-suite\\android\\app\\src\\main\\assets\\asl_animations\\divorce.glb",
+    "unchanged": true,
+    "sha256": "dbac0088195b71327400e8a7b653577eff9a29da91fab84f952e27d8ec221c40"
+  },
+  {
+    "path": "D:\\apphearv3claude\\AppHear-claude-s2-r3-eval-suite\\AppHear-claude-s2-r3-eval-suite\\android\\app\\src\\main\\assets\\asl_animations\\dont.glb",
+    "unchanged": true,
+    "sha256": "bb04c3e5b1dd86170f90c699090036df6751dd3145168df95d8bf56da7784225"
+  },
+  {
+    "path": "D:\\apphearv3claude\\AppHear-claude-s2-r3-eval-suite\\AppHear-claude-s2-r3-eval-suite\\android\\app\\src\\main\\assets\\asl_animations\\entire-all-whole.glb",
+    "unchanged": true,
+    "sha256": "fefaccabe9cc51d56d961b6ad12eba80f71fa5453709695ca96fcd9852feb3a1"
+  },
+  {
+    "path": "D:\\apphearv3claude\\AppHear-claude-s2-r3-eval-suite\\AppHear-claude-s2-r3-eval-suite\\android\\app\\src\\main\\assets\\asl_animations\\everyday_asl.json",
+    "unchanged": true,
+    "sha256": "7a0e319af217d7d11511d5469fb7c13a3f1096d39f459535ea12913373e60a8c"
+  },
+  {
+    "path": "D:\\apphearv3claude\\AppHear-claude-s2-r3-eval-suite\\AppHear-claude-s2-r3-eval-suite\\android\\app\\src\\main\\assets\\asl_animations\\existing_aliases_asl.json",
+    "unchanged": true,
+    "sha256": "e401ea49df594abaea21ca786e67ccc250c3236a631bc64c0f422f28dd4a8d8f"
+  },
+  {
+    "path": "D:\\apphearv3claude\\AppHear-claude-s2-r3-eval-suite\\AppHear-claude-s2-r3-eval-suite\\android\\app\\src\\main\\assets\\asl_animations\\family.glb",
+    "unchanged": true,
+    "sha256": "06bcb0564c3822bf1876290237f24066121a3ef98c43ddb319f98e9384e3cb50"
+  },
+  {
+    "path": "D:\\apphearv3claude\\AppHear-claude-s2-r3-eval-suite\\AppHear-claude-s2-r3-eval-suite\\android\\app\\src\\main\\assets\\asl_animations\\fine.glb",
+    "unchanged": true,
+    "sha256": "061b28fe5355096f20b2594c13385d941117bba4f36041a6b1c0dcdc4ceceaf6"
+  },
+  {
+    "path": "D:\\apphearv3claude\\AppHear-claude-s2-r3-eval-suite\\AppHear-claude-s2-r3-eval-suite\\android\\app\\src\\main\\assets\\asl_animations\\fingerspell.glb",
+    "unchanged": true,
+    "sha256": "9f5284e57787780e2070a65a0ef9428c2c62704eff571c5e5e7549b2140b39d4"
+  },
+  {
+    "path": "D:\\apphearv3claude\\AppHear-claude-s2-r3-eval-suite\\AppHear-claude-s2-r3-eval-suite\\android\\app\\src\\main\\assets\\asl_animations\\from.glb",
+    "unchanged": true,
+    "sha256": "357368b6d849aa48cf6db4e3b718d4fb853d14a8ce5fb454586c9fd0dcd37a10"
+  },
+  {
+    "path": "D:\\apphearv3claude\\AppHear-claude-s2-r3-eval-suite\\AppHear-claude-s2-r3-eval-suite\\android\\app\\src\\main\\assets\\asl_animations\\girl.glb",
+    "unchanged": true,
+    "sha256": "e0cf0fedbb6a99018c959d04d91eeaaaa5823ca9352d371c8f24dabee6762b71"
+  },
+  {
+    "path": "D:\\apphearv3claude\\AppHear-claude-s2-r3-eval-suite\\AppHear-claude-s2-r3-eval-suite\\android\\app\\src\\main\\assets\\asl_animations\\go-to.glb",
+    "unchanged": true,
+    "sha256": "7c05ec7fd4667dcfe7dde1f30be5bcb3b4ad90c28f4431602c47adfbd05969a7"
+  },
+  {
+    "path": "D:\\apphearv3claude\\AppHear-claude-s2-r3-eval-suite\\AppHear-claude-s2-r3-eval-suite\\android\\app\\src\\main\\assets\\asl_animations\\good-well.glb",
+    "unchanged": true,
+    "sha256": "63531812bf321734fcc33b7289f9a6fcf24bd402f8f2929a63f11583e4942cce"
+  },
+  {
+    "path": "D:\\apphearv3claude\\AppHear-claude-s2-r3-eval-suite\\AppHear-claude-s2-r3-eval-suite\\android\\app\\src\\main\\assets\\asl_animations\\GOOD.glb",
+    "unchanged": true,
+    "sha256": "81052d52be473739873ed1ac405fbb15b8929e73923dedb827e3dd3a0ce88e8c"
+  },
+  {
+    "path": "D:\\apphearv3claude\\AppHear-claude-s2-r3-eval-suite\\AppHear-claude-s2-r3-eval-suite\\android\\app\\src\\main\\assets\\asl_animations\\grammar_asl.json",
+    "unchanged": true,
+    "sha256": "246f960130deef4aba8f314a245127ec6dc8363b76a2d6ee0bda77a59941934a"
+  },
+  {
+    "path": "D:\\apphearv3claude\\AppHear-claude-s2-r3-eval-suite\\AppHear-claude-s2-r3-eval-suite\\android\\app\\src\\main\\assets\\asl_animations\\grandma.glb",
+    "unchanged": true,
+    "sha256": "3615d0e70761a82c1f1570a5ff46b1e77fb4b31777aaa5cc9f114549bdc5dffe"
+  },
+  {
+    "path": "D:\\apphearv3claude\\AppHear-claude-s2-r3-eval-suite\\AppHear-claude-s2-r3-eval-suite\\android\\app\\src\\main\\assets\\asl_animations\\grandpa.glb",
+    "unchanged": true,
+    "sha256": "a2958f9a4c0f9fca0eb4e5efa856a5612382d7c39b0de62779433ea8313ddd49"
+  },
+  {
+    "path": "D:\\apphearv3claude\\AppHear-claude-s2-r3-eval-suite\\AppHear-claude-s2-r3-eval-suite\\android\\app\\src\\main\\assets\\asl_animations\\grow-up-raised.glb",
+    "unchanged": true,
+    "sha256": "fff31a427aa9d0e4fb53358b7e937527ff0827184b52908b15798c41aae2347c"
+  },
+  {
+    "path": "D:\\apphearv3claude\\AppHear-claude-s2-r3-eval-suite\\AppHear-claude-s2-r3-eval-suite\\android\\app\\src\\main\\assets\\asl_animations\\have.glb",
+    "unchanged": true,
+    "sha256": "efde87f35b6dbd926971117b3e49ed3923f12fe00d40695aaadc780d692c4c29"
+  },
+  {
+    "path": "D:\\apphearv3claude\\AppHear-claude-s2-r3-eval-suite\\AppHear-claude-s2-r3-eval-suite\\android\\app\\src\\main\\assets\\asl_animations\\he-she.glb",
+    "unchanged": true,
+    "sha256": "bdbc4b630436d3cc7d8df81cbd40350e0603a132500cc92c98dcc7a5c334984a"
+  },
+  {
+    "path": "D:\\apphearv3claude\\AppHear-claude-s2-r3-eval-suite\\AppHear-claude-s2-r3-eval-suite\\android\\app\\src\\main\\assets\\asl_animations\\hello.glb",
+    "unchanged": true,
+    "sha256": "7b53363d2191da6cdced59b05ccc966ea42023756f67e079226b4b40b5dbcbe9"
+  },
+  {
+    "path": "D:\\apphearv3claude\\AppHear-claude-s2-r3-eval-suite\\AppHear-claude-s2-r3-eval-suite\\android\\app\\src\\main\\assets\\asl_animations\\here.glb",
+    "unchanged": true,
+    "sha256": "815a3cc03f326126196c220e93af0657f2cf5a9cee286878c5d2c553ff98f236"
+  },
+  {
+    "path": "D:\\apphearv3claude\\AppHear-claude-s2-r3-eval-suite\\AppHear-claude-s2-r3-eval-suite\\android\\app\\src\\main\\assets\\asl_animations\\hey-name-you.glb",
+    "unchanged": true,
+    "sha256": "4bc6381d554176363383969276574ee04ce1d232717bf4b1d0c188f2905d50e6"
+  },
+  {
+    "path": "D:\\apphearv3claude\\AppHear-claude-s2-r3-eval-suite\\AppHear-claude-s2-r3-eval-suite\\android\\app\\src\\main\\assets\\asl_animations\\house.glb",
+    "unchanged": true,
+    "sha256": "997b197f5d7fa83835ae029a3b8bd6eb34c13004f9ba340bbb41f9c9579ee4bc"
+  },
+  {
+    "path": "D:\\apphearv3claude\\AppHear-claude-s2-r3-eval-suite\\AppHear-claude-s2-r3-eval-suite\\android\\app\\src\\main\\assets\\asl_animations\\how-are-you.glb",
+    "unchanged": true,
+    "sha256": "2cc1a9c8ed9e82ab0c228b6d8e0f0c4ef8ecde77f0abf9473250874ab108bcb6"
+  },
+  {
+    "path": "D:\\apphearv3claude\\AppHear-claude-s2-r3-eval-suite\\AppHear-claude-s2-r3-eval-suite\\android\\app\\src\\main\\assets\\asl_animations\\husband.glb",
+    "unchanged": true,
+    "sha256": "a432485e5ed25c01a51cc9ebb0a3b8c52bee5731b8f49fc49f1ec4b53d26897e"
+  },
+  {
+    "path": "D:\\apphearv3claude\\AppHear-claude-s2-r3-eval-suite\\AppHear-claude-s2-r3-eval-suite\\android\\app\\src\\main\\assets\\asl_animations\\i-love-you.glb",
+    "unchanged": true,
+    "sha256": "0a014ea7d6a3df2f5e269b8ffc430b9c9d41b66f42ace4a06a256c0568d68374"
+  },
+  {
+    "path": "D:\\apphearv3claude\\AppHear-claude-s2-r3-eval-suite\\AppHear-claude-s2-r3-eval-suite\\android\\app\\src\\main\\assets\\asl_animations\\i-me.glb",
+    "unchanged": true,
+    "sha256": "91305fa5c4c547847b096252abc0376f89ad2d5132a62caaa00bbc0a4bff7c32"
+  },
+  {
+    "path": "D:\\apphearv3claude\\AppHear-claude-s2-r3-eval-suite\\AppHear-claude-s2-r3-eval-suite\\android\\app\\src\\main\\assets\\asl_animations\\lady-woman.glb",
+    "unchanged": true,
+    "sha256": "982714d27cb08156cc0c368f837d8d957dcee0775f9637d81dd24df89c886db9"
+  },
+  {
+    "path": "D:\\apphearv3claude\\AppHear-claude-s2-r3-eval-suite\\AppHear-claude-s2-r3-eval-suite\\android\\app\\src\\main\\assets\\asl_animations\\large.glb",
+    "unchanged": true,
+    "sha256": "62352bf190bc4838c670377943bc1328d3057e9e1c51b1d86472f6a2dbfe8d18"
+  },
+  {
+    "path": "D:\\apphearv3claude\\AppHear-claude-s2-r3-eval-suite\\AppHear-claude-s2-r3-eval-suite\\android\\app\\src\\main\\assets\\asl_animations\\like-affection-for.glb",
+    "unchanged": true,
+    "sha256": "193d1b3cdc6025ed2941a930539388384809fadc0ee1db172108435d71793cdb"
+  },
+  {
+    "path": "D:\\apphearv3claude\\AppHear-claude-s2-r3-eval-suite\\AppHear-claude-s2-r3-eval-suite\\android\\app\\src\\main\\assets\\asl_animations\\little-small.glb",
+    "unchanged": true,
+    "sha256": "c0a52bd733db7798cd41881daae28f84a4ca6d99012085f9a551e108d3248202"
+  },
+  {
+    "path": "D:\\apphearv3claude\\AppHear-claude-s2-r3-eval-suite\\AppHear-claude-s2-r3-eval-suite\\android\\app\\src\\main\\assets\\asl_animations\\live.glb",
+    "unchanged": true,
+    "sha256": "86b7c1c60beb575e671abef49225ba33a4f4cb9ee0a79566cadf68aed55c2200"
+  },
+  {
+    "path": "D:\\apphearv3claude\\AppHear-claude-s2-r3-eval-suite\\AppHear-claude-s2-r3-eval-suite\\android\\app\\src\\main\\assets\\asl_animations\\male-boy-dude-guy-fellow.glb",
+    "unchanged": true,
+    "sha256": "3817f9a636862fe6b39293e74f6342f0c79987409a1d7dc8887cdfdb872a4da4"
+  },
+  {
+    "path": "D:\\apphearv3claude\\AppHear-claude-s2-r3-eval-suite\\AppHear-claude-s2-r3-eval-suite\\android\\app\\src\\main\\assets\\asl_animations\\man.glb",
+    "unchanged": true,
+    "sha256": "df6c7c03fe04124ccee595a5c4e268f8b2bb665e23993903d54509b0683f5476"
+  },
+  {
+    "path": "D:\\apphearv3claude\\AppHear-claude-s2-r3-eval-suite\\AppHear-claude-s2-r3-eval-suite\\android\\app\\src\\main\\assets\\asl_animations\\manifest.json",
+    "unchanged": true,
+    "sha256": "ec2d0714cf6450abf736d4eb99a6c73b195b76f2649bec8f7cfed3469c21da46"
+  },
+  {
+    "path": "D:\\apphearv3claude\\AppHear-claude-s2-r3-eval-suite\\AppHear-claude-s2-r3-eval-suite\\android\\app\\src\\main\\assets\\asl_animations\\marriage-marry-married.glb",
+    "unchanged": true,
+    "sha256": "c4b8b6a2501b2db05ffee4a094e4c67a9cd91f038f470c5987edd364ce5b8a19"
+  },
+  {
+    "path": "D:\\apphearv3claude\\AppHear-claude-s2-r3-eval-suite\\AppHear-claude-s2-r3-eval-suite\\android\\app\\src\\main\\assets\\asl_animations\\mom.glb",
+    "unchanged": true,
+    "sha256": "6453ad02c56e151e7e5ca9d0e07af8d1a6ff29ab01fdf17a63e32ffbf3d0e371"
+  },
+  {
+    "path": "D:\\apphearv3claude\\AppHear-claude-s2-r3-eval-suite\\AppHear-claude-s2-r3-eval-suite\\android\\app\\src\\main\\assets\\asl_animations\\more.glb",
+    "unchanged": true,
+    "sha256": "cda882e6caa6e95b925a37d84ed966dd0e13654402f5c1a84041903f2f70bd59"
+  },
+  {
+    "path": "D:\\apphearv3claude\\AppHear-claude-s2-r3-eval-suite\\AppHear-claude-s2-r3-eval-suite\\android\\app\\src\\main\\assets\\asl_animations\\morning.glb",
+    "unchanged": true,
+    "sha256": "3f2d4ac36386aef7769107b5f96c5cc3a624da361555ab1a8b18242cfc6565bb"
+  },
+  {
+    "path": "D:\\apphearv3claude\\AppHear-claude-s2-r3-eval-suite\\AppHear-claude-s2-r3-eval-suite\\android\\app\\src\\main\\assets\\asl_animations\\my-mine.glb",
+    "unchanged": true,
+    "sha256": "84203970834c935faa2809e420ef55b9f9737b40a5d41e3fc7aaf2f21578d3b6"
+  },
+  {
+    "path": "D:\\apphearv3claude\\AppHear-claude-s2-r3-eval-suite\\AppHear-claude-s2-r3-eval-suite\\android\\app\\src\\main\\assets\\asl_animations\\my-name.glb",
+    "unchanged": true,
+    "sha256": "21bcbc065d3fd1f76ebee889a25c8f26027639bcddcce4f66dd67fbf55b36806"
+  },
+  {
+    "path": "D:\\apphearv3claude\\AppHear-claude-s2-r3-eval-suite\\AppHear-claude-s2-r3-eval-suite\\android\\app\\src\\main\\assets\\asl_animations\\need.glb",
+    "unchanged": true,
+    "sha256": "7d26871ed0fe6cd86acde93fba2d0abd544d71f6e390968d086ce88f0e47b3d0"
+  },
+  {
+    "path": "D:\\apphearv3claude\\AppHear-claude-s2-r3-eval-suite\\AppHear-claude-s2-r3-eval-suite\\android\\app\\src\\main\\assets\\asl_animations\\negative-minus.glb",
+    "unchanged": true,
+    "sha256": "36fb92065acfd1ff96ce707b5059f43e96663f6f3fbd837801594f36ad50870a"
+  },
+  {
+    "path": "D:\\apphearv3claude\\AppHear-claude-s2-r3-eval-suite\\AppHear-claude-s2-r3-eval-suite\\android\\app\\src\\main\\assets\\asl_animations\\nice-to-meet-you.glb",
+    "unchanged": true,
+    "sha256": "90b06589e57452c2381c4489ea975398380ceedc02b0fe6a8773bedc4323f277"
+  },
+  {
+    "path": "D:\\apphearv3claude\\AppHear-claude-s2-r3-eval-suite\\AppHear-claude-s2-r3-eval-suite\\android\\app\\src\\main\\assets\\asl_animations\\no.glb",
+    "unchanged": true,
+    "sha256": "02795b8c0c9888ca5c5a39ea5a6bf6ed2024b33d7c40c4fc11dde81b321c1383"
+  },
+  {
+    "path": "D:\\apphearv3claude\\AppHear-claude-s2-r3-eval-suite\\AppHear-claude-s2-r3-eval-suite\\android\\app\\src\\main\\assets\\asl_animations\\none-of-your-business.glb",
+    "unchanged": true,
+    "sha256": "86e83a9f5b42085143838b5598d3c2e6d7427ccb47a9a1998c09f877335cee03"
+  },
+  {
+    "path": "D:\\apphearv3claude\\AppHear-claude-s2-r3-eval-suite\\AppHear-claude-s2-r3-eval-suite\\android\\app\\src\\main\\assets\\asl_animations\\our.glb",
+    "unchanged": true,
+    "sha256": "cf02e1d8a5f313a165f104dabab420e4e021edbb44fad9239506fca7771d6b03"
+  },
+  {
+    "path": "D:\\apphearv3claude\\AppHear-claude-s2-r3-eval-suite\\AppHear-claude-s2-r3-eval-suite\\android\\app\\src\\main\\assets\\asl_animations\\parents.glb",
+    "unchanged": true,
+    "sha256": "ef4b54fa2ceb97fdf64ad6e37d9dc2e30904f069283c51eab6e7f48201e5b624"
+  },
+  {
+    "path": "D:\\apphearv3claude\\AppHear-claude-s2-r3-eval-suite\\AppHear-claude-s2-r3-eval-suite\\android\\app\\src\\main\\assets\\asl_animations\\prefer-favorite.glb",
+    "unchanged": true,
+    "sha256": "01a15a6361a9cc74ad96e7a4bafb30ed31fcc379e6c6416ceab70ec9cb1ca023"
+  },
+  {
+    "path": "D:\\apphearv3claude\\AppHear-claude-s2-r3-eval-suite\\AppHear-claude-s2-r3-eval-suite\\android\\app\\src\\main\\assets\\asl_animations\\request.glb",
+    "unchanged": true,
+    "sha256": "4ff9c430e6b712cf89f279547c1254c61908e2840b4527ddfdb809482a23c06b"
+  },
+  {
+    "path": "D:\\apphearv3claude\\AppHear-claude-s2-r3-eval-suite\\AppHear-claude-s2-r3-eval-suite\\android\\app\\src\\main\\assets\\asl_animations\\school.glb",
+    "unchanged": true,
+    "sha256": "f1c1615b40a0eb3e3b11d901b2723a93d943df611023142b5fc0549f83060547"
+  },
+  {
+    "path": "D:\\apphearv3claude\\AppHear-claude-s2-r3-eval-suite\\AppHear-claude-s2-r3-eval-suite\\android\\app\\src\\main\\assets\\asl_animations\\see-you-tomorrow.glb",
+    "unchanged": true,
+    "sha256": "78ece2d05c626a312b8dcc7723fe2b359f6f8edd39fc4fe30ae2b6818958c27f"
+  },
+  {
+    "path": "D:\\apphearv3claude\\AppHear-claude-s2-r3-eval-suite\\AppHear-claude-s2-r3-eval-suite\\android\\app\\src\\main\\assets\\asl_animations\\single-alone-something-someone.glb",
+    "unchanged": true,
+    "sha256": "5af40c421cb0b3ac95cb4f4c00424cae61f88d670ae39f5482d9391d0c596a88"
+  },
+  {
+    "path": "D:\\apphearv3claude\\AppHear-claude-s2-r3-eval-suite\\AppHear-claude-s2-r3-eval-suite\\android\\app\\src\\main\\assets\\asl_animations\\sister-you-how-many.glb",
+    "unchanged": true,
+    "sha256": "8f400944463c6d7ef3ac11f3e6788660d4721d007fb19c41471c9b4cd7cf02dd"
+  },
+  {
+    "path": "D:\\apphearv3claude\\AppHear-claude-s2-r3-eval-suite\\AppHear-claude-s2-r3-eval-suite\\android\\app\\src\\main\\assets\\asl_animations\\sister.glb",
+    "unchanged": true,
+    "sha256": "e07c4e287165617ae9fc84d46bb87998feecc5100c50a88b3824a80d00d4eb19"
+  },
+  {
+    "path": "D:\\apphearv3claude\\AppHear-claude-s2-r3-eval-suite\\AppHear-claude-s2-r3-eval-suite\\android\\app\\src\\main\\assets\\asl_animations\\so-so.glb",
+    "unchanged": true,
+    "sha256": "361e2b9ec331a12dab6bd063df679673f92aeef9010bcb864aca97cd7c8ef5cb"
+  },
+  {
+    "path": "D:\\apphearv3claude\\AppHear-claude-s2-r3-eval-suite\\AppHear-claude-s2-r3-eval-suite\\android\\app\\src\\main\\assets\\asl_animations\\thank-you.glb",
+    "unchanged": true,
+    "sha256": "41421b9ea9d58eb75f5eac735dab09facc9d8fee3ffcd32b6e60dfa95579d0fc"
+  },
+  {
+    "path": "D:\\apphearv3claude\\AppHear-claude-s2-r3-eval-suite\\AppHear-claude-s2-r3-eval-suite\\android\\app\\src\\main\\assets\\asl_animations\\they-them.glb",
+    "unchanged": true,
+    "sha256": "b3b1562f1cec1057bec2983ec93b7d25207675d3e0c153fed5cf44df49046ce7"
+  },
+  {
+    "path": "D:\\apphearv3claude\\AppHear-claude-s2-r3-eval-suite\\AppHear-claude-s2-r3-eval-suite\\android\\app\\src\\main\\assets\\asl_animations\\they.glb",
+    "unchanged": true,
+    "sha256": "8581311d1a198a1bfdc793d83fea44b1faf2ec3696c4f8ad65aa2ec33f581cef"
+  },
+  {
+    "path": "D:\\apphearv3claude\\AppHear-claude-s2-r3-eval-suite\\AppHear-claude-s2-r3-eval-suite\\android\\app\\src\\main\\assets\\asl_animations\\think.glb",
+    "unchanged": true,
+    "sha256": "d87f35e8923aa37e2892d4f389e2428b1c31630ff010cf9cf7e6f2b80b01d8ee"
+  },
+  {
+    "path": "D:\\apphearv3claude\\AppHear-claude-s2-r3-eval-suite\\AppHear-claude-s2-r3-eval-suite\\android\\app\\src\\main\\assets\\asl_animations\\this-his-hers-theirs.glb",
+    "unchanged": true,
+    "sha256": "77bd8f1b72d3719f144a5ac7bcaa79f48552b67228acf551e8a1908c1ff39b94"
+  },
+  {
+    "path": "D:\\apphearv3claude\\AppHear-claude-s2-r3-eval-suite\\AppHear-claude-s2-r3-eval-suite\\android\\app\\src\\main\\assets\\asl_animations\\we-us.glb",
+    "unchanged": true,
+    "sha256": "e3f57ec96e3478fee888ebd357a47acdb2a90e5683ceca8621df2ff9cff762f5"
+  },
+  {
+    "path": "D:\\apphearv3claude\\AppHear-claude-s2-r3-eval-suite\\AppHear-claude-s2-r3-eval-suite\\android\\app\\src\\main\\assets\\asl_animations\\we.glb",
+    "unchanged": true,
+    "sha256": "1ae96c02099b3dbe261e1d3929a373894e7221e09b2629da55d0877acef1abe0"
+  },
+  {
+    "path": "D:\\apphearv3claude\\AppHear-claude-s2-r3-eval-suite\\AppHear-claude-s2-r3-eval-suite\\android\\app\\src\\main\\assets\\asl_animations\\what.glb",
+    "unchanged": true,
+    "sha256": "829a88a5a72514337787827f1b8f679b69fec7a7666fc0a9bce85bf2f2e8c48f"
+  },
+  {
+    "path": "D:\\apphearv3claude\\AppHear-claude-s2-r3-eval-suite\\AppHear-claude-s2-r3-eval-suite\\android\\app\\src\\main\\assets\\asl_animations\\who-is-he-she.glb",
+    "unchanged": true,
+    "sha256": "bd6b7f97d65d0e4c707a9287c45a51a82951d27c29717bfab84d93d2fb3a2661"
+  },
+  {
+    "path": "D:\\apphearv3claude\\AppHear-claude-s2-r3-eval-suite\\AppHear-claude-s2-r3-eval-suite\\android\\app\\src\\main\\assets\\asl_animations\\work-labor-employment.glb",
+    "unchanged": true,
+    "sha256": "189db7e8a0e21d1c2e00690b7c3e1734cf7905e49076b7d3c471c8378249e654"
+  },
+  {
+    "path": "D:\\apphearv3claude\\AppHear-claude-s2-r3-eval-suite\\AppHear-claude-s2-r3-eval-suite\\android\\app\\src\\main\\assets\\asl_animations\\you-all.glb",
+    "unchanged": true,
+    "sha256": "d1ccd66a763c1d3a3c8bda0b16b8646786d890f32b56be26b5778614a30e6e2e"
+  },
+  {
+    "path": "D:\\apphearv3claude\\AppHear-claude-s2-r3-eval-suite\\AppHear-claude-s2-r3-eval-suite\\android\\app\\src\\main\\assets\\asl_animations\\you-children-how-many.glb",
+    "unchanged": true,
+    "sha256": "2ed7b44942fa27ccfb26cc391120864f8645ab91e298936ead1590a086ad83d7"
+  },
+  {
+    "path": "D:\\apphearv3claude\\AppHear-claude-s2-r3-eval-suite\\AppHear-claude-s2-r3-eval-suite\\android\\app\\src\\main\\assets\\asl_animations\\you-from-where.glb",
+    "unchanged": true,
+    "sha256": "4e65bc8d5d84936189dc6816242c5c19fe8f8456bba457d88be69677e96621be"
+  },
+  {
+    "path": "D:\\apphearv3claude\\AppHear-claude-s2-r3-eval-suite\\AppHear-claude-s2-r3-eval-suite\\android\\app\\src\\main\\assets\\asl_animations\\you-go-to-school.glb",
+    "unchanged": true,
+    "sha256": "a4cc2e817233dda5a9e1481e6dd2ffc4d1d53a40f0a5b26d48f6f590011835e5"
+  },
+  {
+    "path": "D:\\apphearv3claude\\AppHear-claude-s2-r3-eval-suite\\AppHear-claude-s2-r3-eval-suite\\android\\app\\src\\main\\assets\\asl_animations\\you-house-bathroom-how-many.glb",
+    "unchanged": true,
+    "sha256": "9c6cdcb9e065c4f26a13e9382b1c50b3169db1db329c6fce9f6ed737b467f4c4"
+  },
+  {
+    "path": "D:\\apphearv3claude\\AppHear-claude-s2-r3-eval-suite\\AppHear-claude-s2-r3-eval-suite\\android\\app\\src\\main\\assets\\asl_animations\\you-like-learn-sign.glb",
+    "unchanged": true,
+    "sha256": "e03a912210ee12026ee93dd979915b4ae3f974e14f64426bc8fcf658ef01d0bc"
+  },
+  {
+    "path": "D:\\apphearv3claude\\AppHear-claude-s2-r3-eval-suite\\AppHear-claude-s2-r3-eval-suite\\android\\app\\src\\main\\assets\\asl_animations\\you-like-your-work.glb",
+    "unchanged": true,
+    "sha256": "8612b40641f3610451c3e14ab742b7cf2115eaa44548244257f31f6728f73faa"
+  },
+  {
+    "path": "D:\\apphearv3claude\\AppHear-claude-s2-r3-eval-suite\\AppHear-claude-s2-r3-eval-suite\\android\\app\\src\\main\\assets\\asl_animations\\you-live-here.glb",
+    "unchanged": true,
+    "sha256": "3313b21017e28db3a25bd16b995817ea72da235185a3c0eed3aebb5084275181"
+  },
+  {
+    "path": "D:\\apphearv3claude\\AppHear-claude-s2-r3-eval-suite\\AppHear-claude-s2-r3-eval-suite\\android\\app\\src\\main\\assets\\asl_animations\\you-live-where.glb",
+    "unchanged": true,
+    "sha256": "69d3c0df7a4a0ac50d2bba6382c95d6805d1eef66570d5956a783847c9afaf45"
+  },
+  {
+    "path": "D:\\apphearv3claude\\AppHear-claude-s2-r3-eval-suite\\AppHear-claude-s2-r3-eval-suite\\android\\app\\src\\main\\assets\\asl_animations\\you-married.glb",
+    "unchanged": true,
+    "sha256": "ad89541af9fe0adbdea9cfbe793b9e5d407ed14aa41691d17b2fca942ee6cb7a"
+  },
+  {
+    "path": "D:\\apphearv3claude\\AppHear-claude-s2-r3-eval-suite\\AppHear-claude-s2-r3-eval-suite\\android\\app\\src\\main\\assets\\asl_animations\\you-need-bathroom.glb",
+    "unchanged": true,
+    "sha256": "2ca502927f5aa1096ece0f97b7674961267735de86359297c345aee8158e4572"
+  },
+  {
+    "path": "D:\\apphearv3claude\\AppHear-claude-s2-r3-eval-suite\\AppHear-claude-s2-r3-eval-suite\\android\\app\\src\\main\\assets\\asl_animations\\you-think-i-sign-bad.glb",
+    "unchanged": true,
+    "sha256": "f47e15d4a8979a0401d338f0b85417037c7341c3d71cd9bee2c245bf6efb7d76"
+  },
+  {
+    "path": "D:\\apphearv3claude\\AppHear-claude-s2-r3-eval-suite\\AppHear-claude-s2-r3-eval-suite\\android\\app\\src\\main\\assets\\asl_animations\\you-think-i-sign-good.glb",
+    "unchanged": true,
+    "sha256": "cc824aaacf74ce5c73e1c9b9239e41c46e1adcbaa6d280caff7b2f7c679fc25c"
+  },
+  {
+    "path": "D:\\apphearv3claude\\AppHear-claude-s2-r3-eval-suite\\AppHear-claude-s2-r3-eval-suite\\android\\app\\src\\main\\assets\\asl_animations\\you-want-more-children.glb",
+    "unchanged": true,
+    "sha256": "4d8597cfb92d96a52df7cfae006b895ae72c148f9824b639e7376681a0d11836"
+  },
+  {
+    "path": "D:\\apphearv3claude\\AppHear-claude-s2-r3-eval-suite\\AppHear-claude-s2-r3-eval-suite\\android\\app\\src\\main\\assets\\asl_animations\\you-work-where.glb",
+    "unchanged": true,
+    "sha256": "a0db916cd9a5a4ce98f72ea886a4702e18eacd4f1e4e47c106e309eca7c20dd9"
+  },
+  {
+    "path": "D:\\apphearv3claude\\AppHear-claude-s2-r3-eval-suite\\AppHear-claude-s2-r3-eval-suite\\android\\app\\src\\main\\assets\\asl_animations\\you.glb",
+    "unchanged": true,
+    "sha256": "30776015bef1cbcf450647bbdf042740452d78b7f6e07d1ebc1a5968ebe33f26"
+  },
+  {
+    "path": "D:\\apphearv3claude\\AppHear-claude-s2-r3-eval-suite\\AppHear-claude-s2-r3-eval-suite\\android\\app\\src\\main\\assets\\asl_animations\\your-belongs-to-you-yours.glb",
+    "unchanged": true,
+    "sha256": "c593b29e51a0031d1104a5aecc2e1514dcff6aa7742dd8462ef7cb65b44f1344"
+  },
+  {
+    "path": "D:\\apphearv3claude\\AppHear-claude-s2-r3-eval-suite\\AppHear-claude-s2-r3-eval-suite\\android\\app\\src\\main\\assets\\asl_animations\\your-dad-deaf.glb",
+    "unchanged": true,
+    "sha256": "7bc9e825e3df70d5fa11850a4f21f1d54ce049cc80e70c0a53dcd940c74808d6"
+  },
+  {
+    "path": "D:\\apphearv3claude\\AppHear-claude-s2-r3-eval-suite\\AppHear-claude-s2-r3-eval-suite\\android\\app\\src\\main\\assets\\asl_animations\\your-dad-name.glb",
+    "unchanged": true,
+    "sha256": "d16be660a144a0f373ca46cbcd4521cd38bd32a3824cb6418f3c89d989da7236"
+  },
+  {
+    "path": "D:\\apphearv3claude\\AppHear-claude-s2-r3-eval-suite\\AppHear-claude-s2-r3-eval-suite\\android\\app\\src\\main\\assets\\asl_animations\\your-house-big.glb",
+    "unchanged": true,
+    "sha256": "c9f238f8692058f481310404bfc86dcbdab240e08da80c065e25eef7c31816e1"
+  },
+  {
+    "path": "D:\\apphearv3claude\\AppHear-claude-s2-r3-eval-suite\\AppHear-claude-s2-r3-eval-suite\\android\\app\\src\\main\\assets\\asl_animations\\your-house-small.glb",
+    "unchanged": true,
+    "sha256": "dfbcbd5f9948829f77318e165429adb4b93aa6a107e587d9d63311e61c781736"
+  },
+  {
+    "path": "D:\\apphearv3claude\\AppHear-claude-s2-r3-eval-suite\\AppHear-claude-s2-r3-eval-suite\\android\\app\\src\\main\\assets\\asl_animations\\your-mom-name-what.glb",
+    "unchanged": true,
+    "sha256": "1ffdd5adfe5428a25134de9bae35cb7afceed28420260f4548078e2b0d9e23b5"
+  },
+  {
+    "path": "D:\\apphearv3claude\\AppHear-claude-s2-r3-eval-suite\\AppHear-claude-s2-r3-eval-suite\\android\\app\\src\\main\\assets\\mediapipe\\hand_landmarker.task",
+    "unchanged": true,
+    "sha256": "fbc2a30080c3c557093b5ddfc334698132eb341044ccee322ccf8bcf3607cde1"
+  },
+  {
+    "path": "D:\\apphearv3claude\\AppHear-claude-s2-r3-eval-suite\\AppHear-claude-s2-r3-eval-suite\\android\\app\\src\\main\\assets\\mediapipe\\pose_landmarker_lite.task",
+    "unchanged": true,
+    "sha256": "59929e1d1ee95287735ddd833b19cf4ac46d29bc7afddbbf6753c459690d574a"
+  },
+  {
+    "path": "D:\\apphearv3claude\\AppHear-claude-s2-r3-eval-suite\\AppHear-claude-s2-r3-eval-suite\\android\\app\\src\\main\\assets\\perception_vnext\\dwpose_t_singlepass.onnx",
+    "unchanged": true,
+    "sha256": "37b0f265200f8e249adba1cc9b62925f5e1252245580ed1f66f583d7bce239c0"
+  },
+  {
+    "path": "D:\\apphearv3claude\\AppHear-claude-s2-r3-eval-suite\\AppHear-claude-s2-r3-eval-suite\\android\\app\\src\\main\\assets\\perception_vnext\\hand_landmarks_detector.tflite",
+    "unchanged": true,
+    "sha256": "6acda74af3fbf40e68265c20c7394b2bad81a16a481dcd79ad7a081887c3d6b9"
+  },
+  {
+    "path": "D:\\apphearv3claude\\AppHear-claude-s2-r3-eval-suite\\AppHear-claude-s2-r3-eval-suite\\android\\app\\src\\main\\assets\\phase4a_gate2_recognizer_parity\\manifest.json",
+    "unchanged": true,
+    "sha256": "bfe8bec13a646eb6fa733c3bee6a421a44b5e58ed6dbb0dd59d88804e397d019"
+  },
+  {
+    "path": "D:\\apphearv3claude\\AppHear-claude-s2-r3-eval-suite\\AppHear-claude-s2-r3-eval-suite\\android\\app\\src\\main\\assets\\phase4a_gate2_recognizer_parity\\ordinary_v2_tcn_fp32.tflite",
+    "unchanged": true,
+    "sha256": "1ccf0afa9af9aa602aa0de33c9635f5cffd7feec7d9b4e32382bc5e3fa02880c"
+  },
+  {
+    "path": "D:\\apphearv3claude\\AppHear-claude-s2-r3-eval-suite\\AppHear-claude-s2-r3-eval-suite\\android\\app\\src\\main\\assets\\phase4a_gate4a1_live\\contract.json",
+    "unchanged": true,
+    "sha256": "d45cabf506a3e3040bd33bef308538bd7130934f770d7b8bd71dbb83cb2494ff"
+  },
+  {
+    "path": "D:\\apphearv3claude\\AppHear-claude-s2-r3-eval-suite\\AppHear-claude-s2-r3-eval-suite\\android\\app\\src\\main\\assets\\phone_causal_recognition_01\\cadence_aligned_normalization_stats.json",
+    "unchanged": true,
+    "sha256": "d1f3b47ea9cf67578ea13e528a444d87be2246bfa62a0067b70f96393c39f1eb"
+  },
+  {
+    "path": "D:\\apphearv3claude\\AppHear-claude-s2-r3-eval-suite\\AppHear-claude-s2-r3-eval-suite\\android\\app\\src\\main\\assets\\phone_causal_recognition_01\\contract.json",
+    "unchanged": true,
+    "sha256": "b7d5e7b770f101b51c18bf8a4b22838086731703fd0b9af3701ecf1270c91bb6"
+  },
+  {
+    "path": "D:\\apphearv3claude\\AppHear-claude-s2-r3-eval-suite\\AppHear-claude-s2-r3-eval-suite\\android\\app\\src\\main\\assets\\phone_causal_recognition_01\\materializer_contract_frozen.json",
+    "unchanged": true,
+    "sha256": "0a59dc80fe54cb37e09fbce8aa108dbfce32bc4b5cb48b98e61619b5b3b34971"
+  },
+  {
+    "path": "D:\\apphearv3claude\\AppHear-claude-s2-r3-eval-suite\\AppHear-claude-s2-r3-eval-suite\\android\\app\\src\\main\\assets\\phone_causal_recognition_01\\s2_phase7_fp32.tflite",
+    "unchanged": true,
+    "sha256": "820023d15c98dab2fb8f21914906ccd637d32bce7b825cbd1d89a58c80cd4ed7"
+  },
+  {
+    "path": "D:\\apphearv3claude\\AppHear-claude-s2-r3-eval-suite\\AppHear-claude-s2-r3-eval-suite\\android\\app\\src\\main\\assets\\phone_causal_recognition_01\\s2_r2_candidate\\contract.json",
+    "unchanged": true,
+    "sha256": "2f1ff03dcb352117cf9c84a30d5bcd40ede9984a21cf31df834c2e2d086aa6aa"
+  },
+  {
+    "path": "D:\\apphearv3claude\\AppHear-claude-s2-r3-eval-suite\\AppHear-claude-s2-r3-eval-suite\\android\\app\\src\\main\\assets\\phone_causal_recognition_01\\s2_r2_candidate\\normalization.json",
+    "unchanged": true,
+    "sha256": "76253b7eaa5d8e05cd546eecfb6602340b5a936eb0fc21e1fcbc7be4fb9786ac"
+  },
+  {
+    "path": "D:\\apphearv3claude\\AppHear-claude-s2-r3-eval-suite\\AppHear-claude-s2-r3-eval-suite\\android\\app\\src\\main\\assets\\phone_causal_recognition_01\\s2_r2_candidate\\s2_r2_fp32.tflite",
+    "unchanged": true,
+    "sha256": "7d26c896db1a00e7a41ff3e02b02033428cbd2ae4b5cbf3e4d279d45f529d3d7"
+  },
+  {
+    "path": "D:\\apphearv3claude\\AppHear-claude-s2-r3-eval-suite\\AppHear-claude-s2-r3-eval-suite\\android\\app\\src\\main\\assets\\vendor\\model-viewer\\LICENSE-Apache-2.0.txt",
+    "unchanged": true,
+    "sha256": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30"
+  },
+  {
+    "path": "D:\\apphearv3claude\\AppHear-claude-s2-r3-eval-suite\\AppHear-claude-s2-r3-eval-suite\\android\\app\\src\\main\\assets\\vendor\\model-viewer\\model-viewer-4.3.1.min.js",
+    "unchanged": true,
+    "sha256": "283b0672384614b4847636c306fc93fe4b1fcadc76d668b4e47f0ca76bcf033b"
+  },
+  {
+    "path": "D:\\apphearv3claude\\AppHear-claude-s2-r3-eval-suite\\AppHear-claude-s2-r3-eval-suite\\android\\app\\src\\main\\assets\\_backup_250fps\\model_manifest.json",
+    "unchanged": true,
+    "sha256": "b79135737199ee4bef44b07a6b4305a92c9e02c8da2982b36826526573f74225"
+  },
+  {
+    "path": "D:\\apphearv3claude\\AppHear-claude-s2-r3-eval-suite\\AppHear-claude-s2-r3-eval-suite\\android\\app\\src\\main\\assets\\_backup_250fps\\recognition_config.json",
+    "unchanged": true,
+    "sha256": "d86b7db5cbdcba7dcee747a371e639f01f113344291bafb0f3fafc83dd5341cc"
+  },
+  {
+    "path": "D:\\apphearv3claude\\AppHear-claude-s2-r3-eval-suite\\AppHear-claude-s2-r3-eval-suite\\android\\app\\src\\main\\assets\\_backup_250fps\\streaming.tflite",
+    "unchanged": true,
+    "sha256": "4fdefce60af4b33644b6351e89c4c054efc83dfe5673a67d4dc53281b8e2ccf5"
+  },
+  {
+    "path": "D:\\apphearv3claude\\AppHear-claude-s2-r3-eval-suite\\AppHear-claude-s2-r3-eval-suite\\android\\app\\src\\main\\assets\\_backup_250fps\\vocab.json",
+    "unchanged": true,
+    "sha256": "34871694b9b4f478718e059bcdbfe0f270e774a308347c0d4993388a814d380e"
+  },
+  {
+    "path": "D:\\apphearv3claude\\AppHear-claude-s2-r3-eval-suite\\AppHear-claude-s2-r3-eval-suite\\android\\app\\src\\main\\assets\\_backup_before_analysis_480x360_gpu_20260722-093440\\recognition_config.json",
+    "unchanged": true,
+    "sha256": "d2a39e38b754358f99ab120810a00115c10953fe3d7da0c900fac5e775e37cd6"
+  },
+  {
+    "path": "D:\\apphearv3claude\\AppHear-claude-s2-r3-eval-suite\\AppHear-claude-s2-r3-eval-suite\\android\\app\\src\\main\\assets\\_backup_before_cpu_delegate_ab_20260722-091958\\recognition_config.json",
+    "unchanged": true,
+    "sha256": "7f6293b1216b4bccb6a4ac06cb92ddadfde1e4060d2ae98366be68253c11261e"
+  },
+  {
+    "path": "D:\\apphearv3claude\\AppHear-claude-s2-r3-eval-suite\\AppHear-claude-s2-r3-eval-suite\\android\\app\\src\\main\\assets\\_backup_before_local_pc_236_candidate_20260722-075734\\model_manifest.json",
+    "unchanged": true,
+    "sha256": "642f53605959fb799c37bb98b7c71a6c6b73a89256babf5e2f9326cfcc8f5208"
+  },
+  {
+    "path": "D:\\apphearv3claude\\AppHear-claude-s2-r3-eval-suite\\AppHear-claude-s2-r3-eval-suite\\android\\app\\src\\main\\assets\\_backup_before_local_pc_236_candidate_20260722-075734\\recognition_config.json",
+    "unchanged": true,
+    "sha256": "235ecfd9f5295b24ee06b507ace09a77a3d0528dcd7216ffbb3ecb7b63161102"
+  },
+  {
+    "path": "D:\\apphearv3claude\\AppHear-claude-s2-r3-eval-suite\\AppHear-claude-s2-r3-eval-suite\\android\\app\\src\\main\\assets\\_backup_before_local_pc_236_candidate_20260722-075734\\streaming.tflite",
+    "unchanged": true,
+    "sha256": "2763ce1de129af46e966dcdc6582beca6fbd0dba8252c5ad24314869a6cdcc5d"
+  },
+  {
+    "path": "D:\\apphearv3claude\\AppHear-claude-s2-r3-eval-suite\\AppHear-claude-s2-r3-eval-suite\\android\\app\\src\\main\\assets\\_backup_before_local_pc_236_candidate_20260722-075734\\vocab.json",
+    "unchanged": true,
+    "sha256": "ac1972c5b3a5b67140e551b488238018661f5acb75945dfeef05f500c96303da"
+  },
+  {
+    "path": "D:\\apphearv3claude\\AppHear-claude-s2-r3-eval-suite\\AppHear-claude-s2-r3-eval-suite\\android\\app\\src\\main\\assets\\_backup_before_old_model_ab_20260722-100247\\model_manifest.json",
+    "unchanged": true,
+    "sha256": "33565f8f20c22473b42ed42785b8a8dac34aba9762e4e2bdc2c21de116199d3a"
+  },
+  {
+    "path": "D:\\apphearv3claude\\AppHear-claude-s2-r3-eval-suite\\AppHear-claude-s2-r3-eval-suite\\android\\app\\src\\main\\assets\\_backup_before_old_model_ab_20260722-100247\\recognition_config.json",
+    "unchanged": true,
+    "sha256": "7d1bbff1b3a6a52db4e4af84bef94231eca578863c827ce5a70347e37ae6bd4b"
+  },
+  {
+    "path": "D:\\apphearv3claude\\AppHear-claude-s2-r3-eval-suite\\AppHear-claude-s2-r3-eval-suite\\android\\app\\src\\main\\assets\\_backup_before_old_model_ab_20260722-100247\\streaming.tflite",
+    "unchanged": true,
+    "sha256": "42575710a4adb0a1433b58ba9093bc4e9f49401381582cc4ad304feeb669d4bb"
+  },
+  {
+    "path": "D:\\apphearv3claude\\AppHear-claude-s2-r3-eval-suite\\AppHear-claude-s2-r3-eval-suite\\android\\app\\src\\main\\assets\\_backup_before_old_model_ab_20260722-100247\\vocab.json",
+    "unchanged": true,
+    "sha256": "ac1972c5b3a5b67140e551b488238018661f5acb75945dfeef05f500c96303da"
+  },
+  {
+    "path": "D:\\apphearv3claude\\AppHear-claude-s2-r3-eval-suite\\AppHear-claude-s2-r3-eval-suite\\android\\app\\src\\main\\assets\\_backup_before_pose_every_3_20260722-094412\\recognition_config.json",
+    "unchanged": true,
+    "sha256": "7cbf2226ad673e2d637f0bb7588259e7b955bdec5ef1dd3bd967a8f0c15c8a02"
+  },
+  {
+    "path": "D:\\apphearv3claude\\AppHear-claude-s2-r3-eval-suite\\AppHear-claude-s2-r3-eval-suite\\android\\app\\src\\main\\assets\\_backup_before_restore_local_candidate_20260722-101227\\model_manifest.json",
+    "unchanged": true,
+    "sha256": "642f53605959fb799c37bb98b7c71a6c6b73a89256babf5e2f9326cfcc8f5208"
+  },
+  {
+    "path": "D:\\apphearv3claude\\AppHear-claude-s2-r3-eval-suite\\AppHear-claude-s2-r3-eval-suite\\android\\app\\src\\main\\assets\\_backup_before_restore_local_candidate_20260722-101227\\recognition_config.json",
+    "unchanged": true,
+    "sha256": "c665d5707a2904641885e515434df55198243b5dfeecfd88a6587ddb7bbe8041"
+  },
+  {
+    "path": "D:\\apphearv3claude\\AppHear-claude-s2-r3-eval-suite\\AppHear-claude-s2-r3-eval-suite\\android\\app\\src\\main\\assets\\_backup_before_restore_local_candidate_20260722-101227\\streaming.tflite",
+    "unchanged": true,
+    "sha256": "2763ce1de129af46e966dcdc6582beca6fbd0dba8252c5ad24314869a6cdcc5d"
+  },
+  {
+    "path": "D:\\apphearv3claude\\AppHear-claude-s2-r3-eval-suite\\AppHear-claude-s2-r3-eval-suite\\android\\app\\src\\main\\assets\\_backup_before_restore_local_candidate_20260722-101227\\vocab.json",
+    "unchanged": true,
+    "sha256": "ac1972c5b3a5b67140e551b488238018661f5acb75945dfeef05f500c96303da"
+  },
+  {
+    "path": "D:\\apphearv3claude\\AppHear-claude-s2-r3-eval-suite\\AppHear-claude-s2-r3-eval-suite\\android\\app\\src\\main\\assets\\_backup_before_revert_pose_every_2_20260722-095204\\recognition_config.json",
+    "unchanged": true,
+    "sha256": "0007ebe284b58516ff30343db3a4d25d2fe355d6f2d31524dfaea8d076aef2dd"
+  },
+  {
+    "path": "D:\\apphearv3claude\\AppHear-claude-s2-r3-eval-suite\\AppHear-claude-s2-r3-eval-suite\\android\\app\\src\\main\\assets\\_backup_before_strict_lowfps_confirm_20260722-084845\\model_manifest.json",
+    "unchanged": true,
+    "sha256": "33565f8f20c22473b42ed42785b8a8dac34aba9762e4e2bdc2c21de116199d3a"
+  },
+  {
+    "path": "D:\\apphearv3claude\\AppHear-claude-s2-r3-eval-suite\\AppHear-claude-s2-r3-eval-suite\\android\\app\\src\\main\\assets\\_backup_before_strict_lowfps_confirm_20260722-084845\\recognition_config.json",
+    "unchanged": true,
+    "sha256": "e11283ba175d36d61a8f3795a706b9a4417cd26391d35f5e6ed12fcbaed010ba"
+  },
+  {
+    "path": "D:\\apphearv3claude\\AppHear-claude-s2-r3-eval-suite\\AppHear-claude-s2-r3-eval-suite\\android\\app\\src\\main\\assets\\_backup_before_strict_lowfps_confirm_20260722-084845\\streaming.tflite",
+    "unchanged": true,
+    "sha256": "42575710a4adb0a1433b58ba9093bc4e9f49401381582cc4ad304feeb669d4bb"
+  },
+  {
+    "path": "D:\\apphearv3claude\\AppHear-claude-s2-r3-eval-suite\\AppHear-claude-s2-r3-eval-suite\\android\\app\\src\\main\\assets\\_backup_before_strict_lowfps_confirm_20260722-084845\\vocab.json",
+    "unchanged": true,
+    "sha256": "ac1972c5b3a5b67140e551b488238018661f5acb75945dfeef05f500c96303da"
+  },
+  {
+    "path": "D:\\apphearv3claude\\AppHear-claude-s2-r3-eval-suite\\AppHear-claude-s2-r3-eval-suite\\android\\app\\src\\main\\assets\\_backup_before_targeted_v3_ab_20260722-123126\\model_manifest.json",
+    "unchanged": true,
+    "sha256": "33565f8f20c22473b42ed42785b8a8dac34aba9762e4e2bdc2c21de116199d3a"
+  },
+  {
+    "path": "D:\\apphearv3claude\\AppHear-claude-s2-r3-eval-suite\\AppHear-claude-s2-r3-eval-suite\\android\\app\\src\\main\\assets\\_backup_before_targeted_v3_ab_20260722-123126\\recognition_config.json",
+    "unchanged": true,
+    "sha256": "b71bc5ff381330943a5ff9e63223cf6285a6066529f49091551fca9fa52b572d"
+  },
+  {
+    "path": "D:\\apphearv3claude\\AppHear-claude-s2-r3-eval-suite\\AppHear-claude-s2-r3-eval-suite\\android\\app\\src\\main\\assets\\_backup_before_targeted_v3_ab_20260722-123126\\streaming.tflite",
+    "unchanged": true,
+    "sha256": "42575710a4adb0a1433b58ba9093bc4e9f49401381582cc4ad304feeb669d4bb"
+  },
+  {
+    "path": "D:\\apphearv3claude\\AppHear-claude-s2-r3-eval-suite\\AppHear-claude-s2-r3-eval-suite\\android\\app\\src\\main\\assets\\_backup_before_targeted_v3_ab_20260722-123126\\vocab.json",
+    "unchanged": true,
+    "sha256": "ac1972c5b3a5b67140e551b488238018661f5acb75945dfeef05f500c96303da"
+  },
+  {
+    "path": "D:\\apphearv3claude\\AppHear-claude-s2-r3-eval-suite\\AppHear-claude-s2-r3-eval-suite\\android\\app\\src\\main\\assets\\_backup_conversational_tcn\\model_manifest.json",
+    "unchanged": true,
+    "sha256": "642f53605959fb799c37bb98b7c71a6c6b73a89256babf5e2f9326cfcc8f5208"
+  },
+  {
+    "path": "D:\\apphearv3claude\\AppHear-claude-s2-r3-eval-suite\\AppHear-claude-s2-r3-eval-suite\\android\\app\\src\\main\\assets\\_backup_conversational_tcn\\recognition_config.json",
+    "unchanged": true,
+    "sha256": "e239f6c4309b8f46efc33e37d1c906a26550529f8988cf5add3a64e5887df881"
+  },
+  {
+    "path": "D:\\apphearv3claude\\AppHear-claude-s2-r3-eval-suite\\AppHear-claude-s2-r3-eval-suite\\android\\app\\src\\main\\assets\\_backup_conversational_tcn\\streaming.tflite",
+    "unchanged": true,
+    "sha256": "2763ce1de129af46e966dcdc6582beca6fbd0dba8252c5ad24314869a6cdcc5d"
+  },
+  {
+    "path": "D:\\apphearv3claude\\AppHear-claude-s2-r3-eval-suite\\AppHear-claude-s2-r3-eval-suite\\android\\app\\src\\main\\assets\\_backup_conversational_tcn\\vocab.json",
+    "unchanged": true,
+    "sha256": "ac1972c5b3a5b67140e551b488238018661f5acb75945dfeef05f500c96303da"
+  }
+]

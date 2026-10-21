@@ -1,0 +1,20 @@
+{
+  "status": "PASS TRAIN-only support audit; NO recognition vocabulary expansion",
+  "TRAIN_utterances": 1500,
+  "literal_target_labels": 2287,
+  "output_classes_with_specials": 2289,
+  "token_occurrences": 12423,
+  "support_buckets_distinct_utterances": {
+    "1": 1182,
+    "2_4": 626,
+    "5_9": 246,
+    "10_19": 124,
+    "20plus": 109
+  },
+  "TRAIN_signers": 3,
+  "TRAIN_source_recordings": 34,
+  "labels_without5support": 1808,
+  "English_word_equivalents": 75,
+  "new_recognition_classes_added": 0,
+  "reason": "The current task already contains2,287 literal labels; sparse support and transfer failure dominate. Appending vocabulary strings cannot change the trained classifier. Keep pools separate and add authentic examples before expanding classes."
+}

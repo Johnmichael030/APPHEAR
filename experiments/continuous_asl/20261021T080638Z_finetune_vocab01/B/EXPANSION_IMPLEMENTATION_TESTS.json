@@ -1,0 +1,15 @@
+{
+  "status": "PASS_SYNTHETIC_ENGINEERING_ONLY",
+  "old_class_IDs_unchanged": 2289,
+  "old_parameter_tensors_exact": true,
+  "synthetic_added_classes": 3,
+  "actual_new_classes_added": 0,
+  "max_old_logit_error": 0.0,
+  "softmax_note": "Old logits are preserved at initialization; adding logits necessarily changes the softmax denominator.",
+  "checkpoint_serialization": "in-memory roundtrip only; no synthetic checkpoint distributed",
+  "expanded_optimizer_moments": true,
+  "new_row_CTC_gradient_finite": true,
+  "invalid_admission_rejected": true,
+  "source_checkpoint_sha256": "14d0e4669674265ea2be8a3161fa6699e4f813daf4b97b384863dce1daa038ff",
+  "trained_new_signs": false
+}

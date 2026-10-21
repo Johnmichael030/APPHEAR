@@ -1,0 +1,23 @@
+{
+  "experiment": "B_append_only_vocabulary_finetune",
+  "status": "BLOCKED_NEW_CLASS_DATA",
+  "source_checkpoint": "D:\\apphearv3claude\\AppHear-claude-s2-r3-eval-suite\\AppHear-claude-s2-r3-eval-suite\\experiments\\continuous_asl\\20261020T143609Z_learning_diagnostic01\\candidate_checkpoints\\epoch_012.pt",
+  "source_checkpoint_sha256": "14d0e4669674265ea2be8a3161fa6699e4f813daf4b97b384863dce1daa038ff",
+  "existing_classes": 2289,
+  "blank_id": 0,
+  "unknown_id": 1,
+  "feature_width": 378,
+  "supported_new_classes": [],
+  "admission_manifest_required": "B/APPROVED_DATA_MANIFEST.json",
+  "minimum_distinct_training_utterances_per_new_class": 3,
+  "minimum_independent_validation_utterances_per_new_class": 1,
+  "policy": "Preserve all old IDs/weights; initialize only appended output rows; restore compatible optimizer moments; genuine old-class replay plus reviewed compatible new examples",
+  "normalization": "frozen source parameters unless separately controlled",
+  "max_epochs": 12,
+  "max_wall_seconds": 180,
+  "learning_rate": 0.0001,
+  "batch_size": 4,
+  "gradient_accumulation": 2,
+  "production_promoted": false,
+  "TEST_used": false
+}

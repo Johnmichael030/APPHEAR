@@ -1,0 +1,11 @@
+experiment,protocol,status,TRAIN_WER,DEV_WER,substitutions,deletions,insertions,exact_sequences,new_classes,scope,TRAIN_WER_protocol,TRAIN_baseline_reused
+baseline,greedy,MEASURED,0.8840054737181036,0.9567010309278351,136,328,0,0,0,Known signers; recording-family transfer; development-exposed80,full_sequence_greedy,True
+A,greedy,MEASURED,0.8569588666183692,0.9463917525773196,132,327,0,0,0,Known signers; recording-family transfer; development-exposed80,full_sequence_greedy,False
+baseline,streaming,MEASURED,0.8840054737181036,0.9567010309278351,176,288,0,0,0,Known signers; recording-family transfer; development-exposed80,full_sequence_greedy,True
+A,streaming,MEASURED,0.8569588666183692,0.9567010309278351,185,279,0,0,0,Known signers; recording-family transfer; development-exposed80,full_sequence_greedy,False
+baseline,full_sequence_beam4,MEASURED_CACHED_LOGITS,,0.9505154639175257,143,318,0,0,0,"CPU prefix beam, noLM; not current streaming decoder",,False
+baseline,full_sequence_beam8,MEASURED_CACHED_LOGITS,,0.9463917525773196,139,320,0,0,0,"CPU prefix beam, noLM; not current streaming decoder",,False
+A,full_sequence_beam4,MEASURED_CACHED_LOGITS,,0.9484536082474226,141,319,0,0,0,"CPU prefix beam, noLM; not current streaming decoder",,False
+A,full_sequence_beam8,MEASURED_CACHED_LOGITS,,0.9484536082474226,143,317,0,0,0,"CPU prefix beam, noLM; not current streaming decoder",,False
+B,,BLOCKED_NEW_CLASS_ADMISSION,,,,,,,0,No fit performed,,False
+C,,NOT_RUN_PREDECLARED_GATE_FAILED,,,,,,,0,No fit performed,,False

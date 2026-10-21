@@ -1,0 +1,20 @@
+Working directory:
+D:\apphearv3claude\AppHear-claude-s2-r3-eval-suite\AppHear-claude-s2-r3-eval-suite
+
+Executed once:
+& '.\experiments\continuous_asl\20261019T155428Z_cslr01\runtime\venv\Scripts\python.exe' '.\evidence\20261021T062258Z_continuous_detectionfix01\continuity_replay\paired_replay.py'
+
+Exit0. Predeclared gate outcome BLOCKED_PAIRED_GATE, not an execution failure.
+Measured vectorized inference+scoring0.5103523999569006seconds (CPU ONNX2threads).
+Before inference: config.json, exactTRAIN192/HELD80 manifests and272-feature metadata/label/hash inventory saved exclusively.
+ConfigSHA256082f1d12b150d67e14308d7a834f3bafa84e39090a0828c9f8a47ed3b584c383.
+TRAIN192 A93.989071%WER (SUB391 DEL982 INS3) ->B93.510929% (SUB117 DEL1252 INS0).
+HELD80 A95.670103%WER (SUB176 DEL288 INS0) ->B97.731959% (SUB65 DEL409 INS0).
+Exactsequences0underbothpolicies/bothpartitions. EmptyoutputsTRAIN23->73; HELD7->30.
+No-handpublishedtokens0andlogicalservingcalls0underbothpolicies; vectorizedofflineunusednohandlogitsareexplicitlynotlivecalls.
+RF61prefixparityPASS atfrozenBindices0,1,30,60,last; twoapplicablevisibleAindicesalsoPASS.
+TRAIN Aexactedit/tokencountreproductionofparentreplayPASS.
+All272featurehashes,configandancestry/model/vocabularyhashesunchangedPASS.
+No TESTpayload access,training,modelselection,appchangeordeploymentperformed.
+
+The existing output directory is intentionally exclusive; rerunning in place is refused. Preserve config/results. No post-result gate tuning occurred.

@@ -1,0 +1,4 @@
+﻿scope,utterances,WER,substitutions,deletions,insertions,reference_tokens,exact_sequences,empty_outputs,token_diversity,hypothesis_tokens,CTC_loss,blank_fraction
+All80,80,1.0103092783505154,338,124,28,485,0,0,127,389,11.511077189445496,0.8283998283998284
+All_reference_labels_fitted_in192,22,0.975,86,26,5,120,0,0,48,99,9.247112469239669,0.8330522765598651
+Contains_labels_not_fitted_in192,58,1.021917808219178,252,98,23,365,0,0,115,290,12.369822428144257,0.8268124280782508

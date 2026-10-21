@@ -1,0 +1,5024 @@
+{
+  "utterances": 192,
+  "WER": 0.10655737704918032,
+  "substitutions": 99,
+  "deletions": 45,
+  "insertions": 12,
+  "reference_tokens": 1464,
+  "CTC_loss": 0.54267999510436,
+  "blank_fraction": 0.8159806295399515,
+  "token_diversity": 608,
+  "dominant_nonblank_share": 0.06359189378057302,
+  "empty_outputs": 0,
+  "hypothesis_tokens": 1431,
+  "exact_sequences": 76,
+  "predictions": [
+    {
+      "sample_id": "asllrp3_48507e7eb82da9b8",
+      "reference": [
+        "PEOPLE",
+        "IX-1p",
+        "1p-MEET+++:i/j/k/l",
+        "PAST+NIGHT",
+        "WOW",
+        "(L-X)INTERESTING"
+      ],
+      "hypothesis": [
+        "IX-3p:i",
+        "IX-1p",
+        "1p-MEET+++:i/j/k/l",
+        "PAST+NIGHT",
+        "WOW",
+        "(L-X)INTERESTING"
+      ],
+      "CTC_loss": 0.9356928467750549,
+      "blank_frames": 34,
+      "output_frames": 40,
+      "family": "asllrp_dai_participant_2::2013-06-27"
+    },
+    {
+      "sample_id": "asllrp3_12c3a93500af51aa",
+      "reference": [
+        "PAST+NIGHT",
+        "(5)ACCIDENT",
+        "PCL:5\\long line of cars\\\"\"",
+        "(1h)WOW/AWFUL"
+      ],
+      "hypothesis": [
+        "IX-1p",
+        "(5)ACCIDENT",
+        "PCL:5\\long line of cars\\\"\"",
+        "(1h)WOW/AWFUL"
+      ],
+      "CTC_loss": 0.5945165157318115,
+      "blank_frames": 27,
+      "output_frames": 31,
+      "family": "asllrp_dai_participant_3::2011-12-01"
+    },
+    {
+      "sample_id": "asllrp3_1399c3f7e54b60cf",
+      "reference": [
+        "IX-3p:i",
+        "BOOK",
+        "READ+",
+        "REALLY",
+        "(1h)GOOD/THANK-YOU",
+        "#NO",
+        "LOUSY",
+        "(1h)5\\wave no\\\"\"",
+        "IX-1p",
+        "NOT",
+        "LIKE"
+      ],
+      "hypothesis": [
+        "EMERGENCY+",
+        "READ+",
+        "REALLY",
+        "(1h)GOOD/THANK-YOU",
+        "#NO",
+        "LOUSY",
+        "(1h)5\\wave no\\\"\"",
+        "IX-1p",
+        "NOT",
+        "LIKE"
+      ],
+      "CTC_loss": 0.8857082724571228,
+      "blank_frames": 58,
+      "output_frames": 68,
+      "family": "asllrp_dai_participant_3::2011-12-08"
+    },
+    {
+      "sample_id": "asllrp3_0541021d00521482",
+      "reference": [
+        "IX-1p",
+        "LIKE",
+        "IX-3p:i",
+        "CHOCOLATE",
+        "fs-CEREAL",
+        "BUT",
+        "NONE/NOTHING",
+        "(25)WHY",
+        "part:indef"
+      ],
+      "hypothesis": [
+        "IX-1p",
+        "LIKE",
+        "IX-3p:i",
+        "CHOCOLATE",
+        "fs-CEREAL",
+        "BUT",
+        "NONE/NOTHING",
+        "(25)WHY",
+        "part:indef"
+      ],
+      "CTC_loss": 0.28943565487861633,
+      "blank_frames": 35,
+      "output_frames": 44,
+      "family": "asllrp_dai_participant_3::2012-01-27"
+    },
+    {
+      "sample_id": "asllrp3_2debd9737dec3941",
+      "reference": [
+        "RAIN++",
+        "(1h)WOW/AWFUL"
+      ],
+      "hypothesis": [
+        "RAIN++",
+        "(1h)WOW/AWFUL"
+      ],
+      "CTC_loss": 0.11576435714960098,
+      "blank_frames": 15,
+      "output_frames": 17,
+      "family": "asllrp_dai_participant_3::2012-02-09"
+    },
+    {
+      "sample_id": "asllrp3_c4c7d7b223717d24",
+      "reference": [
+        "UNDERSTAND",
+        "LEARN+++",
+        "AND",
+        "USE",
+        "THAT",
+        "(2h)alt.UNDERSTAND",
+        "IX-1p",
+        "USE",
+        "MANY",
+        "DEAF",
+        "PEOPLE",
+        "POSS-3p-pl-arc",
+        "EXPERIENCE",
+        "THROUGH",
+        "STORY+"
+      ],
+      "hypothesis": [
+        "UNDERSTAND",
+        "LEARN+++",
+        "AND",
+        "USE",
+        "THAT",
+        "(2h)alt.UNDERSTAND",
+        "USE",
+        "MANY",
+        "DEAF",
+        "PEOPLE",
+        "POSS-3p-pl-arc",
+        "EXPERIENCE",
+        "THROUGH",
+        "STORY+"
+      ],
+      "CTC_loss": 0.6510718464851379,
+      "blank_frames": 60,
+      "output_frames": 74,
+      "family": "asllrp_dai_participant_5::UNRESOLVED_ALL_UNDATED_MASTERS"
+    },
+    {
+      "sample_id": "asllrp3_0eb94e195eb6841e",
+      "reference": [
+        "WOW",
+        "BRACELET",
+        "PRICE",
+        "HOW-MANY+",
+        "THREE",
+        "THOUSAND"
+      ],
+      "hypothesis": [
+        "NOW+",
+        "BRACELET",
+        "PRICE",
+        "HOW-MANY+",
+        "THREE",
+        "THOUSAND"
+      ],
+      "CTC_loss": 0.7331414222717285,
+      "blank_frames": 35,
+      "output_frames": 42,
+      "family": "asllrp_dai_participant_2::2013-06-27"
+    },
+    {
+      "sample_id": "asllrp3_c65a7f06f4271f3f",
+      "reference": [
+        "PAST+",
+        "TAKE-BREAK",
+        "IX-1p",
+        "READY",
+        "#DO",
+        "HOMEWORK",
+        "FROM-NOW-ON",
+        "EMPTY-FROM-NOW-ON",
+        "READY"
+      ],
+      "hypothesis": [
+        "PAST+",
+        "VOLUNTEER/SHIRT",
+        "IX-1p",
+        "READY",
+        "#DO",
+        "HOMEWORK",
+        "FROM-NOW-ON",
+        "EMPTY-FROM-NOW-ON",
+        "READY"
+      ],
+      "CTC_loss": 0.6306171417236328,
+      "blank_frames": 30,
+      "output_frames": 39,
+      "family": "asllrp_dai_participant_3::2011-12-01"
+    },
+    {
+      "sample_id": "asllrp3_63277274438d7dd1",
+      "reference": [
+        "ns-fs-JACK",
+        "IX-3p:i",
+        "(1h)HAVE",
+        "(1h)PAY/BUY",
+        "QMwg"
+      ],
+      "hypothesis": [
+        "ns-fs-JACK",
+        "IX-3p:i",
+        "(1h)HAVE",
+        "(1h)PAY/BUY",
+        "QMwg"
+      ],
+      "CTC_loss": 0.15689629316329956,
+      "blank_frames": 29,
+      "output_frames": 34,
+      "family": "asllrp_dai_participant_3::2011-12-08"
+    },
+    {
+      "sample_id": "asllrp3_ade85023f1ed923f",
+      "reference": [
+        "BOY",
+        "WANT",
+        "NEW",
+        "SHOE"
+      ],
+      "hypothesis": [
+        "BOY",
+        "WANT",
+        "NEW",
+        "SHOE"
+      ],
+      "CTC_loss": 0.1962996870279312,
+      "blank_frames": 18,
+      "output_frames": 22,
+      "family": "asllrp_dai_participant_3::2012-01-27"
+    },
+    {
+      "sample_id": "asllrp3_ec3255952332e9eb",
+      "reference": [
+        "ns-FRANCE",
+        "POSS-3p:i",
+        "KING",
+        "BALD",
+        "NOT",
+        "#NO",
+        "IX-3p:i",
+        "NONE/NOTHING",
+        "KING",
+        "NOW",
+        "part:indef"
+      ],
+      "hypothesis": [
+        "IX-3p:i",
+        "POSS-3p:i",
+        "KING",
+        "BALD",
+        "NOT",
+        "#NO",
+        "IX-3p:i",
+        "NONE/NOTHING",
+        "KING",
+        "NOW",
+        "part:indef"
+      ],
+      "CTC_loss": 0.5455861687660217,
+      "blank_frames": 35,
+      "output_frames": 46,
+      "family": "asllrp_dai_participant_3::2012-02-09"
+    },
+    {
+      "sample_id": "asllrp3_22f128ed48fe07d6",
+      "reference": [
+        "ns-fs-BILL",
+        "ns-fs-ENNIS",
+        "TELL",
+        "GREAT",
+        "STORY",
+        "ABOUT",
+        "fs-BUBBLES",
+        "QUOTE/TOPIC",
+        "fs-BUBBLES"
+      ],
+      "hypothesis": [
+        "APPLAUSE+",
+        "ns-fs-ENNIS",
+        "TELL",
+        "GREAT",
+        "STORY",
+        "ABOUT",
+        "fs-BUBBLES",
+        "QUOTE/TOPIC",
+        "fs-BUBBLES"
+      ],
+      "CTC_loss": 0.5961169600486755,
+      "blank_frames": 53,
+      "output_frames": 62,
+      "family": "asllrp_dai_participant_5::UNRESOLVED_ALL_UNDATED_MASTERS"
+    },
+    {
+      "sample_id": "asllrp3_ce2d9ec263768488",
+      "reference": [
+        "IF",
+        "(5)MAN",
+        "HAVE",
+        "WIFE",
+        "IX-3p:i",
+        "LOVE",
+        "IX-3p:j"
+      ],
+      "hypothesis": [
+        "TIME+",
+        "(5)MAN",
+        "HAVE",
+        "WIFE",
+        "IX-3p:i",
+        "LOVE",
+        "IX-3p:j"
+      ],
+      "CTC_loss": 0.5235561728477478,
+      "blank_frames": 35,
+      "output_frames": 42,
+      "family": "asllrp_dai_participant_2::2013-06-27"
+    },
+    {
+      "sample_id": "asllrp3_c29f483f94b9fac9",
+      "reference": [
+        "POSS-1p",
+        "MOTHER+",
+        "IX-3p:i",
+        "BECOME",
+        "OLD",
+        "(1h)part:indef"
+      ],
+      "hypothesis": [
+        "IX-1p",
+        "MOTHER+",
+        "IX-3p:i",
+        "BECOME",
+        "OLD",
+        "(1h)part:indef"
+      ],
+      "CTC_loss": 0.5199839472770691,
+      "blank_frames": 22,
+      "output_frames": 28,
+      "family": "asllrp_dai_participant_3::2011-12-01"
+    },
+    {
+      "sample_id": "asllrp3_ff38f935c4d84a4b",
+      "reference": [
+        "IX-1p",
+        "FUTURE",
+        "SERVICE",
+        "NUT",
+        "BUTTER",
+        "(2h)#ALL_2",
+        "LIKE",
+        "A-OK",
+        "5\\wave no\\\"\"",
+        "IX-3p:i",
+        "ns-fs-BETH",
+        "5\\whoa\\\"\"",
+        "ALLERGY",
+        "CANNOT",
+        "EAT",
+        "NUT",
+        "BUTTER",
+        "5\\wave no\\\"\""
+      ],
+      "hypothesis": [
+        "EMERGENCY+",
+        "FINISH",
+        "NUT",
+        "BUTTER",
+        "(2h)#ALL_2",
+        "LIKE",
+        "A-OK",
+        "5\\wave no\\\"\"",
+        "IX-3p:i",
+        "ns-fs-BETH",
+        "5\\whoa\\\"\"",
+        "ALLERGY",
+        "EAT",
+        "NUT",
+        "BUTTER",
+        "5\\wave no\\\"\""
+      ],
+      "CTC_loss": 0.8876123428344727,
+      "blank_frames": 61,
+      "output_frames": 77,
+      "family": "asllrp_dai_participant_3::2011-12-08"
+    },
+    {
+      "sample_id": "asllrp3_6aef3747b689f5c0",
+      "reference": [
+        "MOVIE",
+        "IX-3p:i",
+        "QUOTE/TOPIC",
+        "fs-ELECTION",
+        "IX-3p:i",
+        "STRANGE",
+        "BUT",
+        "FUNNY",
+        "part:indef"
+      ],
+      "hypothesis": [
+        "IX-3p:i",
+        "QUOTE/TOPIC",
+        "fs-ELECTION",
+        "IX-3p:i",
+        "STRANGE",
+        "BUT",
+        "FUNNY",
+        "part:indef"
+      ],
+      "CTC_loss": 0.6234028339385986,
+      "blank_frames": 29,
+      "output_frames": 37,
+      "family": "asllrp_dai_participant_3::2012-01-27"
+    },
+    {
+      "sample_id": "asllrp3_c5d3dda8e2264920",
+      "reference": [
+        "IF",
+        "IX-1p",
+        "STUDY",
+        "FUTURE",
+        "FAIL"
+      ],
+      "hypothesis": [
+        "IX-3p:i",
+        "IX-1p",
+        "STUDY",
+        "FUTURE",
+        "FAIL"
+      ],
+      "CTC_loss": 0.9401227831840515,
+      "blank_frames": 26,
+      "output_frames": 31,
+      "family": "asllrp_dai_participant_3::2012-02-09"
+    },
+    {
+      "sample_id": "asllrp3_0ad9c994086877b1",
+      "reference": [
+        "DCL:B\\pathway of sign language\\\"\"",
+        "(2h)alt.SEE",
+        "fs-TACTILE",
+        "fs-ORIENTATION",
+        "DCL:B\\pathway of orientation\\\"\"",
+        "PARALLEL"
+      ],
+      "hypothesis": [
+        "DCL:B\\pathway of sign language\\\"\"",
+        "(2h)alt.SEE",
+        "fs-TACTILE",
+        "fs-ORIENTATION",
+        "PARALLEL"
+      ],
+      "CTC_loss": 0.4358299970626831,
+      "blank_frames": 63,
+      "output_frames": 69,
+      "family": "asllrp_dai_participant_5::UNRESOLVED_ALL_UNDATED_MASTERS"
+    },
+    {
+      "sample_id": "asllrp3_319b954fbeb29b40",
+      "reference": [
+        "FAMILY",
+        "TAKE-UP",
+        "DOG",
+        "DCL:crvd-B\\small puppies\\\"\""
+      ],
+      "hypothesis": [
+        "FAMILY",
+        "TAKE-UP",
+        "DOG",
+        "DCL:crvd-B\\small puppies\\\"\""
+      ],
+      "CTC_loss": 0.7065895795822144,
+      "blank_frames": 37,
+      "output_frames": 41,
+      "family": "asllrp_dai_participant_2::2013-06-27"
+    },
+    {
+      "sample_id": "asllrp3_2409cb789bb3df57",
+      "reference": [
+        "POSS-1p+",
+        "OTHER",
+        "FRIEND",
+        "IX-3p-pl-arc",
+        "JOIN",
+        "IX-1p",
+        "PAST+NIGHT"
+      ],
+      "hypothesis": [
+        "POSS-1p+",
+        "OTHER",
+        "FRIEND",
+        "IX-3p-pl-arc",
+        "JOIN",
+        "IX-1p",
+        "PAST+NIGHT"
+      ],
+      "CTC_loss": 0.1637716144323349,
+      "blank_frames": 28,
+      "output_frames": 35,
+      "family": "asllrp_dai_participant_3::2011-12-01"
+    },
+    {
+      "sample_id": "asllrp3_3a7f7adbe30febb6",
+      "reference": [
+        "IX-1p",
+        "READ+",
+        "IX-3p:i",
+        "ARTICLE",
+        "WRITE_2",
+        "FOR",
+        "ns-BOSTON",
+        "fs-GLOBE",
+        "IX-3p:i",
+        "IX-1p",
+        "THINK",
+        "WONDERFUL"
+      ],
+      "hypothesis": [
+        "IX-1p",
+        "READ+",
+        "IX-3p:i",
+        "ARTICLE",
+        "WRITE_2",
+        "FOR",
+        "ns-BOSTON",
+        "fs-GLOBE",
+        "IX-3p:i",
+        "IX-1p",
+        "THINK",
+        "WONDERFUL"
+      ],
+      "CTC_loss": 0.34996697306632996,
+      "blank_frames": 28,
+      "output_frames": 40,
+      "family": "asllrp_dai_participant_3::2011-12-08"
+    },
+    {
+      "sample_id": "asllrp3_a1653acfbad12211",
+      "reference": [
+        "IX-3p:i",
+        "CAR",
+        "NOT",
+        "BREAK-DOWN",
+        "5\\wave no\\\"\"",
+        "IX-3p:j",
+        "fs-TRUCK",
+        "BREAK-DOWN"
+      ],
+      "hypothesis": [
+        "IX-3p:i",
+        "CAR",
+        "NOT",
+        "BREAK-DOWN",
+        "5\\wave no\\\"\"",
+        "IX-3p:j",
+        "fs-TRUCK",
+        "BREAK-DOWN"
+      ],
+      "CTC_loss": 0.3066631853580475,
+      "blank_frames": 36,
+      "output_frames": 44,
+      "family": "asllrp_dai_participant_3::2012-01-27"
+    },
+    {
+      "sample_id": "asllrp3_2a5c52b6034defde",
+      "reference": [
+        "IX-1p",
+        "CANNOT",
+        "BELIEVE",
+        "RAIN",
+        "NONE/NOTHING",
+        "IX-1p",
+        "SURPRISE",
+        "part:indef"
+      ],
+      "hypothesis": [
+        "IX-1p",
+        "CANNOT",
+        "BELIEVE",
+        "RAIN",
+        "NONE/NOTHING",
+        "IX-1p",
+        "SURPRISE",
+        "part:indef"
+      ],
+      "CTC_loss": 0.1601644605398178,
+      "blank_frames": 17,
+      "output_frames": 25,
+      "family": "asllrp_dai_participant_3::2012-02-09"
+    },
+    {
+      "sample_id": "asllrp3_4cd6c89bbc914ba2",
+      "reference": [
+        "MORE",
+        "LOUD",
+        "DCL:crvd-5\\noises in the air\\\"\"",
+        "MORE",
+        "A-LEVEL-BELOW",
+        "fs-ROWDY",
+        "A-LEVEL-BELOW",
+        "MORE",
+        "QUIET",
+        "MORE",
+        "POLITE",
+        "A-LEVEL-ABOVE"
+      ],
+      "hypothesis": [
+        "APPLAUSE+",
+        "LOUD",
+        "DCL:crvd-5\\noises in the air\\\"\"",
+        "MORE",
+        "A-LEVEL-BELOW",
+        "fs-ROWDY",
+        "A-LEVEL-BELOW",
+        "MORE",
+        "QUIET",
+        "MORE",
+        "POLITE",
+        "A-LEVEL-ABOVE"
+      ],
+      "CTC_loss": 0.6110205054283142,
+      "blank_frames": 47,
+      "output_frames": 59,
+      "family": "asllrp_dai_participant_5::UNRESOLVED_ALL_UNDATED_MASTERS"
+    },
+    {
+      "sample_id": "asllrp3_5aaeefe23c950906",
+      "reference": [
+        "PLAY",
+        "FRISBEE",
+        "FUN"
+      ],
+      "hypothesis": [
+        "FRISBEE",
+        "FUN"
+      ],
+      "CTC_loss": 1.1380003690719604,
+      "blank_frames": 35,
+      "output_frames": 37,
+      "family": "asllrp_dai_participant_2::2013-06-27"
+    },
+    {
+      "sample_id": "asllrp3_cfbdab19659683e8",
+      "reference": [
+        "IX-1p",
+        "HAVE",
+        "APPOINTMENT",
+        "(1h)NOW+AFTERNOON_2",
+        "WITH",
+        "(crvd-5)POSS-1p",
+        "TEACH+AGENT"
+      ],
+      "hypothesis": [
+        "HAVE",
+        "APPOINTMENT",
+        "(1h)NOW+AFTERNOON_2",
+        "WITH",
+        "(crvd-5)POSS-1p",
+        "TEACH+AGENT"
+      ],
+      "CTC_loss": 0.3828763961791992,
+      "blank_frames": 24,
+      "output_frames": 30,
+      "family": "asllrp_dai_participant_3::2011-12-01"
+    },
+    {
+      "sample_id": "asllrp3_14af4959f05ddedb",
+      "reference": [
+        "IX-3p:i",
+        "ns-fs-JACK",
+        "GO-OUT",
+        "IX-3p:i",
+        "SEE",
+        "SOMETHING/ONE",
+        "STRANGE",
+        "QMwg",
+        "(1h)part:indef"
+      ],
+      "hypothesis": [
+        "ns-fs-JACK",
+        "GO-OUT",
+        "IX-3p:i",
+        "SEE",
+        "SOMETHING/ONE",
+        "STRANGE",
+        "QMwg",
+        "(1h)part:indef"
+      ],
+      "CTC_loss": 0.2743890583515167,
+      "blank_frames": 21,
+      "output_frames": 29,
+      "family": "asllrp_dai_participant_3::2011-12-08"
+    },
+    {
+      "sample_id": "asllrp3_cd82c4dcb530c966",
+      "reference": [
+        "STRANGE",
+        "ns-fs-MARY",
+        "TELL-1p",
+        "ARRIVE",
+        "HOME",
+        "AROUND",
+        "MIDNIGHT",
+        "IX-1p",
+        "LOOK:i",
+        "THINK",
+        "ARRIVE",
+        "THREE_2",
+        "MORNING"
+      ],
+      "hypothesis": [
+        "PAST+",
+        "IX-2p",
+        "TELL-1p",
+        "ARRIVE",
+        "AROUND",
+        "MIDNIGHT",
+        "IX-1p",
+        "LOOK:i",
+        "THINK",
+        "ARRIVE",
+        "THREE_2",
+        "MORNING"
+      ],
+      "CTC_loss": 1.0365666151046753,
+      "blank_frames": 44,
+      "output_frames": 56,
+      "family": "asllrp_dai_participant_3::2012-01-27"
+    },
+    {
+      "sample_id": "asllrp3_f3cab6ef55838e2c",
+      "reference": [
+        "GO-OUT",
+        "NOT",
+        "SNOW",
+        "SCHOOL",
+        "NORMAL",
+        "NOT",
+        "CANCEL/CRITICIZE"
+      ],
+      "hypothesis": [
+        "GO-OUT",
+        "NOT",
+        "SNOW",
+        "SCHOOL",
+        "NORMAL",
+        "NOT",
+        "CANCEL/CRITICIZE"
+      ],
+      "CTC_loss": 0.13531313836574554,
+      "blank_frames": 32,
+      "output_frames": 39,
+      "family": "asllrp_dai_participant_3::2012-02-09"
+    },
+    {
+      "sample_id": "asllrp3_fbdd7dab8ad6758c",
+      "reference": [
+        "(2h)5\\wow\\\"\"",
+        "DIFFERENT+",
+        "AMONG_2"
+      ],
+      "hypothesis": [
+        "(2h)5\\wow\\\"\"",
+        "DIFFERENT+",
+        "AMONG_2"
+      ],
+      "CTC_loss": 0.1278345137834549,
+      "blank_frames": 23,
+      "output_frames": 26,
+      "family": "asllrp_dai_participant_5::UNRESOLVED_ALL_UNDATED_MASTERS"
+    },
+    {
+      "sample_id": "asllrp3_0834f3a8c0236d70",
+      "reference": [
+        "NOW+",
+        "(5)WEATHER",
+        "BEAUTIFUL"
+      ],
+      "hypothesis": [
+        "NOW+",
+        "(5)WEATHER",
+        "BEAUTIFUL"
+      ],
+      "CTC_loss": 0.7515984177589417,
+      "blank_frames": 27,
+      "output_frames": 30,
+      "family": "asllrp_dai_participant_2::2013-06-27"
+    },
+    {
+      "sample_id": "asllrp3_c7ac64849a56d97b",
+      "reference": [
+        "IX-1p",
+        "KNOW-THAT",
+        "IX-3p:i",
+        "MONSTER",
+        "HOUSE",
+        "IX-1p",
+        "SUFFER",
+        "ENTER",
+        "fs-AT",
+        "POSS-1p",
+        "#OWN",
+        "fs-RISK"
+      ],
+      "hypothesis": [
+        "IX-1p",
+        "D",
+        "IX-3p:i",
+        "MONSTER",
+        "HOUSE",
+        "IX-1p",
+        "SUFFER",
+        "ENTER",
+        "fs-AT",
+        "POSS-1p",
+        "#OWN",
+        "fs-RISK"
+      ],
+      "CTC_loss": 0.4922613799571991,
+      "blank_frames": 38,
+      "output_frames": 50,
+      "family": "asllrp_dai_participant_3::2011-12-01"
+    },
+    {
+      "sample_id": "asllrp3_825f37e65770a200",
+      "reference": [
+        "POSS-2p",
+        "ROOMMATE",
+        "NAB",
+        "PAST+NIGHT",
+        "#NO++",
+        "IX-1p",
+        "BREAKFAST",
+        "WITH",
+        "(1h)NOW+MORNING",
+        "FINE+"
+      ],
+      "hypothesis": [
+        "POSS-2p",
+        "ROOMMATE",
+        "NAB",
+        "PAST+NIGHT",
+        "#NO++",
+        "IX-1p",
+        "BREAKFAST",
+        "WITH",
+        "(1h)NOW+MORNING",
+        "FINE+"
+      ],
+      "CTC_loss": 0.29503121972084045,
+      "blank_frames": 49,
+      "output_frames": 59,
+      "family": "asllrp_dai_participant_3::2011-12-08"
+    },
+    {
+      "sample_id": "asllrp3_8aaceb618440922e",
+      "reference": [
+        "WHO",
+        "IX-3p:i",
+        "LIKE",
+        "IX-3p:j"
+      ],
+      "hypothesis": [
+        "WHO",
+        "IX-3p:i",
+        "LIKE",
+        "IX-3p:j"
+      ],
+      "CTC_loss": 0.10838354378938675,
+      "blank_frames": 11,
+      "output_frames": 15,
+      "family": "asllrp_dai_participant_3::2012-01-27"
+    },
+    {
+      "sample_id": "asllrp3_762917348e94c7a1",
+      "reference": [
+        "BOX/ROOM",
+        "SMALL",
+        "DCL\\small box\\\"\""
+      ],
+      "hypothesis": [
+        "BOX/ROOM",
+        "SMALL",
+        "DCL\\small box\\\"\""
+      ],
+      "CTC_loss": 0.29925572872161865,
+      "blank_frames": 16,
+      "output_frames": 19,
+      "family": "asllrp_dai_participant_3::2012-02-09"
+    },
+    {
+      "sample_id": "asllrp3_ee72981295efbe25",
+      "reference": [
+        "APPLAUSE+",
+        "IX-2p-pl-arc",
+        "5\\pause\\\"\"",
+        "THANK-YOU+"
+      ],
+      "hypothesis": [
+        "APPLAUSE+",
+        "IX-2p-pl-arc",
+        "5\\pause\\\"\"",
+        "THANK-YOU+"
+      ],
+      "CTC_loss": 0.3038480579853058,
+      "blank_frames": 15,
+      "output_frames": 19,
+      "family": "asllrp_dai_participant_5::UNRESOLVED_ALL_UNDATED_MASTERS"
+    },
+    {
+      "sample_id": "asllrp3_6322defaccbe4639",
+      "reference": [
+        "IX-2p",
+        "(1h)VOMIT/HATE",
+        "VIDEO-GAME",
+        "IX-loc:i",
+        "(25)WHY",
+        "IX-loc:i"
+      ],
+      "hypothesis": [
+        "FINISH",
+        "(1h)VOMIT/HATE",
+        "VIDEO-GAME",
+        "IX-loc:i",
+        "(25)WHY",
+        "IX-loc:i"
+      ],
+      "CTC_loss": 0.3510303795337677,
+      "blank_frames": 28,
+      "output_frames": 34,
+      "family": "asllrp_dai_participant_2::2013-06-27"
+    },
+    {
+      "sample_id": "asllrp3_45e79817cad2acc2",
+      "reference": [
+        "IX-1p",
+        "LOVE",
+        "ACTION",
+        "MOVIE",
+        "NOT",
+        "BORE",
+        "fs-DRAMA",
+        "(1h)FORGET-IT"
+      ],
+      "hypothesis": [
+        "IX-1p",
+        "SELF-3p+:i",
+        "ACTION",
+        "MOVIE",
+        "NOT",
+        "BORE",
+        "fs-DRAMA",
+        "(1h)FORGET-IT"
+      ],
+      "CTC_loss": 0.6963692903518677,
+      "blank_frames": 33,
+      "output_frames": 41,
+      "family": "asllrp_dai_participant_3::2011-12-01"
+    },
+    {
+      "sample_id": "asllrp3_34dc1c38209e6cdc",
+      "reference": [
+        "ATTENTION-WAVE",
+        "PAST+NIGHT",
+        "IX-3p:i",
+        "ns-fs-JOHN-STEWART",
+        "INTERVIEW",
+        "ns-fs-SARAH-JESSICA-PARKER",
+        "#NO",
+        "5\\wave no\\\"\"",
+        "NOT",
+        "(1h)INTERVIEW",
+        "IX-3p:i",
+        "(1h)INTERVIEW",
+        "ns-fs-SARAH-PALIN"
+      ],
+      "hypothesis": [
+        "IX-3p:i",
+        "ATTENTION-WAVE",
+        "PAST+NIGHT",
+        "IX-3p:i",
+        "ns-fs-JOHN-STEWART",
+        "INTERVIEW",
+        "ns-fs-SARAH-JESSICA-PARKER",
+        "#NO",
+        "5\\wave no\\\"\"",
+        "NOT",
+        "(1h)INTERVIEW",
+        "IX-3p:i",
+        "(1h)INTERVIEW",
+        "ns-fs-SARAH-PALIN"
+      ],
+      "CTC_loss": 0.7674878239631653,
+      "blank_frames": 86,
+      "output_frames": 100,
+      "family": "asllrp_dai_participant_3::2011-12-08"
+    },
+    {
+      "sample_id": "asllrp3_ef64ee1fb0d71a1f",
+      "reference": [
+        "WEATHER",
+        "LOUSY",
+        "NOW++"
+      ],
+      "hypothesis": [
+        "WEATHER",
+        "LOUSY",
+        "NOW++"
+      ],
+      "CTC_loss": 0.22656488418579102,
+      "blank_frames": 29,
+      "output_frames": 32,
+      "family": "asllrp_dai_participant_3::2012-01-27"
+    },
+    {
+      "sample_id": "asllrp3_98df3a2db70b629b",
+      "reference": [
+        "IF+",
+        "SNOW",
+        "NONE/NOTHING",
+        "IX-1p",
+        "TRIP",
+        "CANCEL/CRITICIZE"
+      ],
+      "hypothesis": [
+        "IF+",
+        "SNOW",
+        "NONE/NOTHING",
+        "IX-1p",
+        "TRIP",
+        "CANCEL/CRITICIZE"
+      ],
+      "CTC_loss": 0.41536006331443787,
+      "blank_frames": 27,
+      "output_frames": 33,
+      "family": "asllrp_dai_participant_3::2012-02-09"
+    },
+    {
+      "sample_id": "asllrp3_89f54b6f4f4699cc",
+      "reference": [
+        "WHEN",
+        "MEET",
+        "PERSON",
+        "WHO",
+        "NOT",
+        "USE_2",
+        "VOICE",
+        "(2h)alt.LOOK-OVER",
+        "CANNOT",
+        "SET-UP",
+        "UNDERSTAND",
+        "WHO",
+        "IX-honorific:i",
+        "IDENTIFY",
+        "IF",
+        "part:indef"
+      ],
+      "hypothesis": [
+        "NONE/NOTHING",
+        "MEET",
+        "PERSON",
+        "NOT",
+        "USE_2",
+        "VOICE",
+        "(2h)alt.LOOK-OVER",
+        "CANNOT",
+        "SET-UP",
+        "UNDERSTAND",
+        "WHO",
+        "IX-honorific:i",
+        "IDENTIFY",
+        "IF",
+        "part:indef"
+      ],
+      "CTC_loss": 1.0245709419250488,
+      "blank_frames": 73,
+      "output_frames": 88,
+      "family": "asllrp_dai_participant_5::UNRESOLVED_ALL_UNDATED_MASTERS"
+    },
+    {
+      "sample_id": "asllrp3_1275fa40adfbf3d6",
+      "reference": [
+        "IF",
+        "STUDENT",
+        "IX-3p:i",
+        "HEAR/LISTEN",
+        "TEACH+AGENT",
+        "FUTURE",
+        "LEARN",
+        "SOMETHING/ONE"
+      ],
+      "hypothesis": [
+        "FAMILY",
+        "(5)WEATHER",
+        "IX-3p:i",
+        "HEAR/LISTEN",
+        "TEACH+AGENT",
+        "FUTURE",
+        "LEARN",
+        "SOMETHING/ONE"
+      ],
+      "CTC_loss": 0.7740215063095093,
+      "blank_frames": 39,
+      "output_frames": 47,
+      "family": "asllrp_dai_participant_2::2013-06-27"
+    },
+    {
+      "sample_id": "asllrp3_d0aef1fa333a927d",
+      "reference": [
+        "PICK/CHOOSE-1p",
+        "GROUP/TOGETHER",
+        "fs-CLUB",
+        "JOIN",
+        "(2h)WOW",
+        "HONOR"
+      ],
+      "hypothesis": [
+        "IX-1p",
+        "GROUP/TOGETHER",
+        "fs-CLUB",
+        "JOIN",
+        "(2h)WOW",
+        "HONOR"
+      ],
+      "CTC_loss": 0.6536148190498352,
+      "blank_frames": 34,
+      "output_frames": 40,
+      "family": "asllrp_dai_participant_3::2011-12-01"
+    },
+    {
+      "sample_id": "asllrp3_8385bc6456b2ade2",
+      "reference": [
+        "GAME",
+        "FINISH",
+        "BEFORE_2",
+        "SIX",
+        "QMwg",
+        "(1h)part:indef"
+      ],
+      "hypothesis": [
+        "(25)WHY",
+        "GAME",
+        "FINISH",
+        "BEFORE_2",
+        "SIX",
+        "QMwg",
+        "(1h)part:indef"
+      ],
+      "CTC_loss": 0.45252132415771484,
+      "blank_frames": 14,
+      "output_frames": 21,
+      "family": "asllrp_dai_participant_3::2011-12-08"
+    },
+    {
+      "sample_id": "asllrp3_3f560c3ba34572ba",
+      "reference": [
+        "IX-3p:i",
+        "ns-fs-MARY",
+        "CAR",
+        "BREAK-DOWN",
+        "FINE+",
+        "IX-3p:j",
+        "ns-fs-JOHN",
+        "DRIVE",
+        "IX-3p:i",
+        "TO/UNTIL",
+        "WORK"
+      ],
+      "hypothesis": [
+        "IX-3p:i",
+        "CAR",
+        "CAR",
+        "BREAK-DOWN",
+        "FINE+",
+        "IX-3p:j",
+        "ns-fs-JOHN",
+        "DRIVE",
+        "IX-3p:i",
+        "TO/UNTIL",
+        "WORK"
+      ],
+      "CTC_loss": 0.6644431948661804,
+      "blank_frames": 44,
+      "output_frames": 56,
+      "family": "asllrp_dai_participant_3::2012-01-27"
+    },
+    {
+      "sample_id": "asllrp3_b93af72c82bd2ccb",
+      "reference": [
+        "NAME+",
+        "CITY/COMMUNITY_3",
+        "ns-fs-BU",
+        "part:indef",
+        "ns-BOSTON",
+        "part:indef",
+        "ns-fs-BUSTUN",
+        "ns-fs-BOSTON"
+      ],
+      "hypothesis": [
+        "#IF",
+        "CITY/COMMUNITY_3",
+        "ns-fs-BU",
+        "part:indef",
+        "ns-BOSTON",
+        "part:indef"
+      ],
+      "CTC_loss": 0.8397732973098755,
+      "blank_frames": 49,
+      "output_frames": 55,
+      "family": "asllrp_dai_participant_3::2012-02-09"
+    },
+    {
+      "sample_id": "asllrp3_5f92ff4fac376d4e",
+      "reference": [
+        "FOR",
+        "SHOW",
+        "part:indef",
+        "fs-GRUNT",
+        "POP-UP+",
+        "HAPPEN+",
+        "FREQUENTLY",
+        "IN",
+        "PING-PONG/TENNIS",
+        "(P)PROFESSION",
+        "PING-PONG/TENNIS",
+        "REALLY",
+        "SHOW",
+        "part:indef"
+      ],
+      "hypothesis": [
+        "FOR",
+        "SHOW",
+        "fs-GRUNT",
+        "POP-UP+",
+        "HAPPEN+",
+        "FREQUENTLY",
+        "IN",
+        "PING-PONG/TENNIS",
+        "(P)PROFESSION",
+        "PING-PONG/TENNIS",
+        "SHOW"
+      ],
+      "CTC_loss": 1.0918351411819458,
+      "blank_frames": 50,
+      "output_frames": 61,
+      "family": "asllrp_dai_participant_5::UNRESOLVED_ALL_UNDATED_MASTERS"
+    },
+    {
+      "sample_id": "asllrp3_9b4d03f54528f13e",
+      "reference": [
+        "IX-1p+",
+        "NOT",
+        "STUDY",
+        "IX-1p",
+        "GUARANTEE",
+        "FAIL",
+        "IX-1p"
+      ],
+      "hypothesis": [
+        "FINISH",
+        "IX-1p+",
+        "NOT",
+        "STUDY",
+        "IX-1p",
+        "GUARANTEE",
+        "FAIL",
+        "IX-1p"
+      ],
+      "CTC_loss": 0.5644127726554871,
+      "blank_frames": 27,
+      "output_frames": 35,
+      "family": "asllrp_dai_participant_2::2013-06-27"
+    },
+    {
+      "sample_id": "asllrp3_d6a2d1d380e3f30f",
+      "reference": [
+        "PAST+ALL-NIGHT",
+        "IX-1p",
+        "#DO",
+        "HOMEWORK",
+        "5\\wow\\\"\"",
+        "A-LOT"
+      ],
+      "hypothesis": [
+        "IX-1p",
+        "#DO",
+        "HOMEWORK",
+        "5\\wow\\\"\"",
+        "A-LOT"
+      ],
+      "CTC_loss": 0.7057378888130188,
+      "blank_frames": 30,
+      "output_frames": 36,
+      "family": "asllrp_dai_participant_3::2011-12-01"
+    },
+    {
+      "sample_id": "asllrp3_364b4f0501df9946",
+      "reference": [
+        "GAME",
+        "FINISH",
+        "SIX",
+        "QMwg"
+      ],
+      "hypothesis": [
+        "GAME",
+        "FINISH",
+        "SIX",
+        "QMwg"
+      ],
+      "CTC_loss": 0.16751112043857574,
+      "blank_frames": 17,
+      "output_frames": 21,
+      "family": "asllrp_dai_participant_3::2011-12-08"
+    },
+    {
+      "sample_id": "asllrp3_4532e41c4bc127b8",
+      "reference": [
+        "HOT",
+        "fs-DAY",
+        "GO-OUT+",
+        "IX-3p:i",
+        "ns-fs-JOHN",
+        "GO",
+        "LIBRARY",
+        "READ",
+        "MAGAZINE",
+        "FINEwg",
+        "#AC",
+        "COOL"
+      ],
+      "hypothesis": [
+        "IX-3p:i",
+        "fs-DAY",
+        "GO-OUT+",
+        "IX-3p:i",
+        "ns-fs-JOHN",
+        "GO",
+        "LIBRARY",
+        "READ",
+        "MAGAZINE",
+        "FINEwg",
+        "#AC",
+        "COOL"
+      ],
+      "CTC_loss": 0.626763641834259,
+      "blank_frames": 45,
+      "output_frames": 57,
+      "family": "asllrp_dai_participant_3::2012-01-27"
+    },
+    {
+      "sample_id": "asllrp3_72536395864e1698",
+      "reference": [
+        "IX-1p",
+        "NOT",
+        "THRILL/WHAT'S-UP",
+        "#IF",
+        "HAVE",
+        "PINEAPPLE",
+        "fs-CREAM",
+        "CHEESE",
+        "part:indef"
+      ],
+      "hypothesis": [
+        "5\\wave no\\\"\"",
+        "THRILL/WHAT'S-UP",
+        "#IF",
+        "HAVE",
+        "PINEAPPLE",
+        "fs-CREAM",
+        "CHEESE",
+        "part:indef"
+      ],
+      "CTC_loss": 0.5993654727935791,
+      "blank_frames": 26,
+      "output_frames": 34,
+      "family": "asllrp_dai_participant_3::2012-02-09"
+    },
+    {
+      "sample_id": "asllrp3_a43875801a6de413",
+      "reference": [
+        "OFTEN",
+        "NOT",
+        "REASON",
+        "A-LOT",
+        "NOISE",
+        "IX-3p:j",
+        "MAKE",
+        "#SO",
+        "NOT",
+        "ALSO",
+        "QUIET",
+        "ALSO",
+        "IX-3p-pl-arc",
+        "THINK"
+      ],
+      "hypothesis": [
+        "REALLY",
+        "REASON",
+        "A-LOT",
+        "IX-3p:j",
+        "NOT",
+        "ALSO",
+        "QUIET",
+        "ALSO",
+        "IX-3p-pl-arc",
+        "THINK"
+      ],
+      "CTC_loss": 1.476680874824524,
+      "blank_frames": 42,
+      "output_frames": 52,
+      "family": "asllrp_dai_participant_5::UNRESOLVED_ALL_UNDATED_MASTERS"
+    },
+    {
+      "sample_id": "asllrp3_74b4ecc5d0b4e11a",
+      "reference": [
+        "MOUSE/FICTION",
+        "ESCAPE",
+        "SCL:1\\mouse scurries\\\"\"",
+        "CAT",
+        "SCL:crvd-V\\cat chases mouse\\\"\"",
+        "CHASE",
+        "SCL:crvd-V\\cat jumps up onto the table\\\"\"",
+        "TABLE"
+      ],
+      "hypothesis": [
+        "LIE-DOWN",
+        "ESCAPE",
+        "SCL:1\\mouse scurries\\\"\"",
+        "CAT",
+        "SCL:crvd-V\\cat chases mouse\\\"\"",
+        "CHASE",
+        "SCL:crvd-V\\cat jumps up onto the table\\\"\"",
+        "TABLE"
+      ],
+      "CTC_loss": 0.5804985761642456,
+      "blank_frames": 54,
+      "output_frames": 62,
+      "family": "asllrp_dai_participant_2::2013-06-27"
+    },
+    {
+      "sample_id": "asllrp3_4149383a424ebaf3",
+      "reference": [
+        "YESTERDAY",
+        "ALL-DAY",
+        "IX-1p",
+        "WORK++"
+      ],
+      "hypothesis": [
+        "ALL-DAY",
+        "IX-1p",
+        "WORK++"
+      ],
+      "CTC_loss": 0.43651920557022095,
+      "blank_frames": 38,
+      "output_frames": 41,
+      "family": "asllrp_dai_participant_3::2011-12-01"
+    },
+    {
+      "sample_id": "asllrp3_f4b263588f0f9c5c",
+      "reference": [
+        "TOMORROW",
+        "SUNDAY_2",
+        "(1h)5\\wave no\\\"\"",
+        "NOW",
+        "(H)THURSDAY",
+        "MEAN",
+        "TOMORROW",
+        "FRIDAY+"
+      ],
+      "hypothesis": [
+        "(25)WHY",
+        "EMERGENCY+",
+        "READ+",
+        "SUNDAY_2",
+        "(1h)5\\wave no\\\"\"",
+        "NOW",
+        "(H)THURSDAY",
+        "MEAN",
+        "TOMORROW",
+        "FRIDAY+"
+      ],
+      "CTC_loss": 1.0607421398162842,
+      "blank_frames": 51,
+      "output_frames": 61,
+      "family": "asllrp_dai_participant_3::2011-12-08"
+    },
+    {
+      "sample_id": "asllrp3_46c4e2c1e32722a9",
+      "reference": [
+        "IX-2p",
+        "WANT",
+        "GO-OUT",
+        "BUY",
+        "SHOE+",
+        "IX-2p"
+      ],
+      "hypothesis": [
+        "IX-3p:i",
+        "IX-2p",
+        "WANT",
+        "GO-OUT",
+        "BUY",
+        "SHOE+",
+        "IX-2p"
+      ],
+      "CTC_loss": 0.5824218392372131,
+      "blank_frames": 14,
+      "output_frames": 21,
+      "family": "asllrp_dai_participant_3::2012-01-27"
+    },
+    {
+      "sample_id": "asllrp3_38b01799105e1a01",
+      "reference": [
+        "#IF",
+        "IX-1p",
+        "STUDY",
+        "FUTURE",
+        "FAIL"
+      ],
+      "hypothesis": [
+        "#IF",
+        "STUDY",
+        "FUTURE",
+        "FAIL"
+      ],
+      "CTC_loss": 0.7176344990730286,
+      "blank_frames": 37,
+      "output_frames": 41,
+      "family": "asllrp_dai_participant_3::2012-02-09"
+    },
+    {
+      "sample_id": "asllrp3_6857624a0ce1fc03",
+      "reference": [
+        "NONE/NOTHING",
+        "VOICE",
+        "5\\I don't know\\\"\"",
+        "(2h)KNOW+NEG",
+        "IDENTIFY",
+        "(2h)alt.LOOK-OVER"
+      ],
+      "hypothesis": [
+        "IX-1p",
+        "VOICE",
+        "5\\I don't know\\\"\"",
+        "(2h)KNOW+NEG",
+        "IDENTIFY",
+        "(2h)alt.LOOK-OVER"
+      ],
+      "CTC_loss": 0.5857941508293152,
+      "blank_frames": 31,
+      "output_frames": 37,
+      "family": "asllrp_dai_participant_5::UNRESOLVED_ALL_UNDATED_MASTERS"
+    },
+    {
+      "sample_id": "asllrp3_778c746caa87b34a",
+      "reference": [
+        "NOW+",
+        "ECONOMIC",
+        "CRISIS",
+        "NOW+"
+      ],
+      "hypothesis": [
+        "NOW+",
+        "ECONOMIC",
+        "CRISIS",
+        "NOW+"
+      ],
+      "CTC_loss": 0.4576353430747986,
+      "blank_frames": 54,
+      "output_frames": 58,
+      "family": "asllrp_dai_participant_2::2013-06-27"
+    },
+    {
+      "sample_id": "asllrp3_87b589731049062a",
+      "reference": [
+        "POSS-1p",
+        "SISTER",
+        "i:BLAME-1p",
+        "IX-1p",
+        "5\\exasperation\\\"\"",
+        "IX-1p",
+        "INNOCENT",
+        "5\\exasperation\\\"\""
+      ],
+      "hypothesis": [
+        "IX-1p",
+        "SELF-3p+:i",
+        "i:BLAME-1p",
+        "IX-1p",
+        "5\\exasperation\\\"\"",
+        "IX-1p",
+        "INNOCENT",
+        "5\\exasperation\\\"\""
+      ],
+      "CTC_loss": 0.7764764428138733,
+      "blank_frames": 23,
+      "output_frames": 31,
+      "family": "asllrp_dai_participant_3::2011-12-01"
+    },
+    {
+      "sample_id": "asllrp3_e3a3d11a192b3046",
+      "reference": [
+        "IX-2p",
+        "FUTURE",
+        "SEE",
+        "IX-2p",
+        "ns-fs-MARY",
+        "IX-3p:j",
+        "(P)PARTY",
+        "NOT-MIND",
+        "TELL:j",
+        "j:CALL-BY-PHONE-1p",
+        "(1h)part:indef",
+        "#NO",
+        "IX-1p",
+        "DOUBT",
+        "FUTURE",
+        "GO-OUT",
+        "IX-loc:k",
+        "BUT",
+        "#IF",
+        "IX-1p",
+        "SEE:j",
+        "IX-2p",
+        "IX-1p",
+        "FUTURE",
+        "TELL:i",
+        "CALL-BY-PHONE:k",
+        "5\\of course\\\"\""
+      ],
+      "hypothesis": [
+        "MORE",
+        "STUDY",
+        "SEE",
+        "IX-2p",
+        "ns-fs-MARY",
+        "IX-3p:j",
+        "IX-3p:i",
+        "NOT-MIND",
+        "TELL:j",
+        "j:CALL-BY-PHONE-1p",
+        "IX-1p",
+        "DOUBT",
+        "FUTURE",
+        "IX-1p",
+        "IX-loc:k",
+        "BUT",
+        "#IF",
+        "IX-1p",
+        "SEE:j",
+        "IX-2p",
+        "IX-1p",
+        "FUTURE",
+        "TELL:i",
+        "CALL-BY-PHONE:k",
+        "5\\of course\\\"\""
+      ],
+      "CTC_loss": 1.0647937059402466,
+      "blank_frames": 67,
+      "output_frames": 93,
+      "family": "asllrp_dai_participant_3::2011-12-08"
+    },
+    {
+      "sample_id": "asllrp3_d757be6afdab68ed",
+      "reference": [
+        "TOMORROW",
+        "IX-2p",
+        "GO-OUT",
+        "LIBRARY",
+        "INTERPRET",
+        "QMwg"
+      ],
+      "hypothesis": [
+        "IX-3p:i",
+        "IX-2p",
+        "GO-OUT",
+        "LIBRARY",
+        "INTERPRET",
+        "QMwg"
+      ],
+      "CTC_loss": 0.856619119644165,
+      "blank_frames": 21,
+      "output_frames": 27,
+      "family": "asllrp_dai_participant_3::2012-01-27"
+    },
+    {
+      "sample_id": "asllrp3_def1ed2a46805c67",
+      "reference": [
+        "ns-fs-JOHN",
+        "READ",
+        "BOOK",
+        "(1h)5\\wave no\\\"\"",
+        "IX-3p:i",
+        "ns-fs-JOHN",
+        "NEVER",
+        "START",
+        "BOOK"
+      ],
+      "hypothesis": [
+        "#IF",
+        "READ",
+        "BOOK",
+        "(1h)5\\wave no\\\"\"",
+        "IX-3p:i",
+        "ns-fs-JOHN",
+        "NEVER",
+        "START",
+        "BOOK"
+      ],
+      "CTC_loss": 0.5296368598937988,
+      "blank_frames": 28,
+      "output_frames": 37,
+      "family": "asllrp_dai_participant_3::2012-02-09"
+    },
+    {
+      "sample_id": "asllrp3_89c0fa4a2b7f4799",
+      "reference": [
+        "SOME",
+        "REQUIRE",
+        "SLOW",
+        "DCL:flat-O\\rip paper slowly\\\"\"",
+        "SOME",
+        "REQUIRE",
+        "FAST_3",
+        "DCL:flat-O\\rip paper quickly\\\"\""
+      ],
+      "hypothesis": [
+        "SOME",
+        "REQUIRE",
+        "SLOW",
+        "DCL:flat-O\\rip paper slowly\\\"\"",
+        "SOME",
+        "REQUIRE",
+        "FAST_3",
+        "DCL:flat-O\\rip paper quickly\\\"\""
+      ],
+      "CTC_loss": 0.48233067989349365,
+      "blank_frames": 38,
+      "output_frames": 46,
+      "family": "asllrp_dai_participant_5::UNRESOLVED_ALL_UNDATED_MASTERS"
+    },
+    {
+      "sample_id": "asllrp3_b0011a850795e52a",
+      "reference": [
+        "LIE-DOWN",
+        "SUNSHINE",
+        "TAN",
+        "BRAVE/RECOVER"
+      ],
+      "hypothesis": [
+        "LIE-DOWN",
+        "SUNSHINE",
+        "TAN",
+        "BRAVE/RECOVER"
+      ],
+      "CTC_loss": 0.43305328488349915,
+      "blank_frames": 41,
+      "output_frames": 45,
+      "family": "asllrp_dai_participant_2::2013-06-27"
+    },
+    {
+      "sample_id": "asllrp3_72e456e7c5228d89",
+      "reference": [
+        "SELF-3p+:i",
+        "MOVIE",
+        "REALLY",
+        "SCARE+"
+      ],
+      "hypothesis": [
+        "IX-1p",
+        "MOVIE",
+        "SCARE+"
+      ],
+      "CTC_loss": 1.1430176496505737,
+      "blank_frames": 32,
+      "output_frames": 35,
+      "family": "asllrp_dai_participant_3::2011-12-01"
+    },
+    {
+      "sample_id": "asllrp3_89b116f9e5fed023",
+      "reference": [
+        "IX-3p:i",
+        "LOVE",
+        "ns-fs-BILL",
+        "IX-3p:j",
+        "WHO",
+        "IX-3p:i"
+      ],
+      "hypothesis": [
+        "IX-3p:i",
+        "LOVE",
+        "ns-fs-BILL",
+        "IX-3p:j",
+        "WHO",
+        "IX-3p:i"
+      ],
+      "CTC_loss": 0.09544992446899414,
+      "blank_frames": 20,
+      "output_frames": 26,
+      "family": "asllrp_dai_participant_3::2011-12-08"
+    },
+    {
+      "sample_id": "asllrp3_c392cb53a3ad56e5",
+      "reference": [
+        "HOT",
+        "IX-2p",
+        "COLD",
+        "IX-2p"
+      ],
+      "hypothesis": [
+        "IX-3p:i",
+        "IX-2p",
+        "COLD",
+        "IX-2p"
+      ],
+      "CTC_loss": 1.0369925498962402,
+      "blank_frames": 17,
+      "output_frames": 21,
+      "family": "asllrp_dai_participant_3::2012-01-27"
+    },
+    {
+      "sample_id": "asllrp3_c57de838bf922065",
+      "reference": [
+        "IX-3p:i",
+        "TEACH+AGENT",
+        "NOT",
+        "REQUIRE",
+        "READ+",
+        "DROP",
+        "IX-3p:j",
+        "ns-fs-JOHN",
+        "IX-loc:j",
+        "NOT",
+        "READ"
+      ],
+      "hypothesis": [
+        "IX-3p:i",
+        "TEACH+AGENT",
+        "NOT",
+        "REQUIRE",
+        "READ+",
+        "DROP",
+        "IX-3p:j",
+        "ns-fs-JOHN",
+        "IX-loc:j",
+        "NOT",
+        "READ"
+      ],
+      "CTC_loss": 0.2857947051525116,
+      "blank_frames": 34,
+      "output_frames": 45,
+      "family": "asllrp_dai_participant_3::2012-02-09"
+    },
+    {
+      "sample_id": "asllrp3_39448ebfb3817f71",
+      "reference": [
+        "GROW",
+        "(2h)TALKwg",
+        "DCL:bent-1\\length of time\\\"\"",
+        "GROW",
+        "SIGN",
+        "DCL:B\\pathway of sign language\\\"\""
+      ],
+      "hypothesis": [
+        "GROW",
+        "(2h)TALKwg",
+        "DCL:bent-1\\length of time\\\"\"",
+        "GROW",
+        "SIGN",
+        "DCL:B\\pathway of sign language\\\"\""
+      ],
+      "CTC_loss": 0.23665739595890045,
+      "blank_frames": 28,
+      "output_frames": 34,
+      "family": "asllrp_dai_participant_5::UNRESOLVED_ALL_UNDATED_MASTERS"
+    },
+    {
+      "sample_id": "asllrp3_c1353b3697686867",
+      "reference": [
+        "#VP",
+        "CLEAR"
+      ],
+      "hypothesis": [
+        "#VP",
+        "CLEAR"
+      ],
+      "CTC_loss": 0.11531613022089005,
+      "blank_frames": 22,
+      "output_frames": 24,
+      "family": "asllrp_dai_participant_2::2013-06-27"
+    },
+    {
+      "sample_id": "asllrp3_b5e61b29b606b661",
+      "reference": [
+        "IX-1p",
+        "ANALYZE",
+        "MATH+",
+        "PROBLEM_2",
+        "IX-1p",
+        "LOOK-OVER"
+      ],
+      "hypothesis": [
+        "IX-1p",
+        "ANALYZE",
+        "MATH+",
+        "PROBLEM_2",
+        "IX-1p",
+        "LOOK-OVER"
+      ],
+      "CTC_loss": 0.43963730335235596,
+      "blank_frames": 29,
+      "output_frames": 35,
+      "family": "asllrp_dai_participant_3::2011-12-01"
+    },
+    {
+      "sample_id": "asllrp3_05cb28187a740ac4",
+      "reference": [
+        "IX-1p",
+        "fs-SUSHI",
+        "IX-1p",
+        "EAT",
+        "IX-3p:i",
+        "TASTE",
+        "STRANGE",
+        "IX-1p",
+        "HOPE",
+        "NOT",
+        "RUIN",
+        "5\\out of my control\\\"\""
+      ],
+      "hypothesis": [
+        "IX-1p",
+        "fs-SUSHI",
+        "IX-1p",
+        "EAT",
+        "IX-3p:i",
+        "TASTE",
+        "STRANGE",
+        "IX-1p",
+        "HOPE",
+        "NOT",
+        "RUIN",
+        "5\\out of my control\\\"\""
+      ],
+      "CTC_loss": 0.357748419046402,
+      "blank_frames": 41,
+      "output_frames": 53,
+      "family": "asllrp_dai_participant_3::2011-12-08"
+    },
+    {
+      "sample_id": "asllrp3_ee8504b335e1322f",
+      "reference": [
+        "IF",
+        "IX-2p",
+        "INTERPRET",
+        "IX-2p",
+        "MUST",
+        "USE_2",
+        "BLACK",
+        "DRESS/CLOTHES"
+      ],
+      "hypothesis": [
+        "POSS-1p+",
+        "IX-2p",
+        "INTERPRET",
+        "IX-2p",
+        "MUST",
+        "USE_2",
+        "BLACK",
+        "DRESS/CLOTHES"
+      ],
+      "CTC_loss": 0.423694908618927,
+      "blank_frames": 25,
+      "output_frames": 33,
+      "family": "asllrp_dai_participant_3::2012-01-27"
+    },
+    {
+      "sample_id": "asllrp3_cf01d5fd3e352ae0",
+      "reference": [
+        "WHEN",
+        "RAIN",
+        "IX-1p",
+        "NOT",
+        "STAY_2",
+        "HOME",
+        "IX-1p",
+        "DEPART"
+      ],
+      "hypothesis": [
+        "SOME",
+        "RAIN",
+        "IX-1p",
+        "NOT",
+        "STAY_2",
+        "HOME",
+        "IX-1p",
+        "DEPART"
+      ],
+      "CTC_loss": 0.5898568630218506,
+      "blank_frames": 22,
+      "output_frames": 30,
+      "family": "asllrp_dai_participant_3::2012-02-09"
+    },
+    {
+      "sample_id": "asllrp3_08cfa2b3ad738d79",
+      "reference": [
+        "(1h)THIS",
+        "ARTICLE",
+        "QUOTE/TOPIC",
+        "fs-SENSORY",
+        "fs-ORIENTATION",
+        "SECOND",
+        "SOME"
+      ],
+      "hypothesis": [
+        "(1h)THIS",
+        "ARTICLE",
+        "QUOTE/TOPIC",
+        "fs-SENSORY",
+        "SOME"
+      ],
+      "CTC_loss": 0.5201979279518127,
+      "blank_frames": 51,
+      "output_frames": 56,
+      "family": "asllrp_dai_participant_5::UNRESOLVED_ALL_UNDATED_MASTERS"
+    },
+    {
+      "sample_id": "asllrp3_3e29360900eee990",
+      "reference": [
+        "FATHER+",
+        "ARRIVE",
+        "HOME",
+        "fs-LATE",
+        "NIGHT+",
+        "WHY",
+        "IX-3p:i",
+        "RECENT-PAST",
+        "FINISH",
+        "POSS-3p:i",
+        "WORK+"
+      ],
+      "hypothesis": [
+        "FATHER+",
+        "ARRIVE",
+        "HOME",
+        "fs-LATE",
+        "NIGHT+",
+        "WHY",
+        "IX-3p:i",
+        "RECENT-PAST",
+        "FINISH",
+        "POSS-3p:i",
+        "WORK+"
+      ],
+      "CTC_loss": 0.5371005535125732,
+      "blank_frames": 48,
+      "output_frames": 59,
+      "family": "asllrp_dai_participant_2::2013-06-27"
+    },
+    {
+      "sample_id": "asllrp3_bdf71640ea62f1c2",
+      "reference": [
+        "IX-1p",
+        "(1h)TEND",
+        "WORK-OUT",
+        "OVER/AFTER",
+        "CLASS_2"
+      ],
+      "hypothesis": [
+        "IX-1p",
+        "(1h)TEND",
+        "WORK-OUT",
+        "OVER/AFTER",
+        "CLASS_2"
+      ],
+      "CTC_loss": 0.5786968469619751,
+      "blank_frames": 30,
+      "output_frames": 35,
+      "family": "asllrp_dai_participant_3::2011-12-01"
+    },
+    {
+      "sample_id": "asllrp3_e32d80091040f70a",
+      "reference": [
+        "IX-2p",
+        "LIKE",
+        "ns-BOSTON",
+        "QMwg"
+      ],
+      "hypothesis": [
+        "SHOW+",
+        "LIKE",
+        "ns-BOSTON",
+        "QMwg"
+      ],
+      "CTC_loss": 0.7591056227684021,
+      "blank_frames": 15,
+      "output_frames": 19,
+      "family": "asllrp_dai_participant_3::2011-12-08"
+    },
+    {
+      "sample_id": "asllrp3_1f7ca48563dec93c",
+      "reference": [
+        "#NO",
+        "IX-1p",
+        "NOT",
+        "LIKE",
+        "PINEAPPLE",
+        "fs-CREAM",
+        "CHEESE",
+        "#NO"
+      ],
+      "hypothesis": [
+        "NOT",
+        "IX-1p",
+        "NOT",
+        "LIKE",
+        "PINEAPPLE",
+        "fs-CREAM",
+        "CHEESE",
+        "#NO"
+      ],
+      "CTC_loss": 0.5170953273773193,
+      "blank_frames": 23,
+      "output_frames": 32,
+      "family": "asllrp_dai_participant_3::2012-01-27"
+    },
+    {
+      "sample_id": "asllrp3_e2bc68f8c5eaf59d",
+      "reference": [
+        "IX-1p",
+        "THINK",
+        "ns-fs-OBAMA",
+        "FUTURE",
+        "WIN",
+        "AGAIN",
+        "part:indef"
+      ],
+      "hypothesis": [
+        "IX-1p",
+        "THINK",
+        "ns-fs-OBAMA",
+        "FUTURE",
+        "WIN",
+        "AGAIN",
+        "part:indef"
+      ],
+      "CTC_loss": 0.21406041085720062,
+      "blank_frames": 25,
+      "output_frames": 32,
+      "family": "asllrp_dai_participant_3::2012-02-09"
+    },
+    {
+      "sample_id": "asllrp3_192a025d17af092d",
+      "reference": [
+        "IN",
+        "GROUP/TOGETHER",
+        "TALK",
+        "fs-DISORDER",
+        "(1h)HAVE",
+        "GROUP/TOGETHER",
+        "NAME",
+        "DEAF",
+        "fs-SPEECH"
+      ],
+      "hypothesis": [
+        "GROUP/TOGETHER",
+        "TALK",
+        "fs-DISORDER",
+        "GROUP/TOGETHER",
+        "NAME",
+        "DEAF",
+        "fs-SPEECH"
+      ],
+      "CTC_loss": 0.9568876624107361,
+      "blank_frames": 67,
+      "output_frames": 74,
+      "family": "asllrp_dai_participant_5::UNRESOLVED_ALL_UNDATED_MASTERS"
+    },
+    {
+      "sample_id": "asllrp3_1133d61580f550fa",
+      "reference": [
+        "TOMORROW",
+        "RAIN++",
+        "MEAN",
+        "ARRIVE",
+        "UNCLE",
+        "HOUSE",
+        "STAY",
+        "IN+"
+      ],
+      "hypothesis": [
+        "NOW+",
+        "RAIN++",
+        "MEAN",
+        "ARRIVE",
+        "UNCLE",
+        "HOUSE",
+        "STAY",
+        "IN+"
+      ],
+      "CTC_loss": 0.7302815318107605,
+      "blank_frames": 59,
+      "output_frames": 67,
+      "family": "asllrp_dai_participant_2::2013-06-27"
+    },
+    {
+      "sample_id": "asllrp3_095fbb544880c78d",
+      "reference": [
+        "IX-1p",
+        "VOLUNTEER/SHIRT",
+        "HELP+",
+        "OTHER",
+        "ORGANIZATION"
+      ],
+      "hypothesis": [
+        "IX-1p",
+        "VOLUNTEER/SHIRT",
+        "HELP+",
+        "OTHER",
+        "ORGANIZATION"
+      ],
+      "CTC_loss": 0.4221321940422058,
+      "blank_frames": 23,
+      "output_frames": 28,
+      "family": "asllrp_dai_participant_3::2011-12-01"
+    },
+    {
+      "sample_id": "asllrp3_a246820f7fa3e34a",
+      "reference": [
+        "IX-2p",
+        "FINISH",
+        "HOMEWORK",
+        "IX-2p",
+        "FINISH",
+        "IX-3p:i",
+        "#NO",
+        "(1h)HAVE",
+        "(2h)NOT-YET",
+        "NOT-YET",
+        "START",
+        "part:indef"
+      ],
+      "hypothesis": [
+        "(25)WHY",
+        "FINISH",
+        "HOMEWORK",
+        "IX-2p",
+        "FINISH",
+        "IX-3p:i",
+        "#NO",
+        "(1h)HAVE",
+        "(2h)NOT-YET",
+        "NOT-YET",
+        "START",
+        "part:indef"
+      ],
+      "CTC_loss": 0.6144394278526306,
+      "blank_frames": 40,
+      "output_frames": 53,
+      "family": "asllrp_dai_participant_3::2011-12-08"
+    },
+    {
+      "sample_id": "asllrp3_6b64205041deb7a4",
+      "reference": [
+        "IX-1p",
+        "BABY",
+        "BORN",
+        "IX-1p",
+        "WANT_2",
+        "(1h)i:GIFT:j",
+        "ns-IRELAND",
+        "NAME",
+        "BUT",
+        "IX-3p:j",
+        "IX-1p",
+        "FATHER",
+        "IX-loc:j",
+        "(1h)WANT",
+        "(1h)i:GIFT:j",
+        "ns-ITALY",
+        "NAME+",
+        "part:indef"
+      ],
+      "hypothesis": [
+        "BABY",
+        "BORN",
+        "IX-1p",
+        "WANT_2",
+        "(1h)i:GIFT:j",
+        "ns-IRELAND",
+        "NAME",
+        "BUT",
+        "IX-3p:j",
+        "IX-1p",
+        "FATHER",
+        "IX-loc:j",
+        "(1h)WANT",
+        "(1h)i:GIFT:j",
+        "ns-ITALY",
+        "NAME+",
+        "part:indef"
+      ],
+      "CTC_loss": 0.3932812511920929,
+      "blank_frames": 42,
+      "output_frames": 59,
+      "family": "asllrp_dai_participant_3::2012-01-27"
+    },
+    {
+      "sample_id": "asllrp3_93a5a6dea5b41993",
+      "reference": [
+        "IX-1p",
+        "NOT",
+        "STUDY",
+        "FUTURE",
+        "FAIL"
+      ],
+      "hypothesis": [
+        "IX-3p:i",
+        "IX-1p",
+        "NOT",
+        "STUDY",
+        "FUTURE",
+        "FAIL"
+      ],
+      "CTC_loss": 0.7151375412940979,
+      "blank_frames": 24,
+      "output_frames": 30,
+      "family": "asllrp_dai_participant_3::2012-02-09"
+    },
+    {
+      "sample_id": "asllrp3_296360c901274d94",
+      "reference": [
+        "PEOPLE",
+        "IN",
+        "THAT",
+        "MAJOR",
+        "fs-ORIENTATION",
+        "OFTEN",
+        "(1h)HAVE",
+        "AWKWARD",
+        "EXPERIENCE",
+        "TO/UNTIL",
+        "MEET",
+        "DEAF"
+      ],
+      "hypothesis": [
+        "PEOPLE",
+        "IN",
+        "THAT",
+        "MAJOR",
+        "fs-ORIENTATION",
+        "OFTEN",
+        "(1h)HAVE",
+        "AWKWARD",
+        "EXPERIENCE",
+        "TO/UNTIL",
+        "MEET",
+        "DEAF"
+      ],
+      "CTC_loss": 0.41294801235198975,
+      "blank_frames": 40,
+      "output_frames": 52,
+      "family": "asllrp_dai_participant_5::UNRESOLVED_ALL_UNDATED_MASTERS"
+    },
+    {
+      "sample_id": "asllrp3_ff8a943c9abff5e8",
+      "reference": [
+        "TIME+",
+        "FRIEND",
+        "(5)CRASH",
+        "(P)PARTY",
+        "part:indef",
+        "TIME",
+        "(1h)part:indef"
+      ],
+      "hypothesis": [
+        "TIME+",
+        "FRIEND",
+        "(5)CRASH",
+        "(P)PARTY",
+        "part:indef",
+        "TIME",
+        "(1h)part:indef"
+      ],
+      "CTC_loss": 0.2600952982902527,
+      "blank_frames": 37,
+      "output_frames": 45,
+      "family": "asllrp_dai_participant_2::2013-06-27"
+    },
+    {
+      "sample_id": "asllrp3_d88e52dedd536876",
+      "reference": [
+        "NOW+AFTERNOON+",
+        "IX-1p",
+        "FUTURE",
+        "GO",
+        "SELL+"
+      ],
+      "hypothesis": [
+        "IX-1p",
+        "SELF-3p+:i",
+        "FUTURE",
+        "GO",
+        "SELL+"
+      ],
+      "CTC_loss": 0.9230629801750183,
+      "blank_frames": 32,
+      "output_frames": 37,
+      "family": "asllrp_dai_participant_3::2011-12-01"
+    },
+    {
+      "sample_id": "asllrp3_c7c9b0e4144af842",
+      "reference": [
+        "IX-3p:i",
+        "LCL:3\\parked car\\\"\"",
+        "RED",
+        "LIGHT",
+        "HIT_2",
+        "IX-1p",
+        "FEEL",
+        "IX-3p:j",
+        "CAR+AGENT",
+        "PHONE",
+        "(1h)L-X\\I don't know\\\"\"",
+        "THINK",
+        "(1h)L\\I don't know\\\"\""
+      ],
+      "hypothesis": [
+        "IX-3p:i",
+        "LCL:3\\parked car\\\"\"",
+        "RED",
+        "LIGHT",
+        "HIT_2",
+        "IX-1p",
+        "FEEL",
+        "IX-3p:j",
+        "CAR+AGENT",
+        "PHONE",
+        "(1h)L-X\\I don't know\\\"\"",
+        "THINK",
+        "(1h)L\\I don't know\\\"\""
+      ],
+      "CTC_loss": 0.2900700271129608,
+      "blank_frames": 42,
+      "output_frames": 55,
+      "family": "asllrp_dai_participant_3::2011-12-08"
+    },
+    {
+      "sample_id": "asllrp3_dc88050cd329950e",
+      "reference": [
+        "ns-fs-JOHN",
+        "IX-loc:i",
+        "FUTURE",
+        "DRIVE",
+        "IX-3p:j",
+        "ns-fs-MARY",
+        "WORK"
+      ],
+      "hypothesis": [
+        "WHO",
+        "IX-loc:i",
+        "FUTURE",
+        "DRIVE",
+        "IX-3p:j",
+        "ns-fs-MARY",
+        "WORK"
+      ],
+      "CTC_loss": 0.4789540469646454,
+      "blank_frames": 28,
+      "output_frames": 35,
+      "family": "asllrp_dai_participant_3::2012-01-27"
+    },
+    {
+      "sample_id": "asllrp3_1219503586aff765",
+      "reference": [
+        "#WHEN",
+        "RAIN+",
+        "IX-1p",
+        "NOT",
+        "STAY_2",
+        "HOME",
+        "DEPART"
+      ],
+      "hypothesis": [
+        "IX-3p:i",
+        "RAIN+",
+        "IX-1p",
+        "NOT",
+        "STAY_2",
+        "HOME",
+        "DEPART"
+      ],
+      "CTC_loss": 0.7755299806594849,
+      "blank_frames": 24,
+      "output_frames": 31,
+      "family": "asllrp_dai_participant_3::2012-02-09"
+    },
+    {
+      "sample_id": "asllrp3_bea2bde2ad7d8e1d",
+      "reference": [
+        "SHOW+",
+        "ns-fs-BAUMAN",
+        "BETWEEN/SHARE",
+        "POSS-3p:i",
+        "EXPERIENCE+",
+        "IN",
+        "IX-3p:j",
+        "fs-LOCKER+BOX/ROOM"
+      ],
+      "hypothesis": [
+        "APPLAUSE+",
+        "ns-fs-BAUMAN",
+        "BETWEEN/SHARE",
+        "POSS-3p:i",
+        "EXPERIENCE+",
+        "IN",
+        "IX-3p:j",
+        "fs-LOCKER+BOX/ROOM"
+      ],
+      "CTC_loss": 0.6674029231071472,
+      "blank_frames": 60,
+      "output_frames": 68,
+      "family": "asllrp_dai_participant_5::UNRESOLVED_ALL_UNDATED_MASTERS"
+    },
+    {
+      "sample_id": "asllrp3_63ae1b69061f3aa9",
+      "reference": [
+        "IF+",
+        "ns-fs-MARY",
+        "POSS-3p:i",
+        "CAR+",
+        "BREAK-DOWN",
+        "ns-fs-JOHN",
+        "MUST",
+        "TAKE",
+        "WORK+"
+      ],
+      "hypothesis": [
+        "FAMILY",
+        "IX-1p",
+        "POSS-3p:i",
+        "CAR+",
+        "BREAK-DOWN",
+        "ns-fs-JOHN",
+        "MUST",
+        "TAKE",
+        "WORK+"
+      ],
+      "CTC_loss": 0.788563072681427,
+      "blank_frames": 50,
+      "output_frames": 59,
+      "family": "asllrp_dai_participant_2::2013-06-27"
+    },
+    {
+      "sample_id": "asllrp3_5318c9f1fe8aa708",
+      "reference": [
+        "IX-1p",
+        "ALWAYS",
+        "SERIOUS",
+        "IN",
+        "SCHOOL"
+      ],
+      "hypothesis": [
+        "IX-1p",
+        "ALWAYS",
+        "SERIOUS",
+        "IN",
+        "SCHOOL"
+      ],
+      "CTC_loss": 0.49349576234817505,
+      "blank_frames": 22,
+      "output_frames": 27,
+      "family": "asllrp_dai_participant_3::2011-12-01"
+    },
+    {
+      "sample_id": "asllrp3_1174e8911d44d3b3",
+      "reference": [
+        "WHO",
+        "BUY",
+        "CAR",
+        "part:indef"
+      ],
+      "hypothesis": [
+        "WHO",
+        "BUY",
+        "CAR",
+        "part:indef"
+      ],
+      "CTC_loss": 0.45117056369781494,
+      "blank_frames": 13,
+      "output_frames": 17,
+      "family": "asllrp_dai_participant_3::2011-12-08"
+    },
+    {
+      "sample_id": "asllrp3_8281abc83f6ecf5a",
+      "reference": [
+        "IX-3p:i",
+        "FARM+",
+        "IX-loc:i",
+        "LIKE",
+        "HOT",
+        "SUMMER",
+        "EASY+",
+        "GROW+",
+        "BIG",
+        "VEGETABLE",
+        "ADULT-TALL-pl"
+      ],
+      "hypothesis": [
+        "IX-3p:i",
+        "FARM+",
+        "IX-loc:i",
+        "LIKE",
+        "HOT",
+        "SUMMER",
+        "EASY+",
+        "GROW+",
+        "BIG",
+        "VEGETABLE",
+        "ADULT-TALL-pl"
+      ],
+      "CTC_loss": 0.24335990846157074,
+      "blank_frames": 36,
+      "output_frames": 47,
+      "family": "asllrp_dai_participant_3::2012-01-27"
+    },
+    {
+      "sample_id": "asllrp3_8341e9adb1b63d3c",
+      "reference": [
+        "IX-loc:i",
+        "RAIN",
+        "HAPPEN",
+        "WHO",
+        "GO-OUT",
+        "part:indef"
+      ],
+      "hypothesis": [
+        "RAIN",
+        "HAPPEN",
+        "WHO",
+        "GO-OUT",
+        "part:indef"
+      ],
+      "CTC_loss": 0.5545371174812317,
+      "blank_frames": 21,
+      "output_frames": 26,
+      "family": "asllrp_dai_participant_3::2012-02-09"
+    },
+    {
+      "sample_id": "asllrp3_3af9eaf5eef798f4",
+      "reference": [
+        "IX-1p",
+        "TELL:i",
+        "GROW-UP",
+        "THAT",
+        "TOILET",
+        "SAFE",
+        "PLACE",
+        "NOT",
+        "REALLY",
+        "ANY+MORE"
+      ],
+      "hypothesis": [
+        "IX-1p",
+        "TELL:i",
+        "GROW-UP",
+        "THAT",
+        "TOILET",
+        "SAFE",
+        "PLACE",
+        "NOT",
+        "REALLY",
+        "ANY+MORE",
+        "ANY+MORE"
+      ],
+      "CTC_loss": 0.6745118498802185,
+      "blank_frames": 62,
+      "output_frames": 73,
+      "family": "asllrp_dai_participant_5::UNRESOLVED_ALL_UNDATED_MASTERS"
+    },
+    {
+      "sample_id": "asllrp3_a97b9069c1f14e1d",
+      "reference": [
+        "#IF+",
+        "IX-1p",
+        "NONE/NOTHING",
+        "BOOK",
+        "READ",
+        "IX-1p",
+        "NONE/NOTHING",
+        "IX-1p",
+        "BORE",
+        "IX-1p",
+        "part:indef"
+      ],
+      "hypothesis": [
+        "FAMILY",
+        "IX-1p",
+        "NONE/NOTHING",
+        "BOOK",
+        "READ",
+        "IX-1p",
+        "NONE/NOTHING",
+        "IX-1p",
+        "BORE",
+        "IX-1p",
+        "part:indef"
+      ],
+      "CTC_loss": 0.6951716542243958,
+      "blank_frames": 40,
+      "output_frames": 51,
+      "family": "asllrp_dai_participant_2::2013-06-27"
+    },
+    {
+      "sample_id": "asllrp3_99c3003b2b716ffb",
+      "reference": [
+        "IX-1p",
+        "LOOK",
+        "MOVIE",
+        "PAST+NIGHT",
+        "IX-1p",
+        "AFRAID",
+        "(1h)WOW/AWFUL"
+      ],
+      "hypothesis": [
+        "IX-1p",
+        "LOOK",
+        "MOVIE",
+        "PAST+NIGHT",
+        "IX-1p",
+        "AFRAID",
+        "(1h)WOW/AWFUL"
+      ],
+      "CTC_loss": 0.5825620889663696,
+      "blank_frames": 25,
+      "output_frames": 32,
+      "family": "asllrp_dai_participant_3::2011-12-01"
+    },
+    {
+      "sample_id": "asllrp3_fd92eac5d40c4b36",
+      "reference": [
+        "ns-fs-NETFLIX",
+        "i:SEND/MAIL-1p",
+        "IX-1p",
+        "fs-DVD",
+        "IX-3p:j",
+        "3\\come on\\\"\"",
+        "SCRATCH",
+        "\\aw man\\\"\""
+      ],
+      "hypothesis": [
+        "i:SEND/MAIL-1p",
+        "IX-1p",
+        "fs-DVD",
+        "IX-3p:j",
+        "3\\come on\\\"\"",
+        "SCRATCH",
+        "\\aw man\\\"\""
+      ],
+      "CTC_loss": 0.3375532031059265,
+      "blank_frames": 31,
+      "output_frames": 38,
+      "family": "asllrp_dai_participant_3::2011-12-08"
+    },
+    {
+      "sample_id": "asllrp3_006251a5a43d4450",
+      "reference": [
+        "HAVE",
+        "CLASS_2",
+        "TOMORROW"
+      ],
+      "hypothesis": [
+        "IX-3p:i",
+        "CLASS_2",
+        "TOMORROW"
+      ],
+      "CTC_loss": 0.8899069428443909,
+      "blank_frames": 17,
+      "output_frames": 20,
+      "family": "asllrp_dai_participant_3::2012-01-27"
+    },
+    {
+      "sample_id": "asllrp3_b3ce095104fec4ce",
+      "reference": [
+        "TWO",
+        "PLUS",
+        "ONE",
+        "EQUAL+",
+        "SIX",
+        "#NO+",
+        "TWO",
+        "PLUS",
+        "ONE",
+        "EQUAL",
+        "THREE"
+      ],
+      "hypothesis": [
+        "PLUS",
+        "ONE",
+        "EQUAL+",
+        "SIX",
+        "#NO+",
+        "TWO",
+        "PLUS",
+        "ONE",
+        "EQUAL",
+        "THREE"
+      ],
+      "CTC_loss": 0.3776899576187134,
+      "blank_frames": 28,
+      "output_frames": 38,
+      "family": "asllrp_dai_participant_3::2012-02-09"
+    },
+    {
+      "sample_id": "asllrp3_0530b726e13f08c3",
+      "reference": [
+        "DISCUSS",
+        "QUOTE/TOPIC_2",
+        "COOPERATE/UNITE",
+        "WITH",
+        "VOICE",
+        "IDENTIFY",
+        "LIST-ORDER"
+      ],
+      "hypothesis": [
+        "DISCUSS",
+        "REALLY",
+        "COOPERATE/UNITE",
+        "WITH",
+        "VOICE",
+        "IDENTIFY",
+        "LIST-ORDER"
+      ],
+      "CTC_loss": 0.7636628150939941,
+      "blank_frames": 54,
+      "output_frames": 61,
+      "family": "asllrp_dai_participant_5::UNRESOLVED_ALL_UNDATED_MASTERS"
+    },
+    {
+      "sample_id": "asllrp3_0d0619cc55ea2d3b",
+      "reference": [
+        "#IF",
+        "IX-3p:i",
+        "FAMILY",
+        "IX-loc:i",
+        "NOT",
+        "TAKE-UP",
+        "IX-3p-pl-arc",
+        "DCL:crvd-B\\small puppies\\\"\"",
+        "DOG",
+        "part:indef",
+        "POSS-1p",
+        "FRIEND",
+        "FUTURE"
+      ],
+      "hypothesis": [
+        "NOW+",
+        "FAMILY",
+        "IX-loc:i",
+        "NOT",
+        "TAKE-UP",
+        "IX-3p-pl-arc",
+        "DCL:crvd-B\\small puppies\\\"\"",
+        "DOG",
+        "part:indef",
+        "POSS-1p",
+        "FRIEND",
+        "FUTURE"
+      ],
+      "CTC_loss": 0.8836899399757385,
+      "blank_frames": 58,
+      "output_frames": 70,
+      "family": "asllrp_dai_participant_2::2013-06-27"
+    },
+    {
+      "sample_id": "asllrp3_292df8eeac7f66bd",
+      "reference": [
+        "IX-1p",
+        "1p-ASK:i",
+        "POSS-1p",
+        "TEACH+AGENT",
+        "FOR",
+        "SOME",
+        "ADVISE/INFLUENCE",
+        "IX-1p",
+        "DISCUSS++",
+        "part:indef"
+      ],
+      "hypothesis": [
+        "IX-1p",
+        "1p-ASK:i",
+        "POSS-1p",
+        "TEACH+AGENT",
+        "FOR",
+        "SOME",
+        "ADVISE/INFLUENCE",
+        "IX-1p",
+        "DISCUSS++",
+        "part:indef"
+      ],
+      "CTC_loss": 0.4942173957824707,
+      "blank_frames": 44,
+      "output_frames": 54,
+      "family": "asllrp_dai_participant_3::2011-12-01"
+    },
+    {
+      "sample_id": "asllrp3_d21cb5b87e6bb418",
+      "reference": [
+        "IX-3p-pl-2:i/j",
+        "ns-fs-JEN",
+        "ns-fs-JOE",
+        "MARRY",
+        "IX-3p-pl-2:i/j",
+        "QMwg"
+      ],
+      "hypothesis": [
+        "WHO",
+        "ns-fs-JEN",
+        "ns-fs-JOE",
+        "MARRY",
+        "IX-3p-pl-2:i/j",
+        "QMwg"
+      ],
+      "CTC_loss": 0.5718435645103455,
+      "blank_frames": 18,
+      "output_frames": 24,
+      "family": "asllrp_dai_participant_3::2011-12-08"
+    },
+    {
+      "sample_id": "asllrp3_67235f2d2abd20d4",
+      "reference": [
+        "NOT",
+        "RAIN",
+        "NONE/NOTHING"
+      ],
+      "hypothesis": [
+        "NOT",
+        "RAIN",
+        "NONE/NOTHING"
+      ],
+      "CTC_loss": 0.16541017591953278,
+      "blank_frames": 30,
+      "output_frames": 33,
+      "family": "asllrp_dai_participant_3::2012-01-27"
+    },
+    {
+      "sample_id": "asllrp3_6d5573d32002c026",
+      "reference": [
+        "NEAR",
+        "SEMESTER",
+        "SOON",
+        "FINISH",
+        "IX-1p",
+        "DEAF-APPLAUSE",
+        "SOCIAL/INTERACT",
+        "(1h)5\\wave no\\\"\"",
+        "CANNOT"
+      ],
+      "hypothesis": [
+        "IX-3p:i",
+        "SEMESTER",
+        "SOON",
+        "FINISH",
+        "IX-1p",
+        "DEAF-APPLAUSE",
+        "SOCIAL/INTERACT",
+        "(1h)5\\wave no\\\"\"",
+        "CANNOT"
+      ],
+      "CTC_loss": 0.7006666660308838,
+      "blank_frames": 37,
+      "output_frames": 46,
+      "family": "asllrp_dai_participant_3::2012-02-09"
+    },
+    {
+      "sample_id": "asllrp3_f0a2517a6b1d2b61",
+      "reference": [
+        "STUDY",
+        "ON",
+        "SPEECH/ORAL",
+        "fs-DISORDER",
+        "A-LOT"
+      ],
+      "hypothesis": [
+        "\\WHAT\\\"\"",
+        "STUDY",
+        "ON",
+        "SPEECH/ORAL",
+        "fs-DISORDER",
+        "A-LOT"
+      ],
+      "CTC_loss": 0.9126662015914917,
+      "blank_frames": 40,
+      "output_frames": 46,
+      "family": "asllrp_dai_participant_5::UNRESOLVED_ALL_UNDATED_MASTERS"
+    },
+    {
+      "sample_id": "asllrp3_a9d509c75715f0c7",
+      "reference": [
+        "IF+",
+        "(5)WEATHER",
+        "WARM",
+        "IX-1p-pl-arc",
+        "GO",
+        "fs-BEACH"
+      ],
+      "hypothesis": [
+        "IF+",
+        "(5)WEATHER",
+        "WARM",
+        "IX-1p-pl-arc",
+        "GO",
+        "fs-BEACH"
+      ],
+      "CTC_loss": 0.19575899839401245,
+      "blank_frames": 51,
+      "output_frames": 57,
+      "family": "asllrp_dai_participant_2::2013-06-27"
+    },
+    {
+      "sample_id": "asllrp3_d81d53f9fe1c1717",
+      "reference": [
+        "POSS-1p",
+        "(2h)alt.LONG-AGO",
+        "(2h)LONG-PAST",
+        "FROM",
+        "WHERE",
+        "ns-nat-GERMANY"
+      ],
+      "hypothesis": [
+        "POSS-1p",
+        "(2h)alt.LONG-AGO",
+        "(2h)LONG-PAST",
+        "FROM",
+        "WHERE",
+        "ns-nat-GERMANY"
+      ],
+      "CTC_loss": 0.33929121494293213,
+      "blank_frames": 30,
+      "output_frames": 36,
+      "family": "asllrp_dai_participant_3::2011-12-01"
+    },
+    {
+      "sample_id": "asllrp3_71d737b1bb19edc9",
+      "reference": [
+        "STUDENT",
+        "(1h)GO",
+        "#QUIZ",
+        "#TV",
+        "ACT",
+        "IX-3p:i",
+        "NOT",
+        "WIN",
+        "5\\that's the way it is\\\"\""
+      ],
+      "hypothesis": [
+        "STUDENT",
+        "(1h)GO",
+        "#QUIZ",
+        "#TV",
+        "ACT",
+        "IX-3p:i",
+        "NOT",
+        "WIN",
+        "5\\that's the way it is\\\"\""
+      ],
+      "CTC_loss": 0.16535072028636932,
+      "blank_frames": 34,
+      "output_frames": 43,
+      "family": "asllrp_dai_participant_3::2011-12-08"
+    },
+    {
+      "sample_id": "asllrp3_d30525b5f5873a32",
+      "reference": [
+        "IX-3p:i",
+        "SISTER",
+        "NOT",
+        "LIKE",
+        "CHOCOLATE",
+        "fs-CEREAL"
+      ],
+      "hypothesis": [
+        "IX-3p:i",
+        "SISTER",
+        "NOT",
+        "LIKE",
+        "CHOCOLATE",
+        "fs-CEREAL"
+      ],
+      "CTC_loss": 0.4023427963256836,
+      "blank_frames": 27,
+      "output_frames": 33,
+      "family": "asllrp_dai_participant_3::2012-01-27"
+    },
+    {
+      "sample_id": "asllrp3_2b520a377be372c9",
+      "reference": [
+        "ns-fs-JOHN",
+        "IX-3p:i",
+        "NOT",
+        "BREAK",
+        "WINDOW",
+        "#NO+",
+        "IX-3p:j",
+        "ns-fs-SALLY"
+      ],
+      "hypothesis": [
+        "IX-3p:i",
+        "NOT",
+        "BREAK",
+        "WINDOW",
+        "#NO+",
+        "IX-3p:j",
+        "ns-fs-SALLY"
+      ],
+      "CTC_loss": 0.4683728814125061,
+      "blank_frames": 24,
+      "output_frames": 32,
+      "family": "asllrp_dai_participant_3::2012-02-09"
+    },
+    {
+      "sample_id": "asllrp3_db76a79ba2f56260",
+      "reference": [
+        "AND",
+        "NOISE",
+        "RANGE",
+        "MORE",
+        "LONG-LIST",
+        "BUT",
+        "IX-1p",
+        "FOCUS/NARROW",
+        "ON",
+        "THOSE-TWO",
+        "RANGE",
+        "ACCEPT"
+      ],
+      "hypothesis": [
+        "AND",
+        "NOISE",
+        "RANGE",
+        "MORE",
+        "LONG-LIST",
+        "BUT",
+        "IX-1p",
+        "FOCUS/NARROW",
+        "ON",
+        "THOSE-TWO",
+        "RANGE",
+        "ACCEPT"
+      ],
+      "CTC_loss": 0.3590697944164276,
+      "blank_frames": 37,
+      "output_frames": 49,
+      "family": "asllrp_dai_participant_5::UNRESOLVED_ALL_UNDATED_MASTERS"
+    },
+    {
+      "sample_id": "asllrp3_08a81b8867243ff9",
+      "reference": [
+        "#NO",
+        "IX-1p",
+        "NOT",
+        "AFRAID",
+        "fs-OF",
+        "HIGH",
+        "part:indef",
+        "DO-DO",
+        "MAKE",
+        "IX-2p",
+        "THINK",
+        "THAT",
+        "(1h)part:indef"
+      ],
+      "hypothesis": [
+        "FINISH",
+        "RAIN",
+        "NOT",
+        "AFRAID",
+        "fs-OF",
+        "HIGH",
+        "part:indef",
+        "DO-DO",
+        "MAKE",
+        "IX-2p",
+        "THINK",
+        "THAT",
+        "(1h)part:indef"
+      ],
+      "CTC_loss": 0.5844883322715759,
+      "blank_frames": 37,
+      "output_frames": 50,
+      "family": "asllrp_dai_participant_2::2013-06-27"
+    },
+    {
+      "sample_id": "asllrp3_f27e40aae77bb6f2",
+      "reference": [
+        "TEACH+AGENT",
+        "DISTRIBUTE",
+        "ANSWER",
+        "TO/UNTIL",
+        "TEST"
+      ],
+      "hypothesis": [
+        "TEACH+AGENT",
+        "DISTRIBUTE",
+        "ANSWER",
+        "TO/UNTIL",
+        "TEST"
+      ],
+      "CTC_loss": 0.40087422728538513,
+      "blank_frames": 23,
+      "output_frames": 28,
+      "family": "asllrp_dai_participant_3::2011-12-01"
+    },
+    {
+      "sample_id": "asllrp3_2a8b9d69eedfae20",
+      "reference": [
+        "IX-2p",
+        "FACE",
+        "NOT",
+        "FEEL",
+        "(1h)GOOD/THANK-YOU",
+        "IX-3p:j",
+        "#OK",
+        "IX-2p",
+        "WRONG+",
+        "(1h)part:indef"
+      ],
+      "hypothesis": [
+        "FINISH",
+        "NOT",
+        "FEEL",
+        "(1h)GOOD/THANK-YOU",
+        "IX-3p:j",
+        "#OK",
+        "IX-2p",
+        "WRONG+",
+        "(1h)part:indef"
+      ],
+      "CTC_loss": 0.7805069088935852,
+      "blank_frames": 22,
+      "output_frames": 31,
+      "family": "asllrp_dai_participant_3::2011-12-08"
+    },
+    {
+      "sample_id": "asllrp3_acb294bda16f9594",
+      "reference": [
+        "COLD",
+        "POSS-1p",
+        "MOTHER",
+        "NOT",
+        "GO-OUT",
+        "(1h)5\\wave no\\\"\""
+      ],
+      "hypothesis": [
+        "COLD",
+        "POSS-1p",
+        "MOTHER",
+        "NOT",
+        "GO-OUT",
+        "(1h)5\\wave no\\\"\""
+      ],
+      "CTC_loss": 0.19868062436580658,
+      "blank_frames": 19,
+      "output_frames": 25,
+      "family": "asllrp_dai_participant_3::2012-01-27"
+    },
+    {
+      "sample_id": "asllrp3_24ac8d090476770a",
+      "reference": [
+        "POSS-3p:i",
+        "ns-FRANCE",
+        "POSS-3p:i",
+        "KING",
+        "BALD"
+      ],
+      "hypothesis": [
+        "IX-3p:i",
+        "ns-FRANCE",
+        "POSS-3p:i",
+        "KING",
+        "BALD"
+      ],
+      "CTC_loss": 0.6018469333648682,
+      "blank_frames": 31,
+      "output_frames": 36,
+      "family": "asllrp_dai_participant_3::2012-02-09"
+    },
+    {
+      "sample_id": "asllrp3_f418e6917ef11870",
+      "reference": [
+        "EXPRESS",
+        "THROUGH_2",
+        "(2h)TALKwg",
+        "MINOR",
+        "EXPRESS",
+        "SIGN",
+        "CURRENT-TOPIC",
+        "ROAD"
+      ],
+      "hypothesis": [
+        "EXPRESS",
+        "THROUGH_2",
+        "(2h)TALKwg",
+        "MINOR",
+        "EXPRESS",
+        "SIGN",
+        "CURRENT-TOPIC",
+        "ROAD"
+      ],
+      "CTC_loss": 0.31173446774482727,
+      "blank_frames": 22,
+      "output_frames": 30,
+      "family": "asllrp_dai_participant_5::UNRESOLVED_ALL_UNDATED_MASTERS"
+    },
+    {
+      "sample_id": "asllrp3_23c6d3883c5ac5bb",
+      "reference": [
+        "FRIEND",
+        "GROUP/TOGETHER",
+        "DCL:crvd-5\\group go together\\\"\"",
+        "MOVIE_2",
+        "ACT",
+        "WHY",
+        "fs-HP",
+        "SEVENTH",
+        "(nd-1)MOVIE",
+        "RECENT-PAST",
+        "SPREAD"
+      ],
+      "hypothesis": [
+        "IX-1p",
+        "GROUP/TOGETHER",
+        "DCL:crvd-5\\group go together\\\"\"",
+        "MOVIE_2",
+        "ACT",
+        "WHY",
+        "fs-HP",
+        "SEVENTH",
+        "(nd-1)MOVIE",
+        "RECENT-PAST",
+        "SPREAD"
+      ],
+      "CTC_loss": 0.5403398871421814,
+      "blank_frames": 59,
+      "output_frames": 70,
+      "family": "asllrp_dai_participant_2::2013-06-27"
+    },
+    {
+      "sample_id": "asllrp3_405047c4bac753d6",
+      "reference": [
+        "POSS-1p",
+        "SISTER",
+        "ACTION",
+        "STRANGE",
+        "IX-1p",
+        "1p-LOOK:i"
+      ],
+      "hypothesis": [
+        "POSS-1p",
+        "SISTER",
+        "ACTION",
+        "STRANGE",
+        "IX-1p",
+        "1p-LOOK:i"
+      ],
+      "CTC_loss": 0.4256291091442108,
+      "blank_frames": 30,
+      "output_frames": 36,
+      "family": "asllrp_dai_participant_3::2011-12-01"
+    },
+    {
+      "sample_id": "asllrp3_3d18b285301314f5",
+      "reference": [
+        "IX-3p:i",
+        "#DOG_2",
+        "i:CHASE:j",
+        "IX-3p:j",
+        "CAT",
+        "IX-loc:j",
+        "#DOG_2",
+        "IX-loc:j",
+        "NOT",
+        "POSS-1p+",
+        "5\\wave no\\\"\""
+      ],
+      "hypothesis": [
+        "IX-3p:i",
+        "#DOG_2",
+        "i:CHASE:j",
+        "IX-3p:j",
+        "CAT",
+        "IX-loc:j",
+        "#DOG_2",
+        "IX-loc:j",
+        "NOT",
+        "POSS-1p+",
+        "5\\wave no\\\"\""
+      ],
+      "CTC_loss": 0.24000133574008942,
+      "blank_frames": 21,
+      "output_frames": 32,
+      "family": "asllrp_dai_participant_3::2011-12-08"
+    },
+    {
+      "sample_id": "asllrp3_9069117d0accf434",
+      "reference": [
+        "NEXT-WEEK",
+        "ns-fs-PAUL",
+        "BUSY/BUSINESS",
+        "ALL-DAY",
+        "WORK",
+        "INTERPRET+",
+        "NIGHT-pl-arc",
+        "CLASS-pl",
+        "(1h)WOW/AWFUL"
+      ],
+      "hypothesis": [
+        "NEXT-WEEK",
+        "ns-fs-PAUL",
+        "BUSY/BUSINESS",
+        "ALL-DAY",
+        "WORK",
+        "INTERPRET+",
+        "NIGHT-pl-arc",
+        "CLASS-pl",
+        "(1h)WOW/AWFUL"
+      ],
+      "CTC_loss": 0.1425207257270813,
+      "blank_frames": 38,
+      "output_frames": 47,
+      "family": "asllrp_dai_participant_3::2012-01-27"
+    },
+    {
+      "sample_id": "asllrp3_cef0fe582517e4d0",
+      "reference": [
+        "IX-1p",
+        "REALLY",
+        "HAVE",
+        "PINEAPPLE",
+        "fs-CREAM",
+        "CHEESE"
+      ],
+      "hypothesis": [
+        "IX-1p",
+        "HAVE",
+        "PINEAPPLE",
+        "fs-CREAM",
+        "CHEESE"
+      ],
+      "CTC_loss": 0.7168605327606201,
+      "blank_frames": 26,
+      "output_frames": 31,
+      "family": "asllrp_dai_participant_3::2012-02-09"
+    },
+    {
+      "sample_id": "asllrp3_3a3dee8665af816f",
+      "reference": [
+        "\\WHAT\\\"\"",
+        "MEAN",
+        "DEAF",
+        "fs-SPEECH"
+      ],
+      "hypothesis": [
+        "\\WHAT\\\"\"",
+        "MEAN",
+        "DEAF",
+        "fs-SPEECH"
+      ],
+      "CTC_loss": 0.5909100770950317,
+      "blank_frames": 43,
+      "output_frames": 47,
+      "family": "asllrp_dai_participant_5::UNRESOLVED_ALL_UNDATED_MASTERS"
+    },
+    {
+      "sample_id": "asllrp3_53998a6dd53705b7",
+      "reference": [
+        "#IF",
+        "IX-1p",
+        "ENJOY",
+        "CHAT:i",
+        "WITH",
+        "IX-3p-pl-2:i/j",
+        "MEAN",
+        "IX-1p",
+        "MUST",
+        "CHAT:k",
+        "#ALL_2",
+        "ns-fs-BU"
+      ],
+      "hypothesis": [
+        "LIE-DOWN",
+        "IX-1p",
+        "ENJOY",
+        "CHAT:i",
+        "WITH",
+        "WITH",
+        "IX-3p-pl-2:i/j",
+        "MEAN",
+        "IX-1p",
+        "MUST",
+        "CHAT:k",
+        "#ALL_2",
+        "ns-fs-BU"
+      ],
+      "CTC_loss": 0.7293502688407898,
+      "blank_frames": 51,
+      "output_frames": 64,
+      "family": "asllrp_dai_participant_2::2013-06-27"
+    },
+    {
+      "sample_id": "asllrp3_65890cb6c098ad04",
+      "reference": [
+        "IX-1p",
+        "ALMOST",
+        "FINISH",
+        "HOMEWORK"
+      ],
+      "hypothesis": [
+        "IX-1p",
+        "ALMOST",
+        "FINISH",
+        "HOMEWORK"
+      ],
+      "CTC_loss": 0.31073981523513794,
+      "blank_frames": 20,
+      "output_frames": 24,
+      "family": "asllrp_dai_participant_3::2011-12-01"
+    },
+    {
+      "sample_id": "asllrp3_34ced4ffc2a6dd99",
+      "reference": [
+        "(25)WHY",
+        "FATHER",
+        "(P)UPSET",
+        "(1h)part:indef",
+        "KNOW+(1h)NEG"
+      ],
+      "hypothesis": [
+        "FATHER",
+        "(P)UPSET",
+        "(1h)part:indef",
+        "KNOW+(1h)NEG"
+      ],
+      "CTC_loss": 0.49320220947265625,
+      "blank_frames": 19,
+      "output_frames": 23,
+      "family": "asllrp_dai_participant_3::2011-12-08"
+    },
+    {
+      "sample_id": "asllrp3_cfe1f3a93edfe745",
+      "reference": [
+        "SOUP",
+        "fs-GAZPACHO",
+        "SOUP",
+        "IX-3p:i",
+        "COLD",
+        "NOT",
+        "HOT",
+        "(1h)5\\why is it so\\\"\""
+      ],
+      "hypothesis": [
+        "SOUP",
+        "fs-GAZPACHO",
+        "SOUP",
+        "IX-3p:i",
+        "COLD",
+        "NOT",
+        "HOT",
+        "(1h)5\\why is it so\\\"\""
+      ],
+      "CTC_loss": 0.5279289484024048,
+      "blank_frames": 35,
+      "output_frames": 43,
+      "family": "asllrp_dai_participant_3::2012-01-27"
+    },
+    {
+      "sample_id": "asllrp3_b2eba8a3763fbd46",
+      "reference": [
+        "FOR",
+        "REALLY",
+        "IX-3p:i",
+        "FUTURE",
+        "(1h)i:GIFT:j",
+        "FLOWER"
+      ],
+      "hypothesis": [
+        "FOR",
+        "REALLY",
+        "IX-3p:i",
+        "FUTURE",
+        "(1h)i:GIFT:j",
+        "FLOWER"
+      ],
+      "CTC_loss": 0.5272415280342102,
+      "blank_frames": 28,
+      "output_frames": 34,
+      "family": "asllrp_dai_participant_3::2012-02-09"
+    },
+    {
+      "sample_id": "asllrp3_69c658a3c3e837d4",
+      "reference": [
+        "WHICH",
+        "(1h)part:indef",
+        "MAKE",
+        "NOISE",
+        "WHICH",
+        "NOT",
+        "5\\umm\\\"\"",
+        "VARY"
+      ],
+      "hypothesis": [
+        "WHO",
+        "(1h)part:indef",
+        "MAKE",
+        "NOISE",
+        "WHICH",
+        "NOT",
+        "5\\umm\\\"\"",
+        "VARY"
+      ],
+      "CTC_loss": 0.5749303102493286,
+      "blank_frames": 25,
+      "output_frames": 33,
+      "family": "asllrp_dai_participant_5::UNRESOLVED_ALL_UNDATED_MASTERS"
+    },
+    {
+      "sample_id": "asllrp3_ebec92689e250962",
+      "reference": [
+        "ns-fs-BOB",
+        "IX-loc:i",
+        "FUTURE",
+        "SURPRISE",
+        "FROM",
+        "THAT",
+        "SURPRISE",
+        "THRILL/WHAT'S-UP",
+        "QMwg"
+      ],
+      "hypothesis": [
+        "FAMILY",
+        "IX-loc:i",
+        "FUTURE",
+        "SURPRISE",
+        "FROM",
+        "THAT",
+        "SURPRISE",
+        "THRILL/WHAT'S-UP",
+        "QMwg"
+      ],
+      "CTC_loss": 0.8524125218391418,
+      "blank_frames": 42,
+      "output_frames": 51,
+      "family": "asllrp_dai_participant_2::2013-06-27"
+    },
+    {
+      "sample_id": "asllrp3_14b742de2e4c69d9",
+      "reference": [
+        "POSS-1p",
+        "TEACH+AGENT",
+        "IX-3p:i",
+        "(1h)GOOD/THANK-YOU",
+        "ADVISE/INFLUENCE++AGENT",
+        "(1h)GOOD/THANK-YOU"
+      ],
+      "hypothesis": [
+        "IX-1p",
+        "TEACH+AGENT",
+        "IX-3p:i",
+        "(1h)GOOD/THANK-YOU",
+        "ADVISE/INFLUENCE++AGENT",
+        "(1h)GOOD/THANK-YOU"
+      ],
+      "CTC_loss": 0.5522191524505615,
+      "blank_frames": 24,
+      "output_frames": 30,
+      "family": "asllrp_dai_participant_3::2011-12-01"
+    },
+    {
+      "sample_id": "asllrp3_1fc77b80040965c2",
+      "reference": [
+        "AIRPLANE",
+        "IX-loc:i",
+        "KICK-OUT",
+        "WHO",
+        "IX-3p:j",
+        "ns-fs-ALEC-BALDWIN"
+      ],
+      "hypothesis": [
+        "AIRPLANE",
+        "IX-loc:i",
+        "KICK-OUT",
+        "WHO",
+        "IX-3p:j",
+        "ns-fs-ALEC-BALDWIN"
+      ],
+      "CTC_loss": 0.27044591307640076,
+      "blank_frames": 49,
+      "output_frames": 55,
+      "family": "asllrp_dai_participant_3::2011-12-08"
+    },
+    {
+      "sample_id": "asllrp3_f77dcdc89c1cbf19",
+      "reference": [
+        "WORK",
+        "HARD",
+        "BOSS",
+        "LIKE",
+        "IX-2p"
+      ],
+      "hypothesis": [
+        "IX-3p:i",
+        "HARD",
+        "BOSS",
+        "LIKE",
+        "IX-2p"
+      ],
+      "CTC_loss": 0.958419919013977,
+      "blank_frames": 36,
+      "output_frames": 41,
+      "family": "asllrp_dai_participant_3::2012-01-27"
+    },
+    {
+      "sample_id": "asllrp3_88948107c73f29d1",
+      "reference": [
+        "IX-1p",
+        "5\\exasperation\\\"\"",
+        "IX-3p-pl-2:i/j",
+        "DOUBT-1p",
+        "NOT",
+        "NOT-YET",
+        "DECIDE",
+        "IX-1p",
+        "MYSTERY",
+        "part:indef"
+      ],
+      "hypothesis": [
+        "IX-1p",
+        "5\\exasperation\\\"\"",
+        "IX-3p-pl-2:i/j",
+        "DOUBT-1p",
+        "NOT",
+        "NOT-YET",
+        "DECIDE",
+        "IX-1p",
+        "MYSTERY",
+        "part:indef"
+      ],
+      "CTC_loss": 0.1837734878063202,
+      "blank_frames": 22,
+      "output_frames": 32,
+      "family": "asllrp_dai_participant_3::2012-02-09"
+    },
+    {
+      "sample_id": "asllrp3_7937747f49edb327",
+      "reference": [
+        "WHO",
+        "IX-honorific:i",
+        "part:indef"
+      ],
+      "hypothesis": [
+        "WHO",
+        "IX-honorific:i",
+        "part:indef"
+      ],
+      "CTC_loss": 0.4201580286026001,
+      "blank_frames": 15,
+      "output_frames": 18,
+      "family": "asllrp_dai_participant_5::UNRESOLVED_ALL_UNDATED_MASTERS"
+    },
+    {
+      "sample_id": "asllrp3_53bae00ddc5954e2",
+      "reference": [
+        "#IF++",
+        "HAVE",
+        "PINEAPPLE",
+        "fs-CREAM+fs-CHEESE",
+        "IX-1p+++",
+        "REFUSE",
+        "EAT+",
+        "DCL:crvd-L\\bagel\\\"\"",
+        "fs-BAGEL",
+        "IX-1p",
+        "(1h)part:indef"
+      ],
+      "hypothesis": [
+        "#IF",
+        "HAVE",
+        "PINEAPPLE",
+        "fs-CREAM+fs-CHEESE",
+        "IX-1p+++",
+        "REFUSE",
+        "EAT+",
+        "DCL:crvd-L\\bagel\\\"\"",
+        "fs-BAGEL",
+        "IX-1p",
+        "(1h)part:indef"
+      ],
+      "CTC_loss": 0.5995854735374451,
+      "blank_frames": 48,
+      "output_frames": 59,
+      "family": "asllrp_dai_participant_2::2013-06-27"
+    },
+    {
+      "sample_id": "asllrp3_2358b7f69d90a3cf",
+      "reference": [
+        "IX-3p:i",
+        "APPLY-1p",
+        "IX-1p",
+        "MANY",
+        "fs-TASKS",
+        "5\\frustration\\\"\""
+      ],
+      "hypothesis": [
+        "IX-1p",
+        "APPLY-1p",
+        "IX-1p",
+        "MANY",
+        "fs-TASKS",
+        "5\\frustration\\\"\""
+      ],
+      "CTC_loss": 1.019468903541565,
+      "blank_frames": 26,
+      "output_frames": 32,
+      "family": "asllrp_dai_participant_3::2011-12-01"
+    },
+    {
+      "sample_id": "asllrp3_4a49d7fa8cfa4c46",
+      "reference": [
+        "WHO",
+        "ARRIVE",
+        "LATE+",
+        "part:indef",
+        "WHO"
+      ],
+      "hypothesis": [
+        "ARRIVE",
+        "LATE+",
+        "part:indef",
+        "WHO"
+      ],
+      "CTC_loss": 0.6808747053146362,
+      "blank_frames": 22,
+      "output_frames": 26,
+      "family": "asllrp_dai_participant_3::2011-12-08"
+    },
+    {
+      "sample_id": "asllrp3_78e811c2d71614bf",
+      "reference": [
+        "#IF",
+        "IX-3p:i",
+        "PINEAPPLE",
+        "fs-CREAM",
+        "CHEESE",
+        "(1h)5\\wave no\\\"\"",
+        "IX-1p",
+        "REFUSE",
+        "EAT+",
+        "fs-BAGEL",
+        "(1h)5\\wave no\\\"\""
+      ],
+      "hypothesis": [
+        "SOUP",
+        "IX-3p:i",
+        "PINEAPPLE",
+        "fs-CREAM",
+        "CHEESE",
+        "(1h)5\\wave no\\\"\"",
+        "IX-1p",
+        "REFUSE",
+        "EAT+",
+        "fs-BAGEL",
+        "(1h)5\\wave no\\\"\""
+      ],
+      "CTC_loss": 0.670680820941925,
+      "blank_frames": 33,
+      "output_frames": 44,
+      "family": "asllrp_dai_participant_3::2012-01-27"
+    },
+    {
+      "sample_id": "asllrp3_0ac803511c6b79e9",
+      "reference": [
+        "GO-OUT",
+        "RAIN",
+        "5\\wave no\\\"\"",
+        "(1)TEMPERATURE-DROP",
+        "SNOW"
+      ],
+      "hypothesis": [
+        "GO-OUT",
+        "RAIN",
+        "5\\wave no\\\"\"",
+        "(1)TEMPERATURE-DROP",
+        "SNOW"
+      ],
+      "CTC_loss": 0.15797318518161774,
+      "blank_frames": 29,
+      "output_frames": 34,
+      "family": "asllrp_dai_participant_3::2012-02-09"
+    },
+    {
+      "sample_id": "asllrp3_93cd336742a43cfa",
+      "reference": [
+        "(1h)HAVE",
+        "VISUALIZE",
+        "MEAN",
+        "part:indef",
+        "LONG-LIST"
+      ],
+      "hypothesis": [
+        "(1h)HAVE",
+        "VISUALIZE",
+        "MEAN",
+        "part:indef",
+        "LONG-LIST"
+      ],
+      "CTC_loss": 0.2328171730041504,
+      "blank_frames": 27,
+      "output_frames": 32,
+      "family": "asllrp_dai_participant_5::UNRESOLVED_ALL_UNDATED_MASTERS"
+    },
+    {
+      "sample_id": "asllrp3_f044f9015af1c098",
+      "reference": [
+        "IF+",
+        "RAIN",
+        "TOMORROW",
+        "IX-1p",
+        "ARRIVE",
+        "UNCLE",
+        "HOUSE",
+        "STAY",
+        "IN+"
+      ],
+      "hypothesis": [
+        "FINISH",
+        "RAIN",
+        "TOMORROW",
+        "IX-1p",
+        "ARRIVE",
+        "UNCLE",
+        "HOUSE",
+        "STAY",
+        "IN+"
+      ],
+      "CTC_loss": 0.6967124938964844,
+      "blank_frames": 45,
+      "output_frames": 55,
+      "family": "asllrp_dai_participant_2::2013-06-27"
+    },
+    {
+      "sample_id": "asllrp3_f3d6600ecfbc58e5",
+      "reference": [
+        "(G/Q)POSS-1p",
+        "OFFICE",
+        "POSS-1p",
+        "BOSS",
+        "WORK",
+        "ABOVE",
+        "IX-loc+:i"
+      ],
+      "hypothesis": [
+        "IX-1p",
+        "OFFICE",
+        "POSS-1p",
+        "BOSS",
+        "WORK",
+        "ABOVE",
+        "IX-loc+:i"
+      ],
+      "CTC_loss": 0.5584962368011475,
+      "blank_frames": 30,
+      "output_frames": 37,
+      "family": "asllrp_dai_participant_3::2011-12-01"
+    },
+    {
+      "sample_id": "asllrp3_c467ef7d51080f48",
+      "reference": [
+        "ns-fs-JACK",
+        "STAND",
+        "GO-OUT+",
+        "IX-3p:i",
+        "SEE",
+        "SOMETHING/ONE",
+        "STRANGE",
+        "QMwg"
+      ],
+      "hypothesis": [
+        "STAND",
+        "GO-OUT+",
+        "IX-3p:i",
+        "SEE",
+        "SOMETHING/ONE",
+        "STRANGE",
+        "QMwg"
+      ],
+      "CTC_loss": 0.48727038502693176,
+      "blank_frames": 24,
+      "output_frames": 31,
+      "family": "asllrp_dai_participant_3::2011-12-08"
+    },
+    {
+      "sample_id": "asllrp3_ba5ef08595898ad5",
+      "reference": [
+        "IX-3p:i",
+        "MAGAZINE",
+        "QUOTE/TOPIC",
+        "PEOPLE",
+        "fs-PEOPLE",
+        "KNOW",
+        "IX-2p",
+        "THINK",
+        "(1h)GOOD/THANK-YOU",
+        "IX-2p",
+        "QMwg"
+      ],
+      "hypothesis": [
+        "IX-3p:i",
+        "MAGAZINE",
+        "QUOTE/TOPIC",
+        "PEOPLE",
+        "fs-PEOPLE",
+        "KNOW",
+        "IX-2p",
+        "THINK",
+        "(1h)GOOD/THANK-YOU",
+        "IX-2p",
+        "QMwg"
+      ],
+      "CTC_loss": 0.27351438999176025,
+      "blank_frames": 27,
+      "output_frames": 38,
+      "family": "asllrp_dai_participant_3::2012-01-27"
+    },
+    {
+      "sample_id": "asllrp3_4e797666982b3cee",
+      "reference": [
+        "TEACH+AGENT",
+        "NOT",
+        "REQUIRE",
+        "BOOK",
+        "READ",
+        "DROP",
+        "IX-3p:i",
+        "ns-fs-JOHN",
+        "FUTURE",
+        "READ",
+        "BOOK",
+        "(2h)B-L\\I don't know\\\"\""
+      ],
+      "hypothesis": [
+        "FOR",
+        "NOT",
+        "REQUIRE",
+        "BOOK",
+        "READ",
+        "DROP",
+        "IX-3p:i",
+        "ns-fs-JOHN",
+        "FUTURE",
+        "READ",
+        "BOOK",
+        "(2h)B-L\\I don't know\\\"\""
+      ],
+      "CTC_loss": 0.3895857632160187,
+      "blank_frames": 35,
+      "output_frames": 47,
+      "family": "asllrp_dai_participant_3::2012-02-09"
+    },
+    {
+      "sample_id": "asllrp3_92df92272fa53cdd",
+      "reference": [
+        "MUST",
+        "CULTURE",
+        "DEVELOP",
+        "MEAN",
+        "VOICE",
+        "INCLUDE/INVOLVE",
+        "IDEA"
+      ],
+      "hypothesis": [
+        "WHO",
+        "MUST",
+        "CULTURE",
+        "DEVELOP",
+        "MEAN",
+        "VOICE",
+        "INCLUDE/INVOLVE",
+        "IDEA"
+      ],
+      "CTC_loss": 0.49644479155540466,
+      "blank_frames": 44,
+      "output_frames": 52,
+      "family": "asllrp_dai_participant_5::UNRESOLVED_ALL_UNDATED_MASTERS"
+    },
+    {
+      "sample_id": "asllrp3_123271ff75c8914f",
+      "reference": [
+        "IX-1p",
+        "LOOK",
+        "ns-fs-JOHN",
+        "MANIPULATE+",
+        "ns-fs-MARY",
+        "IX-1p",
+        "(1h)ANGRY",
+        "HUNGRY/WISH",
+        "IX-3p-pl-2:i/j",
+        "RELATIONSHIP-OFF"
+      ],
+      "hypothesis": [
+        "NOW+",
+        "(5)WEATHER",
+        "ns-fs-JOHN",
+        "MANIPULATE+",
+        "ns-fs-MARY",
+        "IX-1p",
+        "(1h)ANGRY",
+        "HUNGRY/WISH",
+        "IX-3p-pl-2:i/j",
+        "RELATIONSHIP-OFF"
+      ],
+      "CTC_loss": 0.6138418912887573,
+      "blank_frames": 53,
+      "output_frames": 63,
+      "family": "asllrp_dai_participant_2::2013-06-27"
+    },
+    {
+      "sample_id": "asllrp3_a22911f88ad4da02",
+      "reference": [
+        "IX-1p",
+        "MUST",
+        "TAKE-UP",
+        "TEST_2",
+        "AGAIN"
+      ],
+      "hypothesis": [
+        "IX-1p",
+        "MUST",
+        "TAKE-UP",
+        "TEST_2",
+        "AGAIN"
+      ],
+      "CTC_loss": 0.16005489230155945,
+      "blank_frames": 18,
+      "output_frames": 23,
+      "family": "asllrp_dai_participant_3::2011-12-01"
+    },
+    {
+      "sample_id": "asllrp3_973b3f7cc1b9bf55",
+      "reference": [
+        "(P)PARTY",
+        "NIGHT",
+        "START",
+        "EIGHT",
+        "NINE",
+        "part:indef"
+      ],
+      "hypothesis": [
+        "(P)PARTY",
+        "NIGHT",
+        "START",
+        "EIGHT",
+        "NINE",
+        "part:indef"
+      ],
+      "CTC_loss": 0.21976350247859955,
+      "blank_frames": 21,
+      "output_frames": 27,
+      "family": "asllrp_dai_participant_3::2011-12-08"
+    },
+    {
+      "sample_id": "asllrp3_9f4a149cf3fb79d6",
+      "reference": [
+        "SUMMER",
+        "HOT",
+        "fs-DAY",
+        "IX-loc:i",
+        "ns-fs-MARY",
+        "KISS-FIST",
+        "DRINK",
+        "LEMON+"
+      ],
+      "hypothesis": [
+        "IX-3p:i",
+        "COME",
+        "fs-DAY",
+        "IX-loc:i",
+        "ns-fs-MARY",
+        "KISS-FIST",
+        "DRINK",
+        "LEMON+"
+      ],
+      "CTC_loss": 0.9188684225082397,
+      "blank_frames": 28,
+      "output_frames": 37,
+      "family": "asllrp_dai_participant_3::2012-01-27"
+    },
+    {
+      "sample_id": "asllrp3_1b826388cd623c69",
+      "reference": [
+        "WHEN",
+        "NOT",
+        "SNOW",
+        "(G/Q)POSS-1p",
+        "fs-TRIP",
+        "IX-3p:i",
+        "CANCEL/CRITICIZE"
+      ],
+      "hypothesis": [
+        "WHEN",
+        "NOT",
+        "SNOW",
+        "(G/Q)POSS-1p",
+        "fs-TRIP",
+        "IX-3p:i",
+        "CANCEL/CRITICIZE"
+      ],
+      "CTC_loss": 0.22800089418888092,
+      "blank_frames": 19,
+      "output_frames": 26,
+      "family": "asllrp_dai_participant_3::2012-02-09"
+    },
+    {
+      "sample_id": "asllrp3_72af54e74ad190e2",
+      "reference": [
+        "IDEA",
+        "UNDERSTAND",
+        "IX-loc:j",
+        "INFORM",
+        "IN",
+        "POLITE",
+        "CORRECT",
+        "NARROW-STREET",
+        "IX-3p:i",
+        "FUTURE",
+        "ACCEPT"
+      ],
+      "hypothesis": [
+        "GROW",
+        "UNDERSTAND",
+        "IX-loc:j",
+        "INFORM",
+        "IN",
+        "POLITE",
+        "CORRECT",
+        "NARROW-STREET",
+        "IX-3p:i",
+        "FUTURE",
+        "ACCEPT"
+      ],
+      "CTC_loss": 0.31622710824012756,
+      "blank_frames": 29,
+      "output_frames": 40,
+      "family": "asllrp_dai_participant_5::UNRESOLVED_ALL_UNDATED_MASTERS"
+    },
+    {
+      "sample_id": "asllrp3_d8ea4b067f145801",
+      "reference": [
+        "#IF",
+        "SWIM",
+        "IX-1p",
+        "WANT+NEG",
+        "FUTURE",
+        "DO-DO",
+        "SCL:bent-U-L\\person walking\\\"\""
+      ],
+      "hypothesis": [
+        "FAMILY",
+        "SWIM",
+        "IX-1p",
+        "WANT+NEG",
+        "FUTURE",
+        "DO-DO",
+        "SCL:bent-U-L\\person walking\\\"\""
+      ],
+      "CTC_loss": 0.8293231725692749,
+      "blank_frames": 66,
+      "output_frames": 73,
+      "family": "asllrp_dai_participant_2::2013-06-27"
+    },
+    {
+      "sample_id": "asllrp3_87c503f2bbb54b45",
+      "reference": [
+        "IX-1p",
+        "KISS-FIST",
+        "APPLE",
+        "DURING/WHILE",
+        "AUTUMN"
+      ],
+      "hypothesis": [
+        "IX-1p",
+        "KISS-FIST",
+        "APPLE",
+        "DURING/WHILE",
+        "AUTUMN"
+      ],
+      "CTC_loss": 0.5100752711296082,
+      "blank_frames": 23,
+      "output_frames": 28,
+      "family": "asllrp_dai_participant_3::2011-12-01"
+    },
+    {
+      "sample_id": "asllrp3_9aef09e69dc26e16",
+      "reference": [
+        "CAT",
+        "IX-3p:i",
+        "(1h)HAVE",
+        "NEXT-TO",
+        "FIND/FIND-OUT",
+        "IX-3p:j",
+        "REALLY",
+        "HUNGRY/WISH",
+        "(1h)WOW/AWFUL"
+      ],
+      "hypothesis": [
+        "IX-3p:i",
+        "(1h)HAVE",
+        "NEXT-TO",
+        "FIND/FIND-OUT",
+        "IX-3p:j",
+        "REALLY",
+        "HUNGRY/WISH",
+        "(1h)WOW/AWFUL"
+      ],
+      "CTC_loss": 0.3538326621055603,
+      "blank_frames": 31,
+      "output_frames": 39,
+      "family": "asllrp_dai_participant_3::2011-12-08"
+    },
+    {
+      "sample_id": "asllrp3_134819a628365aa8",
+      "reference": [
+        "LIE",
+        "(1h)FINISH",
+        "NOT",
+        "FUNNY",
+        "WHERE",
+        "MOTHER+",
+        "(1h)part:indef"
+      ],
+      "hypothesis": [
+        "LIE",
+        "(1h)FINISH",
+        "NOT",
+        "FUNNY",
+        "WHERE",
+        "MOTHER+",
+        "(1h)part:indef"
+      ],
+      "CTC_loss": 0.18624278903007507,
+      "blank_frames": 17,
+      "output_frames": 24,
+      "family": "asllrp_dai_participant_3::2012-01-27"
+    },
+    {
+      "sample_id": "asllrp3_1a88e628036166e5",
+      "reference": [
+        "IX-1p",
+        "CANNOT",
+        "BELIEVE",
+        "IX-3p:i",
+        "NOT",
+        "(1)GUILTY",
+        "IX-1p",
+        "THINK",
+        "IX-3p:i",
+        "(1)GUILTY+"
+      ],
+      "hypothesis": [
+        "IX-1p",
+        "EMERGENCY+",
+        "BELIEVE",
+        "IX-3p:i",
+        "NOT",
+        "(1)GUILTY",
+        "IX-1p",
+        "THINK",
+        "IX-3p:i",
+        "(1)GUILTY+"
+      ],
+      "CTC_loss": 0.5008283853530884,
+      "blank_frames": 21,
+      "output_frames": 31,
+      "family": "asllrp_dai_participant_3::2012-02-09"
+    },
+    {
+      "sample_id": "asllrp3_261e95e8592cb319",
+      "reference": [
+        "CAN",
+        "MAKE",
+        "IX-3p:k",
+        "DCL:flat-O\\put it collectively\\\"\"",
+        "LEARN+",
+        "DCL:bent-1\\this pathway\\\"\"",
+        "SET-UP",
+        "DIFFERENT",
+        "LIST-ORDER"
+      ],
+      "hypothesis": [
+        "LOUD",
+        "MAKE",
+        "IX-3p:k",
+        "DCL:flat-O\\put it collectively\\\"\"",
+        "LEARN+",
+        "DCL:bent-1\\this pathway\\\"\"",
+        "SET-UP",
+        "DIFFERENT",
+        "LIST-ORDER"
+      ],
+      "CTC_loss": 0.4595116972923279,
+      "blank_frames": 33,
+      "output_frames": 42,
+      "family": "asllrp_dai_participant_5::UNRESOLVED_ALL_UNDATED_MASTERS"
+    },
+    {
+      "sample_id": "asllrp3_2ca2e1a38917b354",
+      "reference": [
+        "FINISH",
+        "BUY",
+        "CAR+",
+        "WHO"
+      ],
+      "hypothesis": [
+        "FINISH",
+        "(1h)VOMIT/HATE",
+        "CAR+",
+        "WHO"
+      ],
+      "CTC_loss": 0.6340740919113159,
+      "blank_frames": 30,
+      "output_frames": 34,
+      "family": "asllrp_dai_participant_2::2013-06-27"
+    },
+    {
+      "sample_id": "asllrp3_3901b1120b071ed7",
+      "reference": [
+        "ALCOHOL+",
+        "SELF-3p+:i",
+        "NOT",
+        "ALWAYS",
+        "(1h)GOOD/THANK-YOU",
+        "part:indef"
+      ],
+      "hypothesis": [
+        "IX-1p",
+        "SELF-3p+:i",
+        "NOT",
+        "ALWAYS",
+        "(1h)GOOD/THANK-YOU",
+        "part:indef"
+      ],
+      "CTC_loss": 0.8081710338592529,
+      "blank_frames": 22,
+      "output_frames": 28,
+      "family": "asllrp_dai_participant_3::2011-12-01"
+    },
+    {
+      "sample_id": "asllrp3_bac6d12c8851ae1d",
+      "reference": [
+        "ns-fs-LIZ",
+        "SISTER",
+        "IX-3p:i",
+        "FAMOUS",
+        "WHO"
+      ],
+      "hypothesis": [
+        "IX-3p:i",
+        "SISTER",
+        "IX-1p",
+        "IX-3p:i",
+        "FAMOUS",
+        "WHO"
+      ],
+      "CTC_loss": 1.0137393474578857,
+      "blank_frames": 22,
+      "output_frames": 29,
+      "family": "asllrp_dai_participant_3::2011-12-08"
+    },
+    {
+      "sample_id": "asllrp3_d52d4cc9ab4abd14",
+      "reference": [
+        "MOTHER",
+        "COME",
+        "MUST",
+        "NICE/CLEAN+",
+        "HOUSE"
+      ],
+      "hypothesis": [
+        "IX-3p:i",
+        "COME",
+        "MUST",
+        "NICE/CLEAN+",
+        "HOUSE"
+      ],
+      "CTC_loss": 0.9773801565170288,
+      "blank_frames": 34,
+      "output_frames": 39,
+      "family": "asllrp_dai_participant_3::2012-01-27"
+    },
+    {
+      "sample_id": "asllrp3_485cd7863735b16e",
+      "reference": [
+        "ns-fs-MARY",
+        "STOP",
+        "ROWING+",
+        "5\\out of my control\\\"\"",
+        "NOT",
+        "CONTINUE",
+        "ROWING",
+        "5\\no more\\\"\""
+      ],
+      "hypothesis": [
+        "IX-3p:i",
+        "STOP",
+        "ROWING+",
+        "5\\out of my control\\\"\"",
+        "NOT",
+        "CONTINUE",
+        "ROWING",
+        "5\\no more\\\"\""
+      ],
+      "CTC_loss": 0.762820839881897,
+      "blank_frames": 26,
+      "output_frames": 34,
+      "family": "asllrp_dai_participant_3::2012-02-09"
+    },
+    {
+      "sample_id": "asllrp3_96a6331ebbafbeb3",
+      "reference": [
+        "LOUD",
+        "(Y)WOW",
+        "POLITE",
+        "NONE/NOTHING",
+        "fs-BARBARIC",
+        "WOW",
+        "LOOK-OVER",
+        "LONG-LIST"
+      ],
+      "hypothesis": [
+        "LOUD",
+        "(Y)WOW",
+        "POLITE",
+        "NONE/NOTHING",
+        "fs-BARBARIC",
+        "WOW",
+        "LOOK-OVER",
+        "LONG-LIST"
+      ],
+      "CTC_loss": 0.5578691363334656,
+      "blank_frames": 41,
+      "output_frames": 49,
+      "family": "asllrp_dai_participant_5::UNRESOLVED_ALL_UNDATED_MASTERS"
+    },
+    {
+      "sample_id": "asllrp3_678bc149c74643bb",
+      "reference": [
+        "#IF+",
+        "IX-1p",
+        "GO-OUT",
+        "EAT",
+        "WHO",
+        "(P)PAY",
+        "part:indef"
+      ],
+      "hypothesis": [
+        "LIE-DOWN",
+        "IX-1p",
+        "GO-OUT",
+        "EAT",
+        "WHO",
+        "(P)PAY",
+        "part:indef"
+      ],
+      "CTC_loss": 0.43687960505485535,
+      "blank_frames": 35,
+      "output_frames": 42,
+      "family": "asllrp_dai_participant_2::2013-06-27"
+    },
+    {
+      "sample_id": "asllrp3_504e268845a5da2e",
+      "reference": [
+        "IX-1p",
+        "(2h)LOOK",
+        "MOVIE",
+        "PAST+NIGHT",
+        "ACT+AGENT",
+        "(1h)GOOD/THANK-YOU"
+      ],
+      "hypothesis": [
+        "IX-1p",
+        "(2h)LOOK",
+        "MOVIE",
+        "PAST+NIGHT",
+        "ACT+AGENT",
+        "(1h)GOOD/THANK-YOU"
+      ],
+      "CTC_loss": 0.25433188676834106,
+      "blank_frames": 31,
+      "output_frames": 37,
+      "family": "asllrp_dai_participant_3::2011-12-01"
+    },
+    {
+      "sample_id": "asllrp3_59cfe8e1e6e22f53",
+      "reference": [
+        "COAT",
+        "RECENT-PAST",
+        "(1h)PAY/BUY",
+        "IX-3p:i",
+        "FACE",
+        "WARM",
+        "IX-3p:i"
+      ],
+      "hypothesis": [
+        "COAT",
+        "RECENT-PAST",
+        "(1h)PAY/BUY",
+        "IX-3p:i",
+        "FACE",
+        "WARM",
+        "IX-3p:i"
+      ],
+      "CTC_loss": 0.15006610751152039,
+      "blank_frames": 30,
+      "output_frames": 37,
+      "family": "asllrp_dai_participant_3::2011-12-08"
+    },
+    {
+      "sample_id": "asllrp3_626e769a1bef0b50",
+      "reference": [
+        "IX-3p:i",
+        "CAR",
+        "BREAK-DOWN",
+        "5\\frustration\\\"\""
+      ],
+      "hypothesis": [
+        "IX-3p:i",
+        "CAR",
+        "BREAK-DOWN",
+        "5\\frustration\\\"\""
+      ],
+      "CTC_loss": 0.38084664940834045,
+      "blank_frames": 26,
+      "output_frames": 30,
+      "family": "asllrp_dai_participant_3::2012-01-27"
+    },
+    {
+      "sample_id": "asllrp3_909fe62e2de7d50e",
+      "reference": [
+        "EMERGENCY+",
+        "IX-loc:i",
+        "GO-OUT",
+        "WHERE"
+      ],
+      "hypothesis": [
+        "EMERGENCY+",
+        "IX-loc:i",
+        "GO-OUT",
+        "WHERE"
+      ],
+      "CTC_loss": 0.3264950215816498,
+      "blank_frames": 21,
+      "output_frames": 25,
+      "family": "asllrp_dai_participant_3::2012-02-09"
+    },
+    {
+      "sample_id": "asllrp3_63f7317819c0d217",
+      "reference": [
+        "SOME",
+        "fs-CODA",
+        "IX-3p:i/j",
+        "BETWEEN/SHARE",
+        "EMBARRASS",
+        "MINUTE",
+        "POSS-3p-pl-arc",
+        "EXPERIENCE"
+      ],
+      "hypothesis": [
+        "APPLAUSE+",
+        "fs-CODA",
+        "IX-3p:i/j",
+        "BETWEEN/SHARE",
+        "EMBARRASS",
+        "MINUTE",
+        "POSS-3p-pl-arc",
+        "EXPERIENCE"
+      ],
+      "CTC_loss": 0.5777209997177124,
+      "blank_frames": 32,
+      "output_frames": 40,
+      "family": "asllrp_dai_participant_5::UNRESOLVED_ALL_UNDATED_MASTERS"
+    },
+    {
+      "sample_id": "asllrp3_f287924af5fb30f8",
+      "reference": [
+        "IX-3p:i",
+        "BUY",
+        "CAR",
+        "\\WHAT\\\"\"",
+        "KIND"
+      ],
+      "hypothesis": [
+        "IX-3p:i",
+        "BUY",
+        "CAR",
+        "\\WHAT\\\"\"",
+        "KIND"
+      ],
+      "CTC_loss": 0.5314850807189941,
+      "blank_frames": 40,
+      "output_frames": 45,
+      "family": "asllrp_dai_participant_2::2013-06-27"
+    },
+    {
+      "sample_id": "asllrp3_ee578a14cf688af4",
+      "reference": [
+        "IX-1p",
+        "D",
+        "CLASS_2",
+        "IX-1p",
+        "ACCEPT"
+      ],
+      "hypothesis": [
+        "IX-1p",
+        "D",
+        "CLASS_2",
+        "IX-1p",
+        "ACCEPT"
+      ],
+      "CTC_loss": 0.5131732225418091,
+      "blank_frames": 23,
+      "output_frames": 28,
+      "family": "asllrp_dai_participant_3::2011-12-01"
+    },
+    {
+      "sample_id": "asllrp3_b01f2e29235534c3",
+      "reference": [
+        "CAR",
+        "IX-3p:i",
+        "(1h)(flat-O)PAY/SPEND",
+        "YESTERDAY",
+        "DO-DO+",
+        "KIND",
+        "part:indef"
+      ],
+      "hypothesis": [
+        "(25)WHY",
+        "FATHER",
+        "(1h)(flat-O)PAY/SPEND",
+        "YESTERDAY",
+        "DO-DO+",
+        "KIND",
+        "part:indef"
+      ],
+      "CTC_loss": 1.0462483167648315,
+      "blank_frames": 21,
+      "output_frames": 28,
+      "family": "asllrp_dai_participant_3::2011-12-08"
+    },
+    {
+      "sample_id": "asllrp3_d4dc011f23660ebd",
+      "reference": [
+        "IX-pl-2:i/j",
+        "ns-fs-JOHN",
+        "ns-fs-MARY",
+        "(1h)HAVE",
+        "STRANGE",
+        "BICYCLE",
+        "SCL:crvd-V\\two people on tandem bicycle\\\"\""
+      ],
+      "hypothesis": [
+        "IX-pl-2:i/j",
+        "ns-fs-JOHN",
+        "ns-fs-MARY",
+        "(1h)HAVE",
+        "STRANGE",
+        "BICYCLE",
+        "SCL:crvd-V\\two people on tandem bicycle\\\"\""
+      ],
+      "CTC_loss": 0.23486575484275818,
+      "blank_frames": 34,
+      "output_frames": 41,
+      "family": "asllrp_dai_participant_3::2012-01-27"
+    },
+    {
+      "sample_id": "asllrp3_8a77d228743459a0",
+      "reference": [
+        "5\\wave no\\\"\"",
+        "PINEAPPLE",
+        "fs-CREAM",
+        "CHEESE",
+        "5\\wave no\\\"\"",
+        "BETTER",
+        "fs-LOX",
+        "IX-1p",
+        "5\\hands off\\\"\""
+      ],
+      "hypothesis": [
+        "5\\wave no\\\"\"",
+        "PINEAPPLE",
+        "fs-CREAM",
+        "CHEESE",
+        "5\\wave no\\\"\"",
+        "BETTER",
+        "fs-LOX",
+        "IX-1p",
+        "5\\hands off\\\"\""
+      ],
+      "CTC_loss": 0.32495737075805664,
+      "blank_frames": 32,
+      "output_frames": 41,
+      "family": "asllrp_dai_participant_3::2012-02-09"
+    },
+    {
+      "sample_id": "asllrp3_43f08c385e3032ea",
+      "reference": [
+        "AND",
+        "MORE",
+        "COOPERATE/UNITE",
+        "HOW",
+        "DEAF",
+        "PEOPLE",
+        "POSS-3p-pl-arc",
+        "EXPERIENCE",
+        "IN",
+        "THAT",
+        "WORLD"
+      ],
+      "hypothesis": [
+        "MORE",
+        "STUDY",
+        "COOPERATE/UNITE",
+        "HOW",
+        "DEAF",
+        "PEOPLE",
+        "POSS-3p-pl-arc",
+        "EXPERIENCE",
+        "IN",
+        "THAT",
+        "WORLD"
+      ],
+      "CTC_loss": 0.7459414005279541,
+      "blank_frames": 42,
+      "output_frames": 53,
+      "family": "asllrp_dai_participant_5::UNRESOLVED_ALL_UNDATED_MASTERS"
+    },
+    {
+      "sample_id": "asllrp3_355ddb09c3733046",
+      "reference": [
+        "IX-1p",
+        "MUST",
+        "FIND/FIND-OUT",
+        "(1h)\\WHAT\\\"\"",
+        "GIFT",
+        "FOR",
+        "MOTHER+",
+        "(1h)part:indef"
+      ],
+      "hypothesis": [
+        "TIME+",
+        "MUST",
+        "FIND/FIND-OUT",
+        "(1h)\\WHAT\\\"\"",
+        "GIFT",
+        "FOR",
+        "MOTHER+",
+        "(1h)part:indef"
+      ],
+      "CTC_loss": 0.38690438866615295,
+      "blank_frames": 32,
+      "output_frames": 40,
+      "family": "asllrp_dai_participant_2::2013-06-27"
+    },
+    {
+      "sample_id": "asllrp3_36ac991e9949fbc8",
+      "reference": [
+        "REALLY",
+        "SELF-3p+:i",
+        "OLD",
+        "NOT",
+        "IMPORTANT",
+        "(1h)part:indef"
+      ],
+      "hypothesis": [
+        "POSS-1p",
+        "SELF-3p+:i",
+        "OLD",
+        "NOT",
+        "IMPORTANT",
+        "(1h)part:indef"
+      ],
+      "CTC_loss": 0.8061187863349915,
+      "blank_frames": 27,
+      "output_frames": 33,
+      "family": "asllrp_dai_participant_3::2011-12-01"
+    },
+    {
+      "sample_id": "asllrp3_7700920d6105eb7c",
+      "reference": [
+        "POSS-1p",
+        "BROTHER",
+        "FIND/FIND-OUT",
+        "BRACELET",
+        "SELF-3p:i",
+        "REALLY",
+        "fs-GOLD"
+      ],
+      "hypothesis": [
+        "BROTHER",
+        "FIND/FIND-OUT",
+        "BRACELET",
+        "SELF-3p:i",
+        "REALLY",
+        "fs-GOLD"
+      ],
+      "CTC_loss": 0.6171450614929199,
+      "blank_frames": 40,
+      "output_frames": 46,
+      "family": "asllrp_dai_participant_3::2011-12-08"
+    },
+    {
+      "sample_id": "asllrp3_3695057508533d74",
+      "reference": [
+        "FATHER",
+        "i:SAME-1p",
+        "LIKE",
+        "PINEAPPLE",
+        "fs-CREAM",
+        "CHEESE"
+      ],
+      "hypothesis": [
+        "WEATHER",
+        "i:SAME-1p",
+        "LIKE",
+        "PINEAPPLE",
+        "fs-CREAM",
+        "CHEESE"
+      ],
+      "CTC_loss": 0.4842166602611542,
+      "blank_frames": 29,
+      "output_frames": 35,
+      "family": "asllrp_dai_participant_3::2012-01-27"
+    },
+    {
+      "sample_id": "asllrp3_1a86480112b2eba4",
+      "reference": [
+        "IX-2p",
+        "FINGERSPELL+",
+        "LOUSY",
+        "(1h)INFORM:i"
+      ],
+      "hypothesis": [
+        "IX-3p:i",
+        "FINGERSPELL+",
+        "LOUSY",
+        "(1h)INFORM:i"
+      ],
+      "CTC_loss": 0.7985883951187134,
+      "blank_frames": 19,
+      "output_frames": 24,
+      "family": "asllrp_dai_participant_3::2012-02-09"
+    },
+    {
+      "sample_id": "asllrp3_05abbca68db07ed2",
+      "reference": [
+        "OTHER",
+        "EXPERIENCE",
+        "WITH",
+        "(F)BELONG",
+        "WITH",
+        "POSS-1p",
+        "(F)BELONG",
+        "WITH",
+        "VOICE"
+      ],
+      "hypothesis": [
+        "MORE",
+        "EXPERIENCE",
+        "WITH",
+        "(F)BELONG",
+        "WITH",
+        "(F)BELONG",
+        "WITH",
+        "VOICE"
+      ],
+      "CTC_loss": 0.7606884837150574,
+      "blank_frames": 36,
+      "output_frames": 44,
+      "family": "asllrp_dai_participant_5::UNRESOLVED_ALL_UNDATED_MASTERS"
+    }
+  ]
+}

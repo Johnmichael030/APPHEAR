@@ -1,0 +1,3 @@
+model,protocol,raw_blank_fraction,raw_UNK_fraction,raw_frames,collapsed_hypothesis_tokens,hypothesis_diversity,most_common_hypothesis,most_common_count,most_common_fraction,empty_sequences,correct_reference_tokens,CTC_loss
+baseline,greedy,0.9313599313599313,0.0,2331,157,49,IX-1p,51,0.3248407643312102,5,21,7.606348329782486
+A,greedy,0.9317889317889317,0.0,2331,158,49,IX-1p,51,0.3227848101265823,4,26,7.7182920455932615

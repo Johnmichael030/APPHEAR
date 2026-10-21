@@ -1,0 +1,409 @@
+{
+  "schema_version": "apphear.continuous_asl.limited_english.v1",
+  "qualified_linguistic_review": false,
+  "provenance": "Manually authored engineering word equivalents and finite literal sentence templates; no participant data. Not an ASL grammar model. Not linguistically validated.",
+  "fallback": "Preserve order; show every unmapped literal label as [untranslated: LABEL]. Never remove annotation morphology or infer pronoun loci.",
+  "word_equivalents": {
+    "WORLD": "world",
+    "GOOD": "good",
+    "MORNING": "morning",
+    "NIGHT": "night",
+    "WATER": "water",
+    "MILK": "milk",
+    "HELP": "help",
+    "WANT": "want",
+    "LIKE": "like",
+    "KNOW": "know",
+    "UNDERSTAND": "understand",
+    "HAVE": "have",
+    "NOT": "not",
+    "MORE": "more",
+    "FINISH": "finish",
+    "YES": "yes",
+    "HOME": "home",
+    "SCHOOL": "school",
+    "WORK": "work",
+    "TOMORROW": "tomorrow",
+    "YESTERDAY": "yesterday",
+    "NOW": "now",
+    "LATE": "late",
+    "GO": "go",
+    "COME": "come",
+    "STOP": "stop",
+    "WAIT": "wait",
+    "READY": "ready",
+    "SAD": "sad",
+    "ANGRY": "angry",
+    "TIRED": "tired",
+    "HOT": "hot",
+    "COLD": "cold",
+    "BIG": "big",
+    "SMALL": "small",
+    "FAMILY": "family",
+    "FRIEND": "friend",
+    "MOTHER": "mother",
+    "FATHER": "father",
+    "BROTHER": "brother",
+    "SISTER": "sister",
+    "CHILDREN": "children",
+    "PERSON": "person",
+    "PEOPLE": "people",
+    "DEAF": "deaf",
+    "HEARING": "hearing",
+    "SIGN": "sign",
+    "LANGUAGE": "language",
+    "BOOK": "book",
+    "PHONE": "phone",
+    "COMPUTER": "computer",
+    "NAME": "name",
+    "WHAT": "what",
+    "WHERE": "where",
+    "WHEN": "when",
+    "WHY": "why",
+    "HOW": "how",
+    "WHO": "who",
+    "SORRY": "sorry",
+    "AGAIN": "again",
+    "ALL": "all",
+    "SOME": "some",
+    "EAT": "eat",
+    "DRINK": "drink",
+    "BUY": "buy",
+    "SEE": "see",
+    "LOOK": "look",
+    "READ": "read",
+    "WRITE": "write",
+    "LEARN": "learn",
+    "TEACH": "teach",
+    "LOVE": "love",
+    "IX-1p": "I",
+    "IX-2p": "you",
+    "THANK-YOU": "thank you"
+  },
+  "phrases": [
+    {
+      "gloss": [
+        "THANK-YOU"
+      ],
+      "english": "Thank you."
+    },
+    {
+      "gloss": [
+        "SORRY"
+      ],
+      "english": "Sorry."
+    },
+    {
+      "gloss": [
+        "GOOD",
+        "MORNING"
+      ],
+      "english": "Good morning."
+    },
+    {
+      "gloss": [
+        "GOOD",
+        "NIGHT"
+      ],
+      "english": "Good night."
+    },
+    {
+      "gloss": [
+        "IX-1p",
+        "WANT",
+        "WATER"
+      ],
+      "english": "I want water."
+    },
+    {
+      "gloss": [
+        "IX-1p",
+        "NOT",
+        "WANT",
+        "WATER"
+      ],
+      "english": "I do not want water."
+    },
+    {
+      "gloss": [
+        "IX-1p",
+        "WANT",
+        "MILK"
+      ],
+      "english": "I want milk."
+    },
+    {
+      "gloss": [
+        "IX-1p",
+        "NOT",
+        "WANT",
+        "MILK"
+      ],
+      "english": "I do not want milk."
+    },
+    {
+      "gloss": [
+        "IX-1p",
+        "WANT",
+        "HELP"
+      ],
+      "english": "I want help."
+    },
+    {
+      "gloss": [
+        "IX-1p",
+        "NOT",
+        "WANT",
+        "HELP"
+      ],
+      "english": "I do not want help."
+    },
+    {
+      "gloss": [
+        "IX-1p",
+        "LIKE",
+        "WATER"
+      ],
+      "english": "I like water."
+    },
+    {
+      "gloss": [
+        "IX-1p",
+        "NOT",
+        "LIKE",
+        "WATER"
+      ],
+      "english": "I do not like water."
+    },
+    {
+      "gloss": [
+        "IX-1p",
+        "LIKE",
+        "MILK"
+      ],
+      "english": "I like milk."
+    },
+    {
+      "gloss": [
+        "IX-1p",
+        "NOT",
+        "LIKE",
+        "MILK"
+      ],
+      "english": "I do not like milk."
+    },
+    {
+      "gloss": [
+        "IX-1p",
+        "HAVE",
+        "WATER"
+      ],
+      "english": "I have water."
+    },
+    {
+      "gloss": [
+        "IX-1p",
+        "NOT",
+        "HAVE",
+        "WATER"
+      ],
+      "english": "I do not have water."
+    },
+    {
+      "gloss": [
+        "IX-1p",
+        "HAVE",
+        "MILK"
+      ],
+      "english": "I have milk."
+    },
+    {
+      "gloss": [
+        "IX-1p",
+        "NOT",
+        "HAVE",
+        "MILK"
+      ],
+      "english": "I do not have milk."
+    },
+    {
+      "gloss": [
+        "IX-1p",
+        "UNDERSTAND"
+      ],
+      "english": "I understand."
+    },
+    {
+      "gloss": [
+        "IX-1p",
+        "NOT",
+        "UNDERSTAND"
+      ],
+      "english": "I do not understand."
+    },
+    {
+      "gloss": [
+        "IX-1p",
+        "KNOW"
+      ],
+      "english": "I know."
+    },
+    {
+      "gloss": [
+        "IX-1p",
+        "NOT",
+        "KNOW"
+      ],
+      "english": "I do not know."
+    },
+    {
+      "gloss": [
+        "IX-2p",
+        "WANT",
+        "WATER"
+      ],
+      "english": "You want water."
+    },
+    {
+      "gloss": [
+        "IX-2p",
+        "NOT",
+        "WANT",
+        "WATER"
+      ],
+      "english": "You do not want water."
+    },
+    {
+      "gloss": [
+        "IX-2p",
+        "WANT",
+        "MILK"
+      ],
+      "english": "You want milk."
+    },
+    {
+      "gloss": [
+        "IX-2p",
+        "NOT",
+        "WANT",
+        "MILK"
+      ],
+      "english": "You do not want milk."
+    },
+    {
+      "gloss": [
+        "IX-2p",
+        "WANT",
+        "HELP"
+      ],
+      "english": "You want help."
+    },
+    {
+      "gloss": [
+        "IX-2p",
+        "NOT",
+        "WANT",
+        "HELP"
+      ],
+      "english": "You do not want help."
+    },
+    {
+      "gloss": [
+        "IX-2p",
+        "LIKE",
+        "WATER"
+      ],
+      "english": "You like water."
+    },
+    {
+      "gloss": [
+        "IX-2p",
+        "NOT",
+        "LIKE",
+        "WATER"
+      ],
+      "english": "You do not like water."
+    },
+    {
+      "gloss": [
+        "IX-2p",
+        "LIKE",
+        "MILK"
+      ],
+      "english": "You like milk."
+    },
+    {
+      "gloss": [
+        "IX-2p",
+        "NOT",
+        "LIKE",
+        "MILK"
+      ],
+      "english": "You do not like milk."
+    },
+    {
+      "gloss": [
+        "IX-2p",
+        "HAVE",
+        "WATER"
+      ],
+      "english": "You have water."
+    },
+    {
+      "gloss": [
+        "IX-2p",
+        "NOT",
+        "HAVE",
+        "WATER"
+      ],
+      "english": "You do not have water."
+    },
+    {
+      "gloss": [
+        "IX-2p",
+        "HAVE",
+        "MILK"
+      ],
+      "english": "You have milk."
+    },
+    {
+      "gloss": [
+        "IX-2p",
+        "NOT",
+        "HAVE",
+        "MILK"
+      ],
+      "english": "You do not have milk."
+    },
+    {
+      "gloss": [
+        "IX-2p",
+        "UNDERSTAND"
+      ],
+      "english": "You understand."
+    },
+    {
+      "gloss": [
+        "IX-2p",
+        "NOT",
+        "UNDERSTAND"
+      ],
+      "english": "You do not understand."
+    },
+    {
+      "gloss": [
+        "IX-2p",
+        "KNOW"
+      ],
+      "english": "You know."
+    },
+    {
+      "gloss": [
+        "IX-2p",
+        "NOT",
+        "KNOW"
+      ],
+      "english": "You do not know."
+    }
+  ]
+}

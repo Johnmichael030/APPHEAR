@@ -1,0 +1,11 @@
+{
+  "status": "PASS",
+  "TRAIN_utterances": 192,
+  "frames": 7847,
+  "offsets": 4,
+  "invalid_geometry_zeros_preserved": true,
+  "nonposition_channels_exact": true,
+  "original_arrays_and_files_unchanged": true,
+  "model_inference": false,
+  "TEST_used": false
+}

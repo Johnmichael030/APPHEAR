@@ -1,0 +1,15 @@
+{
+  "utterances": 27,
+  "WER": 1.0067567567567568,
+  "substitutions": 115,
+  "deletions": 25,
+  "insertions": 9,
+  "reference_tokens": 148,
+  "exact_sequences": 0,
+  "empty_outputs": 0,
+  "token_diversity": 64,
+  "hypothesis_tokens": 132,
+  "CTC_loss": 10.546657473952681,
+  "blank_fraction": 0.8249336870026526,
+  "scope": "ORIGINAL_SUPPORT5_SUBGROUP_FULL1500_SUPPORT_NOT_REDEFINED_FOR192"
+}

@@ -1,0 +1,32 @@
+{
+  "status": "PARTIAL: software bugs fixed; recognition quality not solved",
+  "apk": "D:\\apphearv3claude\\AppHear-claude-s2-r3-eval-suite\\AppHear-claude-s2-r3-eval-suite\\evidence\\20261021T062258Z_continuous_detectionfix01\\AppHear-continuous-refined-20261021.apk",
+  "apk_bytes": 852132332,
+  "apk_MiB": 812.6567192077637,
+  "apk_sha256": "a547e867134f2be80aa1a54265b3c6f3eac524588de55670c009ee1995a8493c",
+  "previous_apk_sha256": "97ad71071780935137206e89ac25b218206e7696fc236765f7c75d1215e0aefa",
+  "version": "1.0-continuous-refined-20261021",
+  "application_id": "com.example.apphear",
+  "host_tests": {
+    "tests": 301,
+    "failures": 0,
+    "errors": 0,
+    "skipped": 0
+  },
+  "frozen_source_files": 210,
+  "previous_APK_asset_entries_preserved_size_and_CRC": 528,
+  "exact_continuous_asset_bytes_unchanged": true,
+  "source_files_changed": [
+    "android/app/src/main/java/com/example/apphear/continuousasl/ContinuousAslCore.kt",
+    "android/app/src/main/java/com/example/apphear/RecognitionActivity.kt",
+    "android/app/src/test/java/com/example/apphear/continuousasl/ContinuousAslCoreTest.kt",
+    "android/app/build.gradle.kts"
+  ],
+  "training_runs": 0,
+  "new_checkpoints": 0,
+  "model_promoted": false,
+  "recognition_classes_added": 0,
+  "reserved_TEST_evaluated": false,
+  "hardware_check": "BLOCKED: ADB device list empty; no install/camera use",
+  "development_replay": "Same known signers; family-held-out80; already development-exposed; WER95.6701% before and after. No live/unseen-signer accuracy claim."
+}

@@ -1,0 +1,47 @@
+{
+  "status": "PASS computational TRAIN-only replay; NOT live or unseen-signer accuracy",
+  "runtime_seconds": 0.707858000008855,
+  "events": {
+    "utterances": 192,
+    "frames": 7847,
+    "nohand_frames": 2309,
+    "hand_reentries": 1092,
+    "visible_runs": 1203,
+    "pending_tokens_published_at_nohand_before": 186,
+    "pending_tokens_published_at_nohand_after": 0,
+    "visible_argmax_differences_from_continuous_context": 646
+  },
+  "metrics": {
+    "continuous_training_features_greedy": {
+      "substitutions": 242,
+      "deletions": 1007,
+      "insertions": 3,
+      "reference_tokens": 1464,
+      "exact": 1,
+      "tokens": 460,
+      "WER": 0.855191256830601,
+      "exact_sequence_fraction": 0.005208333333333333
+    },
+    "current_nohand_flush": {
+      "substitutions": 548,
+      "deletions": 813,
+      "insertions": 20,
+      "reference_tokens": 1464,
+      "exact": 0,
+      "tokens": 671,
+      "WER": 0.9433060109289617,
+      "exact_sequence_fraction": 0.0
+    },
+    "nohand_discard_fix": {
+      "substitutions": 391,
+      "deletions": 982,
+      "insertions": 3,
+      "reference_tokens": 1464,
+      "exact": 0,
+      "tokens": 485,
+      "WER": 0.9398907103825137,
+      "exact_sequence_fraction": 0.0
+    }
+  },
+  "interpretation": "A no-hand flush can create display emissions without observed valid hands. Removing it enforces abstention but can increase deletions. Training-continuous versus runtime-reset context is a separate observed serving-policy mismatch, not a proven generalization cause. No thresholds/model were tuned."
+}

@@ -1,0 +1,13 @@
+{
+  "seed": 20261021,
+  "paired_utterance_bootstrap_draws": 5000,
+  "WER_delta_candidate_minus_baseline": -0.010309278350515464,
+  "descriptive_percentile95_interval": [
+    -0.025096727031873475,
+    0.004106776180698152
+  ],
+  "limitation": "Development-exposed utterances correlated within only two recording families. Conditional descriptive interval, not a population or unseen-signer confidence claim.",
+  "improved_sequences": 9,
+  "worsened_sequences": 4,
+  "same_edit_count_sequences": 67
+}

@@ -1,0 +1,78 @@
+{
+  "schema": "apphear.continuous_asl.candidate01_causal378.v1",
+  "scope": "ISOLATED_RESEARCH_TRAIN_ONLY_FRAMING_DIAGNOSTIC_AND_CONDITIONAL_SINGLE_FIT",
+  "seed": 20261020,
+  "augmentation_seed": 20261021,
+  "offsets": [
+    [
+      0.03,
+      0.0
+    ],
+    [
+      -0.03,
+      0.0
+    ],
+    [
+      0.0,
+      0.03
+    ],
+    [
+      0.0,
+      -0.03
+    ]
+  ],
+  "sensitivity_gate": {
+    "baseline_WER": 0.10587431693989072,
+    "tolerance": 1e-06,
+    "minimum_absolute_WER_worsening": 0.1,
+    "minimum_offsets_worsened": 3
+  },
+  "intended_changed_variable": "Only per-utterance per-epoch constant XY translation, independent RNG, uniform[-.03,.03] each axis; no clipping.",
+  "model_channels": 48,
+  "classes": 2289,
+  "batch_size": 4,
+  "accumulation": 2,
+  "accumulation_tail": "actual group count",
+  "lr": 0.001,
+  "weight_decay": 0.0001,
+  "gradient_clip": 5.0,
+  "precision": "FP32",
+  "max_epochs": 30,
+  "max_optimizer_steps": 720,
+  "max_fit_seconds": 180,
+  "evaluations": [
+    0,
+    1,
+    5,
+    10,
+    15,
+    20,
+    25,
+    30
+  ],
+  "checkpoint_epochs": [
+    0,
+    5,
+    10,
+    20,
+    30
+  ],
+  "selection": "Fixed finalepoch30 only; no development selection.",
+  "collapse_stop": "At epoch10 stop if TRAINWER>=.95 and (dominant_nonblank_share>=.90 or token_diversity<=1).",
+  "normalization": "Exact original1500TRAIN-only mean/std; never refit",
+  "decoder": "Unchanged literal greedy CTC blank0/UNK1",
+  "heldout": "Historical development-exposed fixed80 and original27subgroup, once after final30 frozen; known signers, new recording families; no unseen-signer claim.",
+  "subset_sha256": "8a2234a3eafd0d336ebe888d7b8e391b17410540b62d702315d2f5cb0b3c5f48",
+  "vocabulary_sha256": "365b44d435c9def2bba6e0f347155c72bf2ca001bd365d5b10f55dbe91174715",
+  "normalization_sha256": "394a3862286b01b884d30952f767f8620969ea21c0384715254e4bddb2d41489",
+  "fold_sha256": "87442a6f1241860e369a5c8f0768d583b3a4058f5a9ad03dcc135532c419c72f",
+  "initialization_sha256": "e2dd03d4f4b84aa395be4cfba0239723678a2610f2e5da73c1df97d12dd3560a",
+  "baseline_checkpoint_sha256": "da4b47063e64f1eb5fb0dc974f3910befea4ff45c8542e0be9d43f6589dc57d0",
+  "script_sha256": "ffd3f5eb66e38a586c8b7b18670fa9c52effa1ceb7244c733fa19041b4e10431",
+  "model_source_sha256": "d434d2341348ab89558a82dfc9f952800e533246d4b6baf0294ee10fc013aa63",
+  "feature_source_sha256": "dfb5e9c2877881ab676d7c463739455b797e95679dfbe1e25866b26e8908f5f9",
+  "TEST_used": false,
+  "new_data": false,
+  "new_labels": false,
+  "promote": false
+}

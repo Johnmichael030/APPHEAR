@@ -1,0 +1,34 @@
+{
+  "status": "PASS",
+  "device": "SM-A226B",
+  "model_numerical_parity": true,
+  "synthetic_model_timing": [
+    {
+      "observations": 1,
+      "runs": 20,
+      "p50_ms": 1.2329615,
+      "p95_ms": 1.282461,
+      "max_ms": 1.292308
+    },
+    {
+      "observations": 17,
+      "runs": 20,
+      "p50_ms": 4.3669235,
+      "p95_ms": 5.001231,
+      "max_ms": 6.108
+    },
+    {
+      "observations": 61,
+      "runs": 20,
+      "p50_ms": 13.732769000000001,
+      "p95_ms": 27.429846,
+      "max_ms": 30.439923
+    }
+  ],
+  "scope": "SYNTHETIC_CPU_MODEL_ONLY_NOT_CAMERA_LATENCY",
+  "apphear_package_unchanged": true,
+  "model_under_test": "Existing packaged full-task epoch12; NOT new192 checkpoint",
+  "camera_used": false,
+  "participant_data_used": false,
+  "feature_math_or_full_app_lifecycle_tested": false
+}

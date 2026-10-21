@@ -1,0 +1,8 @@
+{
+  "GPU": "NVIDIA GeForce RTX 3050 Laptop GPU",
+  "CUDA": "12.8",
+  "torch": "2.8.0+cu128",
+  "VRAM_total": 4294443008,
+  "VRAM_free": 3447403316,
+  "CPU_threads": 16
+}

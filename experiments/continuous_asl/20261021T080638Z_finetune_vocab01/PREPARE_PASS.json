@@ -1,0 +1,13 @@
+{
+  "status": "PASS",
+  "source_checkpoint_strict_load": true,
+  "old_class_ids_unchanged": true,
+  "baseline_predictions_exact": true,
+  "baseline_streaming_edits_exact": true,
+  "train_features_verified": 1500,
+  "dev_features_verified": 80,
+  "CTC_feasible": true,
+  "no_blank_or_UNK_targets": true,
+  "family_overlap": false,
+  "known_signer_development": true
+}

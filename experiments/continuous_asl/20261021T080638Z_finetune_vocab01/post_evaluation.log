@@ -1,0 +1,74 @@
+{
+  "stats": {
+    "status": "PASS_COMPUTATIONAL_PARTIAL_RECOGNITION",
+    "TRAIN_utterances": 1500,
+    "TRAIN_tokens": 12423,
+    "literal_labels": 2287,
+    "singleton_labels": 1182,
+    "labels_under5": 1808,
+    "DEV_utterances": 80,
+    "DEV_reference_tokens": 485,
+    "DEV_distinct_labels": 176,
+    "TRAIN_signers": 3,
+    "DEV_signers": 2,
+    "TRAIN_source_keys": 34,
+    "DEV_source_keys": 5,
+    "TRAIN_families": 6,
+    "DEV_families": 2,
+    "adjacent_repeated_label_DEV_sequences": 0,
+    "same_label_anywhere_DEV_sequences": 16,
+    "CTC_feasibility": "All1580validated; no temporal stride/downsampling",
+    "sampled_nvidia_smi_device_peak_MiB": 1427.0,
+    "device_memory_note": "WDDM nvidia-smi sampled device-reported usage differs from allocator accounting; do not substitute it for measured PyTorch peak.",
+    "selected_checkpoint_bytes": 2349195,
+    "model_tensor_bytes": 750228,
+    "APK_asset_impact_bytes": 0,
+    "new_classes": 0,
+    "TEST_used": false
+  },
+  "uncertainty": {
+    "seed": 20261021,
+    "paired_utterance_bootstrap_draws": 5000,
+    "WER_delta_candidate_minus_baseline": -0.010309278350515464,
+    "descriptive_percentile95_interval": [
+      -0.025096727031873475,
+      0.004106776180698152
+    ],
+    "limitation": "Development-exposed utterances correlated within only two recording families. Conditional descriptive interval, not a population or unseen-signer confidence claim.",
+    "improved_sequences": 9,
+    "worsened_sequences": 4,
+    "same_edit_count_sequences": 67
+  },
+  "latency": [
+    {
+      "length": 1,
+      "host_CPU_model_only_p50_ms": 1.643249997869134,
+      "host_CPU_model_only_p95_ms": 2.1551249898038805,
+      "measured_repeats": 30,
+      "warmups": 5,
+      "threads": 2,
+      "input": "SYNTHETIC_ENGINEERING_ONLY",
+      "scope": "Windows CPU model-forward only; not Android, camera-to-text, or MediaPipe latency"
+    },
+    {
+      "length": 17,
+      "host_CPU_model_only_p50_ms": 2.090000023599714,
+      "host_CPU_model_only_p95_ms": 2.626119999331422,
+      "measured_repeats": 30,
+      "warmups": 5,
+      "threads": 2,
+      "input": "SYNTHETIC_ENGINEERING_ONLY",
+      "scope": "Windows CPU model-forward only; not Android, camera-to-text, or MediaPipe latency"
+    },
+    {
+      "length": 61,
+      "host_CPU_model_only_p50_ms": 2.120899996953085,
+      "host_CPU_model_only_p95_ms": 2.448400013963691,
+      "measured_repeats": 30,
+      "warmups": 5,
+      "threads": 2,
+      "input": "SYNTHETIC_ENGINEERING_ONLY",
+      "scope": "Windows CPU model-forward only; not Android, camera-to-text, or MediaPipe latency"
+    }
+  ]
+}

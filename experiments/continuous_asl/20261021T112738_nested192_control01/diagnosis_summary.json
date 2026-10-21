@@ -1,0 +1,8 @@
+{
+  "pipeline_valid_for_compact_control": true,
+  "source": "D:\\apphearv3claude\\AppHear-claude-s2-r3-eval-suite\\AppHear-claude-s2-r3-eval-suite\\experiments\\continuous_asl\\20261020T144622Z_compact_ctc_control01\\diagnosis_summary.json",
+  "new_feature_checks": 192,
+  "nested_membership": true,
+  "heldout_recording_family_guard": true,
+  "authentic_labels": true
+}

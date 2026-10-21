@@ -1,0 +1,32 @@
+{
+  "status": "PARTIAL: engineering checks pass; limited English rules and recognition quality remain experimental",
+  "apk": "D:\\apphearv3claude\\AppHear-claude-s2-r3-eval-suite\\AppHear-claude-s2-r3-eval-suite\\evidence\\20261021T040301Z_continuous_automatic_english01\\AppHear-continuous-auto-English-20261021.apk",
+  "apk_bytes": 852132332,
+  "apk_MiB": 812.6567192077637,
+  "apk_sha256": "97ad71071780935137206e89ac25b218206e7696fc236765f7c75d1215e0aefa",
+  "previous_apk_sha256": "bbef4b37d7067d092a726c55ab9fe98a4761d793442deaa992a1c0633ac93296",
+  "host_tests": {
+    "tests": 293,
+    "failures": 0,
+    "errors": 0,
+    "skipped": 0
+  },
+  "frozen_source_files_verified": 173,
+  "previous_apk_asset_entries_preserved_by_size_and_CRC": 526,
+  "changed_existing_assets": [],
+  "removed_assets": [],
+  "new_assets": [
+    "assets/continuous_asl_output/english.json",
+    "assets/continuous_asl_output/policy.json"
+  ],
+  "new_output_assets_bytes": 7813,
+  "continuous_model_assets_bytes": 813449,
+  "device_check": "BLOCKED: adb devices empty on 2026-10-21; no installation or camera capture performed",
+  "recognition_accuracy": "UNCHANGED: frozen epoch12 held-out WER95.67%; no new accuracy evaluation or fit",
+  "english_coverage": {
+    "word_equivalents": 75,
+    "exact_phrase_templates": 40,
+    "model_classes": 2289,
+    "unmapped_literal_targets": 2212
+  }
+}

@@ -1,0 +1,7 @@
+{
+  "status": "REPORT_ONLY_NO_REEVALUATION",
+  "artifact": "EXPERIMENT_RESULTS.csv",
+  "before_sha256": "0fecf950152bb630f43be67848a682b6135deda2ac2bbe6e46beed9f19d8658f",
+  "after_sha256": "1bd43fa8856b249eed69e8d232f245c301b14ba2bb6b6164d484f6f91cc61e81",
+  "reason": "Explicit TRAIN protocol and baseline-reuse columns; streaming DEV rows reuse full-sequence TRAIN scores. No metric changed."
+}

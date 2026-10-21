@@ -1,0 +1,31 @@
+Working directory:
+D:\apphearv3claude\AppHear-claude-s2-r3-eval-suite\AppHear-claude-s2-r3-eval-suite
+
+$python='D:\apphearv3claude\AppHear-claude-s2-r3-eval-suite\AppHear-claude-s2-r3-eval-suite\experiments\continuous_asl\20261019T155428Z_cslr01\runtime\venv\Scripts\python.exe'
+$run='D:\apphearv3claude\AppHear-claude-s2-r3-eval-suite\AppHear-claude-s2-r3-eval-suite\experiments\continuous_asl\20261021T062258Z_framing_control01'
+
+1. Existing completed192 verifier (executed, read-only):
+& $python -B 'D:\apphearv3claude\AppHear-claude-s2-r3-eval-suite\AppHear-claude-s2-r3-eval-suite\experiments\continuous_asl\20261021T112738_nested192_control01\verify192.py'
+Result: PASS216inputs/80heldout feature hashes/65artifacts; old192TRAIN155/1464edits, oldheldout490/485edits; no training.
+
+2. Original GPU availability (executed):
+nvidia-smi --query-gpu=name,memory.total,memory.used,utilization.gpu --format=csv,noheader,nounits
+Result: RTX3050Laptop,4096MiB,0MiB used,0%utilization before the diagnostic.
+
+3. New exclusively-created diagnosis (already executed; do not rerun over frozen config):
+& $python -B (Join-Path $run 'framing_control.py') --diagnose *> (Join-Path $run 'run.log')
+Result: baseline reproduced10.5874317%WER exactly. Synthetic parity PASS. Offsets11.3388/10.8607/10.9290/10.6557%WER.0of4worsened>=10pp; gateFAIL; no fit executed. Diagnostic inference13.6391259seconds.
+
+4. Supplementary actual-mask check (already executed; exclusive report output):
+& $python -B (Join-Path $run 'check_actual_masks.py')
+Result: PASS192TRAIN/7847frames/four offsets; invalid zeros and untouched channels exact; source arrays/files unchanged. No model inference.
+
+5. Conditional fit command (NOT EXECUTED, BLOCKED by failed gate):
+& $python -B (Join-Path $run 'framing_control.py') --fit-if-gated
+No training/checkpoint/held-out evaluation occurred. Do not relax the frozen gate.
+
+6. Exact next read-only verification:
+& $python -B (Join-Path $run 'framing_control.py') --verify
+Expected/current result: PASS224original files unchanged; sensitivity gateFAIL; fit_occurred:false; TEST_used:false; promoted:false.
+
+All writes remain in this new owned directory. No acquisition, full1500fit, old artifact overwrite, production/Android change, vocabulary/label edit, or TEST use occurred.

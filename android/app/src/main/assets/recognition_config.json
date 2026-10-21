@@ -1,0 +1,71 @@
+﻿{
+    "theta_conf":  -1.2,
+    "pose_cadence_experiment":  {
+                                    "hold_last_pose":  true,
+                                    "pose_every_n":  2,
+                                    "enabled":  true
+                                },
+    "low_fps_confirmation":  {
+                                 "k_stability":  3,
+                                 "min_commit_frame":  4,
+                                 "theta_margin":  0.9,
+                                 "theta_conf":  -1.2,
+                                 "enabled":  true
+                             },
+    "low_fps_s5":  {
+                       "k_on":  2,
+                       "k_off":  6,
+                       "smoothing_window":  3,
+                       "enabled":  true
+                   },
+    "theta_margin":  0.3,
+    "low_fps":  {
+                    "enter_below_fps":  10,
+                    "consecutive_frames":  20,
+                    "exit_above_fps":  12
+                },
+    "k_stability":  3,
+    "pre_onset":  {
+                      "frames":  3,
+                      "enabled":  true
+                  },
+    "post_commit_rearm":  {
+                                "enabled":  false,
+                                "departure_frames":  0,
+                                "measurement_logging":  false,
+                                "measurement_status":  "required_before_enable"
+                            },
+    "signing":  {
+                    "k_on":  3,
+                    "raise_margin":  0.1,
+                    "k_off":  4,
+                    "smoothing_window":  5,
+                    "require_hands":  true,
+                    "hand_aux_weight":  0.5,
+                    "theta_off":  0.072,
+                    "theta_on":  0.12
+                },
+    "_comment":  "RESTORED LOCAL CANDIDATE 2026-07-22 after old-model A/B. Old model improved IMPORTANT but regressed PUT/WE/KNOW badly. Current baseline restored to local supplementary 236-class candidate with GPU, camera_analysis=480x360, pose_every_n=2, strict low-FPS confirmation.",
+    "temperature":  0.6262,
+    "mediapipe_delegate":  {
+                               "mode":  "gpu"
+                           },
+    "camera_analysis":  {
+                            "target_width":  480,
+                            "target_height":  360
+                        },
+    "phase1_shadow":  {
+                           "enabled":  false,
+                           "log_every_n_frames":  5,
+                           "status":  "offline_parity_passed_device_profiling_pending"
+                       },
+    "runtime_diagnostics":  {
+                                "enabled":  false,
+                                "max_evidence_frames":  48,
+                                "evidence_stride":  1,
+                                "evidence_width":  240,
+                                "jpeg_quality":  70,
+                                "post_release_frames":  8,
+                                "status":  "RU-D1 default-off observational diagnostics"
+                            }
+}

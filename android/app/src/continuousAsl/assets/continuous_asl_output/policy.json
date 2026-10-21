@@ -1,0 +1,9 @@
+{
+  "schema_version": "apphear.continuous_asl.automatic_display.v1",
+  "automatic_display": true,
+  "automatic_speech": false,
+  "automatic_history_commit": false,
+  "stable_token_ms": 200.0,
+  "segment_idle_ms": 1200.0,
+  "status": "UNCALIBRATED_DISPLAY_HEURISTICS_NOT_ACCURACY_THRESHOLDS"
+}

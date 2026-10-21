@@ -1,0 +1,21 @@
+AppHear continuous-ASL Android integration — 2026-10-21 Asia/Shanghai
+
+1. Existing architecture/contracts, selected checkpoint and model pipeline inspected.
+2. Export (no fitting):
+& 'D:/apphearv3claude/AppHear-claude-s2-r3-eval-suite/AppHear-claude-s2-r3-eval-suite/experiments/continuous_asl/20261019T155428Z_cslr01/runtime/venv/Scripts/python.exe' -B 'D:/apphearv3claude/AppHear-claude-s2-r3-eval-suite/AppHear-claude-s2-r3-eval-suite/tools/continuous_asl/export_android_research.py'
+Result: PASS synthetic PyTorch/ONNX export, class mapping and causal-prefix parity. New package only; original checkpoint hash unchanged.
+3. Initial existing PowerShell build wrapper invocation:
+tools/android/build_working_baseline.ps1 -Configuration fake -OriginalWords -ContinuousAsl
+Result: Windows signed-script execution policy blocked the wrapper. No persistent execution policy was changed. Used its equivalent direct gradlew.bat arguments below.
+4. Build, then final rebuild after lifecycle/load-failure hardening:
+JAVA_HOME = C:/Program Files/Eclipse Adoptium/jdk-17.0.20.101-hotspot (process only)
+Working directory: D:/apphearv3claude/AppHear-claude-s2-r3-eval-suite/AppHear-claude-s2-r3-eval-suite/android
+.\gradlew.bat testDebugUnitTest assembleDebug assembleDebugAndroidTest --console=plain --no-daemon --max-workers=2 -Pandroid.useAndroidX=true -Pfingerspell=true -PfingerspellContinuous=true -PfingerspellArtifactDir=D:/apphearv3claude/AppHear-claude-s2-r3-eval-suite/AppHear-claude-s2-r3-eval-suite/packages/fingerspelling_continuous_v2_1_01 -PrecognitionRearCamera=true -PrecognitionCoordination=true -PcontextPhraseAssist=true -PcontextPhraseAssistProvider=fake -PaslAssetPilot=true -PaslSharedCharacter=true -PaslMoreWords=true -PaslCharacterSelection=true -PaslNewIdle=true -PaslAlphabetFallback=true -PaslOriginalWords=true -PcontinuousAsl=true -PSUPABASE_URL= -PSUPABASE_ANON_KEY= -PAPPHEAR_SUPABASE_URL= -PAPPHEAR_SUPABASE_ANON_KEY= -PAPPHEAR_ELEVENLABS_MODEL_ID= -PAPPHEAR_ELEVENLABS_VOICE_ID= -PAPPHEAR_ELEVENLABS_API_KEY= -PAPPHEAR_CONTEXT_ASSIST_API_KEY= -PAPPHEAR_GEMINI_API_KEY=
+Result: BUILD SUCCESSFUL. First build 3m12s; final rebuild 1m29s. 284 JVM tests, 0 failures/errors. Synthetic Android native test compiled but NOT RUN. No installation performed.
+5. Read-only final checks:
+& 'D:/apphearv3claude/AppHear-claude-s2-r3-eval-suite/AppHear-claude-s2-r3-eval-suite/experiments/continuous_asl/20261019T155428Z_cslr01/runtime/venv/Scripts/python.exe' -B 'D:/apphearv3claude/AppHear-claude-s2-r3-eval-suite/AppHear-claude-s2-r3-eval-suite/tools/continuous_asl/verify_android_integration.py'
+Result: PASS. Exact app package model/vocabulary/manifest hashes match export. Only 3 continuous runtime entries; synthetic fixtures absent from app APK. Existing 566 source assets and 33 frozen fingerspelling package entries unchanged. Full-task source checkpoint unchanged. Runtime assets 813449 bytes; APK payload for those entries 791456 bytes. Full debug APK 853580528 bytes.
+
+D:/apphearv3claude/AppHear-claude-s2-r3-eval-suite/AppHear-claude-s2-r3-eval-suite = D:/apphearv3claude/AppHear-claude-s2-r3-eval-suite/AppHear-claude-s2-r3-eval-suite
+Status: PASS host integration; PARTIAL device readiness; BLOCKED recognition-quality/production promotion.
+No data acquisition, fit, reserved TEST use, production checkpoint replacement or avatar change.

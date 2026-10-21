@@ -1,0 +1,9 @@
+{
+  "status": "PASS",
+  "subset_features_verified": 192,
+  "vocabulary_size": 2289,
+  "nested_original_96": true,
+  "numerical_integrity": true,
+  "fold_membership": true,
+  "source_family_guard": true
+}

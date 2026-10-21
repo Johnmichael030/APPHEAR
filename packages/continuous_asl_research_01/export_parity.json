@@ -1,0 +1,41 @@
+{
+  "status": "PASS",
+  "synthetic_only": true,
+  "recognition_accuracy_claim": false,
+  "checkpoint_sha256": "14d0e4669674265ea2be8a3161fa6699e4f813daf4b97b384863dce1daa038ff",
+  "model_sha256": "5651c24209a0951b09a792f44b17f5477dc86f353fb6ade1a3afec64ff20f663",
+  "torch": "2.8.0+cu128",
+  "onnxruntime": "1.22.0",
+  "tests": [
+    {
+      "length": 1,
+      "max_abs_error": 3.814697265625e-05,
+      "argmax_equal": true,
+      "causal_context_parity": true
+    },
+    {
+      "length": 2,
+      "max_abs_error": 3.814697265625e-05,
+      "argmax_equal": true,
+      "causal_context_parity": true
+    },
+    {
+      "length": 17,
+      "max_abs_error": 4.57763671875e-05,
+      "argmax_equal": true,
+      "causal_context_parity": true
+    },
+    {
+      "length": 61,
+      "max_abs_error": 4.57763671875e-05,
+      "argmax_equal": true,
+      "causal_context_parity": true
+    },
+    {
+      "length": 97,
+      "max_abs_error": 6.103515625e-05,
+      "argmax_equal": true,
+      "causal_context_parity": true
+    }
+  ]
+}

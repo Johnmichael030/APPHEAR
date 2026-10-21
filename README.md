@@ -1,21 +1,28 @@
-# AppHear continuous-ASL experiments
+# AppHear developer handover
 
-The experiment scripts, reports, configuration files, vocabularies and saved research results are browsable in [experiments/](experiments/).
+**Latest APK and continuous-ASL files — 21 October 2026, Asia/Shanghai.**
 
-## Start here
+- [Latest APK](apk/AppHear-continuous-refined-20261021.apk) — open the file and use **Download raw file** (812.7 MiB).
+- [Developer handover](DEVELOPER_HANDOVER.md) — setup, source map, build and known issues.
+- [Continuous-ASL Android runtime](android/app/src/main/java/com/example/apphear/continuousasl/).
+- [Continuous training/evaluation tools](tools/continuous_asl/).
+- [Runtime model and vocabulary](packages/continuous_asl_research_01/).
+- [Latest experimental fine-tuning report](experiments/continuous_asl/20261021T080638Z_finetune_vocab01/MISSION_REPORT.md).
+- [Exact delivered-file inventory](handover/CONTENT_MANIFEST.json).
 
-- [Full training report](experiments/continuous_asl/20261020T134156Z_gloss_training_report01/FULL_TRAINING_REPORT.md)
-- [All trained gloss labels](experiments/continuous_asl/20261020T134156Z_gloss_training_report01/ALL_TRAINED_GLOSS_LABELS.txt)
-- [All eligible gloss labels](experiments/continuous_asl/20261020T134156Z_gloss_training_report01/ALL_ELIGIBLE_GLOSS_LABELS.txt)
-- [Label counts](experiments/continuous_asl/20261020T134156Z_gloss_training_report01/COUNTS.json)
-- [Latest compact CTC control report](experiments/continuous_asl/20261020T144622Z_compact_ctc_control01/MISSION_REPORT.md)
+APK, models, checkpoints and large binary assets are stored directly at their project paths through **Git LFS**. Use a short checkout path on Windows:
 
-These are historical research artifacts, including failed experiments. They do not establish reliable live recognition or unseen-signer generalization. No experimental model has been promoted through this upload.
+```powershell
+git lfs install
+git clone https://github.com/Johnmichael030/APPHEAR.git C:\src\APPHEAR
+Set-Location C:\src\APPHEAR
+git lfs pull
+git lfs fsck
+python .\tools\handover\verify_checkout.py
+```
 
-## Full backup and upload scope
+GitHub's ordinary ZIP download may contain LFS pointers. Clone with Git LFS to obtain actual assets. The repository is private; give the receiving developer collaborator access separately.
 
-The [complete encrypted experiments backup](https://github.com/Johnmichael030/APPHEAR/releases/tag/experiments-backup-20261020T153137Z) remains under Releases. It contains the full 116,524-file snapshot, including binary checkpoints and data payloads. A separately held recovery key is required; it is not stored on GitHub.
+The APK retains the frozen epoch-12 recognizer. Latest research A improved full-sequence DEV WER from 95.67% to 94.64%, but streaming replay stays 95.67% and exact sequences remain 0/80. It was **not promoted**. Recognition and the finite English renderer remain experimental.
 
-The Code view contains research text files up to 10 MiB each. Dataset/media/features, downloaded source catalogs, software environments/caches, copied regression repositories, binary model payloads, explicitly named protected TEST/participant metadata and files matching credential patterns are omitted from this browsable copy. Existing local files and the full encrypted backup remain unchanged. See [upload scope](experiments/UPLOAD_SCOPE.json) and [copied-file SHA256 hashes](experiments/UPLOAD_CONTENTS.sha256).
-
-Reports can reference omitted or machine-local paths. This is an archive of research evidence, not a standalone environment or a claim that every historical command can run from this checkout. Keep the repository private and respect the original datasets' permissions and licenses.
+Restricted dataset payloads, participant recordings, credentials and environments are excluded. Earlier [encrypted backup and research-upload information](handover/PREVIOUS_REPOSITORY_README.md) is preserved. The older [project README](handover/PROJECT_README.md) is historical; start with DEVELOPER_HANDOVER.md.

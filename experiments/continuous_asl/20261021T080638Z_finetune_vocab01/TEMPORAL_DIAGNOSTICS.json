@@ -1,0 +1,23 @@
+{
+  "status": "PARTIAL_DIAGNOSTIC_ONLY",
+  "DEV_publisher_occurrences": 485,
+  "zero_sampled_observations": 19,
+  "one_sampled_observation": 100,
+  "observation_count_histogram": {
+    "1": 100,
+    "3": 125,
+    "2": 142,
+    "5": 18,
+    "0": 19,
+    "6": 8,
+    "4": 65,
+    "8": 3,
+    "7": 3,
+    "9": 2
+  },
+  "qualified_physical_boundary_review": false,
+  "no_sign_minutes_available": 0,
+  "adjacent_repeated_label_DEV_sequences": 0,
+  "live_latency_measured": false,
+  "scope": "Cached approximately10Hz publisher interval joins. CTC peaks are not forced alignments or authoritative physical sign boundaries. No threshold tuned."
+}

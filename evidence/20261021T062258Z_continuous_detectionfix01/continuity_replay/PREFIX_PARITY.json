@@ -1,0 +1,79 @@
+[
+  {
+    "policy": "B_retain_missing_features",
+    "sample_id": "asllrp3_34dc1c38209e6cdc",
+    "index": 0,
+    "prefix_observations": 1,
+    "max_abs_error": 1.52587890625e-05,
+    "argmax_equal": true,
+    "numerical_tolerance_pass": true,
+    "visible": false,
+    "inference_scope": "Offline numerical test even if nohand; not a serving prediction"
+  },
+  {
+    "policy": "B_retain_missing_features",
+    "sample_id": "asllrp3_34dc1c38209e6cdc",
+    "index": 1,
+    "prefix_observations": 2,
+    "max_abs_error": 0.0,
+    "argmax_equal": true,
+    "numerical_tolerance_pass": true,
+    "visible": false,
+    "inference_scope": "Offline numerical test even if nohand; not a serving prediction"
+  },
+  {
+    "policy": "B_retain_missing_features",
+    "sample_id": "asllrp3_34dc1c38209e6cdc",
+    "index": 30,
+    "prefix_observations": 31,
+    "max_abs_error": 0.0,
+    "argmax_equal": true,
+    "numerical_tolerance_pass": true,
+    "visible": true,
+    "inference_scope": "Offline numerical test even if nohand; not a serving prediction"
+  },
+  {
+    "policy": "A_reset_nohand",
+    "sample_id": "asllrp3_34dc1c38209e6cdc",
+    "index": 30,
+    "prefix_observations": 14,
+    "max_abs_error": 0.0,
+    "argmax_equal": true,
+    "numerical_tolerance_pass": true,
+    "visible": true,
+    "inference_scope": "Within the existing contiguous visible model-history block"
+  },
+  {
+    "policy": "B_retain_missing_features",
+    "sample_id": "asllrp3_34dc1c38209e6cdc",
+    "index": 60,
+    "prefix_observations": 61,
+    "max_abs_error": 0.0,
+    "argmax_equal": true,
+    "numerical_tolerance_pass": true,
+    "visible": false,
+    "inference_scope": "Offline numerical test even if nohand; not a serving prediction"
+  },
+  {
+    "policy": "B_retain_missing_features",
+    "sample_id": "asllrp3_34dc1c38209e6cdc",
+    "index": 99,
+    "prefix_observations": 61,
+    "max_abs_error": 0.0,
+    "argmax_equal": true,
+    "numerical_tolerance_pass": true,
+    "visible": true,
+    "inference_scope": "Offline numerical test even if nohand; not a serving prediction"
+  },
+  {
+    "policy": "A_reset_nohand",
+    "sample_id": "asllrp3_34dc1c38209e6cdc",
+    "index": 99,
+    "prefix_observations": 4,
+    "max_abs_error": 0.0,
+    "argmax_equal": true,
+    "numerical_tolerance_pass": true,
+    "visible": true,
+    "inference_scope": "Within the existing contiguous visible model-history block"
+  }
+]

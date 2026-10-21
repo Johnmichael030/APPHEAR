@@ -1,0 +1,5 @@
+role,policy,substitutions,deletions,insertions,reference_tokens,utterances,exact_sequences,hypothesis_tokens,empty_outputs,nohand_token_emissions,logical_model_calls_on_nohand,logical_visible_inference_positions,token_limit_hits,WER,exact_sequence_fraction
+TRAIN192,A_reset_nohand,391,982,3,1464,192,0,485,23,0,0,5538,0,0.9398907103825137,0.0
+TRAIN192,B_retain_missing_features,117,1252,0,1464,192,0,212,73,0,0,5538,0,0.9351092896174863,0.0
+HELD80,A_reset_nohand,176,288,0,485,80,0,197,7,0,0,1697,0,0.9567010309278351,0.0
+HELD80,B_retain_missing_features,65,409,0,485,80,0,76,30,0,0,1697,0,0.977319587628866,0.0

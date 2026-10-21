@@ -1,0 +1,4 @@
+length,host_CPU_model_only_p50_ms,host_CPU_model_only_p95_ms,measured_repeats,warmups,threads,input,scope
+1,1.643249997869134,2.1551249898038805,30,5,2,SYNTHETIC_ENGINEERING_ONLY,"Windows CPU model-forward only; not Android, camera-to-text, or MediaPipe latency"
+17,2.090000023599714,2.626119999331422,30,5,2,SYNTHETIC_ENGINEERING_ONLY,"Windows CPU model-forward only; not Android, camera-to-text, or MediaPipe latency"
+61,2.120899996953085,2.448400013963691,30,5,2,SYNTHETIC_ENGINEERING_ONLY,"Windows CPU model-forward only; not Android, camera-to-text, or MediaPipe latency"

@@ -1,0 +1,7 @@
+{
+  "experiment": "C_retention_or_imbalance_control",
+  "status": "NOT_RUN_PREDECLARED_PROMISING_GATE_FAILED",
+  "reason": "AgreedyDEVgain1.0309pp<2pprequired; streamingWERunchanged. Bdataadmissionblocked.",
+  "changes_applied": false,
+  "TEST_used": false
+}

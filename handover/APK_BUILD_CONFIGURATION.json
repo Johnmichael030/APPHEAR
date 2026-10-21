@@ -1,0 +1,38 @@
+{
+  "booleans": {
+    "A1_INDEPENDENT_CLOCK_ENABLED": false,
+    "ASL_ALPHABET_FALLBACK_ENABLED": true,
+    "ASL_ASSET_PILOT_ENABLED": true,
+    "ASL_CHARACTER_SELECTION_ENABLED": true,
+    "ASL_MORE_WORDS_ENABLED": true,
+    "ASL_NEW_IDLE_ENABLED": true,
+    "ASL_ORIGINAL_WORDS_ENABLED": true,
+    "ASL_SHARED_CHARACTER_ENABLED": true,
+    "CONTEXT_PHRASE_ASSIST_ENABLED": true,
+    "CONTEXT_PHRASE_CAPTURE_ENABLED": false,
+    "CONTINUOUS_ASL_EXPERIMENT_ENABLED": true,
+    "FINGERSPELL_CONTINUOUS_ENABLED": true,
+    "FINGERSPELL_EXPERIMENT_ENABLED": true,
+    "PERCEPTION_VNEXT_ENABLED": false,
+    "PHASE1_SHADOW_ENABLED": false,
+    "PHONE_CAUSAL_RECOGNITION_ENABLED": false,
+    "PROFILE_ACCOUNTS_ENABLED": false,
+    "RECOGNITION_COORDINATION_ENABLED": true,
+    "RECOGNITION_REAR_CAMERA_ENABLED": true,
+    "RECOGNITION_V3_PARALLEL_HANDS_ENABLED": false,
+    "RECOGNITION_V3_PROFILE_ENABLED": false,
+    "RU_D10_OBSERVATION_CONTINUITY_ENABLED": false,
+    "RU_D10_S5_ONE_SHORT_GAP_ENABLED": false,
+    "RU_D1_ENABLED": false
+  },
+  "nonempty_credential_field_names": [],
+  "safe_string_configuration": {
+    "APPLICATION_ID": "com.example.apphear",
+    "BUILD_TYPE": "debug",
+    "VERSION_NAME": "1.0-continuous-refined-20261021",
+    "APP_PHONE_S2_PACKAGE": "S2_R2_CANDIDATE",
+    "CONTEXT_PHRASE_ASSIST_PROVIDER": "fake"
+  },
+  "source": "D:\\apphearv3claude\\AppHear-claude-s2-r3-eval-suite\\AppHear-claude-s2-r3-eval-suite\\android\\app\\build\\generated\\source\\buildConfig\\debug\\com\\example\\apphear\\BuildConfig.java",
+  "credential_values_emitted": false
+}

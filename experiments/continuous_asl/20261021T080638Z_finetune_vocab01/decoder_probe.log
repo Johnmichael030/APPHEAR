@@ -1,0 +1,6 @@
+{"model": "baseline", "decoder": "greedy", "WER": 0.9567010309278351, "substitutions": 136, "deletions": 328, "insertions": 0, "reference_tokens": 485, "exact_sequences": 0, "token_diversity": 49, "CPU_seconds": 0.11949770001228899}
+{"model": "baseline", "decoder": "beam4", "WER": 0.9505154639175257, "substitutions": 143, "deletions": 318, "insertions": 0, "reference_tokens": 485, "exact_sequences": 0, "token_diversity": 47, "CPU_seconds": 0.9226470000576228}
+{"model": "baseline", "decoder": "beam8", "WER": 0.9463917525773196, "substitutions": 139, "deletions": 320, "insertions": 0, "reference_tokens": 485, "exact_sequences": 0, "token_diversity": 46, "CPU_seconds": 1.451154999958817}
+{"model": "A", "decoder": "greedy", "WER": 0.9463917525773196, "substitutions": 132, "deletions": 327, "insertions": 0, "reference_tokens": 485, "exact_sequences": 0, "token_diversity": 49, "CPU_seconds": 0.1205754000111483}
+{"model": "A", "decoder": "beam4", "WER": 0.9484536082474226, "substitutions": 141, "deletions": 319, "insertions": 0, "reference_tokens": 485, "exact_sequences": 0, "token_diversity": 47, "CPU_seconds": 0.9437921000062488}
+{"model": "A", "decoder": "beam8", "WER": 0.9484536082474226, "substitutions": 143, "deletions": 317, "insertions": 0, "reference_tokens": 485, "exact_sequences": 0, "token_diversity": 45, "CPU_seconds": 1.449409699998796}

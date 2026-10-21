@@ -1,0 +1,140 @@
+{
+  "status": "PASS",
+  "fixture": "SYNTHETIC_ONLY_NOT_MODEL_ACCURACY",
+  "frames": 13,
+  "trials": 6,
+  "max_abs_error": 1.1920928955078125e-07,
+  "absolute_tolerance": 3e-07,
+  "invalid_zeros_preserved": true,
+  "nonposition_channels_exact": true,
+  "original_unchanged": true,
+  "feature_blocks": [
+    {
+      "name": "hand_xy_image",
+      "start": 0,
+      "width": 84,
+      "semantics": "current refined XY / source width,height; zero when invalid"
+    },
+    {
+      "name": "hand_joint_valid",
+      "start": 84,
+      "width": 42,
+      "semantics": "current refined joint validity including observed state"
+    },
+    {
+      "name": "hand_proposal_support",
+      "start": 126,
+      "width": 42,
+      "semantics": "current DWPose proposal support"
+    },
+    {
+      "name": "hand_presence",
+      "start": 168,
+      "width": 2,
+      "semantics": "current finite MediaPipe group-presence value, else zero"
+    },
+    {
+      "name": "hand_presence_valid",
+      "start": 170,
+      "width": 2,
+      "semantics": "presence value is finite"
+    },
+    {
+      "name": "hand_observed",
+      "start": 172,
+      "width": 2,
+      "semantics": "current refined-hand observed state"
+    },
+    {
+      "name": "hand_proposal_present",
+      "start": 174,
+      "width": 2,
+      "semantics": "current proposal/ROI state"
+    },
+    {
+      "name": "hand_roi_image",
+      "start": 176,
+      "width": 6,
+      "semantics": "current ROI center x/y and side normalized to source geometry"
+    },
+    {
+      "name": "body_xy_image",
+      "start": 182,
+      "width": 16,
+      "semantics": "current body XY / source width,height; zero when invalid"
+    },
+    {
+      "name": "body_support",
+      "start": 198,
+      "width": 8,
+      "semantics": "current DWPose body support"
+    },
+    {
+      "name": "body_valid",
+      "start": 206,
+      "width": 8,
+      "semantics": "current body-point validity"
+    },
+    {
+      "name": "body_available",
+      "start": 214,
+      "width": 1,
+      "semantics": "current complete-body-group availability"
+    },
+    {
+      "name": "dt_seconds",
+      "start": 215,
+      "width": 1,
+      "semantics": "actual backward source-timestamp delta, clipped to one second"
+    },
+    {
+      "name": "hand_xy_delta",
+      "start": 216,
+      "width": 84,
+      "semantics": "current minus previous normalized refined XY when both valid"
+    },
+    {
+      "name": "hand_delta_valid",
+      "start": 300,
+      "width": 42,
+      "semantics": "both current and previous refined joints valid"
+    },
+    {
+      "name": "hand_roi_delta",
+      "start": 342,
+      "width": 6,
+      "semantics": "current minus previous normalized ROI when both proposals exist"
+    },
+    {
+      "name": "hand_roi_delta_valid",
+      "start": 348,
+      "width": 2,
+      "semantics": "both current and previous hand proposals exist"
+    },
+    {
+      "name": "body_xy_delta",
+      "start": 350,
+      "width": 16,
+      "semantics": "current minus previous normalized body XY when both valid"
+    },
+    {
+      "name": "body_delta_valid",
+      "start": 366,
+      "width": 8,
+      "semantics": "both current and previous body points valid"
+    },
+    {
+      "name": "hand_observed_transition",
+      "start": 374,
+      "width": 2,
+      "semantics": "current minus previous observed state"
+    },
+    {
+      "name": "hand_proposal_transition",
+      "start": 376,
+      "width": 2,
+      "semantics": "current minus previous proposal state"
+    }
+  ],
+  "limitation": "Feature-space translation does not rerun perception or simulate crop/occlusion/physical signer differences."
+}

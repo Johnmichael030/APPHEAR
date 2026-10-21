@@ -1,0 +1,8 @@
+{
+  "status": "PASS",
+  "feature_files": 80,
+  "inputs_and_model_unchanged": true,
+  "paired_parent_results_config_unchanged": true,
+  "NEW_matches_prior_fixed80_reset_replay": true,
+  "TEST_accessed": false
+}

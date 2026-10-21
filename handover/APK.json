@@ -1,0 +1,12 @@
+{
+  "name": "AppHear-continuous-refined-20261021.apk",
+  "bytes": 852132332,
+  "sha256": "a547e867134f2be80aa1a54265b3c6f3eac524588de55670c009ee1995a8493c",
+  "version": "1.0-continuous-refined-20261021",
+  "application_id": "com.example.apphear",
+  "experimental": true,
+  "new_finetune_included": false,
+  "repository_path": "apk/AppHear-continuous-refined-20261021.apk",
+  "storage": "git-lfs",
+  "download_url": "https://github.com/Johnmichael030/APPHEAR/blob/main/apk/AppHear-continuous-refined-20261021.apk"
+}

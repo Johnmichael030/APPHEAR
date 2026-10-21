@@ -1,0 +1,48 @@
+AppHear isolated fine-tuning mission — commands and measured results
+Working directory: D:\apphearv3claude\AppHear-claude-s2-r3-eval-suite\AppHear-claude-s2-r3-eval-suite
+Interpreter: D:\apphearv3claude\AppHear-claude-s2-r3-eval-suite\AppHear-claude-s2-r3-eval-suite\experiments\continuous_asl\20261019T155428Z_cslr01\runtime\venv\Scripts\python.exe
+All commands below are PowerShell. No global Python/CUDA installs, media payload downloads, app builds, phone modifications or Git operations occurred.
+
+Completed commands (chronological stages; full stdout/log files retained):
+& 'D:\apphearv3claude\AppHear-claude-s2-r3-eval-suite\AppHear-claude-s2-r3-eval-suite\experiments\continuous_asl\20261019T155428Z_cslr01\runtime\venv\Scripts\python.exe' -B 'D:\apphearv3claude\AppHear-claude-s2-r3-eval-suite\AppHear-claude-s2-r3-eval-suite\experiments\continuous_asl\20261021T080638Z_finetune_vocab01\fine_tune.py' prepare
+  PASS:1580features,221protectedpaths, source/IDs/normalization/family guards; baseline exact; report created BEFORE optimizer update. Output prepare.log.
+& 'D:\apphearv3claude\AppHear-claude-s2-r3-eval-suite\AppHear-claude-s2-r3-eval-suite\experiments\continuous_asl\20261019T155428Z_cslr01\runtime\venv\Scripts\python.exe' -B 'D:\apphearv3claude\AppHear-claude-s2-r3-eval-suite\AppHear-claude-s2-r3-eval-suite\experiments\continuous_asl\20261021T080638Z_finetune_vocab01\fine_tune.py' A
+  PASS execution; PARTIAL recognition:10epochs1880mainupdates,1disposableupdate,82.1064008s, peakallocated1303238656bytes; NO_CREDIBLE_DEV_GAIN_STOP. Output A_training.log; A/RESULTS.json.
+& 'D:\apphearv3claude\AppHear-claude-s2-r3-eval-suite\AppHear-claude-s2-r3-eval-suite\experiments\continuous_asl\20261019T155428Z_cslr01\runtime\venv\Scripts\python.exe' -B 'D:\apphearv3claude\AppHear-claude-s2-r3-eval-suite\AppHear-claude-s2-r3-eval-suite\experiments\continuous_asl\20261021T080638Z_finetune_vocab01\decoder_probe.py'
+  PASS synthetic exhaustive correctness;6cached-logit comparisons. decoder_probe.log. Performed after A, not before it.
+& 'D:\apphearv3claude\AppHear-claude-s2-r3-eval-suite\AppHear-claude-s2-r3-eval-suite\experiments\continuous_asl\20261019T155428Z_cslr01\runtime\venv\Scripts\python.exe' -B 'D:\apphearv3claude\AppHear-claude-s2-r3-eval-suite\AppHear-claude-s2-r3-eval-suite\experiments\continuous_asl\20261021T080638Z_finetune_vocab01\inventory_expansion.py'
+  BLOCKED newclassadmission;510proposalrows,463distinctnewlabels,0admitted. inventory_expansion.log.
+& 'D:\apphearv3claude\AppHear-claude-s2-r3-eval-suite\AppHear-claude-s2-r3-eval-suite\experiments\continuous_asl\20261019T155428Z_cslr01\runtime\venv\Scripts\python.exe' -B 'D:\apphearv3claude\AppHear-claude-s2-r3-eval-suite\AppHear-claude-s2-r3-eval-suite\experiments\continuous_asl\20261021T080638Z_finetune_vocab01\vocabulary_extension.py'
+  PASS synthetic-only append/head/serialization/gradient tests. extension_tests.log.
+  Setup failure while preparing B scripts: shell working directory was already RUN while relative paths began experiments/continuous_asl/RUN. Set-Content could not find duplicated paths and the relative interpreter was not found. No model/data changed; command corrected to project-root workdir before execution.
+& 'D:\apphearv3claude\AppHear-claude-s2-r3-eval-suite\AppHear-claude-s2-r3-eval-suite\experiments\continuous_asl\20261019T155428Z_cslr01\runtime\venv\Scripts\python.exe' -B 'D:\apphearv3claude\AppHear-claude-s2-r3-eval-suite\AppHear-claude-s2-r3-eval-suite\experiments\continuous_asl\20261021T080638Z_finetune_vocab01\train_expansion_B.py'
+  EXPECTED exit2: B_ADMISSION_BLOCKED missing B/APPROVED_DATA_MANIFEST.json. B_preflight.log. No B fit.
+& 'D:\apphearv3claude\AppHear-claude-s2-r3-eval-suite\AppHear-claude-s2-r3-eval-suite\experiments\continuous_asl\20261019T155428Z_cslr01\runtime\venv\Scripts\python.exe' -B 'D:\apphearv3claude\AppHear-claude-s2-r3-eval-suite\AppHear-claude-s2-r3-eval-suite\experiments\continuous_asl\20261021T080638Z_finetune_vocab01\test_expanded_optimizer.py'
+  PASS one actual synthetic expanded AdamW step; no participant data/model saved. expanded_optimizer_test.log.
+& 'D:\apphearv3claude\AppHear-claude-s2-r3-eval-suite\AppHear-claude-s2-r3-eval-suite\experiments\continuous_asl\20261019T155428Z_cslr01\runtime\venv\Scripts\python.exe' -B 'D:\apphearv3claude\AppHear-claude-s2-r3-eval-suite\AppHear-claude-s2-r3-eval-suite\experiments\continuous_asl\20261021T080638Z_finetune_vocab01\post_evaluate.py'
+  PASS saved-prediction alignments, per-class/bucket/group analyses, descriptive uncertainty, parameter changes and synthetic host latency. post_evaluation.log. No fit.
+& 'D:\apphearv3claude\AppHear-claude-s2-r3-eval-suite\AppHear-claude-s2-r3-eval-suite\experiments\continuous_asl\20261019T155428Z_cslr01\runtime\venv\Scripts\python.exe' -B 'D:\apphearv3claude\AppHear-claude-s2-r3-eval-suite\AppHear-claude-s2-r3-eval-suite\experiments\continuous_asl\20261021T080638Z_finetune_vocab01\local_permission_scan.py'
+  PASS read-only metadata/DOCX text search after user supplied root.1,223files,480empty reviewer_notes,no executedpermission/labelrecord established. local_permission_scan.log. No participant pixels/feature arrays opened by scan.
+& 'D:\apphearv3claude\AppHear-claude-s2-r3-eval-suite\AppHear-claude-s2-r3-eval-suite\experiments\continuous_asl\20261019T155428Z_cslr01\runtime\venv\Scripts\python.exe' -B 'D:\apphearv3claude\AppHear-claude-s2-r3-eval-suite\AppHear-claude-s2-r3-eval-suite\experiments\continuous_asl\20261021T080638Z_finetune_vocab01\temporal_diagnostics.py'
+  PARTIAL publisher interval diagnostics:485occurrences,19zero-sample,100one-sample. temporal_diagnostics.log. No threshold tuning/physical boundary claim.
+& 'D:\apphearv3claude\AppHear-claude-s2-r3-eval-suite\AppHear-claude-s2-r3-eval-suite\experiments\continuous_asl\20261019T155428Z_cslr01\runtime\venv\Scripts\python.exe' -B 'D:\apphearv3claude\AppHear-claude-s2-r3-eval-suite\AppHear-claude-s2-r3-eval-suite\experiments\continuous_asl\20261021T080638Z_finetune_vocab01\fine_tune.py' verify
+  PASS221protectedfiles+1580featurehashes. preservation_verify.log.
+& 'D:\apphearv3claude\AppHear-claude-s2-r3-eval-suite\AppHear-claude-s2-r3-eval-suite\experiments\continuous_asl\20261019T155428Z_cslr01\runtime\venv\Scripts\python.exe' -B 'D:\apphearv3claude\AppHear-claude-s2-r3-eval-suite\AppHear-claude-s2-r3-eval-suite\experiments\continuous_asl\20261021T080638Z_finetune_vocab01\write_reports.py'
+  Assemble required reports; clarify TRAIN protocol/reused-baseline columns without changing measured metrics. REPORT_CLARIFICATIONS.json.
+
+Final read-only checks (safe to repeat; no training, writes or TEST access):
+& 'D:\apphearv3claude\AppHear-claude-s2-r3-eval-suite\AppHear-claude-s2-r3-eval-suite\experiments\continuous_asl\20261019T155428Z_cslr01\runtime\venv\Scripts\python.exe' -B 'D:\apphearv3claude\AppHear-claude-s2-r3-eval-suite\AppHear-claude-s2-r3-eval-suite\experiments\continuous_asl\20261021T080638Z_finetune_vocab01\verify_completed.py'
+
+Equivalent wrapper if script execution policy blocks unsigned .ps1:
+powershell.exe -NoProfile -ExecutionPolicy Bypass -File 'D:\apphearv3claude\AppHear-claude-s2-r3-eval-suite\AppHear-claude-s2-r3-eval-suite\experiments\continuous_asl\20261021T080638Z_finetune_vocab01\Verify-Completed.ps1'
+
+B admission check only (currently exits2; do not add --train before valid evidence is frozen):
+& 'D:\apphearv3claude\AppHear-claude-s2-r3-eval-suite\AppHear-claude-s2-r3-eval-suite\experiments\continuous_asl\20261019T155428Z_cslr01\runtime\venv\Scripts\python.exe' -B 'D:\apphearv3claude\AppHear-claude-s2-r3-eval-suite\AppHear-claude-s2-r3-eval-suite\experiments\continuous_asl\20261021T080638Z_finetune_vocab01\train_expansion_B.py' --manifest 'D:\apphearv3claude\AppHear-claude-s2-r3-eval-suite\AppHear-claude-s2-r3-eval-suite\experiments\continuous_asl\20261021T080638Z_finetune_vocab01\B\APPROVED_DATA_MANIFEST.json'
+
+Future B launch after all evidence is independently reviewed and preflight passes:
+& 'D:\apphearv3claude\AppHear-claude-s2-r3-eval-suite\AppHear-claude-s2-r3-eval-suite\experiments\continuous_asl\20261019T155428Z_cslr01\runtime\venv\Scripts\python.exe' -B 'D:\apphearv3claude\AppHear-claude-s2-r3-eval-suite\AppHear-claude-s2-r3-eval-suite\experiments\continuous_asl\20261021T080638Z_finetune_vocab01\train_expansion_B.py' --manifest 'D:\apphearv3claude\AppHear-claude-s2-r3-eval-suite\AppHear-claude-s2-r3-eval-suite\experiments\continuous_asl\20261021T080638Z_finetune_vocab01\B\APPROVED_DATA_MANIFEST.json' --train
+  NOT EXECUTED. Future path is unvalidated on real expanded data; new outputs go to fresh B/admitted_timestamp directories. Source and all old mappings retained; original TRAIN replay only. No automatic promotion.
+
+Do not rerun prepare, measurement scripts or A into this completed directory. Exclusive outputs protect evidence. For a separately authorized experiment use a new uniquely named sibling directory and freeze its config/manifests first. A --resume supports interrupted fitting but detects this completed result and will skip; no resume is needed. Original A script is preserved exactly as executed.
+
+Source checks: ASLLRP official resource/terms/annotation/dataset documents. Some web PDF/CSV references were inaccessible through the browser tool; official explicit page/index URLs were used instead. No dataset payload acquired. An accessible DSP index did not override the publisher's download exclusion.

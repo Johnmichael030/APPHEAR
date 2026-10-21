@@ -1,0 +1,355 @@
+--- before/android/app/src/main/java/com/example/apphear/continuousasl/ContinuousAslCore.kt
++++ after/android/app/src/main/java/com/example/apphear/continuousasl/ContinuousAslCore.kt
+@@ -51,6 +51,7 @@
+     private var lastSelected: Double? = null
+     private var lastNonblank: Double? = null
+     private var active = false
++    private var suspended = true
+     @Volatile var snapshot = ContinuousAslSnapshot(); private set
+ 
+     init { require(vocabulary.size > 2 && vocabulary.take(2) == listOf("<BLANK>", "<UNK>")) }
+@@ -59,6 +60,9 @@
+     fun select(enabled: Boolean) {
+         if (enabled == active) return
+         active = enabled
++        // Selecting an owner never authorizes background inference. The Activity must resume
++        // explicitly after checking its lifecycle, including asynchronous model-load completion.
++        suspended = true
+         draft.clear(); segment.clear(); completed.clear(); lastNonblank = null
+         resetTemporal()
+         emit(if (active) ContinuousAslPhase.LISTENING else ContinuousAslPhase.INACTIVE,
+@@ -67,9 +71,26 @@
+     }
+ 
+     fun pause() {
++        suspended = true
+         finishSegment(); resetTemporal()
+-        if (active) emit(if (isFull()) ContinuousAslPhase.FULL else ContinuousAslPhase.LISTENING,
+-            "Paused; reopen recognition to continue")
++        if (active) emit(restingPhase(),
++            if (snapshot.phase == ContinuousAslPhase.ERROR || snapshot.phase == ContinuousAslPhase.FULL)
++                snapshot.message else "Paused; reopen recognition to continue")
++    }
++
++    fun resume() {
++        if (!active || !suspended) return
++        suspended = false
++        resetTemporal()
++        emit(restingPhase(),
++            if (snapshot.phase == ContinuousAslPhase.ERROR || snapshot.phase == ContinuousAslPhase.FULL)
++                snapshot.message else "Automatic text · experimental recognition")
++    }
++
++    private fun restingPhase() = when (snapshot.phase) {
++        ContinuousAslPhase.ERROR -> ContinuousAslPhase.ERROR
++        ContinuousAslPhase.FULL -> ContinuousAslPhase.FULL
++        else -> if (isFull()) ContinuousAslPhase.FULL else ContinuousAslPhase.LISTENING
+     }
+ 
+     private fun resetTemporal() {
+@@ -78,7 +99,7 @@
+     }
+ 
+     fun consume(observation: PhoneRawObservation) {
+-        if (!active || snapshot.phase != ContinuousAslPhase.LISTENING) return
++        if (!active || suspended || snapshot.phase != ContinuousAslPhase.LISTENING) return
+         try {
+             val timestamp = observation.timestampMs
+             val old = lastSource
+@@ -89,8 +110,8 @@
+             lastSource = timestamp
+             val visible = (0..1).any { observation.handObserved[it] && observation.handJointValid[it].any { valid -> valid } }
+             if (!visible) {
+-                // Close only the already observed CTC run, then abstain. This is not a no-sign classifier.
+-                decoder.finish()?.let(::append)
++                // Missing hands are not evidence that a pending token completed. Drop the
++                // unsettled run and abstain; never publish a new token on this observation.
+                 finishIfIdle(timestamp)
+                 resetTemporal(); lastSource = timestamp
+                 emit(if (isFull()) ContinuousAslPhase.FULL else ContinuousAslPhase.LISTENING,
+@@ -122,7 +143,7 @@
+     }
+ 
+     fun beginEdit(): ContinuousAslSnapshot? {
+-        if (!active || snapshot.english.isBlank() || snapshot.phase == ContinuousAslPhase.ERROR ||
++        if (!active || suspended || snapshot.english.isBlank() || snapshot.phase == ContinuousAslPhase.ERROR ||
+             snapshot.phase == ContinuousAslPhase.EDITING) return null
+         resetTemporal()
+         emit(ContinuousAslPhase.EDITING, "Editing text · recognition paused")
+@@ -174,4 +195,4 @@
+             rendered.joinToString(" ") { it.text }, observations, message, status)
+         publish(snapshot)
+     }
+-}+}
+--- before/android/app/src/main/java/com/example/apphear/RecognitionActivity.kt
++++ after/android/app/src/main/java/com/example/apphear/RecognitionActivity.kt
+@@ -569,9 +569,14 @@
+                 phoneAnalyzer = frameAnalyzer
+                 continuousModel = continuous
+                 if (continuous != null) {
+-                    continuousAsl = ContinuousAslCore(continuous.vocabulary, continuous.policy,
++                    val engine = ContinuousAslCore(continuous.vocabulary, continuous.policy,
+                         continuous::predictLast, continuous.outputPolicy, continuous.english, ::onContinuous)
+-                    cameraExecutor.execute { continuousAsl?.select(selectedRecognitionMode == RecognitionMode.CONTINUOUS_WORD) }
++                    continuousAsl = engine
++                    cameraExecutor.execute {
++                        val enabled = selectedRecognitionMode == RecognitionMode.CONTINUOUS_WORD
++                        engine.select(enabled)
++                        if (enabled && lifecycle.currentState.isAtLeast(Lifecycle.State.STARTED)) engine.resume()
++                    }
+                 }
+                 if (spellingModels != null) {
+                     fingerspellRuntime = FingerspellRuntime(applicationContext, spellingModels,
+@@ -1289,7 +1294,12 @@
+         binding.root.findViewById<View>(R.id.coordinationPanel)?.visibility =
+             if (selectedRecognitionMode == RecognitionMode.CONTINUOUS_WORD) View.GONE else View.VISIBLE
+         if (::cameraExecutor.isInitialized && !cameraExecutor.isShutdown) {
+-            cameraExecutor.execute { continuousAsl?.select(selectedRecognitionMode == RecognitionMode.CONTINUOUS_WORD) }
++            cameraExecutor.execute {
++                val engine = continuousAsl ?: return@execute
++                val enabled = selectedRecognitionMode == RecognitionMode.CONTINUOUS_WORD
++                engine.select(enabled)
++                if (enabled && lifecycle.currentState.isAtLeast(Lifecycle.State.STARTED)) engine.resume()
++            }
+         }
+         if (::cameraExecutor.isInitialized && fingerspellRuntime != null && !cameraExecutor.isShutdown) {
+             cameraExecutor.execute { fingerspellRuntime?.select(spellingMode()) }
+--- before/android/app/src/test/java/com/example/apphear/continuousasl/ContinuousAslCoreTest.kt
++++ after/android/app/src/test/java/com/example/apphear/continuousasl/ContinuousAslCoreTest.kt
+@@ -15,6 +15,7 @@
+         mapOf(listOf("IX-1p", "WANT", "WATER") to "I want water.", listOf("IX-1p", "NOT", "KNOW") to "I do not know."))
+     private fun core(p: ContinuousAslPolicy = policy, predict: (List<FloatArray>) -> Int) =
+         ContinuousAslCore(words, p, predict, output, english)
++    private fun start(c: ContinuousAslCore) { c.select(true); c.resume() }
+     private fun observation(t: Double, visible: Boolean = true) = PhoneRawObservation(
+         (t/10).toInt(), t, 480, 360,
+         Array(2) { FloatArray(42) { 10f } }, Array(2) { BooleanArray(21) { visible } },
+@@ -45,7 +46,7 @@
+     @Test fun englishAppearsAutomaticallyWithoutEditingOrConfirmation() {
+         val stream = ArrayDeque(listOf(2, 3, 4, 0))
+         val c = core { stream.removeFirst() }
+-        c.select(true)
++        start(c)
+         repeat(4) { c.consume(observation(it*100.0)) }
+         assertEquals("IX-1p WANT WATER", c.snapshot.draft)
+         assertEquals("I want water.", c.snapshot.english)
+@@ -55,7 +56,7 @@
+     @Test fun sustainedRunSettlesOnceWithoutWaitingForFullReceptiveField() {
+         val sizes = mutableListOf<Int>()
+         val c = core { sizes.add(it.size); 2 }
+-        c.select(true); c.consume(observation(0.0)); c.consume(observation(100.0))
++        start(c); c.consume(observation(0.0)); c.consume(observation(100.0))
+         assertEquals("", c.snapshot.english)
+         c.consume(observation(200.0)); assertEquals("I", c.snapshot.english)
+         (3 until 100).forEach { c.consume(observation(it*100.0)) }
+@@ -66,24 +67,26 @@
+     @Test fun noHandAbstainsAndNeverCallsModel() {
+         var calls = 0
+         val c = core { calls++; 2 }
+-        c.select(true); c.consume(observation(0.0, false)); c.consume(observation(100.0, false))
++        start(c); c.consume(observation(0.0, false)); c.consume(observation(100.0, false))
+         assertEquals(0, calls); assertEquals("", c.snapshot.draft); assertEquals("", c.snapshot.english)
+     }
+ 
+-    @Test fun cadenceAndReentryDoNotInterpolateOrInventTokens() {
+-        var calls = 0
+-        val c = core { calls++; 2 }
+-        c.select(true); c.consume(observation(0.0)); c.consume(observation(40.0)); c.consume(observation(100.0))
++    @Test fun cadenceAndBriefHandLossCannotPublishUnsettledTokens() {
++        var calls = 0
++        val c = core { calls++; 2 }
++        start(c); c.consume(observation(0.0)); c.consume(observation(40.0)); c.consume(observation(100.0))
+         assertEquals(2, calls); assertEquals("", c.snapshot.draft)
+-        c.consume(observation(110.0, false)); assertEquals("IX-1p", c.snapshot.draft)
++        c.consume(observation(110.0, false)); assertEquals("", c.snapshot.draft)
+         c.consume(observation(120.0)); c.consume(observation(220.0, false))
+-        assertEquals(3, calls); assertEquals("IX-1p IX-1p", c.snapshot.draft)
++        assertEquals(3, calls); assertEquals("", c.snapshot.draft); assertEquals("", c.snapshot.english)
++        repeat(3) { c.consume(observation(300.0+it*100.0)) }
++        assertEquals(6, calls); assertEquals("IX-1p", c.snapshot.draft)
+     }
+ 
+     @Test fun blankSeparatesRealRepeatWhileSustainedNonblankDoesNotRepeat() {
+         val stream = ArrayDeque(listOf(4, 4, 4, 4, 0, 4, 0))
+         val c = core { stream.removeFirst() }
+-        c.select(true); repeat(7) { c.consume(observation(it*100.0)) }
++        start(c); repeat(7) { c.consume(observation(it*100.0)) }
+         assertEquals("WATER WATER", c.snapshot.draft)
+         assertEquals("Water water", c.snapshot.english)
+     }
+@@ -91,7 +94,7 @@
+     @Test fun gapDropsUnsettledRunAndDuplicateTimestampFailsClosed() {
+         val sizes = mutableListOf<Int>()
+         val c = core { sizes.add(it.size); 2 }
+-        c.select(true); c.consume(observation(0.0)); c.consume(observation(100.0)); c.consume(observation(1200.0))
++        start(c); c.consume(observation(0.0)); c.consume(observation(100.0)); c.consume(observation(1200.0))
+         assertEquals(listOf(1, 2, 1), sizes); assertEquals("", c.snapshot.draft)
+         try { c.consume(observation(1200.0)); fail("Duplicate timestamp accepted") } catch (_: IllegalArgumentException) { }
+         assertEquals(ContinuousAslPhase.ERROR, c.snapshot.phase)
+@@ -101,7 +104,7 @@
+     @Test fun idleFinalizesDisplaySegmentWithoutRewritingItWithNextSegment() {
+         var token = 0
+         val c = core { token }
+-        c.select(true)
++        start(c)
+         listOf(2, 3, 4, 0).forEachIndexed { i, t -> token = t; c.consume(observation(i*100.0)) }
+         (4..15).forEach { c.consume(observation(it*100.0)) }
+         token = 3; c.consume(observation(1600.0)); token = 0; c.consume(observation(1700.0))
+@@ -110,7 +113,7 @@
+ 
+     @Test fun optionalEditingFreezesInputAndReplacesRatherThanDuplicatesText() {
+         val c = core { 2 }
+-        c.select(true); repeat(3) { c.consume(observation(it*100.0)) }
++        start(c); repeat(3) { c.consume(observation(it*100.0)) }
+         val before = c.beginEdit()!!
+         c.consume(observation(300.0)); assertSame(before, c.snapshot)
+         assertFalse(c.applyEdit(before.revision-1, "stale"))
+@@ -122,7 +125,7 @@
+ 
+     @Test fun canceledEditAndPauseKeepTextButInvalidateStaleEdit() {
+         val c = core { 2 }
+-        c.select(true); repeat(3) { c.consume(observation(it*100.0)) }
++        start(c); repeat(3) { c.consume(observation(it*100.0)) }
+         val before = c.beginEdit()!!
+         c.cancelEdit(before.revision); assertEquals("I", c.snapshot.english)
+         assertFalse(c.applyEdit(before.revision, "stale"))
+@@ -133,7 +136,7 @@
+     @Test fun unknownAndSpatialLabelsAreNeverErasedOrTurnedIntoInventedEnglish() {
+         val stream = ArrayDeque(listOf(1, 7, 0))
+         val c = core { stream.removeFirst() }
+-        c.select(true); repeat(3) { c.consume(observation(it*100.0)) }
++        start(c); repeat(3) { c.consume(observation(it*100.0)) }
+         assertEquals("[untranslated: <UNK>] [untranslated: IX-3p:j]", c.snapshot.english)
+         assertTrue(c.snapshot.translationStatus.contains("2 untranslated"))
+     }
+@@ -142,7 +145,7 @@
+         var calls = 0
+         var token = 2
+         val c = core(policy.copy(maximumDraftTokens = 2)) { calls++; token.also { token = if (token == 2) 3 else 2 } }
+-        c.select(true); repeat(6) { c.consume(observation(it*100.0)) }
++        start(c); repeat(6) { c.consume(observation(it*100.0)) }
+         assertEquals(3, calls); assertEquals(ContinuousAslPhase.FULL, c.snapshot.phase)
+         assertEquals("IX-1p WANT", c.snapshot.draft)
+         c.clear(); assertEquals("", c.snapshot.english); assertEquals(ContinuousAslPhase.LISTENING, c.snapshot.phase)
+@@ -150,10 +153,109 @@
+ 
+     @Test fun overlongEditIsRejectedAndEmptyEditCanClearText() {
+         val c = core(policy.copy(maximumConfirmedCharacters = 10)) { 2 }
+-        c.select(true); repeat(3) { c.consume(observation(it*100.0)) }
++        start(c); repeat(3) { c.consume(observation(it*100.0)) }
+         val before = c.beginEdit()!!
+         assertFalse(c.applyEdit(before.revision, "This is too long"))
+         assertEquals("I", c.snapshot.english)
+         assertTrue(c.applyEdit(before.revision, "")); assertEquals("", c.snapshot.english)
+     }
+-}+
++    @Test fun selectingOwnershipDoesNotResumeAnUnstartedActivity() {
++        var calls = 0
++        val c = core { calls++; 2 }
++        c.select(true)
++        repeat(3) { c.consume(observation(it*100.0)) }
++        assertEquals(0, calls); assertEquals("", c.snapshot.draft)
++        c.resume(); c.consume(observation(300.0))
++        assertEquals(1, calls)
++    }
++
++    @Test fun missingHandsKeepAlreadySettledTextButDiscardAnotherPendingRun() {
++        var calls = 0
++        val c = core { calls++; 2 }
++        start(c); repeat(3) { c.consume(observation(it*100.0)) }
++        assertEquals("IX-1p", c.snapshot.draft)
++        c.consume(observation(300.0, false)); c.consume(observation(400.0))
++        c.consume(observation(410.0, false)); c.consume(observation(500.0, false))
++        assertEquals(4, calls)
++        assertEquals("IX-1p", c.snapshot.draft); assertEquals("I", c.snapshot.english)
++    }
++
++    @Test fun shortCtcPeaksStillPublishOnObservedTransitionsAndBlankRearmer() {
++        val stream = ArrayDeque(listOf(2, 0, 2, 3, 0))
++        val c = core { stream.removeFirst() }
++        start(c); repeat(5) { c.consume(observation(it*100.0)) }
++        assertEquals("IX-1p IX-1p WANT", c.snapshot.draft)
++        assertEquals("I I want", c.snapshot.english)
++    }
++
++    @Test fun pauseBlocksLateCallbacksAndExplicitResumeStartsFreshContext() {
++        val sizes = mutableListOf<Int>()
++        val c = core { sizes.add(it.size); 2 }
++        start(c); repeat(3) { c.consume(observation(it*100.0)) }
++        c.pause()
++        val paused = c.snapshot
++        assertNull(c.beginEdit())
++        repeat(3) { c.consume(observation(300.0+it*100.0)) }
++        assertEquals(listOf(1, 2, 3), sizes); assertSame(paused, c.snapshot)
++        c.select(true); c.consume(observation(600.0))
++        assertSame(paused, c.snapshot); assertEquals(3, sizes.size)
++        c.resume(); c.consume(observation(700.0))
++        assertEquals(listOf(1, 2, 3, 1), sizes)
++        assertEquals("I", c.snapshot.english)
++    }
++
++    @Test fun resumeCannotEnableAnInactiveRecognitionOwner() {
++        var calls = 0
++        val c = core { calls++; 2 }
++        start(c); c.consume(observation(0.0)); c.select(false); c.resume()
++        c.consume(observation(100.0))
++        assertEquals(1, calls); assertEquals(ContinuousAslPhase.INACTIVE, c.snapshot.phase)
++        assertEquals("", c.snapshot.english)
++    }
++
++    @Test fun errorSurvivesPauseAndResumeUntilExplicitClear() {
++        var calls = 0
++        val c = core { calls++; 2 }
++        start(c); c.consume(observation(0.0))
++        try { c.consume(observation(0.0)); fail("Duplicate timestamp accepted") } catch (_: IllegalArgumentException) { }
++        assertEquals(ContinuousAslPhase.ERROR, c.snapshot.phase)
++        val errorMessage = c.snapshot.message
++        c.pause(); assertEquals(ContinuousAslPhase.ERROR, c.snapshot.phase)
++        c.resume(); c.consume(observation(100.0))
++        assertEquals(ContinuousAslPhase.ERROR, c.snapshot.phase)
++        assertEquals(errorMessage, c.snapshot.message); assertEquals(1, calls)
++        c.clear(); c.consume(observation(200.0)); assertEquals(2, calls)
++    }
++
++    @Test fun fullOutputSurvivesPauseResumeAndClearWhilePausedDoesNotResume() {
++        var calls = 0
++        var token = 2
++        val c = core(policy.copy(maximumDraftTokens = 2)) { calls++; token.also { token = if (token == 2) 3 else 2 } }
++        start(c); repeat(3) { c.consume(observation(it*100.0)) }
++        assertEquals(ContinuousAslPhase.FULL, c.snapshot.phase)
++        val text = c.snapshot.english
++        c.pause(); assertEquals(ContinuousAslPhase.FULL, c.snapshot.phase)
++        c.resume(); c.consume(observation(300.0))
++        assertEquals(3, calls); assertEquals(ContinuousAslPhase.FULL, c.snapshot.phase)
++        assertEquals(text, c.snapshot.english)
++        c.pause(); c.clear(); c.consume(observation(400.0))
++        assertEquals(3, calls); assertEquals("", c.snapshot.english)
++        c.resume(); c.consume(observation(500.0)); assertEquals(4, calls)
++    }
++
++    @Test fun pauseInvalidatesEditAndOldDismissCannotCancelResumedInput() {
++        val sizes = mutableListOf<Int>()
++        val c = core { sizes.add(it.size); 2 }
++        start(c); repeat(3) { c.consume(observation(it*100.0)) }
++        val edit = c.beginEdit()!!
++        c.pause(); c.consume(observation(300.0))
++        assertEquals(3, sizes.size)
++        c.resume(); c.cancelEdit(edit.revision)
++        assertFalse(c.applyEdit(edit.revision, "stale text"))
++        c.consume(observation(400.0))
++        assertEquals(listOf(1, 2, 3, 1), sizes)
++        assertEquals("I", c.snapshot.english)
++        assertEquals(ContinuousAslPhase.LISTENING, c.snapshot.phase)
++    }
++}
+--- before/android/app/build.gradle.kts
++++ after/android/app/build.gradle.kts
+@@ -147,7 +147,7 @@
+ 
+     buildTypes {
+         debug {
+-            if (continuousAsl) versionNameSuffix = "-continuous-auto-20261021"
++            if (continuousAsl) versionNameSuffix = "-continuous-refined-20261021"
+             buildConfigField("boolean", "CONTINUOUS_ASL_EXPERIMENT_ENABLED", continuousAsl.toString())
+             buildConfigField("boolean", "RECOGNITION_V3_PARALLEL_HANDS_ENABLED", recognitionV3ParallelHands.toString())
+             buildConfigField("boolean", "RECOGNITION_V3_PROFILE_ENABLED", recognitionV3Profile.toString())

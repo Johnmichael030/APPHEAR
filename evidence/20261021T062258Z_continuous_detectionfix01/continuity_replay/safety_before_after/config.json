@@ -1,0 +1,33 @@
+{
+  "schema": "apphear.continuous_asl.fixed80_nohand_safety_comparison.v1",
+  "policies": {
+    "OLD_flush": "Old delivered APK: reset context at nohand and publish pending CTC run before reset.",
+    "NEW_discard": "Fixed runtime: same context reset, but discard pending run and publish no token at nohand."
+  },
+  "source_hashes": {
+    "D:\\apphearv3claude\\AppHear-claude-s2-r3-eval-suite\\AppHear-claude-s2-r3-eval-suite\\evidence\\20261021T062258Z_continuous_detectionfix01\\continuity_replay\\HELD80_manifest.json": "72685c50277bec0bf4873d870369d10be14cbbb0310c7642ff888a0eaf2bbc8e",
+    "D:\\apphearv3claude\\AppHear-claude-s2-r3-eval-suite\\AppHear-claude-s2-r3-eval-suite\\evidence\\20261021T062258Z_continuous_detectionfix01\\continuity_replay\\config.json": "082f1d12b150d67e14308d7a834f3bafa84e39090a0828c9f8a47ed3b584c383",
+    "D:\\apphearv3claude\\AppHear-claude-s2-r3-eval-suite\\AppHear-claude-s2-r3-eval-suite\\evidence\\20261021T062258Z_continuous_detectionfix01\\continuity_replay\\RESULTS.json": "c9eb6b7d8b5c827cbdcb2023ef985a4ed8747926092da71cd1f377821ee04b1c",
+    "D:\\apphearv3claude\\AppHear-claude-s2-r3-eval-suite\\AppHear-claude-s2-r3-eval-suite\\evidence\\20261021T062258Z_continuous_detectionfix01\\continuity_replay\\paired_replay.py": "8d1045c18fd31e588496d31fd60777bf8f7190401c9dfdae6458c0efd2a51461",
+    "D:\\apphearv3claude\\AppHear-claude-s2-r3-eval-suite\\AppHear-claude-s2-r3-eval-suite\\evidence\\20261021T062258Z_continuous_detectionfix01\\before\\android\\app\\src\\main\\java\\com\\example\\apphear\\continuousasl\\ContinuousAslCore.kt": "28e494a9671032b908eb8ed4a07ee7758a25a10ab1abe3e77cbaf1ab2684eae2",
+    "D:\\apphearv3claude\\AppHear-claude-s2-r3-eval-suite\\AppHear-claude-s2-r3-eval-suite\\packages\\continuous_asl_research_01\\android_assets\\continuous_asl\\manifest.json": "a8efc020ec991c6f3d9bddf34c9550ae54ca4cceb909e9675bf996f73763ec68",
+    "D:\\apphearv3claude\\AppHear-claude-s2-r3-eval-suite\\AppHear-claude-s2-r3-eval-suite\\packages\\continuous_asl_research_01\\android_assets\\continuous_asl\\vocabulary.json": "0ca1c3e5c98e69bf53faa53c2c5df8a15c1151e039d950e39fc147c2e78c9a6e",
+    "D:\\apphearv3claude\\AppHear-claude-s2-r3-eval-suite\\AppHear-claude-s2-r3-eval-suite\\packages\\continuous_asl_research_01\\android_assets\\continuous_asl\\causal_gloss_ctc_fp32.onnx": "5651c24209a0951b09a792f44b17f5477dc86f353fb6ade1a3afec64ff20f663",
+    "D:\\apphearv3claude\\AppHear-claude-s2-r3-eval-suite\\AppHear-claude-s2-r3-eval-suite\\evidence\\20261021T062258Z_continuous_detectionfix01\\continuity_replay\\safety_before_after\\compare_safety.py": "49a76792dfbad3b9cc280ba548b14084887924f58d4bdea5d3a27698869e0755"
+  },
+  "old_apk_model_sha256": "5651c24209a0951b09a792f44b17f5477dc86f353fb6ade1a3afec64ff20f663",
+  "old_apk_vocabulary_sha256": "0ca1c3e5c98e69bf53faa53c2c5df8a15c1151e039d950e39fc147c2e78c9a6e",
+  "frozen_manifest_sha256": "72685c50277bec0bf4873d870369d10be14cbbb0310c7642ff888a0eaf2bbc8e",
+  "input_inventory_sha256": "b1d73a1393ccafa2fa80121d31a9bbd8c5fead73cf05c9900478847145fdd271",
+  "stable_token_ms": 200.0,
+  "maximum_tokens": 128,
+  "maximum_gap_ms": 1000.0,
+  "feature_rule": "Both use contiguous visible blocks, first frame215:378 zeroed; genuine cache cadence unchanged.",
+  "end_rule": "No oracle end flush; snapshot after last observation.",
+  "selection": "None: descriptive safety comparison frozen before inference; do not tune based on result.",
+  "scope": "Previously development-exposed80 known-signer recording-family held sequences; not independent/live accuracy.",
+  "pause_resume_events": "None in cached utterances; lifecycle correction is separately unit-tested.",
+  "TEST_accessed": false,
+  "training": false,
+  "vocabulary_changed": false
+}

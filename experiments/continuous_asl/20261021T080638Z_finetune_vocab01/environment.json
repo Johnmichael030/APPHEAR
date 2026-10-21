@@ -1,0 +1,8 @@
+{
+  "torch": "2.8.0+cu128",
+  "CUDA": "12.8",
+  "available": true,
+  "GPU": "NVIDIA GeForce RTX 3050 Laptop GPU",
+  "VRAM_bytes": 4294443008,
+  "free_storage_bytes": 72399667200
+}

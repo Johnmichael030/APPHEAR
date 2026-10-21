@@ -1,0 +1,46 @@
+{
+  "schema": "apphear.continuous_asl.paired_missingness_replay.v1",
+  "model": "frozen packaged epoch12; CPU ONNX2threads",
+  "source_hashes": {
+    "D:\\apphearv3claude\\AppHear-claude-s2-r3-eval-suite\\AppHear-claude-s2-r3-eval-suite\\experiments\\continuous_asl\\20261021T112738_nested192_control01\\subset_manifest.json": "8a2234a3eafd0d336ebe888d7b8e391b17410540b62d702315d2f5cb0b3c5f48",
+    "D:\\apphearv3claude\\AppHear-claude-s2-r3-eval-suite\\AppHear-claude-s2-r3-eval-suite\\experiments\\continuous_asl\\20261020T143609Z_learning_diagnostic01\\fold_manifest.json": "87442a6f1241860e369a5c8f0768d583b3a4058f5a9ad03dcc135532c419c72f",
+    "D:\\apphearv3claude\\AppHear-claude-s2-r3-eval-suite\\AppHear-claude-s2-r3-eval-suite\\experiments\\continuous_asl\\20261020T143609Z_learning_diagnostic01\\resolved_manifest.json": "0e1b797f67e8030aea69124bb303d4255a6e23dded799b35bc90f8553b9332f4",
+    "D:\\apphearv3claude\\AppHear-claude-s2-r3-eval-suite\\AppHear-claude-s2-r3-eval-suite\\packages\\continuous_asl_research_01\\android_assets\\continuous_asl\\vocabulary.json": "0ca1c3e5c98e69bf53faa53c2c5df8a15c1151e039d950e39fc147c2e78c9a6e",
+    "D:\\apphearv3claude\\AppHear-claude-s2-r3-eval-suite\\AppHear-claude-s2-r3-eval-suite\\packages\\continuous_asl_research_01\\android_assets\\continuous_asl\\manifest.json": "a8efc020ec991c6f3d9bddf34c9550ae54ca4cceb909e9675bf996f73763ec68",
+    "D:\\apphearv3claude\\AppHear-claude-s2-r3-eval-suite\\AppHear-claude-s2-r3-eval-suite\\packages\\continuous_asl_research_01\\android_assets\\continuous_asl\\causal_gloss_ctc_fp32.onnx": "5651c24209a0951b09a792f44b17f5477dc86f353fb6ade1a3afec64ff20f663",
+    "D:\\apphearv3claude\\AppHear-claude-s2-r3-eval-suite\\AppHear-claude-s2-r3-eval-suite\\evidence\\20261021T062258Z_continuous_detectionfix01\\runtime_replay.py": "e2a93be14e311fcc131de5a0d2f3af1242e7b30702d64d377fc951d8945ccfa3",
+    "D:\\apphearv3claude\\AppHear-claude-s2-r3-eval-suite\\AppHear-claude-s2-r3-eval-suite\\evidence\\20261021T062258Z_continuous_detectionfix01\\runtime_replay_config.json": "490cb54fbfc560be29fc32fbc68d6d79480ff04d62d8ba1fc935df51f854d9d7",
+    "D:\\apphearv3claude\\AppHear-claude-s2-r3-eval-suite\\AppHear-claude-s2-r3-eval-suite\\evidence\\20261021T062258Z_continuous_detectionfix01\\RUNTIME_REPLAY_RESULTS.json": "de142165f7929ef499151692b4bf4b36ff00ab810f4b04044f9c02acf1917733",
+    "D:\\apphearv3claude\\AppHear-claude-s2-r3-eval-suite\\AppHear-claude-s2-r3-eval-suite\\evidence\\20261021T062258Z_continuous_detectionfix01\\continuity_replay\\paired_replay.py": "8d1045c18fd31e588496d31fd60777bf8f7190401c9dfdae6458c0efd2a51461",
+    "D:\\apphearv3claude\\AppHear-claude-s2-r3-eval-suite\\AppHear-claude-s2-r3-eval-suite\\tools\\continuous_asl\\ctc_experiment.py": "d434d2341348ab89558a82dfc9f952800e533246d4b6baf0294ee10fc013aa63"
+  },
+  "frozen_TRAIN_manifest_sha256": "8a2234a3eafd0d336ebe888d7b8e391b17410540b62d702315d2f5cb0b3c5f48",
+  "frozen_HELD_manifest_sha256": "72685c50277bec0bf4873d870369d10be14cbbb0310c7642ff888a0eaf2bbc8e",
+  "input_inventory_sha256": "035171f0bee15a6c1cf6cacabde0f10313e53ede50cfda6954c79854485ee8d9",
+  "policies": {
+    "A_reset_nohand": "No-hand drops pending CTC and resets feature/model history. First visible-run frame215:378 zeroed.",
+    "B_retain_missing_features": "Append all genuine cached missingness-containing features; do not reset feature/model history on nohand; abstain and reset CTC decoder on nohand."
+  },
+  "stable_token_ms": 200.0,
+  "maximum_tokens": 128,
+  "maximum_gap_ms": 1000.0,
+  "long_gap_rule": "Reset temporal/model/decoder state. All272 caches prechecked to have0 gaps>1000ms; therefore B uses cachedX byte-identically.",
+  "cached_cadence": "Already prepared genuine10Hz observations; intervening Android observations/phone speed not simulated.",
+  "end_of_utterance_rule": "No oracle flush; snapshot after final observation only.",
+  "inference_implementation": "Vectorized causal inference. Only visible-position predictions are consumed. No-hand positions are genuine context only; unused nohand logits may be computed offline. Logical serving calls on nohand remain0.",
+  "gate": [
+    "B WER strictly lower than A on TRAIN192 and HELD80",
+    "B insertion count <= A on both partitions",
+    "No logical inference calls/published tokens on nohand",
+    "RF61 prefix numerical parity passes"
+  ],
+  "parity_indices": "longest TRAIN sequence:0,1,30,60,last",
+  "parity_atol": 0.0001,
+  "parity_rtol": 3e-05,
+  "heldout_scope": "Previously development-exposed known-signer recording-family holdout, NOT independent or unseen-signer validation.",
+  "training": false,
+  "vocabulary_changed": false,
+  "TEST_accessed": false,
+  "model_selection": false,
+  "serving_policy_deployment": false
+}

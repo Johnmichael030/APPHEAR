@@ -1,0 +1,53 @@
+{
+  "utterances": 192,
+  "retained_original_96": true,
+  "added_utterances": 96,
+  "families": {
+    "asllrp_dai_participant_2::2013-06-27": 32,
+    "asllrp_dai_participant_3::2011-12-01": 32,
+    "asllrp_dai_participant_3::2011-12-08": 32,
+    "asllrp_dai_participant_3::2012-01-27": 32,
+    "asllrp_dai_participant_3::2012-02-09": 32,
+    "asllrp_dai_participant_5::UNRESOLVED_ALL_UNDATED_MASTERS": 32
+  },
+  "signers": {
+    "asllrp_dai_participant_2": 32,
+    "asllrp_dai_participant_3": 128,
+    "asllrp_dai_participant_5": 32
+  },
+  "masters": 34,
+  "unique_labels": 631,
+  "token_occurrences": 1464,
+  "selected_labels_by_fullTRAIN_support": {
+    "1": 129,
+    "2_4": 166,
+    "5_9": 128,
+    "10_19": 104,
+    "20plus": 104
+  },
+  "input_quartile_cuts": [
+    31.0,
+    40.0,
+    56.0
+  ],
+  "target_quartile_cuts": [
+    5.0,
+    7.0,
+    10.0
+  ],
+  "input_quartiles": {
+    "1": 56,
+    "0": 55,
+    "3": 30,
+    "2": 51
+  },
+  "target_quartiles": {
+    "1": 54,
+    "0": 51,
+    "3": 37,
+    "2": 50
+  },
+  "utterances_no_retained_frame_events": 65,
+  "utterances_sampled_no_hand_events": 107,
+  "limitation": "Nested TRAIN learnability; equal family quotas. Same known signers; no independent signer claim."
+}

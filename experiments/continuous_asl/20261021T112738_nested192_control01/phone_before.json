@@ -1,0 +1,9 @@
+{
+  "apphear_apk_paths": [
+    "package:/data/app/~~mcgY-B4noOdvvNWTiz66wA==/com.example.apphear-3UnixKXe58IBi9agktdYHg==/base.apk"
+  ],
+  "harness_package": "com.example.apphear.continuousparity",
+  "device_model": "SM-A226B",
+  "device_abi": "arm64-v8a",
+  "apphear_replaced": false
+}

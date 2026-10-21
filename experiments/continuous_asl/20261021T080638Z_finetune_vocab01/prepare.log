@@ -1,0 +1,1 @@
+{"stage": "BASELINE_READY", "report": "D:\\apphearv3claude\\AppHear-claude-s2-r3-eval-suite\\AppHear-claude-s2-r3-eval-suite\\experiments\\continuous_asl\\20261021T080638Z_finetune_vocab01\\BASELINE_AND_ERROR_ANALYSIS.md", "greedy_WER": 0.9567010309278351, "streaming_WER": 0.9567010309278351, "train": 1500, "dev": 80}
