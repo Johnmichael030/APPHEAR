@@ -12,6 +12,16 @@ android {
         .map { it.equals("true", ignoreCase = true) }.getOrElse(false)
     val aslOriginalWords = providers.gradleProperty("aslOriginalWords")
         .map { it.equals("true", ignoreCase = true) }.getOrElse(false)
+    val aslWebVocabulary = providers.gradleProperty("aslWebVocabulary")
+        .map { it.equals("true", ignoreCase = true) }.getOrElse(false)
+    val aslWordMotionFixes = providers.gradleProperty("aslWordMotionFixes")
+        .map { it.equals("true", ignoreCase = true) }.getOrElse(false)
+    require(!aslWordMotionFixes || aslWebVocabulary) { "aslWordMotionFixes requires aslWebVocabulary=true" }
+    if (aslWordMotionFixes) sourceSets.getByName("debug").assets.srcDir("src/aslWordMotionFixes/assets")
+    val aslVocabulary647 = providers.gradleProperty("aslVocabulary647")
+        .map { it.equals("true", ignoreCase = true) }.getOrElse(false)
+    require(!aslVocabulary647 || aslWordMotionFixes) { "aslVocabulary647 requires aslWordMotionFixes=true" }
+    if (aslVocabulary647) sourceSets.getByName("debug").assets.srcDir("src/aslVocabulary647/assets")
     val profileAccounts = providers.gradleProperty("profileAccounts")
         .map { it.equals("true", ignoreCase = true) }.getOrElse(false)
     val aslAssetPilot = providers.gradleProperty("aslAssetPilot")
@@ -36,6 +46,12 @@ android {
         .map { it.equals("true", ignoreCase = true) }.getOrElse(false)
     require(!aslAlphabetFallback || (aslNewIdle && aslCharacterSelection)) {
         "aslAlphabetFallback requires aslNewIdle=true and aslCharacterSelection=true"
+    }
+    require(!aslWebVocabulary || (aslOriginalWords && aslAlphabetFallback)) {
+        "aslWebVocabulary requires aslOriginalWords=true and aslAlphabetFallback=true"
+    }
+    if (aslWebVocabulary) {
+        sourceSets.getByName("debug").assets.srcDir("src/aslWebVocabulary/assets")
     }
     if (aslSharedCharacter) {
         val sharedAssets = tasks.register<Sync>("prepareAslSharedAssets") {
@@ -148,10 +164,16 @@ android {
     buildTypes {
         debug {
             if (continuousAsl) versionNameSuffix = "-continuous-clean-ui-20261021"
+            if (aslWebVocabulary) versionNameSuffix = "-text-asl-432-preview-20261023"
+            if (aslWordMotionFixes) versionNameSuffix = "-text-asl-word-fixes-preview-20261023"
+            if (aslVocabulary647) versionNameSuffix = "-text-asl-647-preview-20261023"
             buildConfigField("boolean", "CONTINUOUS_ASL_EXPERIMENT_ENABLED", continuousAsl.toString())
             buildConfigField("boolean", "RECOGNITION_V3_PARALLEL_HANDS_ENABLED", recognitionV3ParallelHands.toString())
             buildConfigField("boolean", "RECOGNITION_V3_PROFILE_ENABLED", recognitionV3Profile.toString())
             buildConfigField("boolean", "ASL_ORIGINAL_WORDS_ENABLED", aslOriginalWords.toString())
+            buildConfigField("boolean", "ASL_WEB_VOCABULARY_ENABLED", aslWebVocabulary.toString())
+            buildConfigField("boolean", "ASL_WORD_MOTION_FIXES_ENABLED", aslWordMotionFixes.toString())
+            buildConfigField("boolean", "ASL_VOCABULARY_647_ENABLED", aslVocabulary647.toString())
             buildConfigField("boolean", "RECOGNITION_REAR_CAMERA_ENABLED", recognitionRearCamera.toString())
             buildConfigField("boolean", "RECOGNITION_COORDINATION_ENABLED", (recognitionCoordination && fingerspellDebug && fingerspellContinuous && contextPhraseAssistDebug).toString())
             buildConfigField("boolean", "FINGERSPELL_CONTINUOUS_ENABLED", (fingerspellDebug && fingerspellContinuous).toString())
@@ -191,6 +213,9 @@ android {
             buildConfigField("boolean", "RECOGNITION_V3_PARALLEL_HANDS_ENABLED", "false")
             buildConfigField("boolean", "RECOGNITION_V3_PROFILE_ENABLED", "false")
             buildConfigField("boolean", "ASL_ORIGINAL_WORDS_ENABLED", "false")
+            buildConfigField("boolean", "ASL_WEB_VOCABULARY_ENABLED", "false")
+            buildConfigField("boolean", "ASL_WORD_MOTION_FIXES_ENABLED", "false")
+            buildConfigField("boolean", "ASL_VOCABULARY_647_ENABLED", "false")
             buildConfigField("boolean", "RECOGNITION_REAR_CAMERA_ENABLED", "false")
             buildConfigField("boolean", "RECOGNITION_COORDINATION_ENABLED", "false")
             buildConfigField("boolean", "FINGERSPELL_CONTINUOUS_ENABLED", "false")

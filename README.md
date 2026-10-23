@@ -1,3 +1,16 @@
+# Latest Text-to-ASL files — 23 October 2026
+
+**647 word/expression entries · 764 English input forms.**
+
+- [Full new word list — all 647 entries](WORD_LIST.md).
+- [Today’s Text-to-ASL update, source map, attribution and validation](handover/text_to_asl_20261023/README.md).
+- [Latest 647-entry preview APK](apk/AppHear-text-asl-647-preview-20261023.apk) — Git LFS, about 890 MiB; download the raw file.
+
+New animations remain unreviewed; qualified ASL and phone acceptance are pending.
+The earlier continuous-ASL handover below is preserved as dated history.
+
+---
+
 # AppHear developer handover
 
 **Latest APK and continuous-ASL files â€” 21 October 2026, Asia/Shanghai.**

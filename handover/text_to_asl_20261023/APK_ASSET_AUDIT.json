@@ -1,0 +1,19 @@
+{
+  "status": "PASS_ALL_PREVIOUS_APK_ASSETS_BYTE_IDENTICAL",
+  "previousAssetFiles": 534,
+  "preservedPriorAssets": 534,
+  "newAssets": [
+    "assets/asl_animations/vocabulary_647/ATTRIBUTION.md",
+    "assets/asl_animations/vocabulary_647/avatar.glb",
+    "assets/asl_animations/vocabulary_647/manifest.json"
+  ],
+  "removedAssets": [],
+  "changedPriorAssets": [],
+  "newBundleRawBytes": 79906716,
+  "newBundleCompressedBytes": 35568771,
+  "previousApkBytes": 897585715,
+  "apkBytes": 933228481,
+  "apkSha256": "21e84bf37092750b760712728b94759e37fecb2590fa73928e90230a714d707a",
+  "previousApkSha256": "a490bb23c2c36de554838e56ee47f906b29e91793cc4aa48ed8bba268f85342f",
+  "installed": false
+}

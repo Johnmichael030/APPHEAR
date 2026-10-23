@@ -1,0 +1,221 @@
+{
+  "schemaVersion": 1,
+  "packageId": "3dlex-asl-word-motion-fixes-v1",
+  "language": "ASL",
+  "avatarProfile": "ORIGINAL_HUMAN",
+  "asset": "asl_animations/word_motion_fixes/avatar.glb",
+  "sha256": "244ba8daf6371124dac2da6a985fff0dfaead8ee92e672fcfe93ebf5d5e24616",
+  "baselineSha256": "6b4dbc4fce99ff6d396e3bc8bf2c792adef4f1fe1deb7bfa709306096084e9cb",
+  "originalActions": 458,
+  "totalActions": 463,
+  "newLexicalEntries": 0,
+  "totalLexicalEntries": 432,
+  "replacementMotions": 5,
+  "status": "UNREVIEWED_RETARGETED_PREVIEW",
+  "qualifiedAslValidations": 0,
+  "overrides": [
+    {
+      "id": "why",
+      "english": [
+        "why"
+      ],
+      "animationName": "SIGN_WHY_3DLEX_ASL_PREVIEW",
+      "durationMs": 3150,
+      "sourceArchiveMember": "ANIM_GLB/why.glb",
+      "sourceSha256": "a01d553e561459fac6644582bd24dbbaa29333a8032fe4af1830971385960760",
+      "motionSha256": "bf91be161392823e80cc30e5a4f04ed8d829764abdd598973c21a3ddc92219de",
+      "sourceLanguage": "ASL",
+      "sourceProject": "3D-LEX v1.0 ASL Animation Data",
+      "sourceUrl": "https://osf.io/mqzyk/",
+      "license": "CC-BY-4.0",
+      "construction": "FIXED_BONE_FRAME_RETARGETED_PREVIEW",
+      "linguisticValidationStatus": "UNREVIEWED",
+      "checks": {
+        "source_full_duration_seconds": 2.8333332538604736,
+        "retained_source_duration_seconds": 2.75,
+        "excluded_export_reset": {
+          "reason": "Publisher reset suffix: non-root bone length outside 75\u2013125% of its median",
+          "firstExcludedSeconds": 2.7916667461395264,
+          "lastExcludedSeconds": 2.8333332538604736,
+          "excludedFrames": 2,
+          "retainedThroughSeconds": 2.75,
+          "sourceBytesUnchanged": true
+        },
+        "sampled_source_frames": 67,
+        "max_direction_error": 0.001666387778149498,
+        "max_inner_rotation_step_degrees": 15.283603662520804,
+        "wrist_span_m": 0.5440490290437002,
+        "finger_rotation_variation": 0.4847411081912078,
+        "source_translations": "Median non-root offsets calibrate bone-local axes; animated orientation tracks transferred, target bone lengths retained",
+        "facial_blendshapes": "Not present in this GLB motion release; not invented"
+      },
+      "replacesId": "why"
+    },
+    {
+      "id": "you",
+      "english": [
+        "you"
+      ],
+      "animationName": "SIGN_YOU_3DLEX_ASL_PREVIEW",
+      "durationMs": 3400,
+      "sourceArchiveMember": "ANIM_GLB/you.glb",
+      "sourceSha256": "e6d82a6d051db4c875f9bc03bd9d19d770727f9f3b9771eccc67b2093d04fdfa",
+      "motionSha256": "e67773f7a10da0f96adac8bc4ece4eac2310c4290fc65f707c797670664ebe62",
+      "sourceLanguage": "ASL",
+      "sourceProject": "3D-LEX v1.0 ASL Animation Data",
+      "sourceUrl": "https://osf.io/mqzyk/",
+      "license": "CC-BY-4.0",
+      "construction": "FIXED_BONE_FRAME_RETARGETED_PREVIEW",
+      "linguisticValidationStatus": "UNREVIEWED",
+      "checks": {
+        "source_full_duration_seconds": 3.0416667461395264,
+        "retained_source_duration_seconds": 3.0,
+        "excluded_export_reset": {
+          "reason": "Publisher reset suffix: non-root bone length outside 75\u2013125% of its median",
+          "firstExcludedSeconds": 3.0416667461395264,
+          "lastExcludedSeconds": 3.0416667461395264,
+          "excludedFrames": 1,
+          "retainedThroughSeconds": 3.0,
+          "sourceBytesUnchanged": true
+        },
+        "sampled_source_frames": 73,
+        "max_direction_error": 0.002296692812871285,
+        "max_inner_rotation_step_degrees": 22.527553190857297,
+        "wrist_span_m": 0.445456360722972,
+        "finger_rotation_variation": 0.6594798489233791,
+        "source_translations": "Median non-root offsets calibrate bone-local axes; animated orientation tracks transferred, target bone lengths retained",
+        "facial_blendshapes": "Not present in this GLB motion release; not invented"
+      },
+      "replacesId": "you"
+    },
+    {
+      "id": "your",
+      "english": [
+        "your"
+      ],
+      "animationName": "SIGN_YOUR_3DLEX_ASL_PREVIEW",
+      "durationMs": 2942,
+      "sourceArchiveMember": "ANIM_GLB/your.glb",
+      "sourceSha256": "aa3c0eb97f42bcb3029ad8c96731d822769f201b7335bc8c01aed86d02e47615",
+      "motionSha256": "49694a852184596662ade32f2645aa5e64e1e05cf63a28547ba20dc4901ab721",
+      "sourceLanguage": "ASL",
+      "sourceProject": "3D-LEX v1.0 ASL Animation Data",
+      "sourceUrl": "https://osf.io/mqzyk/",
+      "license": "CC-BY-4.0",
+      "construction": "FIXED_BONE_FRAME_RETARGETED_PREVIEW",
+      "linguisticValidationStatus": "UNREVIEWED",
+      "checks": {
+        "source_full_duration_seconds": 2.5833332538604736,
+        "retained_source_duration_seconds": 2.5416667461395264,
+        "excluded_export_reset": {
+          "reason": "Publisher reset suffix: non-root bone length outside 75\u2013125% of its median",
+          "firstExcludedSeconds": 2.5833332538604736,
+          "lastExcludedSeconds": 2.5833332538604736,
+          "excludedFrames": 1,
+          "retainedThroughSeconds": 2.5416667461395264,
+          "sourceBytesUnchanged": true
+        },
+        "sampled_source_frames": 63,
+        "max_direction_error": 0.0017902133571379504,
+        "max_inner_rotation_step_degrees": 14.945034684218937,
+        "wrist_span_m": 0.3519105230632562,
+        "finger_rotation_variation": 0.520488811877914,
+        "source_translations": "Median non-root offsets calibrate bone-local axes; animated orientation tracks transferred, target bone lengths retained",
+        "facial_blendshapes": "Not present in this GLB motion release; not invented"
+      },
+      "replacesId": "your_yours"
+    },
+    {
+      "id": "today",
+      "english": [
+        "today"
+      ],
+      "animationName": "SIGN_TODAY_3DLEX_ASL_PREVIEW",
+      "durationMs": 3150,
+      "sourceArchiveMember": "ANIM_GLB/today.glb",
+      "sourceSha256": "3057a2d6da029e55e0e99f31e6d585f2381d561a3a8b1fc64a425d7fb91c1b25",
+      "motionSha256": "1d09bff400a1fa3687d525e314bae50b149d1c4d9e6379721773850664bbe0e0",
+      "sourceLanguage": "ASL",
+      "sourceProject": "3D-LEX v1.0 ASL Animation Data",
+      "sourceUrl": "https://osf.io/mqzyk/",
+      "license": "CC-BY-4.0",
+      "construction": "FIXED_BONE_FRAME_RETARGETED_PREVIEW",
+      "linguisticValidationStatus": "UNREVIEWED",
+      "checks": {
+        "source_full_duration_seconds": 2.8333332538604736,
+        "retained_source_duration_seconds": 2.75,
+        "excluded_export_reset": {
+          "reason": "Publisher reset suffix: non-root bone length outside 75\u2013125% of its median",
+          "firstExcludedSeconds": 2.7916667461395264,
+          "lastExcludedSeconds": 2.8333332538604736,
+          "excludedFrames": 2,
+          "retainedThroughSeconds": 2.75,
+          "sourceBytesUnchanged": true
+        },
+        "sampled_source_frames": 67,
+        "max_direction_error": 0.008000915355745531,
+        "max_inner_rotation_step_degrees": 32.490690866996204,
+        "wrist_span_m": 0.3356497344647569,
+        "finger_rotation_variation": 0.7095183301305709,
+        "source_translations": "Median non-root offsets calibrate bone-local axes; animated orientation tracks transferred, target bone lengths retained",
+        "facial_blendshapes": "Not present in this GLB motion release; not invented"
+      },
+      "replacesId": "today"
+    },
+    {
+      "id": "where",
+      "english": [
+        "where"
+      ],
+      "replacesId": "where",
+      "animationName": "SIGN_WHERE_3DLEX_ASL_PREVIEW",
+      "durationMs": 5192,
+      "sourceArchiveMember": "ANIM_GLB/where.glb",
+      "sourceSha256": "7764c95faf13c96e7714f6b7dfd982a16783d788501fd2c7853aee3ab6e57019",
+      "motionSha256": "0ccbe5106e89b10f617e0afcef9e496e427ee9ad8f12c89292c3f89de4cb855c",
+      "sourceLanguage": "ASL",
+      "sourceProject": "3D-LEX v1.0 ASL Animation Data",
+      "sourceUrl": "https://osf.io/mqzyk/",
+      "license": "CC-BY-4.0",
+      "construction": "FIXED_BONE_FRAME_RETARGETED_PREVIEW_WITH_DOCUMENTED_EXPORT_RESET_EXCLUSION",
+      "linguisticValidationStatus": "UNREVIEWED",
+      "checks": {
+        "source_full_duration_seconds": 4.833333492279053,
+        "retained_source_duration_seconds": 4.791666507720947,
+        "excluded_export_reset": {
+          "priorBoneLengthSuffix": null,
+          "additionalCoordinateReset": {
+            "sourceSha256": "7764c95faf13c96e7714f6b7dfd982a16783d788501fd2c7853aee3ab6e57019",
+            "sourceFullDuration": 4.833333492279053,
+            "oldMechanicalEnd": 4.833333492279053,
+            "newMechanicalEnd": 4.791666507720947,
+            "additionalExcludedFrameTime": 4.833333492279053,
+            "hipsJumpDegrees": 171.00319894546874,
+            "armatureJumpDegrees": 87.23456026342832,
+            "hipsScaleBefore": [
+              0.9300000071525574,
+              0.9300000071525574,
+              0.9300000071525574
+            ],
+            "hipsScaleAfter": [
+              0.99784916639328,
+              0.9978492259979248,
+              0.9978492259979248
+            ],
+            "reason": "Final frame simultaneously resets Armature from identity toward 90 degrees, Hips toward identity and Hips calibration scale from .93 to ~1; not a linguistic sign boundary"
+          }
+        },
+        "sampled_source_frames": 116,
+        "max_direction_error": 9.85096526605649e-07,
+        "max_inner_rotation_step_degrees": 22.066108187849586,
+        "wrist_span_m": 0.49771493002120193,
+        "finger_rotation_variation": 0.5871361775575669,
+        "source_translations": "Median non-root offsets calibrate bone-local axes; animated orientation tracks transferred, target bone lengths retained",
+        "facial_blendshapes": "Not present in this GLB motion release; not invented"
+      }
+    }
+  ],
+  "sourceArchiveSha256": "bac3e8ca0dbcc45eec0952a20dd04f28cc38131baddc8a354a72da673af0bdc7",
+  "attribution": "Oline Ranum, Gomer Otterspeer, Jari I. Andersen, Robert G. Belleman and Floris Roelofsen (2024). 3D-LEX v1.0. ASL subset. https://osf.io/cv276/ . Adapted to AppHear skeleton; source meshes/textures not copied.",
+  "license": "CC-BY-4.0 for 3D-LEX motion; existing avatar rights remain separately unresolved"
+}

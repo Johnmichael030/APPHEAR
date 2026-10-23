@@ -70,5 +70,235 @@
       "linguisticValidationStatus": "UNREVIEWED",
       "usageNotes": "Alternative spelling for the existing OK expression."
     }
+  ],
+  "webVocabularyAliases": [
+    {
+      "signId": "mother",
+      "english": [
+        "mommy",
+        "mummy"
+      ],
+      "gloss": [
+        "MOTHER"
+      ],
+      "asset": "asl_animations/original_words_v1/mother.glb",
+      "sha256": "54d2935e4ac0f4a65b0f3aa397b0e5ddff0bdce5a333587a7dfbaab4f9f1e07f",
+      "reference": "https://www.lifeprint.com/asl101/pages-signs/m/mom.htm",
+      "license": "Existing AppHear motion retained; provenance unresolved. Reference link only, no reference media copied.",
+      "status": "UNREVIEWED_PREVIEW_ALIAS",
+      "technicalPlaybackStatus": "Technical review required; not qualified ASL review",
+      "linguisticValidationStatus": "UNREVIEWED",
+      "usageNotes": "Everyday English alternatives for MOTHER."
+    },
+    {
+      "signId": "father",
+      "english": [
+        "daddy"
+      ],
+      "gloss": [
+        "FATHER"
+      ],
+      "asset": "asl_animations/original_words_v1/father.glb",
+      "sha256": "12f452cb6592b86b697b33f0c0d2049b758441150b395136bd0cf493da21b275",
+      "reference": "https://www.lifeprint.com/asl101/pages-signs/d/dad.htm",
+      "license": "Existing AppHear motion retained; provenance unresolved. Reference link only, no reference media copied.",
+      "status": "UNREVIEWED_PREVIEW_ALIAS",
+      "technicalPlaybackStatus": "Technical review required; not qualified ASL review",
+      "linguisticValidationStatus": "UNREVIEWED",
+      "usageNotes": "Everyday English alternative for FATHER."
+    },
+    {
+      "signId": "phone",
+      "english": [
+        "telephone"
+      ],
+      "gloss": [
+        "PHONE"
+      ],
+      "asset": "asl_animations/original_words_v1/phone.glb",
+      "sha256": "10b97e617760b062de27b55aeee21bfea670155518c9fd9d5a6d6b93e8c7bb85",
+      "reference": "https://www.lifeprint.com/asl101/pages-signs/p/phone.htm",
+      "license": "Existing AppHear motion retained; provenance unresolved. Reference link only, no reference media copied.",
+      "status": "UNREVIEWED_PREVIEW_ALIAS",
+      "technicalPlaybackStatus": "Device evaluation pending",
+      "linguisticValidationStatus": "UNREVIEWED",
+      "usageNotes": "Alternative English input for the existing lexical preview."
+    },
+    {
+      "signId": "car",
+      "english": [
+        "automobile"
+      ],
+      "gloss": [
+        "CAR"
+      ],
+      "asset": "asl_animations/original_words_v1/car.glb",
+      "sha256": "60139272a9c29eb7b7d47f29a9ff3e1e2624883da3619dd7bf45ea300111e3e3",
+      "reference": "https://www.lifeprint.com/asl101/pages-signs/c/car.htm",
+      "license": "Existing AppHear motion retained; provenance unresolved. Reference link only, no reference media copied.",
+      "status": "UNREVIEWED_PREVIEW_ALIAS",
+      "technicalPlaybackStatus": "Device evaluation pending",
+      "linguisticValidationStatus": "UNREVIEWED",
+      "usageNotes": "Alternative English input for the existing lexical preview."
+    },
+    {
+      "signId": "buy",
+      "english": [
+        "purchase"
+      ],
+      "gloss": [
+        "BUY"
+      ],
+      "asset": "asl_animations/original_words_v1/buy.glb",
+      "sha256": "583af587d2dafcf73bbafb3143f860453ca33c243c5b36e2a414593fd2a02cd9",
+      "reference": "https://www.lifeprint.com/asl101/pages-signs/b/buy.htm",
+      "license": "Existing AppHear motion retained; provenance unresolved. Reference link only, no reference media copied.",
+      "status": "UNREVIEWED_PREVIEW_ALIAS",
+      "technicalPlaybackStatus": "Device evaluation pending",
+      "linguisticValidationStatus": "UNREVIEWED",
+      "usageNotes": "Alternative English input for the existing lexical preview."
+    },
+    {
+      "signId": "help",
+      "english": [
+        "assist",
+        "assistance"
+      ],
+      "gloss": [
+        "HELP"
+      ],
+      "asset": "asl_animations/original_words_v1/help.glb",
+      "sha256": "c620c7941ffd55fe7fab28e70ac17f91a95af5862200ac21f3812a483e6870b3",
+      "reference": "https://www.lifeprint.com/asl101/pages-signs/h/help.htm",
+      "license": "Existing AppHear motion retained; provenance unresolved. Reference link only, no reference media copied.",
+      "status": "UNREVIEWED_PREVIEW_ALIAS",
+      "technicalPlaybackStatus": "Device evaluation pending",
+      "linguisticValidationStatus": "UNREVIEWED",
+      "usageNotes": "Alternative English input for the existing lexical preview."
+    },
+    {
+      "signId": "sick",
+      "english": [
+        "ill",
+        "illness",
+        "unwell"
+      ],
+      "gloss": [
+        "SICK"
+      ],
+      "asset": "asl_animations/original_words_v1/sick.glb",
+      "sha256": "f8f973299dad7a5ca384cf78d9f7d64cd97f4d4aa50e25bd7c395fea44ddb2f6",
+      "reference": "https://www.lifeprint.com/asl101/pages-signs/s/sick.htm",
+      "license": "Existing AppHear motion retained; provenance unresolved. Reference link only, no reference media copied.",
+      "status": "UNREVIEWED_PREVIEW_ALIAS",
+      "technicalPlaybackStatus": "Device evaluation pending",
+      "linguisticValidationStatus": "UNREVIEWED",
+      "usageNotes": "Alternative English input for the existing lexical preview."
+    },
+    {
+      "signId": "teacher",
+      "english": [
+        "instructor"
+      ],
+      "gloss": [
+        "TEACHER"
+      ],
+      "asset": "asl_animations/original_words_v1/teacher.glb",
+      "sha256": "fd7a184d34c09ccc9be19afe6245382c35eed0c6400600caff89a2f0f1196b81",
+      "reference": "https://www.lifeprint.com/asl101/pages-signs/t/teacher.htm",
+      "license": "Existing AppHear motion retained; provenance unresolved. Reference link only, no reference media copied.",
+      "status": "UNREVIEWED_PREVIEW_ALIAS",
+      "technicalPlaybackStatus": "Device evaluation pending",
+      "linguisticValidationStatus": "UNREVIEWED",
+      "usageNotes": "Alternative English input for the existing lexical preview."
+    },
+    {
+      "signId": "student",
+      "english": [
+        "pupil"
+      ],
+      "gloss": [
+        "STUDENT"
+      ],
+      "asset": "asl_animations/original_words_v1/student.glb",
+      "sha256": "576b82b660733e02eed86d81cf3da361c22523887bcb26353ead64197b568f0f",
+      "reference": "https://www.lifeprint.com/asl101/pages-signs/s/student.htm",
+      "license": "Existing AppHear motion retained; provenance unresolved. Reference link only, no reference media copied.",
+      "status": "UNREVIEWED_PREVIEW_ALIAS",
+      "technicalPlaybackStatus": "Device evaluation pending",
+      "linguisticValidationStatus": "UNREVIEWED",
+      "usageNotes": "Pupil means a student, not the anatomical pupil."
+    },
+    {
+      "signId": "neighbor",
+      "english": [
+        "neighbour"
+      ],
+      "gloss": [
+        "NEIGHBOR"
+      ],
+      "asset": "asl_animations/original_words_v1/neighbor.glb",
+      "sha256": "ddb911b0276221efec9ca0c3afbbfb0e501228bdfbb6467bcc823015d33f93da",
+      "reference": "https://www.lifeprint.com/asl101/pages-signs/n/neighbor.htm",
+      "license": "Existing AppHear motion retained; provenance unresolved. Reference link only, no reference media copied.",
+      "status": "UNREVIEWED_PREVIEW_ALIAS",
+      "technicalPlaybackStatus": "Device evaluation pending",
+      "linguisticValidationStatus": "UNREVIEWED",
+      "usageNotes": "Alternative English input for the existing lexical preview."
+    },
+    {
+      "signId": "work",
+      "english": [
+        "labor",
+        "labour",
+        "employment"
+      ],
+      "gloss": [
+        "WORK"
+      ],
+      "asset": "asl_animations/original_words_v1/work.glb",
+      "sha256": "acab9b5eaff03912f52a213ae55d78154024b095b49a7ca88d0f0f37cad7c234",
+      "reference": "https://www.lifeprint.com/asl101/pages-signs/w/work.htm",
+      "license": "Existing AppHear motion retained; provenance unresolved. Reference link only, no reference media copied.",
+      "status": "UNREVIEWED_PREVIEW_ALIAS",
+      "technicalPlaybackStatus": "Device evaluation pending",
+      "linguisticValidationStatus": "UNREVIEWED",
+      "usageNotes": "Labor/labour/employment means work, not childbirth."
+    },
+    {
+      "signId": "road",
+      "english": [
+        "street",
+        "path"
+      ],
+      "gloss": [
+        "ROAD"
+      ],
+      "asset": "asl_animations/original_words_v1/road.glb",
+      "sha256": "d6a4360e5b8a389496cc74e61dd6759a8e3c93fb1682e4b64bd2009c9f3facff",
+      "reference": "https://www.lifeprint.com/asl101/pages-signs/r/road.htm",
+      "license": "Existing AppHear motion retained; provenance unresolved. Reference link only, no reference media copied.",
+      "status": "UNREVIEWED_PREVIEW_ALIAS",
+      "technicalPlaybackStatus": "Device evaluation pending",
+      "linguisticValidationStatus": "UNREVIEWED",
+      "usageNotes": "Street/path means a physical road or route, not a computer path."
+    },
+    {
+      "signId": "congratulations",
+      "english": [
+        "congrats"
+      ],
+      "gloss": [
+        "CONGRATULATIONS"
+      ],
+      "asset": "asl_animations/original_words_v1/congratulations.glb",
+      "sha256": "3909d9c95a01fe3902f22b940d2618ee09ec86d94162dca367f75dad8130c88a",
+      "reference": "https://www.lifeprint.com/asl101/pages-signs/c/congratulations.htm",
+      "license": "Existing AppHear motion retained; provenance unresolved. Reference link only, no reference media copied.",
+      "status": "UNREVIEWED_PREVIEW_ALIAS",
+      "technicalPlaybackStatus": "Device evaluation pending",
+      "linguisticValidationStatus": "UNREVIEWED",
+      "usageNotes": "Alternative English input for the existing lexical preview."
+    }
   ]
 }

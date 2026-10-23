@@ -95,9 +95,12 @@ class AslDictionaryExtensions(private val context: Context) {
             val root = JSONObject(context.assets.open(ALIASES_PATH).bufferedReader().use { it.readText() })
             require(root.getInt("schemaVersion") == 1 && root.getString("language") == "ASL")
             val entries = root.getJSONArray("aliases")
-            for (index in 0 until entries.length()) {
+            val extra = if (com.example.apphear.BuildConfig.ASL_WEB_VOCABULARY_ENABLED)
+                root.getJSONArray("webVocabularyAliases") else null
+            val selected = (0 until entries.length()).map(entries::getJSONObject) +
+                (if (extra == null) emptyList() else (0 until extra.length()).map(extra::getJSONObject))
+            for ((index, entry) in selected.withIndex()) {
                 try {
-                    val entry = entries.getJSONObject(index)
                     require(entry.getString("status") == "UNREVIEWED_PREVIEW_ALIAS")
                     val forms = entry.getJSONArray("english")
                     val alias = ExistingAslAlias(entry.getString("signId"), (0 until forms.length()).map { forms.getString(it) },

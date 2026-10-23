@@ -185,8 +185,13 @@ class TextToAslFragment : Fragment(R.layout.fragment_text_to_asl) {
                     )
                 }
                 // Start the viewer and the resident avatar download while the catalog verifies.
-                avatarController?.warmUp(if (BuildConfig.ASL_ALPHABET_FALLBACK_ENABLED) AslFingerspellingBundle.PATH
-                    else AslResidentAvatarBundle.PATH)
+                avatarController?.warmUp(when {
+                    BuildConfig.ASL_VOCABULARY_647_ENABLED -> com.example.apphear.domain.texttoasl.AslVocabulary647.PATH
+                    BuildConfig.ASL_WORD_MOTION_FIXES_ENABLED -> com.example.apphear.domain.texttoasl.AslWordMotionFixes.PATH
+                    BuildConfig.ASL_WEB_VOCABULARY_ENABLED -> com.example.apphear.domain.texttoasl.AslWebVocabularyExpansion.PATH
+                    BuildConfig.ASL_ALPHABET_FALLBACK_ENABLED -> AslFingerspellingBundle.PATH
+                    else -> AslResidentAvatarBundle.PATH
+                })
                 val catalogStartMs = SystemClock.elapsedRealtime()
                 val (catalog, grammar) = withContext(Dispatchers.IO) {
                     AndroidAssetAslCatalogLoader(appContext, choice == AslCharacterChoice.NEW).load() to

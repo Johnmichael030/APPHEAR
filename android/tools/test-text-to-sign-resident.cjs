@@ -44,9 +44,9 @@ async function start(s,url,token,name='hello'){
  for(const [id,f] of [...s.frames]){s.frames.delete(id);f()}
  assert.equal(s.calls.filter(c=>c[0]==='onPilotFinished').length,1,'timeline ends without mixer event');
  s=setup();await flush();
- const bundle=fs.readFileSync('app/src/aslOriginalWords/assets/asl_animations/original_words_v1/fingerspelling-avatar.glb');
+ const bundle=fs.readFileSync(process.argv[3] || 'app/src/aslOriginalWords/assets/asl_animations/original_words_v1/fingerspelling-avatar.glb');
  const gltf=JSON.parse(bundle.subarray(20,20+bundle.readUInt32LE(12)).toString());
- const names=gltf.animations.map(a=>a.name);assert.equal(names.length,258);
+ const names=gltf.animations.map(a=>a.name);assert.equal(names.length,process.argv[4] ? Number(process.argv[4]) : (process.argv[3] ? 458 : 258));
  for(const name of ['SIGN_CALL__TO_CALL_SOMEONE_S_NAME','SIGN_YOU_HUMAN_RETARGETED_PREVIEW','SIGN_YOU_ALL_HUMAN_RETARGETED_PREVIEW']) assert.ok(names.includes(name));
  const first=s.window.playSign('resident.glb',{requestId:10,animationName:'SIGN_HELLO',neutralFrame:0,pinSource:true});await flush();
  v=s.viewers.find(x=>x.src==='resident.glb');let loads=0;const originalLoad=v.load;

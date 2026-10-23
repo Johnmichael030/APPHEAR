@@ -94,6 +94,7 @@ class AndroidAssetAslCatalogLoader(
                     entry.optString("construction", "RETARGETED_PREVIEW"))
             }
             val unified = AslVocabularyExpansion.merge(resident.map { it.copy(assetPath = AslFingerspellingBundle.PATH) }, additions)
+            if (BuildConfig.ASL_WEB_VOCABULARY_ENABLED) return AslWebVocabularyLoader(context).load(unified, alphabet)
             return AslAnimationCatalog.fromAssets(unified, alphabet)
         }
         return AslAnimationCatalog.fromAssets(resident, letters)
