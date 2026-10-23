@@ -5,6 +5,7 @@ This includes 215 entries beyond the previous 432 and 51 additional English alia
 Aliases and arbitrary fingerspelling are not counted as additional lexical entries.
 
 - [Complete numbered word list](../../WORD_LIST.md).
+- [GLB files: direct paths and download instructions](GLB_FILES.md).
 - [Machine-readable vocabulary and provenance](VOCABULARY_647.json).
 - [All English inputs](ENGLISH_INPUTS_764.json).
 - [Latest 647 preview APK](../../apk/AppHear-text-asl-647-preview-20261023.apk).
